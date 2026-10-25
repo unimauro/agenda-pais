@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f1f4f3"/>
+<rect x="640" y="0" width="140" height="630" fill="#e6ebea"/><rect x="920" y="0" width="140" height="630" fill="#e6ebea"/>
+<g stroke-width="12" stroke-linecap="round" fill="none">
+<path d="M560 330H1170" stroke="#0b8a6a"/><path d="M560 420H1170" stroke="#d48a00"/><path d="M560 510H1170" stroke="#3b5bdb"/>
+<path d="M700 330C760 330 760 420 820 420" stroke="#8a97a6" stroke-width="3" stroke-dasharray="6 6"/>
+<path d="M980 420C1040 420 1040 510 1100 510" stroke="#8a97a6" stroke-width="3" stroke-dasharray="6 6"/></g>
+<g stroke="#f1f4f3" stroke-width="4"><circle cx="700" cy="330" r="15" fill="#0b8a6a"/><circle cx="860" cy="330" r="15" fill="#0b8a6a"/><circle cx="1040" cy="330" r="15" fill="#0b8a6a"/>
+<circle cx="640" cy="420" r="15" fill="#d48a00"/><circle cx="820" cy="420" r="15" fill="#d48a00"/><circle cx="1110" cy="420" r="15" fill="#d48a00"/>
+<circle cx="760" cy="510" r="15" fill="#3b5bdb"/><circle cx="930" cy="510" r="15" fill="#3b5bdb"/></g>
+<circle cx="980" cy="420" r="14" fill="#f1f4f3" stroke="#d48a00" stroke-width="7"/><circle cx="1100" cy="510" r="14" fill="#f1f4f3" stroke="#3b5bdb" stroke-width="7"/><circle cx="600" cy="510" r="14" fill="#f1f4f3" stroke="#3b5bdb" stroke-width="7"/>
+<text x="64" y="200" font-family="Archivo, Arial Narrow, sans-serif" font-stretch="condensed" font-size="150" font-weight="800" fill="#1d2b3a" letter-spacing="-3">Agenda País</text>
+<text x="70" y="270" font-family="Archivo, Arial, sans-serif" font-size="54" fill="#44546a">2026–2056</text>
+<text x="70" y="360" font-family="Georgia, serif" font-size="30" fill="#1d2b3a">Treinta años, sector por sector.</text>
+<text x="70" y="404" font-family="Georgia, serif" font-size="30" fill="#1d2b3a">__N__ acciones: qué construir</text>
+<text x="70" y="448" font-family="Georgia, serif" font-size="30" fill="#1d2b3a">y qué ley sí hace falta.</text>
+<text x="70" y="580" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#44546a">unimauro.github.io/agenda-pais</text>
+</svg>

@@ -1,0 +1,1693 @@
+{
+ "id": "educacion",
+ "nombre": "Educación",
+ "lema": "Que cada niña y niño lea, calcule y elija su futuro",
+ "diagnostico": {
+  "resumen": "El Perú logró casi universalizar el acceso: según el INEI (Informe técnico de niñez y adolescencia), en 2024 el 92,6 % de niñas y niños de 3 a 5 años asistía a educación inicial, y según datos de ESCALE citados por GRADE, la conclusión oportuna de secundaria subió de 43,2 % en 2001 a 81,3 % en 2023. El problema es lo que se aprende. En la Evaluación Nacional de Logros de Aprendizaje (ENLA) 2024 del Minedu, solo el 32,8 % de estudiantes de 4.º de primaria alcanzó el nivel satisfactorio en lectura y alrededor del 29,5 % en matemática; en 2.º de secundaria, la ENLA 2023 registró 26,2 % satisfactorio en lectura. En PISA 2022 (OCDE) el Perú obtuvo 391 puntos en matemática y 408 en lectura y en ciencias, por debajo del promedio OCDE, y solo 34 % de estudiantes llegó al nivel básico de matemática (OCDE: 69 %); la nota país de PISA 2025 reporta resultados menores que en 2022 en matemática y lectura. Las escuelas siguen precarias: el Censo Educativo 2022 (EduDatos 46) muestra que solo 40 % de los locales tiene los tres servicios básicos por red pública, y la brecha de infraestructura se estima en unos S/ 172 000 millones según la evaluación del Plan Nacional de Infraestructura Educativa reportada por El Comercio. El gasto público en educación fue 3,8 % del PBI en 2019 (Banco Mundial, vía ComexPerú), menos que los pares de la región. En la carrera docente, solo 20,5 % de quienes rindieron la prueba de nombramiento 2024 aprobó ambas etapas. Hay avances que se pueden escalar —Jornada Escolar Completa, acompañamiento pedagógico, Cuna Más— con efectos medidos en evaluaciones rigurosas.",
+  "indicadores": [
+   {
+    "nombre": "Estudiantes de 4.º de primaria con nivel satisfactorio en lectura (ENLA)",
+    "valor": "32,8",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "Minedu, ENLA 2024 (reportado por La República y El Peruano)",
+    "url": "https://larepublica.pe/sociedad/2025/04/14/minedu-revela-que-solo-3-de-cada-10-escolares-de-cuarto-de-primaria-entiende-lo-que-lee-brecha-se-intensifica-en-regiones-amazonicas-746998"
+   },
+   {
+    "nombre": "Estudiantes de 4.º de primaria con nivel satisfactorio en matemática (ENLA)",
+    "valor": "29,5 (por verificar en informe oficial UMC)",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "Minedu, ENLA 2024, citado por L. Trahtemberg en Lampadia",
+    "url": "https://lampadia.com/?p=68506"
+   },
+   {
+    "nombre": "Estudiantes de 2.º de secundaria con nivel satisfactorio en lectura (ENLA)",
+    "valor": "26,2",
+    "unidad": "%",
+    "anio": 2023,
+    "fuente": "Minedu-UMC, ENLA 2023",
+    "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10420"
+   },
+   {
+    "nombre": "Puntaje PISA en matemática (lectura y ciencias: 408)",
+    "valor": "391",
+    "unidad": "puntos",
+    "anio": 2022,
+    "fuente": "OCDE, PISA 2022 Country Note Perú",
+    "url": "https://www.oecd.org/en/publications/2023/11/pisa-2022-results-volume-i-and-ii-country-notes_2fca04b9/peru_21d86e8b.html"
+   },
+   {
+    "nombre": "Tasa de asistencia a educación inicial, 3 a 5 años",
+    "valor": "92,6",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "INEI, ENAHO – Informe técnico Niñez y Adolescencia",
+    "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-tecnico_ninez-y-adolescencia.pdf"
+   },
+   {
+    "nombre": "Locales escolares con agua, desagüe y electricidad por red pública",
+    "valor": "40",
+    "unidad": "%",
+    "anio": 2022,
+    "fuente": "Minedu, Censo Educativo 2022 – EduDatos 46",
+    "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2046-servicios%20basicos.pdf"
+   },
+   {
+    "nombre": "Tasa de conclusión oportuna de secundaria",
+    "valor": "81,3",
+    "unidad": "%",
+    "anio": 2023,
+    "fuente": "Minedu ESCALE, citado por GRADE (Análisis & Propuestas 73)",
+    "url": "https://grade.org.pe/wp-content/uploads/GRADEAP73.pdf"
+   },
+   {
+    "nombre": "Gasto público en educación",
+    "valor": "3,8",
+    "unidad": "% del PBI",
+    "anio": 2019,
+    "fuente": "Banco Mundial (WDI), citado por ComexPerú",
+    "url": "https://www.comexperu.org.pe/upload/articles/reportes/reporte-gobiernos-001.pdf"
+   },
+   {
+    "nombre": "Tasa de analfabetismo, población de 15 años y más, área rural",
+    "valor": "11,6 (urbana: 3,2)",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "INEI, reportado por El Peruano",
+    "url": "https://elperuano.pe/noticia/304335-peru-reduce-el-analfabetismo-pero-persisten-brechas-educativas-y-digitales"
+   },
+   {
+    "nombre": "Postulantes que aprobaron ambas etapas del concurso de nombramiento docente",
+    "valor": "20,5 (45 780 de ~223 000)",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "Minedu, resultados del concurso de nombramiento 2024 (reportado por Expreso)",
+    "url": "https://www.expreso.com.pe/actualidad/minedu-link-de-resultados-finales-de-nombramiento-docente-2024-y-preliminares-de-acceso-a-cargos-directivos-2023-carrera-publica-magisterial-ministerio-de-educacion-noticia/1059650/"
+   }
+  ],
+  "brechas": "Territorio: en la ENLA 2024 de 4.º de primaria, Loreto tuvo 12,8 % satisfactorio en lectura y 6,3 % en matemática, frente a 32,8 % nacional en lectura (La República, con datos del Minedu). Área: el analfabetismo de 15 años y más es 11,6 % en zonas rurales y 3,2 % en urbanas (INEI 2024); la anemia en niñas y niños de 6 a 35 meses —que afecta el desarrollo cognitivo— es 44,7 % rural y 31,2 % urbana (INEI, ENDES 2024, criterio OMS 2024). Lengua: según un documento del BID con datos del Minedu, al 2021 casi el 54 % de las instituciones de Educación Intercultural Bilingüe (EIB) no tenía docentes que hablaran la lengua de sus estudiantes. Servicios: en el Censo Educativo 2025, solo 48,2 % de los locales públicos estaba conectado a la red pública de agua y 36,9 % a la de desagüe (El Búho, con datos del Minedu). Conectividad: entre 2021 y 2024 el porcentaje de escuelas públicas primarias con internet habría caído de 51,8 % a 37,4 % (columna de S. Marcone en Perú21, por verificar en ESCALE). Sexo: el censo 2025 reporta alfabetismo de 97,2 % en hombres y 92,6 % en mujeres (El Peruano). Discapacidad: el Minedu reportó más de 80 000 estudiantes con discapacidad matriculados en educación básica, la mayoría en escuelas regulares sin servicios de apoyo suficientes (Andina).",
+  "causas": [
+   "Docencia poco selectiva y con formación inicial débil: solo 20,5 % de postulantes aprobó el concurso de nombramiento 2024 (Minedu, vía Expreso), y la formación en servicio tradicional rinde poco frente al acompañamiento en aula (Castro, Glewwe, Heredia-Mayo, Majerowicz y Montero, Quantitative Economics 2025).",
+   "Tiempo y método de enseñanza insuficientes en los primeros grados: ampliar horas con pedagogía estructurada eleva aprendizajes (evaluación de la Jornada Escolar Completa, Agüero, Minedu 2016: +0,14 a 0,23 desviaciones estándar en matemática) y el panel GEEAP del Banco Mundial (2023) califica la pedagogía estructurada y la enseñanza según nivel entre las intervenciones más costo-efectivas.",
+   "Inversión en infraestructura que no alcanza a la brecha: el Plan Nacional de Infraestructura Educativa al 2025 no logró reducirla y la ejecución no sostuvo el ritmo necesario (evaluación del PNIE, Minedu; El Comercio).",
+   "Gasto por estudiante bajo y asignado por historia, no por necesidad: el Perú gasta menos del PBI en educación que sus pares regionales (ComexPerú con datos del Banco Mundial), y las transferencias a regiones no compensan ruralidad, lengua ni discapacidad.",
+   "Desnutrición y anemia en la primera infancia: 35,3 % de niñas y niños de 6 a 35 meses con anemia (INEI, ENDES 2024), condición asociada a menor desarrollo cognitivo antes de entrar a la escuela.",
+   "Gestión escolar y territorial débil: directores con poca autonomía y UGEL con roles administrativos más que pedagógicos; programas de compra de equipos sin modelo pedagógico no mejoraron aprendizajes (evaluación de Una Laptop por Niño, Cristia et al., BID/IZA)."
+  ]
+ },
+ "vision_2056": "En 2056 toda niña y niño peruano, en cualquier lengua y territorio, termina la secundaria leyendo, razonando y usando la tecnología con criterio, en un local seguro, conectado y con agua, guiado por docentes elegidos por mérito y bien pagados; y cualquier adulto puede volver a estudiar y certificar lo que sabe en un instituto o universidad de calidad.",
+ "metas": [
+  {
+   "indicador": "Estudiantes de 4.º de primaria con nivel satisfactorio en lectura (ENLA)",
+   "linea_base": "32,8 % (2024)",
+   "2031": "45 %",
+   "2036": "55 %",
+   "2046": "70 %",
+   "2056": "80 %",
+   "referencia": "Proyecto Educativo Nacional al 2036 (aprendizajes para todos); en la OCDE ~74 % de estudiantes de 15 años alcanza el nivel básico de lectura en PISA 2022 (OCDE)",
+   "fuente_linea_base": "Minedu, ENLA 2024"
+  },
+  {
+   "indicador": "Estudiantes de 4.º de primaria con nivel satisfactorio en matemática (ENLA)",
+   "linea_base": "29,5 % (2024, por verificar en informe UMC)",
+   "2031": "40 %",
+   "2036": "50 %",
+   "2046": "65 %",
+   "2056": "75 %",
+   "referencia": "ODS 4.1.1 (proporción con nivel mínimo de competencia en matemática); promedio OCDE de nivel básico en PISA matemática: 69 % (OCDE 2022)",
+   "fuente_linea_base": "Minedu, ENLA 2024, citado en Lampadia"
+  },
+  {
+   "indicador": "Puntaje PISA en matemática (estudiantes de 15 años)",
+   "linea_base": "391 (2022)",
+   "2031": "405",
+   "2036": "420",
+   "2046": "445",
+   "2056": "470",
+   "referencia": "Promedio OCDE 2022: 472 puntos (OCDE, PISA 2022)",
+   "fuente_linea_base": "OCDE, PISA 2022 Country Note Perú"
+  },
+  {
+   "indicador": "Locales escolares públicos con agua, desagüe y electricidad por red pública (o solución técnica equivalente certificada)",
+   "linea_base": "40 % (2022)",
+   "2031": "60 %",
+   "2036": "75 %",
+   "2046": "95 %",
+   "2056": "100 %",
+   "referencia": "ODS 4.a.1 (escuelas con servicios básicos)",
+   "fuente_linea_base": "Minedu, Censo Educativo 2022 – EduDatos 46"
+  },
+  {
+   "indicador": "Tasa de conclusión oportuna de secundaria",
+   "linea_base": "81,3 % (2023)",
+   "2031": "86 %",
+   "2036": "90 %",
+   "2046": "95 %",
+   "2056": "97 %",
+   "referencia": "ODS 4.1.2 (tasa de finalización); Chile supera el 90 % de conclusión secundaria (UNESCO UIS, por verificar)",
+   "fuente_linea_base": "Minedu ESCALE, citado por GRADE"
+  },
+  {
+   "indicador": "Gasto público en educación como % del PBI",
+   "linea_base": "3,8 % (2019)",
+   "2031": "4,5 %",
+   "2036": "5,0 %",
+   "2046": "6,0 %",
+   "2056": "6,0 %",
+   "referencia": "Acuerdo Nacional, 12.ª política de Estado (incremento anual de 0,25 % del PBI hasta llegar a 6 %)",
+   "fuente_linea_base": "Banco Mundial (WDI), vía ComexPerú"
+  },
+  {
+   "indicador": "Instituciones EIB con al menos un docente que domina la lengua originaria de sus estudiantes",
+   "linea_base": "~46 % (2021)",
+   "2031": "65 %",
+   "2036": "80 %",
+   "2046": "95 %",
+   "2056": "100 %",
+   "referencia": "Política Sectorial de EIB (DS 006-2016-MINEDU) y Ley 29735 de lenguas originarias",
+   "fuente_linea_base": "BID, documento PE-T1544 con datos Minedu 2016 y 2021"
+  },
+  {
+   "indicador": "Anemia en niñas y niños de 6 a 35 meses (meta compartida con Salud)",
+   "linea_base": "35,3 % (2024, criterio OMS 2024)",
+   "2031": "27 %",
+   "2036": "20 %",
+   "2046": "12 %",
+   "2056": "8 %",
+   "referencia": "Meta Mundial de Nutrición de la OMS (reducir 50 % la anemia); indicativa",
+   "fuente_linea_base": "INEI, ENDES 2024"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "EDU-01",
+   "titulo": "Universalizar el acompañamiento familiar de Cuna Más en distritos rurales con alta anemia",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El Programa Nacional Cuna Más existe (DS 003-2012-MIDIS); su expansión se decide en el presupuesto del MIDIS y en la programación del PP de desarrollo infantil temprano.",
+   "etapa": "2026-2031",
+   "que": "Ampliar el Servicio de Acompañamiento a Familias (visitas semanales al hogar para niñas y niños de 0 a 36 meses y gestantes) hasta cubrir todos los centros poblados rurales de distritos de quintiles 1 y 2 con anemia superior al promedio nacional. Las facilitadoras se coordinan con el establecimiento de salud: cada visita registra controles CRED, suplementación de hierro y vacunas en un padrón nominal compartido con el MINSA, y alerta a la posta cuando un niño falta. Se prioriza la contratación de facilitadoras que hablen la lengua local.",
+   "evidencia": "La evaluación experimental del Servicio de Acompañamiento a Familias encontró efectos de 0,094 y 0,122 desviaciones estándar en desarrollo cognitivo y de comunicación (MEF, evaluación independiente de Cuna Más). La literatura de estimulación temprana (p. ej. Jamaica) muestra efectos de largo plazo en escolaridad e ingresos.",
+   "entrega": "Acompañamiento familiar en 100 % de centros poblados rurales de distritos Q1–Q2 con anemia sobre el promedio, con padrón nominal integrado salud-MIDIS",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "Gobiernos locales",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto del pliego MIDIS (programa presupuestal orientado a resultados de desarrollo infantil temprano) y Fondo de Estímulo al Desempeño (FED) con gobiernos regionales",
+   "costo_referencial": "no estimado",
+   "indicador": "% de niñas y niños de 0–36 meses de centros poblados rurales priorizados con al menos 3 visitas al mes; resultado: desarrollo infantil (EDI) y anemia",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-06",
+    "SAL-01",
+    "SAL-17",
+    "SAL-24"
+   ],
+   "riesgo": "Rotación y baja remuneración de facilitadoras voluntarias que diluyen la calidad al escalar; padrones que no se comparten entre sectores.",
+   "fuentes": [
+    {
+     "titulo": "MEF – Evaluación de impacto de Cuna Más (informe de resultados)",
+     "url": "https://www.mef.gob.pe/contenidos/presu_publ/ppr/eval_indep/informe_resultados_cuna_mas.pdf"
+    },
+    {
+     "titulo": "INEI – Indicadores de resultados de los programas presupuestales ENDES 2024",
+     "url": "https://proyectos.inei.gob.pe/endes/2024/ppr2/indicadores_de_resultados_de_los_programas_presupuestales_endes_2024.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-02",
+   "titulo": "Convertir PRONOEI y ampliar inicial de calidad para niñas y niños de 3 a 5 años",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Ley 28044 ya establece la educación inicial como parte de la educación básica obligatoria; la creación de servicios se hace por resolución de la DRE/UGEL y la infraestructura por Invierte.pe.",
+   "etapa": "2026-2031",
+   "que": "Pasar de la asistencia casi universal (92,6 %) a la calidad: transformar progresivamente los Programas No Escolarizados de Educación Inicial (PRONOEI) en zonas con demanda suficiente en instituciones de inicial con docente titulado, aulas adecuadas y materiales; donde la dispersión no lo permita, mantener PRONOEI con promotoras certificadas y supervisión de docente coordinadora. Se prioriza Amazonía, sierra rural y periferias urbanas, con aulas que incluyan agua y servicios higiénicos adecuados a la edad.",
+   "evidencia": "El GEEAP 2023 del Banco Mundial incluye la educación preescolar de calidad entre las inversiones costo-efectivas para mejorar aprendizajes posteriores. En el Perú la asistencia a inicial 3–5 años alcanzó 92,6 % en 2024 (INEI), por lo que el cuello de botella es la calidad del servicio, no el acceso.",
+   "entrega": "Aulas de inicial con docente titulado reemplazando PRONOEI en centros poblados con 15 o más niñas y niños de 3 a 5 años; resto con promotoras certificadas",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PRONIED",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Programa presupuestal 0090 (logros de aprendizaje), Invierte.pe, Obras por Impuestos",
+   "costo_referencial": "no estimado",
+   "indicador": "% de matrícula de 3–5 años atendida por docente titulado; resultados de evaluación de desarrollo infantil al ingreso a primaria",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-01",
+    "EDU-09"
+   ],
+   "riesgo": "Crear aulas sin plazas docentes financiadas; conversión que cierre PRONOEI en zonas donde no llega la escuela.",
+   "fuentes": [
+    {
+     "titulo": "INEI – Informe técnico Niñez y Adolescencia",
+     "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-tecnico_ninez-y-adolescencia.pdf"
+    },
+    {
+     "titulo": "Banco Mundial – GEEAP 2023: Smart Buys para mejorar aprendizajes",
+     "url": "https://www.worldbank.org/en/topic/teachingandlearning/publication/cost-effective-approaches-to-improve-global-learning"
+    }
+   ]
+  },
+  {
+   "id": "EDU-03",
+   "titulo": "Aplicar pedagogía estructurada de lectura y matemática de 1.º a 4.º de primaria",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El currículo, los materiales y las orientaciones pedagógicas los aprueba el Minedu por resolución ministerial o viceministerial; se financia en el PP 0090.",
+   "etapa": "2026-2031",
+   "que": "Un programa nacional para que todo estudiante lea con comprensión y domine operaciones básicas al terminar 3.º de primaria: guías diarias de clase para el docente, cuadernos de trabajo alineados, libros de lectura graduada en castellano y lenguas originarias, evaluaciones formativas cortas cada bimestre y un tablero por aula. Se empieza por las 10 regiones con peor desempeño en ENLA y se escala en cinco años. El docente conserva libertad para adaptar, pero recibe un guion probado.",
+   "evidencia": "El GEEAP 2023 (Banco Mundial, UNICEF, FCDO) califica la pedagogía estructurada con materiales y formación docente como \"Good Buy\". El Programa de Alfabetización en la Edad Correcta (PAIC) de Ceará, Brasil, se asoció a mayores logros y equidad en lectura (Carnoy y Costa, Stanford Lemann Center).",
+   "entrega": "Guías docentes, cuadernos y lecturas graduadas para el 100 % de aulas de 1.º a 4.º de primaria públicas, con evaluación formativa bimestral",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Programa presupuestal 0090 (logros de aprendizaje de la educación básica regular)",
+   "costo_referencial": "no estimado",
+   "indicador": "% de estudiantes de 2.º y 4.º de primaria con nivel satisfactorio en lectura y matemática (ENLA)",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-05",
+    "EDU-24"
+   ],
+   "riesgo": "Que se vuelva un programa más de materiales que llegan tarde o no se usan; cambios de gestión que reinician el programa cada dos años.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial – GEEAP 2023: Smart Buys para mejorar aprendizajes",
+     "url": "https://www.worldbank.org/en/topic/teachingandlearning/publication/cost-effective-approaches-to-improve-global-learning"
+    },
+    {
+     "titulo": "Carnoy y Costa – The effectiveness of an early-grade literacy intervention (Ceará)",
+     "url": "https://lemanncenter.stanford.edu/paper/effectiveness-early-grade-literacy-intervention-cognitive-achievement-brazilian-students"
+    },
+    {
+     "titulo": "Minedu – ENLA 2023: resumen ejecutivo",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10420"
+    }
+   ]
+  },
+  {
+   "id": "EDU-04",
+   "titulo": "Recuperar aprendizajes con enseñanza según nivel y tutorías en horario ampliado",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se implementa con normas técnicas del Minedu y contratos de tutores (CAS o servicio) dentro del presupuesto del sector.",
+   "etapa": "2026-2031",
+   "que": "Para estudiantes de 3.º a 6.º de primaria y 1.º y 2.º de secundaria que la evaluación diagnóstica ubique por debajo de su grado, organizar 6 a 8 horas semanales de reforzamiento agrupados por nivel de logro (no por grado), con tutores formados (docentes, estudiantes de pedagogía de últimos ciclos, voluntarios certificados). Funciona dentro o fuera del horario escolar, con material específico de lectura y aritmética, hasta que el estudiante alcance el nivel esperado.",
+   "evidencia": "Enseñar según el nivel (Teaching at the Right Level, Pratham/J-PAL) fue calificado \"Great Buy\" por el GEEAP 2023 por su efecto y costo; en Perú, la Jornada Escolar Completa mostró que más tiempo de instrucción bien usado eleva el aprendizaje en matemática (Agüero, Minedu 2016).",
+   "entrega": "Programa de reforzamiento por nivel en las escuelas con mayor rezago según ENLA, con meta de 1 millón de estudiantes atendidos por año",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Universidades y EESP",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "PP 0090; cooperación internacional para la fase de escalamiento",
+   "costo_referencial": "no estimado",
+   "indicador": "% de estudiantes atendidos que pasan al nivel esperado en la evaluación de salida; cambio en ENLA de las escuelas atendidas",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-03",
+    "EDU-24"
+   ],
+   "riesgo": "Tutores sin formación ni supervisión; agrupar por nivel puede estigmatizar si no se hace temporal y flexible.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial – GEEAP 2023: Smart Buys para mejorar aprendizajes",
+     "url": "https://www.worldbank.org/en/topic/teachingandlearning/publication/cost-effective-approaches-to-improve-global-learning"
+    },
+    {
+     "titulo": "Minedu – Evaluación de impacto de la Jornada Escolar Completa (Agüero, 2016)",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/5443"
+    }
+   ]
+  },
+  {
+   "id": "EDU-05",
+   "titulo": "Escalar el acompañamiento pedagógico en aula a docentes rurales y multigrado",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El acompañamiento pedagógico es una intervención del PP 0090; se norma por resolución viceministerial del Minedu.",
+   "etapa": "2026-2031",
+   "que": "Cada docente de escuela rural unidocente o multigrado recibe un acompañante (docente experimentado) que observa su clase, da retroalimentación concreta y modela estrategias al menos dos veces al mes durante tres años, más talleres en redes de escuelas cercanas. Los acompañantes se seleccionan por concurso, se forman en una ruta certificada y tienen carga máxima de docentes. Se combina con apoyo remoto donde la distancia lo exige.",
+   "evidencia": "La evaluación aleatoria del acompañamiento a 3797 escuelas rurales peruanas encontró mejora de 0,20 desviaciones estándar en las prácticas pedagógicas y efectos en matemática y lectura de 2.º grado, mayores para docentes acompañados los tres años (Castro, Glewwe, Heredia-Mayo, Majerowicz y Montero, Quantitative Economics 2025).",
+   "entrega": "Acompañamiento continuo para 100 % de docentes de escuelas rurales multigrado y unidocentes",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "PP 0090 (intervención de acompañamiento pedagógico)",
+   "costo_referencial": "no estimado",
+   "indicador": "Puntaje en rúbricas de desempeño docente en aula; ENLA en escuelas acompañadas vs. no acompañadas",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-06"
+   ],
+   "riesgo": "Alta rotación docente en zonas rurales que hace perder la inversión; acompañantes que se vuelven supervisores administrativos.",
+   "fuentes": [
+    {
+     "titulo": "Castro et al. (2025) Can teaching be taught? Improving teachers' pedagogical skills at scale in rural Peru, Quantitative Economics",
+     "url": "https://intouch.econometricsociety.org/publications/quantitative-economics/2025/01/01/Can-teaching-be-taught-Improving-teachers-pedagogical-skills-at-scale-in-rural-Peru"
+    },
+    {
+     "titulo": "Banco Mundial – Coach Spotlight: Acompañamiento Pedagógico Multigrado",
+     "url": "https://documents1.worldbank.org/curated/en/452471631293572051/pdf/Coach-Spotlight-Acompanamiento-Pedagogico-Multigrado-APM-Spotlight.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-06",
+   "titulo": "Elevar la formación inicial docente con escuelas pedagógicas licenciadas y becas de vocación",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El licenciamiento de Escuelas de Educación Superior Pedagógica ya está en la Ley 30512 y su reglamento; los cambios en requisitos de egreso o la fusión de escuelas públicas que exijan modificar la ley necesitan norma con rango de ley de iniciativa del Ejecutivo.",
+   "etapa": "2026-2031",
+   "que": "Concentrar la formación de docentes en escuelas pedagógicas y facultades de educación licenciadas, con práctica en aula desde el primer año en escuelas asociadas. Fusionar escuelas públicas pequeñas en sedes regionales mejor equipadas. Ofrecer becas completas (PRONABEC) a los mejores egresados de secundaria que elijan docencia, con compromiso de servir en zonas rurales o EIB. Los planes incluyen lectura inicial, matemática, EIB, educación inclusiva y competencias digitales.",
+   "evidencia": "Los sistemas de alto desempeño seleccionan a sus docentes entre los mejores egresados de secundaria y forman en práctica (OCDE, Teachers Matter / informes TALIS). En el Perú, solo 20,5 % de postulantes aprobó el concurso de nombramiento 2024, indicio de una formación inicial débil (Minedu, vía Expreso).",
+   "entrega": "Red de escuelas pedagógicas públicas licenciadas en todas las regiones y becas anuales de vocación docente con servicio rural",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRONABEC",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "Gobiernos regionales",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNEDU",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU y PRONABEC",
+   "costo_referencial": "no estimado",
+   "indicador": "% de egresados de formación inicial que aprueban la prueba nacional del concurso de nombramiento",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-07"
+   ],
+   "riesgo": "Resistencia local al cierre o fusión de escuelas pedagógicas; becarios que no cumplen el servicio rural.",
+   "fuentes": [
+    {
+     "titulo": "Expreso – Resultados finales de Nombramiento Docente 2024",
+     "url": "https://www.expreso.com.pe/actualidad/minedu-link-de-resultados-finales-de-nombramiento-docente-2024-y-preliminares-de-acceso-a-cargos-directivos-2023-carrera-publica-magisterial-ministerio-de-educacion-noticia/1059650/"
+    },
+    {
+     "titulo": "LP Derecho – Reglamento de la Ley 30512",
+     "url": "https://lpderecho.pe/reglamento-ley-30512-institutos-escuelas-educacion-superior-carrera-publica-docentes/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-07",
+   "titulo": "Sostener concursos meritocráticos anuales de ingreso, ascenso y desempeño docente",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 29944 de Reforma Magisterial ya regula ingreso, ascenso y evaluación del desempeño; basta un calendario multianual fijado por decreto supremo y el financiamiento del MEF.",
+   "etapa": "2026-2031",
+   "que": "Publicar un calendario multianual fijo de concursos de nombramiento, ascenso de escala, acceso a cargos directivos y evaluación de desempeño, con pruebas estandarizadas e instrumentos de observación en aula. Los docentes que no alcancen el nivel reciben formación focalizada y nueva oportunidad antes de cualquier consecuencia. Toda plaza vacante se cubre por concurso; se evita el nombramiento sin evaluación.",
+   "evidencia": "La meritocracia de la Ley 29944 elevó la selectividad: en 2024 solo 45 780 de ~223 000 postulantes aprobaron ambas etapas (Minedu, vía Expreso). La evidencia internacional asocia sistemas de selección exigente con mejores resultados (OCDE).",
+   "entrega": "Calendario quinquenal de concursos publicado y cumplido; 100 % de plazas vacantes cubiertas por concurso",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "Gobiernos regionales (UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SERVIR",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU (evaluaciones) y MEF (incrementos remunerativos por ascenso)",
+   "costo_referencial": "no estimado",
+   "indicador": "% de docentes nombrados por concurso; % de plazas contratadas sin concurso",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-08"
+   ],
+   "riesgo": "Iniciativas para nombrar o ascender docentes sin evaluación que debilitan la carrera; conflicto gremial.",
+   "fuentes": [
+    {
+     "titulo": "Expreso – Resultados finales de Nombramiento Docente 2024",
+     "url": "https://www.expreso.com.pe/actualidad/minedu-link-de-resultados-finales-de-nombramiento-docente-2024-y-preliminares-de-acceso-a-cargos-directivos-2023-carrera-publica-magisterial-ministerio-de-educacion-noticia/1059650/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-08",
+   "titulo": "Atar el salario docente a la carrera y pagar más por servir en zonas rurales y EIB",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 29944 prevé la remuneración íntegra mensual por escala y asignaciones por ubicación; los montos se fijan por decreto supremo refrendado por el MEF. El Congreso no puede crear este gasto por iniciativa propia (art. 79 de la Constitución).",
+   "etapa": "2026-2031",
+   "que": "Una senda salarial plurianual que aumente la remuneración de entrada y el diferencial entre escalas, de modo que la docencia compita con otras profesiones. Las asignaciones por zona rural, frontera, multigrado y dominio certificado de lengua originaria se elevan para que una plaza rural sea atractiva. El aumento se condiciona a la permanencia mínima en la plaza y a la participación en la evaluación de desempeño.",
+   "evidencia": "La remuneración y las condiciones de la plaza influyen en quién elige la docencia y en la permanencia en zonas rurales; el Minedu ya otorga bonificación en concursos a docentes del Registro Nacional de Docentes Bilingües (Andina). El tamaño de incentivo que logra cubrir plazas rurales en el Perú está por estimar con datos de vacancia de las UGEL.",
+   "entrega": "Escala remunerativa docente revisada por DS cada cinco años y asignación rural/EIB diferenciada",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "Recursos ordinarios; requiere espacio fiscal dentro de la meta de gasto educativo (ver EDU-16)",
+   "costo_referencial": "no estimado",
+   "indicador": "Remuneración de entrada docente vs. promedio de profesionales (ENAHO); % de plazas rurales vacantes al inicio del año escolar",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-07",
+    "EDU-16"
+   ],
+   "riesgo": "Aumentos generales sin vínculo con carrera ni permanencia; presión fiscal que se recorte en crisis.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Minedu reafirma compromiso con la Educación Intercultural Bilingüe",
+     "url": "https://andina.pe/ingles/noticia-minedu-reafirma-compromiso-con-educacion-intercultural-bilingüe-916229.aspx"
+    }
+   ]
+  },
+  {
+   "id": "EDU-09",
+   "titulo": "Reponer por portafolio los locales escolares en riesgo de colapso",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con Invierte.pe, el Plan Nacional de Infraestructura Educativa, Obras por Impuestos y proyectos especiales (como Escuelas Bicentenario, bajo acuerdo Gobierno a Gobierno); no requiere ley nueva.",
+   "etapa": "2026-2031",
+   "que": "Un nuevo Plan Nacional de Infraestructura Educativa 2026–2036 que agrupe los locales en riesgo en paquetes regionales con diseños estandarizados y modulares (por clima y zona sísmica), contratados como portafolio y no obra por obra. Prioriza locales con estructura vulnerable donde estudian más alumnos y zonas de alto riesgo sísmico o de inundación. Cada paquete incluye equipamiento, mobiliario y plan de mantenimiento de 20 años. Se publican avances en un tablero abierto por local.",
+   "evidencia": "La evaluación del PNIE al 2025 concluyó que la brecha no se redujo porque la ejecución no sostuvo el ritmo (Minedu; El Comercio estima la brecha en S/ 172 000 millones). El proyecto Escuelas Bicentenario, que contrata en paquetes con asistencia técnica especializada, amplió su cartera a 92 colegios (Andina); su costo por local debe evaluarse antes de replicarlo.",
+   "entrega": "Locales escolares reemplazados o reforzados en paquetes regionales, con meta inicial de cerrar el 30 % de los locales en riesgo al 2031",
+   "responsable": "PRONIED",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRONIED",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Gobiernos regionales",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "CGR",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Invierte.pe (recursos ordinarios), Obras por Impuestos, canon y endeudamiento externo para paquetes Gobierno a Gobierno",
+   "costo_referencial": "La brecha total se estima en ~S/ 172 000 millones (evaluación del PNIE reportada por El Comercio); el costo del tramo 2026–2031 no está estimado",
+   "indicador": "N.º de locales en riesgo atendidos; % de estudiantes que estudian en locales con estructura segura",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-12"
+   ],
+   "riesgo": "Obras paralizadas por expedientes débiles y corrupción; costos por local muy altos que limitan la escala.",
+   "fuentes": [
+    {
+     "titulo": "Minedu – Resultados de la evaluación del Plan Nacional de Infraestructura Educativa al 2025 (informe final)",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12501"
+    },
+    {
+     "titulo": "El Comercio – Más de un millón de escolares retornarán a colegios en riesgo de colapsar",
+     "url": "https://elcomercio.pe/economia/mas-de-un-millon-de-escolares-retornaran-a-colegios-en-riesgo-de-colapsar-noticia/"
+    },
+    {
+     "titulo": "Andina – Escuelas Bicentenario sumarán 92 colegios",
+     "url": "https://andina.pe/agencia/noticia-escuelas-bicentenario-sumaran-92-beneficiando-a-mas-600-mil-estudiantes-todo-pais-1041789.aspx"
+    }
+   ]
+  },
+  {
+   "id": "EDU-10",
+   "titulo": "Dotar de agua, saneamiento y electricidad confiable a todos los locales escolares",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Son inversiones ejecutables por Invierte.pe y por las empresas y programas de electrificación rural existentes; la priorización legal del suministro eléctrico escolar se propone en CON-15 de Agenda Tech.",
+   "etapa": "2026-2031",
+   "que": "Un programa de servicios básicos escolares que conecte cada local a la red pública cuando esté cerca, y donde no, instale soluciones técnicas certificadas: captación y potabilización de agua, baños ecológicos, paneles solares con baterías. Se coordina con los proyectos de agua del MVCS y la electrificación rural del MINEM para que la escuela sea punto de llegada. Cada solución tiene operador y presupuesto de mantenimiento asignado.",
+   "evidencia": "El Censo Educativo 2022 mostró que solo 40 % de los locales tenía los tres servicios por red pública (EduDatos 46); el Censo 2025 reporta 48,2 % conectado a red de agua y 36,9 % a desagüe (El Búho con datos Minedu). Contar con agua y saneamiento en la escuela se asocia con mayor asistencia, en especial de niñas (Banco Mundial, nota técnica WASH en escuelas).",
+   "entrega": "Agua segura, saneamiento y electricidad (red o solución certificada) en 75 % de locales al 2036 y 100 % al 2056",
+   "responsable": "PRONIED",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRONIED",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MVCS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Gobiernos locales",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Invierte.pe, Fondo de electrificación rural, Obras por Impuestos, canon",
+   "costo_referencial": "no estimado",
+   "indicador": "% de locales escolares con los tres servicios (red pública o solución técnica certificada y operativa)",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "CON-15",
+    "EDU-12"
+   ],
+   "riesgo": "Instalaciones que dejan de funcionar al año por falta de mantenimiento u operador.",
+   "fuentes": [
+    {
+     "titulo": "Minedu ESCALE – EduDatos 46: servicios básicos en locales escolares",
+     "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2046-servicios%20basicos.pdf"
+    },
+    {
+     "titulo": "El Búho – Censo Educativo 2025: conexión de colegios a red pública",
+     "url": "https://elbuho.pe/?p=429828"
+    },
+    {
+     "titulo": "Banco Mundial – Nota técnica WASH en escuelas",
+     "url": "https://gpss.worldbank.org/sites/default/files/knowledge_products/2019/4.%20Nota%20T%C3%A9cnica%201%20WASH%20identificar%20necesidades%20escuelas_0.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-11",
+   "titulo": "Conectar todas las escuelas públicas con internet de calidad y soporte técnico",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La conexión se contrata con PRONATEL, las redes regionales y operadores; la ley que formaliza el uso de la Red Nacional del Estado para escuelas es la propuesta CON-13 de Agenda Tech, pero la acción puede iniciar sin ella.",
+   "etapa": "2026-2031",
+   "que": "Contratar conectividad por resultados (velocidad mínima medida por estudiante, disponibilidad garantizada) para cada escuela pública, priorizando secundarias y escuelas rurales que ya tienen electricidad. El contrato incluye red interna en aulas, filtro de contenidos y un técnico itinerante por red de escuelas. Un tablero público muestra la velocidad medida de cada escuela.",
+   "evidencia": "El acceso a internet escolar creció hasta 2019 y se frenó con la pandemia (EduDatos 45); datos citados en Perú21 indican caída entre 2021 y 2024 en primaria (por verificar). La conectividad por sí sola no mejora aprendizajes si no hay uso pedagógico (GEEAP 2023), por eso va junto a EDU-23.",
+   "entrega": "100 % de secundarias públicas y 80 % de primarias conectadas con velocidad medida al 2031",
+   "responsable": "MTC",
+   "entidades": [
+    {
+     "sigla": "MTC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PRONATEL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSIPTEL",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Fondo de servicio universal (PRONATEL), presupuesto MINEDU para pago recurrente del servicio",
+   "costo_referencial": "no estimado",
+   "indicador": "% de escuelas públicas con conexión medida ≥ umbral de velocidad por estudiante",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "CON-13",
+    "CON-15",
+    "EDU-10"
+   ],
+   "riesgo": "Contratos que pagan por instalación y no por servicio funcionando; escuelas sin electricidad estable.",
+   "fuentes": [
+    {
+     "titulo": "Minedu ESCALE – EduDatos 45: conectividad en escuelas",
+     "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2045%20-%20Conectividad.pdf"
+    },
+    {
+     "titulo": "Perú21 – No basta con que una escuela tenga internet (S. Marcone)",
+     "url": "https://peru21.pe/opinion/no-basta-con-que-una-escuela-tenga-internet-por-sandro-marcone/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-12",
+   "titulo": "Asignar un fondo anual de mantenimiento por local con rendición digital",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El programa de mantenimiento de locales escolares se aprueba cada año en la Ley de Presupuesto y se regula por resolución ministerial; basta hacerlo plurianual y por fórmula.",
+   "etapa": "2026-2031",
+   "que": "Transferir cada año a cada local escolar un monto de mantenimiento calculado por fórmula (área construida, antigüedad, clima, número de estudiantes), depositado al inicio del año fiscal y no en plena temporada escolar. El director y un comité con padres priorizan las reparaciones y rinden cuentas con fotos y comprobantes en una aplicación móvil, auditada por muestreo. Se simplifican los formatos actuales.",
+   "evidencia": "La falta de mantenimiento acelera el deterioro de la infraestructura y amplía la brecha que luego se paga como obra nueva (evaluación del PNIE, Minedu). Los fondos escolares con participación de padres mejoran la gestión cuando incluyen formación y control (Banco Mundial, programas de gestión escolar basada en la escuela).",
+   "entrega": "Transferencia anual por fórmula a los ~53 000 locales públicos (Censo Educativo 2025), con rendición 100 % digital",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRONIED",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "CGR",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Ley Anual de Presupuesto (programa de mantenimiento de locales escolares)",
+   "costo_referencial": "no estimado",
+   "indicador": "% de locales que reciben el fondo antes del inicio del año escolar y rinden en plazo; índice de estado del local (Censo Educativo)",
+   "deroga_o_simplifica": [],
+   "depende_de": [],
+   "riesgo": "Montos pequeños que se diluyen; uso indebido si la auditoría por muestreo es débil.",
+   "fuentes": [
+    {
+     "titulo": "Minedu – Resultados de la evaluación del Plan Nacional de Infraestructura Educativa al 2025 (informe final)",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12501"
+    }
+   ]
+  },
+  {
+   "id": "EDU-13",
+   "titulo": "Expandir secundaria rural con residencia, alternancia y modelo tutorial",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Los modelos de servicio educativo rural (secundaria con residencia estudiantil, en alternancia y tutorial) ya están normados por el Minedu; su expansión es presupuestal y de inversión.",
+   "etapa": "2026-2031",
+   "que": "Garantizar que todo adolescente rural tenga una secundaria a una distancia razonable: residencias estudiantiles seguras y supervisadas en capitales de distrito, centros en alternancia que combinan semanas en la escuela y en la chacra familiar con proyectos productivos, y secundaria tutorial para comunidades muy dispersas. Con protocolos estrictos de protección contra violencia sexual y personal capacitado.",
+   "evidencia": "La conclusión de secundaria en zonas rurales ha sido históricamente mucho menor que en las urbanas (ESCALE, 2018: 60,2 % rural vs. 83,9 % urbano, 17–19 años); la distancia y el trabajo infantil son causas centrales del abandono (GRADE).",
+   "entrega": "Oferta de secundaria accesible (≤ 1 hora de traslado o con residencia) para 100 % de los centros poblados rurales con egresados de primaria",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "Gobiernos locales",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "PP 0090, Invierte.pe para residencias, Obras por Impuestos",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de conclusión de secundaria rural (17–19 años); casos de violencia reportados y atendidos en residencias",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-09",
+    "EDU-14"
+   ],
+   "riesgo": "Residencias sin supervisión que expongan a adolescentes a violencia; costos operativos no presupuestados.",
+   "fuentes": [
+    {
+     "titulo": "GRADE – Análisis & Propuestas 73 (conclusión y deserción escolar)",
+     "url": "https://grade.org.pe/wp-content/uploads/GRADEAP73.pdf"
+    },
+    {
+     "titulo": "Minedu ESCALE – EduDatos 24 (conclusión por área)",
+     "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2024%20agosto%202016.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-14",
+   "titulo": "Crear alertas tempranas contra la deserción con datos del SIAGIE",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El SIAGIE es el sistema oficial de matrícula y notas del Minedu; un módulo de alerta y protocolo de respuesta se aprueban por resolución.",
+   "etapa": "2026-2031",
+   "que": "Un módulo que marque, con asistencia, notas, edad y matrícula del SIAGIE, a cada estudiante con riesgo de abandonar (inasistencia, repitencia, extraedad, embarazo, trabajo) y que active un protocolo: tutor que llama a la familia, visita, derivación a programas sociales (Juntos, becas) y plan de reincorporación. Las UGEL siguen a quienes no se matricularon el año siguiente hasta su retorno o certificación por otra vía (EBA).",
+   "evidencia": "La deserción interanual de secundaria en 2024 fue 0,8 % y en primaria 1,2 % (ESCALE, vía Correo), pero el abandono acumulado es mayor: más del 30 % de mayores de 15 años no completó secundaria (ENAHO, vía Correo). GRADE advierte que la deserción interanual no siempre es abandono definitivo, por lo que el seguimiento nominal estudiante por estudiante es clave. La evidencia internacional sobre alertas tempranas es prometedora pero depende de que exista capacidad de respuesta.",
+   "entrega": "Alerta temprana operativa en 100 % de secundarias públicas, con protocolo de respuesta de la UGEL",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU (sistemas de información) y PP 0090",
+   "costo_referencial": "no estimado",
+   "indicador": "% de estudiantes alertados que siguen matriculados al año siguiente; tasa de conclusión oportuna de secundaria",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-24",
+    "EDU-26"
+   ],
+   "riesgo": "Alertas sin capacidad de respuesta en la UGEL; protección insuficiente de datos personales de menores.",
+   "fuentes": [
+    {
+     "titulo": "Correo – Reincorporación escolar: tasas de deserción interanual 2024 (ESCALE)",
+     "url": "https://diariocorreo.pe/peru/reincorporacion-escolar-claves-para-acompanar-a-quienes-retoman-sus-estudios-en-el-peru-noticia/"
+    },
+    {
+     "titulo": "GRADE – Análisis & Propuestas 73 (conclusión y deserción escolar)",
+     "url": "https://grade.org.pe/wp-content/uploads/GRADEAP73.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-15",
+   "titulo": "Formar y certificar docentes bilingües y producir materiales en lenguas originarias",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 27818 de Educación Intercultural Bilingüe, la Ley 29735 de lenguas originarias y la Política Sectorial de EIB (DS 006-2016-MINEDU) ya mandan este servicio; falta ejecutarlo con presupuesto.",
+   "etapa": "2026-2031",
+   "que": "Certificar el dominio oral y escrito de lenguas originarias de docentes en servicio y ampliar el Registro Nacional de Docentes Bilingües; abrir programas de formación inicial EIB en escuelas pedagógicas de cada región con población indígena, con becas para jóvenes de esas comunidades; producir y distribuir a tiempo cuadernos y libros en las lenguas con escuelas EIB, validados con las comunidades; y asignar docentes según la lengua del aula.",
+   "evidencia": "Al 2021 casi el 54 % de las instituciones EIB no contaba con docentes que hablaran la lengua de sus estudiantes (BID, con datos Minedu); la Defensoría del Pueblo reportó en 2014–2016 un déficit muy alto de docentes formados en EIB. Aprender a leer primero en la lengua materna mejora la comprensión lectora (UNESCO, informes GEM sobre lengua de instrucción).",
+   "entrega": "Docente bilingüe certificado en cada aula EIB de inicial y primaria; materiales en todas las lenguas con escuelas EIB entregados antes de marzo",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PRONABEC",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "PP 0090 (componente EIB) y PRONABEC (becas de formación inicial EIB)",
+   "costo_referencial": "no estimado",
+   "indicador": "% de aulas EIB con docente que domina la lengua (certificado); ENLA EIB en lengua originaria y castellano",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-06",
+    "EDU-08"
+   ],
+   "riesgo": "Asignación de docentes sin respetar la lengua del aula; materiales que llegan tarde o con variantes dialectales inadecuadas.",
+   "fuentes": [
+    {
+     "titulo": "BID – Documento de cooperación técnica PE-T1544 (EIB en Perú)",
+     "url": "https://ewsdata.rightsindevelopment.org/files/documents/44/IADB-PE-T1544.pdf"
+    },
+    {
+     "titulo": "Actualidad Ambiental – Defensoría: el Estado debe continuar la educación bilingüe",
+     "url": "https://www.actualidadambiental.pe/defensoria-del-pueblo-es-necesario-que-el-estado-continue-educacion-bilingue-de-los-pueblos-indigenas/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-16",
+   "titulo": "Aprobar una ley de financiamiento por estudiante con fórmula y senda hacia 6 % del PBI",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Fijar una regla plurianual de asignación de recursos que vincule a las leyes anuales de presupuesto y a las transferencias a gobiernos regionales requiere norma con rango de ley. Por crear gasto, debe ser de iniciativa del Poder Ejecutivo (art. 79 de la Constitución) y coherente con el marco de responsabilidad fiscal.",
+   "etapa": "2026-2031",
+   "que": "Una ley que establezca: (1) un monto base por estudiante para cada nivel y modalidad; (2) ajustes por ruralidad, dispersión, lengua originaria, discapacidad y pobreza del distrito; (3) una senda gradual de aumento del gasto público en educación hasta 6 % del PBI, compatible con las reglas fiscales; y (4) publicación anual del gasto por estudiante por escuela. Reemplaza la asignación inercial por historia del gasto.",
+   "evidencia": "El Perú gastó 3,8 % del PBI en educación en 2019, menos que sus pares regionales (ComexPerú con datos del Banco Mundial). Chile asigna recursos adicionales por estudiante vulnerable mediante la Subvención Escolar Preferencial (Ley 20.248), un referente de financiamiento con ajuste por necesidad cuyo impacto debe revisarse en sus evaluaciones (por verificar). El Acuerdo Nacional fijó la meta de 6 % del PBI.",
+   "entrega": "Ley de financiamiento por estudiante; reporte anual público de gasto por estudiante por escuela y región",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Congreso",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "Gobiernos regionales",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "CGR",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Recursos ordinarios; la senda exige espacio fiscal (recaudación, reasignación) y es el principal trade-off frente a otras prioridades",
+   "costo_referencial": "Cada punto del PBI equivale aproximadamente a S/ 10 000–11 000 millones, asumiendo un PBI nominal cercano a S/ 1,05 billones (BCRP, orden de magnitud, por verificar con el MMM vigente)",
+   "indicador": "Gasto público en educación como % del PBI; razón entre gasto por estudiante del quintil 1 y del quintil 5 de distritos",
+   "deroga_o_simplifica": [],
+   "depende_de": [],
+   "riesgo": "Que el aumento vaya solo a planillas sin cambios en aprendizajes; reglas fiscales que congelen la senda en crisis.",
+   "fuentes": [
+    {
+     "titulo": "ComexPerú – Reporte de gasto público en educación (datos Banco Mundial)",
+     "url": "https://www.comexperu.org.pe/upload/articles/reportes/reporte-gobiernos-001.pdf"
+    },
+    {
+     "titulo": "Banco Mundial – Gasto público en educación (% del PBI), indicador SE.XPD.TOTL.GD.ZS",
+     "url": "https://datos.bancomundial.org/indicador/SE.XPD.TOTL.GD.ZS?start=1980"
+    }
+   ]
+  },
+  {
+   "id": "EDU-17",
+   "titulo": "Profesionalizar a directores con autonomía de gestión y menos carga administrativa",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El acceso a cargos directivos ya es por concurso en la Ley 29944; la formación, las funciones delegadas y la simplificación de reportes se norman por resolución del Minedu.",
+   "etapa": "2026-2031",
+   "que": "Cubrir todas las direcciones de escuelas grandes y medianas por concurso, con un programa de formación en liderazgo pedagógico de un año y mentoría. Delegar al director decisiones sobre el uso del fondo de mantenimiento, horarios de reforzamiento y contratación de apoyo administrativo. Hacer un inventario de todos los reportes que piden Minedu, DRE y UGEL a las escuelas y eliminar los duplicados, que pasan a obtenerse del SIAGIE y del Censo Educativo.",
+   "evidencia": "La evaluación de la JEC de 2025 encontró impactos positivos en liderazgo y gestión escolar, con efectos más acotados en prácticas pedagógicas (Minedu). La calidad del liderazgo escolar es, tras el docente, el factor escolar más asociado al aprendizaje (OCDE, TALIS).",
+   "entrega": "100 % de escuelas con 7 o más docentes dirigidas por directores seleccionados por concurso y formados; reducción del 50 % en reportes exigidos a escuelas",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM (Secretaría de Gestión Pública)",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU",
+   "costo_referencial": "no estimado",
+   "indicador": "% de direcciones cubiertas por concurso; horas semanales del director dedicadas a tareas administrativas (encuesta)",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-07",
+    "EDU-12",
+    "EDU-24"
+   ],
+   "riesgo": "Directores designados por encargo sin concurso; sobrecarga que vuelve por nuevos programas que piden reportes propios.",
+   "fuentes": [
+    {
+     "titulo": "Minedu – Evaluación de impacto de JEC: liderazgo, gestión escolar y prácticas pedagógicas (2025)",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/11789"
+    }
+   ]
+  },
+  {
+   "id": "EDU-18",
+   "titulo": "Reorganizar las UGEL por tipologías y convertirlas en soporte pedagógico de las escuelas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "La Ley 28044 define la UGEL como instancia de ejecución descentralizada y su organización corresponde a los gobiernos regionales (ordenanza regional); fusionar o cambiar competencias de forma uniforme a escala nacional requeriría modificar la Ley 28044.",
+   "etapa": "2031-2036",
+   "que": "Clasificar las UGEL según número de escuelas, dispersión y capacidad, y redefinir su núcleo: acompañamiento pedagógico, alerta temprana y gestión de personal docente. Trámites masivos (pagos, licencias, constancias) pasan a una plataforma digital nacional; las UGEL muy pequeñas comparten servicios administrativos y se crean sedes pedagógicas cerca de redes de escuelas rurales. Los gobiernos regionales firman convenios de desempeño con metas de aprendizaje y gestión.",
+   "evidencia": "Los compromisos de desempeño del Minedu con gobiernos regionales y UGEL han servido para mejorar procesos como la contratación oportuna (Minedu, normas anuales de compromisos de desempeño). La gestión intermedia débil es un cuello de botella identificado en la evaluación del PNIE y en la implementación de JEC (Minedu).",
+   "entrega": "Tipología de UGEL aprobada, plataforma nacional de trámites docentes y convenios de desempeño con las 25 regiones",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM (Secretaría de Descentralización)",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SERVIR",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU y de los gobiernos regionales; incentivos por compromisos de desempeño",
+   "costo_referencial": "no estimado",
+   "indicador": "% de trámites docentes resueltos en línea en plazo; % de docentes contratados antes del inicio del año escolar",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-14",
+    "EDU-17",
+    "EDU-24"
+   ],
+   "riesgo": "Conflictos con gobiernos regionales por competencias; captura política de cargos en UGEL.",
+   "fuentes": [
+    {
+     "titulo": "Minedu – Evaluación del PNIE al 2025",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12501"
+    }
+   ]
+  },
+  {
+   "id": "EDU-19",
+   "titulo": "Simplificar el licenciamiento de institutos y CETPRO y diseñar carreras con las empresas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El licenciamiento de institutos se rige por la Ley 30512 y su reglamento (DS 010-2017-MINEDU); los cambios de procedimiento se hacen modificando el reglamento por decreto supremo, como el Minedu prepublicó en 2026.",
+   "etapa": "2026-2031",
+   "que": "Mantener la exigencia de condiciones básicas de calidad pero acortar y digitalizar el licenciamiento de Institutos de Educación Superior Tecnológica (IEST) y de programas, con renovación por desempeño (empleabilidad de egresados) en lugar de revisión documental repetida. Fusionar institutos públicos pequeños en sedes regionales con talleres modernos. Diseñar o actualizar las carreras de IEST y CETPRO con consejos sectoriales de empresas (minería, agro, construcción, TIC, salud) y formación dual con prácticas pagadas.",
+   "evidencia": "Los institutos que no cumplieron condiciones básicas en segundo intento debían cerrar en tres años (RM 446-2020-MINEDU, vía Andina), lo que muestra que el filtro funciona; el problema actual es la lentitud del procedimiento, con 120 días hábiles y silencio negativo (RM 544-2024-MINEDU). La formación dual alemana y suiza es referencia de alta empleabilidad (OCDE, Learning for Jobs).",
+   "entrega": "Reglamento de la Ley 30512 modificado con licenciamiento digital; carreras de IEST y CETPRO revisadas con consejos sectoriales",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MTPE",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SINEACE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "Gremios empresariales",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU; Invierte.pe para talleres de IEST públicos; Obras por Impuestos",
+   "costo_referencial": "no estimado",
+   "indicador": "Tiempo promedio de licenciamiento; % de egresados de IEST con empleo formal relacionado a 12 meses",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo 010-2017-MINEDU, Reglamento de la Ley 30512",
+     "motivo": "Modificar el procedimiento de licenciamiento y renovación para hacerlo digital, más corto y basado en resultados, sin bajar las condiciones básicas de calidad"
+    }
+   ],
+   "depende_de": [
+    "EDU-27"
+   ],
+   "riesgo": "Que la simplificación se use para relajar la calidad; poca participación real de empresas.",
+   "fuentes": [
+    {
+     "titulo": "LP Derecho – Reglamento de la Ley 30512 (DS 010-2017-MINEDU)",
+     "url": "https://lpderecho.pe/reglamento-ley-30512-institutos-escuelas-educacion-superior-carrera-publica-docentes/"
+    },
+    {
+     "titulo": "Andina – Institutos que no obtengan licenciamiento deberán cerrar en máximo tres años",
+     "url": "https://andina.pe/agencia/noticia-institutos-tecnologicos-no-obtengan-licenciamiento-deberan-cerrar-maximo-tres-anos-820943.aspx"
+    },
+    {
+     "titulo": "Minedu – RM 544-2024-MINEDU (procedimiento de licenciamiento)",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/7152995/6137264-rm_n-_544-2024-minedu.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-20",
+   "titulo": "Restablecer la independencia del consejo directivo de la SUNEDU frente a las universidades",
+   "tipo": "derogacion",
+   "necesita_ley": "si",
+   "por_que_ley": "La composición del consejo directivo de la SUNEDU está fijada en la Ley Universitaria 30220, modificada por la Ley 31520; cambiarla exige otra ley.",
+   "etapa": "2026-2031",
+   "que": "Modificar los artículos de la Ley 30220 que la Ley 31520 cambió, para que el consejo directivo de la SUNEDU se elija por concurso público de méritos entre profesionales sin vínculo laboral ni de propiedad con universidades supervisadas, con períodos escalonados y causales tasadas de remoción. Se mantiene la representación de las universidades en un consejo consultivo sin voto. El objetivo es separar al regulador de los regulados, sin tocar la autonomía académica de las universidades.",
+   "evidencia": "El licenciamiento institucional cerró con 94 universidades licenciadas y 51 universidades y escuelas de posgrado con licencia denegada en proceso de cese (SUNEDU, Informe 1527-2025). La Ley 31520 llevó a siete miembros el consejo, incluidos representantes de universidades públicas y privadas; el TC declaró infundada su inconstitucionalidad, de modo que el cambio es de conveniencia regulatoria, no de constitucionalidad. La buena práctica OCDE en reguladores recomienda independencia de los regulados.",
+   "entrega": "Ley que modifica la conformación del consejo directivo de la SUNEDU y el método de selección por concurso",
+   "responsable": "Congreso",
+   "entidades": [
+    {
+     "sigla": "Congreso",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNEDU",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "No genera gasto adicional relevante",
+   "costo_referencial": "no estimado",
+   "indicador": "% de miembros del consejo seleccionados por concurso sin conflicto de interés; N.º de universidades supervisadas por año",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley 31520, Ley que restablece la autonomía y la institucionalidad de las universidades peruanas (en lo referido a la conformación del consejo directivo de la SUNEDU)",
+     "motivo": "Introduce representantes de universidades supervisadas en el órgano que las regula, lo que genera conflicto de interés"
+    }
+   ],
+   "depende_de": [
+    "EDU-21"
+   ],
+   "riesgo": "Fuerte resistencia de universidades con intereses en la supervisión; vaivén normativo cada período legislativo.",
+   "fuentes": [
+    {
+     "titulo": "SUNEDU – Informe N.° 1527-2025 sobre universidades con licencia denegada en cese",
+     "url": "https://prensaregional.pe/wp-content/uploads/2025/12/Informe-SUNEDU-N.°-1527-2025-Universidades-Cese.pdf"
+    },
+    {
+     "titulo": "Congreso – Ley 31520, texto consolidado",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31520-TXM.pdf"
+    },
+    {
+     "titulo": "Gestión – TC declara infundada demanda contra ley que modifica el consejo directivo de la SUNEDU",
+     "url": "https://gestion.pe/peru/politica/ley-universitaria-tribunal-constitucional-declara-infundada-demanda-de-inconstitucionalidad-contra-ley-que-modifica-el-consejo-directivo-del-sunedu-noticia/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-21",
+   "titulo": "Cerrar la reorganización del SINEACE y vincular acreditación con financiamiento",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "El SINEACE fue creado por la Ley 28740 y declarado en reorganización por la Ley Universitaria 30220; definir su diseño definitivo, sus competencias en educación básica y superior y el carácter obligatorio de la acreditación de ciertas carreras requiere ley. Si crea un organismo nuevo, debe ser iniciativa del Ejecutivo.",
+   "etapa": "2026-2031",
+   "que": "Poner fin a más de una década de reorganización transitoria con una ley que establezca una agencia de acreditación técnica e independiente para la educación superior universitaria y no universitaria; hacer obligatoria la acreditación de carreras con riesgo para terceros (educación, medicina y ciencias de la salud, derecho), y vincular la acreditación al acceso preferente a fondos públicos y becas. El licenciamiento (mínimos) queda en SUNEDU y Minedu; la acreditación (excelencia) en la agencia.",
+   "evidencia": "La Ley 30220 declaró al SINEACE en reorganización en 2014 y esa situación transitoria se prolongó; Chile con su Comisión Nacional de Acreditación y Colombia con el Consejo Nacional de Acreditación vinculan acreditación con financiamiento público y becas. (Experiencias comparadas descritas cualitativamente; su efecto sobre la calidad está por verificar.)",
+   "entrega": "Ley del sistema de acreditación de la calidad educativa con agencia técnica independiente",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SINEACE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "Congreso",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "PRONABEC",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto del SINEACE reorganizado; tasas de acreditación",
+   "costo_referencial": "no estimado",
+   "indicador": "% de matrícula superior en carreras acreditadas; % de carreras de salud y educación acreditadas",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley 30220, Ley Universitaria: disposición complementaria transitoria que declara en reorganización al SINEACE",
+     "motivo": "Termina un régimen transitorio prolongado y lo reemplaza por un diseño institucional estable"
+    },
+    {
+     "norma": "Ley 28740, Ley del SINEACE",
+     "motivo": "Se sustituye por la nueva ley del sistema de acreditación"
+    }
+   ],
+   "depende_de": [
+    "EDU-20"
+   ],
+   "riesgo": "Crear burocracia sin capacidad técnica; acreditación capturada por los evaluados.",
+   "fuentes": [
+    {
+     "titulo": "Congreso – Ley 31520 (modifica la Ley Universitaria 30220), texto consolidado",
+     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31520-TXM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-22",
+   "titulo": "Financiar universidades públicas por convenios de desempeño y ampliar becas a talento",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Los convenios de gestión con universidades públicas y las becas de PRONABEC (Ley 29837) se aprueban por resolución y en la Ley de Presupuesto.",
+   "etapa": "2026-2031",
+   "que": "Asignar una parte creciente del presupuesto de las universidades públicas mediante convenios plurianuales con metas verificables: graduación oportuna, empleabilidad, investigación indexada, ejecución de inversiones y reducción de deserción en primer año. Ampliar Beca 18 y becas de permanencia para estudiantes de bajos ingresos con buen rendimiento, en universidades e institutos licenciados, con tutoría para evitar el abandono.",
+   "evidencia": "Los convenios de desempeño en Chile y otros países de la OCDE han ordenado la gestión de universidades públicas cuando las metas son pocas y medibles (OCDE, Funding of higher education). PRONABEC tiene trayectoria en becas a estudiantes vulnerables.",
+   "entrega": "Convenios de desempeño con todas las universidades públicas licenciadas; becas de pregrado y permanencia ampliadas",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "PRONABEC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Universidades públicas",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU/PRONABEC; canon que reciben universidades públicas en regiones extractivas",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de graduación oportuna en universidades públicas; % de becarios que se gradúan",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-21"
+   ],
+   "riesgo": "Metas negociadas a la baja; canon universitario sin ejecutar por débil capacidad de inversión.",
+   "fuentes": [
+    {
+     "titulo": "SUNEDU – Informe N.° 1527-2025 sobre universidades con licencia denegada en cese",
+     "url": "https://prensaregional.pe/wp-content/uploads/2025/12/Informe-SUNEDU-N.°-1527-2025-Universidades-Cese.pdf"
+    }
+   ]
+  },
+  {
+   "id": "EDU-23",
+   "titulo": "Enseñar pensamiento computacional, uso crítico de IA y bienestar digital en la escuela",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El Minedu puede incorporar estas competencias en el Currículo Nacional por resolución ministerial; las leyes TAL-01 y TAL-14 de Agenda Tech darían estabilidad, pero la acción no depende de ellas.",
+   "etapa": "2026-2031",
+   "que": "Incorporar en el currículo de primaria y secundaria pensamiento computacional (incluso sin computadora en escuelas desconectadas), programación básica, alfabetización en inteligencia artificial (cómo funciona, sesgos, verificación de información, uso ético y para aprender) y bienestar digital. Formar a los docentes en usos pedagógicos de IA como apoyo a tutoría y retroalimentación, con reglas de protección de datos de menores. Cualquier compra de equipos va atada a un modelo pedagógico, contenidos y soporte.",
+   "evidencia": "La evaluación aleatoria de Una Laptop por Niño en Perú no encontró efectos en matemática ni lenguaje, aunque sí indicios en habilidades cognitivas generales (Cristia et al., IZA/BID); el GEEAP 2023 califica la compra de hardware sin cambio pedagógico como \"Bad Buy\" y el software adaptativo bien usado como prometedor.",
+   "entrega": "Competencias digitales y de IA en el Currículo Nacional; 100 % de docentes de secundaria con formación certificada en uso pedagógico de IA al 2036",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PCM (Secretaría de Gobierno y Transformación Digital)",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "PP 0090; cooperación internacional para contenidos abiertos",
+   "costo_referencial": "no estimado",
+   "indicador": "% de estudiantes de 2.º de secundaria con nivel satisfactorio en competencia digital (evaluación muestral a crear)",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-01",
+    "TAL-14",
+    "EDU-11"
+   ],
+   "riesgo": "Repetir compras masivas de equipos sin uso pedagógico; dependencia de plataformas privadas sin resguardo de datos de menores.",
+   "fuentes": [
+    {
+     "titulo": "Cristia, Ibarrarán, Cueto, Santiago y Severín – Technology and Child Development: Evidence from the One Laptop per Child Program (IZA DP 6401)",
+     "url": "https://www.iza.org/en/publications/dp/6401"
+    },
+    {
+     "titulo": "Banco Mundial – GEEAP 2023: Smart Buys para mejorar aprendizajes",
+     "url": "https://www.worldbank.org/en/topic/teachingandlearning/publication/cost-effective-approaches-to-improve-global-learning"
+    }
+   ]
+  },
+  {
+   "id": "EDU-24",
+   "titulo": "Garantizar evaluaciones de aprendizaje periódicas y datos educativos abiertos por escuela",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La ENLA y la participación en PISA dependen del Minedu (Oficina de Medición de la Calidad de los Aprendizajes) y se aseguran con presupuesto y una directiva de datos abiertos.",
+   "etapa": "2026-2031",
+   "que": "Asegurar un calendario fijo de evaluaciones: censal en 2.º o 4.º de primaria y 2.º de secundaria cada dos años, muestral en otras áreas, y participación continua en PISA y en el estudio regional de UNESCO (ERCE). Publicar resultados por escuela y región, bases anonimizadas, y un tablero que cruce aprendizajes con servicios básicos, docentes y gasto por estudiante, para que familias, alcaldes y prensa puedan exigir mejoras.",
+   "evidencia": "La serie ECE/ENLA permite medir la caída y recuperación pospandemia (ENLA 2024: lectura 4.º primaria 32,8 %, mejor que 2023 y 2019 según el Minedu); PISA 2025 muestra resultados menores que 2022 en matemática y lectura (OCDE). Sin series estables no se puede saber qué funciona.",
+   "entrega": "Calendario de evaluaciones 2026–2036 aprobado; portal de datos abiertos de aprendizajes por escuela",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INEI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PCM (Secretaría de Gobierno y Transformación Digital)",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU (UMC)",
+   "costo_referencial": "no estimado",
+   "indicador": "Cumplimiento del calendario de evaluaciones; N.º de descargas y usos de los datos abiertos",
+   "deroga_o_simplifica": [],
+   "depende_de": [],
+   "riesgo": "Suspensión de evaluaciones por presión política o recortes; uso de rankings para castigar escuelas sin apoyo.",
+   "fuentes": [
+    {
+     "titulo": "Minedu – Repositorio institucional, resultados ENLA 2024",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/11490"
+    },
+    {
+     "titulo": "OCDE – PISA 2022 Country Note: Perú",
+     "url": "https://www.oecd.org/en/publications/2023/11/pisa-2022-results-volume-i-and-ii-country-notes_2fca04b9/peru_21d86e8b.html"
+    },
+    {
+     "titulo": "OCDE – PISA 2025 Country Note: Perú",
+     "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/peru_0c319189-en.html"
+    }
+   ]
+  },
+  {
+   "id": "EDU-25",
+   "titulo": "Poner servicios de apoyo a la educación inclusiva en cada UGEL",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 30797 que promueve la educación inclusiva y la Ley 29973 de la persona con discapacidad ya obligan; los servicios de apoyo (SAANEE, CEBE, PRITE) se norman por resolución viceministerial del Minedu.",
+   "etapa": "2026-2031",
+   "que": "Cada UGEL contará con equipos de apoyo (psicólogo, terapeuta de lenguaje, docente especializado, intérprete de lengua de señas) que visitan escuelas regulares con estudiantes con discapacidad, elaboran planes de ajustes razonables y forman a los docentes. Se amplían los PRITE para atención temprana (0–3 años) y los CEBE para casos severos. Se cruzan registros de discapacidad (CONADIS) y SIAGIE para encontrar a niñas y niños fuera de la escuela.",
+   "evidencia": "El Minedu reportó más de 80 000 estudiantes con discapacidad matriculados en educación básica, la mayoría en escuelas regulares (Andina); documentos regionales del Minedu muestran miles de personas con discapacidad de 0 a 20 años sin acceso educativo (DRE Piura, 2024).",
+   "entrega": "Equipo de apoyo a la inclusión operativo en el 100 % de UGEL y PRITE en todas las provincias",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CONADIS",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Programa presupuestal de inclusión de niños, niñas y jóvenes con discapacidad en la educación básica y técnico-productiva (MINEDU)",
+   "costo_referencial": "no estimado",
+   "indicador": "% de estudiantes con discapacidad en escuelas regulares con plan de ajustes razonables; N.º de niños con discapacidad identificados fuera de la escuela y reincorporados",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-14",
+    "TAL-13",
+    "SAL-18"
+   ],
+   "riesgo": "Equipos sin especialistas por escasez de profesionales en regiones; inclusión nominal sin apoyo real.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Más de 80 mil estudiantes con discapacidad matriculados en educación básica",
+     "url": "https://andina.pe/agencia/noticia-estudiantes-discapacidad-mas-80-mil-estan-matriculados-la-educacion-basica-865902.aspx"
+    },
+    {
+     "titulo": "Minedu – Estrategia de cierre de brechas educativas para personas con discapacidad 2024 (DRE Piura)",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10750"
+    }
+   ]
+  },
+  {
+   "id": "EDU-26",
+   "titulo": "Relanzar la educación básica alternativa y la alfabetización adulta con certificación modular",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Educación Básica Alternativa y los programas de alfabetización están en la Ley 28044; los formatos modulares, semipresenciales y la certificación por competencias se norman por resolución del Minedu.",
+   "etapa": "2026-2031",
+   "que": "Ofrecer a jóvenes y adultos que no terminaron la escuela una ruta flexible: módulos cortos semipresenciales o por celular, horarios nocturnos y de fin de semana, evaluación para reconocer lo que ya saben y certificado de primaria o secundaria por módulos acumulables. Alfabetización en castellano y lenguas originarias dirigida sobre todo a mujeres rurales, con cuidado infantil durante las sesiones. Articulado con CETPRO para combinar estudios básicos y oficio.",
+   "evidencia": "El analfabetismo de 15 años y más es 11,6 % en zona rural frente a 3,2 % urbana (INEI 2024, vía El Peruano), y la brecha de alfabetismo es mayor en mujeres; más del 30 % de la población de 15 años y más no terminó secundaria (ENAHO, vía Correo).",
+   "entrega": "Oferta de EBA modular y semipresencial en todas las provincias y programa de alfabetización con meta de reducir a la mitad el analfabetismo rural al 2036",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DRE/UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Gobiernos locales",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU (EBA y alfabetización); gobiernos locales",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de analfabetismo rural de 15 años y más (INEI); N.º de certificados de EBA emitidos por año",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-02",
+    "TAL-16",
+    "EDU-27"
+   ],
+   "riesgo": "Baja demanda si los certificados no tienen valor en el mercado laboral; abandono por falta de cuidado infantil.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano – Perú reduce el analfabetismo, pero persisten brechas",
+     "url": "https://elperuano.pe/noticia/304335-peru-reduce-el-analfabetismo-pero-persisten-brechas-educativas-y-digitales"
+    }
+   ]
+  },
+  {
+   "id": "EDU-27",
+   "titulo": "Dar rango de ley a un marco nacional de cualificaciones para transitar entre CETPRO, institutos y universidad",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "El reconocimiento de créditos, grados y títulos entre universidades e institutos está regulado por la Ley 30220 y la Ley 30512; permitir convalidaciones obligatorias y reconocimiento de aprendizajes previos entre sistemas exige modificar esas leyes.",
+   "etapa": "2031-2036",
+   "que": "Una ley que establezca niveles de cualificación comunes (desde certificados de CETPRO hasta posgrado), con créditos transferibles: un técnico de instituto podrá continuar a una licenciatura universitaria convalidando lo aprobado, y un trabajador podrá certificar lo aprendido en el empleo mediante evaluación. Crea una cuenta personal de aprendizaje a lo largo de la vida vinculada a la propuesta TAL-16 de Agenda Tech.",
+   "evidencia": "Los marcos nacionales de cualificaciones de la Unión Europea (EQF) y de Chile ordenan el tránsito entre formación técnica y universitaria y el reconocimiento de aprendizajes previos (OCDE/Cedefop).",
+   "entrega": "Ley del Marco Nacional de Cualificaciones y registro público de cualificaciones y convalidaciones",
+   "responsable": "MINEDU",
+   "entidades": [
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MTPE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNEDU",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "SINEACE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "Congreso",
+     "rol": "reguladora"
+    }
+   ],
+   "financiamiento": "Presupuesto MINEDU y MTPE; no requiere gasto nuevo significativo salvo la cuenta de aprendizaje (por identificar)",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de estudiantes que transitan de instituto a universidad con convalidación; N.º de certificaciones de competencias laborales",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-19",
+    "EDU-21",
+    "TAL-16"
+   ],
+   "riesgo": "Resistencia de universidades a convalidar; marco que queda en papel sin registro operativo.",
+   "fuentes": [
+    {
+     "titulo": "LP Derecho – Reglamento de la Ley 30512 (DS 010-2017-MINEDU)",
+     "url": "https://lpderecho.pe/reglamento-ley-30512-institutos-escuelas-educacion-superior-carrera-publica-docentes/"
+    }
+   ]
+  },
+  {
+   "id": "EDU-28",
+   "titulo": "Convertir cada escuela pública en escuela saludable: alimentación, vacunas, tamizajes y salud mental",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La alimentación escolar es un programa del MIDIS creado por decreto supremo; la vacunación, el tamizaje y la salud mental escolar se ejecutan con normas técnicas del MINSA y convenios MINSA-MINEDU. No requiere ley nueva.",
+   "etapa": "2026-2031",
+   "que": "Un paquete anual en cada escuela pública, coordinado entre el centro de salud asignado y la dirección: (1) alimentación escolar del programa del MIDIS que reemplazó a Wasi Mikuna (extinguido por el DS 006-2025-MIDIS), con compras a productores locales, control de inocuidad y menú adecuado a cada región; (2) vacunación en el aula según el calendario, en especial VPH de una dosis para niñas y niños de 9 a 13 años; (3) tamizaje de agudeza visual con lentes gratuitos y de hemoglobina con derivación al tratamiento; (4) tutoría y detección temprana de problemas de salud mental, con derivación a los centros de salud mental comunitarios. Los resultados se registran en el padrón nominal compartido salud-educación.",
+   "evidencia": "Una evaluación aleatoria en 165 escuelas rurales de China encontró que dar lentes a estudiantes con mala visión elevó sus puntajes entre 0,16 y 0,22 desviaciones estándar en un año (Glewwe, Park y Zhao, Journal of Development Economics 2016; J-PAL). En 2025 el MINSA vacunó contra el VPH a 923 645 niñas, niños y adolescentes, con estrategia centrada en colegios y apoyo del Minedu (Andina), lo que muestra que la escuela es un buen punto de entrega. La evidencia sobre alimentación escolar en el Perú es mixta: un estudio con ENDES 2014–2017 no halló efectos de Qali Warma sobre anemia ni desnutrición en niños de 3 a 5 años (Francke y Acosta, PUCP; referencia por verificar), por lo que la alimentación debe ir junto con tamizaje y tratamiento de anemia, no en lugar de ellos.",
+   "entrega": "Paquete escuela saludable (alimentación inocua, vacunación, tamizaje visual y de anemia, ruta de salud mental) en 100 % de escuelas públicas de inicial y primaria al 2031 y de secundaria al 2036",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "Gobiernos regionales (DIRESA y UGEL)",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "Gobiernos locales",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto del programa de alimentación escolar del MIDIS; programas presupuestales de salud materno neonatal, articulado nutricional y salud mental del MINSA; PP 0090 para tutoría",
+   "costo_referencial": "no estimado",
+   "indicador": "% de escuelas con paquete completo; cobertura de VPH en 5.º de primaria; % de estudiantes con mala visión que reciben lentes; casos de intoxicación alimentaria escolar por año",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SAL-19",
+    "SAL-20",
+    "SAL-18",
+    "SAL-17",
+    "EDU-01"
+   ],
+   "riesgo": "Cambios repetidos de diseño del programa de alimentación con intoxicaciones y pérdida de confianza; centros de salud sin personal para atender a las escuelas.",
+   "fuentes": [
+    {
+     "titulo": "Panamericana – Gobierno extingue el programa Wasi Mikuna y declara emergencia alimentaria escolar (DS 006-2025-MIDIS)",
+     "url": "https://panamericana.pe/24horas/politica/440216-gobierno-extingue-programa-wasi-mikuna-declara-emergencia-alimentaria-escolar"
+    },
+    {
+     "titulo": "RPP – Midis convocará por primera vez a productores en nuevo programa de alimentación escolar",
+     "url": "https://rpp.pe/politica/gobierno/midis-convocara-por-primera-vez-a-productores-en-nuevo-programa-de-alimentacion-escolar-anuncia-leslie-urteaga-noticia-1646585"
+    },
+    {
+     "titulo": "Andina – Minsa sobrepasó el 100 % de cobertura en vacunación contra el VPH",
+     "url": "https://andina.pe/agencia/noticia-meta-lograda-minsa-sobrepaso-100-cobertura-vacunacion-contra-vph-1038288.aspx"
+    },
+    {
+     "titulo": "J-PAL – The Impact of Eyeglasses on the Academic Performance of Primary School Students in China",
+     "url": "https://www.povertyactionlab.org/fr/evaluation/impact-eyeglasses-academic-performance-primary-school-students-china"
+    }
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "salud",
+   "como": "Anemia y desnutrición en la primera infancia afectan el desarrollo cognitivo: EDU-01 comparte padrón nominal con el paquete integrado contra anemia (SAL-17), el equipo de primer nivel con población adscrita (SAL-01) y la historia clínica electrónica (SAL-24); los equipos de inclusión de las UGEL derivan a los centros de salud mental comunitarios (SAL-18). La meta de anemia es compartida."
+  },
+  {
+   "con": "desarrollo_social",
+   "como": "Cuna Más, Juntos y la alimentación escolar (MIDIS) se articulan con la alerta temprana contra la deserción (EDU-14) y con el acompañamiento familiar (EDU-01)."
+  },
+  {
+   "con": "vivienda_saneamiento",
+   "como": "Los proyectos de agua y saneamiento rural del MVCS deben llegar primero a la escuela del centro poblado (EDU-10)."
+  },
+  {
+   "con": "energia",
+   "como": "La electrificación rural y la energía solar aislada priorizan escuelas (EDU-10, CON-15)."
+  },
+  {
+   "con": "telecomunicaciones",
+   "como": "PRONATEL y la Red Nacional del Estado conectan escuelas con servicio medido (EDU-11, CON-13)."
+  },
+  {
+   "con": "trabajo",
+   "como": "Institutos, CETPRO y el marco de cualificaciones se diseñan con el MTPE y las empresas para responder a la demanda laboral (EDU-19, EDU-27)."
+  },
+  {
+   "con": "ciencia_tecnologia",
+   "como": "Universidades públicas con convenios de desempeño y becas alimentan la investigación y el talento STEM (EDU-22, TAL-03, TAL-05)."
+  },
+  {
+   "con": "cultura",
+   "como": "La EIB depende de la normalización de lenguas originarias y del trabajo con el Ministerio de Cultura (EDU-15)."
+  },
+  {
+   "con": "economia_finanzas",
+   "como": "La ley de financiamiento por estudiante (EDU-16) exige espacio fiscal y una regla compatible con la responsabilidad fiscal."
+  }
+ ],
+ "conexion_tech": [
+  "TAL-01",
+  "TAL-02",
+  "TAL-03",
+  "TAL-05",
+  "TAL-06",
+  "TAL-13",
+  "TAL-14",
+  "TAL-16",
+  "CON-13",
+  "CON-15"
+ ],
+ "plan2050": [
+  "educacion-tres-niveles",
+  "capital-del-conocimiento",
+  "ciencia-y-tecnologia",
+  "inteligencia-artificial",
+  "peru-en-la-era-digital",
+  "transformacion-digital",
+  "desarrollo-rural",
+  "cohesion-social",
+  "la-familia",
+  "proyecto-pais-joven",
+  "seguridad-alimentaria-nutricion",
+  "infraestructura-y-construccion",
+  "reforma-del-estado"
+ ],
+ "fuentes": [
+  {
+   "titulo": "OCDE – PISA 2022 Country Note: Perú",
+   "url": "https://www.oecd.org/en/publications/2023/11/pisa-2022-results-volume-i-and-ii-country-notes_2fca04b9/peru_21d86e8b.html"
+  },
+  {
+   "titulo": "OCDE – PISA 2025 Country Note: Perú",
+   "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i-country-notes_2d4ff9ea-en/peru_0c319189-en.html"
+  },
+  {
+   "titulo": "Minedu – ENLA 2023: resumen ejecutivo",
+   "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10420"
+  },
+  {
+   "titulo": "Minedu – Repositorio institucional, resultados ENLA 2024",
+   "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/11490"
+  },
+  {
+   "titulo": "La República – Minedu: solo 3 de cada 10 escolares de 4.º de primaria entiende lo que lee (ENLA 2024)",
+   "url": "https://larepublica.pe/sociedad/2025/04/14/minedu-revela-que-solo-3-de-cada-10-escolares-de-cuarto-de-primaria-entiende-lo-que-lee-brecha-se-intensifica-en-regiones-amazonicas-746998"
+  },
+  {
+   "titulo": "INEI – Informe técnico Niñez y Adolescencia",
+   "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/informe-tecnico_ninez-y-adolescencia.pdf"
+  },
+  {
+   "titulo": "INEI – Indicadores de resultados de los programas presupuestales ENDES 2024",
+   "url": "https://proyectos.inei.gob.pe/endes/2024/ppr2/indicadores_de_resultados_de_los_programas_presupuestales_endes_2024.pdf"
+  },
+  {
+   "titulo": "Minedu ESCALE – EduDatos 46: servicios básicos",
+   "url": "https://escale.minedu.gob.pe/documents/inicio/Analisis/Edudatos/Edudatos%2046-servicios%20basicos.pdf"
+  },
+  {
+   "titulo": "Minedu – Evaluación del Plan Nacional de Infraestructura Educativa al 2025",
+   "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12501"
+  },
+  {
+   "titulo": "GRADE – Análisis & Propuestas 73",
+   "url": "https://grade.org.pe/wp-content/uploads/GRADEAP73.pdf"
+  },
+  {
+   "titulo": "ComexPerú – Gasto público en educación",
+   "url": "https://www.comexperu.org.pe/upload/articles/reportes/reporte-gobiernos-001.pdf"
+  },
+  {
+   "titulo": "SUNEDU – Informe N.° 1527-2025 sobre universidades con licencia denegada en cese",
+   "url": "https://prensaregional.pe/wp-content/uploads/2025/12/Informe-SUNEDU-N.°-1527-2025-Universidades-Cese.pdf"
+  },
+  {
+   "titulo": "Congreso – Ley 31520, texto consolidado",
+   "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/31520-TXM.pdf"
+  },
+  {
+   "titulo": "Banco Mundial – GEEAP 2023: Smart Buys para mejorar aprendizajes",
+   "url": "https://www.worldbank.org/en/topic/teachingandlearning/publication/cost-effective-approaches-to-improve-global-learning"
+  },
+  {
+   "titulo": "Castro et al. (2025) Can teaching be taught?, Quantitative Economics",
+   "url": "https://intouch.econometricsociety.org/publications/quantitative-economics/2025/01/01/Can-teaching-be-taught-Improving-teachers-pedagogical-skills-at-scale-in-rural-Peru"
+  },
+  {
+   "titulo": "Minedu – Evaluación de impacto de la Jornada Escolar Completa (2016)",
+   "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/5443"
+  },
+  {
+   "titulo": "MEF – Evaluación de impacto de Cuna Más",
+   "url": "https://www.mef.gob.pe/contenidos/presu_publ/ppr/eval_indep/informe_resultados_cuna_mas.pdf"
+  },
+  {
+   "titulo": "Cristia, Ibarrarán, Cueto, Santiago y Severín – Technology and Child Development: Evidence from the One Laptop per Child Program (IZA DP 6401)",
+   "url": "https://www.iza.org/en/publications/dp/6401"
+  }
+ ]
+}
