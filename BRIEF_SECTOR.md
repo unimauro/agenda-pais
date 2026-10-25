@@ -43,6 +43,14 @@ Estratégico de Desarrollo Nacional al 2050 (CEPLAN) y a data/plan2050_comisione
  "fuentes": [ {"titulo": "…", "url": "https://…"} ]
 }
 
+## Insumos opcionales (solo lectura, datos públicos ya procesados en otro repo de Carlos)
+- data/pedn_estructura.json (en este repo): objetivos nacionales, específicos y las 162 Acciones Estratégicas del PEDN 2050 de CEPLAN.
+  Agrega a cada acción el campo opcional "pedn": ["AE…"] con 1–2 códigos de AE que la acción contribuye a cumplir.
+- /Users/unimauro/Documents/Repos/plan-peru-2050/data/: programas_presupuestales.json (91 PP MEF 2026, PIM y devengado),
+  desarticulacion.json (matriz de articulación de 25 políticas nacionales, PESEM y PDRC con el PEDN), cartera_proyectos.json
+  (100 proyectos estratégicos propuestos), fisco_sectores.json (recaudación SUNAT por actividad), benchmark_internacional.json,
+  ley_32743.json y delegacion_facultades.json (delegación de facultades al Ejecutivo, oct-2026). Úsalos citando su fuente original.
+
 ## Reglas
 - Evidencia primero: INEI (ENDES, ENAHO, censos), MINSA/REUNIS, SUSALUD, MINEDU (ESCALE, ENLA/ECE), MEF (Consulta Amigable),
   CEPLAN, BCRP, Defensoría, Contraloría, OCDE, Banco Mundial, OMS/OPS, UNESCO, BID, CEPAL. Verifica cifras y URLs en la web;

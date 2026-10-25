@@ -138,3 +138,24 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
   .acc-in { padding-left: 0; } .acc dl { grid-template-columns: 1fr; } .acc dt { margin-top: 6px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Perú 2050 */
+.oe { border-bottom: 1px solid var(--regla); }
+.oe summary { display: grid; grid-template-columns: 70px 1fr auto; gap: 12px; padding: 12px 0; cursor: pointer; list-style: none; align-items: baseline; }
+.oe summary::-webkit-details-marker { display: none; }
+.aec { font-family: var(--display); font-weight: 700; color: var(--tinta2); font-size: 15px; }
+.oet { font-size: 17px; line-height: 1.35; } .oen { font-family: var(--display); font-size: 14px; color: var(--tinta2); white-space: nowrap; }
+.aes { list-style: none; padding: 0 0 14px; margin: 0; }
+.aes li { display: grid; grid-template-columns: 70px 1fr; gap: 2px 12px; padding: 8px 0; border-top: 1px dashed var(--regla); font-size: 15px; }
+.aet { line-height: 1.4; } .aea { grid-column: 2; display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--display); font-size: 14px; color: var(--tinta2); }
+.aes li.vacio .aet { color: var(--tinta2); } .aes li.vacio .aea { font-style: italic; }
+.mini { text-decoration: none; color: var(--tinta); font-weight: 700; }
+.aes li:target { background: var(--papel2); }
+/* Limpieza */
+.paq { border-bottom: 1px solid var(--regla); } .paq summary { display: flex; justify-content: space-between; gap: 10px; padding: 12px 0; cursor: pointer; font-family: var(--display); font-size: 19px; }
+.paq summary span { color: var(--tinta2); font-size: 15px; white-space: nowrap; } .paq > p { max-width: 46em; margin: 0 0 8px; }
+.normas { list-style: none; padding: 0 0 14px; margin: 0; } .normas li { padding: 10px 0; border-top: 1px dashed var(--regla); font-size: 16px; } .normas p { margin: 4px 0; max-width: 46em; }
+@media (max-width: 720px) { .oe summary, .aes li { grid-template-columns: 1fr; } .aea { grid-column: 1; } }
+
+.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 48px; } .dos h2 { margin-bottom: 8px; }
+@media (max-width: 720px) { .dos { grid-template-columns: 1fr; } }

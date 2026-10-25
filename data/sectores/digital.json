@@ -233,6 +233,10 @@
     }
    ],
    "depende_de": [],
+   "pedn": [
+    "AE4.3.1",
+    "AE3.5.1"
+   ],
    "riesgo": "Autonomía nominal sin plazas: si el MEF no habilita la meta presupuestal diferenciada, la ANPD seguirá sin capacidad de supervisar y la UE no reconocerá adecuación.",
    "fuentes": [
     {
@@ -337,6 +341,9 @@
    ],
    "depende_de": [
     "DIG-04"
+   ],
+   "pedn": [
+    "AE2.8.3"
    ],
    "riesgo": "Capacidad: una autoridad dentro de la PCM con rotación política y sin escala salarial competitiva puede no retener especialistas; las EPS de saneamiento y municipios pueden cumplir solo en papel.",
    "fuentes": [
@@ -454,6 +461,10 @@
     }
    ],
    "depende_de": [],
+   "pedn": [
+    "AE1.3.10",
+    "AE3.6.1"
+   ],
    "riesgo": "Declarar internet servicio esencial no tiende fibra: sin cartera financiada de última milla y sin fiscalización de las obligaciones de cobertura, la meta rural queda en papel.",
    "fuentes": [
     {
@@ -558,6 +569,10 @@
     "DIG-01",
     "DIG-11"
    ],
+   "pedn": [
+    "AE4.5.4",
+    "AE4.5.2"
+   ],
    "riesgo": "Si RENIEC, SUNARP y otros registros maestros no exponen servicios estables por la PIDE, la prohibición de pedir documentos será letra muerta; la billetera beneficiará primero a quien ya está incluido.",
    "fuentes": [
     {
@@ -660,6 +675,10 @@
    "depende_de": [
     "DIG-01",
     "DIG-04"
+   ],
+   "pedn": [
+    "AE3.7.3",
+    "AE3.4.1"
    ],
    "riesgo": "Captura y ejecución: si la 'negligencia grave' del usuario se interpreta ampliamente los reembolsos no llegan; los proveedores extranjeros sin domicilio quedan fuera del alcance del INDECOPI y de la SBS.",
    "fuentes": [
@@ -764,6 +783,10 @@
    "depende_de": [
     "DIG-24"
    ],
+   "pedn": [
+    "AE3.5.5",
+    "AE3.5.2"
+   ],
    "riesgo": "Una definición legal no crea capital: sin aportes al FCEI ni gestores con historial, la SACS flexible queda sin uso, como ocurrió con el DL 1409.",
    "fuentes": [
     {
@@ -867,6 +890,10 @@
    "depende_de": [
     "DIG-02"
    ],
+   "pedn": [
+    "AE2.8.5",
+    "AE3.3.14"
+   ],
    "riesgo": "Politización: un procedimiento con discrecionalidad de seguridad nacional puede disuadir inversión legítima sin detectar la riesgosa; el MINCETUR no tiene hoy peritos de doble uso.",
    "fuentes": [
     {
@@ -960,6 +987,10 @@
    "deroga_o_simplifica": [],
    "depende_de": [
     "DIG-02"
+   ],
+   "pedn": [
+    "AE4.4.1",
+    "AE1.5.2"
    ],
    "riesgo": "Más tipos penales sin peritos ni fiscales especializados no aumentan las condenas; las plataformas sin domicilio en el Perú pueden ignorar órdenes de retiro.",
    "fuentes": [
@@ -1055,6 +1086,10 @@
    "deroga_o_simplifica": [],
    "depende_de": [
     "DIG-01"
+   ],
+   "pedn": [
+    "AE3.2.2",
+    "AE3.2.10"
    ],
    "riesgo": "Con más del 70 % de informalidad y pocos inspectores con perfil técnico, la ley alcanzará sobre todo a grandes empleadores formales; la plataforma puede trasladar el costo del seguro al repartidor.",
    "fuentes": [
@@ -1152,6 +1187,10 @@
     }
    ],
    "depende_de": [],
+   "pedn": [
+    "AE3.4.2",
+    "AE3.7.2"
+   ],
    "riesgo": "Si la precompletada no es fiable por informalidad de proveedores, parte de los contribuyentes del RER puede migrar al Nuevo RUS o a la informalidad en vez de crecer.",
    "fuentes": [
     {
@@ -1245,6 +1284,10 @@
    "depende_de": [
     "DIG-17",
     "DIG-04"
+   ],
+   "pedn": [
+    "AE4.6.1",
+    "AE1.5.10"
    ],
    "riesgo": "En municipios sin internet estable ni personal técnico, un servicio en la nube no funciona; sin traductores certificados el catálogo en lenguas no se llena.",
    "fuentes": [
@@ -1342,6 +1385,10 @@
    "depende_de": [
     "DIG-04"
    ],
+   "pedn": [
+    "AE4.5.3",
+    "AE4.5.4"
+   ],
    "riesgo": "Si las áreas usuarias siguen redactando términos de referencia a medida y la Contraloría sanciona el piloto fallido, nadie usará estos instrumentos.",
    "fuentes": [
     {
@@ -1434,6 +1481,10 @@
    "indicador": "100 % de contrataciones del SEACE en OCDS diario (2028); 70 % de metas digitales en su valor anual esperado (2031); 100 % de ministerios con líder digital que cumple el perfil de SERVIR y permanencia media > 3 años.",
    "deroga_o_simplifica": [],
    "depende_de": [],
+   "pedn": [
+    "AE4.5.5",
+    "AE4.5.1"
+   ],
    "riesgo": "Una unidad de cumplimiento sin respaldo del presidente del Consejo de Ministros se vuelve otra oficina de reportes; publicar datos no corrige el registro tardío de las entidades.",
    "fuentes": [
     {
@@ -1506,6 +1557,10 @@
    "indicador": "100 % de votaciones de ambas cámaras en datos abiertos en 24 horas (2028); 100 % de dictámenes de leyes tecnológicas con nota técnica y evaluación de cláusula de revisión (2031).",
    "deroga_o_simplifica": [],
    "depende_de": [],
+   "pedn": [
+    "AE4.5.5",
+    "AE4.1.3"
+   ],
    "riesgo": "Depende de que los propios parlamentarios la voten; las notas técnicas no vinculantes cambian poco si las comisiones dictaminan sin leerlas.",
    "fuentes": [
     {
@@ -1593,6 +1648,10 @@
    "deroga_o_simplifica": [],
    "depende_de": [
     "DIG-17"
+   ],
+   "pedn": [
+    "AE1.1.2",
+    "AE3.2.10"
    ],
    "riesgo": "Sin docentes formados ni equipos y conectividad en escuelas rurales, el estándar se aprueba en Lima y no se enseña en el aula.",
    "fuentes": [
@@ -1691,6 +1750,10 @@
     "DIG-03",
     "DIG-06"
    ],
+   "pedn": [
+    "AE3.4.4",
+    "AE3.3.9"
+   ],
    "riesgo": "Sin asignación presupuestal multianual los bonos no existen; con salarios bajos y poco capital la MIPYME no invertirá en robots aunque los vea.",
    "fuentes": [
     {
@@ -1783,6 +1846,10 @@
    "depende_de": [
     "DIG-03"
    ],
+   "pedn": [
+    "AE1.3.10",
+    "AE1.3.8"
+   ],
    "riesgo": "Financiamiento: si el MEF no asigna el gasto recurrente de conectividad y mantenimiento de paneles, los sitios se apagan a los pocos años.",
    "fuentes": [
     {
@@ -1858,6 +1925,10 @@
    "depende_de": [
     "DIG-03",
     "DIG-24"
+   ],
+   "pedn": [
+    "AE3.5.3",
+    "AE4.2.1"
    ],
    "riesgo": "Sin proyecto de inversión aprobado y presupuesto de operación (energía, personal), el clúster no se compra o queda subutilizado.",
    "fuentes": [
@@ -1940,6 +2011,10 @@
     "DIG-17",
     "DIG-01",
     "DIG-02"
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.2.7"
    ],
    "riesgo": "La telesalud rural depende de que la posta tenga internet y electricidad (DIG-17); sin cientos de millones programados, la historia clínica seguirá fragmentada.",
    "fuentes": [
@@ -2030,6 +2105,10 @@
     "DIG-02",
     "DIG-25"
    ],
+   "pedn": [
+    "AE2.2.1",
+    "AE2.7.1"
+   ],
    "riesgo": "La alerta solo llega si hay sensores, sirenas y brigadas en el último kilómetro; los planes regionales sin presupuesto quedan en papel.",
    "fuentes": [
     {
@@ -2117,6 +2196,10 @@
    "deroga_o_simplifica": [],
    "depende_de": [
     "DIG-13"
+   ],
+   "pedn": [
+    "AE2.5.1",
+    "AE3.3.17"
    ],
    "riesgo": "Excluye la pequeña minería y la artesanal, donde está la mayor parte del daño ambiental; sin conectividad ni extensionistas, los datos no llegan al pequeño productor.",
    "fuentes": [
@@ -2214,6 +2297,10 @@
    "depende_de": [
     "DIG-13"
    ],
+   "pedn": [
+    "AE1.4.1",
+    "AE2.1.7"
+   ],
    "riesgo": "El recaudo único lleva años bloqueado por contratos con operadores; el transporte informal quedará fuera del mapa; el catastro falla por falta de personal municipal.",
    "fuentes": [
     {
@@ -2307,6 +2394,10 @@
    "depende_de": [
     "DIG-03"
    ],
+   "pedn": [
+    "AE2.6.5",
+    "AE3.3.21"
+   ],
    "riesgo": "Sin líneas de transmisión construidas a tiempo, las reglas de mercado no conectan nuevas centrales renovables ni atraen centros de datos.",
    "fuentes": [
     {
@@ -2380,6 +2471,10 @@
     "DIG-06",
     "DIG-18"
    ],
+   "pedn": [
+    "AE3.5.1",
+    "AE3.5.6"
+   ],
    "riesgo": "Una meta indicativa sin asignación se incumple sin consecuencia; la baja participación privada mantiene la dependencia del gasto público.",
    "fuentes": [
     {
@@ -2443,6 +2538,10 @@
     "DIG-06",
     "DIG-20"
    ],
+   "pedn": [
+    "AE3.5.4",
+    "AE2.7.1"
+   ],
    "riesgo": "Brecha de servicio: si el proyecto no se financia a tiempo, el país pierde capacidad propia y vuelve a comprar imágenes de forma dispersa.",
    "fuentes": [
     {
@@ -2505,6 +2604,10 @@
    "depende_de": [
     "DIG-03",
     "DIG-17"
+   ],
+   "pedn": [
+    "AE3.6.1",
+    "AE1.3.10"
    ],
    "riesgo": "Sostenibilidad: sin financiamiento de operación y mantenimiento y sin asequibilidad del servicio, las redes rurales se construyen y luego se apagan.",
    "fuentes": [

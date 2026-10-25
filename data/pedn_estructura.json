@@ -1,0 +1,1149 @@
+{
+  "fuente_urls": [
+    "https://peru2050.ceplan.gob.pe/sobre-el-pedn/",
+    "https://peru2050.ceplan.gob.pe/on-1-desarrollo-de-las-personas/",
+    "https://peru2050.ceplan.gob.pe/on-2-territorio-sostenible/",
+    "https://peru2050.ceplan.gob.pe/on-3-competitividad-e-innovacion/",
+    "https://peru2050.ceplan.gob.pe/on-4-democracia-y-paz/",
+    "https://cdn.www.gob.pe/uploads/document/file/8574273/4637571-tomo-i-plan-estrategico-de-desarrollo-nacional-al-2050.pdf",
+    "https://cdn.www.gob.pe/uploads/document/file/8574274/4637571-tomo-ii-indicadores-del-plan-estrategico-de-desarrollo-nacional-al-2050.pdf",
+    "https://www.gob.pe/institucion/ceplan/informes-publicaciones/4637571-peru-plan-estrategico-de-desarrollo-nacional-al-2050",
+    "https://indpedn2050.ceplan.gob.pe/"
+  ],
+  "objetivos_nacionales": [
+    {
+      "n": 1,
+      "texto": "Alcanzar el pleno desarrollo de las capacidades de las personas, sin dejar a nadie atrás."
+    },
+    {
+      "n": 2,
+      "texto": "Gestionar el territorio de manera sostenible a fin de prevenir y reducir los riesgos y amenazas que afectan a las personas y sus medios de vida, con el uso intensivo del conocimiento y las comunicaciones, reconociendo la diversidad geográfica y cultural, en un contexto de cambio climático."
+    },
+    {
+      "n": 3,
+      "texto": "Elevar los niveles de competitividad y productividad con empleo decente y en base al aprovechamiento sostenible de los recursos, el capital humano, el uso intensivo de la ciencia y tecnología, y la transformación digital del país."
+    },
+    {
+      "n": 4,
+      "texto": "Garantizar una sociedad justa, democrática, pacífica y un Estado efectivo al servicio de las personas, en base al diálogo, la concertación nacional y el fortalecimiento de las instituciones."
+    }
+  ],
+  "objetivos_especificos": [
+    {
+      "cod": "OE1.1",
+      "on": 1,
+      "texto": "Garantizar la formación educativa de calidad e inclusiva de las personas a partir de las competencias necesarias que le permitan realizar su proyecto de vida para su pleno desarrollo individual, social, cultural y productivo, que contribuya con el bienestar, competitividad y sostenibilidad del país con énfasis en el uso de las tecnologías educativas y digitales."
+    },
+    {
+      "cod": "OE1.2",
+      "on": 1,
+      "texto": "Reducir los niveles de mortalidad y morbilidad garantizando el acceso universal a la salud de la población, con énfasis en los grupos más vulnerables y que las personas adopten hábitos y estilos de vida saludables, impulsando la salud digital."
+    },
+    {
+      "cod": "OE1.3",
+      "on": 1,
+      "texto": "Asegurar una vivienda digna y accesible con servicios básicos adecuados, resilientes, seguros, asequibles, con conectividad y económicamente sostenibles, para todas las personas, especialmente las más vulnerables."
+    },
+    {
+      "cod": "OE1.4",
+      "on": 1,
+      "texto": "Reducir el tiempo, costo e inseguridad en el traslado de las personas en los entornos urbanos y rurales, mediante sistemas de transportes seguros, accesibles, conectados, de calidad y con sostenibilidad ambiental y social."
+    },
+    {
+      "cod": "OE1.5",
+      "on": 1,
+      "texto": "Garantizar la igualdad de oportunidades y la inclusión social de todas las personas: especialmente de las mujeres y los grupos vulnerables; así como el respeto y valoración a su diversidad cultural, étnica y de género."
+    },
+    {
+      "cod": "OE1.6",
+      "on": 1,
+      "texto": "Garantizar la mejora de la calidad de vida de las poblaciones de frontera a través de las instituciones y servicios a la población para un mejor aprovechamiento de las oportunidades de la integración fronteriza."
+    },
+    {
+      "cod": "OE2.1",
+      "on": 2,
+      "texto": "Gestionar el territorio nacional con visión estratégica e integral en todos los niveles, de tal manera que propicie el uso y la ocupación del territorio, y el manejo de los recursos naturales de manera adecuada y sostenible para el desarrollo humano."
+    },
+    {
+      "cod": "OE2.2",
+      "on": 2,
+      "texto": "Reducir la vulnerabilidad ante el riesgo de desastres, con énfasis en poblaciones vulnerables, en base a la comprensión del riesgo, la mejora del uso y ocupación del territorio y la atención y recuperación ante emergencias y desastres, en beneficio de la población y sus medios de vida."
+    },
+    {
+      "cod": "OE2.3",
+      "on": 2,
+      "texto": "Asegurar ciudades y centros poblados sostenibles, equitativos y competitivos para el pleno desarrollo de las personas."
+    },
+    {
+      "cod": "OE2.4",
+      "on": 2,
+      "texto": "Asegurar la sostenibilidad de los servicios ecosistémicos, mediante la gestión integrada de los recursos naturales y de los ecosistemas."
+    },
+    {
+      "cod": "OE2.5",
+      "on": 2,
+      "texto": "Garantizar la disponibilidad, calidad y sostenibilidad de los recursos hídricos en el país, mediante una gestión sostenible y eficiente, en un contexto de estrés hídrico."
+    },
+    {
+      "cod": "OE2.6",
+      "on": 2,
+      "texto": "Asegurar elevados niveles de calidad ambiental en el país, mediante una gestión adecuada de residuos sólidos, suelo, aire y aguas residuales, así como un estricto control y gobernanza ambiental."
+    },
+    {
+      "cod": "OE2.7",
+      "on": 2,
+      "texto": "Aumentar la resiliencia y adaptación de la población y sus medios de vida ante el cambio climático con énfasis en el tránsito hacia una economía baja en carbono y el monitoreo inteligente de fenómenos geológicos, hidro climáticos y glaciológicos y la planificación."
+    },
+    {
+      "cod": "OE2.8",
+      "on": 2,
+      "texto": "Garantizar la defensa de los intereses nacionales destinados a la paz y seguridad internacional."
+    },
+    {
+      "cod": "OE3.1",
+      "on": 3,
+      "texto": "Mantener la estabilidad macroeconómica del país como resultado de una política fiscal prudente y una política monetaria autónoma y predecible."
+    },
+    {
+      "cod": "OE3.2",
+      "on": 3,
+      "texto": "Incrementar los niveles de empleo decente, productivo y formal en el país, en base a la garantía de los derechos laborales de las y los trabajadores, y con énfasis en grupos en condición de vulnerabilidad y de especial protección. Y su adecuación a las tecnologías emergentes y el fortalecimiento del sistema inspectivo."
+    },
+    {
+      "cod": "OE3.3",
+      "on": 3,
+      "texto": "Elevar los niveles de competitividad y productividad de los sectores económicos, en base a la diversificación productiva, generación de valor agregado y la innovación tecnológica dentro de todos los sectores productivos, en el marco de una economía verde y baja en carbono y con el aprovechamiento de las tecnologías emergentes."
+    },
+    {
+      "cod": "OE3.4",
+      "on": 3,
+      "texto": "Elevar los niveles de desarrollo productivo y sostenible de las micro, pequeñas y medianas empresas, en base al fomento del emprendimiento, la creatividad y la innovación, el acceso a servicios financieros y a entornos digitales habilitantes."
+    },
+    {
+      "cod": "OE3.5",
+      "on": 3,
+      "texto": "Elevar la capacidad científica y de innovación tecnológica del país, en base a la investigación, creación, adaptación y transferencia tecnológica y científica, y el impulso al proceso nacional de transformación digital; favoreciendo la articulación entre la academia, el Estado, los sectores productivos y la Sociedad Civil."
+    },
+    {
+      "cod": "OE3.6",
+      "on": 3,
+      "texto": "Elevar la conectividad del país en todos los ámbitos económicos y sociales, a través de una infraestructura moderna, sostenible, resiliente y de calidad, con énfasis en el uso y aprovechamiento de las tecnologías digitales en todas la personas, así como la conectividad de las zonas rurales y de frontera."
+    },
+    {
+      "cod": "OE3.7",
+      "on": 3,
+      "texto": "Garantizar un mercado competitivo en el país, en base a una regulación ágil, eficiente y eficaz, con énfasis en la protección de los derechos de las y los consumidores, incluyendo el entorno digital y el ingreso libre de nuevos competidores."
+    },
+    {
+      "cod": "OE4.1",
+      "on": 4,
+      "texto": "Mejorar la institucionalidad democrática en la sociedad, mediante el fortalecimiento de la gobernabilidad y la participación política; asegurando la legitimidad y la consolidación de los partidos políticos y una cultura de diálogo y concertación, con el aprovechamiento de la tecnología digital."
+    },
+    {
+      "cod": "OE4.2",
+      "on": 4,
+      "texto": "Garantizar el ejercicio de los derechos culturales de la población, mediante la libre elección y la expresión de la identidad cultural; el acceso, participación y contribución a la vida cultural de la Nación."
+    },
+    {
+      "cod": "OE4.3",
+      "on": 4,
+      "texto": "Garantizar el acceso a la justicia para todas las personas, mediante un Sistema de Justicia eficaz, confiable, moderno, predecible y transparente, que asegure sus derechos haciendo uso de las tecnologías digitales."
+    },
+    {
+      "cod": "OE4.4",
+      "on": 4,
+      "texto": "Garantizar un adecuado funcionamiento de la institucionalidad política-jurídica-social en el país, mediante el uso intensivo de las tecnologías digitales y datos."
+    },
+    {
+      "cod": "OE4.5",
+      "on": 4,
+      "texto": "Garantizar intervenciones públicas de calidad que respondan de manera oportuna a las necesidades y expectativas de las personas, tomando en cuenta la heterogeneidad territorial, social, económica, cultural e intergeneracional del país, con énfasis en el fortalecimiento de la cultura de integridad y de lucha contra la corrupción, y la transformación digital."
+    },
+    {
+      "cod": "OE4.6",
+      "on": 4,
+      "texto": "Consolidar el proceso de descentralización del país y ordenamiento territorial."
+    }
+  ],
+  "acciones_estrategicas": [
+    {
+      "cod": "AE1.1.1",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Fortalecer el desarrollo de las competencias de los docentes, directivos, personal administrativo y auxiliares de educación, a través de la mejora de condiciones laborales y la formación continua pertinente y de calidad a lo largo de su trayectoria profesional, a partir de itinerarios formativos y comunidades profesionales de aprendizaje; según el contexto territorial, nivel y modelos de servicio de la educación básica regular."
+    },
+    {
+      "cod": "AE1.1.2",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Mejorar el desarrollo de las competencias de los estudiantes de la educación básica, en base a la atención de su diversidad, el uso de metodologías innovadoras y flexibles y las tecnologías de información y comunicación, así como el desarrollo de lineamientos curriculares basados en evidencias que, con el involucramiento de la comunidad educativa, les permitan desarrollar sus potencialidades, su empleabilidad y emprendimiento, así como el ejercicio de una ciudadanía basada en valores para el bienestar propio y de la comunidad, incluso en el entorno digital."
+    },
+    {
+      "cod": "AE1.1.3",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Mejorar el acceso y la culminación oportuna de la educación básica para una adecuada transitabilidad entre modalidades y etapas educativas de la población, a través de la provisión de servicios educativos flexibles con equidad, inclusión, pertinencia, calidad y oportunidad."
+    },
+    {
+      "cod": "AE1.1.4",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Fortalecer la gestión educativa de las instancias descentralizadas de la gestión pública, con orientación a la calidad del servicio educativo, con el aprovechamiento de las tecnologías digitales para la optimización de los aprendizajes de los estudiantes."
+    },
+    {
+      "cod": "AE1.1.5",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Alcanzar equidad en la educación superior y técnico - productiva, de tal manera que permita la formación de las personas en respuesta a las necesidades sociales, culturales y productivas del país, con énfasis en la investigación científica e innovación y el aprovechamiento de las tecnologías exponenciales."
+    },
+    {
+      "cod": "AE1.1.6",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Consolidar el aseguramiento de la calidad de cada alternativa formativa de la educación superior y técnico productiva, en todas sus modalidades, incluyendo la educación digital y con pertinencia regional"
+    },
+    {
+      "cod": "AE1.1.7",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Fortalecer las diferentes alternativas formativas de la educación superior y técnico productiva, diversificando la oferta educativa con pertinencia regional en todas sus modalidades, garantizando su calidad, orientación a los retos y avances del mundo digital y acceso a través de mecanismos de financiamiento adecuados."
+    },
+    {
+      "cod": "AE1.1.8",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Desarrollar competencias para una vida activa y saludable en los estudiantes de todos los niveles y modalidades, y en la población en general, a través de la actividad física, recreación y el deporte recreativo."
+    },
+    {
+      "cod": "AE1.1.9",
+      "oe": "OE1.1",
+      "on": 1,
+      "texto": "Mejorar el desempeño en torneos internacionales de los deportistas y paradeportistas de alta competencia."
+    },
+    {
+      "cod": "AE1.2.1",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Elevar la adopción de hábitos, conductas y estilos de vida saludables, alimentación nutricional, de manera progresiva y extendida en toda la población; mediante practicas educativas, la detección e intervención precoz sobre factores de riesgo, las enfermedades y daños, con énfasis en las prioridades nacionales."
+    },
+    {
+      "cod": "AE1.2.2",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Asegurar la detección oportuna de las distintas enfermedades causantes de la morbilidad en el país, mediante la implementación de laboratorios regionales y la incorporación de nuevas pruebas diagnósticas en el lugar de la atención y para el autotesteo, garantizando los recursos presupuestales y logísticos."
+    },
+    {
+      "cod": "AE1.2.3",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Alcanzar el acceso universal y equitativo a cuidados y atenciones de salud integrales y de calidad por curso de vida, centrados en la persona, familia y comunidad en el marco del Aseguramiento Universal de Salud, y en base a redes integradas de salud con capacidad resolutiva suficiente e interconectados tecnológicamente; y la participación de los agentes comunitarios, con especial énfasis en el primer nivel de atención."
+    },
+    {
+      "cod": "AE1.2.4",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Garantizar el ejercicio de los derechos a la salud sexual y reproductiva de las mujeres, en base a una educación sexual integral en el sistema educativo, y la ampliación y mejora de servicios especializados, con especial atención en las adolescentes."
+    },
+    {
+      "cod": "AE1.2.5",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Asegurar una adecuada atención a la salud mental, con pertinencia cultural y en todo el territorio, en base al autocuidado y el cuidado mutuo comunitario."
+    },
+    {
+      "cod": "AE1.2.6",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Mejorar las condiciones de vida de la población, con énfasis en el abordaje de los factores del entorno que generan vulnerabilidad y riesgos a la salud mediante acciones intersectoriales e intergubernamentales."
+    },
+    {
+      "cod": "AE1.2.7",
+      "oe": "OE1.2",
+      "on": 1,
+      "texto": "Mejorar los niveles de articulación de los actores intersectoriales e intergubernamentales, con una organización eficiente de los recursos y orientación a una cobertura y acceso universal a los servicios de salud, y la acción multisectorial sobre los determinantes sociales de la salud."
+    },
+    {
+      "cod": "AE1.3.1",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Ampliar el acceso a servicios de saneamiento de calidad a la población del ámbito rural, con especial atención a las poblaciones vulnerables, y con la garantía de un acceso al agua segura y una adecuada disposición sanitaria de las excretas."
+    },
+    {
+      "cod": "AE1.3.2",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Ampliar el acceso a los servicios de saneamiento de calidad a la población del ámbito urbano, con especial atención a las poblaciones vulnerables, y con la garantía de un acceso al agua segura y una adecuada disposición de excretas."
+    },
+    {
+      "cod": "AE1.3.3",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Garantizar la independencia financiera y la sostenibilidad operativa de los prestadores de servicios de saneamiento en el ámbito rural, con tarifas adecuadas que no afecten a la población en situación de pobreza y extrema pobreza."
+    },
+    {
+      "cod": "AE1.3.4",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Garantizar la independencia financiera, la sostenibilidad operativa y gestión empresarial de los prestadores de servicios de saneamiento en el ámbito urbano, con tarifas adecuadas que no afecten a la población en situación de pobreza y extrema pobreza."
+    },
+    {
+      "cod": "AE1.3.5",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Mejorar los niveles de articulación de los actores involucrados de los ámbitos públicos, privados y comunitarios en el territorio para una adecuada gestión de los servicios de saneamiento."
+    },
+    {
+      "cod": "AE1.3.6",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Alcanzar una cultura ciudadana orientada a la valoración y el uso responsable y sostenible de los servicios de saneamiento, en la población a nivel nacional."
+    },
+    {
+      "cod": "AE1.3.7",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Asegurar una vivienda digna, resiliente y accesible, en base a la diversidad del territorio, las necesidades locales y condiciones sociales y culturales; para todas las personas, especialmente las más vulnerables."
+    },
+    {
+      "cod": "AE1.3.8",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Garantizar el acceso universal a los servicios de electricidad, gas y a otras fuentes de energía, según su pertinencia a nivel nacional, y de manera segura, accesible y sostenible, con especial atención a las poblaciones rurales."
+    },
+    {
+      "cod": "AE1.3.9",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Reducir el consumo promedio de energía eléctrica en las viviendas del sector urbano y rural, mediante el uso de electrodomésticos que sean energéticamente eficientes."
+    },
+    {
+      "cod": "AE1.3.10",
+      "oe": "OE1.3",
+      "on": 1,
+      "texto": "Impulsar acciones integrales para garantizar la conectividad digital universal móvil y fija, y otros medios de comunicación para las personas a nivel nacional, con un ancho de banda e infraestructuras adecuadas, y con especial atención a las poblaciones rurales y periurbanas."
+    },
+    {
+      "cod": "AE1.4.1",
+      "oe": "OE1.4",
+      "on": 1,
+      "texto": "Desarrollar sistemas integrados de transporte urbano sostenibles y seguros, bajo el concepto de multimodalidad de los desplazamientos en las ciudades y el enfoque de ciudades inteligentes."
+    },
+    {
+      "cod": "AE1.4.2",
+      "oe": "OE1.4",
+      "on": 1,
+      "texto": "Desarrollar sistemas de transporte interurbano público eficaces y seguros considerando los avances digitales de las tecnologías de transporte inteligente para el desplazamiento de las personas."
+    },
+    {
+      "cod": "AE1.5.1",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Reducir la desigualdad de género que afecta a las mujeres y la discriminación hacia las personas adultas mayores, personas con discapacidad, los integrantes del grupo familiar en su diversidad, población desplazada y migrantes internos."
+    },
+    {
+      "cod": "AE1.5.2",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Reducir todas las formas de violencia hacia las mujeres, niñas, niños y adolescentes; personas adultas mayores y personas con discapacidad; en base a mecanismos de prevención y protección más efectivos, el aprovechamiento de tecnologías digitales, así como la promoción de los principios de igualdad y no discriminación en el sistema educativo."
+    },
+    {
+      "cod": "AE1.5.3",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Elevar los niveles de participación social y política de las mujeres, personas adultas mayores, personas con discapacidad, población desplazada y migrantes internos promoviendo y aprovechando el uso de los canales digitales."
+    },
+    {
+      "cod": "AE1.5.4",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Lograr que las niñas y los niños tengan un peso igual o mayor a 2,500 gramos al momento de nacer y que su edad gestacional fluctúe entre las 37 y 41 semanas."
+    },
+    {
+      "cod": "AE1.5.5",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Fortalecer el vínculo afectivo entre la niña o el niño con su madre o un adulto significativo, de manera tal que a los 12 meses las niñas y los niños exhiban un apego seguro."
+    },
+    {
+      "cod": "AE1.5.6",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Preservar el buen estado de salud nutricional de las niñas y los niños durante los primeros 60 meses de vida, de tal modo que se eviten las deficiencias de micronutrientes en los primeros 24 meses y la desnutrición crónica antes de los 36 meses."
+    },
+    {
+      "cod": "AE1.5.7",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Favorecer el inicio y el logro en los niños y las niñas de cada uno de los hitos de la trayectoria del desarrollo en los ámbitos comunicacional, motor emocional y cognitivo, de acuerdo con su edad."
+    },
+    {
+      "cod": "AE1.5.8",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Alcanzar una sostenibilidad económica básica de los hogares en las zonas de pobreza y pobreza extrema, a través de políticas y programas multisectoriales incorporando los avances de la economía digital, dirigido a las personas en edad de trabajar"
+    },
+    {
+      "cod": "AE1.5.9",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Garantizar la sostenibilidad económica básica de la población adulta mayor en situación de vulnerabilidad, a través de un adecuado sistema previsional no contributivo."
+    },
+    {
+      "cod": "AE1.5.10",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Reducir la discriminación étnico-racial hacia la población que se considera parte o pertenece a un pueblo indígena u originario, o al pueblo afroperuano."
+    },
+    {
+      "cod": "AE1.5.11",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Asegurar el ejercicio de los derechos del pueblo afroperuano y de los pueblos indígenas u originarios para garantizar su acceso a servicios públicos de calidad con pertinencia cultural y lingüística, que respondan a sus características culturales, sociales y económicas."
+    },
+    {
+      "cod": "AE1.5.12",
+      "oe": "OE1.5",
+      "on": 1,
+      "texto": "Garantizar la identificación y el registro civil de toda la población, mediante la implementación en el territorio de servicios digitales eficientes y con enfoque intercultural."
+    },
+    {
+      "cod": "AE1.6.1",
+      "oe": "OE1.6",
+      "on": 1,
+      "texto": "Asegurar el desarrollo de capacidades y competencias de la población de frontera a través de servicios básicos de calidad, con infraestructuras adecuadas a su realidad y con pertinencia cultural, para el aprovechamiento de oportunidades de la integración fronteriza."
+    },
+    {
+      "cod": "AE2.1.1",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Institucionalizar y regular el Ordenamiento Territorial y el Sistema Funcional de Ordenamiento Territorial"
+    },
+    {
+      "cod": "AE2.1.2",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Establecer los mecanismos del Gobierno digital para la coordinación multisectorial y la toma de decisiones en el territorio con alertas sobre superposiciones de uso conflictivas e insostenibles, priorizando el bien común y los enfoques propuestos en los planes y política de ordenamiento territorial."
+    },
+    {
+      "cod": "AE2.1.3",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Fortalecer el ordenamiento territorial y la planificación urbana articulando a los tres niveles de Gobierno y a todos los sectores involucrados mediante un sistema unificado de ordenamiento territorial y el uso intensivo de datos geoespaciales."
+    },
+    {
+      "cod": "AE2.1.4",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Implementar intervenciones integrales en la gestión pública con enfoque de Ordenamiento Territorial que compatibilice el uso y ocupación del territorio evitando conflictos socioambientales."
+    },
+    {
+      "cod": "AE2.1.5",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Promover el ordenamiento forestal a nivel nacional."
+    },
+    {
+      "cod": "AE2.1.6",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Promover el desarrollo de actividades productivas sostenibles con base en la diversidad biológica y los servicios ecosistémicos."
+    },
+    {
+      "cod": "AE2.1.7",
+      "oe": "OE2.1",
+      "on": 2,
+      "texto": "Alcanzar el ordenamiento de los centros poblados urbanos y rurales, mediante la planificación y gestión urbana y territorial que articulen espacialmente la ocupación del territorio, asegurando su sostenibilidad, resiliencia e inclusión social."
+    },
+    {
+      "cod": "AE2.2.1",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Incrementar el conocimiento del riesgo de desastres en los tomadores de decisiones."
+    },
+    {
+      "cod": "AE2.2.2",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Adecuar las condiciones de ocupación del territorio con enfoque de GRD adecuadas para la población."
+    },
+    {
+      "cod": "AE2.2.3",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Articular la gestión del riesgo de desastres a la planificación y gestión urbana y territorial, con énfasis en el uso de tecnologías digitales y datos."
+    },
+    {
+      "cod": "AE2.2.4",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Incorporar la gestión del riesgo de desastres en los proyectos de inversión pública y privada."
+    },
+    {
+      "cod": "AE2.2.5",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Atención oportuna ante la ocurrencia de emergencias y desastres a la población afectada y damnificada."
+    },
+    {
+      "cod": "AE2.2.6",
+      "oe": "OE2.2",
+      "on": 2,
+      "texto": "Recuperar oportunamente ante emergencias y desastres a la población afectada y damnificada, así como sus medios de vida."
+    },
+    {
+      "cod": "AE2.3.1",
+      "oe": "OE2.3",
+      "on": 2,
+      "texto": "Asegurar la construcción de edificaciones que permitan ciudades seguras, accesibles y sostenibles, en base a una regulación adecuada, investigación e innovación tecnológica y transformación digital."
+    },
+    {
+      "cod": "AE2.3.2",
+      "oe": "OE2.3",
+      "on": 2,
+      "texto": "Asegurar sistemas de movilidad sostenible con espacios públicos abiertos y equipamientos públicos de calidad, considerando los avances digitales de ciudades resilientes y sostenibles con un enfoque de accesibilidad universal."
+    },
+    {
+      "cod": "AE2.4.1",
+      "oe": "OE2.4",
+      "on": 2,
+      "texto": "Mejorar la provisión de servicios ecosistémicos implementando acciones de conservación, protección y recuperación de los ecosistemas con el fin de recuperar su capacidad de producción de bienes y servicios para beneficio de la población."
+    },
+    {
+      "cod": "AE2.5.1",
+      "oe": "OE2.5",
+      "on": 2,
+      "texto": "Asegurar la disponibilidad y sostenibilidad de las fuentes de recursos hídricos, mediante una gestión integrada, una articulación efectiva, el control, vigilancia y fiscalización de los sectores y niveles de Gobierno involucrados en beneficio de la población."
+    },
+    {
+      "cod": "AE2.5.2",
+      "oe": "OE2.5",
+      "on": 2,
+      "texto": "Incrementar la eficiencia en el uso del agua de riego, mediante la siembra y cosecha de agua e infraestructuras de riego adecuadas y la asistencia técnica a la junta de usuarios y otros actores, en favor de los productores agrarios y sus organizaciones."
+    },
+    {
+      "cod": "AE2.6.1",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Mejorar la gestión de los pasivos ambientales, eléctricos, mineros y de hidrocarburos, que afectan la calidad ambiental, en base a mecanismos de prevención y remediación efectivos."
+    },
+    {
+      "cod": "AE2.6.2",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Mejorar los sistemas de tratamiento y gestión integral de los residuos sólidos y aguas residuales, mediante un servicio eficiente, con interoperabilidad y un uso adecuado de tecnologías, analítica de datos y el uso intensivo de tecnologías digitales."
+    },
+    {
+      "cod": "AE2.6.3",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Fortalecer la educación ambiental de la ciudadanía para el adecuado manejo de los residuos sólidos generados."
+    },
+    {
+      "cod": "AE2.6.4",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Reducir la emisión de gases de efecto invernadero en todas las actividades económicas, mediante acciones que enfrentan el cambio climático."
+    },
+    {
+      "cod": "AE2.6.5",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Promover las inversiones en el sistema eléctrico nacional, con energías renovables, para fortalecer su resiliencia y capacidad de transmisión eléctrica a nivel nacional."
+    },
+    {
+      "cod": "AE2.6.6",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Mejorar la efectividad del control ambiental mediante la certificación, evaluación, supervisión y fiscalización de las entidades para el cumplimiento de las normas ambientales, con abordaje multiactor y multinivel."
+    },
+    {
+      "cod": "AE2.6.7",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Reducir la contaminación atmosférica, para mejorar la calidad de vida de los ciudadanos, con énfasis en el aprovechamiento de tecnologías emergentes."
+    },
+    {
+      "cod": "AE2.6.8",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Reducir la contaminación de aguas marinas y continentales, de tal manera que se evite la disminución de los bienes y servicios ecosistémicos."
+    },
+    {
+      "cod": "AE2.6.9",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Reducir la contaminación de los suelos, contemplando la conservación de los hábitats adecuados para la vida en las ciudades y las áreas rurales."
+    },
+    {
+      "cod": "AE2.6.10",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Garantizar la gestión del Sistema Nacional de Gestión Ambiental (SNGA) de manera integral, permanente y articulada, en beneficio de las entidades de Gobierno nacional y regional."
+    },
+    {
+      "cod": "AE2.6.11",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Fortalecer la institucionalidad ambiental y la gestión ambiental de manera descentralizada en los tres niveles de Gobierno"
+    },
+    {
+      "cod": "AE2.6.12",
+      "oe": "OE2.6",
+      "on": 2,
+      "texto": "Optimizar la gestión de la Declaratoria de Emergencia Ambiental -DEA en aquellos territorios donde ocurra un evento súbito y significativo que afecte la calidad ambiental, la salud de las personas o los ecosistemas, asegurando los recursos logísticos y tecnológicos necesarios y la acción multinivel y multisectorial."
+    },
+    {
+      "cod": "AE2.7.1",
+      "oe": "OE2.7",
+      "on": 2,
+      "texto": "Elevar la disponibilidad de información estratégica en materia geológica, hidrológica, meteorológica y glaciológica, con oportunidad y calidad, para la prevención de afectaciones por el cambio climático en los territorios más vulnerables."
+    },
+    {
+      "cod": "AE2.7.2",
+      "oe": "OE2.7",
+      "on": 2,
+      "texto": "Reducir la vulnerabilidad ante los peligros asociados al cambio climático en zonas agrarias y otros ámbitos de los sectores económicos y sociales del país, con énfasis en el uso de dato y tecnologías digitales."
+    },
+    {
+      "cod": "AE2.7.3",
+      "oe": "OE2.7",
+      "on": 2,
+      "texto": "Alcanzar bajos niveles de emisiones de gases de efecto invernadero (GEI) en el país, en cumplimiento de las contribuciones nacionales determinadas (NDC), su estrategia de implementación y sus mecanismos inteligentes de monitoreo."
+    },
+    {
+      "cod": "AE2.8.1",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Asegurar la articulación de los componentes del sistema a nivel nacional destinada a la respuesta integral del Estado frente a las amenazas a la Seguridad Nacional, priorizando el funcionamiento de una estructura sistémica que fortalezca las capacidades de coordinación, planeamiento y de gestión pública por resultados."
+    },
+    {
+      "cod": "AE2.8.2",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Ejercer la protección efectiva del territorio de la República con énfasis en los espacios nacionales más vulnerables a las amenazas a la Seguridad Nacional."
+    },
+    {
+      "cod": "AE2.8.3",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Garantizar el uso, desarrollo y gestión del entorno digital o ciberespacio frente a los riesgos que afectan la seguridad y confianza de las personas, la prosperidad económica y social, la seguridad nacional y los objetivos nacionales con énfasis en el fortalecimiento de la capacidad de coordinación de los actores competentes."
+    },
+    {
+      "cod": "AE2.8.4",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Alcanzar una cultura de paz, seguridad nacional y afirmación de la identidad nacional en la sociedad peruana."
+    },
+    {
+      "cod": "AE2.8.5",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Reducir la dependencia tecnológica con el exterior en materia de Seguridad y Defensa Nacional, priorizando la investigación, el desarrollo tecnológico y la innovación en forma sostenida en coordinación con los actores competentes."
+    },
+    {
+      "cod": "AE2.8.6",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Alcanzar un nivel de disuasión con capacidad de respuesta eficaz, en particular para las Fuerzas Armadas, destinado a la defensa de la soberanía e integridad territorial y la protección de la población y el territorio frente a los conflictos o amenazas a la Seguridad Nacional."
+    },
+    {
+      "cod": "AE2.8.7",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Contribuir a un clima de paz y seguridad internacional en el ámbito subregional, regional y global mediante la implementación de los mecanismos de integración y cooperación en materia de Seguridad y Defensa Nacional en forma sostenida."
+    },
+    {
+      "cod": "AE2.8.8",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Alcanzar una política exterior responsable, innovadora y constructiva, garantizando la defensa de los intereses nacionales para la mejora de la calidad de vida de su población."
+    },
+    {
+      "cod": "AE2.8.9",
+      "oe": "OE2.8",
+      "on": 2,
+      "texto": "Cautelar los intereses y derechos del Perú en la Región Antártica en el marco del Tratado Antártico, sus instrumentos complementarios y conexos, con énfasis en las campañas científicas a la Antártida."
+    },
+    {
+      "cod": "AE3.1.1",
+      "oe": "OE3.1",
+      "on": 3,
+      "texto": "Garantizar la autonomía de la política monetaria, en base a un manejo adecuado de las reservas internacionales netas y los instrumentos de política, asegurando la sostenibilidad de la balanza de pagos del país."
+    },
+    {
+      "cod": "AE3.1.2",
+      "oe": "OE3.1",
+      "on": 3,
+      "texto": "Asegurar la sostenibilidad fiscal, mediante la predictibilidad del gasto público y el manejo responsable, transparente y predecible de las finanzas públicas."
+    },
+    {
+      "cod": "AE3.2.1",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Impulsar la generación de empleos formales, en base a incentivos para la formalización, el aseguramiento de su continuidad, el apoyo a empresas establecidas y en estadios iniciales, así como el desarrollo de sus capacidades de gestión, innovación y absorción tecnológica y transformación digital."
+    },
+    {
+      "cod": "AE3.2.2",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Ampliar la protección social de los trabajadores, con mecanismos y alternativas de aseguramiento en salud y cobertura de pensiones en base a la promoción, la difusión y la mejora de la regulación."
+    },
+    {
+      "cod": "AE3.2.3",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Alcanzar altos niveles de seguridad y salud en el trabajo, mediante una cultura de prevención de riesgos en el entorno laboral, incluyendo en el ámbito digital, la ampliación del aseguramiento frente a los riesgos laborales y la mejora de la efectividad de la acción inspectiva."
+    },
+    {
+      "cod": "AE3.2.4",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Disminuir los conflictos entre los actores laborales mediante una adecuada gestión y promoción de los derechos de negociación colectiva y sindicación de los trabajadores, así como el fomento del diálogo social."
+    },
+    {
+      "cod": "AE3.2.5",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Asegurar la igualdad de condiciones para el ejercicio de los derechos fundamentales laborales de los trabajadores, con énfasis en las mujeres y los grupos en condición de vulnerabilidad y de especial protección, para su acceso, permanencia y salida del mercado laboral."
+    },
+    {
+      "cod": "AE3.2.6",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Erradicar el trabajo forzoso y el trabajo infantil en el país."
+    },
+    {
+      "cod": "AE3.2.7",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Alcanzar elevados niveles de adecuación laboral, mediante una eficiente intermediación laboral, el uso de las tecnologías digitales, con articulación territorial, de tal manera que se alcance eficiencia en el mercado laboral."
+    },
+    {
+      "cod": "AE3.2.8",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Incrementar los niveles de inserción laboral de la población en búsqueda de empleo, a partir del fortalecimiento de los mecanismos de promoción del empleo y el fortalecimiento del talento digital en las personas."
+    },
+    {
+      "cod": "AE3.2.9",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Incrementar el autoempleo productivo mediante el desarrollo de las capacidades empresariales y de emprendimiento de las personas, así como el desarrollo técnico, productivo y tecnológico de los negocios."
+    },
+    {
+      "cod": "AE3.2.10",
+      "oe": "OE3.2",
+      "on": 3,
+      "texto": "Elevar el desarrollo de las competencias laborales, incluyendo el talento digital de la población en edad de trabajar, de tal manera que favorezca su inserción en el mercado laboral."
+    },
+    {
+      "cod": "AE3.3.1",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Asegurar el manejo sostenible de los recursos hídricos para la agricultura, mediante el acceso a las tecnologías de riego tecnificado, el desarrollo de los proyectos de infraestructura agraria y el mejoramiento de la infraestructura de las juntas de usuarios."
+    },
+    {
+      "cod": "AE3.3.2",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Asegurar el uso eficiente de los suelos agrarios, a través de una adecuada gestión y el uso de la información de las capacidades de los suelos, de tal manera que permita evitar su degradación."
+    },
+    {
+      "cod": "AE3.3.3",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Mejorar las capacidades comerciales y productivas de los productores agrarios, con énfasis en la adopción de buenas prácticas agrícolas y la integración vertical de la agricultura familiar y empresarial, bajo el enfoque territorial y de cadena de valor que promuevan la seguridad alimentaria y nutricional."
+    },
+    {
+      "cod": "AE3.3.4",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Garantizar la inserción al mercado de la producción agrícola, en base a la promoción de la asociatividad y la adopción de prácticas de gestión empresarial, y mejoras de su conectividad, con énfasis en la agricultura familiar."
+    },
+    {
+      "cod": "AE3.3.5",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Aumentar los niveles de innovación agraria y tecnificación entre los productores, en base a un trabajo colaborativo entre universidades, gremios y Estado; y la transferencia de tecnologías en línea con las demandas identificadas por la industria."
+    },
+    {
+      "cod": "AE3.3.6",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Elevar los niveles de inocuidad de los alimentos agropecuarios de producción y procesamiento, dentro de la cadena agroalimentaria, en base a una eficaz gestión sanitaria."
+    },
+    {
+      "cod": "AE3.3.7",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Elevar la disponibilidad de información sanitaria de los alimentos agropecuarios primarios y piensos, de forma confiable y oportuna para los consumidores."
+    },
+    {
+      "cod": "AE3.3.8",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Garantizar el uso sostenible de los recursos hidrobiológicos a través de las actividades económicas de pesca y acuicultura, basado en el ordenamiento, equidad y resiliencia, una adaptación oportuna al cambio climático y contribuyendo con la seguridad alimentaria de la población."
+    },
+    {
+      "cod": "AE3.3.9",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Incrementar la complejidad y el valor agregado de los productos de las empresas del sector manufacturero, en base a la mejora de la investigación, desarrollo e innovación tecnológica, para su articulación a las cadenas globales de valor."
+    },
+    {
+      "cod": "AE3.3.10",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Incrementar la infraestructura productiva, mediante la inversión pública y privada en parques industriales, infraestructura y servicios complementarios, de conformidad con las características y tamaño de las empresas."
+    },
+    {
+      "cod": "AE3.3.11",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Alcanzar una producción industrial sostenible, bajo los principios de la economía verde y circular, en base al aprovechamiento del material de descarte y residuos industriales, prácticas ecoeficientes, la eliminación del uso de materiales tóxicos y emisión de residuos contaminantes, con énfasis en la promoción de un consumo sostenible e incentivos a las industrias verdes."
+    },
+    {
+      "cod": "AE3.3.12",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Elevar el uso de estándares de calidad en los productos y servicios para personas; así como en los procesos de las entidades públicas y privadas."
+    },
+    {
+      "cod": "AE3.3.13",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Profundizar la internacionalización de empresas, en base a un marco normativo moderno que posicione a la oferta exportable en mercados internacionales, la inserción en cadenas globales de valor y el desarrollo de inteligencia comercial."
+    },
+    {
+      "cod": "AE3.3.14",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Incrementar las exportaciones de bienes y servicios con valor agregado, mediante el desarrollo de negocios de exportación, la diversificación de la oferta exportable y la generación de un entorno favorable para las inversiones."
+    },
+    {
+      "cod": "AE3.3.15",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Consolidar un turismo competitivo, sostenible, de calidad y seguro en el país, en base a su posicionamiento como destino global, la ampliación y diversificación de la oferta y la revalorización del potencial turístico en todo el territorio."
+    },
+    {
+      "cod": "AE3.3.16",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Elevar la inversión minera en el país, en base a un marco normativo moderno, claro, eficiente, estable y predecible, que agilice y estimule las actividades de exploración, explotación y beneficio de los recursos minerales, con énfasis en la investigación, desarrollo, e innovación en toda la cadena de valor minera."
+    },
+    {
+      "cod": "AE3.3.17",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Asegurar la sostenibilidad ambiental de la actividad minera, en base al uso de elevados estándares ambientales y sociales, la remediación de los pasivos ambientales, y una evaluación y fiscalización efectivos y eficientes, que permita utilizar los recursos naturales de forma sostenible y sin afectación de los ecosistemas."
+    },
+    {
+      "cod": "AE3.3.18",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Incorporar a la pequeña minería y minería artesanal dentro de las cadenas productivas mineras formales de manera sostenible y responsable con el medio ambiente, Estado y sociedad, promoviendo su tecnificación, diversificación productiva y la creación de clústeres y eslabonamientos productivos."
+    },
+    {
+      "cod": "AE3.3.19",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Erradicar la minería ilegal en todas sus formas, mediante la acción coordinada del gobierno nacional, regional y local."
+    },
+    {
+      "cod": "AE3.3.20",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Asegurar el uso sostenible de la energía, en base a tecnologías eficientes, la generación, exportación e ingreso de recursos energéticos renovables; y la implementación de sistemas de gestión de la energía y estándares mínimos de eficiencia energética (MEPS) en las actividades productivas."
+    },
+    {
+      "cod": "AE3.3.21",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Alcanzar una matriz energética sostenible, segura, diversificada, y con eficiencia económica, en base a una planificación energética integrada y el uso intensivo y eficiente de fuentes de energía renovables convencionales y no convencionales."
+    },
+    {
+      "cod": "AE3.3.22",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Elevar el uso de fuentes energéticas limpias y sostenibles en el sector transporte, de tal manera que permita la migración gradual del parque automotor existente hacia uno moderno y ambientalmente sostenible."
+    },
+    {
+      "cod": "AE3.3.23",
+      "oe": "OE3.3",
+      "on": 3,
+      "texto": "Impulsar la adopción y transferencia de tecnologías energéticamente eficientes, en base al trabajo colaborativo del sector productivo, las universidades e institutos de investigación."
+    },
+    {
+      "cod": "AE3.4.1",
+      "oe": "OE3.4",
+      "on": 3,
+      "texto": "Asegurar la inclusión financiera de las micro, pequeñas y medianas empresas a través de facilidades para su financiamiento; la promoción, acompañamiento y educación financiera, incluyendo los pagos digitales y el impulso al comercio electrónico"
+    },
+    {
+      "cod": "AE3.4.2",
+      "oe": "OE3.4",
+      "on": 3,
+      "texto": "Incrementar la formalidad de las micro, pequeñas y medianas empresas para su crecimiento y sostenibilidad, mediante esquemas de incentivos y promoción de la formalidad y una regulación eficiente."
+    },
+    {
+      "cod": "AE3.4.3",
+      "oe": "OE3.4",
+      "on": 3,
+      "texto": "Elevar la articulación productiva y comercial de las micro, pequeñas y medianas empresas, en base a los clústeres productivos, el uso de servicios financieros públicos y privados y diferentes mecanismos de asociatividad y el impulso de la economía digital"
+    },
+    {
+      "cod": "AE3.4.4",
+      "oe": "OE3.4",
+      "on": 3,
+      "texto": "Elevar las capacidades productivas y tecnológicas de las micro, pequeñas y medianas empresas, en base a servicios de innovación, digitalización, transferencias tecnológicas y financiamiento de emprendimientos de iniciativas creativas y emprendimiento de base tecnológica, con énfasis en la creación de habilidades empresariales, digitales y de gestión"
+    },
+    {
+      "cod": "AE3.5.1",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Incrementar los niveles de investigación, desarrollo e innovación en el país, que respondan a los desafíos sociales y productivos de los diferentes territorios mediante intervenciones sostenibles que vinculen a la academia, las universidades, Estado, empresa y sociedad."
+    },
+    {
+      "cod": "AE3.5.2",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Incrementar los niveles de transferencias tecnológicas hacia las empresas y el Estado, desde la academia, universidades, institutos y centros de investigación e innovación y redes nacionales e internacionales de conocimiento."
+    },
+    {
+      "cod": "AE3.5.3",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Elevar la disponibilidad y capacidad del capital humano y físico para la investigación, innovación, absorción tecnológica orientando el talento humano hacia tecnologías emergentes."
+    },
+    {
+      "cod": "AE3.5.4",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Promover el desarrollo y sostenibilidad de programas en ciencia, tecnología e innovación tecnológica en los ámbitos espacial, cartográfico, aeronáutico e hidrográfico."
+    },
+    {
+      "cod": "AE3.5.5",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Elevar la investigación, desarrollo e innovación y el emprendimiento dentro de las empresas, en base a mecanismos de incentivos y mejora de la regulación."
+    },
+    {
+      "cod": "AE3.5.6",
+      "oe": "OE3.5",
+      "on": 3,
+      "texto": "Mejorar la institucionalidad pública y privada en materia de ciencia tecnología e innovación y en transformación digital, en base a un marco normativo y regulatorio eficiente, con sistemas de información y adecuados mecanismos de monitoreo y evaluación, y de divulgación científica."
+    },
+    {
+      "cod": "AE3.6.1",
+      "oe": "OE3.6",
+      "on": 3,
+      "texto": "Consolidar el desarrollo y el aprovechamiento de la conectividad digital a nivel territorial, y el acceso a una canasta básica digital, procurando su alineamiento a los intereses del país."
+    },
+    {
+      "cod": "AE3.6.2",
+      "oe": "OE3.6",
+      "on": 3,
+      "texto": "Mejorar la infraestructura de transporte, con énfasis en la integración de los centros de producción regionales, los corredores económicos y las vinculaciones a los mercados internacionales; y la incorporación de tecnologías de transporte inteligente."
+    },
+    {
+      "cod": "AE3.6.3",
+      "oe": "OE3.6",
+      "on": 3,
+      "texto": "Mejorar la efectividad del sistema de transporte de carga para las necesidades de las actividades productivas, de tal manera que se reduzcan los tiempos de viaje y los costos logísticos."
+    },
+    {
+      "cod": "AE3.6.4",
+      "oe": "OE3.6",
+      "on": 3,
+      "texto": "Optimizar la supervisión y fiscalización de la infraestructura nacional de transporte de uso público."
+    },
+    {
+      "cod": "AE3.6.5",
+      "oe": "OE3.6",
+      "on": 3,
+      "texto": "Elevar la competitividad del sector inmobiliario y la industria de la construcción en el país, bajo criterios de accesibilidad para el financiamiento de la vivienda, sostenibilidad, innovación, economía digital y el cierre del déficit habitacional."
+    },
+    {
+      "cod": "AE3.7.1",
+      "oe": "OE3.7",
+      "on": 3,
+      "texto": "Mejorar las condiciones de competencia en los Mercados en beneficio de los Agentes Económicos."
+    },
+    {
+      "cod": "AE3.7.2",
+      "oe": "OE3.7",
+      "on": 3,
+      "texto": "Alcanzar una regulación eficiente y de calidad en el país, que facilite la formalización y la competitividad de los mercados con el uso de las tecnologías digitales y los datos."
+    },
+    {
+      "cod": "AE3.7.3",
+      "oe": "OE3.7",
+      "on": 3,
+      "texto": "Asegurar la defensa de los derechos de los consumidores, incluso en el entorno digital, en base a una eficiente regulación y mecanismos de promoción y difusión"
+    },
+    {
+      "cod": "AE4.1.1",
+      "oe": "OE4.1",
+      "on": 4,
+      "texto": "Garantizar la transparencia y la legalidad de los procesos electorales en el país, mediante la organización de elecciones con amplia participación ciudadana y, servicios electorales oportunos, eficientes y de calidad, con el uso intensivo de las tecnologías digitales y datos."
+    },
+    {
+      "cod": "AE4.1.2",
+      "oe": "OE4.1",
+      "on": 4,
+      "texto": "Elevar el nivel de representatividad de los partidos políticos, mediante una estructura organizativa y consolidada a nivel territorial, con énfasis en la participación política de mujeres, pueblo afroperuano, pueblos indígenas y otros grupos vulnerables."
+    },
+    {
+      "cod": "AE4.1.3",
+      "oe": "OE4.1",
+      "on": 4,
+      "texto": "Asegurar la gobernabilidad democrática en el país, en el marco del ordenamiento jurídico nacional para la convivencia, con una cultura de diálogo y concertación."
+    },
+    {
+      "cod": "AE4.2.1",
+      "oe": "OE4.2",
+      "on": 4,
+      "texto": "Garantizar el respeto de la diversidad cultural en el país, mediante el fortalecimiento de la identidad y la gobernanza cultural, con enfoque intercultural y el uso de las tecnologías digitales."
+    },
+    {
+      "cod": "AE4.2.2",
+      "oe": "OE4.2",
+      "on": 4,
+      "texto": "Mejorar el ecosistema de las artes e industrias culturales y creativas en el país, mediante el desarrollo de una oferta diversa y sostenible de bienes y servicios culturales, así como la ampliación de la participación cultural de la población."
+    },
+    {
+      "cod": "AE4.2.3",
+      "oe": "OE4.2",
+      "on": 4,
+      "texto": "Garantizar el aprovechamiento sostenible del patrimonio cultural, material e inmaterial del país mediante la investigación, protección, salvaguardia, la puesta en valor para su uso social y gestión integral."
+    },
+    {
+      "cod": "AE4.3.1",
+      "oe": "OE4.3",
+      "on": 4,
+      "texto": "Alcanzar el ejercicio pleno de los derechos humanos de las personas, incluso en entornos digitales y con énfasis en grupos en condición de vulnerabilidad y de especial protección."
+    },
+    {
+      "cod": "AE4.3.2",
+      "oe": "OE4.3",
+      "on": 4,
+      "texto": "Garantizar el acceso al Sistema de Administración de Justicia y la seguridad jurídica de las personas de manera accesible, oportuna, predictible, inclusiva, transparente, confiable y pacífica con un sistema célere, moderno, tecnológico e interoperable."
+    },
+    {
+      "cod": "AE4.3.3",
+      "oe": "OE4.3",
+      "on": 4,
+      "texto": "Garantizar el acceso a la justicia intercultural, cautelando el derecho de los ciudadanos sobre su identidad étnica y cultural, al uso de su propio idioma y al reconocimiento de las autoridades de las comunidades campesinas, comunidades nativas y rondas campesinas de ejercer funciones jurisdiccionales dentro de su ámbito territorial, conforme al derecho consuetudinario."
+    },
+    {
+      "cod": "AE4.3.4",
+      "oe": "OE4.3",
+      "on": 4,
+      "texto": "Garantizar la reinserción social de personas adultas privadas de la libertad y adolescentes infractores en conflicto con la Ley Penal, en ambientes adecuados de convivencia favorables para su desarrollo integral."
+    },
+    {
+      "cod": "AE4.4.1",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Reducir la victimización de las personas naturales y jurídicas, mediante la prevención policial que enfatice la investigación, la inteligencia policial y la cyber-inteligencia de todos los componentes del Sistema Nacional de Seguridad Ciudadana."
+    },
+    {
+      "cod": "AE4.4.2",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Generar entornos seguros para la población, que garanticen los derechos fundamentales de las personas, con participación ciudadana, la policía comunitaria y el aprovechamiento de las tecnologías digitales."
+    },
+    {
+      "cod": "AE4.4.3",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Erradicar el tráfico y la trata de personas y sus formas de explotación, priorizando la protección de la población vulnerable, con el uso de las tecnologías digitales y datos."
+    },
+    {
+      "cod": "AE4.4.4",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Desarticular las bandas delictivas y organizaciones criminales en sus diferentes modos de operación en el territorio nacional y transnacional, mediante la priorización de acciones preventivas con un sistema interoperable."
+    },
+    {
+      "cod": "AE4.4.5",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Alcanzar la conectividad integrada de las centrales de emergencias, radio comunicación y telefonía, priorizando los distritos urbanos y rurales sin servicio, con el uso de las tecnologías digitales."
+    },
+    {
+      "cod": "AE4.4.6",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Garantizar un sistema integrado de perfilamiento, verificación y fiscalización de personas extranjeras, mediante el uso de las tecnologías digitales."
+    },
+    {
+      "cod": "AE4.4.7",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Reducir la producción y el comercio ilícito de drogas en zonas estratégicas de intervención, en base a medidas de control y las acciones del desarrollo alternativo integral y sostenible; como también reducir el consumo de drogas en poblaciones en situación de vulnerabilidad, a través de medidas de prevención y tratamiento del consumo."
+    },
+    {
+      "cod": "AE4.4.8",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Erradicar el terrorismo y sus modalidades de índole nacional o transnacional, priorizando el fortalecimiento de la articulación intra e interinstitucional y las zonas de influencia."
+    },
+    {
+      "cod": "AE4.4.9",
+      "oe": "OE4.4",
+      "on": 4,
+      "texto": "Reducir los conflictos sociales en el país, mediante mecanismos de prevención, gestión y la cultura de diálogo."
+    },
+    {
+      "cod": "AE4.5.1",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Garantizar políticas públicas que respondan a las necesidades y expectativas de las personas en el territorio, mediante el fortalecimiento de la gobernanza intercultural, la gobernanza territorial y digital en el país."
+    },
+    {
+      "cod": "AE4.5.2",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Garantizar regulaciones eficaces que contribuyan a la productividad, competitividad y bienestar social, mediante el fortalecimiento de la gobernanza regulatoria y digital en los tres niveles de gobierno."
+    },
+    {
+      "cod": "AE4.5.3",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Garantizar el uso eficiente y productivo de los recursos públicos, mediante la articulación y simplificación de los sistemas de administración y el fortalecimiento de la gobernanza digital, considerando la heterogeneidad de las entidades públicas."
+    },
+    {
+      "cod": "AE4.5.4",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Lograr el gobierno y la transformación digital en las entidades públicas, mediante el aprovechamiento de las tecnologías digitales, el impulso del ecosistema digital, el avance de la innovación digital y ciudadana, la publicación de los datos abiertos y fortaleciendo la gobernanza digital en el país."
+    },
+    {
+      "cod": "AE4.5.5",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Garantizar un Estado abierto que genere confianza en las personas, mediante el fortalecimiento de la transparencia, participación y rendición de cuentas del Estado a través de medios​digitales y el uso de datos abiertos."
+    },
+    {
+      "cod": "AE4.5.6",
+      "oe": "OE4.5",
+      "on": 4,
+      "texto": "Consolidar el Sistema Nacional de Integridad con mecanismos eficaces de prevención y sanción efectiva de la corrupción en las entidades públicas que fortalezca el adecuado desempeño ético de funcionarios y servidores en el ejercicio de la función pública, y garantice el afianciamiento de una cultura de integridad."
+    },
+    {
+      "cod": "AE4.6.1",
+      "oe": "OE4.6",
+      "on": 4,
+      "texto": "Mejorar el proceso de descentralización del país, mediante el fortalecimiento de las capacidades de los Gobierno s subnacionales, la transferencia efectiva de funciones y recursos y la institucionalización de mecanismos que aseguren la competitividad y consoliden espacios de articulación público-privado."
+    }
+  ],
+  "cobertura": {
+    "on": 4,
+    "oe_recuperados": 27,
+    "ae_recuperadas": 162,
+    "ae_total_oficial": 162
+  },
+  "notas": "Los 4 Objetivos Nacionales y sus textos oficiales fueron verificados en peru2050.ceplan.gob.pe/sobre-el-pedn/ y en el Tomo I. Los 27 Objetivos Especificos con su texto completo fueron extraidos verbatim de las paginas oficiales por ON (on-1..on-4) de peru2050.ceplan.gob.pe. Las 162 Acciones Estrategicas con su texto oficial completo fueron extraidas del Tomo II (Indicadores del PEDN al 2050) publicado en gob.pe (documento 4637571), donde cada AE aparece como titulo antes de su ficha tecnica; la numeracion por OE es contigua y completa (sin huecos). IMPORTANTE sobre el conteo: la web resumida de CEPLAN menciona '159 Acciones Estrategicas' (cifra de la version original del plan, DS 095-2022-PCM), pero la version vigente en los Tomos I y II contiene 162 AE (ON1=41, ON2=42, ON3=53, ON4=26). Se reportan las 162 reales. El Tomo I fue usado como corroboracion: sus tablas de AE estan rotadas 90 grados en el PDF y se recuperaron 145 AE por texto; las AE de los OE 4.1, 4.2, 4.5, 4.6 y las AE 4.4.1, 4.4.2 y 3.3.10 no tienen capa de texto en el Tomo I (tablas rasterizadas), por lo que su texto se tomo del Tomo II, que si las contiene. Los codigos (AE X.Y.Z, OE X.Y) son los oficiales tal como aparecen en las fuentes. 22-oct-2026: texto oficial completo (Tomo II 2023 / indpedn2050) en 14 OE que estaban abreviados: OE2.1, OE2.2, OE2.4, OE2.7, OE3.2, OE3.3, OE3.4, OE3.5, OE3.6, OE3.7, OE4.1, OE4.2, OE4.3, OE4.5."
+}

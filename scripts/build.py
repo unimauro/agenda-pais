@@ -22,8 +22,8 @@ SECTORES = [
     ("salud", "Salud", "#0b8a6a"), ("educacion", "Educación", "#d48a00"), ("digital", "Digital", "#3b5bdb"),
     ("agua", "Agua y saneamiento", "#1585b5"), ("energia", "Energía", "#e8590c"), ("mineria", "Minería", "#8a6a55"),
     ("transporte", "Transporte", "#7048e8"), ("seguridad", "Seguridad y justicia", "#c2255c"),
-    ("economia", "Economía y empleo", "#2b8a3e"), ("agro", "Agro y alimentación", "#74a812"),
-    ("ambiente", "Ambiente y clima", "#0c8599"), ("estado", "Estado e integridad", "#5c677d"),
+    ("economia", "Economía productiva", "#2b8a3e"), ("agro", "Agro y alimentación", "#74a812"),
+    ("ambiente", "Ambiente y clima", "#0c8599"), ("estado", "Reforma del Estado", "#5c677d"),
     ("vivienda", "Vivienda y ciudades", "#d6336c"), ("proteccion", "Protección social", "#9c36b5"),
 ]
 ETAPAS = ["2026-2031", "2031-2036", "2036-2046", "2046-2056"]
@@ -88,7 +88,7 @@ def shell(titulo, desc, cuerpo, raiz="", ruta=""):
 </head><body>
 <a class="saltar" href="#main">Saltar al contenido</a>
 <header class="top"><a class="marca" href="{raiz}index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 22h24M4 12h24" stroke="#0b8a6a" stroke-width="4"/><path d="M4 22C14 22 18 12 28 12" stroke="#d48a00" stroke-width="4" fill="none"/><circle cx="16" cy="17" r="5" fill="var(--papel)" stroke="var(--tinta)" stroke-width="3"/></svg>Agenda País</a>
-<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a></nav></header>
+<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}peru2050.html">Perú 2050</a><a href="{raiz}limpieza.html">Limpieza normativa</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a></nav></header>
 <main id="main">{cuerpo}</main>
 <footer class="pie"><div class="pie-in">
 <p><b>Agenda País 2026–2056</b> es una propuesta ciudadana independiente, no un plan oficial. Hecha por
@@ -182,6 +182,27 @@ def balance(secs):
             f'<div class="puntos" aria-hidden="true">{puntos}</div><ul class="cuenta">{filas}</ul></section>')
 
 
+def resumen_2050(secs):
+    """Bloque de portada: cobertura del PEDN 2050 y limpieza normativa."""
+    out = ""
+    f = ROOT / "data/pedn_estructura.json"
+    if f.exists():
+        aes = json.loads(f.read_text())["acciones_estrategicas"]
+        cods = {c for s_ in secs for a in s_.get("acciones", []) for c in a.get("pedn") or []}
+        cub = sum(1 for x in aes if x["cod"] in cods)
+        out += (f'<div class="dos"><div><h2>Perú 2050</h2><p class="intro">Las acciones de esta agenda aportan a <b>{cub} de las {len(aes)}</b> acciones '
+                f'estratégicas del Plan de Desarrollo Nacional al 2050. Las que faltan muestran dónde todavía no hay propuesta.</p>'
+                f'<p><a href="peru2050.html">Ver el alineamiento con el Perú 2050</a></p></div>')
+    d = ROOT / "data/derogacion"
+    nver = sum(1 for g in (d.glob("*.json") if d.exists() else []) if not g.name.endswith("_resumen.json")
+               for n in (json.loads(g.read_text()) if isinstance(json.loads(g.read_text()), list) else []) if n.get("verificado") is True)
+    nsec = sum(len(a.get("deroga_o_simplifica") or []) for s_ in secs for a in s_.get("acciones", []))
+    out += (f'<div><h2>Limpieza normativa</h2><p class="intro"><b>{nver + nsec}</b> normas que se pueden derogar, consolidar o simplificar: leyes '
+            f'declarativas sin efecto, beneficios que nadie evalúa, regímenes duplicados y trámites que sobran.</p>'
+            f'<p><a href="limpieza.html">Ver qué se puede derogar</a></p></div></div>') if out else ""
+    return f'<section class="bloque">{out}</section>' if out else ""
+
+
 def index(secs):
     total = sum(len(s.get("acciones", [])) for s in secs)
     filas = "".join(
@@ -196,6 +217,7 @@ def index(secs):
 {total} acciones con evidencia, responsables y fuentes.</p></section>
 <section class="bloque" id="mapa"><h2 class="vh">Mapa de acciones</h2>{leyenda()}{mapa(secs)}<p class="nota">Toca una estación para ver la acción. Las curvas grises unen acciones que dependen de otro sector.</p></section>
 {balance(secs)}
+{resumen_2050(secs)}
 <section class="bloque" id="sectores"><h2>Sectores</h2><ul class="sectores">{filas}</ul>{pend}</section>"""
     return shell("Agenda País 2026–2056", f"Hoja de ruta ciudadana a 30 años para el Perú: {total} acciones por sector con responsables, financiamiento y qué necesita ley.", cuerpo)
 
@@ -234,7 +256,7 @@ def sector(s, secs):
 <dt>Responsable</dt><dd>{e(a.get('responsable'))}{(' · con ' + ents) if ents else ''}</dd>
 <dt>Financiamiento</dt><dd>{e(a.get('financiamiento'))}</dd><dt>Costo referencial</dt><dd>{e(a.get('costo_referencial'))}</dd>
 <dt>Indicador</dt><dd>{e(a.get('indicador'))}</dd><dt>Evidencia</dt><dd>{e(a.get('evidencia'))}</dd>
-<dt>Riesgo</dt><dd>{e(a.get('riesgo'))}</dd>{agr_html}{('<dt>Depende de</dt><dd>' + deps + '</dd>') if deps else ''}
+<dt>Riesgo</dt><dd>{e(a.get('riesgo'))}</dd>{agr_html}{('<dt>Perú 2050</dt><dd>' + ', '.join(f'<a href="../peru2050.html#{e(c)}">{e(c)}</a>' for c in a.get('pedn') or []) + '</dd>') if a.get('pedn') else ''}{('<dt>Depende de</dt><dd>' + deps + '</dd>') if deps else ''}
 {('<dt>Deroga o simplifica</dt><dd><ul>' + der + '</ul></dd>') if der else ''}{('<dt>Fuentes</dt><dd>' + fu + '</dd>') if fu else ''}</dl></div></details>"""
 
     grupos = ""
@@ -329,6 +351,87 @@ si encuentras un error, escríbelo a <a href="https://www.linkedin.com/in/unimau
     return shell("Método: Agenda País 2026–2056", "Cómo se construyó la Agenda País 2026–2056 y cuáles son sus límites.", cuerpo, "", "metodo.html")
 
 
+def peru2050(secs):
+    """Alineamiento con el PEDN 2050 (CEPLAN): qué acciones aportan a cada Acción Estratégica y cuáles quedan sin cubrir."""
+    f = ROOT / "data/pedn_estructura.json"
+    if not f.exists():
+        return None
+    P = json.loads(f.read_text())
+    por_ae = defaultdict(list)
+    for s_ in secs:
+        for a in s_.get("acciones", []):
+            for c in a.get("pedn") or []:
+                por_ae[c].append((s_, a))
+    aes = P["acciones_estrategicas"]
+    cub = sum(1 for x in aes if por_ae.get(x["cod"]))
+    bloques = ""
+    for on in P["objetivos_nacionales"]:
+        oes = ""
+        for oe in [o for o in P["objetivos_especificos"] if o["on"] == on["n"]]:
+            filas = ""
+            for ae in [x for x in aes if x["oe"] == oe["cod"]]:
+                L = por_ae.get(ae["cod"], [])
+                acc = " ".join(f'<a class="mini" data-c="{s_["id"]}" href="s/{s_["id"]}.html#{e(a["id"])}" title="{e(a.get("titulo"))}"><span class="dot"></span>{e(a["id"])}</a>' for s_, a in L)
+                filas += (f'<li id="{e(ae["cod"])}" class="{"" if L else "vacio"}"><span class="aec">{e(ae["cod"])}</span>'
+                          f'<span class="aet">{e(ae["texto"])}</span><span class="aea">{acc or "Sin acciones todavía"}</span></li>')
+            n_oe = sum(1 for x in aes if x["oe"] == oe["cod"] and por_ae.get(x["cod"]))
+            t_oe = sum(1 for x in aes if x["oe"] == oe["cod"])
+            oes += (f'<details class="oe" id="{e(oe["cod"])}"><summary><span class="aec">{e(oe["cod"])}</span><span class="oet">{e(oe["texto"])}</span>'
+                    f'<span class="oen">{n_oe} de {t_oe}</span></summary><ul class="aes">{filas}</ul></details>')
+        bloques += f'<section class="bloque"><h2>Objetivo nacional {on["n"]}</h2><p class="intro">{e(on["texto"])}</p>{oes}</section>'
+    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Perú 2050</h1>
+<p class="bajada">Cómo se conecta esta agenda con el Plan Estratégico de Desarrollo Nacional al 2050 de CEPLAN: qué acciones aportan a cada una
+de sus {len(aes)} acciones estratégicas y cuáles todavía no tienen ninguna.</p>
+<p class="s-n">{cub} de {len(aes)} acciones estratégicas tienen al menos una acción ({round(100*cub/len(aes))} %). Falta cubrir {len(aes)-cub}.</p></section>
+{bloques}<section class="bloque prosa"><p class="nota">Fuente: {enlace("CEPLAN, PEDN al 2050", "https://peru2050.ceplan.gob.pe/sobre-el-pedn/")}.
+La asignación de cada acción a una acción estratégica es una propuesta hecha con agentes de IA, a revisar.</p></section>"""
+    return shell("Perú 2050: Agenda País", f"Alineamiento de la Agenda País con el PEDN 2050: {cub} de {len(aes)} acciones estratégicas cubiertas.", cuerpo, "", "peru2050.html")
+
+
+def limpieza(secs):
+    """Limpieza normativa: paquetes de depuración y normas a derogar (solo verificadas), más las derogaciones de cada sector."""
+    d = ROOT / "data/derogacion"
+    normas, resumenes = [], []
+    for f in sorted(d.glob("*.json")) if d.exists() else []:
+        x = json.loads(f.read_text())
+        if f.name.endswith("_resumen.json"):
+            resumenes.append(x)
+        elif isinstance(x, list):
+            normas += x
+    ver = [n for n in normas if n.get("verificado") is True]
+    por_paq = defaultdict(list)
+    for n in ver:
+        por_paq[n.get("paquete") or "Otras"].append(n)
+    CAT = {"declarativa": "Declarativa", "obsoleta": "Obsoleta", "duplicada": "Duplicada", "implicitamente_derogada": "Ya derogada en la práctica",
+           "exoneracion_tributaria": "Exoneración tributaria", "regimen_especial": "Régimen especial", "tramite_barrera": "Trámite o barrera", "otra": "Otra"}
+    cats = defaultdict(int)
+    for n in ver:
+        cats[n.get("categoria")] += 1
+    paq_info = {p.get("nombre"): p for r in resumenes for p in r.get("paquetes", [])}
+    paqs = ""
+    for nombre, L in sorted(por_paq.items(), key=lambda kv: -len(kv[1])):
+        info = paq_info.get(nombre, {})
+        filas = "".join(f'<li><b>{enlace(n.get("norma"), n.get("url"))}</b> <span class="rol">{e(CAT.get(n.get("categoria"), n.get("categoria")))}</span>'
+                        f'<p>{e(n.get("motivo"))}</p><p class="nota">Efecto: {e(n.get("efecto"))} Riesgo: {e(n.get("riesgo"))}</p></li>' for n in L)
+        paqs += (f'<details class="paq"><summary><b>{e(nombre)}</b><span>{len(L)} normas</span></summary>'
+                 f'{("<p>" + e(info.get("objeto")) + "</p>") if info.get("objeto") else ""}'
+                 f'{("<p class=\"nota\">Instrumento: " + e(info.get("instrumento")) + ". " + e(info.get("nota_constitucional", "")) + "</p>") if info.get("instrumento") else ""}'
+                 f'<ul class="normas">{filas}</ul></details>')
+    ctx = "".join(f'<li>{e(c.get("dato"))} ({enlace(c.get("fuente"), c.get("url"))})</li>' for r in resumenes for c in r.get("cifras_contexto", []))
+    sec_der = "".join(f'<li><a href="s/{s_["id"]}.html#{e(a["id"])}">{e(a["id"])}</a> {e(x.get("norma"))}: {e(x.get("motivo"))}</li>'
+                      for s_ in secs for a in s_.get("acciones", []) for x in a.get("deroga_o_simplifica") or [])
+    resumen_cats = ", ".join(f"{v} {e(CAT.get(k, k)).lower()}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
+    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Limpieza normativa</h1>
+<p class="bajada">Menos leyes y mejores. Normas que se pueden derogar o consolidar porque no tienen efecto, están vencidas, se superponen o
+dan beneficios que nadie evalúa.</p><p class="s-n">{len(ver)} normas verificadas en {len(por_paq)} paquetes de depuración{(": " + resumen_cats) if ver else ""}.</p></section>
+{('<section class="bloque"><h2>Por qué importa</h2><ul class="prosa">' + ctx + '</ul></section>') if ctx else ''}
+<section class="bloque"><h2>Paquetes de depuración</h2>{paqs or '<p class="nota">En preparación.</p>'}</section>
+{('<section class="bloque"><h2>Derogaciones dentro de cada sector</h2><ul class="prosa">' + sec_der + '</ul></section>') if sec_der else ''}
+<section class="bloque prosa"><p class="nota">Solo se muestran normas cuyo número y título se verificaron en fuente oficial. Derogar no afecta derechos
+adquiridos; cada paquete prevé transición. Es una propuesta ciudadana a revisar por especialistas.</p></section>"""
+    return shell("Limpieza normativa: Agenda País", f"{len(ver)} normas que el Perú puede derogar o consolidar, en {len(por_paq)} paquetes.", cuerpo, "", "limpieza.html")
+
+
 def privacidad():
     cuerpo = """<section class="s-head" data-c="tinta"><h1>Privacidad</h1></section><section class="bloque prosa">
 <p>Este sitio no pide datos personales. Solo si aceptas, carga Google Analytics con IP anonimizada para saber qué sectores interesan más
@@ -347,11 +450,15 @@ def main():
     (ROOT / "entidades.html").write_text(entidades(secs))
     (ROOT / "metodo.html").write_text(metodo(secs))
     (ROOT / "privacidad.html").write_text(privacidad())
+    pg = peru2050(secs)
+    if pg:
+        (ROOT / "peru2050.html").write_text(pg)
+    (ROOT / "limpieza.html").write_text(limpieza(secs))
     indice = [{"id": a["id"], "sector": s["id"], "titulo": a.get("titulo"), "tipo": a.get("tipo"), "etapa": a.get("etapa"),
                "necesita_ley": a.get("necesita_ley"), "responsable": a.get("responsable"), "depende_de": a.get("depende_de", [])}
               for s in secs for a in s.get("acciones", [])]
     (ROOT / "data/indice.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")))
-    urls = ["", "entidades.html", "metodo.html"] + [f"s/{s['id']}.html" for s in secs]
+    urls = ["", "peru2050.html", "limpieza.html", "entidades.html", "metodo.html"] + [f"s/{s['id']}.html" for s in secs]
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                       + "".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "</urlset>\n")
     og = ROOT / "og.svg"

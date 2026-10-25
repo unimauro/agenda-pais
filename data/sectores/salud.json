@@ -222,6 +222,9 @@
      "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
      "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
     }
+   ],
+   "pedn": [
+    "AE1.2.3"
    ]
   },
   {
@@ -271,6 +274,10 @@
      "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
      "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
     }
+   ],
+   "pedn": [
+    "AE1.2.7",
+    "AE1.2.3"
    ]
   },
   {
@@ -326,6 +333,10 @@
      "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
      "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.2.7"
    ]
   },
   {
@@ -374,6 +385,9 @@
      "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
      "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
     }
+   ],
+   "pedn": [
+    "AE1.2.7"
    ]
   },
   {
@@ -424,6 +438,10 @@
      "titulo": "MEF – Guía del presupuesto público 2026",
      "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.7",
+    "AE2.2.4"
    ]
   },
   {
@@ -473,6 +491,10 @@
      "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
      "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
     }
+   ],
+   "pedn": [
+    "AE4.5.2",
+    "AE1.2.7"
    ]
   },
   {
@@ -531,6 +553,10 @@
      "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
      "url": "https://www.essalud.gob.pe/?p=24058"
     }
+   ],
+   "pedn": [
+    "AE1.2.7",
+    "AE1.2.3"
    ]
   },
   {
@@ -589,6 +615,10 @@
      "titulo": "Andina – INEI: 91,1 % de la población cuenta con seguro de salud (ENAHO I trim. 2025)",
      "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE3.2.2"
    ]
   },
   {
@@ -638,6 +668,10 @@
      "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
      "url": "https://openknowledge.worldbank.org/handle/10986/28321"
     }
+   ],
+   "pedn": [
+    "AE1.2.7",
+    "AE1.2.3"
    ]
   },
   {
@@ -690,6 +724,10 @@
      "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
      "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
     }
+   ],
+   "pedn": [
+    "AE3.2.2",
+    "AE1.2.7"
    ]
   },
   {
@@ -739,6 +777,10 @@
      "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
      "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.2.7"
    ]
   },
   {
@@ -789,6 +831,10 @@
      "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
      "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.6.1"
    ]
   },
   {
@@ -839,6 +885,9 @@
      "titulo": "MEF – Guía del presupuesto público 2026",
      "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.7"
    ]
   },
   {
@@ -891,6 +940,10 @@
      "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
      "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.2.7"
    ]
   },
   {
@@ -944,6 +997,10 @@
      "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
      "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
     }
+   ],
+   "pedn": [
+    "AE4.5.2",
+    "AE1.2.3"
    ]
   },
   {
@@ -993,6 +1050,10 @@
      "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
      "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE3.7.3"
    ]
   },
   {
@@ -1051,6 +1112,10 @@
      "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
      "url": "https://openknowledge.worldbank.org/handle/10986/28321"
     }
+   ],
+   "pedn": [
+    "AE1.5.6",
+    "AE1.2.6"
    ]
   },
   {
@@ -1113,6 +1178,9 @@
      "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
      "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.5"
    ]
   },
   {
@@ -1155,7 +1223,8 @@
    "depende_de": [
     "SAL-01",
     "SAL-14",
-    "SAL-24"
+    "SAL-24",
+    "EDU-28"
    ],
    "riesgo": "Desabastecimiento de antihipertensivos e insulina; baja búsqueda activa de pacientes.",
    "fuentes": [
@@ -1167,6 +1236,10 @@
      "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
      "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.1",
+    "AE1.2.3"
    ]
   },
   {
@@ -1208,7 +1281,8 @@
    "deroga_o_simplifica": [],
    "depende_de": [
     "SAL-01",
-    "SAL-03"
+    "SAL-03",
+    "EDU-28"
    ],
    "riesgo": "Tamizar sin capacidad de diagnóstico y tratamiento posterior; equipos de radioterapia sin mantenimiento.",
    "fuentes": [
@@ -1220,6 +1294,10 @@
      "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
      "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.2",
+    "AE1.2.3"
    ]
   },
   {
@@ -1269,6 +1347,10 @@
      "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
      "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
     }
+   ],
+   "pedn": [
+    "AE1.2.3",
+    "AE1.5.1"
    ]
   },
   {
@@ -1329,6 +1411,10 @@
      "titulo": "Utarini et al. (2021) – Wolbachia-infected mosquitoes to control dengue, NEJM",
      "url": "https://doi.org/10.1056/NEJMoa2030243"
     }
+   ],
+   "pedn": [
+    "AE1.2.2",
+    "AE2.2.5"
    ]
   },
   {
@@ -1382,6 +1468,10 @@
      "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
      "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
     }
+   ],
+   "pedn": [
+    "AE1.2.4",
+    "AE1.2.3"
    ]
   },
   {
@@ -1445,6 +1535,10 @@
      "titulo": "Correo – Arequipa: pocos centros de salud listos para la digitalización",
      "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-pocos-centros-de-salud-estan-listos-para-la-digitalizacion-noticia/"
     }
+   ],
+   "pedn": [
+    "AE4.5.4",
+    "AE1.2.3"
    ]
   },
   {
@@ -1490,6 +1584,10 @@
      "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
      "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
     }
+   ],
+   "pedn": [
+    "AE4.5.1",
+    "AE1.2.3"
    ]
   },
   {
@@ -1539,6 +1637,10 @@
      "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
      "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
     }
+   ],
+   "pedn": [
+    "AE1.2.7",
+    "AE4.5.2"
    ]
   }
  ],
