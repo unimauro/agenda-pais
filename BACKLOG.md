@@ -50,3 +50,4 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 - [ ] Revisión humana experta sigue pendiente (la de agentes no la reemplaza).
 - [x] (28-oct) Ley 32353: entra en vigencia al día siguiente de publicado su reglamento (no ubicado); textos de B (paquete beneficios) y ECP-23 pasaron a condicional. ECP-23 ahora se apoya en ECO-15 (Tech) para cerrar el RER.
 - [ ] Vigilar el reglamento de la Ley 32353 y actualizar B y ECP-23 cuando se publique.
+- [x] (28-oct) OG propia por sector (og/<sector>.png: línea con estaciones por etapa, n.º de acciones y cuántas exigen ley).
