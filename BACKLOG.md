@@ -32,7 +32,7 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 
 ## SIGUIENTE
 1. [x] Los 14 sectores escritos (28-oct-2026). Faltan 27 AE del PEDN sin acción: ver peru2050.html.
-2. [x] (28-oct) Revisión especializada: 6 revisores (constitucional-fiscal, jurista, cifras/URLs, seguridad, economía, SPIJ) → data/revision/*.json (~390 hallazgos); 12 dueños aplicaron con revision_atendida. SEG-25 reformulada (Leyes 32108+32138, alineación con Palermo, neutral). Grafo sin ciclos ni dependencias a etapas posteriores. (constitucional/fiscal + verificador de cifras y URLs), como en Agenda Tech.
+2. [x] (28-oct) Revisión especializada: 6 revisores (constitucional-fiscal, jurista, cifras/URLs, seguridad, economía, SPIJ) → data/revision/*.json (~390 hallazgos); 12 dueños aplicaron con revision_atendida. SEG-25 reformulada (Leyes 32108+32138, alineación con Palermo, neutral). Grafo sin ciclos ni dependencias a etapas posteriores.
 3. [ ] Re-enlazar `depende_de` entre sectores cuando existan (p. ej. anemia SAL ↔ EDU).
 4. [ ] Participación ciudadana (votos/comentarios). OJO: el módulo de api.tunky.net es SOLO para Agenda Legislativa; para este
        proyecto hace falta un módulo propio o preguntar a Carlos.

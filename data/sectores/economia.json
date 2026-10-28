@@ -322,7 +322,7 @@
       "por_que_ley": "Los beneficios tributarios tienen reserva de ley (art. 74 y 79). La Norma VII del Código Tributario (modificada por el DL 1521) ya fija 3 años y una sola prórroga de hasta 3 años con evaluación previa, pero tiene rango de ley ordinaria y leyes especiales posteriores la desplazan. Por eso se combina una ley que refuerza la Norma VII con una modificación del Reglamento del Congreso (resolución legislativa con fuerza de ley), que regula cómo se admiten y votan los proyectos. No crea gasto ni organismos: puede ser de iniciativa congresal.",
       "etapa": "2026-2031",
       "que": "Se mantiene la regla dura vigente: ningún beneficio tributario dura más de 3 años, con una sola prórroga de hasta 3 años y solo si antes del vencimiento hay una evaluación ex post publicada por el MEF y revisada por el Consejo Fiscal, con metas medibles fijadas al crearlo; sin evaluación favorable, caduca solo. La ley extiende estas reglas a los regímenes territoriales y a los beneficios dados por leyes especiales. El candado está en el Reglamento del Congreso: no se dictamina ni se vota un beneficio tributario sin informe previo del MEF con su costo anual y plazo de 3 años o menos; si no cumple la Norma VII, se tiene por no aprobado.",
-      "evidencia": "El MEF estima un gasto tributario de 2,16 % del PBI en 2026 y advierte que muchos beneficios se prolongan sin evaluación rigurosa. La Norma VII ya limita la vigencia a 3 años, pero se incumple con leyes especiales posteriores: la Ley 32434 fija un régimen agrario de 2026 a 2035, la Ley 30446 extendió las ZED hasta 2042 y las leyes de devolución del IGV a la exploración (27623 y 27624) se siguen prorrogando. El Consejo Fiscal pidió en 2025 contener medidas que reducen ingresos permanentes en más de S/ 2 500 millones anuales.",
+      "evidencia": "El MEF estima un gasto tributario de 2,16 % del PBI en 2026 y advierte que muchos beneficios se prolongan sin evaluación rigurosa. La Norma VII ya limita la vigencia a 3 años, pero se incumple con leyes especiales posteriores: la Ley 32434 fija un régimen agrario de 2026 a 2035, la Ley 30446 extendió las ZED hasta 2042 y las leyes de devolución del IGV a la exploración (27623 y 27624) se prorrogaron hasta el 31-12-2027 (su salida se trata en MIN-24, que depende de esta acción). El Consejo Fiscal pidió en 2025 contener medidas que reducen ingresos permanentes en más de S/ 2 500 millones anuales.",
       "entrega": "Ley que refuerza la Norma VII y Reglamento del Congreso modificado; informe anual del MEF de gasto tributario evaluado por beneficio.",
       "responsable": "MEF",
       "entidades": [
@@ -773,7 +773,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Programas existentes de MIDAGRI (PSI, AGROIDEAS, AGRORURAL) y Procompite de gobiernos regionales y locales; se reordenan por resolución y convenios.",
       "etapa": "2026-2031",
-      "que": "En valles de sierra y ceja de selva con potencial (palta, arándano de altura, café, cacao, quinua, frutas nativas), se combinan riego tecnificado, asistencia técnica por cadena, certificaciones y acuerdos de compra con empresas exportadoras ancla. Las organizaciones de productores reciben cofinanciamiento por planes de negocio con metas de ventas. La deducción adicional de 25 % de la Ley 32434 por compras a productores del Padrón se usa como palanca: la SUNAT cruza comprobantes con el Padrón y publica el monto deducido y los proveedores. En acuíferos en veda (Ica, Villacurí, Lanchas) no se amplía área sin balance hídrico público de la ANA y medición telemétrica de pozos.",
+      "que": "En valles de sierra y ceja de selva con potencial (palta, arándano de altura, café, cacao, quinua, frutas nativas), se combinan riego tecnificado, asistencia técnica por cadena, certificaciones y acuerdos de compra con empresas exportadoras ancla. Las organizaciones de productores reciben cofinanciamiento por planes de negocio con metas de ventas. La deducción adicional de 25 % de la Ley 32434 por compras a productores del Padrón se usa como palanca: la SUNAT cruza comprobantes con el Padrón y publica el monto deducido y los proveedores. En acuíferos en veda (Ica, Villacurí, Lanchas) no se amplía área sin balance hídrico público de la ANA y medición telemétrica de pozos (AGR-04).",
       "evidencia": "La integración de pequeños productores con compradores ancla y asistencia técnica ha mostrado aumentos de ingresos en programas de alianzas productivas en América Latina (por ejemplo, Colombia, evaluado por el Banco Mundial); en Perú, AGROIDEAS y Procompite cofinancian planes de negocio pero sus evaluaciones son limitadas. Por verificar: no hay una evaluación causal reciente y pública de AGROIDEAS.",
       "entrega": "1 500 organizaciones de productores con contrato de venta y riego tecnificado en sierra y selva al 2031.",
       "responsable": "MIDAGRI",
@@ -1883,7 +1883,7 @@
       "por_que_ley": "Las exoneraciones y el crédito fiscal especial de la Ley 27037 tienen rango de ley (art. 74); su sustitución por transferencias de inversión crea gasto, por lo que la iniciativa debe ser del Ejecutivo o vía delegación de facultades (art. 79 y 104), con informe del MEF.",
       "etapa": "2031-2036",
       "que": "Se propone, región por región y con consulta a los gobiernos regionales, reemplazar las exoneraciones del IGV y otros beneficios de la Ley 27037 por un fondo de inversión pública equivalente en la propia región (caminos, energía, agua, conectividad, CITE), con transición de 3 a 5 años. El fondo sustituto tiene una asignación anual decreciente fijada por fórmula, plazo máximo de 10 años, condicionada a la ejecución de la cartera y aprobada cada año en la Ley de Presupuesto; toda nueva exoneración en la zona debe cumplir la Norma VII (ECP-03). La medida no sube precios de golpe: el IGV se reintroduce gradualmente y los alimentos básicos siguen el régimen nacional.",
-      "evidencia": "Según información del MMM 2026-2029 citada por prensa, el IGV en la Amazonía representaría más de S/ 3 700 millones de gasto tributario en 2026, y el MEF señala que el 76,8 % del gasto tributario es IGV, sobre todo por exoneraciones agrarias y amazónicas. Tras más de 25 años, la Amazonía sigue con brechas de infraestructura y no hay una evaluación oficial pública que muestre un impacto favorable de la Ley 27037 en inversión o empleo (por verificar si el MEF la ha publicado); el propio MEF advierte que muchos gastos tributarios se prolongan sin evaluación rigurosa. El caso San Martín (Ley 28575) mostró que el canje es viable, pero fue revertido: la Ley 32317 (2025) le devolvió el crédito fiscal especial y la Ley 32582 (2026), en su disposición complementaria, derogó los artículos 3 y 4 de la Ley 28575 (según un proyecto de ley posterior que propone revertir esa disposición). Sin candado legal, el canje se deshace.",
+      "evidencia": "Según información del MMM 2026-2029 citada por prensa, el IGV en la Amazonía representaría más de S/ 3 700 millones de gasto tributario en 2026, y el MEF señala que el 76,8 % del gasto tributario es IGV, sobre todo por exoneraciones agrarias y amazónicas. Tras más de 25 años, la Amazonía sigue con brechas de infraestructura y no hay una evaluación oficial pública que muestre un impacto favorable de la Ley 27037 en inversión o empleo (por verificar si el MEF la ha publicado); el propio MEF advierte que muchos gastos tributarios se prolongan sin evaluación rigurosa. El caso San Martín (Ley 28575) mostró que el canje es viable, pero fue revertido: la Ley 32317 (2025) le devolvió el crédito fiscal especial y la Ley 32582 (2026, El Peruano), en su disposición complementaria, derogó los artículos 3 y 4 de la Ley 28575. Sin candado legal, el canje se deshace.",
       "entrega": "Ley de sustitución con cronograma por región, fondo de inversión con cartera publicada y reporte anual de ejecución.",
       "responsable": "MEF",
       "entidades": [
@@ -1939,8 +1939,8 @@
           "url": "https://iep.org.pe/wp-content/uploads/2023/05/DT_293_Mendoza_Politicas-Tributarias.pdf"
         },
         {
-          "titulo": "Congreso – Proyecto de ley que propone derogar la disposición complementaria de la Ley 32582 sobre la Ley 28575",
-          "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/Mzk5NDE3/pdf"
+          "titulo": "El Peruano – Ley N.º 32582, que modifica la Ley 27037 y deroga los artículos 3 y 4 de la Ley 28575",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2506231-2"
         }
       ],
       "pedn": [
@@ -1962,6 +1962,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Fondo equivalente rígido: plazo, decreciente, presupuesto anual",
           "decision": "aplicado"
+        },
+        {
+          "rol": "economia",
+          "hallazgo": "Ley 32582 verificada en El Peruano",
+          "decision": "aplicado: se quitó 'por verificar' y se cita El Peruano"
         }
       ]
     },
@@ -2178,7 +2183,7 @@
     },
     {
       "con": "agua",
-      "como": "La expansión agroexportadora de ECP-09 se condiciona al balance hídrico de la ANA en acuíferos en veda (Ica, Villacurí, Lanchas); la medición telemétrica y el cobro por volumen corresponden a los sectores Agua y Agro."
+      "como": "La expansión agroexportadora de ECP-09 se condiciona al balance hídrico de la ANA en acuíferos en veda (Ica, Villacurí, Lanchas); la gestión del acuífero de Ica, la telemetría y el cobro por volumen están en AGR-04."
     },
     {
       "con": "energia",
