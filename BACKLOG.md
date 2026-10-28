@@ -41,3 +41,6 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 7. [ ] Verificador independiente de la lista de derogación (vigencia en SPIJ, que el Archivo del Congreso marca todo como vigente) y de las 4 normas
        sin verificar del grupo B. Leyes de 2026 aún no cubiertas en el conteo de declarativas.
 8. [ ] Redactar el articulado de los 10 paquetes de depuración (proyectos de ley completos, como en Agenda Tech) y PDF descargable.
+
+- [x] (28-oct) Modo claro por defecto + botón ◐; asistente en todas las páginas (búsqueda local + IA vía /pais/chat).
+- [ ] Carlos: desplegar `bash deploy/api-tunky/deploy.sh` (módulo pais.js en api.tunky.net) y probar el chat en vivo.
