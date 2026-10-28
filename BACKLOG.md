@@ -48,3 +48,5 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 - [ ] Pendientes de la revisión (28-oct), marcados "(por verificar)" en los datos: costo régimen agrario (S/ 1 888 M), IGV amazónico (>S/ 3 700 M), cifras SEG (extorsión, 39 % policías en comisarías, presos sin sentencia), canon BEM 2025, B9 plazo reintegro Ley 31893, fecha de corte AMB-03/AGR-17 (22-jul-2011?), Ley 31850 (TRA-05), B1 URL oficial Ley 32542.
 - [ ] Propuestas de articulación sin acción propia: regla de ahorro de rentas mineras en el Fondo de Estabilización Fiscal (EST-19).
 - [ ] Revisión humana experta sigue pendiente (la de agentes no la reemplaza).
+- [x] (28-oct) Ley 32353: entra en vigencia al día siguiente de publicado su reglamento (no ubicado); textos de B (paquete beneficios) y ECP-23 pasaron a condicional. ECP-23 ahora se apoya en ECO-15 (Tech) para cerrar el RER.
+- [ ] Vigilar el reglamento de la Ley 32353 y actualizar B y ECP-23 cuando se publique.

@@ -515,7 +515,7 @@
     "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Ficha_Tecnica_Espanol/32353-FTE.pdf",
     "categoria": "regimen_especial",
     "accion": "consolidar",
-    "motivo": "Es el régimen laboral y de promoción MYPE vigente. Derogó la Ley 28015, el DL 1086 y la parte MYPE de la Ley 30056, y dejó sin efecto el TUO aprobado por DS 013-2013-PRODUCE. Coexiste con tres regímenes tributarios MYPE (NRUS, RER y RMT) con umbrales distintos, y su regla de permanencia de 3 años tras superar el límite de ventas aún no se ha evaluado.",
+    "motivo": "Es el nuevo régimen laboral y de promoción MYPE (entra en vigencia al día siguiente de publicado su reglamento; publicación por verificar a oct-2026). Al entrar en vigencia deroga la Ley 28015, el DL 1086 y la parte MYPE de la Ley 30056, y deja sin efecto el TUO aprobado por DS 013-2013-PRODUCE; hasta entonces rige ese TUO. Coexiste con tres regímenes tributarios MYPE (NRUS, RER y RMT) con umbrales distintos, y su regla de permanencia de 3 años tras superar el límite de ventas aún no se ha evaluado.",
     "efecto": "Texto único MYPE (tributario y laboral) con escalones claros y beneficios ligados a formalización efectiva. Se evalúa la regla de permanencia de 3 años y la afiliación de trabajadores de microempresa al SIS semicontributivo frente al aporte a EsSalud desde el primer trabajador.",
     "riesgo": "Medio: no reducir derechos de trabajadores con contrato vigente (aplicación hacia adelante). Si se legisla por delegación, la ley autoritativa debe incluir esta materia (art. 104).",
     "paquete": "Ley de convergencia de regímenes especiales MYPE y laborales sectoriales",
@@ -524,8 +524,8 @@
     "revision_atendida": [
       {
         "rol": "spij",
-        "hallazgo": "Ley 28015 ya derogada por Ley 32353",
-        "decision": "aplicado: ficha reemplazada por la Ley 32353 (vigente)"
+        "hallazgo": "Ley 28015 derogada por Ley 32353 al entrar esta en vigencia",
+        "decision": "aplicado: ficha reemplazada por la Ley 32353 (vigencia sujeta a su reglamento)"
       }
     ]
   },
@@ -535,7 +535,7 @@
     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/30056.pdf",
     "categoria": "duplicada",
     "accion": "derogar_parcial",
-    "motivo": "RETIRADA DEL PAQUETE. La Ley 32353 (27-05-2025) ya derogó la parte MYPE de la Ley 30056 (arts. 10 a 19 y 23, sétima DCF y segunda DCT) y dejó sin efecto el TUO DS 013-2013-PRODUCE. El resto son modificaciones ya incorporadas a otras leyes, que no se identificaron una por una en SPIJ.",
+    "motivo": "RETIRADA DEL PAQUETE. La Ley 32353 (27-05-2025) deroga, al entrar en vigencia con su reglamento, la parte MYPE de la Ley 30056 (arts. 10 a 19 y 23, sétima DCF y segunda DCT) y deja sin efecto el TUO DS 013-2013-PRODUCE. El resto son modificaciones ya incorporadas a otras leyes, que no se identificaron una por una en SPIJ.",
     "efecto": "Ninguno mientras no se identifiquen en SPIJ las disposiciones residuales de efecto consumado. Se mantiene la ficha solo para no romper referencias.",
     "riesgo": "Nulo (ficha retirada).",
     "paquete": "Ley de convergencia de regímenes especiales MYPE y laborales sectoriales",
@@ -544,7 +544,7 @@
     "revision_atendida": [
       {
         "rol": "spij",
-        "hallazgo": "Parte MYPE derogada por Ley 32353",
+        "hallazgo": "Parte MYPE derogada por Ley 32353 al entrar esta en vigencia",
         "decision": "aplicado: ficha retirada (verificado false) porque no se identificaron disposiciones residuales"
       }
     ]

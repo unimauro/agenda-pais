@@ -1715,12 +1715,12 @@
     },
     {
       "id": "ECP-23",
-      "titulo": "Derogar el RER y crear una escalera tributaria y laboral MYPE sin saltos",
+      "titulo": "Cerrar el RER y crear una escalera tributaria y laboral MYPE sin saltos",
       "tipo": "ley",
       "necesita_ley": "si",
       "por_que_ley": "Las tasas y umbrales de los regímenes tributarios (DL 1269, Nuevo RUS) y el régimen laboral MYPE (Ley 32353) están en normas con rango de ley; cambiarlos exige ley o decreto legislativo delegado. Como afecta ingresos, requiere informe previo del MEF y, preferentemente, iniciativa del Ejecutivo (art. 79). Si se hace por decreto legislativo, la delegación debe incluir expresamente la materia laboral (art. 104). La vigencia del régimen laboral de la Ley 32353 depende de su reglamento (por verificar su publicación).",
       "etapa": "2026-2031",
-      "que": "Se deroga el RER (Capítulo XV de la Ley del Impuesto a la Renta y literal h) del art. 2 del DL 1269) con vigencia diferida y sus contribuyentes pasan al RMT, con la declaración precompletada de DIG-10. El camino del Nuevo RUS al régimen general usa tasas marginales progresivas en vez de saltos y una salida gradual del RMT al superar 1 700 UIT. En lo laboral se evalúa la Ley 32353 (régimen MYPE permanente, que dejó sin efecto el TUO del DS 013-2013-PRODUCE y permite conservarlo 3 años tras superar el límite) y el SIS semicontributivo frente a aportes a EsSalud desde el primer trabajador. Nada reduce derechos de contratos vigentes.",
+      "que": "El RER (Capítulo XV de la Ley del Impuesto a la Renta) se deroga con vigencia diferida y sus contribuyentes pasan al RMT mediante la propuesta ECO-15 de la Agenda Legislativa Tech, que modifica el DL 1269; esta acción asegura que ocurra en la etapa y suma la declaración precompletada de DIG-10. El camino del Nuevo RUS al régimen general usa tasas marginales progresivas en vez de saltos y una salida gradual del RMT al superar 1 700 UIT. En lo laboral se evalúa la Ley 32353 (régimen MYPE permanente que, al entrar en vigencia con su reglamento, deja sin efecto el TUO del DS 013-2013-PRODUCE y permite conservarlo 3 años tras superar el límite) y el SIS semicontributivo frente a aportes a EsSalud desde el primer trabajador. Nada reduce derechos de contratos vigentes.",
       "evidencia": "Un estudio de la Unión Europea presentado en la PUCP concluye que los regímenes RER y RMT generan 'enanismo empresarial' por sus costos de cumplimiento y que eliminar regímenes sin simplificar tiene impacto limitado; la literatura internacional (por ejemplo, evaluaciones de umbrales de tamaño en Francia e Italia) muestra que las empresas se quedan justo debajo de los umbrales que encarecen crecer.",
       "entrega": "Ley de escalera tributaria y laboral MYPE con tramos graduales y evaluación ex post a 5 años.",
       "responsable": "MEF",
@@ -1799,7 +1799,7 @@
         {
           "rol": "constitucional-fiscal",
           "hallazgo": "Proteger derechos laborales; verificar norma laboral MYPE",
-          "decision": "aplicado: Ley 32353 verificada (dejó sin efecto el TUO DS 013-2013-PRODUCE)"
+          "decision": "aplicado: Ley 32353 verificada (deja sin efecto el TUO DS 013-2013-PRODUCE al entrar en vigencia con su reglamento)"
         },
         {
           "rol": "jurista",
