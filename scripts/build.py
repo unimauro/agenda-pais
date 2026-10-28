@@ -79,7 +79,7 @@ def shell(titulo, desc, cuerpo, raiz="", ruta=""):
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="canonical" href="{SITE}{ruta}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(desc)}">
-<meta property="og:image" content="{SITE}og.png"><meta property="og:url" content="{SITE}{ruta}"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="{SITE}{"og/" + ruta[2:-5] + ".png" if ruta.startswith("s/") else "og.png"}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:url" content="{SITE}{ruta}"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{raiz}favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{raiz}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
@@ -455,6 +455,39 @@ def privacidad():
     return shell("Privacidad: Agenda País", "Política de privacidad de Agenda País.", cuerpo, "", "privacidad.html")
 
 
+def og_sector(s):
+    """Imagen para compartir de un sector: su línea de metro con una estación por etapa, del tamaño de sus acciones."""
+    acc, c = s.get("acciones", []), s["color"]
+    n_ley = sum(1 for a in acc if a.get("necesita_ley") == "si")
+    txt_ley = "Ninguna exige una ley nueva" if not n_ley else "1 exige una ley nueva" if n_ley == 1 else f"{n_ley} exigen una ley nueva"
+    palabras, lineas = (s.get("lema") or "").split(), [""]
+    for w in palabras:
+        if len(lineas[-1]) + len(w) > 30 and lineas[-1]:
+            lineas.append("")
+        lineas[-1] = (lineas[-1] + " " + w).strip()
+    titulo = s["nombre_corto"]
+    fs = 128 if len(titulo) <= 12 else 96 if len(titulo) <= 18 else 80
+    lema = "".join(f'<text x="70" y="{330 + i * 44}" font-family="Georgia, serif" font-size="32" fill="#1d2b3a">{e(t)}</text>' for i, t in enumerate(lineas[:4]))
+    xs = [700, 830, 990, 1120]
+    est = ""
+    for x, et in zip(xs, ETAPAS):
+        k = sum(1 for a in acc if a.get("etapa") == et)
+        r = 10 + min(k, 30) * 1.3 if k else 12
+        est += (f'<circle cx="{x}" cy="300" r="{r:.0f}" fill="{c if k else "#f1f4f3"}" stroke="{"#f1f4f3" if k else c}" stroke-width="{4 if k else 7}"/>'
+                f'<text x="{x}" y="{372 if k else 352}" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" font-weight="700" fill="#1d2b3a">{k if k else ""}</text>'
+                f'<text x="{x}" y="400" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="18" fill="#5c677d">{et.replace("-", "–")}</text>')
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f1f4f3"/><rect width="1200" height="14" fill="{c}"/>
+<path d="M620 300H1180" stroke="{c}" stroke-width="14" stroke-linecap="round"/>{est}
+<text x="64" y="170" font-family="Archivo, Arial Narrow, sans-serif" font-stretch="condensed" font-size="{fs}" font-weight="800" fill="#1d2b3a" letter-spacing="-2">{e(titulo)}</text>
+<text x="70" y="235" font-family="Archivo, Arial, sans-serif" font-size="34" fill="#44546a">Agenda País 2026–2056</text>
+{lema}
+<text x="700" y="490" font-family="Archivo, Arial, sans-serif" font-size="30" font-weight="700" fill="#1d2b3a">{len(acc)} acciones</text>
+<text x="700" y="530" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#44546a">{txt_ley}</text>
+<text x="70" y="580" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#44546a">unimauro.github.io/agenda-pais</text>
+</svg>"""
+
+
 def main():
     secs = cargar()
     (ROOT / "s").mkdir(exist_ok=True)
@@ -497,6 +530,11 @@ def main():
         tmp = ROOT / ".og.tmp.svg"
         tmp.write_text(og.read_text().replace("__N__", str(len(indice))).replace("__S__", str(len(secs))))
         subprocess.run(["rsvg-convert", "-w", "1200", "-h", "630", str(tmp), "-o", str(ROOT / "og.png")], check=True)
+        tmp.unlink()
+        (ROOT / "og").mkdir(exist_ok=True)
+        for sec in secs:
+            tmp.write_text(og_sector(sec))
+            subprocess.run(["rsvg-convert", "-w", "1200", "-h", "630", str(tmp), "-o", str(ROOT / f"og/{sec['id']}.png")], check=True)
         tmp.unlink()
     print(f"OK: {len(secs)} sectores, {len(indice)} acciones")
 
