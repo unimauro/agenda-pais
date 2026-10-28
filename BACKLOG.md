@@ -43,7 +43,7 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 8. [ ] Redactar el articulado de los 10 paquetes de depuración (proyectos de ley completos, como en Agenda Tech) y PDF descargable.
 
 - [x] (28-oct) Modo claro por defecto + botón ◐; asistente en todas las páginas (búsqueda local + IA vía /pais/chat).
-- [ ] Carlos: desplegar `bash deploy/api-tunky/deploy.sh` (módulo pais.js en api.tunky.net) y probar el chat en vivo.
+- [x] (28-oct) Chat con IA desplegado por Carlos en api.tunky.net/pais/chat; prueba "anemia" respondió ok con SAL-17/EDU-01.
 
 - [ ] Pendientes de la revisión (28-oct), marcados "(por verificar)" en los datos: costo régimen agrario (S/ 1 888 M), IGV amazónico (>S/ 3 700 M), cifras SEG (extorsión, 39 % policías en comisarías, presos sin sentencia), canon BEM 2025, B9 plazo reintegro Ley 31893, fecha de corte AMB-03/AGR-17 (22-jul-2011?), Ley 31850 (TRA-05), B1 URL oficial Ley 32542.
 - [ ] Propuestas de articulación sin acción propia: regla de ahorro de rentas mineras en el Fondo de Estabilización Fiscal (EST-19).
