@@ -75,7 +75,7 @@ def shell(titulo, desc, cuerpo, raiz="", ruta=""):
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(desc)}">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://api.tunky.net https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="canonical" href="{SITE}{ruta}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(desc)}">
@@ -84,11 +84,11 @@ def shell(titulo, desc, cuerpo, raiz="", ruta=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <link rel="stylesheet" href="{raiz}assets/style.css"><link rel="stylesheet" href="{raiz}assets/sectores.css">
-<script src="{raiz}assets/consent.js" defer></script><script src="{raiz}assets/app.js" defer></script>
+<script src="{raiz}assets/tema.js"></script><script src="{raiz}assets/consent.js" defer></script><script src="{raiz}assets/app.js" defer></script>
 </head><body>
 <a class="saltar" href="#main">Saltar al contenido</a>
 <header class="top"><a class="marca" href="{raiz}index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 22h24M4 12h24" stroke="#0b8a6a" stroke-width="4"/><path d="M4 22C14 22 18 12 28 12" stroke="#d48a00" stroke-width="4" fill="none"/><circle cx="16" cy="17" r="5" fill="var(--papel)" stroke="var(--tinta)" stroke-width="3"/></svg>Agenda País</a>
-<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}peru2050.html">Perú 2050</a><a href="{raiz}limpieza.html">Limpieza normativa</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a></nav></header>
+<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}peru2050.html">Perú 2050</a><a href="{raiz}limpieza.html">Limpieza normativa</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a><button class="tema" id="tema-btn" type="button" aria-pressed="false" aria-label="Modo oscuro" title="Modo oscuro">◐</button></nav></header>
 <main id="main">{cuerpo}</main>
 <footer class="pie"><div class="pie-in">
 <p><b>Agenda País 2026–2056</b> es una propuesta ciudadana independiente, no un plan oficial. Hecha por
@@ -103,7 +103,23 @@ El contenido se puede reutilizar citando la fuente.</p>
 <a href="https://unimauro.github.io/productividad/" target="_blank" rel="noopener">Productividad</a>,
 <a href="https://planperu2050.pe/" target="_blank" rel="noopener">Plan Perú 2050</a>,
 <a href="https://unimauro.github.io/" target="_blank" rel="noopener">más</a>. <a href="{raiz}privacidad.html">Privacidad</a></p>
-</div></footer></body></html>"""
+</div></footer>
+<button class="chat-fab" id="chat-fab" type="button" aria-expanded="false" aria-controls="chat">Pregúntale a la agenda</button>
+<aside class="chat" id="chat" hidden aria-label="Asistente de la Agenda País" data-raiz="{raiz}">
+  <header><div><b>Asistente de la Agenda País</b><span>Responde con las acciones de esta agenda</span></div><button class="chat-x" id="chat-x" type="button" aria-label="Cerrar">✕</button></header>
+  <div class="chat-log" id="chat-log" aria-live="polite">
+    <div class="msg bot">¡Hola! Cuéntame qué te preocupa del país —la posta de tu barrio, el colegio de tus hijos, el agua, la inseguridad, el empleo— y te cuento qué propone esta agenda, quién se encargaría y para cuándo. Son <b>propuestas ciudadanas</b>, no un plan oficial.</div>
+    <div class="sug" id="chat-sug">
+      <button class="chip" type="button">¿Qué se propone para que me atiendan rápido en la posta?</button>
+      <button class="chip" type="button">¿Cómo dejamos de exportar solo materias primas?</button>
+      <button class="chip" type="button">¿Qué leyes se proponen derogar y por qué?</button>
+      <button class="chip" type="button">¿Qué se hace sin necesidad de una ley nueva?</button>
+    </div>
+  </div>
+  <form id="chat-f"><input id="chat-q" placeholder="Escribe tu pregunta…" maxlength="400" autocomplete="off" aria-label="Tu pregunta"><button class="chip on" type="submit">Enviar</button></form>
+  <p class="chat-note">Responde con IA usando solo esta agenda; puede equivocarse. No es asesoría legal ni un plan oficial.</p>
+</aside>
+</body></html>"""
 
 
 # ---------------------------------------------------------------- mapa de metro
@@ -458,6 +474,21 @@ def main():
                "necesita_ley": a.get("necesita_ley"), "responsable": a.get("responsable"), "depende_de": a.get("depende_de", [])}
               for s in secs for a in s.get("acciones", [])]
     (ROOT / "data/indice.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")))
+    # Base del asistente (api.tunky.net/pais/chat la descarga y busca aquí; nada de datos personales)
+    corta = lambda t, n: (lambda x: x if len(x) <= n else x[:n].rsplit(" ", 1)[0] + "…")(str(t or "").strip())
+    paqs = []
+    for f in sorted((ROOT / "data/derogacion").glob("*_resumen.json")):
+        paqs += [{"nombre": p.get("nombre"), "objeto": corta(p.get("objeto"), 320), "n": p.get("n_normas"), "instrumento": corta(p.get("instrumento"), 120)}
+                 for p in json.loads(f.read_text()).get("paquetes", [])]
+    chat = {"sectores": [{"id": s["id"], "nombre": s.get("nombre"), "lema": s.get("lema"), "resumen": corta((s.get("diagnostico") or {}).get("resumen"), 360),
+                          "vision": corta(s.get("vision_2056"), 240),
+                          "metas": [f'{m.get("indicador")}: {m.get("linea_base")} → {m.get("2036")} (2036), {m.get("2056")} (2056)' for m in (s.get("metas") or [])[:4]]} for s in secs],
+            "acciones": [{"id": a["id"], "sector": s["id"], "titulo": a.get("titulo"), "tipo": TIPOS.get(a.get("tipo"), a.get("tipo")), "etapa": a.get("etapa"),
+                          "ley": a.get("necesita_ley"), "que": corta(a.get("que"), 300), "entrega": corta(a.get("entrega"), 180), "responsable": a.get("responsable"),
+                          "costo": corta(a.get("costo_referencial"), 120), "fin": corta(a.get("financiamiento"), 140), "indicador": corta(a.get("indicador"), 140)}
+                         for s in secs for a in s.get("acciones", [])],
+            "paquetes": paqs}
+    (ROOT / "data/chat.json").write_text(json.dumps(chat, ensure_ascii=False, separators=(",", ":")))
     urls = ["", "peru2050.html", "limpieza.html", "entidades.html", "metodo.html"] + [f"s/{s['id']}.html" for s in secs]
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                       + "".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "</urlset>\n")
