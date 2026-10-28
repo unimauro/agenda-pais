@@ -1,6 +1,6 @@
 /* Analítica solo con consentimiento (Ley 29733): GA4 no se carga hasta que la persona acepta. */
 (function () {
-  const ID = "G-YKRRVYDYQ8", KEY = "pais_consent";
+  const ID = "G-WE9KMFDWS2", KEY = "pais_consent";
   let v = null; try { v = localStorage.getItem(KEY); } catch (_) {}
   function cargarGA() {
     const s = document.createElement("script"); s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + ID; document.head.appendChild(s);

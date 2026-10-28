@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://unimauro.github.io/agenda-pais/"
 TECH = "https://unimauro.github.io/agenda-legislativa-tech/"
-GA = "G-YKRRVYDYQ8"
+GA = "G-WE9KMFDWS2"
 
 # Orden y color de cada línea del mapa (los sectores aún no escritos simplemente no aparecen)
 SECTORES = [
