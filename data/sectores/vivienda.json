@@ -1,1553 +1,1631 @@
 {
- "id": "vivienda",
- "nombre": "Vivienda y ciudades",
- "lema": "Suelo seguro, casa digna y barrio con servicios para cada familia",
- "diagnostico": {
-  "resumen": "El Perú construye sus ciudades al revés: primero se ocupa el terreno, después se levanta la casa poco a poco y al final, si llega, viene el agua, la pista y el título. Según GRADE (Espinoza y Fort, 2020), el 93 % de la expansión urbana entre 2001 y 2018 fue informal: invasiones y lotizaciones sin habilitación. El MVCS estima que en 2023 el 18,7 % de los hogares tenía déficit habitacional, 5,8 % cuantitativo (les falta una vivienda) y 12,9 % cualitativo (viven en casas con materiales precarios, hacinamiento o sin servicios). En Lima, cerca del 69 % de las viviendas fue autoconstruida sin asistencia técnica (estudio GRADE citado por Canal N), en una de las zonas sísmicas más activas del mundo. Los municipios recaudan poco impuesto predial (0,26 % del PIB en 2022 frente a 0,4 % en América Latina, BID) porque no tienen catastro, y por eso no pueden financiar parques ni pistas: Lima tiene unos 3,5 m² de área verde por habitante (Municipalidad de Lima, 2024). Los subsidios de Techo Propio y Mivivienda mejoraron el acceso al crédito de sus beneficiarios (evaluación MVCS 2024), pero no alcanzan a los hogares que ocupan suelo informal. La Ley 31313 de Desarrollo Urbano Sostenible (2021) y su reglamento dieron instrumentos de planificación y gestión del suelo que se aplican poco; las prórrogas sucesivas de formalización (Ley 32267 de 2025, hasta posesiones de 2021) mandan la señal de que invadir se premia. El 25 de octubre de 2026 el sector fue declarado en emergencia (DS 016-2026-VIVIENDA).",
-  "indicadores": [
-   {
-    "nombre": "Hogares con déficit habitacional: total / cuantitativo / cualitativo",
-    "valor": "18,7 / 5,8 / 12,9",
-    "unidad": "% de hogares",
-    "anio": 2023,
-    "fuente": "MVCS, Oficina de Evaluación del Impacto (2024), con datos del INEI",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
-   },
-   {
-    "nombre": "Hogares con déficit habitacional cuantitativo (indicador del PEDN)",
-    "valor": "5,71",
-    "unidad": "% de hogares",
-    "anio": 2024,
-    "fuente": "CEPLAN, seguimiento de indicadores del PEDN al 2050",
-    "url": "https://indpedn2050.ceplan.gob.pe/"
-   },
-   {
-    "nombre": "Expansión urbana informal en las 43 principales ciudades (2001–2018)",
-    "valor": "93",
-    "unidad": "% del suelo urbano nuevo",
-    "anio": 2018,
-    "fuente": "GRADE, Espinoza y Fort (2020)",
-    "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-   },
-   {
-    "nombre": "Viviendas de Lima levantadas por autoconstrucción sin asesoría técnica",
-    "valor": "69",
-    "unidad": "% de viviendas",
-    "anio": 2023,
-    "fuente": "Estudio GRADE 2023 citado por Canal N",
-    "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
-   },
-   {
-    "nombre": "Recaudación del impuesto predial",
-    "valor": "0,26 (América Latina: 0,4)",
-    "unidad": "% del PIB",
-    "anio": 2022,
-    "fuente": "BID con datos de CEPAL",
-    "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
-   },
-   {
-    "nombre": "Área verde por habitante en Lima Metropolitana",
-    "valor": "3,5 (referencia OMS citada: 9)",
-    "unidad": "m² por habitante",
-    "anio": 2024,
-    "fuente": "Municipalidad Metropolitana de Lima, citada por La República",
-    "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
-   },
-   {
-    "nombre": "Población del Perú (Censos Nacionales 2025)",
-    "valor": "34 157 732",
-    "unidad": "habitantes",
-    "anio": 2025,
-    "fuente": "INEI, Censos Nacionales 2025",
-    "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
-   },
-   {
-    "nombre": "Presupuesto (PIM) del PP 0146 Acceso de las familias a vivienda y entorno urbano adecuado",
-    "valor": "1 905",
-    "unidad": "millones de soles",
-    "anio": 2026,
-    "fuente": "MEF, Consulta Amigable (corte de consulta 2026)",
-    "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
-   },
-   {
-    "nombre": "Viviendas particulares inscritas en los registros públicos (indicador del PEDN)",
-    "valor": "94,5",
-    "unidad": "% de viviendas",
-    "anio": 2024,
-    "fuente": "CEPLAN, seguimiento de indicadores del PEDN al 2050",
-    "url": "https://indpedn2050.ceplan.gob.pe/"
-   }
+  "id": "vivienda",
+  "nombre": "Vivienda y ciudades",
+  "lema": "Suelo seguro, casa digna y barrio con servicios para cada familia",
+  "diagnostico": {
+    "resumen": "El Perú construye sus ciudades al revés: primero se ocupa el terreno, después se levanta la casa poco a poco y al final, si llega, viene el agua, la pista y el título. Según GRADE (Espinoza y Fort, 2020), el 93 % de la expansión urbana entre 2001 y 2018 fue informal: invasiones y lotizaciones sin habilitación. El MVCS estima que en 2023 el 18,7 % de los hogares tenía déficit habitacional, 5,8 % cuantitativo (les falta una vivienda) y 12,9 % cualitativo (viven en casas con materiales precarios, hacinamiento o sin servicios). En Lima, cerca del 69 % de las viviendas fue autoconstruida sin asistencia técnica (estudio GRADE citado por Canal N), en una de las zonas sísmicas más activas del mundo. Los municipios recaudan poco impuesto predial (0,26 % del PIB en 2022 frente a 0,4 % en América Latina, BID) porque no tienen catastro, y por eso no pueden financiar parques ni pistas: Lima tiene unos 3,5 m² de área verde por habitante (Municipalidad de Lima, 2024). Los subsidios de Techo Propio y Mivivienda mejoraron el acceso al crédito de sus beneficiarios (evaluación MVCS 2024), pero no alcanzan a los hogares que ocupan suelo informal. La Ley 31313 de Desarrollo Urbano Sostenible (2021) y su reglamento dieron instrumentos de planificación y gestión del suelo que se aplican poco; las prórrogas sucesivas de formalización (Ley 32267 de 2025, hasta posesiones de 2021) mandan la señal de que invadir se premia. El 25 de octubre de 2026 el sector fue declarado en emergencia (DS 016-2026-VIVIENDA).",
+    "indicadores": [
+      {
+        "nombre": "Hogares con déficit habitacional: total / cuantitativo / cualitativo",
+        "valor": "18,7 / 5,8 / 12,9",
+        "unidad": "% de hogares",
+        "anio": 2023,
+        "fuente": "MVCS, Oficina de Evaluación del Impacto (2024), con datos del INEI",
+        "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
+      },
+      {
+        "nombre": "Hogares con déficit habitacional cuantitativo (indicador del PEDN)",
+        "valor": "5,71",
+        "unidad": "% de hogares",
+        "anio": 2024,
+        "fuente": "CEPLAN, seguimiento de indicadores del PEDN al 2050",
+        "url": "https://indpedn2050.ceplan.gob.pe/"
+      },
+      {
+        "nombre": "Expansión urbana informal en las 43 principales ciudades (2001–2018)",
+        "valor": "93",
+        "unidad": "% del suelo urbano nuevo",
+        "anio": 2018,
+        "fuente": "GRADE, Espinoza y Fort (2020)",
+        "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+      },
+      {
+        "nombre": "Viviendas de Lima levantadas por autoconstrucción sin asesoría técnica",
+        "valor": "69",
+        "unidad": "% de viviendas",
+        "anio": 2023,
+        "fuente": "Estudio GRADE 2023 citado por Canal N",
+        "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
+      },
+      {
+        "nombre": "Recaudación del impuesto predial",
+        "valor": "0,26 (América Latina: 0,4)",
+        "unidad": "% del PIB",
+        "anio": 2022,
+        "fuente": "BID con datos de CEPAL",
+        "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
+      },
+      {
+        "nombre": "Área verde por habitante en Lima Metropolitana",
+        "valor": "3,5 (referencia OMS citada: 9)",
+        "unidad": "m² por habitante",
+        "anio": 2024,
+        "fuente": "Municipalidad Metropolitana de Lima, citada por La República",
+        "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
+      },
+      {
+        "nombre": "Población del Perú (Censos Nacionales 2025)",
+        "valor": "34 157 732",
+        "unidad": "habitantes",
+        "anio": 2025,
+        "fuente": "INEI, Censos Nacionales 2025",
+        "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
+      },
+      {
+        "nombre": "Presupuesto (PIM) del PP 0146 Acceso de las familias a vivienda y entorno urbano adecuado",
+        "valor": "1 905",
+        "unidad": "millones de soles",
+        "anio": 2026,
+        "fuente": "MEF, Consulta Amigable (corte de consulta 2026)",
+        "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+      }
+    ],
+    "brechas": "Por tipo de déficit: el cualitativo (12,9 % de hogares) duplica al cuantitativo (5,8 %) (MVCS, 2024): el problema principal es la calidad de las viviendas que ya existen. Territorial: la expansión informal se concentra en las ciudades de la costa, donde además el riesgo sísmico es mayor; en Lima la autoconstrucción llega a cerca de 69 % y una cuarta parte es muy precaria (GRADE 2023, vía Canal N). En la sierra alta y la Amazonía el déficit cualitativo se asocia a heladas, friaje e inundaciones. Por ingreso: los subsidios de compra de vivienda nueva exigen ahorro y capacidad de crédito que los hogares más pobres no tienen (evaluación MVCS 2024). No encontramos cifras oficiales recientes del déficit por sexo de la jefatura del hogar ni por lengua materna; deben calcularse con ENAHO y el Censo 2025 (por verificar).",
+    "causas": [
+      "No hay oferta de suelo urbanizado barato y legal: el 93 % de la expansión 2001–2018 fue informal (GRADE), porque comprar un lote formal cuesta mucho más que ocuparlo.",
+      "Las prórrogas de formalización y la titulación posterior a la invasión premian el tráfico de terrenos (Ley 32267 amplió el plazo a posesiones de 2021).",
+      "Los municipios no tienen catastro ni recaudan predial (0,26 % del PIB, BID), y por eso no planifican ni invierten en espacio público y servicios.",
+      "Planificación urbana débil: la Ley 31313 y su reglamento (DS 012-2022-VIVIENDA) exigen planes e instrumentos de gestión del suelo que muchos municipios no tienen capacidad de elaborar ni aplicar.",
+      "Subsidios orientados a vivienda nueva terminada, que llegan a hogares con capacidad de crédito, mientras el mejoramiento de la vivienda autoconstruida y el alquiler reciben poco apoyo (evaluación MVCS 2024).",
+      "Fragmentación del gobierno de Lima y Callao en dos regímenes y más de 50 distritos, sin una autoridad que planifique suelo, agua y transporte juntos."
+    ]
+  },
+  "vision_2056": "En 2056 las familias peruanas viven en casas seguras ante sismos, en barrios planificados con agua, parques y transporte cercano; quien necesita vivienda encuentra un lote con servicios, un crédito o un alquiler accesible, y nadie tiene que invadir para tener techo.",
+  "metas": [
+    {
+      "indicador": "Hogares con déficit habitacional cuantitativo",
+      "linea_base": "5,8 % (2023)",
+      "2031": "5 %",
+      "2036": "4 %",
+      "2046": "2,5 %",
+      "2056": "≤ 1 %",
+      "referencia": "Meta PEDN: 0 % al 2030 (CEPLAN), que consideramos inalcanzable en ese plazo",
+      "fuente_linea_base": "MVCS (2024) con datos del INEI"
+    },
+    {
+      "indicador": "Hogares con déficit habitacional cualitativo",
+      "linea_base": "12,9 % (2023)",
+      "2031": "11 %",
+      "2036": "9 %",
+      "2046": "5 %",
+      "2056": "≤ 3 %",
+      "referencia": "Meta PEDN: 3 % al 2030 y 2050 (CEPLAN)",
+      "fuente_linea_base": "MVCS (2024) con datos del INEI"
+    },
+    {
+      "indicador": "Proporción de la expansión urbana que ocurre en suelo formal habilitado",
+      "linea_base": "7 % (2001–2018)",
+      "2031": "20 %",
+      "2036": "35 %",
+      "2046": "60 %",
+      "2056": "≥ 80 %",
+      "referencia": "Medición con imágenes satelitales replicable de GRADE",
+      "fuente_linea_base": "GRADE, Espinoza y Fort (2020)"
+    },
+    {
+      "indicador": "Recaudación del impuesto predial",
+      "linea_base": "0,26 % del PIB (2022)",
+      "2031": "0,35 %",
+      "2036": "0,45 %",
+      "2046": "0,6 %",
+      "2056": "0,8 %",
+      "referencia": "América Latina 0,4 % (BID); OCDE alrededor de 1,1 % (BCRP)",
+      "fuente_linea_base": "BID con datos de CEPAL"
+    },
+    {
+      "indicador": "Área verde pública por habitante en Lima Metropolitana",
+      "linea_base": "3,5 m² (2024)",
+      "2031": "4 m²",
+      "2036": "5 m²",
+      "2046": "7 m²",
+      "2056": "9 m²",
+      "referencia": "Referencia de 9 m² atribuida a la OMS (por verificar la fuente original)",
+      "fuente_linea_base": "Municipalidad Metropolitana de Lima, vía La República"
+    },
+    {
+      "indicador": "Viviendas autoconstruidas de Lima con reforzamiento o verificación estructural",
+      "linea_base": "por verificar (no hay línea de base oficial)",
+      "2031": "10 % de las viviendas en zonas de mayor peligro",
+      "2036": "25 %",
+      "2046": "50 %",
+      "2056": "80 %",
+      "referencia": "Programas de reforzamiento sísmico de vivienda de Chile y Colombia (por verificar)",
+      "fuente_linea_base": "Por construir con el inventario de VIV-11"
+    }
   ],
-  "brechas": "Por tipo de déficit: el cualitativo (12,9 % de hogares) duplica al cuantitativo (5,8 %) (MVCS, 2024): el problema principal es la calidad de las viviendas que ya existen. Territorial: la expansión informal se concentra en las ciudades de la costa, donde además el riesgo sísmico es mayor; en Lima la autoconstrucción llega a cerca de 69 % y una cuarta parte es muy precaria (GRADE 2023, vía Canal N). En la sierra alta y la Amazonía el déficit cualitativo se asocia a heladas, friaje e inundaciones. Por ingreso: los subsidios de compra de vivienda nueva exigen ahorro y capacidad de crédito que los hogares más pobres no tienen (evaluación MVCS 2024). No encontramos cifras oficiales recientes del déficit por sexo de la jefatura del hogar ni por lengua materna; deben calcularse con ENAHO y el Censo 2025 (por verificar).",
-  "causas": [
-   "No hay oferta de suelo urbanizado barato y legal: el 93 % de la expansión 2001–2018 fue informal (GRADE), porque comprar un lote formal cuesta mucho más que ocuparlo.",
-   "Las prórrogas de formalización y la titulación posterior a la invasión premian el tráfico de terrenos (Ley 32267 amplió el plazo a posesiones de 2021).",
-   "Los municipios no tienen catastro ni recaudan predial (0,26 % del PIB, BID), y por eso no planifican ni invierten en espacio público y servicios.",
-   "Planificación urbana débil: la Ley 31313 y su reglamento (DS 012-2022-VIVIENDA) exigen planes e instrumentos de gestión del suelo que muchos municipios no tienen capacidad de elaborar ni aplicar.",
-   "Subsidios orientados a vivienda nueva terminada, que llegan a hogares con capacidad de crédito, mientras el mejoramiento de la vivienda autoconstruida y el alquiler reciben poco apoyo (evaluación MVCS 2024).",
-   "Fragmentación del gobierno de Lima y Callao en dos regímenes y más de 50 distritos, sin una autoridad que planifique suelo, agua y transporte juntos."
-  ]
- },
- "vision_2056": "En 2056 las familias peruanas viven en casas seguras ante sismos, en barrios planificados con agua, parques y transporte cercano; quien necesita vivienda encuentra un lote con servicios, un crédito o un alquiler accesible, y nadie tiene que invadir para tener techo.",
- "metas": [
-  {
-   "indicador": "Hogares con déficit habitacional cuantitativo",
-   "linea_base": "5,8 % (2023)",
-   "2031": "5 %",
-   "2036": "4 %",
-   "2046": "2,5 %",
-   "2056": "≤ 1 %",
-   "referencia": "Meta PEDN: 0 % al 2030 (CEPLAN), que consideramos inalcanzable en ese plazo",
-   "fuente_linea_base": "MVCS (2024) con datos del INEI"
-  },
-  {
-   "indicador": "Hogares con déficit habitacional cualitativo",
-   "linea_base": "12,9 % (2023)",
-   "2031": "11 %",
-   "2036": "9 %",
-   "2046": "5 %",
-   "2056": "≤ 3 %",
-   "referencia": "Meta PEDN: 3 % al 2030 y 2050 (CEPLAN)",
-   "fuente_linea_base": "MVCS (2024) con datos del INEI"
-  },
-  {
-   "indicador": "Proporción de la expansión urbana que ocurre en suelo formal habilitado",
-   "linea_base": "7 % (2001–2018)",
-   "2031": "20 %",
-   "2036": "35 %",
-   "2046": "60 %",
-   "2056": "≥ 80 %",
-   "referencia": "Medición con imágenes satelitales replicable de GRADE",
-   "fuente_linea_base": "GRADE, Espinoza y Fort (2020)"
-  },
-  {
-   "indicador": "Recaudación del impuesto predial",
-   "linea_base": "0,26 % del PIB (2022)",
-   "2031": "0,35 %",
-   "2036": "0,45 %",
-   "2046": "0,6 %",
-   "2056": "0,8 %",
-   "referencia": "América Latina 0,4 % (BID); OCDE alrededor de 1,1 % (BCRP)",
-   "fuente_linea_base": "BID con datos de CEPAL"
-  },
-  {
-   "indicador": "Área verde pública por habitante en Lima Metropolitana",
-   "linea_base": "3,5 m² (2024)",
-   "2031": "4 m²",
-   "2036": "5 m²",
-   "2046": "7 m²",
-   "2056": "9 m²",
-   "referencia": "Referencia de 9 m² atribuida a la OMS (por verificar la fuente original)",
-   "fuente_linea_base": "Municipalidad Metropolitana de Lima, vía La República"
-  },
-  {
-   "indicador": "Viviendas autoconstruidas de Lima con reforzamiento o verificación estructural",
-   "linea_base": "por verificar (no hay línea de base oficial)",
-   "2031": "10 % de las viviendas en zonas de mayor peligro",
-   "2036": "25 %",
-   "2046": "50 %",
-   "2056": "80 %",
-   "referencia": "Programas de reforzamiento sísmico de vivienda de Chile y Colombia (por verificar)",
-   "fuente_linea_base": "Por construir con el inventario de VIV-11"
-  }
- ],
- "acciones": [
-  {
-   "id": "VIV-01",
-   "titulo": "Medir cada año el déficit habitacional por distrito y publicarlo abierto",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo hacen el INEI y el MVCS con la ENAHO, los Censos 2025 y registros administrativos; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "El INEI y el MVCS acuerdan una metodología oficial única del déficit habitacional cuantitativo y cualitativo, la calculan cada año con la ENAHO y, por distrito, con los Censos Nacionales 2025 y estimaciones de áreas pequeñas. Se publica un tablero abierto que cruza el déficit con riesgo sísmico, cobertura de agua, catastro y subsidios entregados, para que la asignación de bonos y obras siga a la necesidad y no a la presión política.",
-   "evidencia": "Hoy circulan cifras incompatibles: 18,7 % de hogares con déficit en 2023 según el MVCS (2024), 5,71 % de déficit cuantitativo en 2024 según el seguimiento del PEDN (CEPLAN) y estimaciones gremiales con otras definiciones. El Censo 2025 permite por primera vez en ocho años una línea de base distrital (INEI).",
-   "entrega": "Metodología oficial y tablero abierto anual del déficit habitacional por distrito.",
-   "responsable": "INEI",
-   "entidades": [
+  "acciones": [
     {
-     "sigla": "INEI",
-     "rol": "ejecutora"
+      "id": "VIV-01",
+      "titulo": "Medir cada año el déficit habitacional por distrito y publicarlo abierto",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo hacen el INEI y el MVCS con la ENAHO, los Censos 2025 y registros administrativos; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "El INEI y el MVCS acuerdan una metodología oficial única del déficit habitacional cuantitativo y cualitativo, la calculan cada año con la ENAHO y, por distrito, con los Censos Nacionales 2025 y estimaciones de áreas pequeñas. Se publica un tablero abierto que cruza el déficit con riesgo sísmico, cobertura de agua, catastro y subsidios entregados, para que la asignación de bonos y obras siga a la necesidad y no a la presión política.",
+      "evidencia": "Hoy circulan cifras incompatibles: 18,7 % de hogares con déficit en 2023 según el MVCS (2024), 5,71 % de déficit cuantitativo en 2024 según el seguimiento del PEDN (CEPLAN) y estimaciones gremiales con otras definiciones. El Censo 2025 permite por primera vez en ocho años una línea de base distrital (INEI).",
+      "entrega": "Metodología oficial y tablero abierto anual del déficit habitacional por distrito.",
+      "responsable": "INEI",
+      "entidades": [
+        {
+          "sigla": "INEI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CEPLAN",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del INEI y del MVCS.",
+      "costo_referencial": "no estimado",
+      "indicador": "Publicación anual del déficit por distrito con metodología única.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "IA-04"
+      ],
+      "riesgo": "Cambios de metodología que rompen la serie; datos que no se usan en la asignación.",
+      "fuentes": [
+        {
+          "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
+        },
+        {
+          "titulo": "CEPLAN – Indicadores del PEDN al 2050 (seguimiento)",
+          "url": "https://indpedn2050.ceplan.gob.pe/"
+        },
+        {
+          "titulo": "INEI – Población del Perú 34 157 732 habitantes (Censos Nacionales 2025)",
+          "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7"
+      ]
     },
     {
-     "sigla": "MVCS",
-     "rol": "rectora"
+      "id": "VIV-02",
+      "titulo": "Mejorar y ampliar las viviendas que ya existen con asistencia técnica y bono",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El Bono Familiar Habitacional (Ley 27829) ya tiene modalidades de construcción en sitio propio y mejoramiento; se reorienta por reglamento y presupuesto del PP 0146.",
+      "etapa": "2026-2031",
+      "que": "Reorientar una parte creciente del Bono Familiar Habitacional hacia el déficit cualitativo: techos, muros, baños, ampliaciones y reforzamiento de viviendas existentes de familias de bajos ingresos con título o constancia de posesión fuera de zonas de riesgo no mitigable. Cada intervención incluye un diseño firmado por un profesional, supervisión de obra y uso de materiales certificados. Se prioriza a hogares con hacinamiento, adultos mayores o personas con discapacidad.",
+      "evidencia": "El déficit cualitativo (12,9 % de hogares) duplica al cuantitativo (5,8 %) (MVCS, 2024). La evaluación del MVCS sobre el BFH en las modalidades de vivienda nueva y construcción en sitio propio encontró efectos positivos en el acceso al crédito formal y recomendó fortalecer el seguimiento de la calidad de las viviendas entregadas (MVCS, 2024).",
+      "entrega": "Viviendas mejoradas o ampliadas con diseño y supervisión técnica en distritos con mayor déficit cualitativo.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "FMV",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SENCICO",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "PP 0146 (PIM 2026: S/ 1 905 millones), reasignación entre modalidades del BFH y microcrédito para vivienda.",
+      "costo_referencial": "no estimado",
+      "indicador": "Hogares con déficit cualitativo (INEI/MVCS); viviendas mejoradas con conformidad técnica.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-01"
+      ],
+      "riesgo": "Mejoras de baja calidad por constructores informales; subsidios capturados por intermediarios.",
+      "fuentes": [
+        {
+          "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
+        },
+        {
+          "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
+          "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7",
+        "AE2.3.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo VIV-02 con VIV-11",
+          "decision": "aplicado: se quita VIV-11 de depende_de"
+        }
+      ]
     },
     {
-     "sigla": "CEPLAN",
-     "rol": "consultiva"
+      "id": "VIV-03",
+      "titulo": "Ordenar los subsidios de vivienda en una sola escalera focalizada y evaluada",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "parcial",
+      "por_que_ley": "Los montos, reglas y focalización del BFH y del Bono del Buen Pagador se fijan por decreto supremo y reglamentos; fusionar los bonos creados por ley (Ley 27829 y Ley 29033) en un solo esquema requiere ley de iniciativa del Ejecutivo.",
+      "etapa": "2026-2031",
+      "que": "Integrar el Bono Familiar Habitacional, el Bono del Buen Pagador, el bono de vivienda sostenible y los bonos de arrendamiento en una escalera única de subsidios según ingreso del hogar, con montos decrecientes a mayor ingreso y un solo padrón interoperable con el SISFOH. Se premia la ubicación de la vivienda cerca del empleo y del transporte, y el subsidio se paga solo con conformidad técnica de la obra. Cada modalidad se evalúa con diseño experimental o cuasi experimental antes de ampliarse.",
+      "evidencia": "La evaluación del MVCS (2024) muestra efectos del BFH en el acceso al crédito, pero también la necesidad de vigilar la calidad de las viviendas. La experiencia chilena muestra que subsidios masivos a vivienda nueva en la periferia generaron segregación y que la ubicación debe ser parte del diseño (Ministerio de Vivienda y Urbanismo de Chile, Política Nacional de Desarrollo Urbano, 2014).",
+      "entrega": "Esquema único de subsidios habitacionales con padrón interoperable y evaluaciones publicadas por modalidad.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "FMV",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MIDIS",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuestos existentes del BFH y del Fondo Mivivienda; sin gasto adicional.",
+      "costo_referencial": "no estimado",
+      "indicador": "Proporción del subsidio que llega a los tres quintiles de menor ingreso; evaluaciones publicadas por modalidad.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Ley 29033, Ley de creación del Bono del Buen Pagador",
+          "motivo": "Se integra en la escalera única de subsidios para evitar superposición con el Bono Familiar Habitacional."
+        }
+      ],
+      "depende_de": [
+        "VIV-01",
+        "EST-01"
+      ],
+      "riesgo": "Presión de promotores inmobiliarios y entidades financieras que se benefician del diseño actual.",
+      "fuentes": [
+        {
+          "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
+        },
+        {
+          "titulo": "Ley 30952 – Bono de Arrendamiento para Vivienda (LP Derecho)",
+          "url": "https://lpderecho.pe/ley-30952-bono-arrendamiento-vivienda/"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7",
+        "AE3.6.5"
+      ]
     },
     {
-     "sigla": "MEF",
-     "rol": "consultiva"
+      "id": "VIV-04",
+      "titulo": "Crear una oferta de alquiler social con bono y vivienda pública en arriendo",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El Bono de Arrendamiento para Vivienda (Ley 30952), el bono de arrendamiento para emergencias (Ley 31526) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se escalan con presupuesto y reglamento.",
+      "etapa": "2031-2036",
+      "que": "Escalar el Bono de Arrendamiento para Vivienda para jóvenes, familias monoparentales y damnificados, y licitar edificios de vivienda en alquiler a precio limitado en suelo público bien ubicado de Lima, Arequipa, Trujillo y otras ciudades, operados por privados con contratos de largo plazo. Los contratos se registran con el formulario de desalojo notarial para dar seguridad a propietarios e inquilinos. El alquiler se ofrece como alternativa a la invasión para quien recién forma su hogar.",
+      "evidencia": "El Bono Renta Joven entrega S/ 500 mensuales, 70 % para el alquiler y 30 % a una cuenta de ahorro para la cuota inicial (Andina); sus convocatorias han sido pequeñas (miles de bonos). Chile mantiene desde 2013 un subsidio de arriendo como política permanente (MINVU). La evaluación de impacto de Renta Joven aún no se ha publicado (por verificar).",
+      "entrega": "Bonos de arrendamiento ampliados y primeros edificios de alquiler social en suelo público.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "FMV",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SBN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0146, suelo público aportado por la SBN y APP o contratos de largo plazo con operadores privados.",
+      "costo_referencial": "no estimado",
+      "indicador": "Hogares con bono de arrendamiento vigente; viviendas en alquiler social operando.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-03",
+        "VIV-20"
+      ],
+      "riesgo": "Bonos que suben los alquileres si no aumenta la oferta; edificios públicos mal mantenidos.",
+      "fuentes": [
+        {
+          "titulo": "Andina – Bono Renta Joven: lo que tienes que saber",
+          "url": "https://andina.pe/ingles/noticia-bono-renta-joven-todo-que-tienes-saber-para-lograr-este-beneficio-767731.aspx"
+        },
+        {
+          "titulo": "MVCS – Acceder a Bono Renta Joven",
+          "url": "https://www.gob.pe/institucion/vivienda/pages/8297-acceder-a-bono-renta-joven"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7",
+        "AE3.6.5"
+      ]
+    },
+    {
+      "id": "VIV-05",
+      "titulo": "Aplicar en treinta ciudades los instrumentos de gestión de suelo de la Ley 31313",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 31313 y su reglamento (DS 012-2022-VIVIENDA) ya regulan los instrumentos; falta capacidad para aplicarlos.",
+      "etapa": "2026-2031",
+      "que": "El MVCS acompaña a treinta municipalidades provinciales con un equipo técnico para aplicar los instrumentos de gestión del suelo previstos en la Ley 31313, como el reajuste de suelos en zonas de expansión, la densificación en corredores de transporte y la recuperación de predios ociosos para vivienda social. Cada ciudad prepara un banco de suelo con predios públicos aptos y publica su inventario. Los resultados se evalúan para ajustar el reglamento.",
+      "evidencia": "La Ley 31313 (2021) incorporó instrumentos de planificación y gestión del suelo y su reglamento de acondicionamiento territorial se aprobó en 2022 (DS 012-2022-VIVIENDA). Colombia usa desde la Ley 388 de 1997 instrumentos de gestión del suelo y reparto de cargas y beneficios en sus planes de ordenamiento territorial (por verificar evaluaciones recientes).",
+      "entrega": "Bancos de suelo e instrumentos de gestión aplicados en treinta ciudades con informe de evaluación.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SBN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "COFOPRI",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0146 y presupuesto del MVCS para asistencia técnica; cooperación internacional.",
+      "costo_referencial": "no estimado",
+      "indicador": "Hectáreas de suelo habilitado mediante instrumentos de gestión; predios públicos incorporados a bancos de suelo.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-06",
+        "VIV-07"
+      ],
+      "riesgo": "Municipios sin personal técnico estable; oposición de propietarios de suelo.",
+      "fuentes": [
+        {
+          "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
+          "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
+        }
+      ],
+      "pedn": [
+        "AE2.1.7",
+        "AE2.1.3"
+      ]
+    },
+    {
+      "id": "VIV-06",
+      "titulo": "Dotar a toda ciudad de un plan de desarrollo urbano vigente y simple",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Los planes de desarrollo urbano y metropolitano están regulados por la Ley 31313 y el DS 012-2022-VIVIENDA; el MVCS puede elaborarlos por encargo de los municipios.",
+      "etapa": "2026-2031",
+      "que": "Un programa nacional elabora o actualiza los planes de desarrollo urbano de todas las ciudades de más de 20 000 habitantes con una metodología estandarizada y simple: mapa de peligros, suelo urbanizable para los próximos veinte años, red vial y de transporte, áreas para equipamientos y parques, y reservas para agua y desagüe. Los planes se aprueban con participación ciudadana, se publican en un geoportal y se convierten en la base para dar factibilidades de servicios y licencias.",
+      "evidencia": "La Ley 31313 vincula zonificación y planes de desarrollo urbano, pero muchas ciudades crecen sin plan vigente (porcentaje oficial por verificar con RENAMU). El 93 % de la expansión 2001–2018 fue informal (GRADE). La OCDE recomienda planificación metropolitana y de ciudades intermedias integrada con infraestructura (OCDE, Urban Policy Reviews: Peru, 2016, por verificar).",
+      "entrega": "Planes de desarrollo urbano vigentes y publicados en geoportal para todas las ciudades de más de 20 000 habitantes.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "CENEPRED",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CEPLAN",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0146, Programa de Incentivos Municipales y cooperación.",
+      "costo_referencial": "no estimado",
+      "indicador": "Ciudades de más de 20 000 habitantes con plan de desarrollo urbano vigente (RENAMU).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-01",
+        "GOB-07"
+      ],
+      "riesgo": "Planes que se aprueban y no se aplican; presión para cambiar zonificaciones caso por caso.",
+      "fuentes": [
+        {
+          "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
+          "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
+        },
+        {
+          "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
+          "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.1.7",
+        "AE2.2.3"
+      ]
+    },
+    {
+      "id": "VIV-07",
+      "titulo": "Completar el catastro urbano multipropósito y actualizar el impuesto predial",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El catastro se rige por la Ley 28294 del Sistema Nacional Integrado de Catastro; los valores arancelarios se aprueban anualmente por el MVCS. No requiere ley; la propuesta digital está en GOB-07 y DIG-22.",
+      "etapa": "2026-2031",
+      "que": "COFOPRI y las municipalidades provinciales levantan el catastro urbano de las ciudades con imágenes de dron y satélite, con un código único catastral enlazado a SUNARP, y lo usan para actualizar el padrón del impuesto predial. El MVCS actualiza los valores arancelarios con metodología técnica. Parte del mayor predial se destina por acuerdo municipal a mantenimiento de parques, pistas y veredas del propio distrito, para que el vecino vea el retorno.",
+      "evidencia": "El Perú recauda 0,26 % del PIB en predial frente a 0,4 % en América Latina, brecha que el BID atribuye principalmente a la falta de catastro fiscal (BID). El catastro urbano nacional de COFOPRI apunta a cerrar una brecha de seis millones de predios (iuslatin, por verificar). Colombia elevó su recaudo predial con la actualización catastral multipropósito (BID, por verificar).",
+      "entrega": "Catastro urbano multipropósito en las ciudades de más de 20 000 habitantes y padrones prediales actualizados.",
+      "responsable": "COFOPRI",
+      "entidades": [
+        {
+          "sigla": "COFOPRI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUNARP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "PP 0058 Acceso a la propiedad predial formalizada, Programa de Incentivos Municipales y préstamos del BID.",
+      "costo_referencial": "no estimado",
+      "indicador": "Predios urbanos catastrados; recaudación del impuesto predial como % del PIB.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "GOB-07"
+      ],
+      "riesgo": "Rechazo vecinal a alzas del predial; catastros que no se mantienen actualizados.",
+      "fuentes": [
+        {
+          "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
+          "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
+        },
+        {
+          "titulo": "Iuslatin – COFOPRI prepara un catastro urbano nacional multipropósito",
+          "url": "https://iuslatin.pe/cofopri-prepara-un-nuevo-catastro-urbano-nacional-multiproposito/"
+        }
+      ],
+      "pedn": [
+        "AE2.1.2",
+        "AE2.1.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo VIV-07 con VIV-10",
+          "decision": "aplicado: se quita VIV-10 de depende_de"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Solapa con DIG-22: catastro queda en VIV-07",
+          "decision": "aplicado: se quita DIG-22 de depende_de"
+        }
+      ]
+    },
+    {
+      "id": "VIV-08",
+      "titulo": "Habilitar lotes con servicios básicos antes de que llegue la invasión",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Los Programas de Adjudicación de Lotes de COFOPRI (DL 803 modificado por el DL 1202 y su reglamento, DS 014-2016-VIVIENDA) ya permiten adjudicar terrenos del Estado con fines de vivienda.",
+      "etapa": "2026-2031",
+      "que": "En las zonas de expansión que señala el plan urbano, el Estado habilita por etapas lotes de bajo costo con trazado de calles, reservas para parques y escuelas, agua y desagüe o soluciones transitorias, y los adjudica por sorteo a familias sin vivienda registradas, con pago en cuotas. La vivienda se construye progresivamente con planos tipo y asistencia técnica. Se empieza en las ciudades con más invasiones recientes de la costa y en ciudades intermedias de rápido crecimiento.",
+      "evidencia": "El 93 % de la expansión urbana fue informal porque no hay oferta de suelo formal accesible (GRADE, 2020). El Banco Mundial ha documentado que los programas de lotes con servicios cuestan menos por hogar que llevar servicios a asentamientos informales ya consolidados, siempre que estén bien ubicados (Banco Mundial, revisión de sites and services, por verificar).",
+      "entrega": "Lotes habilitados con servicios adjudicados a familias sin vivienda en zonas de expansión planificadas.",
+      "responsable": "COFOPRI",
+      "entidades": [
+        {
+          "sigla": "COFOPRI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SBN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "EPS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "PP 0146 y PP 0058, cuotas de los adjudicatarios y suelo del Estado.",
+      "costo_referencial": "no estimado",
+      "indicador": "Lotes habilitados y adjudicados; proporción de la expansión urbana en suelo formal (medición satelital).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-05",
+        "VIV-06",
+        "AGU-18"
+      ],
+      "riesgo": "Lotes mal ubicados que nadie ocupa o que son revendidos; captura por traficantes en la adjudicación.",
+      "fuentes": [
+        {
+          "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
+          "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+        },
+        {
+          "titulo": "DS 001-2018-VIVIENDA: modifica el reglamento de los Programas de Adjudicación de Lotes (FAOLEX)",
+          "url": "https://faolex.fao.org/docs/pdf/per193502.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.1.7",
+        "AE1.3.7"
+      ]
+    },
+    {
+      "id": "VIV-09",
+      "titulo": "Perseguir el tráfico de terrenos con fiscalías especializadas y recuperación rápida",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "Los delitos de usurpación (Código Penal, arts. 202 y 204) y los procedimientos de recuperación extrajudicial de predios estatales están en normas con rango de ley; endurecer agravantes por organización criminal y unificar la recuperación requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Modificar el Código Penal y las normas de defensa de predios estatales para tratar el tráfico de terrenos organizado como delito de organización criminal con decomiso de ganancias, sancionar al funcionario que emite constancias de posesión o factibilidades a invasores, y unificar para la SBN, gobiernos regionales y municipios el procedimiento de recuperación extrajudicial de la Ley 30230 para ocupaciones recientes (dentro del plazo legal), con apoyo policial oportuno; las posesiones antiguas se recuperan por vía judicial, con debido proceso. El Ministerio Público crea fiscalías especializadas en las ciudades con más invasiones.",
+      "evidencia": "Las invasiones y lotizaciones informales explican casi toda la expansión urbana reciente (GRADE, 2020). Las prórrogas sucesivas de formalización hasta posesiones de 2021 (Ley 32267) reducen el costo esperado de invadir. La delegación de 2026 incluyó la respuesta penal al crimen organizado, pero no específicamente el tráfico de terrenos (Ley 32743).",
+      "entrega": "Ley sobre tráfico de terrenos y fiscalías especializadas operando en las principales ciudades.",
+      "responsable": "MPFN",
+      "entidades": [
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MPFN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PNP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SBN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PJ",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto del Ministerio Público y la PNP; la creación de fiscalías corresponde al propio Ministerio Público.",
+      "costo_referencial": "no estimado",
+      "indicador": "Hectáreas invadidas por año (medición satelital); sentencias por tráfico de terrenos; predios estatales recuperados.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-08",
+        "VIV-10"
+      ],
+      "riesgo": "Criminalizar a familias pobres en lugar de a las organizaciones; desalojos sin alternativa de suelo.",
+      "fuentes": [
+        {
+          "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
+          "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+        },
+        {
+          "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
+          "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
+        },
+        {
+          "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.1.7",
+        "AE2.2.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Recuperación en 48 horas y debido proceso",
+          "decision": "aplicado: se limita a ocupaciones recientes bajo la Ley 30230; las antiguas por vía judicial"
+        }
+      ]
+    },
+    {
+      "id": "VIV-10",
+      "titulo": "Cerrar el régimen de formalización y prohibir titular en zonas de riesgo",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "Los plazos y fechas de corte de la formalización están en las Leyes 28687, 31056 y 32267; asegurar que no haya nuevas ampliaciones y prohibir titular en zonas de riesgo no mitigable exige ley.",
+      "etapa": "2026-2031",
+      "que": "La Ley 32267 ya amplió \"por última vez\" el plazo hasta posesiones al 31 de diciembre de 2021. Se propone modificar la Ley 31056 para fijar una fecha de cierre del régimen extraordinario de formalización y reforzar la prohibición de titular posesiones en zonas de riesgo no mitigable (identificadas por CENEPRED y el plan urbano) o en áreas reservadas para vías, parques y servicios. A cambio, las familias en esas zonas acceden a lotes con servicios (VIV-08) o al reasentamiento (VIV-12). COFOPRI publica cada año el número de posesiones pendientes hasta cerrar el proceso. Se complementa con el reasentamiento de VIV-12.",
+      "evidencia": "La Ley 32267 (2025) amplió por última vez los plazos de las Leyes 28687 y 31056 hasta posesiones al 31 de diciembre de 2021; antes el límite era 2015 (Infobae, Correo). Investigadores de GRADE han advertido que las leyes que titulan terrenos ocupados irregularmente incentivan nuevas invasiones (GRADE, nota de prensa).",
+      "entrega": "Ley que cierra las prórrogas de formalización y prohíbe titular en zonas de riesgo no mitigable.",
+      "responsable": "COFOPRI",
+      "entidades": [
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "COFOPRI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CENEPRED",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "No requiere gasto adicional.",
+      "costo_referencial": "no estimado",
+      "indicador": "Títulos otorgados en zonas de riesgo (meta: cero); posesiones pendientes de formalizar.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Ley 31056, que amplía los plazos de la titulación de terrenos ocupados por posesiones informales (modificada por la Ley 32267)",
+          "motivo": "Se fija el cierre definitivo del régimen extraordinario de formalización y se refuerza la exclusión de zonas de riesgo no mitigable."
+        }
+      ],
+      "depende_de": [
+        "VIV-08"
+      ],
+      "riesgo": "Presión política para nuevas prórrogas antes de cada elección; ninguna ley impide que una ley posterior vuelva a ampliar.",
+      "fuentes": [
+        {
+          "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
+          "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
+        },
+        {
+          "titulo": "Infobae – Cofopri amplía fecha límite de posesión al 31 de diciembre de 2021",
+          "url": "https://www.infobae.com/peru/2025/03/22/cofopri-amplian-plazo-para-titulacion-de-terrenos-hasta-el-31-de-diciembre-de-2021/"
+        },
+        {
+          "titulo": "GRADE – El Comercio destaca hallazgos sobre una ley que fomenta títulos en terrenos ocupados irregularmente",
+          "url": "https://grade.org.pe/en/novedades/el-comercio-highlights-findings-by-alvaro-espinoza-and-ricardo-fort-on-the-consequences-of-a-law-that-fosters-property-titles-to-irregularly-occupied-land"
+        }
+      ],
+      "pedn": [
+        "AE2.2.2",
+        "AE2.1.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Tipo derogacion cuando modifica la Ley 31056",
+          "decision": "aplicado: tipo pasa a ley y se cita la Ley 32267"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Depende de VIV-12 de etapa posterior",
+          "decision": "aplicado: se quita; VIV-12 adelanta su etapa"
+        }
+      ]
+    },
+    {
+      "id": "VIV-11",
+      "titulo": "Reforzar ante sismos las viviendas autoconstruidas de Lima y la costa",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta con la modalidad de mejoramiento del Bono Familiar Habitacional, el PP 0068 de reducción de vulnerabilidad y la formación de SENCICO; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Inventariar con imágenes, visitas y datos catastrales las viviendas autoconstruidas en las zonas de mayor peligro sísmico de Lima, Callao, Ica, Arequipa y la costa norte, y ofrecer a sus dueños evaluación estructural gratuita, un diseño de reforzamiento tipo y un bono o crédito para ejecutarlo con maestros de obra certificados por SENCICO. Se prioriza viviendas de varios pisos sobre suelos blandos o laderas y las que alojan a más personas.",
+      "evidencia": "Cerca del 69 % de las viviendas de Lima fue autoconstruida sin asesoría técnica y el 24 % es muy precaria (estudio GRADE 2023 citado por Canal N). Programas de reforzamiento con diseños tipo y asistencia técnica en Colombia y Chile reducen el costo por vivienda (por verificar evaluaciones).",
+      "entrega": "Inventario de vulnerabilidad sísmica de viviendas y reforzamientos ejecutados en las zonas de mayor peligro. Meta indicativa: 100 000 viviendas reforzadas al 2036 (trasladada de AMB-20).",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SENCICO",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "CENEPRED",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "FMV",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "IGP",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0068 Reducción de vulnerabilidad y atención de emergencias por desastres, PP 0146 y créditos de microfinanzas.",
+      "costo_referencial": "no estimado",
+      "indicador": "Viviendas evaluadas y reforzadas en zonas de alto peligro sísmico.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-02",
+        "VIV-07",
+        "TAL-10"
+      ],
+      "riesgo": "Baja demanda por desconocimiento del riesgo; costo alto por vivienda en edificaciones muy precarias.",
+      "fuentes": [
+        {
+          "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
+          "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
+        }
+      ],
+      "pedn": [
+        "AE2.3.1",
+        "AE2.2.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Solapa con AMB-20 en reforzamiento de viviendas",
+          "decision": "aplicado: el reforzamiento de viviendas queda en VIV-11 con la meta de AMB-20"
+        }
+      ]
+    },
+    {
+      "id": "VIV-12",
+      "titulo": "Reasentar con anticipación a las familias en zonas de muy alto riesgo no mitigable",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 29869 de Reasentamiento Poblacional para Zonas de Muy Alto Riesgo No Mitigable y su reglamento ya regulan el procedimiento.",
+      "etapa": "2026-2031",
+      "que": "Con los mapas de CENEPRED y los planes urbanos se identifican los asentamientos en cauces de quebradas, riberas inundables y laderas inestables donde el riesgo no se puede reducir. Las familias reciben una oferta concreta de reasentamiento cercano (lote con servicios o vivienda con bono), con participación en el diseño y apoyo para mantener empleo y escuela. El terreno liberado se declara intangible y se convierte en parque, área de amortiguamiento o defensa ribereña para evitar su reocupación. Las obras de mitigación donde el riesgo sí es reducible y el cierre de quebradas a nueva ocupación quedan en AMB-19.",
+      "evidencia": "Las lluvias de El Niño costero de 2017 afectaron miles de viviendas en quebradas y riberas de la costa norte (catastro de daños de la reconstrucción, Andina). La Ley 29869 existe desde 2012, pero los reasentamientos ejecutados han sido pocos; el Banco Mundial recomienda reasentamiento voluntario, cercano y con medios de vida (Banco Mundial, Preventive Resettlement of Populations at Risk of Disaster, 2011).",
+      "entrega": "Planes de reasentamiento ejecutados en los asentamientos de muy alto riesgo no mitigable priorizados, con terreno liberado convertido en espacio público.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CENEPRED",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "COFOPRI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "INDECI",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0068, PP 0146 (bonos) y fondos de reconstrucción.",
+      "costo_referencial": "no estimado",
+      "indicador": "Familias reasentadas de zonas de muy alto riesgo no mitigable; hectáreas liberadas sin reocupación.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-08",
+        "VIV-10",
+        "TAL-10"
+      ],
+      "riesgo": "Rechazo de las familias a dejar su barrio; reocupación de los terrenos liberados.",
+      "fuentes": [
+        {
+          "titulo": "Andina – Catastro de daños: Lambayeque y Piura registran el 68 % de predios colapsados (2017)",
+          "url": "https://andina.pe/ingles/noticia-catastro-danos-lambayeque-y-piura-registran-68-predios-colapsados-671714.aspx"
+        },
+        {
+          "titulo": "Banco Mundial / GFDRR (2011) – Preventive Resettlement of Populations at Risk of Disaster",
+          "url": "https://www.gfdrr.org/en/publication/preventive-resettlement-populations-risk-disaster-experiences-latin-america"
+        }
+      ],
+      "pedn": [
+        "AE2.2.2",
+        "AE2.2.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Duplica AMB-19 (reasentamiento)",
+          "decision": "aplicado: el reasentamiento queda en VIV-12, se adelanta a 2026-2031 y AMB-19 se remite a mitigación"
+        }
+      ]
+    },
+    {
+      "id": "VIV-13",
+      "titulo": "Mejorar integralmente los barrios consolidados: agua, pistas, muros y escaleras",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Inversión pública del PP 0146 (mejoramiento integral de barrios) por Invierte.pe; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "En los asentamientos consolidados de las periferias se ejecutan paquetes integrales por barrio: redes de agua y desagüe, pistas y veredas, muros de contención, escaleras, alumbrado, pequeños parques y espacios comunales. El barrio elige prioridades en asambleas y vigila la obra; el municipio asume el mantenimiento con parte del predial que genera el catastro. Se empieza por los barrios con mayor déficit cualitativo y riesgo de deslizamientos.",
+      "evidencia": "El programa Favela-Bairro de Río de Janeiro, financiado por el BID, mejoró ingresos y acceso a servicios en las favelas intervenidas según el BID, aunque evaluaciones independientes encontraron efectos claros sobre todo en alcantarillado y recojo de basura (Soares y Soares, 2005): la integralidad y el mantenimiento importan. El déficit cualitativo afecta al 12,9 % de hogares (MVCS, 2024).",
+      "entrega": "Barrios consolidados con paquete integral de servicios y espacio público ejecutado.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "EPS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "PP 0146 (PIM 2026: S/ 1 905 millones), Obras por Impuestos y cofinanciamiento municipal.",
+      "costo_referencial": "no estimado",
+      "indicador": "Hogares en barrios intervenidos con agua, pistas y protección de laderas.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "AGU-03",
+        "VIV-07",
+        "EST-08"
+      ],
+      "riesgo": "Obras fragmentadas sin integralidad; mantenimiento que no llega.",
+      "fuentes": [
+        {
+          "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
+          "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+        },
+        {
+          "titulo": "BID – Improving living conditions in low-income neighborhoods in Rio de Janeiro (Favela-Bairro)",
+          "url": "https://www.iadb.org/en/news/improving-living-conditions-low-income-neighborhoods-rio-de-janeiro"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7",
+        "AE2.3.2"
+      ]
+    },
+    {
+      "id": "VIV-14",
+      "titulo": "Multiplicar parques y espacios públicos en los distritos que menos tienen",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Inversión municipal y del MVCS; el plan urbano reserva el suelo. No requiere ley.",
+      "etapa": "2031-2036",
+      "que": "Cada ciudad identifica en su plan urbano los distritos con menos área verde por habitante y construye parques de barrio a menos de diez minutos a pie de cada vivienda, recupera riberas y lomas como parques lineales y abre patios escolares a la comunidad los fines de semana. En la costa los parques se riegan con agua residual tratada (AGU-10) y se usan especies de bajo consumo. Los vecinos participan en el diseño y en el cuidado.",
+      "evidencia": "Lima tiene unos 3,5 m² de área verde por habitante, lejos de los 9 m² citados como referencia (Municipalidad de Lima, vía La República). La Encuesta Lima Cómo Vamos 2025 registró que el 55,8 % de limeños está insatisfecho con calles y plazas (Actualidad Ambiental). Las áreas verdes urbanas se asocian a mejor salud física y mental (OMS Europa, Urban green spaces and health, 2016).",
+      "entrega": "Parques de barrio y parques lineales nuevos en los distritos con menor área verde por habitante.",
+      "responsable": "MUNICIPALIDADES",
+      "entidades": [
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SERPAR",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "EPS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINEDU",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Predial, PP 0146, Obras por Impuestos y aportes reglamentarios de las habilitaciones urbanas.",
+      "costo_referencial": "no estimado",
+      "indicador": "Área verde pública por habitante y población a menos de 10 minutos de un parque.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-06",
+        "AGU-10"
+      ],
+      "riesgo": "Parques sin agua ni mantenimiento; aportes de habilitaciones vendidos o invadidos.",
+      "fuentes": [
+        {
+          "titulo": "La República – Lima, la ciudad de América Latina con menos áreas verdes (3,5 m² por persona)",
+          "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
+        },
+        {
+          "titulo": "Actualidad Ambiental – Lima entre las ciudades con menor cantidad y calidad de espacios públicos",
+          "url": "https://www.actualidadambiental.pe/lima-entre-las-ciudades-con-menor-cantidad-y-calidad-de-espacios-publicos-de-america-latina/"
+        },
+        {
+          "titulo": "OMS Europa (2016) – Urban green spaces and health",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2016-3352-43111-60341"
+        }
+      ],
+      "pedn": [
+        "AE2.3.2"
+      ]
+    },
+    {
+      "id": "VIV-15",
+      "titulo": "Coordinar la planificación de suelo, agua y transporte de Lima y Callao",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Opción elegida (sin reforma constitucional): instancia de coordinación por convenio entre la Municipalidad Metropolitana de Lima, el Gobierno Regional del Callao y la ATU, con plan metropolitano aprobado por ambos gobiernos y fondo por aportes voluntarios; puede usar figuras existentes de cooperación entre gobiernos (Ley 29029, Ley 28274). Un gobierno metropolitano con funciones vinculantes sobre ambos exigiría reformar el art. 198 de la Constitución (art. 206) y modificar las leyes orgánicas 27867 y 27972 con votación calificada (art. 106), por la autonomía del Callao (art. 191) y el régimen especial de Lima; esa opción queda solo como horizonte de debate.",
+      "etapa": "2031-2036",
+      "que": "Crear por convenio una instancia de coordinación metropolitana Lima–Callao en la que la Municipalidad de Lima, el Gobierno Regional del Callao y la ATU aprueben un plan de desarrollo metropolitano común, que luego cada gobierno adopta en sus propios instrumentos. La instancia coordina la expansión del agua con SEDAPAL y la gestión de riesgos, y administra un fondo con aportes voluntarios para obras que cruzan límites distritales. Se apoya en la ATU, que ya planifica el transporte de ambas jurisdicciones, en vez de duplicarla. A más largo plazo se complementa con la integración de municipios de EST-27.",
+      "evidencia": "Lima y Callao forman una sola ciudad con dos regímenes de gobierno y más de cincuenta distritos; la ATU (Ley 30900, 2018) mostró que una autoridad común es posible para el transporte. La OCDE recomienda gobernanza metropolitana para áreas urbanas fragmentadas y reconoce que puede empezar por acuerdos de coordinación (OCDE, Governing the City, 2015).",
+      "entrega": "Convenio de coordinación metropolitana Lima–Callao firmado y plan metropolitano común aprobado por ambos gobiernos.",
+      "responsable": "MML",
+      "entidades": [
+        {
+          "sigla": "MML",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE CALLAO",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SEDAPAL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Aportes voluntarios de la Municipalidad de Lima y el Gobierno Regional del Callao; presupuesto existente de la ATU.",
+      "costo_referencial": "no estimado",
+      "indicador": "Plan metropolitano común aprobado por ambos gobiernos; proyectos interdistritales ejecutados con el fondo.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-06",
+        "VIV-18",
+        "TRA-09"
+      ],
+      "riesgo": "Convenio sin fuerza vinculante que cada gestión puede abandonar; resistencia de alcaldes distritales.",
+      "fuentes": [
+        {
+          "titulo": "Andina – La ATU será la única responsable del transporte urbano en Lima y Callao (Ley 30900)",
+          "url": "https://andina.pe/agencia/noticia-atu-sera-unica-responsable-del-transporte-urbano-lima-y-callao-677057.aspx"
+        },
+        {
+          "titulo": "OCDE (2015) – Governing the City",
+          "url": "https://doi.org/10.1787/9789264226500-en"
+        }
+      ],
+      "pedn": [
+        "AE2.1.3",
+        "AE1.4.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Plan vinculante choca con autonomía del Callao y de Lima",
+          "decision": "aplicado: se reformula como coordinación por convenio; la opción vinculante exige reforma constitucional y de leyes orgánicas"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Depende de EST-27 de etapa posterior; falta votación calificada",
+          "decision": "aplicado: se quita EST-27, se agrega TRA-09 y se menciona art. 106"
+        },
+        {
+          "rol": "pais-estado",
+          "hallazgo": "EST-27 es de etapa posterior",
+          "decision": "aplicado: ya no está en depende_de; se menciona como complemento en el texto"
+        }
+      ]
+    },
+    {
+      "id": "VIV-16",
+      "titulo": "Preparar a las ciudades intermedias para crecer con plan, servicios y suelo formal",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Combina asistencia técnica del MVCS, inversión por Invierte.pe y convenios con municipios; no requiere ley.",
+      "etapa": "2031-2036",
+      "que": "Un programa para las ciudades intermedias de más rápido crecimiento según el Censo 2025 (capitales regionales y ciudades de 50 000 a 500 000 habitantes) que entrega en un solo paquete: plan de desarrollo urbano, catastro, banco de suelo con lotes servidos, agua y desagüe para la expansión, y un equipo técnico municipal financiado por cinco años. Se usa la escala provincial o mancomunada cuando la ciudad abarca varios distritos.",
+      "evidencia": "El crecimiento urbano reciente es mayor fuera de Lima y es casi todo informal (GRADE, 2020). Actuar antes de que la expansión ocurra es más barato que regularizar después (Banco Mundial, World Development Report 2009: Reshaping Economic Geography).",
+      "entrega": "Paquetes integrales de planificación, catastro, suelo y servicios en las ciudades intermedias de mayor crecimiento.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "COFOPRI",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "EPS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "INEI",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0146, PP 0082, canon y FIDT.",
+      "costo_referencial": "no estimado",
+      "indicador": "Ciudades intermedias con plan, catastro y banco de suelo; expansión formal medida por satélite.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-05",
+        "VIV-06",
+        "VIV-07",
+        "VIV-08",
+        "EST-20"
+      ],
+      "riesgo": "Dispersión de recursos en demasiadas ciudades; rotación de autoridades.",
+      "fuentes": [
+        {
+          "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
+          "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+        },
+        {
+          "titulo": "Banco Mundial (2009) – World Development Report: Reshaping Economic Geography",
+          "url": "https://openknowledge.worldbank.org/handle/10986/5991"
+        }
+      ],
+      "pedn": [
+        "AE2.1.7",
+        "AE2.1.4"
+      ]
+    },
+    {
+      "id": "VIV-17",
+      "titulo": "Atender la vivienda de los damnificados dentro del modelo de reconstrucción AMB-22",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta con el Bono Familiar Habitacional, el bono de arrendamiento para emergencias (Ley 31526) y las modificaciones a los bonos para damnificados autorizadas por la Ley 32743 (numeral 2.2.14); no requiere nueva ley.",
+      "etapa": "2026-2031",
+      "que": "El modelo permanente de reconstrucción y la evaluación independiente de la Reconstrucción con Cambios (Ley 30556) quedan en AMB-22. Esta acción cubre solo la parte de vivienda: el MVCS mantiene listos diseños tipo de vivienda segura por zona, un padrón de damnificados interoperable con el de subsidios (VIV-03), el bono de arrendamiento inmediato para familias que perdieron su casa y la entrega de vivienda definitiva solo en suelo seguro, en coordinación con el reasentamiento de VIV-12. Se aplican las mejoras a los bonos para damnificados habilitadas por la delegación de facultades de 2026.",
+      "evidencia": "La Ley 31841 (2023) creó la ANIN y permitió absorber a la Autoridad para la Reconstrucción con Cambios; la transferencia de funciones se dio en 2024 (resoluciones de la ANIN). La Ley 31760 obligó a reportar trimestralmente a la Contraloría el avance de la reconstrucción. No encontramos una evaluación integral pública de resultados (por verificar).",
+      "entrega": "Diseños tipo de vivienda segura, padrón de damnificados interoperable y protocolo de bonos de vivienda listos antes del próximo desastre.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "FMV",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ANIN",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "INDECI",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "rectora"
+        }
+      ],
+      "financiamiento": "PP 0146 (bonos) y PP 0068; presupuesto existente del MVCS.",
+      "costo_referencial": "no estimado",
+      "indicador": "Tiempo entre el desastre y la entrega del bono de arrendamiento y de la vivienda definitiva en suelo seguro.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "AMB-22"
+      ],
+      "riesgo": "Urgencia política que salta los controles técnicos; evaluación sin consecuencias.",
+      "fuentes": [
+        {
+          "titulo": "Ley 31841, crea la Autoridad Nacional de Infraestructura (ANIN) (PPU Legal)",
+          "url": "https://ppulegal.com/en/insights/ley-n-31841-ley-que-crea-la-autoridad-nacional-de-infraestructura-anin/"
+        },
+        {
+          "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.2.4",
+        "AE2.2.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Duplica AMB-22 (reconstrucción)",
+          "decision": "aplicado: queda en AMB-22; VIV-17 se reformula al ángulo de vivienda y depende de AMB-22"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Depende de VIV-12 de etapa posterior",
+          "decision": "aplicado: se quita VIV-12"
+        }
+      ]
+    },
+    {
+      "id": "VIV-18",
+      "titulo": "Densificar con vivienda asequible junto a los corredores de transporte masivo",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Los parámetros urbanísticos se fijan en los planes de desarrollo urbano (Ley 31313); la coordinación con la ATU y el MTC se hace por convenio. Las decisiones sobre la red de transporte corresponden al sector transporte.",
+      "etapa": "2031-2036",
+      "que": "En un radio de caminata alrededor de las estaciones del Metro de Lima, el Metropolitano, los corredores complementarios y los sistemas de transporte de otras ciudades, los planes urbanos permiten mayor altura y densidad a cambio de un porcentaje de vivienda de interés social y de espacio público. El suelo público cercano a las estaciones se reserva para vivienda en alquiler social (VIV-04). El enlace con el sector transporte se limita a coordinar la ubicación de estaciones y la información abierta de rutas (GOB-11, TAL-11).",
+      "evidencia": "El desarrollo orientado al transporte reduce tiempos de viaje y costos de servicios al concentrar población cerca de la oferta de transporte (Banco Mundial, Transforming Cities with Transit, 2013). En Lima el PIM 2026 del programa de transporte urbano supera los S/ 6 400 millones (MEF, PP 0148), inversión que se aprovecha mejor con densidad alrededor.",
+      "entrega": "Parámetros de densificación con cuota de vivienda social aprobados en torno a las estaciones de transporte masivo.",
+      "responsable": "MUNICIPALIDADES",
+      "entidades": [
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SBN",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Inversión privada inmobiliaria; suelo público; sin gasto adicional significativo.",
+      "costo_referencial": "no estimado",
+      "indicador": "Viviendas nuevas y viviendas de interés social a menos de 800 m de estaciones de transporte masivo.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "VIV-06",
+        "GOB-11",
+        "TAL-11",
+        "DIG-22"
+      ],
+      "riesgo": "Densificación que expulsa a residentes de menores ingresos; oposición vecinal a la altura.",
+      "fuentes": [
+        {
+          "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
+          "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+        },
+        {
+          "titulo": "Banco Mundial (2013) – Transforming Cities with Transit",
+          "url": "https://openknowledge.worldbank.org/handle/10986/12233"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE2.3.2"
+      ]
+    },
+    {
+      "id": "VIV-19",
+      "titulo": "Construir viviendas rurales térmicas y seguras para zonas de heladas y friaje",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo ejecuta el Programa Nacional de Vivienda Rural del MVCS con el PP 0111 y el Plan Multisectorial ante Heladas y Friaje; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Construir y mejorar viviendas rurales con diseño bioclimático (muros térmicos, ventanas con captación solar, cocinas mejoradas) en los distritos altoandinos con heladas y en la Amazonía con friaje e inundaciones, usando materiales locales y mano de obra comunal capacitada. Cada vivienda incluye refuerzo sísmico básico y conexión a agua y saneamiento rural cuando exista sistema (AGU-02). Se priorizan hogares con niños pequeños y adultos mayores, y el diseño se valida con cada comunidad.",
+      "evidencia": "El Programa Nacional de Vivienda Rural interviene desde hace más de una década con viviendas térmicas en zonas de heladas (MVCS). Las heladas y el friaje afectan cada año la salud de niños y adultos mayores (Plan Multisectorial ante Heladas y Friaje, PCM).",
+      "entrega": "Viviendas rurales térmicas construidas o mejoradas en los distritos priorizados por heladas y friaje.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del Programa Nacional de Vivienda Rural (PP 0111 Apoyo al hábitat rural) y canon.",
+      "costo_referencial": "no estimado",
+      "indicador": "Viviendas rurales térmicas entregadas en distritos con heladas y friaje.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "AGU-02",
+        "SAL-22"
+      ],
+      "riesgo": "Diseños urbanos impuestos que no se adaptan a la cultura local; viviendas dispersas costosas de atender.",
+      "fuentes": [
+        {
+          "titulo": "MVCS – Programa Nacional de Vivienda Rural",
+          "url": "https://www.gob.pe/pnvr"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7"
+      ]
+    },
+    {
+      "id": "VIV-20",
+      "titulo": "Formalizar el alquiler con contratos registrados y desalojo notarial accesible",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "El desalojo con intervención notarial (Ley 30933) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se trata de difundirlos, abaratarlos y digitalizarlos.",
+      "etapa": "2026-2031",
+      "que": "Crear un contrato modelo gratuito de alquiler de vivienda, firmable digitalmente y registrable en línea, que habilite el desalojo notarial o el régimen del DL 1177 sin costos altos. SUNAT simplifica la declaración del impuesto a la renta de primera categoría con pago desde el celular. Con propietarios más seguros, aumenta la oferta de cuartos y departamentos en alquiler formal, que es la puerta de entrada para jóvenes y migrantes.",
+      "evidencia": "La Ley 30933 (2019) creó el desalojo con intervención notarial y el DL 1177 (2015) un régimen especial de arrendamiento, pero su uso es limitado por desconocimiento y costo (por verificar estadísticas de uso). La falta de seguridad jurídica reduce la oferta de alquiler y empuja a la informalidad (BID, Un espacio para el desarrollo: los mercados de vivienda en América Latina, 2012).",
+      "entrega": "Contrato modelo digital y registro en línea de arrendamientos con acceso simplificado al desalojo notarial.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MINJUSDH",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SUNARP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUNAT",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "COLEGIO DE NOTARIOS",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto existente del MVCS, SUNARP y SUNAT.",
+      "costo_referencial": "no estimado",
+      "indicador": "Contratos de alquiler registrados; declarantes de renta de primera categoría.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "GOB-01"
+      ],
+      "riesgo": "Desalojos rápidos sin protección a inquilinos vulnerables; baja adopción.",
+      "fuentes": [
+        {
+          "titulo": "BID (2012) – Un espacio para el desarrollo: los mercados de vivienda en América Latina y el Caribe",
+          "url": "https://publications.iadb.org/es/un-espacio-para-el-desarrollo-los-mercados-de-vivienda-en-america-latina-y-el-caribe"
+        }
+      ],
+      "pedn": [
+        "AE1.3.7",
+        "AE3.6.5"
+      ]
+    },
+    {
+      "id": "VIV-21",
+      "titulo": "Dar licencias de construcción rápidas con planos tipo y profesional responsable",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "parcial",
+      "por_que_ley": "Los procedimientos y modalidades de licencia se fijan en el reglamento de la Ley 29090; ampliar la aprobación automática a nuevas modalidades puede requerir modificar la ley.",
+      "etapa": "2026-2031",
+      "que": "Para vivienda unifamiliar de hasta tres pisos en suelo urbano habilitado, la licencia se otorga en línea y en el acto si el propietario usa planos tipo aprobados por el MVCS o planos firmados por un profesional colegiado que asume responsabilidad, con verificación técnica posterior por muestreo. Se aplica el régimen registral simplificado y las soluciones de factibilidad para vivienda de interés social habilitados por la delegación de 2026. Con trámite barato, más familias construyen con licencia y asistencia técnica.",
+      "evidencia": "El 69 % de las viviendas de Lima fue autoconstruida sin asesoría técnica (GRADE 2023, vía Canal N); el costo y la demora de la licencia son una razón para construir sin ella. La delegación de facultades de 2026 autorizó un régimen registral simplificado y soluciones alternativas a factibilidades para vivienda de interés social (Ley 32743, numerales 2.2.12 y 2.2.13).",
+      "entrega": "Licencia digital automática con planos tipo para vivienda unifamiliar y verificación posterior por muestreo.",
+      "responsable": "MVCS",
+      "entidades": [
+        {
+          "sigla": "MVCS",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SENCICO",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "COLEGIOS PROFESIONALES",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SUNARP",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto existente; reduce costos de trámite.",
+      "costo_referencial": "no estimado",
+      "indicador": "Licencias de vivienda unifamiliar otorgadas; tiempo promedio de otorgamiento.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "TUO de la Ley 29090, Ley de Regulación de Habilitaciones Urbanas y de Edificaciones, y su reglamento de licencias",
+          "motivo": "Se simplifica la licencia de vivienda unifamiliar con aprobación automática y verificación posterior."
+        }
+      ],
+      "depende_de": [
+        "VIV-11",
+        "EST-21",
+        "GOB-02"
+      ],
+      "riesgo": "Profesionales que firman sin supervisar; municipios que pierden ingresos por tasas.",
+      "fuentes": [
+        {
+          "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
+          "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
+        },
+        {
+          "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.3.1",
+        "AE3.6.5"
+      ]
+    },
+    {
+      "id": "VIV-22",
+      "titulo": "Revisar las inafectaciones del impuesto predial y actualizar los valores de los predios",
+      "tipo": "derogacion",
+      "necesita_ley": "si",
+      "por_que_ley": "Las inafectaciones de origen legal del impuesto predial están en el TUO de la Ley de Tributación Municipal (DS 156-2004-EF, art. 17); modificarlas exige ley por reserva tributaria (art. 74 de la Constitución). Las que tienen base constitucional (art. 19) o en un tratado no pueden derogarse por ley ordinaria y quedan fuera. Los valores arancelarios se actualizan por resolución ministerial del MVCS, sin ley.",
+      "etapa": "2031-2036",
+      "que": "Evaluar cada inafectación del impuesto predial del artículo 17 de la Ley de Tributación Municipal según su justificación de política pública y su costo fiscal para los municipios, y derogar por ley solo las de origen legal que no se justifiquen, manteniendo la deducción para pensionistas de bajos ingresos. Se excluyen de la revisión las inafectaciones con base constitucional (art. 19: universidades, institutos y centros educativos en los bienes destinados a su fin) o en tratados (Acuerdo con la Santa Sede de 1980). La actualización de los valores arancelarios no requiere ley: el MVCS la hace cada año por resolución ministerial, con metodología pública y gradualidad. Lo recaudado se queda en el distrito.",
+      "evidencia": "El predial recauda 0,26 % del PIB frente a 0,4 % en América Latina (BID) y alrededor de 1,1 % en la OCDE (BCRP, Reporte de Inflación marzo 2019). Bases gravables desactualizadas e inafectaciones amplias reducen la recaudación municipal (MEF, estudios de incidencia del impuesto predial).",
+      "entrega": "Informe público de costo fiscal de las inafectaciones, ley que deroga las injustificadas y aranceles actualizados.",
+      "responsable": "MEF",
+      "entidades": [
+        {
+          "sigla": "MEF",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "beneficiaria"
+        }
+      ],
+      "financiamiento": "No requiere gasto; aumenta ingresos municipales.",
+      "costo_referencial": "no estimado",
+      "indicador": "Recaudación del impuesto predial como % del PIB.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "TUO de la Ley de Tributación Municipal, DS 156-2004-EF, art. 17 (inafectaciones del impuesto predial de origen solo legal)",
+          "motivo": "Se derogan las inafectaciones sin justificación de política pública vigente, previa evaluación de su costo fiscal; se excluyen las de base constitucional o en tratados."
+        }
+      ],
+      "depende_de": [
+        "VIV-07"
+      ],
+      "riesgo": "Oposición de los grupos hoy inafectos; alzas bruscas que generen rechazo vecinal.",
+      "fuentes": [
+        {
+          "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
+          "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
+        },
+        {
+          "titulo": "BCRP – Reporte de Inflación, marzo 2019, recuadro 3 (impuesto predial)",
+          "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Inflacion/2019/marzo/ri-marzo-2019-recuadro-3.pdf"
+        }
+      ],
+      "pedn": [
+        "AE2.1.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Inafectaciones con base constitucional o en tratado no derogables",
+          "decision": "aplicado: se excluyen art. 19 y Acuerdo con la Santa Sede"
+        },
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Aranceles se actualizan por RM, sin ley",
+          "decision": "aplicado"
+        }
+      ]
     }
-   ],
-   "financiamiento": "Presupuesto del INEI y del MVCS.",
-   "costo_referencial": "no estimado",
-   "indicador": "Publicación anual del déficit por distrito con metodología única.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "IA-04"
-   ],
-   "riesgo": "Cambios de metodología que rompen la serie; datos que no se usan en la asignación.",
-   "fuentes": [
+  ],
+  "articulacion": [
     {
-     "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
-     "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
+      "con": "agua",
+      "como": "La ciudad informal llega antes que el agua: los planes urbanos y el suelo con servicios (VIV-06, VIV-08) son la condición para que las EPS den factibilidad solo en suelo planificado (AGU-18) y extiendan redes a las periferias (AGU-03); el mejoramiento de barrios (VIV-13) incluye agua y desagüe, y los parques de la costa se riegan con agua tratada (AGU-10)."
     },
     {
-     "titulo": "CEPLAN – Indicadores del PEDN al 2050 (seguimiento)",
-     "url": "https://indpedn2050.ceplan.gob.pe/"
+      "con": "salud",
+      "como": "El hacinamiento, los pisos de tierra y la falta de agua elevan la diarrea y la anemia infantil: el mejoramiento de vivienda (VIV-02) se prioriza en los distritos donde se aplica el paquete contra la anemia SAL-17; las viviendas térmicas (VIV-19) previenen las enfermedades por heladas y friaje que atiende SAL-22."
     },
     {
-     "titulo": "INEI – Población del Perú 34 157 732 habitantes (Censos Nacionales 2025)",
-     "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
+      "con": "educacion",
+      "como": "Los planes urbanos reservan suelo para escuelas y los patios escolares se abren como espacio público (VIV-14); los locales escolares de los barrios mejorados reciben agua y saneamiento con EDU-10 y se reponen los locales en riesgo (EDU-09)."
+    },
+    {
+      "con": "transporte",
+      "como": "Solo en su enlace con el sector transporte: la densificación con vivienda asequible alrededor de estaciones (VIV-18) y la coordinación metropolitana Lima–Callao por convenio (VIV-15) se coordinan con la ATU, el MTC y las propuestas de datos abiertos de transporte (GOB-11) y pasaje electrónico (TAL-11)."
+    },
+    {
+      "con": "estado",
+      "como": "El catastro y el predial (VIV-07, VIV-22) fortalecen las finanzas municipales; las ciudades intermedias (VIV-16) usan mancomunidades (EST-20) y oficinas regionales de proyectos (EST-08); la escalera de subsidios (VIV-03) aplica el mapa de duplicidades EST-01."
+    },
+    {
+      "con": "seguridad",
+      "como": "El tráfico de terrenos es una economía criminal: VIV-09 requiere fiscalías especializadas, policía y jueces, y se coordina con la política contra el crimen organizado."
     }
-   ],
-   "pedn": [
-    "AE1.3.7"
-   ]
-  },
-  {
-   "id": "VIV-02",
-   "titulo": "Mejorar y ampliar las viviendas que ya existen con asistencia técnica y bono",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El Bono Familiar Habitacional (Ley 27829) ya tiene modalidades de construcción en sitio propio y mejoramiento; se reorienta por reglamento y presupuesto del PP 0146.",
-   "etapa": "2026-2031",
-   "que": "Reorientar una parte creciente del Bono Familiar Habitacional hacia el déficit cualitativo: techos, muros, baños, ampliaciones y reforzamiento de viviendas existentes de familias de bajos ingresos con título o constancia de posesión fuera de zonas de riesgo no mitigable. Cada intervención incluye un diseño firmado por un profesional, supervisión de obra y uso de materiales certificados. Se prioriza a hogares con hacinamiento, adultos mayores o personas con discapacidad.",
-   "evidencia": "El déficit cualitativo (12,9 % de hogares) duplica al cuantitativo (5,8 %) (MVCS, 2024). La evaluación del MVCS sobre el BFH en las modalidades de vivienda nueva y construcción en sitio propio encontró efectos positivos en el acceso al crédito formal y recomendó fortalecer el seguimiento de la calidad de las viviendas entregadas (MVCS, 2024).",
-   "entrega": "Viviendas mejoradas o ampliadas con diseño y supervisión técnica en distritos con mayor déficit cualitativo.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "FMV",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SENCICO",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "PP 0146 (PIM 2026: S/ 1 905 millones), reasignación entre modalidades del BFH y microcrédito para vivienda.",
-   "costo_referencial": "no estimado",
-   "indicador": "Hogares con déficit cualitativo (INEI/MVCS); viviendas mejoradas con conformidad técnica.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-01",
-    "VIV-11"
-   ],
-   "riesgo": "Mejoras de baja calidad por constructores informales; subsidios capturados por intermediarios.",
-   "fuentes": [
-    {
-     "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
-     "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
-    },
-    {
-     "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
-     "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7",
-    "AE2.3.1"
-   ]
-  },
-  {
-   "id": "VIV-03",
-   "titulo": "Ordenar los subsidios de vivienda en una sola escalera focalizada y evaluada",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "parcial",
-   "por_que_ley": "Los montos, reglas y focalización del BFH y del Bono del Buen Pagador se fijan por decreto supremo y reglamentos; fusionar los bonos creados por ley (Ley 27829 y Ley 29033) en un solo esquema requiere ley de iniciativa del Ejecutivo.",
-   "etapa": "2026-2031",
-   "que": "Integrar el Bono Familiar Habitacional, el Bono del Buen Pagador, el bono de vivienda sostenible y los bonos de arrendamiento en una escalera única de subsidios según ingreso del hogar, con montos decrecientes a mayor ingreso y un solo padrón interoperable con el SISFOH. Se premia la ubicación de la vivienda cerca del empleo y del transporte, y el subsidio se paga solo con conformidad técnica de la obra. Cada modalidad se evalúa con diseño experimental o cuasi experimental antes de ampliarse.",
-   "evidencia": "La evaluación del MVCS (2024) muestra efectos del BFH en el acceso al crédito, pero también la necesidad de vigilar la calidad de las viviendas. La experiencia chilena muestra que subsidios masivos a vivienda nueva en la periferia generaron segregación y que la ubicación debe ser parte del diseño (Ministerio de Vivienda y Urbanismo de Chile, Política Nacional de Desarrollo Urbano, 2014).",
-   "entrega": "Esquema único de subsidios habitacionales con padrón interoperable y evaluaciones publicadas por modalidad.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "FMV",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MIDIS",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuestos existentes del BFH y del Fondo Mivivienda; sin gasto adicional.",
-   "costo_referencial": "no estimado",
-   "indicador": "Proporción del subsidio que llega a los tres quintiles de menor ingreso; evaluaciones publicadas por modalidad.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Ley 29033, Ley de creación del Bono del Buen Pagador",
-     "motivo": "Se integra en la escalera única de subsidios para evitar superposición con el Bono Familiar Habitacional."
-    }
-   ],
-   "depende_de": [
-    "VIV-01",
-    "EST-01"
-   ],
-   "riesgo": "Presión de promotores inmobiliarios y entidades financieras que se benefician del diseño actual.",
-   "fuentes": [
-    {
-     "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
-     "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
-    },
-    {
-     "titulo": "Ley 30952 – Bono de Arrendamiento para Vivienda (LP Derecho)",
-     "url": "https://lpderecho.pe/ley-30952-bono-arrendamiento-vivienda/"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7",
-    "AE3.6.5"
-   ]
-  },
-  {
-   "id": "VIV-04",
-   "titulo": "Crear una oferta de alquiler social con bono y vivienda pública en arriendo",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El Bono de Arrendamiento para Vivienda (Ley 30952), el bono de arrendamiento para emergencias (Ley 31526) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se escalan con presupuesto y reglamento.",
-   "etapa": "2031-2036",
-   "que": "Escalar el Bono de Arrendamiento para Vivienda para jóvenes, familias monoparentales y damnificados, y licitar edificios de vivienda en alquiler a precio limitado en suelo público bien ubicado de Lima, Arequipa, Trujillo y otras ciudades, operados por privados con contratos de largo plazo. Los contratos se registran con el formulario de desalojo notarial para dar seguridad a propietarios e inquilinos. El alquiler se ofrece como alternativa a la invasión para quien recién forma su hogar.",
-   "evidencia": "El Bono Renta Joven entrega S/ 500 mensuales, 70 % para el alquiler y 30 % a una cuenta de ahorro para la cuota inicial (Andina); sus convocatorias han sido pequeñas (miles de bonos). Chile mantiene desde 2013 un subsidio de arriendo como política permanente (MINVU). La evaluación de impacto de Renta Joven aún no se ha publicado (por verificar).",
-   "entrega": "Bonos de arrendamiento ampliados y primeros edificios de alquiler social en suelo público.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "FMV",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SBN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0146, suelo público aportado por la SBN y APP o contratos de largo plazo con operadores privados.",
-   "costo_referencial": "no estimado",
-   "indicador": "Hogares con bono de arrendamiento vigente; viviendas en alquiler social operando.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-03",
-    "VIV-20"
-   ],
-   "riesgo": "Bonos que suben los alquileres si no aumenta la oferta; edificios públicos mal mantenidos.",
-   "fuentes": [
-    {
-     "titulo": "Andina – Bono Renta Joven: lo que tienes que saber",
-     "url": "https://andina.pe/ingles/noticia-bono-renta-joven-todo-que-tienes-saber-para-lograr-este-beneficio-767731.aspx"
-    },
-    {
-     "titulo": "MVCS – Acceder a Bono Renta Joven",
-     "url": "https://www.gob.pe/institucion/vivienda/pages/8297-acceder-a-bono-renta-joven"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7",
-    "AE3.6.5"
-   ]
-  },
-  {
-   "id": "VIV-05",
-   "titulo": "Aplicar en treinta ciudades los instrumentos de gestión de suelo de la Ley 31313",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 31313 y su reglamento (DS 012-2022-VIVIENDA) ya regulan los instrumentos; falta capacidad para aplicarlos.",
-   "etapa": "2026-2031",
-   "que": "El MVCS acompaña a treinta municipalidades provinciales con un equipo técnico para aplicar los instrumentos de gestión del suelo previstos en la Ley 31313, como el reajuste de suelos en zonas de expansión, la densificación en corredores de transporte y la recuperación de predios ociosos para vivienda social. Cada ciudad prepara un banco de suelo con predios públicos aptos y publica su inventario. Los resultados se evalúan para ajustar el reglamento.",
-   "evidencia": "La Ley 31313 (2021) incorporó instrumentos de planificación y gestión del suelo y su reglamento de acondicionamiento territorial se aprobó en 2022 (DS 012-2022-VIVIENDA). Colombia usa desde la Ley 388 de 1997 instrumentos de gestión del suelo y reparto de cargas y beneficios en sus planes de ordenamiento territorial (por verificar evaluaciones recientes).",
-   "entrega": "Bancos de suelo e instrumentos de gestión aplicados en treinta ciudades con informe de evaluación.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SBN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "COFOPRI",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0146 y presupuesto del MVCS para asistencia técnica; cooperación internacional.",
-   "costo_referencial": "no estimado",
-   "indicador": "Hectáreas de suelo habilitado mediante instrumentos de gestión; predios públicos incorporados a bancos de suelo.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-06",
-    "VIV-07"
-   ],
-   "riesgo": "Municipios sin personal técnico estable; oposición de propietarios de suelo.",
-   "fuentes": [
-    {
-     "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
-     "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
-    }
-   ],
-   "pedn": [
-    "AE2.1.7",
-    "AE2.1.3"
-   ]
-  },
-  {
-   "id": "VIV-06",
-   "titulo": "Dotar a toda ciudad de un plan de desarrollo urbano vigente y simple",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Los planes de desarrollo urbano y metropolitano están regulados por la Ley 31313 y el DS 012-2022-VIVIENDA; el MVCS puede elaborarlos por encargo de los municipios.",
-   "etapa": "2026-2031",
-   "que": "Un programa nacional elabora o actualiza los planes de desarrollo urbano de todas las ciudades de más de 20 000 habitantes con una metodología estandarizada y simple: mapa de peligros, suelo urbanizable para los próximos veinte años, red vial y de transporte, áreas para equipamientos y parques, y reservas para agua y desagüe. Los planes se aprueban con participación ciudadana, se publican en un geoportal y se convierten en la base para dar factibilidades de servicios y licencias.",
-   "evidencia": "La Ley 31313 vincula zonificación y planes de desarrollo urbano, pero muchas ciudades crecen sin plan vigente (porcentaje oficial por verificar con RENAMU). El 93 % de la expansión 2001–2018 fue informal (GRADE). La OCDE recomienda planificación metropolitana y de ciudades intermedias integrada con infraestructura (OCDE, Urban Policy Reviews: Peru, 2016, por verificar).",
-   "entrega": "Planes de desarrollo urbano vigentes y publicados en geoportal para todas las ciudades de más de 20 000 habitantes.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "CENEPRED",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CEPLAN",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0146, Programa de Incentivos Municipales y cooperación.",
-   "costo_referencial": "no estimado",
-   "indicador": "Ciudades de más de 20 000 habitantes con plan de desarrollo urbano vigente (RENAMU).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-01",
-    "GOB-07"
-   ],
-   "riesgo": "Planes que se aprueban y no se aplican; presión para cambiar zonificaciones caso por caso.",
-   "fuentes": [
-    {
-     "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
-     "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
-    },
-    {
-     "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
-     "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.1.7",
-    "AE2.2.3"
-   ]
-  },
-  {
-   "id": "VIV-07",
-   "titulo": "Completar el catastro urbano multipropósito y actualizar el impuesto predial",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El catastro se rige por la Ley 28294 del Sistema Nacional Integrado de Catastro; los valores arancelarios se aprueban anualmente por el MVCS. No requiere ley; la propuesta digital está en GOB-07 y DIG-22.",
-   "etapa": "2026-2031",
-   "que": "COFOPRI y las municipalidades provinciales levantan el catastro urbano de las ciudades con imágenes de dron y satélite, con un código único catastral enlazado a SUNARP, y lo usan para actualizar el padrón del impuesto predial. El MVCS actualiza los valores arancelarios con metodología técnica. Parte del mayor predial se destina por acuerdo municipal a mantenimiento de parques, pistas y veredas del propio distrito, para que el vecino vea el retorno.",
-   "evidencia": "El Perú recauda 0,26 % del PIB en predial frente a 0,4 % en América Latina, brecha que el BID atribuye principalmente a la falta de catastro fiscal (BID). El catastro urbano nacional de COFOPRI apunta a cerrar una brecha de seis millones de predios (iuslatin, por verificar). Colombia elevó su recaudo predial con la actualización catastral multipropósito (BID, por verificar).",
-   "entrega": "Catastro urbano multipropósito en las ciudades de más de 20 000 habitantes y padrones prediales actualizados.",
-   "responsable": "COFOPRI",
-   "entidades": [
-    {
-     "sigla": "COFOPRI",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUNARP",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "PP 0058 Acceso a la propiedad predial formalizada, Programa de Incentivos Municipales y préstamos del BID.",
-   "costo_referencial": "no estimado",
-   "indicador": "Predios urbanos catastrados; recaudación del impuesto predial como % del PIB.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
+  ],
+  "conexion_tech": [
     "GOB-07",
-    "DIG-22",
-    "VIV-10"
-   ],
-   "riesgo": "Rechazo vecinal a alzas del predial; catastros que no se mantienen actualizados.",
-   "fuentes": [
-    {
-     "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
-     "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
-    },
-    {
-     "titulo": "Iuslatin – COFOPRI prepara un catastro urbano nacional multipropósito",
-     "url": "https://iuslatin.pe/cofopri-prepara-un-nuevo-catastro-urbano-nacional-multiproposito/"
-    }
-   ],
-   "pedn": [
-    "AE2.1.2",
-    "AE2.1.3"
-   ]
-  },
-  {
-   "id": "VIV-08",
-   "titulo": "Habilitar lotes con servicios básicos antes de que llegue la invasión",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Los Programas de Adjudicación de Lotes de COFOPRI (DL 803 modificado por el DL 1202 y su reglamento, DS 014-2016-VIVIENDA) ya permiten adjudicar terrenos del Estado con fines de vivienda.",
-   "etapa": "2026-2031",
-   "que": "En las zonas de expansión que señala el plan urbano, el Estado habilita por etapas lotes de bajo costo con trazado de calles, reservas para parques y escuelas, agua y desagüe o soluciones transitorias, y los adjudica por sorteo a familias sin vivienda registradas, con pago en cuotas. La vivienda se construye progresivamente con planos tipo y asistencia técnica. Se empieza en las ciudades con más invasiones recientes de la costa y en ciudades intermedias de rápido crecimiento.",
-   "evidencia": "El 93 % de la expansión urbana fue informal porque no hay oferta de suelo formal accesible (GRADE, 2020). El Banco Mundial ha documentado que los programas de lotes con servicios cuestan menos por hogar que llevar servicios a asentamientos informales ya consolidados, siempre que estén bien ubicados (Banco Mundial, revisión de sites and services, por verificar).",
-   "entrega": "Lotes habilitados con servicios adjudicados a familias sin vivienda en zonas de expansión planificadas.",
-   "responsable": "COFOPRI",
-   "entidades": [
-    {
-     "sigla": "COFOPRI",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SBN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "EPS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "PP 0146 y PP 0058, cuotas de los adjudicatarios y suelo del Estado.",
-   "costo_referencial": "no estimado",
-   "indicador": "Lotes habilitados y adjudicados; proporción de la expansión urbana en suelo formal (medición satelital).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-05",
-    "VIV-06",
-    "AGU-18"
-   ],
-   "riesgo": "Lotes mal ubicados que nadie ocupa o que son revendidos; captura por traficantes en la adjudicación.",
-   "fuentes": [
-    {
-     "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
-     "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-    },
-    {
-     "titulo": "DS 001-2018-VIVIENDA: modifica el reglamento de los Programas de Adjudicación de Lotes (FAOLEX)",
-     "url": "https://faolex.fao.org/docs/pdf/per193502.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.1.7",
-    "AE1.3.7"
-   ]
-  },
-  {
-   "id": "VIV-09",
-   "titulo": "Perseguir el tráfico de terrenos con fiscalías especializadas y recuperación rápida",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "Los delitos de usurpación (Código Penal, arts. 202 y 204) y los procedimientos de recuperación extrajudicial de predios estatales están en normas con rango de ley; endurecer agravantes por organización criminal y unificar la recuperación requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Modificar el Código Penal y las normas de defensa de predios estatales para tratar el tráfico de terrenos organizado como delito de organización criminal con decomiso de ganancias, sancionar al funcionario que emite constancias de posesión o factibilidades a invasores, y dar a la SBN, gobiernos regionales y municipios un procedimiento único de recuperación extrajudicial con apoyo policial en 48 horas. El Ministerio Público crea fiscalías especializadas en las ciudades con más invasiones.",
-   "evidencia": "Las invasiones y lotizaciones informales explican casi toda la expansión urbana reciente (GRADE, 2020). Las prórrogas sucesivas de formalización hasta posesiones de 2021 (Ley 32267) reducen el costo esperado de invadir. La delegación de 2026 incluyó la respuesta penal al crimen organizado, pero no específicamente el tráfico de terrenos (Ley 32743).",
-   "entrega": "Ley sobre tráfico de terrenos y fiscalías especializadas operando en las principales ciudades.",
-   "responsable": "MPFN",
-   "entidades": [
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MPFN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PNP",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SBN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PJ",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto del Ministerio Público y la PNP; la creación de fiscalías corresponde al propio Ministerio Público.",
-   "costo_referencial": "no estimado",
-   "indicador": "Hectáreas invadidas por año (medición satelital); sentencias por tráfico de terrenos; predios estatales recuperados.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-08",
-    "VIV-10"
-   ],
-   "riesgo": "Criminalizar a familias pobres en lugar de a las organizaciones; desalojos sin alternativa de suelo.",
-   "fuentes": [
-    {
-     "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
-     "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-    },
-    {
-     "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
-     "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
-    },
-    {
-     "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
-     "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.1.7",
-    "AE2.2.2"
-   ]
-  },
-  {
-   "id": "VIV-10",
-   "titulo": "Cerrar las prórrogas de formalización y titular solo fuera de zonas de riesgo",
-   "tipo": "derogacion",
-   "necesita_ley": "si",
-   "por_que_ley": "Los plazos y fechas de corte de la formalización están en las Leyes 28687, 31056 y 32267; asegurar que no haya nuevas ampliaciones y prohibir titular en zonas de riesgo no mitigable exige ley.",
-   "etapa": "2026-2031",
-   "que": "Modificar la Ley 31056 para declarar definitiva la fecha de corte del 31 de diciembre de 2021 fijada por la Ley 32267, fijar una fecha de cierre del régimen extraordinario de formalización y reforzar la prohibición de titular posesiones en zonas de riesgo no mitigable (identificadas por CENEPRED y el plan urbano) o en áreas reservadas para vías, parques y servicios. A cambio, las familias en esas zonas acceden a lotes con servicios (VIV-08) o al reasentamiento (VIV-12). COFOPRI publica cada año el número de posesiones pendientes hasta cerrar el proceso.",
-   "evidencia": "La Ley 32267 (2025) amplió por última vez los plazos de las Leyes 28687 y 31056 hasta posesiones al 31 de diciembre de 2021; antes el límite era 2015 (Infobae, Correo). Investigadores de GRADE han advertido que las leyes que titulan terrenos ocupados irregularmente incentivan nuevas invasiones (GRADE, nota de prensa).",
-   "entrega": "Ley que cierra las prórrogas de formalización y prohíbe titular en zonas de riesgo no mitigable.",
-   "responsable": "COFOPRI",
-   "entidades": [
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "COFOPRI",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CENEPRED",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "No requiere gasto adicional.",
-   "costo_referencial": "no estimado",
-   "indicador": "Títulos otorgados en zonas de riesgo (meta: cero); posesiones pendientes de formalizar.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Ley 31056, que amplía los plazos de la titulación de terrenos ocupados por posesiones informales (modificada por la Ley 32267)",
-     "motivo": "Se fija el cierre definitivo del régimen extraordinario de formalización y se refuerza la exclusión de zonas de riesgo no mitigable."
-    }
-   ],
-   "depende_de": [
-    "VIV-08",
-    "VIV-12"
-   ],
-   "riesgo": "Presión política para nuevas prórrogas antes de cada elección; ninguna ley impide que una ley posterior vuelva a ampliar.",
-   "fuentes": [
-    {
-     "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
-     "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
-    },
-    {
-     "titulo": "Infobae – Cofopri amplía fecha límite de posesión al 31 de diciembre de 2021",
-     "url": "https://www.infobae.com/peru/2025/03/22/cofopri-amplian-plazo-para-titulacion-de-terrenos-hasta-el-31-de-diciembre-de-2021/"
-    },
-    {
-     "titulo": "GRADE – El Comercio destaca hallazgos sobre una ley que fomenta títulos en terrenos ocupados irregularmente",
-     "url": "https://grade.org.pe/en/novedades/el-comercio-highlights-findings-by-alvaro-espinoza-and-ricardo-fort-on-the-consequences-of-a-law-that-fosters-property-titles-to-irregularly-occupied-land"
-    }
-   ],
-   "pedn": [
-    "AE2.2.2",
-    "AE2.1.7"
-   ]
-  },
-  {
-   "id": "VIV-11",
-   "titulo": "Reforzar ante sismos las viviendas autoconstruidas de Lima y la costa",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta con la modalidad de mejoramiento del Bono Familiar Habitacional, el PP 0068 de reducción de vulnerabilidad y la formación de SENCICO; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Inventariar con imágenes, visitas y datos catastrales las viviendas autoconstruidas en las zonas de mayor peligro sísmico de Lima, Callao, Ica, Arequipa y la costa norte, y ofrecer a sus dueños evaluación estructural gratuita, un diseño de reforzamiento tipo y un bono o crédito para ejecutarlo con maestros de obra certificados por SENCICO. Se prioriza viviendas de varios pisos sobre suelos blandos o laderas y las que alojan a más personas.",
-   "evidencia": "Cerca del 69 % de las viviendas de Lima fue autoconstruida sin asesoría técnica y el 24 % es muy precaria (estudio GRADE 2023 citado por Canal N). Programas de reforzamiento con diseños tipo y asistencia técnica en Colombia y Chile reducen el costo por vivienda (por verificar evaluaciones).",
-   "entrega": "Inventario de vulnerabilidad sísmica de viviendas y reforzamientos ejecutados en las zonas de mayor peligro.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SENCICO",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "CENEPRED",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "FMV",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "IGP",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0068 Reducción de vulnerabilidad y atención de emergencias por desastres, PP 0146 y créditos de microfinanzas.",
-   "costo_referencial": "no estimado",
-   "indicador": "Viviendas evaluadas y reforzadas en zonas de alto peligro sísmico.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-02",
-    "VIV-07",
-    "TAL-10"
-   ],
-   "riesgo": "Baja demanda por desconocimiento del riesgo; costo alto por vivienda en edificaciones muy precarias.",
-   "fuentes": [
-    {
-     "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
-     "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
-    }
-   ],
-   "pedn": [
-    "AE2.3.1",
-    "AE2.2.2"
-   ]
-  },
-  {
-   "id": "VIV-12",
-   "titulo": "Reasentar con anticipación a las familias en zonas de muy alto riesgo no mitigable",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 29869 de Reasentamiento Poblacional para Zonas de Muy Alto Riesgo No Mitigable y su reglamento ya regulan el procedimiento.",
-   "etapa": "2031-2036",
-   "que": "Con los mapas de CENEPRED y los planes urbanos se identifican los asentamientos en cauces de quebradas, riberas inundables y laderas inestables donde el riesgo no se puede reducir. Las familias reciben una oferta concreta de reasentamiento cercano (lote con servicios o vivienda con bono), con participación en el diseño y apoyo para mantener empleo y escuela. El terreno liberado se declara intangible y se convierte en parque, área de amortiguamiento o defensa ribereña para evitar su reocupación.",
-   "evidencia": "Las lluvias de El Niño costero de 2017 afectaron miles de viviendas en quebradas y riberas de la costa norte (catastro de daños de la reconstrucción, Andina). La Ley 29869 existe desde 2012, pero los reasentamientos ejecutados han sido pocos; el Banco Mundial recomienda reasentamiento voluntario, cercano y con medios de vida (Banco Mundial, Preventive Resettlement of Populations at Risk of Disaster, 2011).",
-   "entrega": "Planes de reasentamiento ejecutados en los asentamientos de muy alto riesgo no mitigable priorizados, con terreno liberado convertido en espacio público.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CENEPRED",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "COFOPRI",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "INDECI",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0068, PP 0146 (bonos) y fondos de reconstrucción.",
-   "costo_referencial": "no estimado",
-   "indicador": "Familias reasentadas de zonas de muy alto riesgo no mitigable; hectáreas liberadas sin reocupación.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-08",
-    "VIV-10",
-    "TAL-10"
-   ],
-   "riesgo": "Rechazo de las familias a dejar su barrio; reocupación de los terrenos liberados.",
-   "fuentes": [
-    {
-     "titulo": "Andina – Catastro de daños: Lambayeque y Piura registran el 68 % de predios colapsados (2017)",
-     "url": "https://andina.pe/ingles/noticia-catastro-danos-lambayeque-y-piura-registran-68-predios-colapsados-671714.aspx"
-    },
-    {
-     "titulo": "Banco Mundial / GFDRR (2011) – Preventive Resettlement of Populations at Risk of Disaster",
-     "url": "https://www.gfdrr.org/en/publication/preventive-resettlement-populations-risk-disaster-experiences-latin-america"
-    }
-   ],
-   "pedn": [
-    "AE2.2.2",
-    "AE2.2.3"
-   ]
-  },
-  {
-   "id": "VIV-13",
-   "titulo": "Mejorar integralmente los barrios consolidados: agua, pistas, muros y escaleras",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Inversión pública del PP 0146 (mejoramiento integral de barrios) por Invierte.pe; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "En los asentamientos consolidados de las periferias se ejecutan paquetes integrales por barrio: redes de agua y desagüe, pistas y veredas, muros de contención, escaleras, alumbrado, pequeños parques y espacios comunales. El barrio elige prioridades en asambleas y vigila la obra; el municipio asume el mantenimiento con parte del predial que genera el catastro. Se empieza por los barrios con mayor déficit cualitativo y riesgo de deslizamientos.",
-   "evidencia": "El programa Favela-Bairro de Río de Janeiro, financiado por el BID, mejoró ingresos y acceso a servicios en las favelas intervenidas según el BID, aunque evaluaciones independientes encontraron efectos claros sobre todo en alcantarillado y recojo de basura (Soares y Soares, 2005): la integralidad y el mantenimiento importan. El déficit cualitativo afecta al 12,9 % de hogares (MVCS, 2024).",
-   "entrega": "Barrios consolidados con paquete integral de servicios y espacio público ejecutado.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "EPS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "PP 0146 (PIM 2026: S/ 1 905 millones), Obras por Impuestos y cofinanciamiento municipal.",
-   "costo_referencial": "no estimado",
-   "indicador": "Hogares en barrios intervenidos con agua, pistas y protección de laderas.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "AGU-03",
-    "VIV-07",
-    "EST-08"
-   ],
-   "riesgo": "Obras fragmentadas sin integralidad; mantenimiento que no llega.",
-   "fuentes": [
-    {
-     "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
-     "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
-    },
-    {
-     "titulo": "BID – Improving living conditions in low-income neighborhoods in Rio de Janeiro (Favela-Bairro)",
-     "url": "https://www.iadb.org/en/news/improving-living-conditions-low-income-neighborhoods-rio-de-janeiro"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7",
-    "AE2.3.2"
-   ]
-  },
-  {
-   "id": "VIV-14",
-   "titulo": "Multiplicar parques y espacios públicos en los distritos que menos tienen",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Inversión municipal y del MVCS; el plan urbano reserva el suelo. No requiere ley.",
-   "etapa": "2031-2036",
-   "que": "Cada ciudad identifica en su plan urbano los distritos con menos área verde por habitante y construye parques de barrio a menos de diez minutos a pie de cada vivienda, recupera riberas y lomas como parques lineales y abre patios escolares a la comunidad los fines de semana. En la costa los parques se riegan con agua residual tratada (AGU-10) y se usan especies de bajo consumo. Los vecinos participan en el diseño y en el cuidado.",
-   "evidencia": "Lima tiene unos 3,5 m² de área verde por habitante, lejos de los 9 m² citados como referencia (Municipalidad de Lima, vía La República). La Encuesta Lima Cómo Vamos 2025 registró que el 55,8 % de limeños está insatisfecho con calles y plazas (Actualidad Ambiental). Las áreas verdes urbanas se asocian a mejor salud física y mental (OMS Europa, Urban green spaces and health, 2016).",
-   "entrega": "Parques de barrio y parques lineales nuevos en los distritos con menor área verde por habitante.",
-   "responsable": "MUNICIPALIDADES",
-   "entidades": [
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SERPAR",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "EPS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINEDU",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Predial, PP 0146, Obras por Impuestos y aportes reglamentarios de las habilitaciones urbanas.",
-   "costo_referencial": "no estimado",
-   "indicador": "Área verde pública por habitante y población a menos de 10 minutos de un parque.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-06",
-    "AGU-10"
-   ],
-   "riesgo": "Parques sin agua ni mantenimiento; aportes de habilitaciones vendidos o invadidos.",
-   "fuentes": [
-    {
-     "titulo": "La República – Lima, la ciudad de América Latina con menos áreas verdes (3,5 m² por persona)",
-     "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
-    },
-    {
-     "titulo": "Actualidad Ambiental – Lima entre las ciudades con menor cantidad y calidad de espacios públicos",
-     "url": "https://www.actualidadambiental.pe/lima-entre-las-ciudades-con-menor-cantidad-y-calidad-de-espacios-publicos-de-america-latina/"
-    },
-    {
-     "titulo": "OMS Europa (2016) – Urban green spaces and health",
-     "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2016-3352-43111-60341"
-    }
-   ],
-   "pedn": [
-    "AE2.3.2"
-   ]
-  },
-  {
-   "id": "VIV-15",
-   "titulo": "Crear un gobierno metropolitano para planificar suelo, agua y transporte en Lima y Callao",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "El régimen especial de Lima (art. 198 de la Constitución), la Ley Orgánica de Municipalidades (Ley 27972) y la ley de la ATU (Ley 30900) son normas con rango de ley; crear una instancia metropolitana con funciones vinculantes exige ley y, por implicar gasto y un nuevo órgano, debe ser de iniciativa del Ejecutivo (art. 79).",
-   "etapa": "2031-2036",
-   "que": "Crear una instancia de planificación metropolitana Lima–Callao que apruebe un solo plan de desarrollo metropolitano vinculante para los distritos de ambas jurisdicciones, coordine la expansión del agua con SEDAPAL, el transporte con la ATU y la gestión de riesgos, y administre un fondo metropolitano para obras que cruzan límites distritales. Se integra con la ATU, que ya planifica el transporte de ambas jurisdicciones, en vez de duplicarla.",
-   "evidencia": "Lima y Callao forman una sola ciudad con dos regímenes de gobierno y más de cincuenta distritos; la ATU (Ley 30900, 2018) mostró que una autoridad común es posible para el transporte. La OCDE recomienda gobernanza metropolitana para áreas urbanas fragmentadas (OCDE, Governing the City, 2015).",
-   "entrega": "Ley de gobierno metropolitano Lima–Callao y plan de desarrollo metropolitano vinculante aprobado.",
-   "responsable": "PCM",
-   "entidades": [
-    {
-     "sigla": "PCM",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MML",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE CALLAO",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SEDAPAL",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Reasignación de recursos de la Municipalidad de Lima, el Gobierno Regional del Callao y la ATU; por identificar el fondo metropolitano.",
-   "costo_referencial": "no estimado",
-   "indicador": "Plan metropolitano vinculante vigente; proyectos metropolitanos ejecutados con el fondo.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-06",
-    "VIV-18",
-    "EST-27"
-   ],
-   "riesgo": "Resistencia de alcaldes distritales y del Callao a ceder competencias; otra capa burocrática si no se fusionan funciones.",
-   "fuentes": [
-    {
-     "titulo": "Andina – La ATU será la única responsable del transporte urbano en Lima y Callao (Ley 30900)",
-     "url": "https://andina.pe/agencia/noticia-atu-sera-unica-responsable-del-transporte-urbano-lima-y-callao-677057.aspx"
-    },
-    {
-     "titulo": "OCDE (2015) – Governing the City",
-     "url": "https://doi.org/10.1787/9789264226500-en"
-    }
-   ],
-   "pedn": [
-    "AE2.1.3",
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "VIV-16",
-   "titulo": "Preparar a las ciudades intermedias para crecer con plan, servicios y suelo formal",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Combina asistencia técnica del MVCS, inversión por Invierte.pe y convenios con municipios; no requiere ley.",
-   "etapa": "2031-2036",
-   "que": "Un programa para las ciudades intermedias de más rápido crecimiento según el Censo 2025 (capitales regionales y ciudades de 50 000 a 500 000 habitantes) que entrega en un solo paquete: plan de desarrollo urbano, catastro, banco de suelo con lotes servidos, agua y desagüe para la expansión, y un equipo técnico municipal financiado por cinco años. Se usa la escala provincial o mancomunada cuando la ciudad abarca varios distritos.",
-   "evidencia": "El crecimiento urbano reciente es mayor fuera de Lima y es casi todo informal (GRADE, 2020). Actuar antes de que la expansión ocurra es más barato que regularizar después (Banco Mundial, World Development Report 2009: Reshaping Economic Geography).",
-   "entrega": "Paquetes integrales de planificación, catastro, suelo y servicios en las ciudades intermedias de mayor crecimiento.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "COFOPRI",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "EPS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "INEI",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0146, PP 0082, canon y FIDT.",
-   "costo_referencial": "no estimado",
-   "indicador": "Ciudades intermedias con plan, catastro y banco de suelo; expansión formal medida por satélite.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-05",
-    "VIV-06",
-    "VIV-07",
-    "VIV-08",
-    "EST-20"
-   ],
-   "riesgo": "Dispersión de recursos en demasiadas ciudades; rotación de autoridades.",
-   "fuentes": [
-    {
-     "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
-     "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-    },
-    {
-     "titulo": "Banco Mundial (2009) – World Development Report: Reshaping Economic Geography",
-     "url": "https://openknowledge.worldbank.org/handle/10986/5991"
-    }
-   ],
-   "pedn": [
-    "AE2.1.7",
-    "AE2.1.4"
-   ]
-  },
-  {
-   "id": "VIV-17",
-   "titulo": "Convertir las lecciones de la Reconstrucción con Cambios en un protocolo permanente",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La ANIN (Ley 31841) puede ejecutar intervenciones de reconstrucción y el MVCS y la PCM pueden aprobar protocolos por decreto supremo; los bonos para damnificados se ajustan con las facultades delegadas en 2026 (Ley 32743).",
-   "etapa": "2026-2031",
-   "que": "Publicar una evaluación independiente de la Reconstrucción con Cambios (Ley 30556) y aprobar un protocolo permanente para después de cada desastre: catastro de daños en 30 días, padrón único de damnificados, bono de arrendamiento inmediato, viviendas con diseños tipo y prohibición de reconstruir en el mismo lugar si el riesgo no es mitigable. Las obras se contratan con modelos estandarizados y transparencia en línea. El protocolo se prueba ante el próximo Fenómeno El Niño.",
-   "evidencia": "La Ley 31841 (2023) creó la ANIN y permitió absorber a la Autoridad para la Reconstrucción con Cambios; la transferencia de funciones se dio en 2024 (resoluciones de la ANIN). La Ley 31760 obligó a reportar trimestralmente a la Contraloría el avance de la reconstrucción. No encontramos una evaluación integral pública de resultados (por verificar).",
-   "entrega": "Evaluación independiente publicada y protocolo nacional de reconstrucción aprobado.",
-   "responsable": "PCM",
-   "entidades": [
-    {
-     "sigla": "PCM",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ANIN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "INDECI",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto existente de la PCM, la ANIN y el MVCS.",
-   "costo_referencial": "no estimado",
-   "indicador": "Tiempo entre el desastre y la entrega de vivienda definitiva; viviendas reconstruidas en zonas seguras.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-12",
-    "TAL-10",
-    "DIG-20"
-   ],
-   "riesgo": "Urgencia política que salta los controles técnicos; evaluación sin consecuencias.",
-   "fuentes": [
-    {
-     "titulo": "Ley 31841, crea la Autoridad Nacional de Infraestructura (ANIN) (PPU Legal)",
-     "url": "https://ppulegal.com/en/insights/ley-n-31841-ley-que-crea-la-autoridad-nacional-de-infraestructura-anin/"
-    },
-    {
-     "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
-     "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.2.4",
-    "AE2.2.2"
-   ]
-  },
-  {
-   "id": "VIV-18",
-   "titulo": "Densificar con vivienda asequible junto a los corredores de transporte masivo",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Los parámetros urbanísticos se fijan en los planes de desarrollo urbano (Ley 31313); la coordinación con la ATU y el MTC se hace por convenio. Las decisiones sobre la red de transporte corresponden al sector transporte.",
-   "etapa": "2031-2036",
-   "que": "En un radio de caminata alrededor de las estaciones del Metro de Lima, el Metropolitano, los corredores complementarios y los sistemas de transporte de otras ciudades, los planes urbanos permiten mayor altura y densidad a cambio de un porcentaje de vivienda de interés social y de espacio público. El suelo público cercano a las estaciones se reserva para vivienda en alquiler social (VIV-04). El enlace con el sector transporte se limita a coordinar la ubicación de estaciones y la información abierta de rutas (GOB-11, TAL-11).",
-   "evidencia": "El desarrollo orientado al transporte reduce tiempos de viaje y costos de servicios al concentrar población cerca de la oferta de transporte (Banco Mundial, Transforming Cities with Transit, 2013). En Lima el PIM 2026 del programa de transporte urbano supera los S/ 6 400 millones (MEF, PP 0148), inversión que se aprovecha mejor con densidad alrededor.",
-   "entrega": "Parámetros de densificación con cuota de vivienda social aprobados en torno a las estaciones de transporte masivo.",
-   "responsable": "MUNICIPALIDADES",
-   "entidades": [
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SBN",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Inversión privada inmobiliaria; suelo público; sin gasto adicional significativo.",
-   "costo_referencial": "no estimado",
-   "indicador": "Viviendas nuevas y viviendas de interés social a menos de 800 m de estaciones de transporte masivo.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "VIV-06",
     "GOB-11",
     "TAL-11",
-    "DIG-22"
-   ],
-   "riesgo": "Densificación que expulsa a residentes de menores ingresos; oposición vecinal a la altura.",
-   "fuentes": [
+    "TAL-10",
+    "CON-09",
+    "GOB-24",
+    "GOB-01",
+    "IA-04"
+  ],
+  "plan2050": [
+    "vivienda",
+    "desarrollo-urbano",
+    "ciudades-inteligentes",
+    "infraestructura-y-construccion",
+    "transportes",
+    "cohesion-social",
+    "la-familia",
+    "reforma-del-estado",
+    "promocion-de-la-inversion"
+  ],
+  "fuentes": [
     {
-     "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
-     "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+      "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
     },
     {
-     "titulo": "Banco Mundial (2013) – Transforming Cities with Transit",
-     "url": "https://openknowledge.worldbank.org/handle/10986/12233"
+      "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
+      "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
+    },
+    {
+      "titulo": "CEPLAN – Indicadores del PEDN al 2050 (seguimiento)",
+      "url": "https://indpedn2050.ceplan.gob.pe/"
+    },
+    {
+      "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
+      "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
+    },
+    {
+      "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
+      "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
+    },
+    {
+      "titulo": "DS 016-2026-VIVIENDA: declara en emergencia los sectores Vivienda, Urbanismo y Saneamiento",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568101-2"
+    },
+    {
+      "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
+      "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
+    },
+    {
+      "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
+      "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
+    },
+    {
+      "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
+      "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+    },
+    {
+      "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
+    },
+    {
+      "titulo": "INEI – Población del Perú 34 157 732 habitantes (Censos Nacionales 2025)",
+      "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
+    },
+    {
+      "titulo": "La República – Lima con 3,5 m² de área verde por persona (2024)",
+      "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
+    },
+    {
+      "titulo": "DS 012-2026-VIVIENDA: actualiza los valores máximos de la vivienda de interés social",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2528339-2"
+    },
+    {
+      "titulo": "Ley 31841, crea la ANIN (PPU Legal)",
+      "url": "https://ppulegal.com/en/insights/ley-n-31841-ley-que-crea-la-autoridad-nacional-de-infraestructura-anin/"
     }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE2.3.2"
-   ]
-  },
-  {
-   "id": "VIV-19",
-   "titulo": "Construir viviendas rurales térmicas y seguras para zonas de heladas y friaje",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo ejecuta el Programa Nacional de Vivienda Rural del MVCS con el PP 0111 y el Plan Multisectorial ante Heladas y Friaje; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Construir y mejorar viviendas rurales con diseño bioclimático (muros térmicos, ventanas con captación solar, cocinas mejoradas) en los distritos altoandinos con heladas y en la Amazonía con friaje e inundaciones, usando materiales locales y mano de obra comunal capacitada. Cada vivienda incluye refuerzo sísmico básico y conexión a agua y saneamiento rural cuando exista sistema (AGU-02). Se priorizan hogares con niños pequeños y adultos mayores, y el diseño se valida con cada comunidad.",
-   "evidencia": "El Programa Nacional de Vivienda Rural interviene desde hace más de una década con viviendas térmicas en zonas de heladas (MVCS). Las heladas y el friaje afectan cada año la salud de niños y adultos mayores (Plan Multisectorial ante Heladas y Friaje, PCM).",
-   "entrega": "Viviendas rurales térmicas construidas o mejoradas en los distritos priorizados por heladas y friaje.",
-   "responsable": "MVCS",
-   "entidades": [
+  ],
+  "revision_atendida": [
     {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "PCM",
-     "rol": "consultiva"
+      "rol": "cifras",
+      "hallazgo": "94,5 % de viviendas inscritas con universo restringido",
+      "decision": "aplicado: se retira el indicador porque no se pudo confirmar su universo en la ficha de CEPLAN (por verificar)"
     }
-   ],
-   "financiamiento": "Presupuesto del Programa Nacional de Vivienda Rural (PP 0111 Apoyo al hábitat rural) y canon.",
-   "costo_referencial": "no estimado",
-   "indicador": "Viviendas rurales térmicas entregadas en distritos con heladas y friaje.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "AGU-02",
-    "SAL-22"
-   ],
-   "riesgo": "Diseños urbanos impuestos que no se adaptan a la cultura local; viviendas dispersas costosas de atender.",
-   "fuentes": [
-    {
-     "titulo": "MVCS – Programa Nacional de Vivienda Rural",
-     "url": "https://www.gob.pe/pnvr"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7"
-   ]
-  },
-  {
-   "id": "VIV-20",
-   "titulo": "Formalizar el alquiler con contratos registrados y desalojo notarial accesible",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "El desalojo con intervención notarial (Ley 30933) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se trata de difundirlos, abaratarlos y digitalizarlos.",
-   "etapa": "2026-2031",
-   "que": "Crear un contrato modelo gratuito de alquiler de vivienda, firmable digitalmente y registrable en línea, que habilite el desalojo notarial o el régimen del DL 1177 sin costos altos. SUNAT simplifica la declaración del impuesto a la renta de primera categoría con pago desde el celular. Con propietarios más seguros, aumenta la oferta de cuartos y departamentos en alquiler formal, que es la puerta de entrada para jóvenes y migrantes.",
-   "evidencia": "La Ley 30933 (2019) creó el desalojo con intervención notarial y el DL 1177 (2015) un régimen especial de arrendamiento, pero su uso es limitado por desconocimiento y costo (por verificar estadísticas de uso). La falta de seguridad jurídica reduce la oferta de alquiler y empuja a la informalidad (BID, Un espacio para el desarrollo: los mercados de vivienda en América Latina, 2012).",
-   "entrega": "Contrato modelo digital y registro en línea de arrendamientos con acceso simplificado al desalojo notarial.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MINJUSDH",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SUNARP",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUNAT",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "COLEGIO DE NOTARIOS",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto existente del MVCS, SUNARP y SUNAT.",
-   "costo_referencial": "no estimado",
-   "indicador": "Contratos de alquiler registrados; declarantes de renta de primera categoría.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "GOB-01"
-   ],
-   "riesgo": "Desalojos rápidos sin protección a inquilinos vulnerables; baja adopción.",
-   "fuentes": [
-    {
-     "titulo": "BID (2012) – Un espacio para el desarrollo: los mercados de vivienda en América Latina y el Caribe",
-     "url": "https://publications.iadb.org/es/un-espacio-para-el-desarrollo-los-mercados-de-vivienda-en-america-latina-y-el-caribe"
-    }
-   ],
-   "pedn": [
-    "AE1.3.7",
-    "AE3.6.5"
-   ]
-  },
-  {
-   "id": "VIV-21",
-   "titulo": "Dar licencias de construcción rápidas con planos tipo y profesional responsable",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "parcial",
-   "por_que_ley": "Los procedimientos y modalidades de licencia se fijan en el reglamento de la Ley 29090; ampliar la aprobación automática a nuevas modalidades puede requerir modificar la ley.",
-   "etapa": "2026-2031",
-   "que": "Para vivienda unifamiliar de hasta tres pisos en suelo urbano habilitado, la licencia se otorga en línea y en el acto si el propietario usa planos tipo aprobados por el MVCS o planos firmados por un profesional colegiado que asume responsabilidad, con verificación técnica posterior por muestreo. Se aplica el régimen registral simplificado y las soluciones de factibilidad para vivienda de interés social habilitados por la delegación de 2026. Con trámite barato, más familias construyen con licencia y asistencia técnica.",
-   "evidencia": "El 69 % de las viviendas de Lima fue autoconstruida sin asesoría técnica (GRADE 2023, vía Canal N); el costo y la demora de la licencia son una razón para construir sin ella. La delegación de facultades de 2026 autorizó un régimen registral simplificado y soluciones alternativas a factibilidades para vivienda de interés social (Ley 32743, numerales 2.2.12 y 2.2.13).",
-   "entrega": "Licencia digital automática con planos tipo para vivienda unifamiliar y verificación posterior por muestreo.",
-   "responsable": "MVCS",
-   "entidades": [
-    {
-     "sigla": "MVCS",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SENCICO",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "COLEGIOS PROFESIONALES",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SUNARP",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto existente; reduce costos de trámite.",
-   "costo_referencial": "no estimado",
-   "indicador": "Licencias de vivienda unifamiliar otorgadas; tiempo promedio de otorgamiento.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "TUO de la Ley 29090, Ley de Regulación de Habilitaciones Urbanas y de Edificaciones, y su reglamento de licencias",
-     "motivo": "Se simplifica la licencia de vivienda unifamiliar con aprobación automática y verificación posterior."
-    }
-   ],
-   "depende_de": [
-    "VIV-11",
-    "EST-21",
-    "GOB-02"
-   ],
-   "riesgo": "Profesionales que firman sin supervisar; municipios que pierden ingresos por tasas.",
-   "fuentes": [
-    {
-     "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
-     "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
-    },
-    {
-     "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
-     "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.3.1",
-    "AE3.6.5"
-   ]
-  },
-  {
-   "id": "VIV-22",
-   "titulo": "Revisar las inafectaciones del impuesto predial y actualizar los valores de los predios",
-   "tipo": "derogacion",
-   "necesita_ley": "si",
-   "por_que_ley": "Las inafectaciones del impuesto predial están en el TUO de la Ley de Tributación Municipal (DS 156-2004-EF, art. 17); modificarlas exige ley por reserva tributaria (art. 74 de la Constitución).",
-   "etapa": "2031-2036",
-   "que": "Evaluar cada inafectación del impuesto predial del artículo 17 de la Ley de Tributación Municipal según su justificación de política pública y su costo fiscal para los municipios, y derogar las que no se justifiquen, manteniendo la deducción para pensionistas de bajos ingresos. En paralelo, el MVCS actualiza los valores arancelarios del suelo con metodología técnica para acercarlos al valor de mercado de forma gradual. Lo recaudado se queda en el distrito.",
-   "evidencia": "El predial recauda 0,26 % del PIB frente a 0,4 % en América Latina (BID) y alrededor de 1,1 % en la OCDE (BCRP, Reporte de Inflación marzo 2019). Bases gravables desactualizadas e inafectaciones amplias reducen la recaudación municipal (MEF, estudios de incidencia del impuesto predial).",
-   "entrega": "Informe público de costo fiscal de las inafectaciones, ley que deroga las injustificadas y aranceles actualizados.",
-   "responsable": "MEF",
-   "entidades": [
-    {
-     "sigla": "MEF",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "beneficiaria"
-    }
-   ],
-   "financiamiento": "No requiere gasto; aumenta ingresos municipales.",
-   "costo_referencial": "no estimado",
-   "indicador": "Recaudación del impuesto predial como % del PIB.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "TUO de la Ley de Tributación Municipal, DS 156-2004-EF, art. 17 (inafectaciones del impuesto predial)",
-     "motivo": "Se derogan las inafectaciones sin justificación de política pública vigente, previa evaluación de su costo fiscal."
-    }
-   ],
-   "depende_de": [
-    "VIV-07"
-   ],
-   "riesgo": "Oposición de los grupos hoy inafectos; alzas bruscas que generen rechazo vecinal.",
-   "fuentes": [
-    {
-     "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
-     "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
-    },
-    {
-     "titulo": "BCRP – Reporte de Inflación, marzo 2019, recuadro 3 (impuesto predial)",
-     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Inflacion/2019/marzo/ri-marzo-2019-recuadro-3.pdf"
-    }
-   ],
-   "pedn": [
-    "AE2.1.3"
-   ]
-  }
- ],
- "articulacion": [
-  {
-   "con": "agua",
-   "como": "La ciudad informal llega antes que el agua: los planes urbanos y el suelo con servicios (VIV-06, VIV-08) son la condición para que las EPS den factibilidad solo en suelo planificado (AGU-18) y extiendan redes a las periferias (AGU-03); el mejoramiento de barrios (VIV-13) incluye agua y desagüe, y los parques de la costa se riegan con agua tratada (AGU-10)."
-  },
-  {
-   "con": "salud",
-   "como": "El hacinamiento, los pisos de tierra y la falta de agua elevan la diarrea y la anemia infantil: el mejoramiento de vivienda (VIV-02) se prioriza en los distritos donde se aplica el paquete contra la anemia SAL-17; las viviendas térmicas (VIV-19) previenen las enfermedades por heladas y friaje que atiende SAL-22."
-  },
-  {
-   "con": "educacion",
-   "como": "Los planes urbanos reservan suelo para escuelas y los patios escolares se abren como espacio público (VIV-14); los locales escolares de los barrios mejorados reciben agua y saneamiento con EDU-10 y se reponen los locales en riesgo (EDU-09)."
-  },
-  {
-   "con": "transporte",
-   "como": "Solo en su enlace con el sector transporte: la densificación con vivienda asequible alrededor de estaciones (VIV-18) y el gobierno metropolitano Lima–Callao (VIV-15) se coordinan con la ATU, el MTC y las propuestas de datos abiertos de transporte (GOB-11) y pasaje electrónico (TAL-11)."
-  },
-  {
-   "con": "estado",
-   "como": "El catastro y el predial (VIV-07, VIV-22) fortalecen las finanzas municipales; las ciudades intermedias (VIV-16) usan mancomunidades (EST-20) y oficinas regionales de proyectos (EST-08); la escalera de subsidios (VIV-03) aplica el mapa de duplicidades EST-01."
-  },
-  {
-   "con": "seguridad",
-   "como": "El tráfico de terrenos es una economía criminal: VIV-09 requiere fiscalías especializadas, policía y jueces, y se coordina con la política contra el crimen organizado."
-  }
- ],
- "conexion_tech": [
-  "GOB-07",
-  "GOB-11",
-  "TAL-11",
-  "TAL-10",
-  "CON-09",
-  "GOB-24",
-  "GOB-01",
-  "IA-04"
- ],
- "plan2050": [
-  "vivienda",
-  "desarrollo-urbano",
-  "ciudades-inteligentes",
-  "infraestructura-y-construccion",
-  "transportes",
-  "cohesion-social",
-  "la-familia",
-  "reforma-del-estado",
-  "promocion-de-la-inversion"
- ],
- "fuentes": [
-  {
-   "titulo": "MVCS, Oficina de Evaluación del Impacto (2024) – Impacto del Bono Familiar Habitacional sobre la capacidad financiera de las familias",
-   "url": "https://cdn.www.gob.pe/uploads/document/file/7388414/6301022-2024-impacto-del-bfh-sobre-la-capacidad-financiera.pdf"
-  },
-  {
-   "titulo": "GRADE – Mapeo y tipología de la expansión urbana en el Perú (Espinoza y Fort, 2020)",
-   "url": "https://www.grade.org.pe/wp-content/uploads/EspinozaFort_GRADEADI_expansionurbana.pdf"
-  },
-  {
-   "titulo": "CEPLAN – Indicadores del PEDN al 2050 (seguimiento)",
-   "url": "https://indpedn2050.ceplan.gob.pe/"
-  },
-  {
-   "titulo": "BID – Sostenibilidad fiscal de los gobiernos subnacionales del Perú (impuesto predial 0,26 % del PIB)",
-   "url": "https://www.iadb.org/es/noticias/el-bid-promueve-mayor-sostenibilidad-fiscal-de-los-gobiernos-subnacionales-de-peru"
-  },
-  {
-   "titulo": "Canal N – Sismo en Lima: 69 % de viviendas autoconstruidas y 24 % muy precarias (estudio GRADE 2023)",
-   "url": "https://canaln.pe/actualidad/sismo-lima-autoconstruccion-al-69-y-24-muy-precaria-n484418"
-  },
-  {
-   "titulo": "DS 016-2026-VIVIENDA: declara en emergencia los sectores Vivienda, Urbanismo y Saneamiento",
-   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568101-2"
-  },
-  {
-   "titulo": "DS 012-2022-VIVIENDA: Reglamento de Acondicionamiento Territorial y Planificación Urbana del Desarrollo Urbano Sostenible (Ley 31313)",
-   "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-de-acondicionamien-decreto-supremo-n-012-2022-vivienda-2112560-6/"
-  },
-  {
-   "titulo": "Ley 32267: amplía por última vez los plazos de formalización hasta posesiones al 31-dic-2021 (LP Derecho)",
-   "url": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
-  },
-  {
-   "titulo": "MEF – Consulta Amigable (PP 0146, PP 0148 y PP 0058, PIM 2026)",
-   "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
-  },
-  {
-   "titulo": "Ley 32743, delegación de facultades en seguridad ciudadana y Fenómeno El Niño (texto, LP Derecho)",
-   "url": "https://img.lpderecho.pe/wp-content/uploads/2026/10/Ley-32743-LPDerecho.pdf"
-  },
-  {
-   "titulo": "INEI – Población del Perú 34 157 732 habitantes (Censos Nacionales 2025)",
-   "url": "https://www.gob.pe/institucion/inei/noticias/1399446-inei-poblacion-del-peru-totalizo-34-millones-157-mil-732-habitantes-al-2025"
-  },
-  {
-   "titulo": "La República – Lima con 3,5 m² de área verde por persona (2024)",
-   "url": "https://larepublica.pe/mundo/2024/12/10/la-alarmante-situacion-de-la-ciudad-de-america-latina-con-menos-areas-verdes-en-la-region-segun-experta-2740220"
-  },
-  {
-   "titulo": "DS 012-2026-VIVIENDA: actualiza los valores máximos de la vivienda de interés social",
-   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2528339-2"
-  },
-  {
-   "titulo": "Ley 31841, crea la ANIN (PPU Legal)",
-   "url": "https://ppulegal.com/en/insights/ley-n-31841-ley-que-crea-la-autoridad-nacional-de-infraestructura-anin/"
-  }
- ]
+  ]
 }

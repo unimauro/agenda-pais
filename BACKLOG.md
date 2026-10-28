@@ -32,7 +32,7 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 
 ## SIGUIENTE
 1. [x] Los 14 sectores escritos (28-oct-2026). Faltan 27 AE del PEDN sin acción: ver peru2050.html.
-2. [ ] PRIORIDAD: revisión especializada por sector (ojo: SEG propone derogar la Ley 32108 — polémico, revisar) (constitucional/fiscal + verificador de cifras y URLs), como en Agenda Tech.
+2. [x] (28-oct) Revisión especializada: 6 revisores (constitucional-fiscal, jurista, cifras/URLs, seguridad, economía, SPIJ) → data/revision/*.json (~390 hallazgos); 12 dueños aplicaron con revision_atendida. SEG-25 reformulada (Leyes 32108+32138, alineación con Palermo, neutral). Grafo sin ciclos ni dependencias a etapas posteriores. (constitucional/fiscal + verificador de cifras y URLs), como en Agenda Tech.
 3. [ ] Re-enlazar `depende_de` entre sectores cuando existan (p. ej. anemia SAL ↔ EDU).
 4. [ ] Participación ciudadana (votos/comentarios). OJO: el módulo de api.tunky.net es SOLO para Agenda Legislativa; para este
        proyecto hace falta un módulo propio o preguntar a Carlos.
@@ -44,3 +44,7 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 
 - [x] (28-oct) Modo claro por defecto + botón ◐; asistente en todas las páginas (búsqueda local + IA vía /pais/chat).
 - [ ] Carlos: desplegar `bash deploy/api-tunky/deploy.sh` (módulo pais.js en api.tunky.net) y probar el chat en vivo.
+
+- [ ] Pendientes de la revisión (28-oct), marcados "(por verificar)" en los datos: costo régimen agrario (S/ 1 888 M), IGV amazónico (>S/ 3 700 M), cifras SEG (extorsión, 39 % policías en comisarías, presos sin sentencia), canon BEM 2025, B9 plazo reintegro Ley 31893, fecha de corte AMB-03/AGR-17 (22-jul-2011?), Ley 31850 (TRA-05), B1 URL oficial Ley 32542.
+- [ ] Propuestas de articulación sin acción propia: regla de ahorro de rentas mineras en el Fondo de Estabilización Fiscal (EST-19).
+- [ ] Revisión humana experta sigue pendiente (la de agentes no la reemplaza).

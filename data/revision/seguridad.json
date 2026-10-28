@@ -1,0 +1,624 @@
+[
+ {
+  "id": "sector:seguridad",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico y metas bien construidos y con fuentes en su mayoría primarias. Hay que precisar la delegación de la Ley 32743 (también abarca el art. 317 CP y la Ley 30077 en parte), añadir el cambio de conducción de la investigación (Ley 32130 y sentencias del TC) y sustituir fuentes de prensa secundaria cuando hay fuente oficial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.resumen",
+    "problema": "Dice que la Ley 32743 delegó 'penal, penitenciario, migración y telecomunicaciones'; omite que también delegó crimen organizado (Ley 30077 en lo referido a técnicas terroristas, num. 2.1.10), empleo de las FFAA en apoyo a la PNP (num. 2.1.9), legítima defensa (num. 2.1.11) e inteligencia (num. 2.1.12). Estas materias tienen riesgos de derechos humanos que la agenda debería vigilar (SEG-26).",
+    "correccion": "Reemplazar la frase por: 'En octubre de 2026 la Ley 32743 delegó al Ejecutivo 90 días para legislar en materia penal y procesal penal, penitenciaria, migratoria, telecomunicaciones, crimen organizado, empleo de las Fuerzas Armadas en apoyo a la Policía, legítima defensa e inteligencia; esta agenda se concentra en lo que esos decretos no resuelven —investigar, juzgar y prevenir— y propone evaluar sus efectos (SEG-26).'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.resumen",
+    "problema": "No menciona que desde la Ley 32130 (oct-2024) la investigación preliminar la realiza la PNP con conducción jurídica del Ministerio Público, criterio confirmado por el TC (Sentencias 150/2025 y 83/2026). Es contexto institucional clave para SEG-02, SEG-03 y SEG-05.",
+    "correccion": "Añadir: 'Desde la Ley 32130 la Policía realiza la investigación preliminar del delito con conducción jurídica del Ministerio Público; el Tribunal Constitucional declaró infundadas las demandas contra esa ley (2025–2026). La coordinación PNP–Fiscalía es por eso una condición de todas las acciones de investigación.'",
+    "fuente": "https://lpderecho.pe/tc-declara-infundada-demanda-contra-la-ley-32130-la-investigacion-preliminar-esta-a-cargo-de-la-pnp-con-la-conduccion-juridica-del-mp/"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores (extorsión)",
+    "problema": "La cifra de extorsión se apoya en una nota de Caretas; existe fuente oficial (PNP-SIDPOL / MININTER).",
+    "correccion": "Usar como fuente el portal de estadística del MININTER/PNP (SIDPOL) o el boletín del CEIC del INEI y dejar la nota de prensa como secundaria.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas[5]",
+    "problema": "Asigna a OSIPTEL una auditoría anual de bloqueo en penales; OSIPTEL supervisa a operadoras, no al INPE. Requiere que el decreto legislativo de la Ley 32743 (num. 2.1.2.d-e) le asigne esa función.",
+    "correccion": "En la columna 2036 escribir: '100 % con medición independiente anual (OSIPTEL u otra entidad, según lo que establezca el decreto legislativo de la Ley 32743)'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   }
+  ]
+ },
+ {
+  "id": "SEG-01",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Intervención con la evidencia más sólida (Braga et al. 2019; Blattman et al. 2021) bien matizada y sin necesidad de ley. Solo un ajuste menor de datos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El SINADEF registra lugar de defunción, no el lugar del ataque; no sirve para georreferenciar segmentos de calle.",
+    "correccion": "Cambiar 'y datos del SINADEF' por 'y el registro georreferenciado de homicidios de la PNP y el Ministerio Público (validado con SINADEF a nivel distrital)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-02",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "La disuasión focalizada tiene evidencia moderada y bien citada, pero la redacción de la 'respuesta concentrada sobre todo el grupo' puede leerse como sanción colectiva y no reconoce el marco vigente de la Ley 32130.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "'Respuesta concentrada sobre todo el grupo (detenciones, incautación de bienes...)' puede interpretarse como castigo colectivo; toda detención fuera de flagrancia requiere mandato judicial e imputación individual (art. 2.24.f Constitución).",
+    "correccion": "Reemplazar por: 'que el próximo atentado o asesinato provocará la persecución prioritaria de todos los delitos cometidos por los integrantes del grupo (investigación, pedidos de detención con orden judicial, decomiso e investigación financiera), siempre con imputación individual'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "Omite que desde la Ley 32130 la PNP realiza la investigación preliminar con conducción jurídica del Ministerio Público (TC, Sentencias 150/2025 y 83/2026); el acuerdo operativo debe respetar ese reparto.",
+    "correccion": "Añadir al final: 'Se ejecuta respetando el reparto de funciones de la Ley 32130 (investigación policial con conducción jurídica del Ministerio Público) y la autonomía del Ministerio Público (art. 158 de la Constitución).'",
+    "fuente": "https://lpderecho.pe/tc-declara-infundada-demanda-contra-la-ley-32130-la-investigacion-preliminar-esta-a-cargo-de-la-pnp-con-la-conduccion-juridica-del-mp/"
+   }
+  ]
+ },
+ {
+  "id": "SEG-03",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Correcta en no crear entidades y en respetar el art. 79 (asignación vía ley de presupuesto del Ejecutivo). Recomendación menor sobre autonomía presupuestal.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "PJ y Ministerio Público formulan y sustentan su propio presupuesto (arts. 145 y 160 de la Constitución); el MEF no 'asigna' sin su pedido.",
+    "correccion": "Añadir: 'El Poder Judicial y el Ministerio Público incluyen la asignación en sus proyectos de presupuesto, que sustentan ante el Congreso; el MEF incorpora la del MININTER y el MINJUSDH.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-04",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Omite que la Ley 32595 (2026) ya creó el Banco Nacional de Datos de Perfiles Genéticos a cargo de la DIRCRI-PNP; la acción debe implementar esa ley, no crear una base nueva por vía administrativa. Fuente principal débil (agregador de noticias).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Propone una 'base de datos de ADN de condenados' por inversión pública, sin citar la Ley 32595, que creó el Banco Nacional de Datos de Perfiles Genéticos (investigados, procesados, internos, víctimas, evidencias). Una base de ADN restringe derechos (intimidad, datos sensibles, Ley 29733) y solo puede existir por ley; ya existe, con críticas por falta de control judicial previo para no condenados.",
+    "correccion": "Reemplazar 'base de datos de ADN de condenados por delitos graves' por 'la implementación del Banco Nacional de Datos de Perfiles Genéticos creado por la Ley 32595, con protocolos de cadena de custodia, acceso auditado y control judicial para la toma de muestras a personas no condenadas'. Añadir 'Ley 32595' en por_que_ley.",
+    "fuente": "https://lpderecho.pe/ley-32595-crean-banco-datos-perfiles-geneticos-investigaciones-procesos-penales/"
+   },
+   {
+    "severidad": "baja",
+    "campo": "fuentes[0]",
+    "problema": "Ground News es un agregador, no fuente primaria.",
+    "correccion": "Sustituir por la nota original del medio peruano o por la exposición del Ministerio Público ante el Congreso; añadir la Ley 32595 (El Peruano).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-05",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Buena acción con meta verificable; la frase 'bajo conducción fiscal (NCPP vigente)' está desactualizada tras la Ley 32130.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Desde la Ley 32130 (oct-2024) la PNP realiza la investigación del delito con conducción jurídica del Ministerio Público; el TC declaró infundadas las demandas (Sentencia 150/2025; Sentencia 83/2026).",
+    "correccion": "Reemplazar por: 'Organización interna de la PNP (DIRINCRI) y del Ministerio Público con protocolos conjuntos, en el reparto vigente de la Ley 32130 (investigación policial con conducción jurídica del Ministerio Público), confirmado por el Tribunal Constitucional. No requiere ley.'",
+    "fuente": "https://lpderecho.pe/tc-declara-infundada-demanda-contra-la-ley-32130-la-investigacion-preliminar-esta-a-cargo-de-la-pnp-con-la-conduccion-juridica-del-mp/"
+   }
+  ]
+ },
+ {
+  "id": "SEG-06",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico razonable y respeto del art. 79; falta precisar que el DL 1149 ya prevé evaluación para ascensos (la propuesta debe decir qué cambia) y la reserva constitucional sobre la PNP.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El DL 1149 no asciende 'solo por antigüedad y cursos': ya contempla evaluación de desempeño y examen en el proceso de ascenso. Sin precisar los artículos a cambiar, la propuesta parece corregir algo que ya existe.",
+    "correccion": "Reemplazar la primera frase por: 'Se modifican los artículos del DL 1149 sobre ascensos para que el examen de conocimientos lo diseñe y aplique una entidad externa y que la evaluación de desempeño use indicadores verificables (casos resueltos, quejas, integridad), con mayor peso que la antigüedad.' Citar el texto vigente del DL 1149 (SPIJ).",
+    "fuente": "https://spij.minjus.gob.pe/"
+   },
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El art. 168 de la Constitución reserva a 'las leyes y los reglamentos' la organización, especialidades y disciplina de la PNP; conviene citarlo.",
+    "correccion": "Añadir: '(art. 168 de la Constitución)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Bien orientada, pero el cruce de declaraciones con SUNAT choca con la reserva tributaria y el secreto bancario (art. 2.5 de la Constitución), y las cámaras corporales requieren reglas de datos personales.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "La Inspectoría PNP y la oficina de integridad del MININTER no pueden acceder a información protegida por reserva tributaria ni secreto bancario: el art. 2.5 de la Constitución solo permite levantarlos a pedido del juez, el Fiscal de la Nación o una comisión investigadora del Congreso. La UIF puede analizar, pero no entregar libremente a órganos disciplinarios.",
+    "correccion": "Reemplazar 'cruzan declaraciones juradas con SUNAT, SUNARP y la UIF' por 'cruzan las declaraciones juradas de ingresos, bienes y rentas con información pública de SUNARP y, cuando hay indicios, solicitan al Ministerio Público que pida al juez el levantamiento del secreto bancario y de la reserva tributaria; la UIF reporta operaciones sospechosas según su ley'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Cámaras corporales: grabación de terceros en vía pública y domicilios exige base normativa de tratamiento de datos (Ley 29733 y su reglamento) y reglas de retención y acceso.",
+    "correccion": "Añadir: 'con un protocolo aprobado por DS que fije finalidad, plazos de retención, acceso de la defensa y de la víctima, y custodia fuera de la unidad, conforme a la Ley 29733'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-08",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Obra estandarizada con base legal correcta (Invierte.pe, Ley 29230, denuncia digital de la Ley 32332, también incluida en la delegación num. 2.1.8.g). Sin observaciones relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-09",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Medida de gestión plausible y sin necesidad de ley; las fuentes de prensa deberían complementarse con la fuente oficial del MININTER.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "fuentes[1]",
+    "problema": "La cifra de 39 % del personal en comisarías proviene de una columna de opinión.",
+    "correccion": "Sustituir o complementar con el documento oficial del MININTER presentado al Congreso (o respuesta de acceso a la información) y precisar la fecha de corte.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-10",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Pertinente, pero integra a bomberos y ambulancias (competencias de CGBVP y MINSA/SAMU) y video privado sin precisar reglas de datos ni limitar la identificación biométrica remota.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La conexión de cámaras privadas y el posible uso de reconocimiento facial son tratamiento masivo de datos personales; la Ley 29733 exige finalidad, proporcionalidad y base legal. La identificación biométrica en tiempo real restringe derechos y no debería habilitarse por DS.",
+    "correccion": "Añadir: 'No se usa identificación biométrica remota en tiempo real sin una ley que la autorice con control judicial; el video se conserva por un plazo máximo definido (p. ej., 30 días salvo requerimiento fiscal) y todo acceso queda registrado y auditado por la Autoridad Nacional de Protección de Datos Personales.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "Una central que despacha bomberos y ambulancias requiere al CGBVP (INBP) y al MINSA como ejecutores; no figuran.",
+    "correccion": "Añadir {'sigla':'MINSA','rol':'ejecutora'} y {'sigla':'INBP','rol':'ejecutora'}; cambiar 'por_que_ley' a 'Se ordena por DS multisectorial refrendado por MININTER, MINSA y PCM'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-11",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Omite que el serenazgo ya tiene ley propia (Ley 31297) y reglamento (DS 009-2022-IN, modificado), con normas posteriores sobre selección, capacitación y medios de defensa (Leyes 31795, 32292, 32312).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Dice que los estándares 'se ordenan por DS y lineamientos' sin citar la Ley 31297 ni su reglamento, que ya regulan selección, capacitación y medios de defensa; la acción debe partir de ese marco.",
+    "correccion": "Reemplazar por: 'La Ley 31297, Ley del Servicio de Serenazgo Municipal, y su reglamento (DS 009-2022-IN, modificado por los DS 009-2024-IN y 015-2025-IN) ya fijan el marco; los estándares adicionales y el patrullaje integrado se aprueban modificando ese reglamento. El incentivo se da por el Programa de Incentivos (MEF). No requiere ley.' Ajustar 'que' a 'se actualizan y exigen los estándares de la Ley 31297...'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2099650-6"
+   },
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Las leyes recientes autorizan medios de defensa (incluida pistola eléctrica) al serenazgo; el riesgo de uso de la fuerza aumenta.",
+    "correccion": "Añadir: 'Registro de cada uso de medios de defensa y reporte público de quejas por municipalidad.'",
+    "fuente": "https://lpderecho.pe/modifican-reglamento-ley-servicio-serenazgo-municipal-decreto-supremo-015-2025-in/"
+   }
+  ]
+ },
+ {
+  "id": "SEG-12",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Bien delimitado lo que requiere ley (obligaciones a privados en la cadena del oro) frente a lo que no; base legal correcta (DL 1106, 1103, 1107) y deslinde correcto con la delegación num. 2.1.8.a.5.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La ley de trazabilidad afectará a mineros en proceso de formalización en territorios de comunidades; si su reglamento afecta derechos colectivos debe evaluarse consulta previa (Ley 29785).",
+    "correccion": "Añadir: 'El reglamento evalúa la afectación a pueblos indígenas y, de corresponder, se somete a consulta previa (Ley 29785).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-13",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Presencia sostenida es la lección correcta, pero incluye al MINDEF como ejecutor sin precisar el marco del DL 1095 (y la nueva delegación num. 2.1.9) ni salvaguardas de uso de la fuerza; Condorcanqui y Putumayo son territorios indígenas. Se superpone con MIN-07.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La participación de las FFAA en orden interno solo procede en estado de emergencia (art. 137) o en los supuestos del DL 1095, cuyo ámbito la Ley 32743 (num. 2.1.9) permite ampliar. La acción no fija reglas ni temporalidad.",
+    "correccion": "Añadir: 'Las Fuerzas Armadas participan en apoyo a la PNP solo en los supuestos del DL 1095, con plazo, control del Congreso y reglas de uso de la fuerza públicas; la conducción de la interdicción es policial y fiscal.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Bases permanentes en Condorcanqui y Putumayo afectan territorios de pueblos indígenas (awajún, wampis, kichwa, entre otros) que tienen sus propios sistemas de vigilancia; no se menciona coordinación ni consulta.",
+    "correccion": "Añadir: 'En territorios de pueblos indígenas la instalación de bases se coordina con sus organizaciones representativas y, si implica medidas administrativas que afecten derechos colectivos, se consulta conforme al Convenio 169 y la Ley 29785.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Superposición con MIN-07 (comando conjunto de control de insumos de minería ilegal).",
+    "correccion": "Agregar 'MIN-07' en depende_de y en el texto: 'El control de insumos se ejecuta según MIN-07'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-14",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Enfoque de desarrollo alternativo con base legal y evidencia peruana adecuadas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La titulación en zonas amazónicas puede superponerse con territorios de comunidades nativas.",
+    "correccion": "Añadir: 'La titulación respeta los derechos territoriales de comunidades nativas y campesinas.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-15",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Marco legal correcto (Ley 28950, Política Nacional al 2030) y enfoque centrado en la víctima. Sin observaciones relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-16",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Bien enfocada en ejecución y medición; la auditoría por OSIPTEL requiere que una norma con rango de ley le asigne esa función (OSIPTEL supervisa a operadoras, no al INPE).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "OSIPTEL es organismo regulador con funciones fijadas por ley; medir y certificar los bloqueadores del INPE no está entre sus funciones actuales. La Ley 32743 (num. 2.1.2.d y 2.1.8.d) permite precisarlo por decreto legislativo.",
+    "correccion": "Reemplazar 'OSIPTEL audita cada trimestre' por 'una entidad independiente —OSIPTEL, si el decreto legislativo de la Ley 32743 le asigna esa función— mide cada trimestre'. Ajustar 'entidades': OSIPTEL 'supervisora' condicionado.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   }
+  ]
+ },
+ {
+  "id": "SEG-17",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Prioriza obras paralizadas y clasificación por riesgo; reconoce el riesgo de condiciones contrarias a los estándares internacionales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Conviene citar el estándar de referencia.",
+    "correccion": "Añadir: 'Las condiciones de reclusión se ajustan a las Reglas Mínimas de las Naciones Unidas para el Tratamiento de los Reclusos (Reglas Nelson Mandela), incluido el límite al aislamiento prolongado.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-18",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Evidencia sólida (Di Tella y Schargrodsky; Dobbie et al.), pero puede chocar con los decretos de la Ley 32743, que delegó establecer límites a la conversión de penas, y deja cifras clave 'por verificar'.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 32743 (num. 2.1.8.a.3) delega 'establecer límites y condiciones para la conversión de penas ... respecto de delitos de elevada lesividad'. La acción debe coordinarse para que esos decretos no cierren la vía a delitos no violentos.",
+    "correccion": "Añadir: 'Los decretos legislativos que limiten la conversión de penas (Ley 32743, num. 2.1.8.a.3) deben circunscribirse a delitos violentos y de crimen organizado, preservando las alternativas para delitos no violentos previstas en el plan de deshacinamiento.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   },
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "'Cerca de un tercio sin sentencia (por verificar)'.",
+    "correccion": "Sustituir por la cifra del último Informe Estadístico Penitenciario del INPE (procesados / población intramuros) con mes de corte y URL.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-19",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Marco legal correcto (DL 1343, DS 025-2017-JUS) y prudente sobre adolescentes en penales de adultos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "La reincidencia 'cercana a 13 %' no tiene fuente.",
+    "correccion": "Citar el informe del INPE con el dato y su definición (reingreso penitenciario a 5 años) o marcar 'por verificar'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-20",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Respeta la autonomía del PJ y el Ministerio Público y se apoya en el proceso inmediato vigente (DL 1194). Solo faltan fuentes de las cifras.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "Cifras de carga y efecto de flagrancia 'por verificar'.",
+    "correccion": "Citar el boletín estadístico del Poder Judicial con fecha de corte; mantener 'por verificar' si no hay evaluación independiente.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Propone modificar la Ley 30916, que es ley orgánica, sin decirlo; además, la publicidad de entrevistas ya existe en parte y conviene precisar qué se añade. Respeta el concurso de méritos, lo cual es correcto.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "La Ley 30916 es Ley Orgánica de la JNJ: su modificación requiere el voto de más de la mitad del número legal de miembros (art. 106 de la Constitución) y, en el Congreso bicameral, el procedimiento de leyes orgánicas. La JNJ es organismo constitucional autónomo (arts. 150-154).",
+    "correccion": "Añadir: 'Es materia de ley orgánica (art. 106 de la Constitución): requiere mayoría calificada. La reforma respeta la autonomía de la JNJ y no altera sus atribuciones del art. 154.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las entrevistas personales de la JNJ ya se transmiten en sus procesos; la propuesta debe precisar lo nuevo: publicidad de puntajes por evaluador, motivación individual y archivo abierto.",
+    "correccion": "Reemplazar 'que todas las entrevistas ... se transmitan y archiven' por 'que, además de la transmisión de entrevistas, se publiquen los puntajes individuales y motivados de cada miembro y el archivo audiovisual completo de cada proceso'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-22",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Evidencia experimental sólida y bien citada; la selección de adolescentes con registros policiales plantea riesgos de datos personales y estigmatización de menores.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Usar 'registros policiales' de menores de 14-17 años para seleccionar participantes es tratamiento de datos sensibles de niños, niñas y adolescentes (Ley 29733; Código de los Niños y Adolescentes) y puede estigmatizar.",
+    "correccion": "Reemplazar 'Se seleccionan con datos de deserción escolar y registros policiales' por 'Se identifican por derivación de escuelas, servicios de salud, DEMUNA y fiscalías de familia, con consentimiento de la familia; los datos se usan solo para el programa y su evaluación, anonimizados'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "'Barrio Seguro no fue evaluado con rigor' es una afirmación tajante sin fuente.",
+    "correccion": "Cambiar a: 'Barrio Seguro no tiene una evaluación de impacto experimental publicada (por verificar); por eso la evaluación es parte del diseño'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-23",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Evidencia peruana rigurosa (Sviatschi y Trako, 2024). La cifra de 33,9 % no corresponde a la URL citada (que informa el 52 % 'alguna vez') y conviene decir que incluye violencia psicológica; los CEM en comisarías ya existen.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "evidencia",
+    "problema": "La URL citada del INEI destaca que 52 de cada 100 mujeres fueron alguna vez víctimas; el 33,9 % de los últimos 12 meses (ENDES 2024) incluye violencia psicológica y debe citarse de la publicación ENDES.",
+    "correccion": "Reemplazar por: '33,9 % de las mujeres de 15 a 49 años sufrió algún tipo de violencia (psicológica, física o sexual) de su esposo o compañero en los últimos 12 meses y 52 % alguna vez (ENDES 2024)'; añadir la URL de la publicación ENDES 2024 del INEI.",
+    "fuente": "https://www.gob.pe/institucion/inei/noticias/1296342-52-de-cada-100-mujeres-de-15-a-49-anos-fueron-alguna-vez-victimas-de-violencia-por-parte-de-su-esposo-o-companero"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Ya existen CEM dentro de comisarías (estrategia del MIMP); 'Se instala' sugiere que es nuevo.",
+    "correccion": "Cambiar 'Se instala un Centro Emergencia Mujer' por 'Se amplía la red de Centros Emergencia Mujer en comisarías'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-24",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Simplificación razonable, pero la seguridad ciudadana es competencia municipal constitucional (art. 197) y está en la Ley Orgánica de Municipalidades; eliminar planes distritales puede requerir modificar una ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "El art. 197 de la Constitución asigna a las municipalidades brindar servicios de seguridad ciudadana y la Ley 27972 (LOM, art. 85) fija funciones municipales en la materia. Si la reforma retira funciones distritales, debe modificarse también la LOM (ley orgánica, art. 106).",
+    "correccion": "Añadir: 'Si se modifican funciones de las municipalidades distritales en la Ley 27972 (art. 85), se requiere ley orgánica. La reforma no puede eliminar la competencia municipal del art. 197 de la Constitución: solo simplifica la planificación.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "fuentes[0]",
+    "problema": "Enlace genérico a SPIJ.",
+    "correccion": "Enlazar el texto de la Ley 27933 en SPIJ o leyes.congreso.gob.pe y añadir el informe de Contraloría o evaluación que sustente la crítica (hoy 'por verificar').",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-25",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones_graves",
+  "resumen": "La acción atribuye a la Ley 32108 efectos que en parte ya corrigió la Ley 32138 (19-oct-2024): el requisito de controlar un mercado ilegal y la suspensión del allanamiento. Lo que sigue vigente es la exigencia de 'compleja estructura desarrollada' y el umbral de pena mínima de cinco años introducido por la 32138. Además, la acción afirma sin precisión que la Ley 32743 no delega estas materias, cuando sí delega el art. 317 del Código Penal. Debe reformularse de forma neutral, sobre ambas leyes y artículo por artículo, tomando como estándar la Convención de Palermo.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Descripción desactualizada. Ley 32108 (El Peruano, 9-ago-2024) modificó: art. 317 CP (suprimió el verbo 'promover'; exigió 'compleja estructura desarrollada y mayor capacidad operativa', carácter 'estable, permanente o por tiempo indefinido', delitos con pena 'mayor de seis años' y el fin de 'obtener ... el control de la cadena de valor de una economía o mercado ilegal'); arts. 2 y 4 de la Ley 30077; y nums. 5 y 7 del art. 2 de la Ley 27379 (secreto bancario con exclusión de bienes de organizaciones políticas; registro 'con presencia del interesado y de su abogado'). La Ley 32138 (19-oct-2024) volvió a modificar el art. 317.2 CP y el art. 2.1.a de la Ley 30077 (eliminó 'estable' y el requisito de 'control de la cadena de valor'; incluyó extorsión, secuestro y sicariato y fijó el umbral en delitos con pena 'igual o mayor de cinco años en su extremo mínimo', con fin de 'beneficio económico u otro de orden material'), modificó el art. 216.3 NCPP (texto de la Ley 32130) y el art. 2.7 de la Ley 27379: el registro se hace 'con o sin la presencia del investigado' y con defensa pública desde el inicio, y la espera del abogado particular 'no suspenderá la ejecución'. Decir que la 32108 exige hoy requisitos que 'demoran operativos' ya no corresponde al texto vigente del allanamiento.",
+    "correccion": "Reemplazar 'que' por: 'Las Leyes 32108 (ago-2024) y 32138 (oct-2024) redefinieron la organización criminal en el art. 317 del Código Penal y el art. 2 de la Ley 30077. El texto vigente exige un grupo con \"compleja estructura desarrollada y mayor capacidad operativa\" y limita el tipo a delitos con pena mínima igual o mayor de cinco años, lo que deja fuera delitos que antes podían investigarse bajo esta figura. Además subsisten diferencias entre normas: el art. 4 de la Ley 30077 (texto de la Ley 32108) remite a delitos con pena \"mayor de seis años\" mientras el art. 317.2 usa \"igual o mayor de cinco años en su extremo mínimo\". El requisito de controlar la cadena de valor de un mercado ilegal (Ley 32108) ya fue eliminado por la Ley 32138 y no necesita revertirse. Se propone una ley que: (1) sustituya el umbral de pena mínima igual o mayor de cinco años (Ley 32138) por el de delito grave de Palermo, referido a la pena máxima, y alinee la definición de organización criminal del art. 317.2 CP y del art. 2.1.a de la Ley 30077 con el art. 2 a) de la Convención de Palermo (grupo estructurado de tres o más personas, que exista durante cierto tiempo y actúe concertadamente para cometer delitos graves con el fin de obtener un beneficio económico u otro de orden material), sustituyendo los requisitos de \"compleja estructura desarrollada y mayor capacidad operativa\" y derogando el art. 2.2 de la Ley 30077; (2) restituya el verbo \"promover\" en el art. 317.1; (3) unifique el umbral de \"delito grave\" entre los arts. 2 y 4 de la Ley 30077 y el art. 317.2; (4) revise el num. 5 del art. 2 de la Ley 27379 para que el levantamiento del secreto bancario no excluya por categoría de titular los bienes de ninguna persona jurídica, sujeto siempre a orden judicial; y (5) mantenga la presencia de la defensa pública en allanamientos sin efecto suspensivo (régimen vigente de la Ley 32138). La ley no tendría efecto retroactivo desfavorable (art. 103 de la Constitución): solo rige para hechos posteriores.'",
+    "fuente": "https://img.lpderecho.pe/wp-content/uploads/2024/10/LEY-32138-LPDerecho.pdf"
+   },
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "Afirmación inexacta sobre la delegación. La Ley 32743 (num. 2.1.8.a) sí autoriza a modificar el Código Penal y el NCPP para 'fortalecer la respuesta penal frente a ... criminalidad organizada', por lo que el art. 317 CP podría ser tocado por decreto legislativo; la Ley 30077 solo se delegó para el registro de organizaciones que usan técnicas terroristas (num. 2.1.10) y la Ley 27379 no se delegó. Además, el num. 2.1.8 prohíbe 'reducir las garantías del debido proceso, la defensa o la presunción de inocencia', lo que excluye por decreto cualquier cambio en el régimen de defensa en allanamientos.",
+    "correccion": "Reemplazar por: 'La definición de organización criminal está a la vez en el art. 317 del Código Penal y en el art. 2 de la Ley 30077, y el allanamiento en investigación preliminar en el art. 2 de la Ley 27379. La Ley 32743 permite modificar el art. 317 CP por decreto legislativo (num. 2.1.8.a), pero solo delegó la Ley 30077 para el registro de organizaciones con técnicas terroristas (num. 2.1.10) y no delegó la Ley 27379. Para que ambas definiciones coincidan se necesita una ley del Congreso; si un decreto legislativo modifica antes el art. 317, la ley debe armonizarse con él.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+   },
+   {
+    "severidad": "alta",
+    "campo": "titulo",
+    "problema": "Título valorativo ('que traban la persecución') y que presupone el resultado; la agenda pide redacción neutral y sustentada.",
+    "correccion": "Nuevo título: 'Alinear la definición legal de organización criminal con la Convención de Palermo y unificar umbrales entre el Código Penal y la Ley 30077'. Cambiar tipo de 'derogacion' a 'ley' (no se deroga una ley completa sino artículos específicos).",
+    "fuente": "https://www.unodc.org/unodc/es/organized-crime/intro/UNTOC.html"
+   },
+   {
+    "severidad": "media",
+    "campo": "evidencia",
+    "problema": "La evidencia se basa en pronunciamientos de 2024 sobre el allanamiento ya corregido por la Ley 32138 y en una frase valorativa ('lo contrario de lo que funciona'). Faltan datos verificables de instituciones: (i) durante el trámite, MINJUSDH y MININTER opinaron que el proyecto no era viable (RPP, 2-oct-2024); (ii) la Junta de Fiscales Supremos acordó en agosto de 2024 promover una demanda de inconstitucionalidad por apartarse de la Convención de Palermo (El Peruano, 13-ago-2024), pero no consta que el Tribunal Constitucional haya admitido o resuelto una demanda contra la Ley 32108; las demandas del Ministerio Público admitidas fueron contra las Leyes 32107 y 32130, y la de la 32130 se declaró infundada (Sentencia 83/2026); (iii) la Cámara de Comercio de Lima advirtió que la definición dejaba fuera 59 de 91 delitos graves; (iv) la Sala Penal Permanente de la Corte Suprema aplicó las Leyes 32108 y 32138 y señaló que se apartan de Palermo sin contradecirla; con el umbral de pena mínima de 5 años hubo absoluciones y rebajas de pena, y algunos jueces aplicaron control difuso (La República, 9-nov-2024). La referencia a un proyecto del Poder Judicial y a la Apelación 391-2024 no pudo verificarse en fuente primaria.",
+    "correccion": "Reemplazar 'evidencia' por: 'Durante el trámite, el MINJUSDH y el MININTER opinaron que el proyecto no era viable. Tras su publicación, la Junta de Fiscales Supremos y gremios como el Colegio de Abogados de Lima y la Cámara de Comercio de Lima advirtieron que la nueva definición se aparta de la Convención de Palermo y deja fuera delitos graves. La Ley 32138 corrigió parte (incluyó extorsión, secuestro y sicariato y eliminó el requisito de controlar la cadena de valor de un mercado ilegal), pero mantuvo la exigencia de \"compleja estructura desarrollada y mayor capacidad operativa\" y fijó un umbral de pena mínima de cinco años. La Corte Suprema ha aplicado ambas leyes señalando que se apartan de Palermo, con absoluciones y rebajas de pena en casos de asociación ilícita, mientras algunos jueces las inaplicaron por control difuso: la jurisprudencia no es uniforme. No hay sentencia del Tribunal Constitucional sobre estas leyes ni estadística oficial de casos afectados; por eso la entrega incluye un informe del Ministerio Público y del Poder Judicial.' No mencionar casos ni personas investigadas.",
+    "fuente": "https://larepublica.pe/politica/judiciales/2024/11/09/jueces-supremos-advierten-que-leyes-32108-y-32138-tendran-graves-consecuencias-en-la-seguridad-ciudadana-655551"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes",
+    "problema": "Faltan las fuentes primarias. La nota de RPP y la de LP sobre la 32108 no reflejan la modificación posterior.",
+    "correccion": "Añadir: {'titulo':'El Peruano – Ley 32108 (9-ago-2024)','url':'https://img.lpderecho.pe/wp-content/uploads/2024/08/Ley-32108-LPDerecho.pdf'}; {'titulo':'El Peruano – Ley 32138 (19-oct-2024), modifica la Ley 30077, el art. 317 CP, el art. 216 NCPP y la Ley 27379','url':'https://img.lpderecho.pe/wp-content/uploads/2024/10/LEY-32138-LPDerecho.pdf'}; {'titulo':'UNODC – Convención de Palermo','url':'https://www.unodc.org/unodc/es/organized-crime/intro/UNTOC.html'}; {'titulo':'El Peruano – MP rechaza ley sobre crimen organizado e interpondrá demanda de inconstitucionalidad (13-ago-2024)','url':'https://elperuano.pe/noticia/250236-mp-rechaza-ley-sobre-crimen-organizado-e-interpondra-una-demanda-de-inconstitucionalidad'}; {'titulo':'La República – Jueces supremos advierten consecuencias de las Leyes 32108 y 32138 (9-nov-2024)','url':'https://larepublica.pe/politica/judiciales/2024/11/09/jueces-supremos-advierten-que-leyes-32108-y-32138-tendran-graves-consecuencias-en-la-seguridad-ciudadana-655551'}; {'titulo':'CCL – La ley contra el crimen organizado debe ser corregida (9-ago-2024)','url':'https://lacamara.pe/ccl-ley-contra-crimen-organizado-promulgada-por-el-congreso-debe-ser-corregida/?print=pdf'}; {'titulo':'TC – Sentencia 83/2026 (Exp. 00020-2024-PI y 00024-2024-PI, Ley 32130)','url':'https://www.tc.gob.pe/jurisprudencia/2026/00020-2024-AI.pdf'}.",
+    "fuente": "https://img.lpderecho.pe/wp-content/uploads/2024/10/LEY-32138-LPDerecho.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "deroga_o_simplifica",
+    "problema": "El motivo repite el problema de allanamientos ya modificado y nombra solo la Ley 32108.",
+    "correccion": "Reemplazar por tres entradas: {'norma':'Código Penal, art. 317 (texto de las Leyes 32108 y 32138)','motivo':'Restituir el verbo promover y alinear la definición con el art. 2 a) de la Convención de Palermo.'}; {'norma':'Ley 30077, arts. 2 y 4 (texto de las Leyes 32108 y 32138)','motivo':'Alinear la definición, derogar el num. 2.2 y unificar el umbral de delito grave con el art. 317.'}; {'norma':'Ley 27379, art. 2 num. 5 (texto de la Ley 32108)','motivo':'Eliminar la exclusión por categoría de titular en el levantamiento del secreto bancario, con control judicial.'}",
+    "fuente": "https://img.lpderecho.pe/wp-content/uploads/2024/08/Ley-32108-LPDerecho.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "indicador",
+    "problema": "'Allanamientos frustrados o anulados por requisitos formales' ya no mide el problema principal tras la Ley 32138 y no tiene fuente que lo registre.",
+    "correccion": "Reemplazar por: 'Investigaciones por organización criminal (art. 317 CP) archivadas o desvinculadas por falta de los elementos típicos introducidos en 2024, según reporte anual del Ministerio Público y del Poder Judicial; condenas por art. 317 CP por año.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Debe explicitar el límite de la retroactividad y el riesgo de nueva inestabilidad normativa (el art. 317 tuvo varias modificaciones desde 2013).",
+    "correccion": "Añadir: 'La nueva definición solo se aplica a hechos posteriores (principio de legalidad y retroactividad benigna, art. 103 de la Constitución); los procesos en curso se rigen por la ley más favorable. Conviene aprobar una sola reforma coherente y no modificaciones sucesivas.'",
+    "fuente": "https://img.lpderecho.pe/wp-content/uploads/2024/10/LEY-32138-LPDerecho.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "Gremios y especialistas sostuvieron que la Ley 32108 modificó la Ley 27379, que podría estar derogada por el Código Procesal Penal de 2004 en los distritos donde rige. Si es así, el ajuste al num. 5 de su art. 2 sería innecesario o debería hacerse en el NCPP.",
+    "correccion": "Antes de redactar la ley, verificar en SPIJ la vigencia de la Ley 27379 y, si está derogada, trasladar el ajuste del levantamiento del secreto bancario al artículo correspondiente del NCPP. Mientras tanto, marcar el punto (4) como 'por verificar'.",
+    "fuente": "https://lacamara.pe/ccl-ley-contra-crimen-organizado-promulgada-por-el-congreso-debe-ser-corregida/?print=pdf"
+   }
+  ]
+ },
+ {
+  "id": "SEG-26",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Acción central y bien sustentada; contiene un error: el Reglamento del Congreso sí tiene rango de ley.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Dice que el Reglamento del Congreso 'no es ley'. El art. 94 de la Constitución le da fuerza de ley y el art. 200.4 lo incluye entre las normas con rango de ley impugnables por inconstitucionalidad.",
+    "correccion": "Reemplazar la última frase por: 'El Congreso puede adoptar la misma regla de evaluación modificando su Reglamento, que tiene fuerza de ley (art. 94 de la Constitución).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Precisar la base de la evaluación ex ante: DL 1565 (calidad regulatoria) aplica al Ejecutivo; los decretos de la Ley 32743 deben incluir AIR.",
+    "correccion": "Añadir: 'Los decretos legislativos de la Ley 32743 aplican el análisis de impacto regulatorio del DL 1565 y su informe se publica junto con la norma.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-27",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "observaciones",
+  "resumen": "Enfoque correcto y no estigmatizante. El intercambio de antecedentes con Venezuela depende de la reanudación progresiva de relaciones (iniciada en julio de 2026 solo en el plano consular).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las relaciones con Venezuela se rompieron en julio de 2024 y en julio de 2026 se acordó una reanudación progresiva empezando por lo consular; un acuerdo de antecedentes no es inmediato.",
+    "correccion": "Añadir: 'con Venezuela, en el marco de la reanudación progresiva de relaciones acordada en 2026'. Mantener meta de 3 países pero con Colombia, Ecuador y Chile como primeros.",
+    "fuente": "https://www.elperuano.pe/noticia/302244-nombran-consul-general-de-peru-en-venezuela-tras-anuncio-de-reanudacion-de-relaciones"
+   },
+   {
+    "severidad": "baja",
+    "campo": "fuentes[0]",
+    "problema": "Trome como fuente de la cifra del INPE.",
+    "correccion": "Sustituir por el Informe Estadístico Penitenciario del INPE (mayo de 2025).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-28",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "seguridad",
+  "veredicto": "conforme",
+  "resumen": "Cooperación internacional con base convencional correcta (Palermo) y respeto del art. 56 para tratados. Sin observaciones relevantes.",
+  "hallazgos": []
+ }
+]

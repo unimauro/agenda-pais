@@ -1,0 +1,1780 @@
+[
+ {
+  "id": "MIN-06",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Triplicado: la trazabilidad del oro desde la mina hasta la exportación aparece también en AMB-05 (punto 1) y en SEG-12 (que además dice que \"una ley establece\" la declaración de origen), con responsables distintos (SUNAT, MINEM, SBS) y fechas de entrega distintas (2029 en MIN-06,… Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Triplicado: la trazabilidad del oro desde la mina hasta la exportación aparece también en AMB-05 (punto 1) y en SEG-12 (que además dice que \"una ley establece\" la declaración de origen), con responsables distintos (SUNAT, MINEM, SBS) y fechas de entrega distintas (2029 en MIN-06, ley al 2028 en SEG-12).",
+    "correccion": "Mantener MIN-06 como acción única de trazabilidad del oro (incluida la ley de declaración de origen y bancarización de compras que hoy está en SEG-12; marcar necesita_ley \"parcial\" con esa precisión). En AMB-05 y SEG-12 eliminar el componente de trazabilidad y agregar \"MIN-06\" a depende_de.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-06 depende de MIN-08 y MIN-08 depende de MIN-06. Ver ficha MIN-08.",
+    "correccion": "Quitar \"MIN-08\" de depende_de de MIN-06.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-05",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica MIN-06 (trazabilidad del oro), MIN-07/SEG-13 (control de insumos, combustible e interdicción de dragas) y MIN-10 (recuperación de áreas degradadas).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica MIN-06 (trazabilidad del oro), MIN-07/SEG-13 (control de insumos, combustible e interdicción de dragas) y MIN-10 (recuperación de áreas degradadas). Además depende de AMB-06 mientras AMB-06 depende de AMB-05 (ciclo).",
+    "correccion": "Reformular AMB-05 como el componente ambiental: interdicción y destrucción de dragas en ríos y ANP y alerta de deforestación por minería, remitiendo a MIN-06 (trazabilidad), MIN-07 (logística) y MIN-10 (restauración). depende_de: [\"MIN-06\",\"MIN-07\",\"DIG-21\"]; quitar \"AMB-06\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-12",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa MIN-06 (trazabilidad del oro) y MIN-08 (fuerza de tarea financiera UIF sobre oro ilegal).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Solapa MIN-06 (trazabilidad del oro) y MIN-08 (fuerza de tarea financiera UIF sobre oro ilegal). Dos equipos UIF paralelos para el mismo flujo. Además depende de SEG-13 mientras SEG-13 depende de SEG-12 (ciclo).",
+    "correccion": "Limitar SEG-12 a inteligencia financiera contra la extorsión (billeteras, cuentas de terceros, cripto). El oro ilegal se remite a MIN-06 y MIN-08. depende_de: [\"MIN-06\",\"MIN-08\",\"SEG-26\",\"DIG-05\"]; quitar \"SEG-13\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-08",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Ciclo MIN-06 -> MIN-08 -> MIN-06 y MIN-07 <-> MIN-08.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Ciclo MIN-06 -> MIN-08 -> MIN-06 y MIN-07 <-> MIN-08. La fuerza de tarea financiera necesita la información de trazabilidad (MIN-06), no al revés.",
+    "correccion": "MIN-08 conserva depende_de [\"MIN-06\"] y quita \"MIN-07\". En MIN-06 quitar \"MIN-08\"; en MIN-07 quitar \"MIN-08\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-07",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa con SEG-13: ambos crean presencia permanente con PNP, fiscalía, SUNAT y control de combustible, explosivos, mercurio y maquinaria en los mismos corredores (Madre de Dios, Pataz, Puno), con responsables distintos (MININTER vs PCM).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Solapa con SEG-13: ambos crean presencia permanente con PNP, fiscalía, SUNAT y control de combustible, explosivos, mercurio y maquinaria en los mismos corredores (Madre de Dios, Pataz, Puno), con responsables distintos (MININTER vs PCM).",
+    "correccion": "Fusionar en SEG-13 la ocupación territorial y dejar MIN-07 solo como control de insumos y maquinaria (SUCAMEC, SUNAT, registro de dragas y maquinaria pesada), con depende_de [\"MIN-06\",\"SEG-13\",\"DIG-21\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-13",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Contradicción con MIN-04: SEG-13 propone cerrar el registro de formalización \"sin nuevas prórrogas indiscriminadas\" (admite prórrogas selectivas), mientras MIN-04 propone cerrar el REINFO al 31-dic-2026 sin más prórrogas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Contradicción con MIN-04: SEG-13 propone cerrar el registro de formalización \"sin nuevas prórrogas indiscriminadas\" (admite prórrogas selectivas), mientras MIN-04 propone cerrar el REINFO al 31-dic-2026 sin más prórrogas. Además depende de ECP-04 (proveedores mineros), que no guarda relación con la ocupación de corredores ilegales.",
+    "correccion": "Reemplazar por: \"y el REINFO se cierra a su vencimiento sin nuevas prórrogas, con la transición de la Ley MAPE (MIN-04, MIN-05)\". depende_de: [\"MIN-04\",\"MIN-07\",\"SEG-12\"]; quitar \"ECP-04\".",
+    "fuente": "https://www.cuatrecasas.com/es/latam/publico/art/reinfo-amplian-plazo-2026"
+   }
+  ]
+ },
+ {
+  "id": "AMB-19",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica VIV-12: ambos reasientan familias en quebradas, riberas y laderas de riesgo no mitigable con mapas de CENEPRED y convierten el terreno liberado en área verde/defensa; mismo responsable (MVCS) y etapas incompatibles (AMB-19 2026-2046, meta 30 000 familias al 2036; VIV-12 2031-2036).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica VIV-12: ambos reasientan familias en quebradas, riberas y laderas de riesgo no mitigable con mapas de CENEPRED y convierten el terreno liberado en área verde/defensa; mismo responsable (MVCS) y etapas incompatibles (AMB-19 2026-2046, meta 30 000 familias al 2036; VIV-12 2031-2036).",
+    "correccion": "Dejar el reasentamiento solo en VIV-12 (y adelantar su etapa a \"2026-2036\"). Reformular AMB-19 como \"Ejecutar obras de mitigación en quebradas donde el riesgo sí es reducible y cerrar las quebradas a nueva ocupación\", con depende_de [\"AMB-15\",\"VIV-12\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-20",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa VIV-11 en el reforzamiento de viviendas autoconstruidas (catastro de vulnerabilidad, bono, asistencia técnica), con metas distintas (100 000 viviendas al 2036 vs sin meta).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Solapa VIV-11 en el reforzamiento de viviendas autoconstruidas (catastro de vulnerabilidad, bono, asistencia técnica), con metas distintas (100 000 viviendas al 2036 vs sin meta).",
+    "correccion": "AMB-20 se queda con escuelas, hospitales y simulacros de continuidad; el reforzamiento de viviendas se remite a VIV-11 (agregar \"VIV-11\" a depende_de) y la meta de 100 000 viviendas se traslada a VIV-11.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-22",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica VIV-17: ambos convierten la reconstrucción en un modelo/protocolo permanente con diseños tipo, contratos estandarizados, padrón único de damnificados y prohibición de reconstruir en riesgo; responsables distintos (ANIN vs PCM).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica VIV-17: ambos convierten la reconstrucción en un modelo/protocolo permanente con diseños tipo, contratos estandarizados, padrón único de damnificados y prohibición de reconstruir en riesgo; responsables distintos (ANIN vs PCM).",
+    "correccion": "Fusionar en AMB-22 (junto a AMB-21, SINAGERD) incorporando la evaluación independiente de la Reconstrucción con Cambios (Ley 30556) que hoy está en VIV-17. Eliminar VIV-17 o convertirlo en remisión; reemplazar \"VIV-17\" por \"AMB-22\" donde se cite.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-17",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica AMB-22 (ver esa ficha) y depende de VIV-12 (2031-2036) siendo de 2026-2031.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Duplica AMB-22 (ver esa ficha) y depende de VIV-12 (2031-2036) siendo de 2026-2031.",
+    "correccion": "Fusionar con AMB-22. Si se mantiene, quitar \"VIV-12\" de depende_de y agregar \"AMB-22\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-25",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Triplicado e incoherente: la remediación de los sitios del Pastaza, Tigre, Corrientes y Marañón está también en ENE-25 (meta 2031) y ENE-07; AMB-25 fija meta 2036 para los mismos sitios.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Triplicado e incoherente: la remediación de los sitios del Pastaza, Tigre, Corrientes y Marañón está también en ENE-25 (meta 2031) y ENE-07; AMB-25 fija meta 2036 para los mismos sitios. Sobre el Oleoducto Norperuano, AMB-25 dice que Petroperú ejecuta un plan de integridad (renovarlo), mientras ENE-07 dice que se decidirá con evaluación económica entre repararlo, modernizarlo u operarlo con un tercero.",
+    "correccion": "Dejar la remediación en ENE-25 y la decisión sobre el oleoducto en ENE-07. Reformular AMB-25 como \"Atender la salud de la población expuesta a hidrocarburos y asegurar la vigilancia indígena independiente en la Amazonía norte\", con depende_de [\"ENE-25\",\"ENE-07\",\"AMB-24\"]. Quitar del título \"renovar el Oleoducto Norperuano\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-25",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Ciclo ENE-07 <-> ENE-25: ENE-07 exige remediación previa (depende de ENE-25), pero ENE-25 depende de ENE-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Ciclo ENE-07 <-> ENE-25: ENE-07 exige remediación previa (depende de ENE-25), pero ENE-25 depende de ENE-07.",
+    "correccion": "Quitar \"ENE-07\" de depende_de de ENE-25 (dejar lista vacía o [\"AMB-24\"]).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-15",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica EDU-23 (pensamiento computacional, programación, alfabetización en IA y bienestar digital en el Currículo Nacional, mismo responsable MINEDU, misma etapa) con metas distintas de docentes certificados.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica EDU-23 (pensamiento computacional, programación, alfabetización en IA y bienestar digital en el Currículo Nacional, mismo responsable MINEDU, misma etapa) con metas distintas de docentes certificados.",
+    "correccion": "El componente escolar queda solo en EDU-23. Retitular DIG-15 como \"Formar talento digital fuera de la escuela: becas STEM, bootcamps acreditados, talleres antifraude y mentoría para niñas\", quitar la parte curricular y agregar \"EDU-23\" a depende_de.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-17",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa EDU-10 (electricidad en locales escolares), EDU-11 (conectividad escolar) y ENE-14 (electrificación de escuelas y postas), con metas incompatibles: DIG-17 ≥90 % de escuelas y postas con electricidad conectadas al 2031; EDU-11 100 % de secundarias y 80 % de primarias al 203…",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "Solapa EDU-10 (electricidad en locales escolares), EDU-11 (conectividad escolar) y ENE-14 (electrificación de escuelas y postas), con metas incompatibles: DIG-17 ≥90 % de escuelas y postas con electricidad conectadas al 2031; EDU-11 100 % de secundarias y 80 % de primarias al 2031; EDU-10 electricidad en 75 % de locales al 2036; ENE-14 100 % de escuelas y postas rurales con electricidad.",
+    "correccion": "Declarar DIG-17 como contrato único de conectividad de locales públicos (PRONATEL) y alinear una sola meta de conectividad escolar con EDU-11; la electricidad escolar queda en ENE-14/EDU-10 con la misma meta de cobertura. EDU-11 debe depender de DIG-17 (agregar) y DIG-17 de ENE-14 (agregar).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-10",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Meta de electricidad escolar (75 % al 2036) contradice ENE-14 (100 % de escuelas rurales con electricidad confiable) y DIG-17.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "Meta de electricidad escolar (75 % al 2036) contradice ENE-14 (100 % de escuelas rurales con electricidad confiable) y DIG-17.",
+    "correccion": "Armonizar la meta de electricidad con ENE-14 y dejar en EDU-10 la meta de agua y saneamiento; agregar \"ENE-14\" a depende_de.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-19",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica SAL-24 (historia clínica electrónica interoperable y telesalud en el primer nivel) con etapa y metas contradictorias: DIG-19 2031-2036 con ≥60 % del primer nivel; SAL-24 2026-2031 con 100 % del primer nivel al 2031.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "etapa",
+    "problema": "Duplica SAL-24 (historia clínica electrónica interoperable y telesalud en el primer nivel) con etapa y metas contradictorias: DIG-19 2031-2036 con ≥60 % del primer nivel; SAL-24 2026-2031 con 100 % del primer nivel al 2031.",
+    "correccion": "Dejar la HCE y la telesalud solo en SAL-24. Reformular DIG-19 como \"Validar recetas electrónicas sin conexión y registrar el software clínico con IA\", etapa 2026-2031, depende_de [\"SAL-24\",\"DIG-01\",\"DIG-02\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-22",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa VIV-07 (catastro urbano multipropósito con código único catastral enlazado a SUNARP, COFOPRI y municipalidades provinciales) y TRA-10 (pasaje único).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Solapa VIV-07 (catastro urbano multipropósito con código único catastral enlazado a SUNARP, COFOPRI y municipalidades provinciales) y TRA-10 (pasaje único). Responsable MVCS para datos de transporte en GTFS y recaudo es incorrecto (son ATU/MTC).",
+    "correccion": "Dejar el catastro en VIV-07 (DIG-22 agrega \"VIV-07\" a depende_de) y limitar DIG-22 a datos abiertos de transporte (GTFS) y medio de pago interoperable, con responsable ATU/MTC.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-13",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica TRA-18 (accesos viales y evitamiento a Chancay, zonas de actividades logísticas, comunidad portuaria digital); ambos con responsable MTC y etapa 2026-2031.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica TRA-18 (accesos viales y evitamiento a Chancay, zonas de actividades logísticas, comunidad portuaria digital); ambos con responsable MTC y etapa 2026-2031.",
+    "correccion": "Mantener ECP-13 (es la más referida: ECP-10, ECP-11, ECP-17, TRA-24, TRA-18) como acción integral. Eliminar TRA-18 o reducirla a \"obras viales de acceso y antepuertos\" con depende_de [\"ECP-13\",\"GOB-20\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-18",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica ECP-13 (ver esa ficha).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica ECP-13 (ver esa ficha).",
+    "correccion": "Fusionar en ECP-13 o limitar a las obras viales de acceso y antepuertos, con depende_de [\"ECP-13\",\"GOB-20\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-27",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa PRO-19: ambos abren una vía de regularización migratoria permanente con verificación de antecedentes (mismo responsable MIGRACIONES, misma etapa).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Solapa PRO-19: ambos abren una vía de regularización migratoria permanente con verificación de antecedentes (mismo responsable MIGRACIONES, misma etapa).",
+    "correccion": "La regularización queda en PRO-19. SEG-27 se limita al registro biométrico, intercambio de antecedentes con países vecinos y expulsión con debido procedimiento; agregar \"PRO-19\" a depende_de y quitar \"SEG-15\" (ciclo SEG-15 <-> SEG-27).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-23",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica PRO-12: CEM 24 horas en comisarías, seguimiento de cada medida de protección y botón de pánico; mismo responsable (MIMP) y metas contradictorias (todas las comisarías priorizadas al 2031 vs 300 comisarías al 2030).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica PRO-12: CEM 24 horas en comisarías, seguimiento de cada medida de protección y botón de pánico; mismo responsable (MIMP) y metas contradictorias (todas las comisarías priorizadas al 2031 vs 300 comisarías al 2030).",
+    "correccion": "Dejar el servicio CEM en PRO-12 con una sola meta. Reformular SEG-23 como la parte policial: policía responsable de cada medida, ficha de valoración de riesgo y prioridad fiscal; responsable MININTER/PNP; depende_de [\"PRO-12\",\"PRO-13\",\"SEG-08\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-18",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Solapa TRA-11 (flota urbana eléctrica de la ATU por arriendo y electrolineras en patios), misma etapa y responsable, metas no comparables (30 % de la flota de corredores vs 3000 buses).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Solapa TRA-11 (flota urbana eléctrica de la ATU por arriendo y electrolineras en patios), misma etapa y responsable, metas no comparables (30 % de la flota de corredores vs 3000 buses).",
+    "correccion": "Dejar la renovación de flota en TRA-11 con meta única; ENE-18 se limita a la red de carga rápida en carreteras, tarifas de carga y reglas de carga en edificios, con \"TRA-11\" en depende_de.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-27",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplica ENE-02 (licitación de renovables por bloques horarios con almacenamiento) y ENE-03 (plan de transmisión), y depende de DIG-23, que es de 2031-2036 (posterior). Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplica ENE-02 (licitación de renovables por bloques horarios con almacenamiento) y ENE-03 (plan de transmisión), y depende de DIG-23, que es de 2031-2036 (posterior). A la vez ENE-02 depende de ECP-27 (ciclo).",
+    "correccion": "Reformular ECP-27 como \"Reducir el costo de conexión eléctrica de parques industriales y polos productivos\", con depende_de [\"ENE-02\",\"ENE-03\"]; quitar \"SOB-09\" y \"DIG-23\". En ENE-02 quitar \"ECP-27\" y \"DIG-23\".",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: ECP-27 depende de DIG-23, de etapa posterior. Ver ficha ECP-27.",
+    "correccion": "Quitar \"DIG-23\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-07",
+  "archivo": "data/sectores/estado.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "EST-07 (plan nacional de obras paralizadas) depende de SAL-04 (obras de salud paralizadas), dirección invertida: la acción sectorial debe depender del plan nacional.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "EST-07 (plan nacional de obras paralizadas) depende de SAL-04 (obras de salud paralizadas), dirección invertida: la acción sectorial debe depender del plan nacional. AGU-17 sí depende correctamente de EST-07. Además ciclo EST-07 <-> EST-15.",
+    "correccion": "En EST-07 quitar \"SAL-04\" y \"EST-15\" de depende_de (dejar [\"EST-13\"]). En SAL-04 agregar \"EST-07\". EST-15 conserva su dependencia de EST-07 o se elimina también; elegir una sola dirección.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-04",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "No depende del plan nacional EST-07, que es el marco (fondo de culminación, clasificación terminable/reformulable/inviable).",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "No depende del plan nacional EST-07, que es el marco (fondo de culminación, clasificación terminable/reformulable/inviable).",
+    "correccion": "depende_de: [\"EST-07\",\"SAL-05\"]; agregar en \"que\": \"Se ejecuta dentro del plan nacional de obras paralizadas (EST-07).\"",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-24",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplicado con MIN-24: ambas proponen exactamente el mismo régimen único de recuperación anticipada del IGV para exploración minera (Ley 27623) e hidrocarburífera (Ley 27624), y se citan mutuamente (ciclo).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplicado con MIN-24: ambas proponen exactamente el mismo régimen único de recuperación anticipada del IGV para exploración minera (Ley 27623) e hidrocarburífera (Ley 27624), y se citan mutuamente (ciclo).",
+    "correccion": "Fusionar en una sola acción (sugerido en ECP, junto a ECP-03, por ser beneficio tributario) que derogue las Leyes 27623 y 27624; la otra se elimina. Si se mantienen dos, una sola debe derogar ambas leyes y la otra depender de ella sin ciclo. Cumplir Norma VII del Código Tributario (plazo ≤ 3 años, prórroga única).",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-la-norma-vii-del-titulo-pre-decreto-legislativo-n-1521-2032894-1/"
+   }
+  ]
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Duplicado con ENE-24 (ver esa ficha).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Duplicado con ENE-24 (ver esa ficha).",
+    "correccion": "Fusionar con ENE-24 en una sola acción que derogue las Leyes 27623 y 27624.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-10",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Medida tributaria (derogar el RER) ubicada en el sector digital y solapada con ECP-23 (escalera tributaria MYPE), que a su vez la cita.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Medida tributaria (derogar el RER) ubicada en el sector digital y solapada con ECP-23 (escalera tributaria MYPE), que a su vez la cita. Dos acciones tratan los mismos regímenes del DL 1269 y el Nuevo RUS.",
+    "correccion": "Trasladar el contenido de DIG-10 a ECP-23 (o dejar DIG-10 solo con la declaración precompletada y la devolución rápida de exportación de servicios digitales), manteniendo una sola acción que derogue el Capítulo XV de la LIR.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-09",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Invade el objeto de TRA-26: la misma ley \"habilita a Arequipa, Trujillo, Piura o Cusco a crear autoridades metropolitanas\", lo que TRA-26 propone en 2031-2036.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Invade el objeto de TRA-26: la misma ley \"habilita a Arequipa, Trujillo, Piura o Cusco a crear autoridades metropolitanas\", lo que TRA-26 propone en 2031-2036. Además modifica la Ley Orgánica de Municipalidades (Ley 27972), ley orgánica que exige votación calificada (art. 106 de la Constitución), y la ficha no lo dice.",
+    "correccion": "Eliminar la última oración de \"que\" (remitir a TRA-26). En por_que_ley agregar: \"La modificación de la Ley 27972 es materia de ley orgánica y requiere el voto de más de la mitad del número legal de miembros (art. 106)\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-26",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Modifica la Ley Orgánica de Municipalidades sin advertir la votación calificada (art.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "Modifica la Ley Orgánica de Municipalidades sin advertir la votación calificada (art. 106).",
+    "correccion": "Agregar en por_que_ley: \"Al modificar la Ley 27972, requiere votación calificada de ley orgánica (art. 106 de la Constitución)\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-15",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Depende de EST-27 (2036-2046), posterior a su etapa (2031-2036).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Depende de EST-27 (2036-2046), posterior a su etapa (2031-2036). Modifica la Ley 27972 (orgánica) sin mencionar votación calificada.",
+    "correccion": "Quitar \"EST-27\" de depende_de; agregar \"TRA-09\". En por_que_ley añadir la votación calificada del art. 106.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-13",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Contradicción con EST-11: EST-11 dispone que todo nuevo ingreso al Estado sea por la Ley 30057 y cierre 276/728/CAS; SAL-13 crea una \"carrera sanitaria única\" que incluye a técnicos y agentes de salud, que no son carrera especial bajo la Ley 30057 (solo los profesionales de la salud lo son).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Contradicción con EST-11: EST-11 dispone que todo nuevo ingreso al Estado sea por la Ley 30057 y cierre 276/728/CAS; SAL-13 crea una \"carrera sanitaria única\" que incluye a técnicos y agentes de salud, que no son carrera especial bajo la Ley 30057 (solo los profesionales de la salud lo son). Además depende de EDU-27 (marco de cualificaciones) sin relación clara.",
+    "correccion": "Precisar en \"que\": \"La carrera sanitaria se aplica a los profesionales de la salud como carrera especial; técnicos y auxiliares ingresan por la Ley 30057 (EST-11) con reglas de incentivos territoriales del DL 1153\". Agregar \"EST-11\" a depende_de y quitar \"EDU-27\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-09",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "PRO-21 propone el piso de protección para trabajadores de plataformas remitiendo a ECO-11, mientras DIG-09 impone a las plataformas seguro y retención de aportes a EsSalud: dos fuentes para la misma obligación.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "PRO-21 propone el piso de protección para trabajadores de plataformas remitiendo a ECO-11, mientras DIG-09 impone a las plataformas seguro y retención de aportes a EsSalud: dos fuentes para la misma obligación.",
+    "correccion": "En PRO-21 agregar \"DIG-09\" a depende_de y precisar que el seguro y la retención de aportes se establecen en DIG-09.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-17",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Titulación rural sin la salvaguarda que AMB-03 propone (no titular bosque talado después de una fecha de corte verificada con imágenes satelitales) ni la zonificación forestal de AMB-02.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Titulación rural sin la salvaguarda que AMB-03 propone (no titular bosque talado después de una fecha de corte verificada con imágenes satelitales) ni la zonificación forestal de AMB-02. Solapa AMB-04 en la titulación de comunidades nativas.",
+    "correccion": "Agregar en \"que\": \"No se titulan predios con bosque talado después de la fecha de corte de AMB-03 ni sin zonificación forestal (AMB-02); la titulación de comunidades nativas se coordina con AMB-04\". depende_de: agregar \"AMB-02\",\"AMB-03\",\"AMB-04\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones_graves",
+  "resumen": "Contradice la Norma VII del Título Preliminar del Código Tributario (modificada por el DL 1521): las exoneraciones y beneficios no pueden exceder 3 años y solo se prorrogan una vez por hasta 3 años, sin prórroga tácita.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Contradice la Norma VII del Título Preliminar del Código Tributario (modificada por el DL 1521): las exoneraciones y beneficios no pueden exceder 3 años y solo se prorrogan una vez por hasta 3 años, sin prórroga tácita. ECP-03 propone que ningún beneficio dure \"más de 6 años\" sin evaluación, lo que flexibiliza la regla vigente en lugar de endurecerla. La caducidad automática ya existe.",
+    "correccion": "Reemplazar por: \"Una ley modifica la Norma VII del Código Tributario para que toda prórroga exija una evaluación ex post publicada por el MEF y opinión del Consejo Fiscal, metas medibles desde su creación, y para extender estas reglas a los regímenes territoriales y a los beneficios aprobados por leyes especiales; se mantiene el plazo máximo de 3 años y la prórroga única\".",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-la-norma-vii-del-titulo-pre-decreto-legislativo-n-1521-2032894-1/"
+   }
+  ]
+ },
+ {
+  "id": "TRA-05",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones_graves",
+  "resumen": "La Ley 32488 no declara la carretera Chiguata–Santa Lucía: es la ley publicada el 3-nov-2025 que declara de necesidad pública e interés nacional diversos proyectos y obras de infraestructura en Amazonas, Apurímac, Arequipa, Junín, La Libertad, Lima, Loreto, Puno, Tumbes y Ucayali. Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "deroga_o_simplifica[1]",
+    "problema": "La Ley 32488 no declara la carretera Chiguata–Santa Lucía: es la ley publicada el 3-nov-2025 que declara de necesidad pública e interés nacional diversos proyectos y obras de infraestructura en Amazonas, Apurímac, Arequipa, Junín, La Libertad, Lima, Loreto, Puno, Tumbes y Ucayali. Chiguata–Santa Lucía fue el PL 3414/2018-CR; no se verificó que sea ley.",
+    "correccion": "Cambiar a: {\"norma\": \"Ley 32488 (declara de necesidad pública e interés nacional diversos proyectos y obras de infraestructura en diez departamentos, 2025)\", \"motivo\": \"Declarativa; los proyectos deben competir en la cartera técnica\"}. Eliminar la referencia a Chiguata–Santa Lucía.",
+    "fuente": "https://www.congreso.gob.pe/Docs/comisiones2018/Transportes/files/expedientepl3414/predidictamenpl3414.pdf"
+   },
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Derogar en bloque las leyes viales de \"necesidad pública\" puede eliminar la base legal de expropiaciones en curso: el art. 70 de la Constitución solo permite expropiar por seguridad nacional o necesidad pública declarada por ley, y el DL 1192 exige esa ley autoritativa. Muchas de estas leyes declaran la necesidad pública precisamente para expropiar predios de derecho de vía.",
+    "correccion": "Agregar: \"Se exceptúan las leyes que autorizan expropiaciones conforme al art. 70 de la Constitución y al DL 1192 cuyos procesos estén en curso o cuyos proyectos tengan viabilidad en Invierte.pe\".",
+    "fuente": "https://www.actualidadambiental.pe/opinion-las-leyes-declaratorias-de-interes-nacional-o-necesidad-publica-son-solo-declaratorias/"
+   }
+  ]
+ },
+ {
+  "id": "EST-22",
+  "archivo": "data/sectores/estado.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Misma ley de ejemplo (Ley 31238, hospital III-1 de Arequipa) que SAL-06; la depuración general depende de la sectorial (depende_de SAL-06), dirección invertida.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Misma ley de ejemplo (Ley 31238, hospital III-1 de Arequipa) que SAL-06; la depuración general depende de la sectorial (depende_de SAL-06), dirección invertida. Falta la salvaguarda para leyes que sustentan expropiaciones (art. 70 de la Constitución, DL 1192).",
+    "correccion": "depende_de: quitar \"SAL-06\" (SAL-06 y TRA-05 deben depender de EST-22). En deroga_o_simplifica usar un ejemplo no sanitario o remitir a SAL-06 y TRA-05. Agregar en \"que\": \"Se exceptúan las leyes que autorizan expropiaciones con procesos en curso\".",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1965811-9"
+   }
+  ]
+ },
+ {
+  "id": "SAL-06",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Es la aplicación sanitaria de EST-22 pero no depende de ella; depende de SAL-03 sin necesidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Es la aplicación sanitaria de EST-22 pero no depende de ella; depende de SAL-03 sin necesidad.",
+    "correccion": "depende_de: [\"EST-22\",\"SAL-03\"].",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-05",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Cita el art.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Cita el art. 28 de la Ley 29158 (LOPE), que regula la creación y fusión de organismos públicos; los programas como PNSU y PNSR se rigen por el art. 38 (programas y proyectos especiales, creados por decreto supremo con voto del Consejo de Ministros).",
+    "correccion": "Reemplazar \"Ley 29158, art. 28\" por \"Ley 29158, art. 38\".",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1624337-1"
+   }
+  ]
+ },
+ {
+  "id": "PRO-04",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "El programa Contigo se crea por decreto supremo, pero la pensión no contributiva por discapacidad severa tiene base en la Ley 29973 (art. Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El programa Contigo se crea por decreto supremo, pero la pensión no contributiva por discapacidad severa tiene base en la Ley 29973 (art. 59). La fusión administrativa por DS es posible, pero no puede reducir ese derecho legal ni sus requisitos.",
+    "correccion": "Agregar: \"La fusión es administrativa; se mantiene el derecho a la pensión no contributiva por discapacidad severa de la Ley 29973, cuyos requisitos solo se cambian por ley\". Quitar \"PRO-05\" de depende_de (es de 2031-2036 y depende a su vez de PRO-04).",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: PRO-04 depende de PRO-05, de etapa posterior. Ver ficha PRO-04.",
+    "correccion": "Quitar \"PRO-05\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "La Ley 26221 es Ley Orgánica de Hidrocarburos: su modificación requiere votación calificada (art.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La Ley 26221 es Ley Orgánica de Hidrocarburos: su modificación requiere votación calificada (art. 106 de la Constitución), lo que la ficha no dice. Las regalías se pactan en contratos-ley con estabilidad (art. 62): el nuevo esquema solo puede regir para contratos nuevos o renegociados de común acuerdo.",
+    "correccion": "Agregar en por_que_ley: \"Es ley orgánica (votación calificada, art. 106). Por el art. 62 de la Constitución, las nuevas regalías se aplican a contratos nuevos o renegociados de mutuo acuerdo\". Quitar \"ENE-06\" y \"ENE-07\" de depende_de (ciclos).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "La Ley 30916 es Ley Orgánica de la JNJ; su modificación requiere votación calificada (art.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La Ley 30916 es Ley Orgánica de la JNJ; su modificación requiere votación calificada (art. 106), no mencionada.",
+    "correccion": "Agregar: \"Es ley orgánica y requiere votación calificada (art. 106 de la Constitución)\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-10",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "El tipo es \"derogacion\" pero la acción modifica la Ley 31056 (no deroga). Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "El tipo es \"derogacion\" pero la acción modifica la Ley 31056 (no deroga). La Ley 32267 ya amplió \"por última vez\" el plazo al 31-dic-2021, por lo que el aporte es fijar el cierre del régimen y la exclusión de zonas de riesgo. Depende de VIV-12 (2031-2036), posterior.",
+    "correccion": "tipo: \"ley\". En \"que\" citar que la Ley 32267 ya dispuso la ampliación \"por última vez\". Quitar \"VIV-12\" de depende_de.",
+    "fuente": "https://lpderecho.pe/ley-32267-amplian-plazo-formalizacion-terrenos-ocupados-posesiones-informales/"
+   },
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: VIV-10 depende de VIV-12, de etapa posterior. Ver ficha VIV-10.",
+    "correccion": "Quitar \"VIV-12\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "tipo \"ley\" pero la acción principal es una evaluación independiente, y la modificación de la Ley 29064 es condicional a su resultado.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "tipo \"ley\" pero la acción principal es una evaluación independiente, y la modificación de la Ley 29064 es condicional a su resultado.",
+    "correccion": "tipo: \"accion_ejecutiva\", necesita_ley: \"parcial\". Quitar \"AGR-14\" de depende_de (ciclo AGR-13 <-> AGR-14).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-26",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Acción tipo ley que no identifica la norma a modificar: la responsabilidad ambiental y las garantías se rigen por la Ley 28611 (Ley General del Ambiente), la Ley 29325 (SINEFA) y la Ley 26221 (hidrocarburos).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Acción tipo ley que no identifica la norma a modificar: la responsabilidad ambiental y las garantías se rigen por la Ley 28611 (Ley General del Ambiente), la Ley 29325 (SINEFA) y la Ley 26221 (hidrocarburos). Sin norma identificada no es redactable como proyecto. Solapa ENE-07/ENE-25/AMB-25 en la prevención de derrames del oleoducto.",
+    "correccion": "Agregar deroga_o_simplifica: [{\"norma\":\"Ley 28611, Ley General del Ambiente (régimen de responsabilidad por daño ambiental)\",\"motivo\":\"Se incorporan garantías financieras obligatorias y planes de contingencia probados para actividades con hidrocarburos\"}]. Si se modifica la Ley 26221 (orgánica), indicar votación calificada.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "No identifica qué ley modifica: el financiamiento educativo está en la Ley 28044 (Ley General de Educación) y en el DL 1440; debe decirlo para que sea redactable.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "No identifica qué ley modifica: el financiamiento educativo está en la Ley 28044 (Ley General de Educación) y en el DL 1440; debe decirlo para que sea redactable.",
+    "correccion": "Agregar en por_que_ley: \"Modifica el capítulo de financiamiento de la Ley 28044 y el DL 1440 (asignación plurianual)\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-10",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AGR-10 depende de DIG-24, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AGR-10 depende de DIG-24, de etapa posterior. La meta de I+D al 1 % del PBI (2036-2046) es un resultado, no precondición de reorganizar el INIA (2026-2031). Además ciclo AGR-01 <-> AGR-10.",
+    "correccion": "Quitar \"DIG-24\" y \"AGR-01\" de depende_de de AGR-10.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-11",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AGR-11 depende de DIG-26, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AGR-11 depende de DIG-26, de etapa posterior. La conectividad universal (2036-2046) no es precondición de alertas por SMS y radio (2026-2031).",
+    "correccion": "Quitar \"DIG-26\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-20",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AGR-20 depende de ECP-20, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AGR-20 depende de ECP-20, de etapa posterior. La acuicultura (2031-2036) no es precondición de modernizar desembarcaderos (2026-2031).",
+    "correccion": "Quitar \"ECP-20\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-21",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AGR-21 depende de ECP-20, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AGR-21 depende de ECP-20, de etapa posterior. La acuicultura (2031-2036) no es precondición de formalizar pescadores (2026-2031).",
+    "correccion": "Quitar \"ECP-20\"; agregar \"PRO-21\", que la ficha ya cita.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-01",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AMB-01 depende de DIG-25, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AMB-01 depende de DIG-25, de etapa posterior. La nueva constelación satelital (2031-2036) no es precondición de responder alertas de deforestación (2026-2031), que hoy usan imágenes existentes.",
+    "correccion": "Quitar \"DIG-25\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-06",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AMB-06 depende de MIN-10, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AMB-06 depende de MIN-10, de etapa posterior. La restauración (2031-2036) es posterior y consecuencia del monitoreo de mercurio (2026-2031). Además ciclo AMB-05 <-> AMB-06.",
+    "correccion": "Quitar \"MIN-10\" y \"AMB-05\"; en MIN-10 agregar \"AMB-06\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-06",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: DIG-06 depende de DIG-24, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: DIG-06 depende de DIG-24, de etapa posterior. La meta de I+D (2036-2046) depende de la ley de innovación (2026-2031), no al revés; ciclo DIG-06 <-> DIG-24.",
+    "correccion": "Quitar \"DIG-24\" de DIG-06.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-18",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: DIG-18 depende de DIG-24, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: DIG-18 depende de DIG-24, de etapa posterior. Red de cómputo (2031-2036) depende de meta de 2036-2046; ciclo DIG-18 <-> DIG-24.",
+    "correccion": "Quitar \"DIG-24\" de DIG-18.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-20",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: DIG-20 depende de DIG-25, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: DIG-20 depende de DIG-25, de etapa posterior. Alerta temprana (2026-2031) depende de la constelación (2031-2036); ciclo DIG-20 <-> DIG-25.",
+    "correccion": "Quitar \"DIG-25\" de DIG-20.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-06",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: ECP-06 depende de DIG-24, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: ECP-06 depende de DIG-24, de etapa posterior. Consorcios de investigación (2031-2036) dependen de una meta de 2036-2046.",
+    "correccion": "Quitar \"DIG-24\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-09",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: ECP-09 depende de ECP-08, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: ECP-09 depende de ECP-08, de etapa posterior. La evaluación del régimen agrario (2031-2036) no es precondición para integrar pequeños productores (2026-2031); ECP-09 usa la Ley 32434 vigente.",
+    "correccion": "Quitar \"ECP-08\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-02",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: ENE-02 depende de DIG-23, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: ENE-02 depende de DIG-23, de etapa posterior. La energía firme para centros de datos (2031-2036) es consecuencia de las licitaciones (2026-2031). Ciclo ENE-02 <-> ECP-27.",
+    "correccion": "Quitar \"DIG-23\" y \"ECP-27\"; en DIG-23 mantener \"DIG-03\" y agregar \"ENE-02\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-19",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: EDU-19 depende de EDU-27, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: EDU-19 depende de EDU-27, de etapa posterior. La ley de cualificaciones (2031-2036) no es precondición de simplificar el licenciamiento (2026-2031); ciclo EDU-19 <-> EDU-27.",
+    "correccion": "Quitar \"EDU-27\" de EDU-19.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-26",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: EDU-26 depende de EDU-27, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: EDU-26 depende de EDU-27, de etapa posterior. Certificación modular de EBA (2026-2031) no requiere la ley de 2031-2036.",
+    "correccion": "Quitar \"EDU-27\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-28",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: EDU-28 depende de SAL-20, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: EDU-28 depende de SAL-20, de etapa posterior. Detección de cáncer (2031-2036) no es precondición de escuela saludable (2026-2031); ciclos EDU-28 <-> SAL-19 y EDU-28 <-> SAL-20.",
+    "correccion": "Quitar \"SAL-20\" de EDU-28; en SAL-19 y SAL-20 quitar \"EDU-28\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-15",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: ENE-15 depende de ENE-22, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: ENE-15 depende de ENE-22, de etapa posterior. Medición inteligente (2031-2036) depende de distribuidoras profesionalizadas (2026-2031), no al revés; ciclo.",
+    "correccion": "Quitar \"ENE-22\" de ENE-15.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-10",
+  "archivo": "data/sectores/estado.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: EST-10 depende de EST-11, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: EST-10 depende de EST-11, de etapa posterior. El tránsito a la Ley 30057 (2026-2031) depende del cierre de regímenes de 2031-2036; ciclo EST-10 <-> EST-11.",
+    "correccion": "Quitar \"EST-11\" de EST-10.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-16",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: MIN-16 depende de EST-19, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: MIN-16 depende de EST-19, de etapa posterior. Adelantar obras sociales (2026-2031) \"antes de que llegue el canon\" no puede depender de la reforma del canon de 2031-2036.",
+    "correccion": "Quitar \"EST-19\"; mantener \"GOB-22\" y \"EST-07\". Quitar \"MIN-02\" o eliminar \"MIN-16\" de MIN-02 (ciclo).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-19",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: MIN-19 depende de MIN-25, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: MIN-19 depende de MIN-25, de etapa posterior. El cierre de minas (2026-2031) no depende de la transición post-mina (2036-2046); ciclos MIN-19 <-> MIN-25 y MIN-18 <-> MIN-19.",
+    "correccion": "Quitar \"MIN-25\" y \"MIN-18\" de MIN-19.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: PRO-08 depende de PRO-09, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: PRO-08 depende de PRO-09, de etapa posterior. La ley del Sistema de Cuidados (2026-2031) no depende de los centros de día (2031-2036); ciclo.",
+    "correccion": "Quitar \"PRO-09\" de PRO-08.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-22",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: PRO-22 depende de EST-28, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: PRO-22 depende de EST-28, de etapa posterior. El presupuesto casi totalmente por resultados (2046-2056) es meta final, no precondición de evaluar programas sociales (2026-2031).",
+    "correccion": "Quitar \"EST-28\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-11",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: SAL-11 depende de SAL-13, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: SAL-11 depende de SAL-13, de etapa posterior. Formar especialistas (2026-2031) no depende de la carrera sanitaria (2031-2036); ciclo.",
+    "correccion": "Quitar \"SAL-13\" de SAL-11.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-12",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: SAL-12 depende de SAL-13, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: SAL-12 depende de SAL-13, de etapa posterior. Reformar el SERUMS (2026-2031) no depende de la carrera sanitaria (2031-2036); ciclo.",
+    "correccion": "Quitar \"SAL-13\" de SAL-12.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-08",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: SEG-08 depende de DIG-26, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: SEG-08 depende de DIG-26, de etapa posterior. Reponer comisarías con denuncia digital (2026-2031) no depende de la conectividad universal (2036-2046).",
+    "correccion": "Quitar \"DIG-26\"; agregar \"DIG-17\" si se requiere conectividad.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-02",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: TRA-02 depende de EST-19, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: TRA-02 depende de EST-19, de etapa posterior. Caminos vecinales con microempresas (2026-2031) no depende de la reforma del canon (2031-2036).",
+    "correccion": "Quitar \"EST-19\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-17",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: TRA-17 depende de TRA-16, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: TRA-17 depende de TRA-16, de etapa posterior. Evaluar el tren Lima-Tacna (2026-2031) no depende de los trenes de cercanías (2031-2036); ciclo TRA-16 <-> TRA-17.",
+    "correccion": "Quitar \"TRA-16\" de TRA-17; agregar \"TRA-22\".",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-23",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: TRA-23 depende de TRA-03, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: TRA-23 depende de TRA-03, de etapa posterior. Orientar OxI (2026-2031) depende de pavimentar red departamental (2031-2036); ciclo.",
+    "correccion": "Quitar \"TRA-03\" de TRA-23.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-10",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Incoherencia temporal: AGU-10 depende de AGU-09, de etapa posterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "Incoherencia temporal: AGU-10 depende de AGU-09, de etapa posterior. El reúso de agua tratada (2026-2031) depende de plantas que se construyen en 2031-2036; ciclo AGU-09 <-> AGU-10.",
+    "correccion": "Quitar \"AGU-10\" de AGU-09; en AGU-10 mantener \"AGU-09\" y cambiar su etapa a \"2031-2036\", o limitar AGU-10 a las plantas ya existentes.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: MIN-05 depende de MIN-04 y MIN-04 depende de MIN-05. Y 1 hallazgo(s) más.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-05 depende de MIN-04 y MIN-04 depende de MIN-05. MIN-04 (cerrar REINFO) depende de la Ley MAPE; la ley no depende del cierre.",
+    "correccion": "Quitar \"MIN-04\" de depende_de de MIN-05.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-05 depende de MIN-11 y MIN-11 depende de MIN-05. La asistencia técnica (MIN-11) depende de la Ley MAPE, no al revés.",
+    "correccion": "Quitar \"MIN-11\" de depende_de de MIN-05.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-09",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: MIN-09 depende de MIN-11 y MIN-11 depende de MIN-09.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-09 depende de MIN-11 y MIN-11 depende de MIN-09. Ciclo MIN-09 <-> MIN-11; la asistencia a formalizados puede apoyarse en plantas sin mercurio, no al revés.",
+    "correccion": "Quitar \"MIN-11\" de depende_de de MIN-09.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-02",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: MIN-02 depende de MIN-03 y MIN-03 depende de MIN-02.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-02 depende de MIN-03 y MIN-03 depende de MIN-02. El registro de compromisos (MIN-03) alimenta el diálogo (MIN-02).",
+    "correccion": "Quitar \"MIN-03\" de depende_de de MIN-02.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-13",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: MIN-13 depende de MIN-12 y MIN-12 depende de MIN-13.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-13 depende de MIN-12 y MIN-12 depende de MIN-13. Ciclo MIN-12 <-> MIN-13.",
+    "correccion": "Quitar \"MIN-12\" de depende_de de MIN-13.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-14",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-14 depende de SEG-28 y SEG-28 depende de SEG-14.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-14 depende de SEG-28 y SEG-28 depende de SEG-14. Los equipos conjuntos (SEG-28) sirven a la reducción de coca; dejar SEG-14 -> SEG-28 y quitar SEG-28 -> SEG-14.",
+    "correccion": "Quitar \"SEG-28\" de depende_de de SEG-14.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-11",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-11 depende de SEG-01 y SEG-01 depende de SEG-11.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-11 depende de SEG-01 y SEG-01 depende de SEG-11. Ciclo SEG-01 -> SEG-11 -> SEG-01.",
+    "correccion": "Quitar \"SEG-01\" de depende_de de SEG-11.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-22",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-22 depende de SEG-02 y SEG-02 depende de SEG-22.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-22 depende de SEG-02 y SEG-02 depende de SEG-22. Ciclo SEG-02 <-> SEG-22.",
+    "correccion": "Quitar \"SEG-02\" de depende_de de SEG-22.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-07 depende de SEG-06 y SEG-06 depende de SEG-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-07 depende de SEG-06 y SEG-06 depende de SEG-07. Ciclo SEG-06 <-> SEG-07.",
+    "correccion": "Quitar \"SEG-06\" de depende_de de SEG-07.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-18",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-18 depende de SEG-19 y SEG-19 depende de SEG-18.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-18 depende de SEG-19 y SEG-19 depende de SEG-18. Ciclo SEG-18 <-> SEG-19.",
+    "correccion": "Quitar \"SEG-19\" de depende_de de SEG-18.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-16",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-16 depende de SEG-17 y SEG-17 depende de SEG-16.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-16 depende de SEG-17 y SEG-17 depende de SEG-16. Ciclo SEG-16 <-> SEG-17.",
+    "correccion": "Quitar \"SEG-17\" de depende_de de SEG-16.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-04",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SEG-04 depende de SEG-05 y SEG-05 depende de SEG-04.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SEG-04 depende de SEG-05 y SEG-05 depende de SEG-04. Ciclo SEG-04 <-> SEG-05.",
+    "correccion": "Quitar \"SEG-05\" de depende_de de SEG-04.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-17",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SAL-17 depende de EDU-01 y EDU-01 depende de SAL-17.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SAL-17 depende de EDU-01 y EDU-01 depende de SAL-17. Cuna Más (EDU-01) es canal de entrega del paquete SAL-17; dejar EDU-01 -> SAL-17.",
+    "correccion": "Quitar \"EDU-01\" de depende_de de SAL-17.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-02",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: VIV-02 depende de VIV-11 y VIV-11 depende de VIV-02.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: VIV-02 depende de VIV-11 y VIV-11 depende de VIV-02. Ciclo VIV-02 <-> VIV-11.",
+    "correccion": "Quitar \"VIV-11\" de depende_de de VIV-02.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-18",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-18 depende de VIV-08 y VIV-08 depende de AGU-18.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-18 depende de VIV-08 y VIV-08 depende de AGU-18. VIV-08 (lotes con servicios) necesita la regla de factibilidad AGU-18.",
+    "correccion": "Quitar \"VIV-08\" de depende_de de AGU-18.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-07",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: VIV-07 depende de VIV-10 y VIV-10 depende de VIV-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: VIV-07 depende de VIV-10 y VIV-10 depende de VIV-07. Ciclo VIV-05 -> VIV-07 -> VIV-10 -> VIV-08 -> VIV-05; el catastro no depende del cierre de la formalización.",
+    "correccion": "Quitar \"VIV-10\" de depende_de de VIV-07.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGR-07 depende de AGR-08 y AGR-08 depende de AGR-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGR-07 depende de AGR-08 y AGR-08 depende de AGR-07. Ciclo AGR-07 <-> AGR-08.",
+    "correccion": "Quitar \"AGR-08\" de depende_de de AGR-07.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-13",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-13 depende de AGU-14 y AGU-14 depende de AGU-13.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-13 depende de AGU-14 y AGU-14 depende de AGU-13. La desalinización es una opción de la cartera AGU-13.",
+    "correccion": "Quitar \"AGU-14\" de depende_de de AGU-13.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-09",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: ENE-09 depende de ENE-10 y ENE-10 depende de ENE-09.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: ENE-09 depende de ENE-10 y ENE-10 depende de ENE-09. Ciclo ENE-09 <-> ENE-10.",
+    "correccion": "Quitar \"ENE-10\" de depende_de de ENE-09.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-11",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-11 depende de AGU-01 y AGU-01 depende de AGU-11.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-11 depende de AGU-01 y AGU-01 depende de AGU-11. Ciclo AGU-01 <-> AGU-11.",
+    "correccion": "Quitar \"AGU-01\" de depende_de de AGU-11.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-06",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: PRO-06 depende de PRO-21 y PRO-21 depende de PRO-06.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: PRO-06 depende de PRO-21 y PRO-21 depende de PRO-06. Ciclo PRO-06 <-> PRO-21 y PRO-06 <-> PRO-07.",
+    "correccion": "Quitar \"PRO-21\" de depende_de de PRO-06.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-07",
+  "archivo": "data/sectores/economia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: ECP-07 depende de ECP-15 y ECP-15 depende de ECP-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: ECP-07 depende de ECP-15 y ECP-15 depende de ECP-07. Ciclo ECP-07 <-> ECP-15.",
+    "correccion": "Quitar \"ECP-15\" de depende_de de ECP-07.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-06",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-06 depende de AGU-07 y AGU-07 depende de AGU-06.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-06 depende de AGU-07 y AGU-07 depende de AGU-06. Los contratos del OTASS (AGU-07) dependen de la reforma de EPS.",
+    "correccion": "Quitar \"AGU-07\" de depende_de de AGU-06.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-04",
+  "archivo": "data/sectores/digital.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: DIG-04 depende de DIG-11 y DIG-11 depende de DIG-04.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: DIG-04 depende de DIG-11 y DIG-11 depende de DIG-04. Ciclo DIG-04 <-> DIG-11.",
+    "correccion": "Quitar \"DIG-11\" de depende_de de DIG-04.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-15",
+  "archivo": "data/sectores/agro.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGR-15 depende de PRO-16 y PRO-16 depende de AGR-15.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGR-15 depende de PRO-16 y PRO-16 depende de AGR-15. Ciclo AGR-15 <-> PRO-16; los pagos de emergencia usan el seguro, no al revés.",
+    "correccion": "Quitar \"PRO-16\" de depende_de de AGR-15.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-08",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-08 depende de AGU-04 y AGU-04 depende de AGU-08.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-08 depende de AGU-04 y AGU-04 depende de AGU-08. Ciclo AGU-04 <-> AGU-08.",
+    "correccion": "Quitar \"AGU-04\" de depende_de de AGU-08.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-08",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: TRA-08 depende de TRA-07 y TRA-07 depende de TRA-08.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: TRA-08 depende de TRA-07 y TRA-07 depende de TRA-08. Ciclo TRA-07 <-> TRA-08.",
+    "correccion": "Quitar \"TRA-07\" de depende_de de TRA-08.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-18",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SAL-18 depende de EDU-25 y EDU-25 depende de SAL-18.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SAL-18 depende de EDU-25 y EDU-25 depende de SAL-18. Ciclo EDU-25 <-> SAL-18.",
+    "correccion": "Quitar \"EDU-25\" de depende_de de SAL-18.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-05",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: ENE-05 depende de ENE-21 y ENE-21 depende de ENE-05.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: ENE-05 depende de ENE-21 y ENE-21 depende de ENE-05. Ciclo ENE-05 <-> ENE-21.",
+    "correccion": "Quitar \"ENE-21\" de depende_de de ENE-05.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-26",
+  "archivo": "data/sectores/salud.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: SAL-26 depende de SAL-08 y SAL-08 depende de SAL-26.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: SAL-26 depende de SAL-08 y SAL-08 depende de SAL-26. Ciclo SAL-08 <-> SAL-26; el plan común (SAL-08) usa la agencia ETS.",
+    "correccion": "Quitar \"SAL-08\" de depende_de de SAL-26.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-07",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: EDU-07 depende de EDU-08 y EDU-08 depende de EDU-07.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: EDU-07 depende de EDU-08 y EDU-08 depende de EDU-07. Ciclo EDU-07 <-> EDU-08.",
+    "correccion": "Quitar \"EDU-08\" de depende_de de EDU-07.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: ENE-12 depende de ENE-11 y ENE-11 depende de ENE-12.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: ENE-12 depende de ENE-11 y ENE-11 depende de ENE-12. Ciclo ENE-11 <-> ENE-12.",
+    "correccion": "Quitar \"ENE-11\" de depende_de de ENE-12.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-22",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: MIN-22 depende de ENE-20 y ENE-20 depende de MIN-22.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: MIN-22 depende de ENE-20 y ENE-20 depende de MIN-22. Ciclo ENE-20 <-> MIN-22.",
+    "correccion": "Quitar \"ENE-20\" de depende_de de MIN-22.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-15",
+  "archivo": "data/sectores/agua.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: AGU-15 depende de AGU-16 y AGU-16 depende de AGU-15.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: AGU-15 depende de AGU-16 y AGU-16 depende de AGU-15. Ciclo AGU-15 <-> AGU-16.",
+    "correccion": "Quitar \"AGU-16\" de depende_de de AGU-15.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-20",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "jurista",
+  "veredicto": "observaciones",
+  "resumen": "Dependencia circular: EDU-20 depende de EDU-21 y EDU-21 depende de EDU-20.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "depende_de",
+    "problema": "Dependencia circular: EDU-20 depende de EDU-21 y EDU-21 depende de EDU-20. Ciclo EDU-20 <-> EDU-21; son reformas independientes.",
+    "correccion": "Quitar \"EDU-21\" de depende_de de EDU-20.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-04",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "jurista",
+  "veredicto": "conforme",
+  "resumen": "Conforme; la cita de la Ley 32537 es correcta. SEG-13 debe alinearse. ",
+  "hallazgos": []
+ }
+]

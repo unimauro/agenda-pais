@@ -1,1801 +1,1924 @@
 {
- "id": "salud",
- "nombre": "Salud",
- "lema": "Que te atiendan cerca, a tiempo y sin pagar de tu bolsillo",
- "diagnostico": {
-  "resumen": "El Perú amplió la afiliación a un seguro de salud —91,1 % de la población en el primer trimestre de 2025, según la ENAHO del INEI—, pero tener seguro no equivale a ser atendido. El sistema sigue partido en subsistemas (MINSA y gobiernos regionales con el SIS, EsSalud, sanidades de las Fuerzas Armadas y la Policía, y privados) que financian, prestan y registran por separado, sin compartir pacientes, historias clínicas ni compras. El primer nivel, que debería resolver la mayoría de problemas, está deteriorado: la programación multianual de inversiones del MINSA identificó 8 662 establecimientos de primer nivel con infraestructura o equipamiento inadecuados. Así, los hospitales se saturan y los hogares pagan de su bolsillo: el gasto de bolsillo fue cerca de 22,8 % del gasto en salud en 2020, casi el doble del promedio OCDE (12,3 %), según la Universidad del Pacífico. Hay avances reales: la anemia en niños de 6 a 35 meses es 34,9 % con el nuevo criterio OMS 2024 (43,4 % con el criterio anterior) y la desnutrición crónica infantil 12,1 % (INEI, ENDES 2025); las muertes maternas bajaron a 244 en 2024, la cifra más baja desde 2000 (MINSA). Pero crecen las crónicas: 20,8 % de personas de 15 años a más tiene hipertensión y 27,2 % obesidad (ENDES 2025). El dengue de 2023 superó los 270 000 casos y 440 muertes (MINSA), un anticipo de lo que traerá el cambio climático. Faltan especialistas fuera de Lima, la historia clínica electrónica llegaba a solo 14 % del primer nivel en 2023 y salud figura entre los sectores con más obras paralizadas (Contraloría).",
-  "indicadores": [
-   {
-    "nombre": "Población con algún seguro de salud",
-    "valor": "91,1",
-    "unidad": "% de la población",
-    "anio": 2025,
-    "fuente": "INEI, ENAHO (enero–marzo 2025)",
-    "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
-   },
-   {
-    "nombre": "Anemia en niñas y niños de 6 a 35 meses (criterio OMS 2024; 43,4 % con criterio RM 363-2022/MINSA)",
-    "valor": "34,9",
-    "unidad": "%",
-    "anio": 2025,
-    "fuente": "INEI, ENDES 2025",
-    "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
-   },
-   {
-    "nombre": "Desnutrición crónica en menores de 5 años (patrón OMS)",
-    "valor": "12,1",
-    "unidad": "%",
-    "anio": 2025,
-    "fuente": "INEI, ENDES 2025",
-    "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
-   },
-   {
-    "nombre": "Prevalencia de hipertensión arterial, 15 años a más (medición + autorreporte)",
-    "valor": "20,8",
-    "unidad": "%",
-    "anio": 2025,
-    "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
-    "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-   },
-   {
-    "nombre": "Personas de 15 años a más con obesidad",
-    "valor": "27,2",
-    "unidad": "%",
-    "anio": 2025,
-    "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
-    "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-   },
-   {
-    "nombre": "Personas con hipertensión diagnosticada que recibieron tratamiento en los últimos 12 meses",
-    "valor": "62,8",
-    "unidad": "%",
-    "anio": 2025,
-    "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
-    "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-   },
-   {
-    "nombre": "Muertes maternas registradas",
-    "valor": "244",
-    "unidad": "muertes",
-    "anio": 2024,
-    "fuente": "MINSA, Sala situacional de muerte materna (citado por El Comercio)",
-    "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
-   },
-   {
-    "nombre": "Establecimientos de primer nivel con capacidad instalada inadecuada",
-    "valor": "8 662",
-    "unidad": "establecimientos",
-    "anio": 2022,
-    "fuente": "MINSA, Programación Multianual de Inversiones (citado por Gestión; año del documento por verificar)",
-    "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
-   },
-   {
-    "nombre": "Gasto de bolsillo como proporción del gasto total en salud",
-    "valor": "22,8",
-    "unidad": "%",
-    "anio": 2020,
-    "fuente": "Universidad del Pacífico, Agenda 2026 (sobre datos OMS)",
-    "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
-   },
-   {
-    "nombre": "Casos de dengue (enero a mediados de noviembre de 2023; 445 fallecidos)",
-    "valor": "270 978",
-    "unidad": "casos",
-    "anio": 2023,
-    "fuente": "MINSA, citado por AFP",
-    "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
-   }
+  "id": "salud",
+  "nombre": "Salud",
+  "lema": "Que te atiendan cerca, a tiempo y sin pagar de tu bolsillo",
+  "diagnostico": {
+    "resumen": "El Perú amplió la afiliación a un seguro de salud —91,1 % de la población en el primer trimestre de 2025, según la ENAHO del INEI—, pero tener seguro no equivale a ser atendido. El sistema sigue partido en subsistemas (MINSA y gobiernos regionales con el SIS, EsSalud, sanidades de las Fuerzas Armadas y la Policía, y privados) que financian, prestan y registran por separado, sin compartir pacientes, historias clínicas ni compras. El primer nivel, que debería resolver la mayoría de problemas, está deteriorado: la programación multianual de inversiones del MINSA identificó 8 662 establecimientos de primer nivel con infraestructura o equipamiento inadecuados. Así, los hospitales se saturan y los hogares pagan de su bolsillo: el gasto de bolsillo fue cerca de 27 % del gasto en salud en 2023, el doble del promedio OCDE (13,4 %), según la base de gasto en salud de la OMS. Hay avances reales: la anemia en niños de 6 a 35 meses es 34,9 % con el nuevo criterio OMS 2024 (43,4 % con el criterio anterior) y la desnutrición crónica infantil 12,1 % (INEI, ENDES 2025); las muertes maternas bajaron a 244 en 2024, la cifra más baja desde 2000 (MINSA). Pero crecen las crónicas: 20,8 % de personas de 15 años a más tiene hipertensión y 27,2 % obesidad (ENDES 2025). El dengue de 2023 superó los 270 000 casos y 440 muertes (MINSA), un anticipo de lo que traerá el cambio climático. Faltan especialistas fuera de Lima, la historia clínica electrónica llegaba a solo 14 % del primer nivel en 2023 y salud figura entre los sectores con más obras paralizadas (Contraloría).",
+    "indicadores": [
+      {
+        "nombre": "Población con algún seguro de salud",
+        "valor": "91,1",
+        "unidad": "% de la población",
+        "anio": 2025,
+        "fuente": "INEI, ENAHO (enero–marzo 2025)",
+        "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
+      },
+      {
+        "nombre": "Anemia en niñas y niños de 6 a 35 meses (criterio OMS 2024; 43,4 % con criterio RM 363-2022/MINSA)",
+        "valor": "34,9",
+        "unidad": "%",
+        "anio": 2025,
+        "fuente": "INEI, ENDES 2025",
+        "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+      },
+      {
+        "nombre": "Desnutrición crónica en menores de 5 años (patrón OMS)",
+        "valor": "12,1",
+        "unidad": "%",
+        "anio": 2025,
+        "fuente": "INEI, ENDES 2025",
+        "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+      },
+      {
+        "nombre": "Prevalencia de hipertensión arterial, 15 años a más (medición + autorreporte)",
+        "valor": "20,8",
+        "unidad": "%",
+        "anio": 2025,
+        "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
+        "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+      },
+      {
+        "nombre": "Personas de 15 años a más con obesidad",
+        "valor": "27,2",
+        "unidad": "%",
+        "anio": 2025,
+        "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
+        "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+      },
+      {
+        "nombre": "Personas con hipertensión diagnosticada que recibieron tratamiento en los últimos 12 meses",
+        "valor": "62,8",
+        "unidad": "%",
+        "anio": 2025,
+        "fuente": "INEI, ENDES 2025 – Enfermedades no transmisibles y transmisibles",
+        "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+      },
+      {
+        "nombre": "Muertes maternas registradas",
+        "valor": "244",
+        "unidad": "muertes",
+        "anio": 2024,
+        "fuente": "MINSA, Sala situacional de muerte materna (citado por El Comercio)",
+        "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
+      },
+      {
+        "nombre": "Establecimientos de primer nivel con capacidad instalada inadecuada",
+        "valor": "8 662",
+        "unidad": "establecimientos",
+        "anio": 2022,
+        "fuente": "MINSA, Programación Multianual de Inversiones (citado por Gestión; año del documento por verificar)",
+        "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
+      },
+      {
+        "nombre": "Gasto de bolsillo como proporción del gasto total en salud",
+        "valor": "27,0",
+        "unidad": "%",
+        "anio": 2023,
+        "fuente": "OMS, Global Health Expenditure Database (difundida por el Banco Mundial, SH.XPD.OOPC.CH.ZS)",
+        "url": "https://api.worldbank.org/v2/country/PER/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2015:2024"
+      },
+      {
+        "nombre": "Casos de dengue (enero a mediados de noviembre de 2023; 445 fallecidos)",
+        "valor": "270 978",
+        "unidad": "casos",
+        "anio": 2023,
+        "fuente": "MINSA, citado por AFP",
+        "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
+      }
+    ],
+    "brechas": "La anemia infantil afecta a 43,2 % de niñas y niños rurales frente a 31,5 % urbanos, y la desnutrición crónica a 21,7 % rurales frente a 7,9 % urbanos (INEI, ENDES 2025). La hipertensión es mayor en hombres (23,0 %) que en mujeres (18,8 %) y en la Costa (22,6 %) que en Sierra y Selva (ENDES 2025). La mortalidad materna se concentra en la Amazonía y la sierra alta: Loreto aporta cerca de una cuarta parte de las muertes maternas del país (OPS, 2025). La densidad de médicos es mucho menor en Loreto, Cajamarca o Huánuco que en Lima, y cerca de la mitad de los médicos especialistas trabaja en Lima (cifras de prensa y documentos parlamentarios, por verificar en el Observatorio de RHUS del MINSA). Las poblaciones indígenas amazónicas y quechuahablantes enfrentan además barreras de lengua y de adecuación cultural del servicio que las encuestas no miden bien; solo 38,1 % de quienes tuvieron un problema de salud acudió a un establecimiento (INEI, ENAHO).",
+    "causas": [
+      "Fragmentación del financiamiento y la prestación: SIS, EsSalud, sanidades y privados operan redes paralelas; el aseguramiento universal (Ley 29344) amplió la afiliación pero no integró la oferta, y el intercambio prestacional (DL 1302) depende de convenios caso por caso (Ley 32240 de 2025 recién modificó su financiamiento).",
+      "Inversión sesgada a hospitales y sin mantenimiento: miles de establecimientos de primer nivel no cumplen las normas técnicas de infraestructura y equipamiento (PMI MINSA) y salud figura entre los sectores con más obras paralizadas, que en total inmovilizan más de S/ 43 000 millones (Contraloría, 2025).",
+      "Recursos humanos escasos y mal distribuidos, con múltiples regímenes laborales y pocos incentivos para zonas rurales y amazónicas; la formación de especialistas se concentra en Lima.",
+      "Cadena de suministro de medicamentos inestable: compras fragmentadas, alta rotación directiva en CENARES y desabastecimiento recurrente en farmacias públicas (Contraloría en EsSalud, 2025), que empuja a los pacientes a comprar en farmacias privadas.",
+      "Determinantes sociales fuera del sector: agua y saneamiento, pobreza, dieta y entorno alimentario explican buena parte de la anemia, la desnutrición, la obesidad y el dengue.",
+      "Sistemas de información débiles: la historia clínica electrónica cubría 14 % del primer nivel en 2023 (Videnza, citado en proyecto de ley), lo que impide seguir al paciente, pagar por resultados y vigilar epidemias a tiempo."
+    ]
+  },
+  "vision_2056": "En 2056 cada familia peruana tiene un equipo de salud que la conoce, a menos de una hora de su casa o a un clic, con medicamentos disponibles y una sola historia clínica que la acompaña a cualquier establecimiento público o privado. Nadie se empobrece por enfermarse y ningún niño crece con anemia o desnutrición.",
+  "metas": [
+    {
+      "indicador": "Anemia en niñas y niños de 6 a 35 meses (criterio OMS 2024)",
+      "linea_base": "34,9 % (2025)",
+      "2031": "27 %",
+      "2036": "20 %",
+      "2046": "12 %",
+      "2056": "≤ 8 %",
+      "referencia": "Meta mundial OMS de reducir 50 % la anemia (Metas de nutrición 2025/2030) y niveles de países de ingreso alto de la región (por verificar)",
+      "fuente_linea_base": "INEI, ENDES 2025"
+    },
+    {
+      "indicador": "Desnutrición crónica en menores de 5 años",
+      "linea_base": "12,1 % (2025)",
+      "2031": "9 %",
+      "2036": "7 %",
+      "2046": "4 %",
+      "2056": "≤ 3 %",
+      "referencia": "ODS 2.2 (poner fin a la malnutrición); Chile y Uruguay reportan niveles de un dígito bajo (JME UNICEF-OMS-BM, por verificar)",
+      "fuente_linea_base": "INEI, ENDES 2025"
+    },
+    {
+      "indicador": "Gasto de bolsillo como % del gasto total en salud",
+      "linea_base": "27,0 % (2023)",
+      "2031": "23 %",
+      "2036": "20 %",
+      "2046": "16 %",
+      "2056": "≤ 13 %",
+      "referencia": "Promedio OCDE 13,4 % en 2023 (OMS GHED, Banco Mundial)",
+      "fuente_linea_base": "OMS, Global Health Expenditure Database (Banco Mundial, SH.XPD.OOPC.CH.ZS)"
+    },
+    {
+      "indicador": "Personas con hipertensión diagnosticada que reciben tratamiento",
+      "linea_base": "62,8 % (2025)",
+      "2031": "70 %",
+      "2036": "76 %",
+      "2046": "84 %",
+      "2056": "90 %",
+      "referencia": "Iniciativa HEARTS de la OPS (control de hipertensión en el primer nivel)",
+      "fuente_linea_base": "INEI, ENDES 2025"
+    },
+    {
+      "indicador": "Muertes maternas anuales",
+      "linea_base": "244 (2024)",
+      "2031": "190",
+      "2036": "150",
+      "2046": "100",
+      "2056": "≤ 70",
+      "referencia": "ODS 3.1; tendencia de Chile y Uruguay (razones de un dígito o dos bajos, por verificar)",
+      "fuente_linea_base": "MINSA, Sala situacional de muerte materna"
+    },
+    {
+      "indicador": "Establecimientos de primer nivel que cumplen normas técnicas de infraestructura y equipamiento",
+      "linea_base": "≈ 3 % (MINSA, diagnóstico de brechas 2021–2022: 97 % con capacidad instalada inadecuada)",
+      "2031": "20 %",
+      "2036": "40 %",
+      "2046": "70 %",
+      "2056": "95 %",
+      "referencia": "Normas Técnicas de Salud 113 y 119 (MINSA)",
+      "fuente_linea_base": "MINSA, Diagnóstico de brechas de infraestructura y equipamiento"
+    },
+    {
+      "indicador": "Establecimientos públicos de primer nivel con historia clínica electrónica interoperable en uso",
+      "linea_base": "14 % (enero 2023)",
+      "2031": "100 %",
+      "2036": "100 % con acceso del paciente",
+      "2046": "100 % (todo el sistema, incluido privado)",
+      "2056": "100 %",
+      "referencia": "Mandato de RM 553-2025/MINSA; Uruguay (Salud.uy) y Estonia como referentes",
+      "fuente_linea_base": "Videnza, citado en proyecto de ley sobre HCE"
+    }
   ],
-  "brechas": "La anemia infantil afecta a 43,2 % de niñas y niños rurales frente a 31,5 % urbanos, y la desnutrición crónica a 21,7 % rurales frente a 7,9 % urbanos (INEI, ENDES 2025). La hipertensión es mayor en hombres (23,0 %) que en mujeres (18,8 %) y en la Costa (22,6 %) que en Sierra y Selva (ENDES 2025). La mortalidad materna se concentra en la Amazonía y la sierra alta: Loreto aporta cerca de una cuarta parte de las muertes maternas del país (OPS, 2025). La densidad de médicos es mucho menor en Loreto, Cajamarca o Huánuco que en Lima, y cerca de la mitad de los médicos especialistas trabaja en Lima (cifras de prensa y documentos parlamentarios, por verificar en el Observatorio de RHUS del MINSA). Las poblaciones indígenas amazónicas y quechuahablantes enfrentan además barreras de lengua y de adecuación cultural del servicio que las encuestas no miden bien; solo 38,1 % de quienes tuvieron un problema de salud acudió a un establecimiento (INEI, ENAHO).",
-  "causas": [
-   "Fragmentación del financiamiento y la prestación: SIS, EsSalud, sanidades y privados operan redes paralelas; el aseguramiento universal (Ley 29344) amplió la afiliación pero no integró la oferta, y el intercambio prestacional (DL 1302) depende de convenios caso por caso (Ley 32240 de 2025 recién modificó su financiamiento).",
-   "Inversión sesgada a hospitales y sin mantenimiento: miles de establecimientos de primer nivel no cumplen las normas técnicas de infraestructura y equipamiento (PMI MINSA) y salud figura entre los sectores con más obras paralizadas, que en total inmovilizan más de S/ 43 000 millones (Contraloría, 2025).",
-   "Recursos humanos escasos y mal distribuidos, con múltiples regímenes laborales y pocos incentivos para zonas rurales y amazónicas; la formación de especialistas se concentra en Lima.",
-   "Cadena de suministro de medicamentos inestable: compras fragmentadas, alta rotación directiva en CENARES y desabastecimiento recurrente en farmacias públicas (Contraloría en EsSalud, 2025), que empuja a los pacientes a comprar en farmacias privadas.",
-   "Determinantes sociales fuera del sector: agua y saneamiento, pobreza, dieta y entorno alimentario explican buena parte de la anemia, la desnutrición, la obesidad y el dengue.",
-   "Sistemas de información débiles: la historia clínica electrónica cubría 14 % del primer nivel en 2023 (Videnza, citado en proyecto de ley), lo que impide seguir al paciente, pagar por resultados y vigilar epidemias a tiempo."
-  ]
- },
- "vision_2056": "En 2056 cada familia peruana tiene un equipo de salud que la conoce, a menos de una hora de su casa o a un clic, con medicamentos disponibles y una sola historia clínica que la acompaña a cualquier establecimiento público o privado. Nadie se empobrece por enfermarse y ningún niño crece con anemia o desnutrición.",
- "metas": [
-  {
-   "indicador": "Anemia en niñas y niños de 6 a 35 meses (criterio OMS 2024)",
-   "linea_base": "34,9 % (2025)",
-   "2031": "27 %",
-   "2036": "20 %",
-   "2046": "12 %",
-   "2056": "≤ 8 %",
-   "referencia": "Meta mundial OMS de reducir 50 % la anemia (Metas de nutrición 2025/2030) y niveles de países de ingreso alto de la región (por verificar)",
-   "fuente_linea_base": "INEI, ENDES 2025"
-  },
-  {
-   "indicador": "Desnutrición crónica en menores de 5 años",
-   "linea_base": "12,1 % (2025)",
-   "2031": "9 %",
-   "2036": "7 %",
-   "2046": "4 %",
-   "2056": "≤ 3 %",
-   "referencia": "ODS 2.2 (poner fin a la malnutrición); Chile y Uruguay reportan niveles de un dígito bajo (JME UNICEF-OMS-BM, por verificar)",
-   "fuente_linea_base": "INEI, ENDES 2025"
-  },
-  {
-   "indicador": "Gasto de bolsillo como % del gasto total en salud",
-   "linea_base": "22,8 % (2020)",
-   "2031": "20 %",
-   "2036": "17 %",
-   "2046": "14 %",
-   "2056": "≤ 12 %",
-   "referencia": "Promedio OCDE 12,3 % (Universidad del Pacífico, Agenda 2026)",
-   "fuente_linea_base": "Universidad del Pacífico, Agenda 2026, sobre datos OMS"
-  },
-  {
-   "indicador": "Personas con hipertensión diagnosticada que reciben tratamiento",
-   "linea_base": "62,8 % (2025)",
-   "2031": "70 %",
-   "2036": "76 %",
-   "2046": "84 %",
-   "2056": "90 %",
-   "referencia": "Iniciativa HEARTS de la OPS (control de hipertensión en el primer nivel)",
-   "fuente_linea_base": "INEI, ENDES 2025"
-  },
-  {
-   "indicador": "Muertes maternas anuales",
-   "linea_base": "244 (2024)",
-   "2031": "190",
-   "2036": "150",
-   "2046": "100",
-   "2056": "≤ 70",
-   "referencia": "ODS 3.1; tendencia de Chile y Uruguay (razones de un dígito o dos bajos, por verificar)",
-   "fuente_linea_base": "MINSA, Sala situacional de muerte materna"
-  },
-  {
-   "indicador": "Establecimientos de primer nivel que cumplen normas técnicas de infraestructura y equipamiento",
-   "linea_base": "≈ 3 % (diagnóstico MINSA 2021, por verificar en documento oficial)",
-   "2031": "20 %",
-   "2036": "40 %",
-   "2046": "70 %",
-   "2056": "95 %",
-   "referencia": "Normas Técnicas de Salud 113 y 119 (MINSA)",
-   "fuente_linea_base": "MINSA, Diagnóstico de brechas de infraestructura y equipamiento"
-  },
-  {
-   "indicador": "Establecimientos públicos de primer nivel con historia clínica electrónica interoperable en uso",
-   "linea_base": "14 % (enero 2023)",
-   "2031": "100 %",
-   "2036": "100 % con acceso del paciente",
-   "2046": "100 % (todo el sistema, incluido privado)",
-   "2056": "100 %",
-   "referencia": "Mandato de RM 553-2025/MINSA; Uruguay (Salud.uy) y Estonia como referentes",
-   "fuente_linea_base": "Videnza, citado en proyecto de ley sobre HCE"
-  }
- ],
- "acciones": [
-  {
-   "id": "SAL-01",
-   "titulo": "Asignar a cada familia un equipo de salud del primer nivel con población adscrita",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El modelo de cuidado integral por curso de vida y la adscripción poblacional se ordenan por resolución ministerial y directivas del MINSA; se financian con programas presupuestales existentes (PP 0001, 0002, 0018, 0068) y la transferencia del SIS.",
-   "etapa": "2026-2031",
-   "que": "Cada establecimiento del primer nivel recibe una población nominal (padrón con DNI) de la que responde: un equipo básico —médico de familia o general, enfermera, obstetra, técnico y agentes comunitarios— visita hogares, hace tamizaje, controla crónicos, vacuna y sigue a gestantes y niños. Se empieza por los distritos de quintil 1 y 2 de pobreza y por la periferia urbana de Lima, Piura, Arequipa y La Libertad, donde los hospitales están saturados. La meta es que el primer nivel resuelva la mayor parte de consultas y derive con cita, no con cola.",
-   "evidencia": "La Estrategia Salud de la Familia de Brasil, con equipos por población adscrita, se asoció a caídas de mortalidad infantil y de hospitalizaciones evitables (Macinko y Harris, NEJM 2015). Costa Rica (EBAIS) aplica el mismo principio desde los noventa.",
-   "entrega": "Equipos básicos de salud familiar con población adscrita en el 100 % de distritos de quintil 1 y 2 al 2031, y padrón nominal publicado por establecimiento.",
-   "responsable": "MINSA",
-   "entidades": [
+  "acciones": [
     {
-     "sigla": "MINSA",
-     "rol": "rectora"
+      "id": "SAL-01",
+      "titulo": "Asignar a cada familia un equipo de salud del primer nivel con población adscrita",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El modelo de cuidado integral por curso de vida y la adscripción poblacional se ordenan por resolución ministerial y directivas del MINSA; se financian con programas presupuestales existentes (PP 0001, 0002, 0018, 0068) y la transferencia del SIS.",
+      "etapa": "2026-2031",
+      "que": "Cada establecimiento del primer nivel recibe una población nominal (padrón con DNI) de la que responde: un equipo básico —médico de familia o general, enfermera, obstetra, técnico y agentes comunitarios— visita hogares, hace tamizaje, controla crónicos, vacuna y sigue a gestantes y niños. Se empieza por los distritos de quintil 1 y 2 de pobreza y por la periferia urbana de Lima, Piura, Arequipa y La Libertad, donde los hospitales están saturados. La meta es que el primer nivel resuelva la mayor parte de consultas y derive con cita, no con cola.",
+      "evidencia": "La Estrategia Salud de la Familia de Brasil, con equipos por población adscrita, se asoció a caídas de mortalidad infantil y de hospitalizaciones evitables (Macinko y Harris, NEJM 2015). Costa Rica (EBAIS) aplica el mismo principio desde los noventa.",
+      "entrega": "Equipos básicos de salud familiar con población adscrita en el 100 % de distritos de quintil 1 y 2 al 2031, y padrón nominal publicado por establecimiento.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "SUSALUD",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto de los programas presupuestales de salud y transferencias del SIS; reasignación progresiva desde gasto hospitalario de baja complejidad.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de la población con equipo de salud asignado y al menos un contacto preventivo al año (registro HIS/HCE).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-11",
+        "SAL-24",
+        "TAL-06"
+      ],
+      "riesgo": "Que se renombre la posta sin agregar personal ni medicamentos; sin médicos de familia y sin HCE, la adscripción queda en papel.",
+      "fuentes": [
+        {
+          "titulo": "Macinko y Harris (2015) – Brazil's Family Health Strategy, NEJM",
+          "url": "https://doi.org/10.1056/NEJMp1501140"
+        },
+        {
+          "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
+          "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3"
+      ]
     },
     {
-     "sigla": "GORE",
-     "rol": "ejecutora"
+      "id": "SAL-02",
+      "titulo": "Implementar las Redes Integradas de Salud con gestión por resultados en todas las regiones",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 30885 ya establece la conformación y funcionamiento de las RIS; falta implementarla mediante decreto supremo, convenios MINSA–GORE y asignación presupuestal por red.",
+      "etapa": "2026-2031",
+      "que": "Organizar los establecimientos de cada provincia como una sola red —postas, centros de salud con camas, hospital de referencia y transporte sanitario— con un gerente responsable de resultados sanitarios (anemia, control de crónicos, partos atendidos, tiempos de espera) y un presupuesto por red, no por establecimiento suelto. Se priorizan regiones con mayor mortalidad materna y anemia. Cada red publica su tablero de metas y su lista de espera.",
+      "evidencia": "La OPS recomienda las Redes Integradas de Servicios de Salud como respuesta a la fragmentación en las Américas; Perú tiene la Ley 30885 (2018) cuya implementación ha sido parcial y concentrada en Lima Metropolitana.",
+      "entrega": "Redes Integradas de Salud funcionando con gerente, presupuesto y tablero público en las 25 regiones al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "SUSALUD",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto existente de los pliegos MINSA y GORE reordenado por red; incentivos del MEF mediante convenios de apoyo presupuestal.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de redes con gerencia, presupuesto por red y tablero de resultados publicado.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-24"
+      ],
+      "riesgo": "Resistencia de los gobiernos regionales a ceder control de nombramientos y presupuesto; cambios frecuentes de gerentes.",
+      "fuentes": [
+        {
+          "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
+          "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
+        },
+        {
+          "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
+          "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7",
+        "AE1.2.3"
+      ]
     },
     {
-     "sigla": "SIS",
-     "rol": "financiadora"
+      "id": "SAL-03",
+      "titulo": "Cerrar la brecha de centros de salud del primer nivel en distritos pobres",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta mediante Invierte.pe (programas de inversión), la Programación Multianual de Inversiones del sector y obras por impuestos; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Un programa nacional de inversión, ordenado por la Programación Multianual del MINSA, construye o repotencia centros de salud estratégicos (categorías I-3 e I-4, con laboratorio, rayos X, atención de partos y telesalud) en los distritos de quintil 1 y 2 y en la Amazonía, con diseños tipo, energía de respaldo y conectividad. Se prioriza por brecha y población, no por pedido político, y cada obra entra con presupuesto de mantenimiento y de personal asegurado.",
+      "evidencia": "El diagnóstico de brechas del MINSA (2021) estimó que faltaban 1 791 establecimientos de primer nivel y que casi todos los existentes no cumplen las normas técnicas; la evidencia internacional muestra que el primer nivel resolutivo reduce hospitalizaciones evitables (OPS).",
+      "entrega": "Centros de salud I-3/I-4 nuevos o repotenciados en todos los distritos de quintil 1 y 2 sin oferta adecuada al 2036 (meta intermedia de 30 % de la brecha al 2031).",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PRONIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Invierte.pe con recursos ordinarios, canon y sobrecanon regional, obras por impuestos y endeudamiento con banca multilateral (BID, Banco Mundial).",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de establecimientos de primer nivel que cumplen la NTS de infraestructura y equipamiento, por distrito.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-04",
+        "SAL-05",
+        "CON-13",
+        "CON-15"
+      ],
+      "riesgo": "Construir edificios sin personal ni mantenimiento; dispersión del presupuesto en proyectos pequeños sin priorización.",
+      "fuentes": [
+        {
+          "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
+          "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
+        },
+        {
+          "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
+          "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE1.2.7"
+      ]
     },
     {
-     "sigla": "MEF",
-     "rol": "financiadora"
+      "id": "SAL-04",
+      "titulo": "Rescatar las obras de salud paralizadas con una unidad especializada",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "El MEF y el MINSA pueden crear la unidad y el procedimiento por decreto supremo; la Ley 31589 (reactivación de obras paralizadas) y el control concurrente de la Contraloría ya dan base legal.",
+      "etapa": "2026-2031",
+      "que": "Inventariar todos los hospitales y centros de salud paralizados, clasificarlos (terminar, rediseñar o cerrar) y asignarlos a una unidad técnica que contrate saldos de obra con expedientes revisados, supervisión independiente y control concurrente. Las obras sin viabilidad sanitaria se cierran y se publica la razón. Se publica un tablero con fecha comprometida de término y responsable por obra. Los recursos liberados por obras cerradas se reasignan a la cartera priorizada. Se ejecuta dentro del plan nacional de obras paralizadas (EST-07).",
+      "evidencia": "La Contraloría reportó en 2025 más de 2 400 obras paralizadas con más de S/ 43 000 millones inmovilizados, con salud entre los sectores más afectados, y lanzó control preventivo para reactivarlas.",
+      "entrega": "Todas las obras de salud paralizadas al 2026 con decisión técnica tomada y, las viables, culminadas al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PRONIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto de inversiones del pliego y de los GORE; reasignación de proyectos no iniciados.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º y monto de obras de salud paralizadas (registro de la Contraloría y del Banco de Inversiones).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "EST-07",
+        "SAL-05"
+      ],
+      "riesgo": "Litigios y arbitrajes con contratistas que congelan la obra; expedientes técnicos deficientes.",
+      "fuentes": [
+        {
+          "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
+          "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Debe depender del plan nacional EST-07",
+          "decision": "aplicado: depende_de EST-07 y SAL-05; EST-07 debe quitar SAL-04"
+        }
+      ]
     },
     {
-     "sigla": "SUSALUD",
-     "rol": "supervisora"
+      "id": "SAL-05",
+      "titulo": "Construir hospitales con diseños tipo, contratos colaborativos y mantenimiento incluido",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 32069 de Contrataciones Públicas y su reglamento permiten modalidades colaborativas y acuerdos Estado a Estado; se instrumenta con directivas del MINSA y del OECE.",
+      "etapa": "2026-2031",
+      "que": "El MINSA aprueba expedientes tipo para hospitales II-1, II-2 y centros I-4 (adaptados a costa, sierra y selva) y una oficina de gestión de proyectos que los ejecuta con contratos colaborativos y equipamiento y mantenimiento por 10 años incluidos. Así se acortan diseños, se reducen adicionales y se evita entregar hospitales sin equipos. Los gobiernos regionales pueden adherirse a la cartera.",
+      "evidencia": "La reconstrucción con cambios y los acuerdos Estado a Estado para obras de los Juegos Panamericanos y hospitales del norte mostraron plazos menores que la contratación tradicional, aunque con debates sobre costo y transferencia de capacidades (evaluación independiente por verificar).",
+      "entrega": "Catálogo de expedientes tipo aprobado al 2027 y una cartera priorizada de hospitales ejecutada bajo ese modelo.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PRONIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OECE",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Invierte.pe, endeudamiento externo, APP para servicios no clínicos (mantenimiento, limpieza) donde el análisis de valor por dinero lo justifique.",
+      "costo_referencial": "no estimado",
+      "indicador": "Plazo promedio entre viabilidad y puesta en funcionamiento de hospitales; % de hospitales entregados con equipamiento completo.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Sobrecostos poco transparentes en contratos Estado a Estado y baja transferencia de capacidades a entidades peruanas.",
+      "fuentes": [
+        {
+          "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
+          "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
+        },
+        {
+          "titulo": "MEF – Guía del presupuesto público 2026",
+          "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7",
+        "AE2.2.4"
+      ]
+    },
+    {
+      "id": "SAL-06",
+      "titulo": "Derogar leyes declarativas de hospitales y sustituirlas por la cartera priorizada técnica",
+      "tipo": "derogacion",
+      "necesita_ley": "si",
+      "por_que_ley": "Solo una ley puede derogar otra ley. Es una ley de depuración sin gasto, admisible por iniciativa congresal.",
+      "etapa": "2026-2031",
+      "que": "Una ley de depuración deroga las leyes que solo 'declaran de necesidad pública e interés nacional' la construcción de hospitales específicos —que no asignan presupuesto ni obligan a nadie— y dispone que la priorización se haga únicamente por la Programación Multianual de Inversiones del MINSA, con criterios públicos de brecha, población y costo-efectividad. Los proyectos citados en esas leyes se evalúan con esos mismos criterios; si califican, entran en la cartera. Se exceptúan las leyes que sustentan expropiaciones con procesos en curso (art. 70 de la Constitución, DL 1192). Es la aplicación sanitaria de la depuración general EST-22.",
+      "evidencia": "El Congreso aprueba con frecuencia leyes declarativas de hospitales (p. ej., Ley 31238 sobre un hospital III-1 en Arequipa), reconocidas por los propios legisladores como 'declarativas'; generan expectativas sin financiamiento.",
+      "entrega": "Una ley de depuración que deroga las leyes declarativas de obras de salud y un registro público de la cartera priorizada.",
+      "responsable": "CONGRESO",
+      "entidades": [
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "No requiere gasto.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de leyes declarativas de obras de salud vigentes; % de inversión sanitaria asignada según cartera priorizada.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Ley 31238 (declara de interés nacional y necesidad pública un hospital III-1 en Arequipa) y leyes declarativas análogas",
+          "motivo": "No asignan recursos ni obligan; distorsionan la priorización técnica y generan expectativas que no se cumplen. Se exceptúan las que sustentan expropiaciones en curso (art. 70 de la Constitución, DL 1192)."
+        }
+      ],
+      "depende_de": [
+        "EST-22",
+        "SAL-03"
+      ],
+      "riesgo": "Costo político de derogar leyes de interés local; nuevas leyes declarativas podrían seguir aprobándose.",
+      "fuentes": [
+        {
+          "titulo": "Congreso – Ejemplo de ley declarativa de construcción de hospital",
+          "url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-declara-de-necesidad-publica-construccion-de-hospital-ii-1-en-calca-en-cusco"
+        },
+        {
+          "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
+          "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
+        }
+      ],
+      "pedn": [
+        "AE4.5.2",
+        "AE1.2.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Aplicación sanitaria de EST-22; excluir expropiaciones en curso",
+          "decision": "aplicado: depende_de EST-22 y SAL-03; excepción del art. 70 y DL 1192 en que y deroga_o_simplifica"
+        },
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Coordinar cita de Ley 31238 con EST-22",
+          "decision": "aplicado: SAL-06 conserva la Ley 31238 como ejemplo sanitario; EST-22 debe usar un ejemplo no sanitario o remitir a SAL-06"
+        }
+      ]
+    },
+    {
+      "id": "SAL-07",
+      "titulo": "Automatizar el intercambio prestacional con tarifario único y liquidación electrónica",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "El DL 1302 (modificado por la Ley 32240) ya habilita el intercambio; lo que falta se resuelve modificando su reglamento (DS 012-2019-SA) y con un tarifario aprobado por decreto supremo.",
+      "etapa": "2026-2031",
+      "que": "En lugar de firmar convenios región por región, se aprueba un convenio marco nacional entre SIS, EsSalud, sanidades de FFAA y PNP, con un tarifario único por procedimiento y liquidación electrónica mensual compensada a través de SUSALUD. Cualquier asegurado puede atenderse en el establecimiento público más cercano con capacidad, empezando por emergencias, partos, diálisis, oncología y ayuda diagnóstica. Los pagos pendientes entre seguros se compensan cada mes y las disputas las resuelve SUSALUD en plazos cortos.",
+      "evidencia": "Los convenios de intercambio prestacional ya operan en regiones como La Libertad y Amazonas, pero su alcance es limitado por la negociación caso por caso (EsSalud). La Ley 32240 (2025) ordenó adecuar el reglamento y los tarifarios.",
+      "entrega": "Convenio marco nacional y tarifario único vigentes al 2028; liquidación electrónica mensual operativa entre todas las IAFAS públicas.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "MINDEF",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MININTER",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUSALUD",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuestos institucionales de cada IAFAS (art. 5 del DL 1302 modificado por Ley 32240).",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de atenciones intercambiadas por año y días promedio de liquidación entre IAFAS.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Decreto Supremo 012-2019-SA (Reglamento del DL 1302)",
+          "motivo": "Sustituir la firma de convenios específicos por establecimiento por un convenio marco nacional con tarifario único y liquidación automática."
+        }
+      ],
+      "depende_de": [
+        "SAL-24",
+        "TAL-06"
+      ],
+      "riesgo": "Desconfianza entre IAFAS por deudas acumuladas y tarifas que no cubren costos; EsSalud teme subsidiar al SIS.",
+      "fuentes": [
+        {
+          "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
+          "url": "https://www.essalud.gob.pe/?p=24058"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7",
+        "AE1.2.3"
+      ]
+    },
+    {
+      "id": "SAL-08",
+      "titulo": "Aprobar la ley de portabilidad y plan de beneficios común entre todos los seguros",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "La portabilidad entre regímenes y un plan de beneficios común exigible a EsSalud, SIS y sanidades afectan derechos de asegurados y fondos de la seguridad social, intangibles según el art. 12 de la Constitución: requieren ley. Por crear gasto, debe ser iniciativa del Poder Ejecutivo (art. 79).",
+      "etapa": "2031-2036",
+      "que": "La ley establece que todo asegurado tiene un mismo Plan Esencial de Aseguramiento en Salud ampliado y actualizado cada tres años con evaluación de tecnologías, que el seguro 'sigue a la persona' cuando cambia de empleo o pierde el trabajo, y que las IAFAS compran servicios a cualquier prestador público o privado acreditado con reglas comunes. Prepara la convergencia gradual de los fondos sin confiscar aportes de EsSalud.",
+      "evidencia": "Colombia y Chile (GES/AUGE) mostraron que un plan de beneficios explícito y exigible reduce la discrecionalidad; Tailandia integró sus esquemas bajo reglas comunes de compra. En Perú el PEAS existe desde la Ley 29344 pero no se ha actualizado con regularidad.",
+      "entrega": "Ley de portabilidad y plan común; PEAS actualizado y publicado con costeo.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUSALUD",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        }
+      ],
+      "financiamiento": "Recursos ordinarios para el SIS y aportes a EsSalud; requiere análisis de sostenibilidad fiscal del MEF.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de asegurados que mantienen cobertura continua al cambiar de régimen; N.º de condiciones con garantía explícita.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-07",
+        "SAL-09",
+        "SAL-26"
+      ],
+      "riesgo": "Oposición de gremios y de EsSalud a cualquier convergencia de fondos; promesas de cobertura sin financiamiento.",
+      "fuentes": [
+        {
+          "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
+          "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
+        },
+        {
+          "titulo": "Andina – INEI: 91,1 % de la población cuenta con seguro de salud (ENAHO I trim. 2025)",
+          "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
+        },
+        {
+          "titulo": "OMS – Global Health Expenditure Database: gasto de bolsillo (Banco Mundial)",
+          "url": "https://api.worldbank.org/v2/country/PER/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2015:2024"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE3.2.2"
+      ]
+    },
+    {
+      "id": "SAL-09",
+      "titulo": "Pagar a los establecimientos por población atendida y resultados, no por historial",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Los mecanismos de pago del SIS (cápita, pago por prestación, convenios de gestión) se fijan por resolución jefatural y convenios; el MEF los articula con programas presupuestales.",
+      "etapa": "2026-2031",
+      "que": "El SIS paga al primer nivel una cápita ajustada por edad, ruralidad y riesgo por cada persona adscrita, con un componente de pago por desempeño (niños sin anemia, hipertensos controlados, gestantes con controles completos) verificado con la historia clínica electrónica. Las transferencias se hacen al inicio del año con un calendario conocido, y se reduce la deuda acumulada con prestadores mediante conciliación.",
+      "evidencia": "El Perú tiene experiencia con convenios de gestión e incentivos (Programa de Incentivos Municipales, FED) asociados a mejoras en indicadores nutricionales; el pago capitado con desempeño se usa en Reino Unido, Costa Rica y Turquía.",
+      "entrega": "Nuevo mecanismo de pago capitado con desempeño aplicado al 100 % del primer nivel financiado por el SIS al 2030.",
+      "responsable": "SIS",
+      "entidades": [
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto del SIS (pliego 135) reorganizado; la Ley de Presupuesto 2026 asignó S/ 2 535 millones para continuidad del aseguramiento universal (MEF).",
+      "costo_referencial": "no estimado",
+      "indicador": "% del financiamiento SIS al primer nivel pagado por cápita ajustada y desempeño; plazo medio de transferencia.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-24"
+      ],
+      "riesgo": "Falsificación de registros para cobrar incentivos; deuda histórica que paraliza a los prestadores.",
+      "fuentes": [
+        {
+          "titulo": "MEF – Guía del presupuesto público 2026",
+          "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
+        },
+        {
+          "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
+          "url": "https://openknowledge.worldbank.org/handle/10986/28321"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7",
+        "AE1.2.3"
+      ]
+    },
+    {
+      "id": "SAL-10",
+      "titulo": "Modernizar el gobierno corporativo de EsSalud con directorio técnico y cuentas separadas",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "La conformación del Consejo Directivo y la organización de EsSalud están en la Ley 27056; separar sus funciones de seguro y de prestador y cambiar su gobierno requiere modificar esa ley.",
+      "etapa": "2026-2031",
+      "que": "Se modifica la Ley 27056 para que EsSalud tenga un directorio con miembros independientes elegidos por concurso y representantes de asegurados y empleadores elegidos con requisitos de idoneidad, manteniendo la participación que exige el Convenio 102 de la OIT, y presidente con mandato fijo, separación contable entre el fondo asegurador y la red de hospitales, auditoría actuarial anual pública y la obligación de comprar a terceros cuando sus propios servicios no cumplan tiempos de espera. Los aportes de los trabajadores siguen siendo intangibles.",
+      "evidencia": "La OCDE recomienda a Perú fortalecer la gobernanza de EsSalud y separar funciones de financiamiento y provisión (Estudio de los Sistemas de Salud: Perú, OCDE 2017, por verificar enlace). La rotación de presidentes de EsSalud ha sido alta en la última década.",
+      "entrega": "Ley que reforma el gobierno corporativo de EsSalud; estudio actuarial y tiempos de espera publicados anualmente.",
+      "responsable": "MTPE",
+      "entidades": [
+        {
+          "sigla": "MTPE",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SBS",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        }
+      ],
+      "financiamiento": "Aportes a EsSalud; no crea gasto público adicional.",
+      "costo_referencial": "no estimado",
+      "indicador": "Permanencia promedio de la alta dirección; publicación del estudio actuarial; tiempo de espera para cita con especialista.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-07"
+      ],
+      "riesgo": "Captura del directorio por intereses políticos o gremiales pese al concurso.",
+      "fuentes": [
+        {
+          "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
+          "url": "https://www.essalud.gob.pe/?p=24058"
+        },
+        {
+          "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
+          "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.2.2",
+        "AE1.2.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Directorio debe conservar representación tripartita (Convenio 102 OIT)",
+          "decision": "aplicado: se mantiene representación de asegurados y empleadores con idoneidad"
+        }
+      ]
+    },
+    {
+      "id": "SAL-11",
+      "titulo": "Formar especialistas en sedes regionales y priorizar medicina familiar",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El Sistema Nacional de Residentado Médico (Ley 30453) ya permite definir plazas por especialidad y sede; la priorización se hace por acuerdos del CONAREME y financiamiento del MINSA y GORE.",
+      "etapa": "2026-2031",
+      "que": "Duplicar las plazas de residentado en medicina familiar, ginecobstetricia, pediatría, anestesiología, medicina interna y psiquiatría con sedes docentes en hospitales regionales, no solo en Lima, con plazas cautivas de retorno a la región que financia. Se suman programas de especialización para enfermería, obstetricia y tecnología médica. Las universidades se vinculan a redes sanitarias como campos clínicos. Se publica cada año la brecha de especialistas por región y especialidad para orientar la oferta de plazas. Se complementa después con la carrera sanitaria (SAL-13).",
+      "evidencia": "Un documento parlamentario indica que cerca de la mitad de los especialistas está en Lima y que faltan ginecólogos, pediatras, anestesiólogos y psiquiatras; la evidencia internacional (OMS, 2010) muestra que formar en zonas rurales y reclutar estudiantes locales aumenta la retención.",
+      "entrega": "Plazas de residentado en especialidades prioritarias duplicadas al 2031, con al menos la mitad en sedes fuera de Lima.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CONAREME",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUNEDU",
+          "rol": "reguladora"
+        }
+      ],
+      "financiamiento": "Presupuesto de residentado de MINSA, GORE y EsSalud; cooperación para formación docente.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de médicos especialistas por 10 000 habitantes por región (Observatorio RHUS MINSA).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "EDU-19"
+      ],
+      "riesgo": "Que los egresados migren a Lima o al extranjero; débil capacidad docente en hospitales regionales.",
+      "fuentes": [
+        {
+          "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
+          "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE1.2.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Dependencia de SAL-13, de etapa posterior",
+          "decision": "aplicado: se quitó SAL-13; se complementa con la carrera sanitaria"
+        }
+      ]
+    },
+    {
+      "id": "SAL-12",
+      "titulo": "Reformar el SERUMS como puerta a la carrera rural con tutoría y conectividad",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "parcial",
+      "por_que_ley": "La asignación, duración, remuneración y supervisión se ordenan en el reglamento de la Ley 23330 (decreto supremo). Solo si se cambia el carácter obligatorio o los requisitos establecidos en la ley se necesitaría modificarla.",
+      "etapa": "2026-2031",
+      "que": "Las plazas SERUMS se asignan primero a los distritos con mayor brecha (Amazonía, sierra alta, frontera), con vivienda, conectividad, tutoría remota de especialistas, bonificación diferenciada y puntaje para el residentado. Se elimina la práctica de plazas 'equivalentes' en zonas urbanas cuando hay brecha rural sin cubrir, y se publica la cobertura de plazas por distrito. Se complementa después con la carrera sanitaria (SAL-13), donde la experiencia SERUMS dará puntaje.",
+      "evidencia": "La OMS recomienda combinar incentivos financieros, desarrollo profesional y condiciones de vida para atraer personal a zonas rurales (Recomendaciones mundiales, 2010). El SERUMS es hoy la principal fuente de médicos en el primer nivel rural.",
+      "entrega": "100 % de plazas SERUMS de zonas priorizadas cubiertas, con vivienda y tutoría remota al 2030.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto de remuneraciones del MINSA y GORE; bonificaciones del DL 1153.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de plazas SERUMS remuneradas cubiertas en distritos de quintil 1 y Amazonía.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Reglamento de la Ley 23330 del SERUMS (Decreto Supremo 005-97-SA y modificatorias)",
+          "motivo": "Simplificar la asignación de plazas y priorizar por brecha territorial en vez de modalidades equivalentes urbanas."
+        }
+      ],
+      "depende_de": [
+        "TAL-07"
+      ],
+      "riesgo": "Rechazo de colegios profesionales y estudiantes a plazas más exigentes sin mejoras reales de condiciones.",
+      "fuentes": [
+        {
+          "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
+          "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE1.6.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Dependencia de SAL-13, de etapa posterior",
+          "decision": "aplicado: se quitó SAL-13; se complementa con la carrera sanitaria"
+        }
+      ]
+    },
+    {
+      "id": "SAL-13",
+      "titulo": "Crear la carrera sanitaria para profesionales de salud con mérito e incentivos territoriales",
+      "tipo": "ley",
+      "necesita_ley": "parcial",
+      "por_que_ley": "Las carreras especiales se rigen por su propia ley (la Ley 30057 las excluye de su régimen general); actualizar la Ley 23536 de los profesionales de la salud y ordenar su tránsito desde los regímenes DL 276, DL 728 y CAS exige ley (art. 40 de la Constitución, carrera administrativa). La escala de incentivos puede ajustarse dentro del DL 1153 por decreto supremo. Por crear gasto, la iniciativa debe ser del Ejecutivo.",
+      "etapa": "2031-2036",
+      "que": "Una carrera especial para los profesionales de la salud (médicos, enfermeras, obstetras y otros), que como carrera especial sigue su propia ley y actualiza la Ley 23536: ingreso por concurso público, evaluación de desempeño, ascenso por mérito y formación continua, con bonificaciones crecientes por servir en zonas rurales, amazónicas y de frontera. Se ordena el tránsito voluntario y gradual desde los regímenes actuales, con costeo multianual del MEF, y se publica la dotación de personal por establecimiento. Técnicos y auxiliares ingresan por el régimen general de la Ley 30057 (EST-11), con los incentivos territoriales del DL 1153.",
+      "evidencia": "La Ley del Servicio Civil (Ley 30057) y el DL 1153 iniciaron la ordenación de compensaciones; la OMS (2010) muestra que la combinación de carrera, incentivos y apoyo profesional mejora la retención rural.",
+      "entrega": "Ley de carrera sanitaria para profesionales de la salud y migración de al menos 60 % de ellos al nuevo régimen al 2036.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SERVIR",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        }
+      ],
+      "financiamiento": "Presupuesto de personal de MINSA y GORE con costeo multianual del MEF; el PIA 2026 ya incluye S/ 1 043 millones de incrementos remunerativos en salud (MEF).",
+      "costo_referencial": "no estimado",
+      "indicador": "% de profesionales de la salud en la carrera sanitaria; tasa de permanencia de 3 años en establecimientos rurales.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-11",
+        "SAL-12",
+        "EST-11"
+      ],
+      "riesgo": "Presión gremial por nivelaciones sin evaluación de desempeño; costo fiscal que crezca sin mejora de servicio.",
+      "fuentes": [
+        {
+          "titulo": "MEF – Guía del presupuesto público 2026",
+          "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Contradicción con EST-11 y Ley 30057; EDU-27 sin relación",
+          "decision": "aplicado: carrera especial solo para profesionales; técnicos por Ley 30057 (EST-11); se quitó EDU-27 y se agregó EST-11"
+        },
+        {
+          "rol": "estado",
+          "hallazgo": "Carreras especiales siguen su propia ley; técnicos por Ley 30057",
+          "decision": "aplicado: profesionales por ley especial (Ley 23536 actualizada); técnicos y auxiliares por Ley 30057 (EST-11)"
+        }
+      ]
+    },
+    {
+      "id": "SAL-14",
+      "titulo": "Consolidar la compra nacional de medicamentos con operador logístico y trazabilidad",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "El DU 007-2019 ya declara los medicamentos esenciales como parte del derecho a la salud y faculta a CENARES para compras corporativas; se implementa con decretos supremos, encargos y contratos.",
+      "etapa": "2026-2031",
+      "que": "CENARES compra para todos los subsistemas públicos (MINSA, GORE, EsSalud, sanidades) una lista nacional de medicamentos esenciales por subasta inversa o acuerdos marco multianuales, con un operador logístico que distribuye hasta el establecimiento y un sistema de trazabilidad por código que muestra stock en tiempo real. La dirección de CENARES se elige por concurso con mandato fijo. Los gobiernos regionales y EsSalud pueden adherirse por encargo sin perder control de su presupuesto.",
+      "evidencia": "Las compras corporativas generaron ahorros reportados desde 2006 y un estudio de DIGEMID (2025) encontró que 95,7 % de las compras fuera de la compra corporativa tuvo precios mayores; CENARES ha tenido alta rotación directiva (Lampadia, Salud y Fármacos).",
+      "entrega": "Compra nacional consolidada para 100 % de los medicamentos esenciales del PNUME y tablero público de stock por establecimiento al 2029.",
+      "responsable": "CENARES",
+      "entidades": [
+        {
+          "sigla": "CENARES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "beneficiaria"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "beneficiaria"
+        },
+        {
+          "sigla": "PERU COMPRAS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto de medicamentos de cada pliego transferido a CENARES por encargo.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de establecimientos con disponibilidad ≥ 80 % de medicamentos esenciales (DIGEMID).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-24"
+      ],
+      "riesgo": "Fallas logísticas de un operador único que dejen sin stock a todo el país; resistencia de EsSalud a compras conjuntas.",
+      "fuentes": [
+        {
+          "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
+          "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE1.2.7"
+      ]
+    },
+    {
+      "id": "SAL-15",
+      "titulo": "Agilizar el registro sanitario reconociendo autoridades de alta vigilancia y publicando precios",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "parcial",
+      "por_que_ley": "El procedimiento de registro está en el Reglamento DS 016-2011-SA y puede simplificarse por decreto supremo; si se busca reconocimiento automático más allá de lo previsto en la Ley 29459, se requiere modificar esa ley.",
+      "etapa": "2026-2031",
+      "que": "DIGEMID aplica 'confianza regulatoria': aprueba en plazos cortos los medicamentos ya autorizados por autoridades de alta vigilancia o precalificados por la OMS, y concentra su capacidad en vigilancia poscomercialización y calidad. El Observatorio de Precios se vuelve datos abiertos con precio de compra pública y de farmacia por producto, para que la gente compare y el Estado detecte sobreprecios. Se publica el plazo real de cada trámite de registro.",
+      "evidencia": "La OMS recomienda las buenas prácticas de confianza (reliance) para acelerar el acceso sin perder calidad (TRS 1033, anexo 10); varias agencias de la región las aplican.",
+      "entrega": "Plazo de registro de medicamentos con reliance ≤ 90 días; observatorio de precios en datos abiertos.",
+      "responsable": "DIGEMID",
+      "entidades": [
+        {
+          "sigla": "DIGEMID",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "INDECOPI",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto de DIGEMID y tasas de registro.",
+      "costo_referencial": "no estimado",
+      "indicador": "Días promedio de registro sanitario; N.º de productos con precio publicado en datos abiertos.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Decreto Supremo 016-2011-SA (Reglamento para el registro, control y vigilancia sanitaria de productos farmacéuticos)",
+          "motivo": "Simplificar el registro de productos ya aprobados por autoridades de alta vigilancia y reducir requisitos duplicados."
+        }
+      ],
+      "depende_de": [
+        "SAL-14"
+      ],
+      "riesgo": "Presión de la industria para evitar competencia de genéricos; riesgo de calidad si se debilita la vigilancia posterior.",
+      "fuentes": [
+        {
+          "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
+          "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
+        },
+        {
+          "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
+          "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
+        }
+      ],
+      "pedn": [
+        "AE4.5.2",
+        "AE1.2.3"
+      ]
+    },
+    {
+      "id": "SAL-16",
+      "titulo": "Garantizar genéricos de calidad con receta por denominación común y farmacias del SIS",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El DU 007-2019 y normas de DIGEMID ya obligan a farmacias a ofrecer genéricos esenciales y a recetar por denominación común; se refuerza con fiscalización y convenios del SIS con farmacias privadas.",
+      "etapa": "2026-2031",
+      "que": "Toda receta del sistema público y privado se emite por denominación común internacional en receta electrónica; cuando el establecimiento público no tiene el medicamento, el asegurado del SIS o de EsSalud lo recoge gratis en una farmacia privada adherida, que cobra al seguro a precio de referencia. Se fiscaliza la disponibilidad de genéricos en farmacias y se publican estudios de bioequivalencia.",
+      "evidencia": "El programa Farmácia Popular de Brasil, con farmacias privadas adheridas, amplió el acceso a medicamentos para crónicos (evaluaciones por verificar); DIGEMID reporta incumplimiento parcial de la oferta de genéricos esenciales en farmacias privadas.",
+      "entrega": "Receta electrónica por DCI en 100 % de establecimientos públicos y red de farmacias adheridas en todas las provincias al 2031.",
+      "responsable": "SIS",
+      "entidades": [
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "DIGEMID",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        }
+      ],
+      "financiamiento": "Presupuesto de prestaciones del SIS y EsSalud; ahorro esperado por menor gasto de bolsillo y compras de emergencia.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de recetas del sistema público dispensadas completas; gasto de bolsillo en medicamentos (ENAHO).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-14",
+        "TAL-07"
+      ],
+      "riesgo": "Fraude en el cobro de farmacias adheridas; tarifas que no atraigan a farmacias en zonas rurales.",
+      "fuentes": [
+        {
+          "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
+          "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
+        },
+        {
+          "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
+          "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
+        },
+        {
+          "titulo": "OMS – Global Health Expenditure Database: gasto de bolsillo (Banco Mundial)",
+          "url": "https://api.worldbank.org/v2/country/PER/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2015:2024"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE3.7.3"
+      ]
+    },
+    {
+      "id": "SAL-17",
+      "titulo": "Entregar un paquete integrado contra anemia y desnutrición a cada niño con padrón nominal",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta con el Programa Articulado Nutricional, el Programa de Incentivos Municipales, el FED y el padrón nominal; no requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Cada niña y niño desde la gestación hasta los 3 años recibe, según el padrón nominal, controles de crecimiento, suplemento de hierro, vacunas, consejería en alimentación con alimentos ricos en hierro y visitas domiciliarias de agentes comunitarios. Se coordina con agua segura y saneamiento (Vivienda), Cuna Más y Juntos (MIDIS), y los municipios reciben incentivos por niño con paquete completo verificado. Cuna Más (EDU-01) es uno de los canales de entrega.",
+      "evidencia": "La desnutrición crónica en Perú cayó a casi la mitad entre 2008 y 2016 gracias a la gestión por resultados, el PAN, transferencias condicionadas e incentivos a regiones (Banco Mundial, 2017). El suplemento de hierro subió de 33,8 % a 38,7 % entre 2024 y 2025 (ENDES).",
+      "entrega": "Paquete integrado completo para al menos 80 % de niñas y niños menores de 3 años al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MIDIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "PP 0001 Articulado Nutricional, FED y Programa de Incentivos a la Mejora de la Gestión Municipal.",
+      "costo_referencial": "no estimado",
+      "indicador": "Anemia en 6–35 meses y desnutrición crónica en menores de 5 años (ENDES).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "EDU-10"
+      ],
+      "riesgo": "Baja adherencia al hierro por efectos secundarios y mensajes poco culturales; padrón nominal desactualizado.",
+      "fuentes": [
+        {
+          "titulo": "INEI – ENDES 2025: resultados (nota oficial en El Peruano)",
+          "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+        },
+        {
+          "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
+          "url": "https://openknowledge.worldbank.org/handle/10986/28321"
+        }
+      ],
+      "pedn": [
+        "AE1.5.6",
+        "AE1.2.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con EDU-01 (Cuna Más)",
+          "decision": "aplicado: se quitó EDU-01; Cuna Más es canal de entrega"
+        }
+      ]
+    },
+    {
+      "id": "SAL-18",
+      "titulo": "Llevar los centros de salud mental comunitarios a todas las provincias",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 30947 de Salud Mental ya establece el modelo comunitario; la expansión se hace por Invierte.pe, el PP 0131 y directivas del MINSA.",
+      "etapa": "2026-2031",
+      "que": "Completar la red de centros de salud mental comunitarios para que cada provincia tenga al menos uno, con hogares protegidos y unidades de hospitalización breve en hospitales generales. Se capacita a todo el primer nivel en la guía mhGAP de la OMS para detectar depresión, ansiedad, consumo de alcohol y riesgo suicida, y se integra la atención con escuelas, programas contra la violencia y servicios para víctimas.",
+      "evidencia": "El modelo comunitario peruano (Ley 30947) amplió el acceso con centros que superaban los 280 en 2024 (MINSA citado por prensa, por verificar); la guía mhGAP de la OMS permite tratar trastornos frecuentes en el primer nivel. La ENDES 2025 reporta 8,6 % de personas de 15 años a más con episodio depresivo en el último año.",
+      "entrega": "Al menos un CSMC en cada una de las 196 provincias y 100 % del primer nivel con personal capacitado en mhGAP al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "MINEDU",
+          "rol": "beneficiaria"
+        },
+        {
+          "sigla": "MIMP",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0131 Control y Prevención en Salud Mental e Invierte.pe.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de provincias con CSMC; % de personas con episodio depresivo que recibieron tratamiento (ENDES).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-11"
+      ],
+      "riesgo": "Falta de psiquiatras y psicólogos en provincias; financiamiento por programa presupuestal vulnerable a recortes.",
+      "fuentes": [
+        {
+          "titulo": "OPS – El Perú evalúa su gestión presupuestal en salud mental (jun-2025)",
+          "url": "https://www.paho.org/es/noticias/13-6-2025-peru-evalua-su-gestion-presupuestal-para-mejorar-salud-mental-poblacion"
+        },
+        {
+          "titulo": "ConsultorSalud – Salud mental en el Perú y centros de salud mental comunitarios",
+          "url": "https://consultorsalud.com/?p=301952"
+        },
+        {
+          "titulo": "OMS – Programa de acción para superar las brechas en salud mental (mhGAP)",
+          "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme"
+        },
+        {
+          "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
+          "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con EDU-25",
+          "decision": "aplicado: se quitó EDU-25"
+        }
+      ]
+    },
+    {
+      "id": "SAL-19",
+      "titulo": "Controlar hipertensión y diabetes en el primer nivel con el protocolo HEARTS",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se implementa con guías clínicas del MINSA, el PP 0018 de Enfermedades No Transmisibles y compras consolidadas de medicamentos.",
+      "etapa": "2026-2031",
+      "que": "Aplicar en todos los centros de salud un protocolo simple y estandarizado de tamizaje y tratamiento de hipertensión y diabetes (iniciativa HEARTS de la OPS): medición de presión y glucosa en cada contacto, tratamiento escalonado con pocos medicamentos de calidad, entrega para tres meses, seguimiento por enfermería y registro en la historia clínica electrónica. Se suman acciones contra la obesidad: etiquetado, entornos escolares saludables y actividad física.",
+      "evidencia": "La iniciativa HEARTS de la OPS mostró aumentos en el control de la hipertensión en países que la adoptaron. En Perú solo 62,8 % de hipertensos diagnosticados recibió tratamiento en 2025 y la obesidad llegó a 27,2 % (ENDES 2025).",
+      "entrega": "Protocolo HEARTS en 100 % de establecimientos del primer nivel al 2030 y registro nominal de hipertensos y diabéticos.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CENARES",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "PP 0018 Enfermedades No Transmisibles y prestaciones del SIS.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de hipertensos con presión controlada (< 140/90) en el registro nominal; % tratados (ENDES).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-14",
+        "SAL-24"
+      ],
+      "riesgo": "Desabastecimiento de antihipertensivos e insulina; baja búsqueda activa de pacientes.",
+      "fuentes": [
+        {
+          "titulo": "OPS – Iniciativa HEARTS en las Américas",
+          "url": "https://www.paho.org/es/hearts-americas"
+        },
+        {
+          "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
+          "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.1",
+        "AE1.2.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con EDU-28",
+          "decision": "aplicado: se quitó EDU-28; EDU-28 depende de esta acción"
+        }
+      ]
+    },
+    {
+      "id": "SAL-20",
+      "titulo": "Detectar temprano el cáncer y regionalizar la atención oncológica",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 31336, Ley Nacional del Cáncer, ya garantiza cobertura; su implementación es por reglamento, Invierte.pe y el PP 0024.",
+      "etapa": "2031-2036",
+      "que": "Tamizaje con prueba molecular de VPH para cáncer de cuello uterino y vacunación contra VPH en escolares, mamografía organizada por citas en mujeres de 50 a 69 años, y detección de cáncer gástrico y de próstata según guías. Se crean unidades oncológicas regionales (quimioterapia, cirugía, radioterapia en macrorregiones) conectadas al INEN por telesalud, para que los pacientes no tengan que mudarse a Lima. La vacunación escolar se coordina con la escuela saludable (EDU-28).",
+      "evidencia": "La OMS plantea eliminar el cáncer de cuello uterino con vacunación, tamizaje con pruebas de alto rendimiento y tratamiento oportuno (metas 90-70-90). En Perú, solo 24,4 % de mujeres de 30 a 49 años se hizo prueba de VPH o IVAA en tres años (ENDES 2025).",
+      "entrega": "Cobertura de tamizaje VPH ≥ 70 % en mujeres de 30 a 49 años y unidades oncológicas en todas las macrorregiones al 2036.",
+      "responsable": "INEN",
+      "entidades": [
+        {
+          "sigla": "INEN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "PP 0024 Prevención y Control del Cáncer, Invierte.pe y SIS (FISSAL).",
+      "costo_referencial": "no estimado",
+      "indicador": "% de mujeres de 30 a 49 años con prueba de VPH en 3 años (ENDES); % de casos diagnosticados en estadios tempranos.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-03"
+      ],
+      "riesgo": "Tamizar sin capacidad de diagnóstico y tratamiento posterior; equipos de radioterapia sin mantenimiento.",
+      "fuentes": [
+        {
+          "titulo": "OMS – Iniciativa para la eliminación del cáncer de cuello uterino",
+          "url": "https://www.who.int/initiatives/cervical-cancer-elimination-initiative"
+        },
+        {
+          "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
+          "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.2",
+        "AE1.2.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con EDU-28",
+          "decision": "aplicado: se quitó EDU-28; EDU-28 depende de esta acción"
+        }
+      ]
+    },
+    {
+      "id": "SAL-21",
+      "titulo": "Preparar el sistema para el envejecimiento con geriatría y cuidados de largo plazo",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se organiza con normas técnicas del MINSA, la Ley 30490 de la Persona Adulta Mayor y programas del MIMP y MIDIS; un sistema nacional de cuidados con financiamiento propio podría requerir ley más adelante.",
+      "etapa": "2031-2036",
+      "que": "Cada red integra atención geriátrica en el primer nivel (valoración funcional, prevención de caídas, polifarmacia, demencias), atención domiciliaria y cuidados paliativos, y se crean centros de día y una red de cuidadores formados y certificados, en coordinación con municipios y Pensión 65. Se forma personal en geriatría y gerontología. También se adaptan los establecimientos para personas con movilidad reducida y se capacita a familias cuidadoras, priorizando a quienes viven solas o en pobreza.",
+      "evidencia": "La ENDES 2025 muestra que la población de 60 años a más subió a 16,1 % y que 13,2 % de ellos vive en hogares unipersonales o no familiares. Uruguay creó en 2015 un Sistema Nacional Integrado de Cuidados como referencia regional.",
+      "entrega": "Equipos de atención domiciliaria y paliativa en todas las redes y centros de día en provincias con mayor población mayor al 2036.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MIMP",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MIDIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto de MINSA, EsSalud y MIMP; por identificar un financiamiento de largo plazo para cuidados.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de personas de 60 años a más con valoración geriátrica anual; N.º de personas en atención domiciliaria.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "SAL-19"
+      ],
+      "riesgo": "Que el cuidado recaiga en mujeres de la familia sin apoyo; falta de financiamiento sostenible.",
+      "fuentes": [
+        {
+          "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
+          "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.2.3",
+        "AE1.5.1"
+      ]
+    },
+    {
+      "id": "SAL-22",
+      "titulo": "Blindar al país contra dengue y emergencias climáticas con vigilancia y planes hospitalarios",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo ejecutan el CDC, el INS y las DIRESA con el PP 0017 (metaxénicas) y el PP 0068 (desastres); los pilotos de control biológico requieren autorización sanitaria y ambiental, no ley.",
+      "etapa": "2026-2031",
+      "que": "Vigilancia entomológica y de casos en tiempo real con alertas climáticas del SENAMHI y del ENFEN; control vectorial con participación municipal y escolar; pilotos evaluados de mosquitos con Wolbachia en Piura, Tumbes y Lambayeque; red de unidades febriles y hospitales con planes de expansión de camas para epidemias y El Niño; y laboratorios regionales del INS con capacidad genómica para detectar nuevos patógenos.",
+      "evidencia": "Un ensayo aleatorizado en Yogyakarta (Indonesia) redujo en 77 % el dengue sintomático con mosquitos con Wolbachia (Utarini et al., NEJM 2021). El brote peruano de 2023 superó los 270 000 casos y 440 muertes (MINSA).",
+      "entrega": "Sala situacional nacional integrada clima–salud y planes de contingencia hospitalaria aprobados y probados en todas las regiones de costa norte y Amazonía al 2028.",
+      "responsable": "CDC-MINSA",
+      "entidades": [
+        {
+          "sigla": "CDC-MINSA",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "INS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SENAMHI",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MUNICIPALIDADES",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "INDECI",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "PP 0017 y PP 0068, fondos de contingencia ante El Niño, cooperación (OPS, Banco Mundial).",
+      "costo_referencial": "no estimado",
+      "indicador": "Letalidad por dengue; tiempo entre alerta climática y activación de planes de contingencia.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-24"
+      ],
+      "riesgo": "Financiar solo la respuesta y no la prevención; rotación de personal capacitado tras cada emergencia.",
+      "fuentes": [
+        {
+          "titulo": "La Nación (AFP) – Más de 440 muertos por dengue en Perú en 2023 (cifras MINSA)",
+          "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
+        },
+        {
+          "titulo": "Utarini et al. (2021) – Wolbachia-infected mosquitoes to control dengue, NEJM",
+          "url": "https://doi.org/10.1056/NEJMoa2030243"
+        }
+      ],
+      "pedn": [
+        "AE1.2.2",
+        "AE2.2.5"
+      ]
+    },
+    {
+      "id": "SAL-23",
+      "titulo": "Reducir la mortalidad materna con casas de espera, transporte y emergencias obstétricas",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta con el PP 0002 Salud Materno Neonatal y normas técnicas del MINSA.",
+      "etapa": "2026-2031",
+      "que": "Asegurar que toda gestante de zonas rurales y amazónicas tenga control prenatal temprano, plan de parto, acceso a casas de espera materna, transporte fluvial o aéreo de emergencia y un establecimiento con funciones obstétricas y neonatales esenciales a menos de dos horas. Se capacita en emergencias obstétricas, se garantiza sangre segura y se amplía el parto vertical con acompañamiento cultural.",
+      "evidencia": "Las muertes maternas bajaron a 244 en 2024, mínimo desde 2000, pero Loreto concentra cerca de una cuarta parte; la OPS y el MINSA refuerzan competencias en emergencias obstétricas allí (OPS, 2025).",
+      "entrega": "Establecimientos FONE operativos en todas las redes y transporte de emergencia materna disponible en todos los distritos amazónicos al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "MINDEF",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "PP 0002 Salud Materno Neonatal y prestaciones del SIS.",
+      "costo_referencial": "no estimado",
+      "indicador": "Muertes maternas anuales y razón de mortalidad materna por región (CDC-MINSA).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-03",
+        "SAL-25"
+      ],
+      "riesgo": "Falta de especialistas y de sangre en hospitales amazónicos; transporte de emergencia sin mantenimiento.",
+      "fuentes": [
+        {
+          "titulo": "El Comercio – Mortalidad materna 2024 (Sala situacional MINSA)",
+          "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
+        },
+        {
+          "titulo": "CDC-MINSA – Situación de la mortalidad materna, SE 27-2025",
+          "url": "https://www.dge.gob.pe/portal/docs/tools/teleconferencia/2025/SE272025/03.pdf"
+        },
+        {
+          "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
+          "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
+        }
+      ],
+      "pedn": [
+        "AE1.2.4",
+        "AE1.2.3"
+      ]
+    },
+    {
+      "id": "SAL-24",
+      "titulo": "Implantar la historia clínica electrónica interoperable y la telesalud en todo el primer nivel",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La RM 553-2025/MINSA ya hace obligatorio el SIHCE en el primer nivel y la Ley 30024 y la Ley 30421 dan el marco; los cambios legales de fondo están propuestos en TAL-06 y TAL-07 de la Agenda Tech.",
+      "etapa": "2026-2031",
+      "que": "Completar la historia clínica electrónica del MINSA en todos los establecimientos públicos del primer nivel, con conectividad, computadoras, energía y soporte, interoperable con EsSalud, sanidades y privados mediante estándares comunes, y con acceso del paciente a su historia y recetas desde el celular. La telesalud conecta cada posta con especialistas para teleconsulta, telemonitoreo y lectura de imágenes. La seguridad de los datos sigue estándares nacionales de ciberseguridad. SAL-24 lleva la parte clínica; la infraestructura digital, la validación de recetas sin conexión y el registro de software clínico con IA van en DIG-19.",
+      "evidencia": "En enero de 2023 la HCE estaba implementada en 14 % del primer nivel (Videnza); en Arequipa solo cerca de 30 % de 230 establecimientos tenía equipos e internet adecuados (Correo). Uruguay (Salud.uy) logró HCE nacional interoperable.",
+      "entrega": "100 % de establecimientos públicos del primer nivel con HCE interoperable en uso y telesalud operativa al 2031.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PCM-SGTD",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUSALUD",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto del MINSA y GORE, Invierte.pe (proyectos TIC), préstamos multilaterales para transformación digital en salud.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de establecimientos del primer nivel con HCE en uso diario; N.º de teleconsultas por 1 000 habitantes rurales.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TAL-06",
+        "TAL-07",
+        "CON-13",
+        "CON-15"
+      ],
+      "riesgo": "Sistemas paralelos incompatibles entre subsistemas; establecimientos sin internet ni electricidad; brechas de ciberseguridad con datos sensibles.",
+      "fuentes": [
+        {
+          "titulo": "Infobae – MINSA dispone uso obligatorio de historia clínica electrónica en el primer nivel (RM 553-2025/MINSA)",
+          "url": "https://www.infobae.com/peru/2025/08/30/minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud/"
+        },
+        {
+          "titulo": "Congreso – Proyecto de ley sobre historia clínica electrónica (cita a Videnza: HCE en 14,03 % del primer nivel, ene-2023)",
+          "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/MzEwMDgx/pdf"
+        },
+        {
+          "titulo": "Correo – Arequipa: pocos centros de salud listos para la digitalización",
+          "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-pocos-centros-de-salud-estan-listos-para-la-digitalizacion-noticia/"
+        }
+      ],
+      "pedn": [
+        "AE4.5.4",
+        "AE1.2.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Duplicado con DIG-19 en etapa y meta",
+          "decision": "aplicado: SAL-24 se queda con HCE y telesalud (2026-2031, 100 % al 2031); DIG-19 debe reformularse a infraestructura y depender de SAL-24"
+        }
+      ]
+    },
+    {
+      "id": "SAL-25",
+      "titulo": "Adecuar los servicios a la cultura y lengua de pueblos indígenas y afroperuanos",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "La Política Sectorial de Salud Intercultural (DS 016-2016-SA) ya da el marco; se implementa con normas técnicas, presupuesto y contratación de personal.",
+      "etapa": "2026-2031",
+      "que": "Cada red con población indígena cuenta con intérpretes y personal que hable la lengua local, agentes comunitarios de salud con pago y formación, parto vertical y casas de espera adecuadas, articulación respetuosa con la medicina tradicional y brigadas itinerantes fluviales en la Amazonía. Las comunidades participan en la gestión local de salud y se aplica consulta previa cuando corresponda. Los materiales educativos se producen en lenguas originarias.",
+      "evidencia": "La política intercultural de 2016 surgió tras una acción de las organizaciones indígenas y la Defensoría; los estudios cualitativos muestran que la falta de adecuación cultural explica que mujeres quechuas eviten los centros de salud (IEP, PUCP).",
+      "entrega": "Intérpretes o personal bilingüe en 100 % de establecimientos de distritos con mayoría indígena al 2031; agentes comunitarios remunerados en todas las comunidades amazónicas.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto de MINSA y GORE; PP 0002 y PP 0001.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de establecimientos en distritos indígenas con personal bilingüe; parto institucional en comunidades indígenas.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "SAL-01",
+        "GOB-23"
+      ],
+      "riesgo": "Interculturalidad declarativa sin presupuesto; rotación del personal bilingüe.",
+      "fuentes": [
+        {
+          "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
+          "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
+        }
+      ],
+      "pedn": [
+        "AE4.5.1",
+        "AE1.2.3"
+      ]
+    },
+    {
+      "id": "SAL-26",
+      "titulo": "Crear una agencia independiente de evaluación de tecnologías sanitarias para todo el sistema",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "Crear un organismo público con autonomía técnica y decisiones vinculantes para todas las IAFAS requiere ley; por crear organismo y gasto, no puede ser iniciativa congresal (art. 79). Alternativa: fusionar capacidades existentes (IETSI de EsSalud, INS) por iniciativa del Ejecutivo.",
+      "etapa": "2031-2036",
+      "que": "Una agencia nacional, con base en las capacidades del IETSI de EsSalud y del INS, evalúa con evidencia y costo-efectividad qué medicamentos, dispositivos y procedimientos entran al plan común de beneficios, a qué precio y en qué condiciones. Sus informes son públicos y vinculantes para SIS, EsSalud y sanidades, lo que ordena las decisiones caso por caso. Las decisiones de la agencia son impugnables y no limitan el amparo; su evidencia pública sirve de referencia a los jueces. Puede también evaluar sistemas de IA clínica.",
+      "evidencia": "NICE (Reino Unido) y CONITEC (Brasil) muestran que una evaluación de tecnologías independiente ordena la cobertura y negocia precios; el IETSI de EsSalud ya realiza dictámenes técnicos para su red.",
+      "entrega": "Agencia nacional de evaluación de tecnologías sanitarias operativa y PEAS actualizado con sus dictámenes al 2034.",
+      "responsable": "MINSA",
+      "entidades": [
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ESSALUD",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "INS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SIS",
+          "rol": "beneficiaria"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Fusión de presupuestos existentes de IETSI e INS; costo adicional por identificar.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de dictámenes públicos por año; % de decisiones de cobertura basadas en dictamen.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "IA-08"
+      ],
+      "riesgo": "Presión de la industria y litigios; agencia sin independencia real frente al ministro de turno.",
+      "fuentes": [
+        {
+          "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
+          "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
+        }
+      ],
+      "pedn": [
+        "AE1.2.7",
+        "AE4.5.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con SAL-08",
+          "decision": "aplicado: se quitó SAL-08; el plan común usa la agencia"
+        },
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "No limitar tutela jurisdiccional al reducir judicialización",
+          "decision": "aplicado: decisiones impugnables y sin límite al amparo"
+        }
+      ]
     }
-   ],
-   "financiamiento": "Presupuesto de los programas presupuestales de salud y transferencias del SIS; reasignación progresiva desde gasto hospitalario de baja complejidad.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de la población con equipo de salud asignado y al menos un contacto preventivo al año (registro HIS/HCE).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-11",
-    "SAL-24",
-    "TAL-06"
-   ],
-   "riesgo": "Que se renombre la posta sin agregar personal ni medicamentos; sin médicos de familia y sin HCE, la adscripción queda en papel.",
-   "fuentes": [
+  ],
+  "articulacion": [
     {
-     "titulo": "Macinko y Harris (2015) – Brazil's Family Health Strategy, NEJM",
-     "url": "https://doi.org/10.1056/NEJMp1501140"
+      "con": "educacion",
+      "como": "La anemia y la desnutrición en los primeros mil días reducen los aprendizajes: SAL-17 comparte padrón nominal con educación inicial; la escuela es punto de vacunación VPH, tamizaje visual y salud mental (SAL-18, SAL-20)."
     },
     {
-     "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
-     "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
+      "con": "agua-saneamiento",
+      "como": "Sin agua segura y saneamiento la anemia, la diarrea y el dengue no bajan: SAL-17 y SAL-22 dependen de las inversiones de Vivienda y municipios."
+    },
+    {
+      "con": "proteccion-social",
+      "como": "Juntos, Cuna Más y Pensión 65 condicionan o complementan controles de salud; los cuidados de largo plazo (SAL-21) requieren un sistema de cuidados compartido."
+    },
+    {
+      "con": "ambiente",
+      "como": "El cambio climático y El Niño amplían el dengue y las emergencias: SAL-22 usa alertas del SENAMHI y el ENFEN."
+    },
+    {
+      "con": "trabajo",
+      "como": "La reforma de EsSalud (SAL-10) y la portabilidad (SAL-08) dependen de la formalidad laboral: más empleo formal significa más aportes y más asegurados contributivos."
+    },
+    {
+      "con": "estado-descentralizacion",
+      "como": "Redes, obras y personal dependen de los gobiernos regionales (SAL-02, SAL-03, SAL-13); la priorización técnica de inversiones (SAL-06) es parte de la reforma de la inversión pública."
     }
-   ],
-   "pedn": [
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-02",
-   "titulo": "Implementar las Redes Integradas de Salud con gestión por resultados en todas las regiones",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 30885 ya establece la conformación y funcionamiento de las RIS; falta implementarla mediante decreto supremo, convenios MINSA–GORE y asignación presupuestal por red.",
-   "etapa": "2026-2031",
-   "que": "Organizar los establecimientos de cada provincia como una sola red —postas, centros de salud con camas, hospital de referencia y transporte sanitario— con un gerente responsable de resultados sanitarios (anemia, control de crónicos, partos atendidos, tiempos de espera) y un presupuesto por red, no por establecimiento suelto. Se priorizan regiones con mayor mortalidad materna y anemia. Cada red publica su tablero de metas y su lista de espera.",
-   "evidencia": "La OPS recomienda las Redes Integradas de Servicios de Salud como respuesta a la fragmentación en las Américas; Perú tiene la Ley 30885 (2018) cuya implementación ha sido parcial y concentrada en Lima Metropolitana.",
-   "entrega": "Redes Integradas de Salud funcionando con gerente, presupuesto y tablero público en las 25 regiones al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "SUSALUD",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Presupuesto existente de los pliegos MINSA y GORE reordenado por red; incentivos del MEF mediante convenios de apoyo presupuestal.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de redes con gerencia, presupuesto por red y tablero de resultados publicado.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-24"
-   ],
-   "riesgo": "Resistencia de los gobiernos regionales a ceder control de nombramientos y presupuesto; cambios frecuentes de gerentes.",
-   "fuentes": [
-    {
-     "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
-     "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
-    },
-    {
-     "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
-     "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-03",
-   "titulo": "Cerrar la brecha de centros de salud del primer nivel en distritos pobres",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta mediante Invierte.pe (programas de inversión), la Programación Multianual de Inversiones del sector y obras por impuestos; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Un programa nacional de inversión, ordenado por la Programación Multianual del MINSA, construye o repotencia centros de salud estratégicos (categorías I-3 e I-4, con laboratorio, rayos X, atención de partos y telesalud) en los distritos de quintil 1 y 2 y en la Amazonía, con diseños tipo, energía de respaldo y conectividad. Se prioriza por brecha y población, no por pedido político, y cada obra entra con presupuesto de mantenimiento y de personal asegurado.",
-   "evidencia": "El diagnóstico de brechas del MINSA (2021) estimó que faltaban 1 791 establecimientos de primer nivel y que casi todos los existentes no cumplen las normas técnicas; la evidencia internacional muestra que el primer nivel resolutivo reduce hospitalizaciones evitables (OPS).",
-   "entrega": "Centros de salud I-3/I-4 nuevos o repotenciados en todos los distritos de quintil 1 y 2 sin oferta adecuada al 2036 (meta intermedia de 30 % de la brecha al 2031).",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PRONIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Invierte.pe con recursos ordinarios, canon y sobrecanon regional, obras por impuestos y endeudamiento con banca multilateral (BID, Banco Mundial).",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de establecimientos de primer nivel que cumplen la NTS de infraestructura y equipamiento, por distrito.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-04",
-    "SAL-05",
-    "CON-13",
-    "CON-15"
-   ],
-   "riesgo": "Construir edificios sin personal ni mantenimiento; dispersión del presupuesto en proyectos pequeños sin priorización.",
-   "fuentes": [
-    {
-     "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
-     "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
-    },
-    {
-     "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
-     "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-04",
-   "titulo": "Rescatar las obras de salud paralizadas con una unidad especializada",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "El MEF y el MINSA pueden crear la unidad y el procedimiento por decreto supremo; la Ley 31589 (reactivación de obras paralizadas) y el control concurrente de la Contraloría ya dan base legal.",
-   "etapa": "2026-2031",
-   "que": "Inventariar todos los hospitales y centros de salud paralizados, clasificarlos (terminar, rediseñar o cerrar) y asignarlos a una unidad técnica que contrate saldos de obra con expedientes revisados, supervisión independiente y control concurrente. Las obras sin viabilidad sanitaria se cierran y se publica la razón. Se publica un tablero con fecha comprometida de término y responsable por obra. Los recursos liberados por obras cerradas se reasignan a la cartera priorizada.",
-   "evidencia": "La Contraloría reportó en 2025 más de 2 400 obras paralizadas con más de S/ 43 000 millones inmovilizados, con salud entre los sectores más afectados, y lanzó control preventivo para reactivarlas.",
-   "entrega": "Todas las obras de salud paralizadas al 2026 con decisión técnica tomada y, las viables, culminadas al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PRONIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto de inversiones del pliego y de los GORE; reasignación de proyectos no iniciados.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º y monto de obras de salud paralizadas (registro de la Contraloría y del Banco de Inversiones).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-05"
-   ],
-   "riesgo": "Litigios y arbitrajes con contratistas que congelan la obra; expedientes técnicos deficientes.",
-   "fuentes": [
-    {
-     "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
-     "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-05",
-   "titulo": "Construir hospitales con diseños tipo, contratos colaborativos y mantenimiento incluido",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 32069 de Contrataciones Públicas y su reglamento permiten modalidades colaborativas y acuerdos Estado a Estado; se instrumenta con directivas del MINSA y del OECE.",
-   "etapa": "2026-2031",
-   "que": "El MINSA aprueba expedientes tipo para hospitales II-1, II-2 y centros I-4 (adaptados a costa, sierra y selva) y una oficina de gestión de proyectos que los ejecuta con contratos colaborativos y equipamiento y mantenimiento por 10 años incluidos. Así se acortan diseños, se reducen adicionales y se evita entregar hospitales sin equipos. Los gobiernos regionales pueden adherirse a la cartera.",
-   "evidencia": "La reconstrucción con cambios y los acuerdos Estado a Estado para obras de los Juegos Panamericanos y hospitales del norte mostraron plazos menores que la contratación tradicional, aunque con debates sobre costo y transferencia de capacidades (evaluación independiente por verificar).",
-   "entrega": "Catálogo de expedientes tipo aprobado al 2027 y una cartera priorizada de hospitales ejecutada bajo ese modelo.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PRONIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OECE",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Invierte.pe, endeudamiento externo, APP para servicios no clínicos (mantenimiento, limpieza) donde el análisis de valor por dinero lo justifique.",
-   "costo_referencial": "no estimado",
-   "indicador": "Plazo promedio entre viabilidad y puesta en funcionamiento de hospitales; % de hospitales entregados con equipamiento completo.",
-   "deroga_o_simplifica": [],
-   "depende_de": [],
-   "riesgo": "Sobrecostos poco transparentes en contratos Estado a Estado y baja transferencia de capacidades a entidades peruanas.",
-   "fuentes": [
-    {
-     "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
-     "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
-    },
-    {
-     "titulo": "MEF – Guía del presupuesto público 2026",
-     "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7",
-    "AE2.2.4"
-   ]
-  },
-  {
-   "id": "SAL-06",
-   "titulo": "Derogar leyes declarativas de hospitales y sustituirlas por la cartera priorizada técnica",
-   "tipo": "derogacion",
-   "necesita_ley": "si",
-   "por_que_ley": "Solo una ley puede derogar otra ley. Es una ley de depuración sin gasto, admisible por iniciativa congresal.",
-   "etapa": "2026-2031",
-   "que": "Una ley de depuración deroga las leyes que solo 'declaran de necesidad pública e interés nacional' la construcción de hospitales específicos —que no asignan presupuesto ni obligan a nadie— y dispone que la priorización se haga únicamente por la Programación Multianual de Inversiones del MINSA, con criterios públicos de brecha, población y costo-efectividad. Los proyectos citados en esas leyes se evalúan con esos mismos criterios; si califican, entran en la cartera.",
-   "evidencia": "El Congreso aprueba con frecuencia leyes declarativas de hospitales (p. ej., Ley 31238 sobre un hospital III-1 en Arequipa), reconocidas por los propios legisladores como 'declarativas'; generan expectativas sin financiamiento.",
-   "entrega": "Una ley de depuración que deroga las leyes declarativas de obras de salud y un registro público de la cartera priorizada.",
-   "responsable": "CONGRESO",
-   "entidades": [
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "No requiere gasto.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de leyes declarativas de obras de salud vigentes; % de inversión sanitaria asignada según cartera priorizada.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Ley 31238 (declara de interés nacional y necesidad pública un hospital III-1 en Arequipa) y leyes declarativas análogas",
-     "motivo": "No asignan recursos ni obligan; distorsionan la priorización técnica y generan expectativas que no se cumplen."
-    }
-   ],
-   "depende_de": [
-    "SAL-03"
-   ],
-   "riesgo": "Costo político de derogar leyes de interés local; nuevas leyes declarativas podrían seguir aprobándose.",
-   "fuentes": [
-    {
-     "titulo": "Congreso – Ejemplo de ley declarativa de construcción de hospital",
-     "url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-declara-de-necesidad-publica-construccion-de-hospital-ii-1-en-calca-en-cusco"
-    },
-    {
-     "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
-     "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE4.5.2",
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-07",
-   "titulo": "Automatizar el intercambio prestacional con tarifario único y liquidación electrónica",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "El DL 1302 (modificado por la Ley 32240) ya habilita el intercambio; lo que falta se resuelve modificando su reglamento (DS 012-2019-SA) y con un tarifario aprobado por decreto supremo.",
-   "etapa": "2026-2031",
-   "que": "En lugar de firmar convenios región por región, se aprueba un convenio marco nacional entre SIS, EsSalud, sanidades de FFAA y PNP, con un tarifario único por procedimiento y liquidación electrónica mensual compensada a través de SUSALUD. Cualquier asegurado puede atenderse en el establecimiento público más cercano con capacidad, empezando por emergencias, partos, diálisis, oncología y ayuda diagnóstica. Los pagos pendientes entre seguros se compensan cada mes y las disputas las resuelve SUSALUD en plazos cortos.",
-   "evidencia": "Los convenios de intercambio prestacional ya operan en regiones como La Libertad y Amazonas, pero su alcance es limitado por la negociación caso por caso (EsSalud). La Ley 32240 (2025) ordenó adecuar el reglamento y los tarifarios.",
-   "entrega": "Convenio marco nacional y tarifario único vigentes al 2028; liquidación electrónica mensual operativa entre todas las IAFAS públicas.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "MINDEF",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MININTER",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUSALUD",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Presupuestos institucionales de cada IAFAS (art. 5 del DL 1302 modificado por Ley 32240).",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de atenciones intercambiadas por año y días promedio de liquidación entre IAFAS.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Decreto Supremo 012-2019-SA (Reglamento del DL 1302)",
-     "motivo": "Sustituir la firma de convenios específicos por establecimiento por un convenio marco nacional con tarifario único y liquidación automática."
-    }
-   ],
-   "depende_de": [
-    "SAL-24",
-    "TAL-06"
-   ],
-   "riesgo": "Desconfianza entre IAFAS por deudas acumuladas y tarifas que no cubren costos; EsSalud teme subsidiar al SIS.",
-   "fuentes": [
-    {
-     "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
-     "url": "https://www.essalud.gob.pe/?p=24058"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-08",
-   "titulo": "Aprobar la ley de portabilidad y plan de beneficios común entre todos los seguros",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "La portabilidad entre regímenes y un plan de beneficios común exigible a EsSalud, SIS y sanidades afectan derechos de asegurados y fondos de la seguridad social, intangibles según el art. 12 de la Constitución: requieren ley. Por crear gasto, debe ser iniciativa del Poder Ejecutivo (art. 79).",
-   "etapa": "2031-2036",
-   "que": "La ley establece que todo asegurado tiene un mismo Plan Esencial de Aseguramiento en Salud ampliado y actualizado cada tres años con evaluación de tecnologías, que el seguro 'sigue a la persona' cuando cambia de empleo o pierde el trabajo, y que las IAFAS compran servicios a cualquier prestador público o privado acreditado con reglas comunes. Prepara la convergencia gradual de los fondos sin confiscar aportes de EsSalud.",
-   "evidencia": "Colombia y Chile (GES/AUGE) mostraron que un plan de beneficios explícito y exigible reduce la discrecionalidad; Tailandia integró sus esquemas bajo reglas comunes de compra. En Perú el PEAS existe desde la Ley 29344 pero no se ha actualizado con regularidad.",
-   "entrega": "Ley de portabilidad y plan común; PEAS actualizado y publicado con costeo.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUSALUD",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    }
-   ],
-   "financiamiento": "Recursos ordinarios para el SIS y aportes a EsSalud; requiere análisis de sostenibilidad fiscal del MEF.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de asegurados que mantienen cobertura continua al cambiar de régimen; N.º de condiciones con garantía explícita.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-07",
-    "SAL-09",
-    "SAL-26"
-   ],
-   "riesgo": "Oposición de gremios y de EsSalud a cualquier convergencia de fondos; promesas de cobertura sin financiamiento.",
-   "fuentes": [
-    {
-     "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
-     "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
-    },
-    {
-     "titulo": "Andina – INEI: 91,1 % de la población cuenta con seguro de salud (ENAHO I trim. 2025)",
-     "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE3.2.2"
-   ]
-  },
-  {
-   "id": "SAL-09",
-   "titulo": "Pagar a los establecimientos por población atendida y resultados, no por historial",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Los mecanismos de pago del SIS (cápita, pago por prestación, convenios de gestión) se fijan por resolución jefatural y convenios; el MEF los articula con programas presupuestales.",
-   "etapa": "2026-2031",
-   "que": "El SIS paga al primer nivel una cápita ajustada por edad, ruralidad y riesgo por cada persona adscrita, con un componente de pago por desempeño (niños sin anemia, hipertensos controlados, gestantes con controles completos) verificado con la historia clínica electrónica. Las transferencias se hacen al inicio del año con un calendario conocido, y se reduce la deuda acumulada con prestadores mediante conciliación.",
-   "evidencia": "El Perú tiene experiencia con convenios de gestión e incentivos (Programa de Incentivos Municipales, FED) asociados a mejoras en indicadores nutricionales; el pago capitado con desempeño se usa en Reino Unido, Costa Rica y Turquía.",
-   "entrega": "Nuevo mecanismo de pago capitado con desempeño aplicado al 100 % del primer nivel financiado por el SIS al 2030.",
-   "responsable": "SIS",
-   "entidades": [
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto del SIS (pliego 135) reorganizado; la Ley de Presupuesto 2026 asignó S/ 2 535 millones para continuidad del aseguramiento universal (MEF).",
-   "costo_referencial": "no estimado",
-   "indicador": "% del financiamiento SIS al primer nivel pagado por cápita ajustada y desempeño; plazo medio de transferencia.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-24"
-   ],
-   "riesgo": "Falsificación de registros para cobrar incentivos; deuda histórica que paraliza a los prestadores.",
-   "fuentes": [
-    {
-     "titulo": "MEF – Guía del presupuesto público 2026",
-     "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
-    },
-    {
-     "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
-     "url": "https://openknowledge.worldbank.org/handle/10986/28321"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-10",
-   "titulo": "Modernizar el gobierno corporativo de EsSalud con directorio técnico y cuentas separadas",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "La conformación del Consejo Directivo y la organización de EsSalud están en la Ley 27056; separar sus funciones de seguro y de prestador y cambiar su gobierno requiere modificar esa ley.",
-   "etapa": "2026-2031",
-   "que": "Se modifica la Ley 27056 para que EsSalud tenga un directorio con mayoría de miembros independientes elegidos por concurso, presidente con mandato fijo, separación contable entre el fondo asegurador y la red de hospitales, auditoría actuarial anual pública y la obligación de comprar a terceros cuando sus propios servicios no cumplan tiempos de espera. Los aportes de los trabajadores siguen siendo intangibles.",
-   "evidencia": "La OCDE recomienda a Perú fortalecer la gobernanza de EsSalud y separar funciones de financiamiento y provisión (Estudio de los Sistemas de Salud: Perú, OCDE 2017, por verificar enlace). La rotación de presidentes de EsSalud ha sido alta en la última década.",
-   "entrega": "Ley que reforma el gobierno corporativo de EsSalud; estudio actuarial y tiempos de espera publicados anualmente.",
-   "responsable": "MTPE",
-   "entidades": [
-    {
-     "sigla": "MTPE",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SBS",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    }
-   ],
-   "financiamiento": "Aportes a EsSalud; no crea gasto público adicional.",
-   "costo_referencial": "no estimado",
-   "indicador": "Permanencia promedio de la alta dirección; publicación del estudio actuarial; tiempo de espera para cita con especialista.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-07"
-   ],
-   "riesgo": "Captura del directorio por intereses políticos o gremiales pese al concurso.",
-   "fuentes": [
-    {
-     "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
-     "url": "https://www.essalud.gob.pe/?p=24058"
-    },
-    {
-     "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
-     "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
-    }
-   ],
-   "pedn": [
-    "AE3.2.2",
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-11",
-   "titulo": "Formar especialistas en sedes regionales y priorizar medicina familiar",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El Sistema Nacional de Residentado Médico (Ley 30453) ya permite definir plazas por especialidad y sede; la priorización se hace por acuerdos del CONAREME y financiamiento del MINSA y GORE.",
-   "etapa": "2026-2031",
-   "que": "Duplicar las plazas de residentado en medicina familiar, ginecobstetricia, pediatría, anestesiología, medicina interna y psiquiatría con sedes docentes en hospitales regionales, no solo en Lima, con plazas cautivas de retorno a la región que financia. Se suman programas de especialización para enfermería, obstetricia y tecnología médica. Las universidades se vinculan a redes sanitarias como campos clínicos. Se publica cada año la brecha de especialistas por región y especialidad para orientar la oferta de plazas.",
-   "evidencia": "Un documento parlamentario indica que cerca de la mitad de los especialistas está en Lima y que faltan ginecólogos, pediatras, anestesiólogos y psiquiatras; la evidencia internacional (OMS, 2010) muestra que formar en zonas rurales y reclutar estudiantes locales aumenta la retención.",
-   "entrega": "Plazas de residentado en especialidades prioritarias duplicadas al 2031, con al menos la mitad en sedes fuera de Lima.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CONAREME",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUNEDU",
-     "rol": "reguladora"
-    }
-   ],
-   "financiamiento": "Presupuesto de residentado de MINSA, GORE y EsSalud; cooperación para formación docente.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de médicos especialistas por 10 000 habitantes por región (Observatorio RHUS MINSA).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-13",
-    "EDU-19"
-   ],
-   "riesgo": "Que los egresados migren a Lima o al extranjero; débil capacidad docente en hospitales regionales.",
-   "fuentes": [
-    {
-     "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
-     "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-12",
-   "titulo": "Reformar el SERUMS como puerta a la carrera rural con tutoría y conectividad",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "parcial",
-   "por_que_ley": "La asignación, duración, remuneración y supervisión se ordenan en el reglamento de la Ley 23330 (decreto supremo). Solo si se cambia el carácter obligatorio o los requisitos establecidos en la ley se necesitaría modificarla.",
-   "etapa": "2026-2031",
-   "que": "Las plazas SERUMS se asignan primero a los distritos con mayor brecha (Amazonía, sierra alta, frontera), con vivienda, conectividad, tutoría remota de especialistas, bonificación diferenciada y puntaje para el residentado. Se elimina la práctica de plazas 'equivalentes' en zonas urbanas cuando hay brecha rural sin cubrir, y se publica la cobertura de plazas por distrito. La experiencia SERUMS cuenta para ingresar a la carrera sanitaria (SAL-13).",
-   "evidencia": "La OMS recomienda combinar incentivos financieros, desarrollo profesional y condiciones de vida para atraer personal a zonas rurales (Recomendaciones mundiales, 2010). El SERUMS es hoy la principal fuente de médicos en el primer nivel rural.",
-   "entrega": "100 % de plazas SERUMS de zonas priorizadas cubiertas, con vivienda y tutoría remota al 2030.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Presupuesto de remuneraciones del MINSA y GORE; bonificaciones del DL 1153.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de plazas SERUMS remuneradas cubiertas en distritos de quintil 1 y Amazonía.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Reglamento de la Ley 23330 del SERUMS (Decreto Supremo 005-97-SA y modificatorias)",
-     "motivo": "Simplificar la asignación de plazas y priorizar por brecha territorial en vez de modalidades equivalentes urbanas."
-    }
-   ],
-   "depende_de": [
-    "SAL-13",
-    "TAL-07"
-   ],
-   "riesgo": "Rechazo de colegios profesionales y estudiantes a plazas más exigentes sin mejoras reales de condiciones.",
-   "fuentes": [
-    {
-     "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
-     "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE1.6.1"
-   ]
-  },
-  {
-   "id": "SAL-13",
-   "titulo": "Crear la carrera sanitaria única con ingreso por mérito e incentivos territoriales",
-   "tipo": "ley",
-   "necesita_ley": "parcial",
-   "por_que_ley": "Unificar regímenes laborales (DL 276, DL 728, CAS) del personal de salud y fijar reglas de carrera exige ley (art. 40 de la Constitución, carrera administrativa). La escala de incentivos puede ajustarse dentro del DL 1153 por decreto supremo. Por crear gasto, la iniciativa debe ser del Ejecutivo.",
-   "etapa": "2031-2036",
-   "que": "Una carrera sanitaria única para médicos, enfermeras, obstetras, técnicos y agentes de salud: ingreso por concurso público, evaluación de desempeño, ascenso por mérito y formación continua, con bonificaciones crecientes por servir en zonas rurales, amazónicas y de frontera. Se ordena el tránsito voluntario y gradual desde los regímenes actuales, con costeo multianual del MEF, y se publica la dotación de personal por establecimiento.",
-   "evidencia": "La Ley del Servicio Civil (Ley 30057) y el DL 1153 iniciaron la ordenación de compensaciones; la OMS (2010) muestra que la combinación de carrera, incentivos y apoyo profesional mejora la retención rural.",
-   "entrega": "Ley de carrera sanitaria y migración de al menos 60 % del personal de salud al nuevo régimen al 2036.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SERVIR",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    }
-   ],
-   "financiamiento": "Presupuesto de personal de MINSA y GORE con costeo multianual del MEF; el PIA 2026 ya incluye S/ 1 043 millones de incrementos remunerativos en salud (MEF).",
-   "costo_referencial": "no estimado",
-   "indicador": "% del personal de salud en carrera única; tasa de permanencia de 3 años en establecimientos rurales.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-11",
-    "SAL-12",
-    "EDU-27"
-   ],
-   "riesgo": "Presión gremial por nivelaciones sin evaluación de desempeño; costo fiscal que crezca sin mejora de servicio.",
-   "fuentes": [
-    {
-     "titulo": "MEF – Guía del presupuesto público 2026",
-     "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-14",
-   "titulo": "Consolidar la compra nacional de medicamentos con operador logístico y trazabilidad",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "El DU 007-2019 ya declara los medicamentos esenciales como parte del derecho a la salud y faculta a CENARES para compras corporativas; se implementa con decretos supremos, encargos y contratos.",
-   "etapa": "2026-2031",
-   "que": "CENARES compra para todos los subsistemas públicos (MINSA, GORE, EsSalud, sanidades) una lista nacional de medicamentos esenciales por subasta inversa o acuerdos marco multianuales, con un operador logístico que distribuye hasta el establecimiento y un sistema de trazabilidad por código que muestra stock en tiempo real. La dirección de CENARES se elige por concurso con mandato fijo. Los gobiernos regionales y EsSalud pueden adherirse por encargo sin perder control de su presupuesto.",
-   "evidencia": "Las compras corporativas generaron ahorros reportados desde 2006 y un estudio de DIGEMID (2025) encontró que 95,7 % de las compras fuera de la compra corporativa tuvo precios mayores; CENARES ha tenido alta rotación directiva (Lampadia, Salud y Fármacos).",
-   "entrega": "Compra nacional consolidada para 100 % de los medicamentos esenciales del PNUME y tablero público de stock por establecimiento al 2029.",
-   "responsable": "CENARES",
-   "entidades": [
-    {
-     "sigla": "CENARES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "beneficiaria"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "beneficiaria"
-    },
-    {
-     "sigla": "PERU COMPRAS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Presupuesto de medicamentos de cada pliego transferido a CENARES por encargo.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de establecimientos con disponibilidad ≥ 80 % de medicamentos esenciales (DIGEMID).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-24"
-   ],
-   "riesgo": "Fallas logísticas de un operador único que dejen sin stock a todo el país; resistencia de EsSalud a compras conjuntas.",
-   "fuentes": [
-    {
-     "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
-     "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE1.2.7"
-   ]
-  },
-  {
-   "id": "SAL-15",
-   "titulo": "Agilizar el registro sanitario reconociendo autoridades de alta vigilancia y publicando precios",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "parcial",
-   "por_que_ley": "El procedimiento de registro está en el Reglamento DS 016-2011-SA y puede simplificarse por decreto supremo; si se busca reconocimiento automático más allá de lo previsto en la Ley 29459, se requiere modificar esa ley.",
-   "etapa": "2026-2031",
-   "que": "DIGEMID aplica 'confianza regulatoria': aprueba en plazos cortos los medicamentos ya autorizados por autoridades de alta vigilancia o precalificados por la OMS, y concentra su capacidad en vigilancia poscomercialización y calidad. El Observatorio de Precios se vuelve datos abiertos con precio de compra pública y de farmacia por producto, para que la gente compare y el Estado detecte sobreprecios. Se publica el plazo real de cada trámite de registro.",
-   "evidencia": "La OMS recomienda las buenas prácticas de confianza (reliance) para acelerar el acceso sin perder calidad (TRS 1033, anexo 10); varias agencias de la región las aplican.",
-   "entrega": "Plazo de registro de medicamentos con reliance ≤ 90 días; observatorio de precios en datos abiertos.",
-   "responsable": "DIGEMID",
-   "entidades": [
-    {
-     "sigla": "DIGEMID",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "INDECOPI",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "PCM",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto de DIGEMID y tasas de registro.",
-   "costo_referencial": "no estimado",
-   "indicador": "Días promedio de registro sanitario; N.º de productos con precio publicado en datos abiertos.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Decreto Supremo 016-2011-SA (Reglamento para el registro, control y vigilancia sanitaria de productos farmacéuticos)",
-     "motivo": "Simplificar el registro de productos ya aprobados por autoridades de alta vigilancia y reducir requisitos duplicados."
-    }
-   ],
-   "depende_de": [
-    "SAL-14"
-   ],
-   "riesgo": "Presión de la industria para evitar competencia de genéricos; riesgo de calidad si se debilita la vigilancia posterior.",
-   "fuentes": [
-    {
-     "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
-     "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
-    },
-    {
-     "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
-     "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
-    }
-   ],
-   "pedn": [
-    "AE4.5.2",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-16",
-   "titulo": "Garantizar genéricos de calidad con receta por denominación común y farmacias del SIS",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El DU 007-2019 y normas de DIGEMID ya obligan a farmacias a ofrecer genéricos esenciales y a recetar por denominación común; se refuerza con fiscalización y convenios del SIS con farmacias privadas.",
-   "etapa": "2026-2031",
-   "que": "Toda receta del sistema público y privado se emite por denominación común internacional en receta electrónica; cuando el establecimiento público no tiene el medicamento, el asegurado del SIS o de EsSalud lo recoge gratis en una farmacia privada adherida, que cobra al seguro a precio de referencia. Se fiscaliza la disponibilidad de genéricos en farmacias y se publican estudios de bioequivalencia.",
-   "evidencia": "El programa Farmácia Popular de Brasil, con farmacias privadas adheridas, amplió el acceso a medicamentos para crónicos (evaluaciones por verificar); DIGEMID reporta incumplimiento parcial de la oferta de genéricos esenciales en farmacias privadas.",
-   "entrega": "Receta electrónica por DCI en 100 % de establecimientos públicos y red de farmacias adheridas en todas las provincias al 2031.",
-   "responsable": "SIS",
-   "entidades": [
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "DIGEMID",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    }
-   ],
-   "financiamiento": "Presupuesto de prestaciones del SIS y EsSalud; ahorro esperado por menor gasto de bolsillo y compras de emergencia.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de recetas del sistema público dispensadas completas; gasto de bolsillo en medicamentos (ENAHO).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-14",
-    "TAL-07"
-   ],
-   "riesgo": "Fraude en el cobro de farmacias adheridas; tarifas que no atraigan a farmacias en zonas rurales.",
-   "fuentes": [
-    {
-     "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
-     "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
-    },
-    {
-     "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
-     "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE3.7.3"
-   ]
-  },
-  {
-   "id": "SAL-17",
-   "titulo": "Entregar un paquete integrado contra anemia y desnutrición a cada niño con padrón nominal",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta con el Programa Articulado Nutricional, el Programa de Incentivos Municipales, el FED y el padrón nominal; no requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Cada niña y niño desde la gestación hasta los 3 años recibe, según el padrón nominal, controles de crecimiento, suplemento de hierro, vacunas, consejería en alimentación con alimentos ricos en hierro y visitas domiciliarias de agentes comunitarios. Se coordina con agua segura y saneamiento (Vivienda), Cuna Más y Juntos (MIDIS), y los municipios reciben incentivos por niño con paquete completo verificado.",
-   "evidencia": "La desnutrición crónica en Perú cayó a casi la mitad entre 2008 y 2016 gracias a la gestión por resultados, el PAN, transferencias condicionadas e incentivos a regiones (Banco Mundial, 2017). El suplemento de hierro subió de 33,8 % a 38,7 % entre 2024 y 2025 (ENDES).",
-   "entrega": "Paquete integrado completo para al menos 80 % de niñas y niños menores de 3 años al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MIDIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "PP 0001 Articulado Nutricional, FED y Programa de Incentivos a la Mejora de la Gestión Municipal.",
-   "costo_referencial": "no estimado",
-   "indicador": "Anemia en 6–35 meses y desnutrición crónica en menores de 5 años (ENDES).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "EDU-01",
-    "EDU-10"
-   ],
-   "riesgo": "Baja adherencia al hierro por efectos secundarios y mensajes poco culturales; padrón nominal desactualizado.",
-   "fuentes": [
-    {
-     "titulo": "INEI – ENDES 2025: resultados (nota oficial en El Peruano)",
-     "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
-    },
-    {
-     "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
-     "url": "https://openknowledge.worldbank.org/handle/10986/28321"
-    }
-   ],
-   "pedn": [
-    "AE1.5.6",
-    "AE1.2.6"
-   ]
-  },
-  {
-   "id": "SAL-18",
-   "titulo": "Llevar los centros de salud mental comunitarios a todas las provincias",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 30947 de Salud Mental ya establece el modelo comunitario; la expansión se hace por Invierte.pe, el PP 0131 y directivas del MINSA.",
-   "etapa": "2026-2031",
-   "que": "Completar la red de centros de salud mental comunitarios para que cada provincia tenga al menos uno, con hogares protegidos y unidades de hospitalización breve en hospitales generales. Se capacita a todo el primer nivel en la guía mhGAP de la OMS para detectar depresión, ansiedad, consumo de alcohol y riesgo suicida, y se integra la atención con escuelas, programas contra la violencia y servicios para víctimas.",
-   "evidencia": "El modelo comunitario peruano (Ley 30947) amplió el acceso con centros que superaban los 280 en 2024 (MINSA citado por prensa, por verificar); la guía mhGAP de la OMS permite tratar trastornos frecuentes en el primer nivel. La ENDES 2025 reporta 8,6 % de personas de 15 años a más con episodio depresivo en el último año.",
-   "entrega": "Al menos un CSMC en cada una de las 196 provincias y 100 % del primer nivel con personal capacitado en mhGAP al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "MINEDU",
-     "rol": "beneficiaria"
-    },
-    {
-     "sigla": "MIMP",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0131 Control y Prevención en Salud Mental e Invierte.pe.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de provincias con CSMC; % de personas con episodio depresivo que recibieron tratamiento (ENDES).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-11",
-    "EDU-25"
-   ],
-   "riesgo": "Falta de psiquiatras y psicólogos en provincias; financiamiento por programa presupuestal vulnerable a recortes.",
-   "fuentes": [
-    {
-     "titulo": "OPS – El Perú evalúa su gestión presupuestal en salud mental (jun-2025)",
-     "url": "https://www.paho.org/es/noticias/13-6-2025-peru-evalua-su-gestion-presupuestal-para-mejorar-salud-mental-poblacion"
-    },
-    {
-     "titulo": "ConsultorSalud – Salud mental en el Perú y centros de salud mental comunitarios",
-     "url": "https://consultorsalud.com/?p=301952"
-    },
-    {
-     "titulo": "OMS – Programa de acción para superar las brechas en salud mental (mhGAP)",
-     "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme"
-    },
-    {
-     "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
-     "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.5"
-   ]
-  },
-  {
-   "id": "SAL-19",
-   "titulo": "Controlar hipertensión y diabetes en el primer nivel con el protocolo HEARTS",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se implementa con guías clínicas del MINSA, el PP 0018 de Enfermedades No Transmisibles y compras consolidadas de medicamentos.",
-   "etapa": "2026-2031",
-   "que": "Aplicar en todos los centros de salud un protocolo simple y estandarizado de tamizaje y tratamiento de hipertensión y diabetes (iniciativa HEARTS de la OPS): medición de presión y glucosa en cada contacto, tratamiento escalonado con pocos medicamentos de calidad, entrega para tres meses, seguimiento por enfermería y registro en la historia clínica electrónica. Se suman acciones contra la obesidad: etiquetado, entornos escolares saludables y actividad física.",
-   "evidencia": "La iniciativa HEARTS de la OPS mostró aumentos en el control de la hipertensión en países que la adoptaron. En Perú solo 62,8 % de hipertensos diagnosticados recibió tratamiento en 2025 y la obesidad llegó a 27,2 % (ENDES 2025).",
-   "entrega": "Protocolo HEARTS en 100 % de establecimientos del primer nivel al 2030 y registro nominal de hipertensos y diabéticos.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "CENARES",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "PP 0018 Enfermedades No Transmisibles y prestaciones del SIS.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de hipertensos con presión controlada (< 140/90) en el registro nominal; % tratados (ENDES).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-14",
-    "SAL-24",
-    "EDU-28"
-   ],
-   "riesgo": "Desabastecimiento de antihipertensivos e insulina; baja búsqueda activa de pacientes.",
-   "fuentes": [
-    {
-     "titulo": "OPS – Iniciativa HEARTS en las Américas",
-     "url": "https://www.paho.org/es/hearts-americas"
-    },
-    {
-     "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
-     "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.1",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-20",
-   "titulo": "Detectar temprano el cáncer y regionalizar la atención oncológica",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 31336, Ley Nacional del Cáncer, ya garantiza cobertura; su implementación es por reglamento, Invierte.pe y el PP 0024.",
-   "etapa": "2031-2036",
-   "que": "Tamizaje con prueba molecular de VPH para cáncer de cuello uterino y vacunación contra VPH en escolares, mamografía organizada por citas en mujeres de 50 a 69 años, y detección de cáncer gástrico y de próstata según guías. Se crean unidades oncológicas regionales (quimioterapia, cirugía, radioterapia en macrorregiones) conectadas al INEN por telesalud, para que los pacientes no tengan que mudarse a Lima.",
-   "evidencia": "La OMS plantea eliminar el cáncer de cuello uterino con vacunación, tamizaje con pruebas de alto rendimiento y tratamiento oportuno (metas 90-70-90). En Perú, solo 24,4 % de mujeres de 30 a 49 años se hizo prueba de VPH o IVAA en tres años (ENDES 2025).",
-   "entrega": "Cobertura de tamizaje VPH ≥ 70 % en mujeres de 30 a 49 años y unidades oncológicas en todas las macrorregiones al 2036.",
-   "responsable": "INEN",
-   "entidades": [
-    {
-     "sigla": "INEN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "PP 0024 Prevención y Control del Cáncer, Invierte.pe y SIS (FISSAL).",
-   "costo_referencial": "no estimado",
-   "indicador": "% de mujeres de 30 a 49 años con prueba de VPH en 3 años (ENDES); % de casos diagnosticados en estadios tempranos.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-03",
-    "EDU-28"
-   ],
-   "riesgo": "Tamizar sin capacidad de diagnóstico y tratamiento posterior; equipos de radioterapia sin mantenimiento.",
-   "fuentes": [
-    {
-     "titulo": "OMS – Iniciativa para la eliminación del cáncer de cuello uterino",
-     "url": "https://www.who.int/initiatives/cervical-cancer-elimination-initiative"
-    },
-    {
-     "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
-     "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.2",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-21",
-   "titulo": "Preparar el sistema para el envejecimiento con geriatría y cuidados de largo plazo",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se organiza con normas técnicas del MINSA, la Ley 30490 de la Persona Adulta Mayor y programas del MIMP y MIDIS; un sistema nacional de cuidados con financiamiento propio podría requerir ley más adelante.",
-   "etapa": "2031-2036",
-   "que": "Cada red integra atención geriátrica en el primer nivel (valoración funcional, prevención de caídas, polifarmacia, demencias), atención domiciliaria y cuidados paliativos, y se crean centros de día y una red de cuidadores formados y certificados, en coordinación con municipios y Pensión 65. Se forma personal en geriatría y gerontología. También se adaptan los establecimientos para personas con movilidad reducida y se capacita a familias cuidadoras, priorizando a quienes viven solas o en pobreza.",
-   "evidencia": "La ENDES 2025 muestra que la población de 60 años a más subió a 16,1 % y que 13,2 % de ellos vive en hogares unipersonales o no familiares. Uruguay creó en 2015 un Sistema Nacional Integrado de Cuidados como referencia regional.",
-   "entrega": "Equipos de atención domiciliaria y paliativa en todas las redes y centros de día en provincias con mayor población mayor al 2036.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MIMP",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MIDIS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto de MINSA, EsSalud y MIMP; por identificar un financiamiento de largo plazo para cuidados.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de personas de 60 años a más con valoración geriátrica anual; N.º de personas en atención domiciliaria.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
-    "SAL-19"
-   ],
-   "riesgo": "Que el cuidado recaiga en mujeres de la familia sin apoyo; falta de financiamiento sostenible.",
-   "fuentes": [
-    {
-     "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
-     "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.2.3",
-    "AE1.5.1"
-   ]
-  },
-  {
-   "id": "SAL-22",
-   "titulo": "Blindar al país contra dengue y emergencias climáticas con vigilancia y planes hospitalarios",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo ejecutan el CDC, el INS y las DIRESA con el PP 0017 (metaxénicas) y el PP 0068 (desastres); los pilotos de control biológico requieren autorización sanitaria y ambiental, no ley.",
-   "etapa": "2026-2031",
-   "que": "Vigilancia entomológica y de casos en tiempo real con alertas climáticas del SENAMHI y del ENFEN; control vectorial con participación municipal y escolar; pilotos evaluados de mosquitos con Wolbachia en Piura, Tumbes y Lambayeque; red de unidades febriles y hospitales con planes de expansión de camas para epidemias y El Niño; y laboratorios regionales del INS con capacidad genómica para detectar nuevos patógenos.",
-   "evidencia": "Un ensayo aleatorizado en Yogyakarta (Indonesia) redujo en 77 % el dengue sintomático con mosquitos con Wolbachia (Utarini et al., NEJM 2021). El brote peruano de 2023 superó los 270 000 casos y 440 muertes (MINSA).",
-   "entrega": "Sala situacional nacional integrada clima–salud y planes de contingencia hospitalaria aprobados y probados en todas las regiones de costa norte y Amazonía al 2028.",
-   "responsable": "CDC-MINSA",
-   "entidades": [
-    {
-     "sigla": "CDC-MINSA",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "INS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SENAMHI",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MUNICIPALIDADES",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "INDECI",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "PP 0017 y PP 0068, fondos de contingencia ante El Niño, cooperación (OPS, Banco Mundial).",
-   "costo_referencial": "no estimado",
-   "indicador": "Letalidad por dengue; tiempo entre alerta climática y activación de planes de contingencia.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-24"
-   ],
-   "riesgo": "Financiar solo la respuesta y no la prevención; rotación de personal capacitado tras cada emergencia.",
-   "fuentes": [
-    {
-     "titulo": "La Nación (AFP) – Más de 440 muertos por dengue en Perú en 2023 (cifras MINSA)",
-     "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
-    },
-    {
-     "titulo": "Utarini et al. (2021) – Wolbachia-infected mosquitoes to control dengue, NEJM",
-     "url": "https://doi.org/10.1056/NEJMoa2030243"
-    }
-   ],
-   "pedn": [
-    "AE1.2.2",
-    "AE2.2.5"
-   ]
-  },
-  {
-   "id": "SAL-23",
-   "titulo": "Reducir la mortalidad materna con casas de espera, transporte y emergencias obstétricas",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta con el PP 0002 Salud Materno Neonatal y normas técnicas del MINSA.",
-   "etapa": "2026-2031",
-   "que": "Asegurar que toda gestante de zonas rurales y amazónicas tenga control prenatal temprano, plan de parto, acceso a casas de espera materna, transporte fluvial o aéreo de emergencia y un establecimiento con funciones obstétricas y neonatales esenciales a menos de dos horas. Se capacita en emergencias obstétricas, se garantiza sangre segura y se amplía el parto vertical con acompañamiento cultural.",
-   "evidencia": "Las muertes maternas bajaron a 244 en 2024, mínimo desde 2000, pero Loreto concentra cerca de una cuarta parte; la OPS y el MINSA refuerzan competencias en emergencias obstétricas allí (OPS, 2025).",
-   "entrega": "Establecimientos FONE operativos en todas las redes y transporte de emergencia materna disponible en todos los distritos amazónicos al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "MINDEF",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "PP 0002 Salud Materno Neonatal y prestaciones del SIS.",
-   "costo_referencial": "no estimado",
-   "indicador": "Muertes maternas anuales y razón de mortalidad materna por región (CDC-MINSA).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-03",
-    "SAL-25"
-   ],
-   "riesgo": "Falta de especialistas y de sangre en hospitales amazónicos; transporte de emergencia sin mantenimiento.",
-   "fuentes": [
-    {
-     "titulo": "El Comercio – Mortalidad materna 2024 (Sala situacional MINSA)",
-     "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
-    },
-    {
-     "titulo": "CDC-MINSA – Situación de la mortalidad materna, SE 27-2025",
-     "url": "https://www.dge.gob.pe/portal/docs/tools/teleconferencia/2025/SE272025/03.pdf"
-    },
-    {
-     "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
-     "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
-    }
-   ],
-   "pedn": [
-    "AE1.2.4",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-24",
-   "titulo": "Implantar la historia clínica electrónica interoperable y la telesalud en todo el primer nivel",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La RM 553-2025/MINSA ya hace obligatorio el SIHCE en el primer nivel y la Ley 30024 y la Ley 30421 dan el marco; los cambios legales de fondo están propuestos en TAL-06 y TAL-07 de la Agenda Tech.",
-   "etapa": "2026-2031",
-   "que": "Completar la historia clínica electrónica del MINSA en todos los establecimientos públicos del primer nivel, con conectividad, computadoras, energía y soporte, interoperable con EsSalud, sanidades y privados mediante estándares comunes, y con acceso del paciente a su historia y recetas desde el celular. La telesalud conecta cada posta con especialistas para teleconsulta, telemonitoreo y lectura de imágenes. La seguridad de los datos sigue estándares nacionales de ciberseguridad.",
-   "evidencia": "En enero de 2023 la HCE estaba implementada en 14 % del primer nivel (Videnza); en Arequipa solo cerca de 30 % de 230 establecimientos tenía equipos e internet adecuados (Correo). Uruguay (Salud.uy) logró HCE nacional interoperable.",
-   "entrega": "100 % de establecimientos públicos del primer nivel con HCE interoperable en uso y telesalud operativa al 2031.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ESSALUD",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PCM-SGTD",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUSALUD",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Presupuesto del MINSA y GORE, Invierte.pe (proyectos TIC), préstamos multilaterales para transformación digital en salud.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de establecimientos del primer nivel con HCE en uso diario; N.º de teleconsultas por 1 000 habitantes rurales.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
+  ],
+  "conexion_tech": [
     "TAL-06",
     "TAL-07",
     "CON-13",
-    "CON-15"
-   ],
-   "riesgo": "Sistemas paralelos incompatibles entre subsistemas; establecimientos sin internet ni electricidad; brechas de ciberseguridad con datos sensibles.",
-   "fuentes": [
-    {
-     "titulo": "Infobae – MINSA dispone uso obligatorio de historia clínica electrónica en el primer nivel (RM 553-2025/MINSA)",
-     "url": "https://www.infobae.com/peru/2025/08/30/minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud/"
-    },
-    {
-     "titulo": "Congreso – Proyecto de ley sobre historia clínica electrónica (cita a Videnza: HCE en 14,03 % del primer nivel, ene-2023)",
-     "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/MzEwMDgx/pdf"
-    },
-    {
-     "titulo": "Correo – Arequipa: pocos centros de salud listos para la digitalización",
-     "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-pocos-centros-de-salud-estan-listos-para-la-digitalizacion-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE4.5.4",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-25",
-   "titulo": "Adecuar los servicios a la cultura y lengua de pueblos indígenas y afroperuanos",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "La Política Sectorial de Salud Intercultural (DS 016-2016-SA) ya da el marco; se implementa con normas técnicas, presupuesto y contratación de personal.",
-   "etapa": "2026-2031",
-   "que": "Cada red con población indígena cuenta con intérpretes y personal que hable la lengua local, agentes comunitarios de salud con pago y formación, parto vertical y casas de espera adecuadas, articulación respetuosa con la medicina tradicional y brigadas itinerantes fluviales en la Amazonía. Las comunidades participan en la gestión local de salud y se aplica consulta previa cuando corresponda. Los materiales educativos se producen en lenguas originarias.",
-   "evidencia": "La política intercultural de 2016 surgió tras una acción de las organizaciones indígenas y la Defensoría; los estudios cualitativos muestran que la falta de adecuación cultural explica que mujeres quechuas eviten los centros de salud (IEP, PUCP).",
-   "entrega": "Intérpretes o personal bilingüe en 100 % de establecimientos de distritos con mayoría indígena al 2031; agentes comunitarios remunerados en todas las comunidades amazónicas.",
-   "responsable": "MINSA",
-   "entidades": [
-    {
-     "sigla": "MINSA",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MINCUL",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Presupuesto de MINSA y GORE; PP 0002 y PP 0001.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de establecimientos en distritos indígenas con personal bilingüe; parto institucional en comunidades indígenas.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-01",
+    "CON-15",
+    "IA-08",
+    "SOB-05",
     "GOB-23"
-   ],
-   "riesgo": "Interculturalidad declarativa sin presupuesto; rotación del personal bilingüe.",
-   "fuentes": [
+  ],
+  "plan2050": [
+    "salud",
+    "vacunas-y-laboratorios",
+    "seguridad-alimentaria-nutricion",
+    "cohesion-social",
+    "transformacion-digital",
+    "medio-ambiente",
+    "la-familia"
+  ],
+  "fuentes": [
     {
-     "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
-     "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
+      "titulo": "INEI – ENDES 2025: resultados (nota oficial en El Peruano)",
+      "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+    },
+    {
+      "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
+      "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
+    },
+    {
+      "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
+      "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
+    },
+    {
+      "titulo": "El Comercio – Mortalidad materna 2024 (Sala situacional MINSA)",
+      "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
+    },
+    {
+      "titulo": "CDC-MINSA – Situación de la mortalidad materna, SE 27-2025",
+      "url": "https://www.dge.gob.pe/portal/docs/tools/teleconferencia/2025/SE272025/03.pdf"
+    },
+    {
+      "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
+      "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
+    },
+    {
+      "titulo": "Andina – INEI: 91,1 % de la población cuenta con seguro de salud (ENAHO I trim. 2025)",
+      "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
+    },
+    {
+      "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
+      "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
+    },
+    {
+      "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
+      "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
+    },
+    {
+      "titulo": "La Nación (AFP) – Más de 440 muertos por dengue en Perú en 2023 (cifras MINSA)",
+      "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
+    },
+    {
+      "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
+      "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
+    },
+    {
+      "titulo": "Congreso – Ejemplo de ley declarativa de construcción de hospital",
+      "url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-declara-de-necesidad-publica-construccion-de-hospital-ii-1-en-calca-en-cusco"
+    },
+    {
+      "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
+      "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
+    },
+    {
+      "titulo": "Infobae – MINSA dispone uso obligatorio de historia clínica electrónica en el primer nivel (RM 553-2025/MINSA)",
+      "url": "https://www.infobae.com/peru/2025/08/30/minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud/"
+    },
+    {
+      "titulo": "Correo – Arequipa: pocos centros de salud listos para la digitalización",
+      "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-pocos-centros-de-salud-estan-listos-para-la-digitalizacion-noticia/"
+    },
+    {
+      "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
+      "url": "https://www.essalud.gob.pe/?p=24058"
+    },
+    {
+      "titulo": "OPS – El Perú evalúa su gestión presupuestal en salud mental (jun-2025)",
+      "url": "https://www.paho.org/es/noticias/13-6-2025-peru-evalua-su-gestion-presupuestal-para-mejorar-salud-mental-poblacion"
+    },
+    {
+      "titulo": "ConsultorSalud – Salud mental en el Perú y centros de salud mental comunitarios",
+      "url": "https://consultorsalud.com/?p=301952"
+    },
+    {
+      "titulo": "MEF – Guía del presupuesto público 2026",
+      "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
+    },
+    {
+      "titulo": "Utarini et al. (2021) – Wolbachia-infected mosquitoes to control dengue, NEJM",
+      "url": "https://doi.org/10.1056/NEJMoa2030243"
+    },
+    {
+      "titulo": "OPS – Iniciativa HEARTS en las Américas",
+      "url": "https://www.paho.org/es/hearts-americas"
+    },
+    {
+      "titulo": "Macinko y Harris (2015) – Brazil's Family Health Strategy, NEJM",
+      "url": "https://doi.org/10.1056/NEJMp1501140"
+    },
+    {
+      "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
+      "url": "https://openknowledge.worldbank.org/handle/10986/28321"
+    },
+    {
+      "titulo": "OMS – Iniciativa para la eliminación del cáncer de cuello uterino",
+      "url": "https://www.who.int/initiatives/cervical-cancer-elimination-initiative"
+    },
+    {
+      "titulo": "OMS – Programa de acción para superar las brechas en salud mental (mhGAP)",
+      "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme"
+    },
+    {
+      "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
+      "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
+    },
+    {
+      "titulo": "Congreso – Proyecto de ley sobre historia clínica electrónica (cita a Videnza: HCE en 14,03 % del primer nivel, ene-2023)",
+      "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/MzEwMDgx/pdf"
+    },
+    {
+      "titulo": "OMS – Global Health Expenditure Database: gasto de bolsillo, % del gasto corriente en salud (Banco Mundial)",
+      "url": "https://api.worldbank.org/v2/country/PER/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2015:2024"
     }
-   ],
-   "pedn": [
-    "AE4.5.1",
-    "AE1.2.3"
-   ]
-  },
-  {
-   "id": "SAL-26",
-   "titulo": "Crear una agencia independiente de evaluación de tecnologías sanitarias para todo el sistema",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "Crear un organismo público con autonomía técnica y decisiones vinculantes para todas las IAFAS requiere ley; por crear organismo y gasto, no puede ser iniciativa congresal (art. 79). Alternativa: fusionar capacidades existentes (IETSI de EsSalud, INS) por iniciativa del Ejecutivo.",
-   "etapa": "2031-2036",
-   "que": "Una agencia nacional, con base en las capacidades del IETSI de EsSalud y del INS, evalúa con evidencia y costo-efectividad qué medicamentos, dispositivos y procedimientos entran al plan común de beneficios, a qué precio y en qué condiciones. Sus informes son públicos y vinculantes para SIS, EsSalud y sanidades, lo que reduce la judicialización y las decisiones caso por caso. Puede también evaluar sistemas de IA clínica.",
-   "evidencia": "NICE (Reino Unido) y CONITEC (Brasil) muestran que una evaluación de tecnologías independiente ordena la cobertura y negocia precios; el IETSI de EsSalud ya realiza dictámenes técnicos para su red.",
-   "entrega": "Agencia nacional de evaluación de tecnologías sanitarias operativa y PEAS actualizado con sus dictámenes al 2034.",
-   "responsable": "MINSA",
-   "entidades": [
+  ],
+  "revision_atendida": [
     {
-     "sigla": "MINSA",
-     "rol": "rectora"
+      "rol": "cifras",
+      "hallazgo": "Gasto de bolsillo 2020 atípico; usar OMS 2023 27,0 %",
+      "decision": "aplicado: indicador, resumen y metas (23/20/16/≤13 %), verificado en API del Banco Mundial"
     },
     {
-     "sigla": "ESSALUD",
-     "rol": "consultiva"
+      "rol": "cifras",
+      "hallazgo": "Línea base ≈3 % de primer nivel adecuado es correcta",
+      "decision": "aplicado: se quitó 'por verificar' y se cita diagnóstico 2021–2022"
     },
     {
-     "sigla": "INS",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SIS",
-     "rol": "beneficiaria"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
+      "rol": "cifras",
+      "hallazgo": "No hablar de reducción de anemia entre criterios distintos",
+      "decision": "aplicado: el texto ya no compara criterios; se mantienen 34,9 % (OMS 2024) y 43,4 % (RM 363-2022)"
     }
-   ],
-   "financiamiento": "Fusión de presupuestos existentes de IETSI e INS; costo adicional por identificar.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de dictámenes públicos por año; % de decisiones de cobertura basadas en dictamen.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "SAL-08",
-    "IA-08"
-   ],
-   "riesgo": "Presión de la industria y litigios; agencia sin independencia real frente al ministro de turno.",
-   "fuentes": [
-    {
-     "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
-     "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
-    }
-   ],
-   "pedn": [
-    "AE1.2.7",
-    "AE4.5.2"
-   ]
-  }
- ],
- "articulacion": [
-  {
-   "con": "educacion",
-   "como": "La anemia y la desnutrición en los primeros mil días reducen los aprendizajes: SAL-17 comparte padrón nominal con educación inicial; la escuela es punto de vacunación VPH, tamizaje visual y salud mental (SAL-18, SAL-20)."
-  },
-  {
-   "con": "agua-saneamiento",
-   "como": "Sin agua segura y saneamiento la anemia, la diarrea y el dengue no bajan: SAL-17 y SAL-22 dependen de las inversiones de Vivienda y municipios."
-  },
-  {
-   "con": "proteccion-social",
-   "como": "Juntos, Cuna Más y Pensión 65 condicionan o complementan controles de salud; los cuidados de largo plazo (SAL-21) requieren un sistema de cuidados compartido."
-  },
-  {
-   "con": "ambiente",
-   "como": "El cambio climático y El Niño amplían el dengue y las emergencias: SAL-22 usa alertas del SENAMHI y el ENFEN."
-  },
-  {
-   "con": "trabajo",
-   "como": "La reforma de EsSalud (SAL-10) y la portabilidad (SAL-08) dependen de la formalidad laboral: más empleo formal significa más aportes y más asegurados contributivos."
-  },
-  {
-   "con": "estado-descentralizacion",
-   "como": "Redes, obras y personal dependen de los gobiernos regionales (SAL-02, SAL-03, SAL-13); la priorización técnica de inversiones (SAL-06) es parte de la reforma de la inversión pública."
-  }
- ],
- "conexion_tech": [
-  "TAL-06",
-  "TAL-07",
-  "CON-13",
-  "CON-15",
-  "IA-08",
-  "SOB-05",
-  "GOB-23"
- ],
- "plan2050": [
-  "salud",
-  "vacunas-y-laboratorios",
-  "seguridad-alimentaria-nutricion",
-  "cohesion-social",
-  "transformacion-digital",
-  "medio-ambiente",
-  "la-familia"
- ],
- "fuentes": [
-  {
-   "titulo": "INEI – ENDES 2025: resultados (nota oficial en El Peruano)",
-   "url": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
-  },
-  {
-   "titulo": "INEI – Perú: Enfermedades no transmisibles y transmisibles, 2025 (ENDES)",
-   "url": "https://proyectos.inei.gob.pe/endes/2025/SALUD/ENFERMEDADES_ENDES_2025.pdf"
-  },
-  {
-   "titulo": "Gestión – MINSA: más de 8 mil centros de salud con capacidad instalada inadecuada (PMI MINSA)",
-   "url": "https://gestion.pe/peru/minsa-mas-de-8-mil-centros-de-salud-y-postas-tienen-capacidad-instalada-inadecuada-noticia/"
-  },
-  {
-   "titulo": "El Comercio – Mortalidad materna 2024 (Sala situacional MINSA)",
-   "url": "https://elcomercio.pe/peru/como-se-logro-reducir-la-mortalidad-materna-en-el-peru-cifra-es-la-menor-en-25-anos-noticia/"
-  },
-  {
-   "titulo": "CDC-MINSA – Situación de la mortalidad materna, SE 27-2025",
-   "url": "https://www.dge.gob.pe/portal/docs/tools/teleconferencia/2025/SE272025/03.pdf"
-  },
-  {
-   "titulo": "OPS – Mortalidad materna en Loreto (oct-2025)",
-   "url": "https://www.paho.org/es/noticias/7-10-2025-enfrentando-mortalidad-materna-ops-minsa-fortalecen-competencias-emergencias"
-  },
-  {
-   "titulo": "Andina – INEI: 91,1 % de la población cuenta con seguro de salud (ENAHO I trim. 2025)",
-   "url": "https://andina.pe/agencia/noticia-inei-911-de-poblacion-cuenta-seguro-salud-1034579.aspx"
-  },
-  {
-   "titulo": "INEI – 38,1 % de la población con algún problema de salud acudió a un establecimiento",
-   "url": "https://www.gob.pe/institucion/inei/noticias/1192559-38-1-de-la-poblacion-con-algun-problema-de-salud-acudio-a-un-establecimiento-en-busca-de-atencion"
-  },
-  {
-   "titulo": "Universidad del Pacífico, Agenda 2026 – Fortaleciendo la inversión en salud (Cortez y Luque)",
-   "url": "https://agenda2026.up.edu.pe/wp-content/uploads/2025/08/Fortaleciendo-la-inversion_Rafael-Cortez-y-Javier-Luque.pdf"
-  },
-  {
-   "titulo": "La Nación (AFP) – Más de 440 muertos por dengue en Perú en 2023 (cifras MINSA)",
-   "url": "https://www.lanacion.com.py/mundo_edicion_impresa/2023/11/28/mas-de-440-muertos-por-dengue-desde-enero-en-peru/"
-  },
-  {
-   "titulo": "Gestión – Más de S/ 44 mil millones en obras públicas detenidas (Contraloría)",
-   "url": "https://gestion.pe/economia/mas-de-s-44-mil-millones-en-obras-publicas-detenidas-en-el-peru-segun-contraloria-noticia/"
-  },
-  {
-   "titulo": "Congreso – Ejemplo de ley declarativa de construcción de hospital",
-   "url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-declara-de-necesidad-publica-construccion-de-hospital-ii-1-en-calca-en-cusco"
-  },
-  {
-   "titulo": "Congreso – Alcances del DU 007-2019 (medicamentos esenciales y CENARES)",
-   "url": "https://comunicaciones.congreso.gob.pe/noticias/revisan-alcances-de-du-007"
-  },
-  {
-   "titulo": "Infobae – MINSA dispone uso obligatorio de historia clínica electrónica en el primer nivel (RM 553-2025/MINSA)",
-   "url": "https://www.infobae.com/peru/2025/08/30/minsa-dispone-uso-obligatorio-de-historias-clinicas-electronicas-en-centros-de-salud/"
-  },
-  {
-   "titulo": "Correo – Arequipa: pocos centros de salud listos para la digitalización",
-   "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-pocos-centros-de-salud-estan-listos-para-la-digitalizacion-noticia/"
-  },
-  {
-   "titulo": "EsSalud – Intercambio prestacional EsSalud–SIS–Gobierno Regional La Libertad",
-   "url": "https://www.essalud.gob.pe/?p=24058"
-  },
-  {
-   "titulo": "OPS – El Perú evalúa su gestión presupuestal en salud mental (jun-2025)",
-   "url": "https://www.paho.org/es/noticias/13-6-2025-peru-evalua-su-gestion-presupuestal-para-mejorar-salud-mental-poblacion"
-  },
-  {
-   "titulo": "ConsultorSalud – Salud mental en el Perú y centros de salud mental comunitarios",
-   "url": "https://consultorsalud.com/?p=301952"
-  },
-  {
-   "titulo": "MEF – Guía del presupuesto público 2026",
-   "url": "https://www.mef.gob.pe/pl-guia-presupuesto-publico-2026/presentacion_guia2026.pdf"
-  },
-  {
-   "titulo": "Utarini et al. (2021) – Wolbachia-infected mosquitoes to control dengue, NEJM",
-   "url": "https://doi.org/10.1056/NEJMoa2030243"
-  },
-  {
-   "titulo": "OPS – Iniciativa HEARTS en las Américas",
-   "url": "https://www.paho.org/es/hearts-americas"
-  },
-  {
-   "titulo": "Macinko y Harris (2015) – Brazil's Family Health Strategy, NEJM",
-   "url": "https://doi.org/10.1056/NEJMp1501140"
-  },
-  {
-   "titulo": "Banco Mundial (2017) – Standing Tall: Peru's Success in Overcoming its Stunting Crisis",
-   "url": "https://openknowledge.worldbank.org/handle/10986/28321"
-  },
-  {
-   "titulo": "OMS – Iniciativa para la eliminación del cáncer de cuello uterino",
-   "url": "https://www.who.int/initiatives/cervical-cancer-elimination-initiative"
-  },
-  {
-   "titulo": "OMS – Programa de acción para superar las brechas en salud mental (mhGAP)",
-   "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme"
-  },
-  {
-   "titulo": "OMS – Buenas prácticas de confianza (reliance) en la regulación de productos médicos, TRS 1033 anexo 10",
-   "url": "https://www.who.int/publications/m/item/annex-10-trs-1033"
-  },
-  {
-   "titulo": "Congreso – Proyecto de ley sobre historia clínica electrónica (cita a Videnza: HCE en 14,03 % del primer nivel, ene-2023)",
-   "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/MzEwMDgx/pdf"
-  }
- ]
+  ]
 }

@@ -1,0 +1,875 @@
+[
+ {
+  "id": "AGR-03",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[2].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-04",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[3].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-05",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[4].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-06",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[5].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-12",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[11].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-19",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[18].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31458.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31458.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31458.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:agro",
+  "archivo": "data/sectores/agro.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Indicadores de la ENA 2024 verificados en la publicación del INEI (asistencia técnica 3,1 %, organización 7,5 %, crédito 9,1 %). Pobreza rural 35,5 % y FIES 30,5 % verificados. Falla la URL del Seguro Agrícola Catastrófico y hay una diferencia de definición en la meta de crédito.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "fuentes[13].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[7].url",
+    "problema": "La cifra de más de 2 000 000 ha es correcta para la campaña 2025-2026, pero la URL citada es una nota sobre Ica ('cubrirá más de 8.000 hectáreas') que no respalda el dato nacional.",
+    "correccion": "Reemplazar la url por https://elperuano.pe/noticia/287277-lluvias-afectaron-tus-cultivos-gobierno-activa-el-seguro-agricola-2025-2026-en-todo-el-pais ('la superficie asegurada es de más de 2 millones de hectáreas a nivel nacional').",
+    "fuente": "https://elperuano.pe/noticia/287277-lluvias-afectaron-tus-cultivos-gobierno-activa-el-seguro-agricola-2025-2026-en-todo-el-pais"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[4] y metas[4]",
+    "problema": "La ENA 2024 confirma 9,1 % (quitar 'por verificar'). Pero mide productores que 'solicitaron algún tipo de crédito' (no solo formal), mientras la meta habla de 'crédito formal': la línea base no mide lo mismo que la meta.",
+    "correccion": "Meta: indicador 'Productores que solicitan algún tipo de crédito (ENA)' o aclarar que la línea base incluye todo tipo de crédito. Indicador: quitar 'por verificar…'.",
+    "fuente": "https://cdn.www.gob.pe/uploads/document/file/8237929/6879473-productores-agropecuarios-principales-resultados-de-la-encuesta-nacional-agropecuaria-ena-2018-2019-y-2022-2024%282%29.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas[2]",
+    "problema": "Pasar de 3,1 % a 15 % de productores con asistencia técnica en 2031 es multiplicar por casi cinco la cobertura en cinco años. En la ENA no hay antecedentes de ese ritmo.",
+    "correccion": "2031 '8 %', 2036 '15 %', 2046 '30 %', 2056 '45 %'; o explicar en la acción qué programa y presupuesto sostienen el salto.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:ambiente",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Coca 2025 (84 546 ha) y pérdida de bosque de 2020 (203 272 ha) verificados. La línea base de deforestación anual está 'por verificar' aunque el MINAM ya publicó el dato oficial 2023.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "fuentes[10].url",
+    "problema": "El sitio devuelve 500 a solicitudes automatizadas (probable bloqueo); prensa sectorial en lugar de la norma. URL: https://mineriaenergia.com/promulgan-ley-que-amplia-vigencia-del-reinfo-hasta-diciembre-del-2026/",
+    "correccion": "Añadir la norma publicada en El Peruano que amplía el REINFO como fuente primaria.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "metas[0].linea_base",
+    "problema": "La línea base dice '~140 000–150 000 ha/año en 2021–2022 (por verificar el dato oficial 2024)'. El reporte oficial del MINAM 'Cobertura de bosques y pérdida 2023' da 132 216 ha de bosque húmedo amazónico perdidas en 2023 (bosque remanente: 67 654 122 ha). Con esa base, bajar a 75 000 ha en 2031 sigue siendo exigente pero coherente.",
+    "correccion": "linea_base '132 216 ha (2023, MINAM-Geobosques); máximo reciente 203 272 ha (2020)'. Añadir la fuente del reporte 2023 y quitar 'por verificar'.",
+    "fuente": "https://sinia.minam.gob.pe/sites/default/files/archivos/public/docs/Reporte_cobertura%20de%20bosques%20y%20perdida_2023.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[1].nombre",
+    "problema": "'Máximo oficial reciente' es correcto para 2020, pero falta el dato más reciente (2023: 132 216 ha), que muestra una caída importante.",
+    "correccion": "Añadir un indicador 'Pérdida anual de bosque húmedo amazónico 2023: 132 216 ha (MINAM)' o actualizar este.",
+    "fuente": "https://sinia.minam.gob.pe/sites/default/files/archivos/public/docs/Reporte_cobertura%20de%20bosques%20y%20perdida_2023.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-04",
+  "archivo": "data/sectores/economia.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[3].fuentes[3].url",
+    "problema": "Página eliminada (404); el informe del Minerals Council ya no está en esa ruta. URL: https://minerals.org.au/resources/mining-and-mets-engines-of-economic-growth-and-prosperity-for-australians",
+    "correccion": "Reemplazar por la fuente ya citada de Export Finance Australia o eliminar esta fuente; no se encontró nueva ruta oficial del informe.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-06",
+  "archivo": "data/sectores/economia.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[5].fuentes[1].url",
+    "problema": "Página eliminada (404); el informe del Minerals Council ya no está en esa ruta. URL: https://minerals.org.au/resources/mining-and-mets-engines-of-economic-growth-and-prosperity-for-australians",
+    "correccion": "Reemplazar por la fuente ya citada de Export Finance Australia o eliminar esta fuente; no se encontró nueva ruta oficial del informe.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-11",
+  "archivo": "data/sectores/economia.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[10].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 2 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[11].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones[11].fuentes[2].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:economia",
+  "archivo": "data/sectores/economia.json",
+  "rol": "cifras",
+  "veredicto": "conforme",
+  "resumen": "Exportaciones mineras 2025 (62 848 M US$, ≈ 67,5 %; MINEM) e ingreso de divisas por turismo receptivo 2025 (5 351 M US$, por encima de los 4 703 M de 2019) verificados. Ojo: el '78 % del nivel de 2019' se refiere al número de turistas, no a las divisas; conviene decirlo así para que no parezca contradictorio. La informalidad 70,7 % (2025) es correcta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "fuentes[16].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32449.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[18].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2023/comercio/files/zed_ilo_comision_comercio_exterior_8_nov_2023.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:educacion",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones_graves",
+  "resumen": "Hay un dato falso (ENLA 2023 de 2.º de secundaria en lectura: el oficial es 18,4 %, no 26,2 %). Además, PISA y el gasto educativo usan años viejos aunque ya hay datos de 2025 y 2024, y la línea base de anemia no coincide con la de Salud. Están bien: asistencia a inicial (92,6 %), conclusión de secundaria (81,3 %), analfabetismo rural y urbano (11,6 % y 3,2 %), ENLA 2024 en lectura (32,8 %) y PISA 2022.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[1].url",
+    "problema": "Enlace bloqueado a bots (307 sin destino) y, sobre todo, es un artículo de opinión en lugar del informe oficial de resultados ENLA de la UMC-Minedu. URL: https://lampadia.com/?p=68506",
+    "correccion": "Reemplazar por el informe/nota oficial de resultados ENLA de Minedu (umc.minedu.gob.pe); ver hallazgo de cifra en sector:educacion.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "alta",
+    "campo": "diagnostico.indicadores[2] y diagnostico.resumen",
+    "problema": "El resumen ejecutivo oficial de la ENLA 2023 (UMC-Minedu) dice que en 2.º de secundaria solo 18,4 % alcanza el nivel satisfactorio en Lectura ('Solo el 18,4 % alcanza los aprendizajes esperados para el grado'), con un ligero descenso frente a 2022. El 26,2 % no aparece en esa fuente, que es justamente la URL citada.",
+    "correccion": "valor '18,4'. En el resumen: 'en 2.º de secundaria, la ENLA 2023 registró solo 18,4 % satisfactorio en lectura'.",
+    "fuente": "https://repositorio.minedu.gob.pe/bitstream/handle/20.500.12799/10420/ENLA%202023%20resumen%20ejecutivo.pdf?sequence=4&isAllowed=y"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[3] / metas[2].linea_base / diagnostico.resumen",
+    "problema": "PISA 2025 ya se publicó (8 set. 2026). El Perú obtuvo 382 en matemática, 390 en lectura y 406 en ciencias; bajó frente a 2022 (391, 408 y 408) y quedó a niveles de 2015. El resumen solo dice que la nota país reporta resultados 'menores' y deja PISA 2022 como línea base.",
+    "correccion": "Indicador: valor '382', año 2025, 'lectura 390; ciencias 406', fuente 'OCDE, PISA 2025'. Meta: línea base '382 (2025)'. Revisar la trayectoria; 2031 '400' es más realista que 405 desde 382. Promedio OCDE de matemática 2025 ≈ 465 (cambiar el 472 de 2022). Citar la nota país OCDE PISA 2025 de Perú cuando se cargue la URL oficial.",
+    "fuente": "https://forbes.pe/actualidad/2026-09-08/el-peru-retrocede-una-decada-en-el-indice-pisa-al-registrar-niveles-similares-a-2015"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[7] / metas[5]",
+    "problema": "El gasto público en educación de 3,8 % del PBI es de 2019. Según el Banco Mundial (WDI, con datos de UNESCO-UIS) fue 4,25 % en 2023 y 4,36 % en 2024. Con 4,4 % ya alcanzado, la meta 2031 de 4,5 % casi no exige nada y la frase 'menos que los pares de la región' necesita revisarse.",
+    "correccion": "valor '4,4', año 2024, fuente 'Banco Mundial, WDI (SE.XPD.TOTL.GD.ZS)'. Metas: línea base '4,4 % (2024)', 2031 '5,0 %', 2036 '5,5 %', 2046 '6,0 %', 2056 '6,0 %' (mantiene la 12.ª política del Acuerdo Nacional).",
+    "fuente": "https://api.worldbank.org/v2/country/PER/indicator/SE.XPD.TOTL.GD.ZS?format=json&date=2015:2025"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[1] / metas[1].linea_base",
+    "problema": "El 29,5 % en matemática de 4.º de primaria (ENLA 2024) se cita de una columna de opinión cuyo enlace bloquea bots. La cifra coincide con la verificación de prensa (29,5 % en 2024; 22,5 % en 2023), pero no se encontró el informe UMC 2024 publicado en la web.",
+    "correccion": "Mantener 29,5 % y cambiar la fuente a la presentación oficial de resultados ENLA 2024 del repositorio Minedu (UMC). Si no existe, citar 'Minedu, conferencia de resultados ENLA 2024 (abril 2025)' con la nota de El Peruano https://elperuano.pe/noticia/267874-evaluacion-de-aprendizaje-2024-escolares-de-primaria-registran-avances-en-matematicas-y-lectura y quitar Lampadia.",
+    "fuente": "https://elperuano.pe/noticia/267874-evaluacion-de-aprendizaje-2024-escolares-de-primaria-registran-avances-en-matematicas-y-lectura"
+   },
+   {
+    "severidad": "media",
+    "campo": "metas[7].linea_base",
+    "problema": "La meta de anemia que comparte con Salud usa '35,3 % (2024, criterio OMS 2024)', mientras salud.json usa 34,9 % (ENDES 2025, mismo criterio). Una meta compartida no puede tener dos líneas base.",
+    "correccion": "linea_base '34,9 % (2025, criterio OMS 2024)', fuente_linea_base 'INEI, ENDES 2025'. Igual que en salud.json metas[0].",
+    "fuente": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+   }
+  ]
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "acciones[15].fuentes[1].url",
+    "problema": "El portal de datos del Banco Mundial devolvió 502 en dos intentos (posible caída temporal, no enlace muerto). URL: https://datos.bancomundial.org/indicador/SE.XPD.TOTL.GD.ZS?start=1980",
+    "correccion": "Mantener; si persiste usar https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=PE",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:energia",
+  "archivo": "data/sectores/energia.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Pérdida de Petroperú (−968 M US$ preliminar 2024; −1 064 M en 2023) verificada. La participación de renovables no convencionales, que es la línea base de la meta principal, no tiene fuente que la respalde.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "fuentes[8].url",
+    "problema": "El sitio bloquea solicitudes automatizadas (307 sin destino); no se pudo abrir. URL: https://www.lampadia.com/opiniones/el-comercio/la-inversion-total-en-la-refineria-de-talara-supera-ya-los-us6500-mlls",
+    "correccion": "Mantener o sustituir por nota de Petroperú/Contraloría sobre inversión en la NRT.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[2].url / metas[0].linea_base",
+    "problema": "La URL de la generación con RER no convencionales (5 777 GWh, ≈ 9 %) es la portada de gob.pe/minem y no contiene el dato. La fuente declarada es otra propuesta interna (SOB-09 de la Agenda Legislativa Tech), no una estadística oficial. Es la línea base de la meta principal del sector.",
+    "correccion": "Calcular la cifra con la misma 'Estadística del subsector electricidad, diciembre 2024' del MINEM (ya citada en los indicadores 0 y 1), sumando eólica + solar + biomasa/biogás + hidro RER < 20 MW, y citar esa URL. Si no cuadra, usar el anuario del COES 2024.",
+    "fuente": "https://cdn.www.gob.pe/uploads/document/file/7676275/6501622-estadistica-subsector-electricidad-diciembre-2024%282%29.pdf"
+   }
+  ]
+ },
+ {
+  "id": "EST-18",
+  "archivo": "data/sectores/estado.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 2 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[17].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones[17].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf"
+   }
+  ]
+ },
+ {
+  "id": "EST-27",
+  "archivo": "data/sectores/estado.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[26].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:estado",
+  "archivo": "data/sectores/estado.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "El perjuicio por corrupción de 2023 (S/ 24 268 M, 12,7 %) coincide con lo publicado. El valor WGI se tomó de un agregador; el dato oficial es −0,71.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "fuentes[17].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/28273.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[18].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/descentraliza-balances/2009_-_defensoria_inf_141_transferencias_a_gr.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[8]",
+    "problema": "El valor de 'Control de la corrupción' (WGI) es −0,72 'por verificar'. La base oficial del Banco Mundial (actualizada al 25-09-2026) da −0,71 para 2024 (−0,65 en 2023), lo que confirma el deterioro.",
+    "correccion": "valor '-0,71', fuente 'Banco Mundial, Worldwide Governance Indicators (GOV_WGI_CC.EST)'. Quitar 'por verificar'.",
+    "fuente": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_CC.EST?format=json&source=3&date=2019:2024"
+   }
+  ]
+ },
+ {
+  "id": "sector:mineria",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Las exportaciones mineras usan el dato 2024 de SNMPE (47 701 M US$), aunque ya existe el de 2025 del MINEM (62 848 M US$) que usa economia.json. Las cifras de cobre y cartera son coherentes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[3].url",
+    "problema": "El sitio devuelve 500 a solicitudes automatizadas (probable bloqueo); además es prensa sectorial, no la fuente primaria. URL: https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/",
+    "correccion": "Añadir como fuente primaria el Boletín Estadístico Minero anual 2025 del MINEM (publicado en gob.pe/minem) y dejar la nota de prensa solo como apoyo.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "fuentes[3].url",
+    "problema": "El sitio devuelve 500 a solicitudes automatizadas (probable bloqueo); además es prensa sectorial, no la fuente primaria. URL: https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/",
+    "correccion": "Añadir como fuente primaria el Boletín Estadístico Minero anual 2025 del MINEM (publicado en gob.pe/minem) y dejar la nota de prensa solo como apoyo.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[0]",
+    "problema": "Según el Boletín Estadístico Minero del MINEM, las exportaciones mineras sumaron 62 848 M US$ en 2025 (+27,2 % frente a 2024), cerca de 67,5 % del total exportado. El MINEM da 49 417 M US$ para 2024, no 47 701 (cifra SNMPE/BCRP con otra cobertura). economia.json ya usa 62 848 M US$ (2025), así que hoy los dos sectores muestran datos distintos para lo mismo.",
+    "correccion": "valor '62 848 (≈ 67,5 % del total exportado)', año 2025, fuente 'MINEM, Boletín Estadístico Minero, balance anual 2025'. Usar la misma cifra en economia.json.",
+    "fuente": "https://energiminas.com/?p=43849"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[4] / metas[1].linea_base",
+    "problema": "Los conflictos socioambientales mineros salen del reporte de la Defensoría de julio de 2024. Hay reportes mensuales posteriores; la línea base está atrasada más de dos años.",
+    "correccion": "Actualizar con el último Reporte de Conflictos Sociales de la Defensoría del Pueblo (2026) y citar su URL en defensoria.gob.pe.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-16",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "acciones[15].fuentes[0].url",
+    "problema": "El sitio devuelve 500 a solicitudes automatizadas (probable bloqueo); además es prensa sectorial, no la fuente primaria. URL: https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/",
+    "correccion": "Añadir como fuente primaria el Boletín Estadístico Minero anual 2025 del MINEM (publicado en gob.pe/minem) y dejar la nota de prensa solo como apoyo.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-06",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[5].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf"
+   }
+  ]
+ },
+ {
+  "id": "PRO-07",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "acciones[6].fuentes[2].url",
+    "problema": "El sitio de la Superintendencia de Pensiones de Chile no respondió (timeout, probablemente bloqueo geográfico/bots). URL: https://www.spensiones.cl/portal/institucional/594/w3-propertyvalue-9908.html",
+    "correccion": "Mantener; verificar manualmente desde navegador.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[7].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf"
+   }
+  ]
+ },
+ {
+  "id": "PRO-10",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[9].fuentes[1].url",
+    "problema": "Página eliminada (404) tras la reestructuración del sitio de la OIT. URL: https://www.ilo.org/es/regiones-y-paises/america-latina-y-el-caribe/areas-de-trabajo/trabajo-infantil",
+    "correccion": "Reemplazar por https://www.ilo.org/es/temas-y-sectores/trabajo-infantil",
+    "fuente": "https://www.ilo.org/es/temas-y-sectores/trabajo-infantil"
+   }
+  ]
+ },
+ {
+  "id": "PRO-14",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[13].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2024/InclusionSocial/files/se13_conadis.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2024/InclusionSocial/files/se13_conadis.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2024/InclusionSocial/files/se13_conadis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "PRO-19",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[18].fuentes[1].url",
+    "problema": "La versión en español redirige a la página 404 del Banco Mundial. URL: https://www.worldbank.org/es/publication/wdr2023",
+    "correccion": "Reemplazar por https://www.worldbank.org/en/publication/wdr2023",
+    "fuente": "https://www.worldbank.org/en/publication/wdr2023"
+   }
+  ]
+ },
+ {
+  "id": "PRO-21",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[20].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:proteccion",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Pobreza (25,7 %), pobreza extrema (4,7 %), vulnerabilidad (32,8 %), inseguridad alimentaria en pobres (42,0 %), violencia de pareja (52 % alguna vez y 33,9 % en 12 meses) y RNPCD verificados. El 70,7 % de informalidad es correcto pero la URL citada habla de 2024 (70,9 %).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "fuentes[13].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[3].url",
+    "problema": "La nota de Gestión enlazada trata del cierre de 2024 y dice 70,9 %, no el 70,7 % de 2025 que se cita. El 70,7 % de 2025 es correcto: viene del informe técnico INEI 'Comportamiento de los indicadores del mercado laboral a nivel nacional y en 27 ciudades'.",
+    "correccion": "Cambiar la url por una que diga 70,7 % para 2025, por ejemplo https://elbuho.pe/?p=413655 (verificación que cita el informe técnico del INEI), o mejor el PDF del informe técnico del INEI en gob.pe.",
+    "fuente": "https://elbuho.pe/?p=413655"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[9]",
+    "problema": "La fecha de corte 'por verificar' es septiembre de 2024: CONADIS informó 496 778 personas inscritas en el RNPCD al 27-09-2024.",
+    "correccion": "valor '496 778 (al 27-09-2024)'. Quitar 'por verificar'.",
+    "fuente": "https://elperuano.pe/noticia/254087-atencion-mas-de-496000-personas-con-discapacidad-estan-registradas-en-el-peru"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[7].url",
+    "problema": "La URL de Perú21 es una página de etiqueta (listado de noticias) y no muestra la cifra de más de 824 000 usuarios de Pensión 65.",
+    "correccion": "Citar el padrón o la nota oficial de Pensión 65 en gob.pe (https://www.gob.pe/pension65) con su fecha de corte.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:seguridad",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Indicadores ENAPRES jul–dic 2025, homicidios, sobrepoblación penitenciaria y razón condenas/denuncias por extorsión verificados. La superficie de coca está desactualizada (ya hay dato 2025) y no coincide con ambiente.json.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[6].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[2].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[8] / metas[6].linea_base",
+    "problema": "El dato de 89 755 ha es de 2024. DEVIDA publicó el 17-07-2026 el monitoreo 2025, hecho con UNODC: 84 546 ha (−5,8 %), tercer año seguido de baja. ambiente.json ya usa 84 546 ha (2025), así que los dos sectores no coinciden.",
+    "correccion": "valor '84 546', año 2025, fuente 'DEVIDA–UNODC, Monitoreo de cultivos de coca 2025'. Meta: línea base '84 546 ha (2025)'. La meta 2031 de 70 000 ha sigue siendo plausible.",
+    "fuente": "https://www.gob.pe/institucion/devida/noticias/1420118-peru-reduce-en-5-8-la-superficie-de-cultivos-de-coca-y-consolida-tendencia-descendente-por-tercer-ano-consecutivo"
+   }
+  ]
+ },
+ {
+  "id": "SEG-17",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[16].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "SEG-19",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[18].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so-n°_53_presentacion_ministro_de_justicia-16-09-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so-n°_53_presentacion_ministro_de_justicia-16-09-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so-n°_53_presentacion_ministro_de_justicia-16-09-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "SEG-28",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "acciones[27].fuentes[1].url",
+    "problema": "El dominio www.elpaccto.eu no responde (timeout); el dominio sin www redirige a la página oficial de la Comisión Europea. URL: https://www.elpaccto.eu/",
+    "correccion": "Reemplazar por https://international-partnerships.ec.europa.eu/policies/programming/programmes/el-paccto-20_en",
+    "fuente": "https://international-partnerships.ec.europa.eu/policies/programming/programmes/el-paccto-20_en"
+   }
+  ]
+ },
+ {
+  "id": "sector:transporte",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Fallecidos por siniestros 2024 (3 002, ONSV) verificados en la verificación citada; ya existe el dato 2025. El resto es coherente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[5].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[6].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[5].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[13].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+   },
+   {
+    "severidad": "media",
+    "campo": "fuentes[21].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[3] / metas[2].linea_base",
+    "problema": "La misma fuente citada (verificación de PerúCheck con datos del Observatorio Nacional de Seguridad Vial) informa 2 890 fallecidos en 2025 y 3 002 en 2024. La serie del SINADEF da otra cifra para 2024 (2 571), con una metodología distinta.",
+    "correccion": "Actualizar a '2 890 (2025, ONSV)' y precisar 'ONSV-MTC (no comparable con SINADEF)'. La meta 2031 de 2 100 sigue siendo coherente.",
+    "fuente": "https://elbuho.pe/?p=418281"
+   }
+  ]
+ },
+ {
+  "id": "TRA-03",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[2].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+   }
+  ]
+ },
+ {
+  "id": "TRA-04",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[3].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+   }
+  ]
+ },
+ {
+  "id": "TRA-11",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[10].fuentes[0].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+   }
+  ]
+ },
+ {
+  "id": "TRA-14",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Revisión de enlaces: 1 URL(s) rota(s) o no accesible(s); corrección indicada.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones[13].fuentes[1].url",
+    "problema": "URL rota (404): https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf. El Congreso movió sus documentos al subdominio www3.",
+    "correccion": "Reemplazar por https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf",
+    "fuente": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sector:salud",
+  "archivo": "data/sectores/salud.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Indicadores ENDES 2025 (anemia 34,9/43,4 %, DCI 12,1 %, HTA 20,8 %, obesidad 27,2 %, tratamiento 62,8 %), seguro 91,1 %, 244 muertes maternas y 8 662 establecimientos verificados. El gasto de bolsillo usa 2020, año atípico de pandemia: el dato vigente es mayor.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[8] / metas[2].linea_base",
+    "problema": "El gasto de bolsillo de 22,8 % corresponde a 2020, año atípico de pandemia (la OMS lo registra en 22,5 %). Ya hay datos posteriores y son mayores: 25,1 % (2021), 27,0 % (2022) y 27,0 % (2023), según la base GHED de la OMS que difunde el Banco Mundial. Usar 2020 subestima el problema y hace que la meta 2031 (20 %) parezca más fácil de lo que es.",
+    "correccion": "Indicador y línea base: '27,0 % (2023), OMS – Global Health Expenditure Database (Banco Mundial, SH.XPD.OOPC.CH.ZS)'. Promedio OCDE 2023: 13,4 % (misma fuente). En el resumen: 'cerca de 27 % del gasto en salud en 2023, el doble del promedio OCDE (13,4 %)'. Ajustar metas: 2031 '23 %', 2036 '20 %', 2046 '16 %', 2056 '≤ 13 %'.",
+    "fuente": "https://api.worldbank.org/v2/country/PER/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2015:2024"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas[5].linea_base",
+    "problema": "Se marca '≈ 3 % … por verificar'. El diagnóstico de brechas del MINSA (2021 y 2022) dice que 97 % de los establecimientos del primer nivel tiene capacidad instalada inadecuada; el ≈ 3 % es correcto.",
+    "correccion": "Línea base '≈ 3 % (MINSA, diagnóstico de brechas 2021–2022: 97 % con capacidad instalada inadecuada)'. Quitar 'por verificar'.",
+    "fuente": "https://larepublica.pe/sociedad/2021/05/24/minsa-97-de-centros-del-primer-nivel-tiene-condiciones-inadecuadas"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.indicadores[1]",
+    "problema": "La nota oficial de El Peruano compara 43,1 % (2023, criterio anterior) con 34,9 % (2025, criterio OMS 2024): son dos criterios distintos. El indicador del proyecto está bien rotulado, pero el texto no debe hablar de 'reducción' entre esas dos cifras.",
+    "correccion": "Mantener 34,9 % (OMS 2024) y 43,4 % (RM 363-2022). Para una tendencia, comparar siempre con el mismo criterio.",
+    "fuente": "https://elperuano.pe/noticia/298332-resultados-de-la-endes-2025-destaca-avances-en-vacunacion-infantil-y-reduccion-de-la-anemia"
+   }
+  ]
+ },
+ {
+  "id": "sector:agua",
+  "archivo": "data/sectores/agua.json",
+  "rol": "cifras",
+  "veredicto": "conforme",
+  "resumen": "Verificados en el boletín INEI ENAPRES jul-2025–jun-2026: agua por red pública 90,6 % (rural 80,4 %), cisterna 2,4 %. Las metas siguen trayectorias plausibles. No se pudo abrir el Benchmarking SUNASS 2026, que está alojado en un sitio de prensa regional; conviene enlazar la copia de sunass.gob.pe.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:digital",
+  "archivo": "data/sectores/digital.json",
+  "rol": "cifras",
+  "veredicto": "conforme",
+  "resumen": "Verificados en el boletín TIC del II trimestre 2026 del INEI: hogares con internet 64,5 %, rural 27,1 %, uso por lengua materna 67,2 % frente a 87,6 %. I+D de 0,19 % del PBI en 2024 verificado en el reporte de CONCYTEC. Las metas siguen trayectorias plausibles.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:vivienda",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "cifras",
+  "veredicto": "observaciones",
+  "resumen": "Se revisaron las cifras clave. El indicador del PEDN de 94,5 % de viviendas inscritas casi seguro tiene un universo más restringido de lo que dice el texto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.indicadores[8]",
+    "problema": "'94,5 % de viviendas particulares inscritas en registros públicos' no cuadra con la informalidad de la propiedad descrita en el mismo sector (93 % de la expansión urbana es informal; 69 % de las viviendas de Lima son autoconstruidas). En la ENAHO la pregunta de inscripción en SUNARP (P106B) solo se hace a viviendas propias que ya tienen título, así que el 94,5 % sería '% de viviendas propias con título que lo tienen inscrito', no el total de viviendas. No se pudo abrir el tablero del PEDN (aplicación dinámica) para confirmarlo.",
+    "correccion": "Revisar la ficha técnica del indicador en el tablero de CEPLAN y reescribir el nombre con su universo exacto, por ejemplo 'Viviendas propias con título de propiedad inscrito en SUNARP (% de viviendas con título)'. Si no se confirma, retirar el indicador.",
+    "fuente": "no verificable"
+   }
+  ]
+ }
+]

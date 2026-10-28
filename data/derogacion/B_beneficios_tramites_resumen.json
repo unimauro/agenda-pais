@@ -1,99 +1,116 @@
 {
- "grupo": "B_beneficios_tramites",
- "paquetes": [
-  {
-   "nombre": "Ley de racionalización de beneficios tributarios con cláusula de caducidad",
-   "objeto": "Prohibir prórrogas en bloque; toda exoneración con objetivo, beneficiarios, costo y caducidad máxima de 3 años (Norma VII del Código Tributario elevada a regla dura); evaluación ex post del MEF/SUNAT publicada 12 meses antes del vencimiento; dejar caducar el art. 19 LIR (31-12-2026) salvo incisos evaluados; revisión partida por partida de los Apéndices I y II del IGV antes de 2028; eliminar inafectación de juegos de azar; derogar prórrogas de efecto consumado.",
-   "n_normas": 17,
-   "instrumento": "Ley ordinaria (materia tributaria: reserva de ley, art. 74 Const.); puede delegarse al Ejecutivo por Decreto Legislativo (art. 104).",
-   "nota_constitucional": "Art. 74: solo por ley o DL se crean, modifican o suprimen exoneraciones; art. 79: el Congreso no tiene iniciativa para crear tributos/gastos, pero sí puede suprimir beneficios; las leyes de exoneración requieren informe previo del MEF. No retroactividad (art. 103): la supresión rige hacia adelante; respetar plazos de beneficios con convenios de estabilidad jurídica. Evaluar incidencia en población vulnerable antes de tocar alimentos básicos."
-  },
-  {
-   "nombre": "Ley de reconversión de exoneraciones regionales en inversión pública",
-   "objeto": "Reconvertir gradualmente (5-8 años) la exoneración del IGV y las tasas reducidas de IR en la Amazonía, ZOFRATACNA, ZED y zonas altoandinas en transferencias predecibles a fondos de inversión regional, siguiendo los modelos ya probados de San Martín (Ley 28575), Loreto (Ley 30897) y la región amazónica (Ley 30896); revertir ampliaciones no evaluadas (Ley 32582).",
-   "n_normas": 11,
-   "instrumento": "Ley ordinaria (tributaria, art. 74) con componente presupuestal plurianual.",
-   "nota_constitucional": "Respetar contratos de usuarios de zonas francas/ZED y convenios de estabilidad; consulta previa (Convenio 169 OIT) si afecta directamente a pueblos indígenas; compensación íntegra vía transferencias para no afectar a la población amazónica vulnerable; no hay derecho adquirido a la exoneración futura (TC), pero sí confianza legítima: vigencia diferida."
-  },
-  {
-   "nombre": "Ley de convergencia de regímenes especiales MYPE y laborales sectoriales",
-   "objeto": "Pasar de cuatro regímenes de renta empresarial a dos (régimen MYPE único con cuota simplificada para subsistencia + régimen general), integrar IGV Justo y el texto MYPE laboral; no prorrogar la tasa reducida de IGV a restaurantes/hoteles después de 2027; reemplazar los regímenes laborales sectoriales de exportación no tradicional y agrario por modalidades generales de contrato estacional con límites.",
-   "n_normas": 8,
-   "instrumento": "Ley ordinaria (tributaria y laboral); el TUO lo aprueba el Ejecutivo por DS.",
-   "nota_constitucional": "Art. 74 (tributos), art. 23 y 27 (trabajo y protección contra despido); progresividad de derechos laborales: los contratos vigentes se respetan hasta su término; igualdad (art. 2.2) como fundamento para eliminar regímenes diferenciados sin justificación."
-  },
-  {
-   "nombre": "Ley de régimen único de empleo público",
-   "objeto": "Un solo régimen de empleo público sobre la base de la Ley 30057: cierre de nuevos ingresos a DL 276, DL 728 (sector público) y CAS; tránsito obligatorio por cronograma presupuestado; escala remunerativa única que absorba CAFAE y homologaciones; carreras especiales armonizadas; derogación de mandatos incumplidos (Ley 29849).",
-   "n_normas": 7,
-   "instrumento": "Ley ordinaria; requiere informe del MEF y programación multianual (Ley de presupuesto). No es orgánica, salvo que modifique leyes orgánicas de organismos constitucionales autónomos.",
-   "nota_constitucional": "Art. 40 (carrera administrativa por ley), art. 26 (irrenunciabilidad), art. 78-79 (equilibrio presupuestal; el Congreso no puede crear gasto). Derechos adquiridos: los servidores actuales pueden permanecer en su régimen o optar; sin reducción nominal de remuneraciones."
-  },
-  {
-   "nombre": "Guillotina regulatoria: DS de depuración y Ley de licencias simplificadas",
-   "objeto": "(a) DS anual de guillotina regulatoria del Ejecutivo que derogue disposiciones infralegales declaradas barreras por INDECOPI y procedimientos no ratificados en ACR; (b) Ley de licencias simplificadas: licencia de funcionamiento y edificación automáticas para bajo/medio riesgo con fiscalización posterior, ITSE por riesgo, prohibición sancionada de pedir documentos que el Estado ya tiene, ACR extendido a gobiernos regionales y locales y ventanilla única de certificación ambiental.",
-   "n_normas": 12,
-   "instrumento": "DS (para normas infralegales del Ejecutivo nacional) + Ley ordinaria (para gobiernos subnacionales, licencias y SEIA).",
-   "nota_constitucional": "Autonomía municipal (art. 194-195): la uniformización de requisitos debe hacerse por ley marco, no por DS; art. 58-59 (libertad de empresa); art. 2.22 y 67 (ambiente): la simplificación no puede rebajar estándares ambientales ni de seguridad."
-  }
- ],
- "cifras_contexto": [
-  {
-   "dato": "Gasto tributario potencial 2026: S/ 26 350 millones = 2,16 % del PBI y 12,68 % de la recaudación (S/ 2 340 millones más que 2025).",
-   "fuente": "MEF/SUNAT, Estimación Potencial de los Gastos Tributarios 2026",
-   "url": "https://www.mef.gob.pe/contenidos/tributos/doc/Estimacion_Gastos_Tributarios_2026.pdf"
-  },
-  {
-   "dato": "Mayores rubros 2026: Apéndice I productos agrícolas S/ 4 645 M; IGV Amazonía S/ 3 709 M; servicios de crédito bancos S/ 2 089 M; CTS S/ 1 880 M; educación S/ 1 428 M; juegos de azar S/ 1 347 M.",
-   "fuente": "MEF/SUNAT, Estimación 2026, Anexo 2",
-   "url": "https://www.mef.gob.pe/contenidos/tributos/doc/Estimacion_Gastos_Tributarios_2026.pdf"
-  },
-  {
-   "dato": "12 gastos tributarios vencían en 2025 por S/ 6 889 M (0,56 % del PBI); fueron prorrogados (Apéndices I y II hasta 2028 por Ley 32542; ISC transportistas hasta 2028 por Ley 32540).",
-   "fuente": "MEF/SUNAT (Cuadro 3) y El Peruano 31-12-2025",
-   "url": "https://img.lpderecho.pe/wp-content/uploads/2026/01/Ley-32542-LPDerecho.pdf"
-  },
-  {
-   "dato": "En el periodo legislativo 2021-2026 se aprobaron 46 leyes que crean, amplían o prorrogan beneficios tributarios; solo 14 fueron observadas por el Ejecutivo y 8 no habrían contado con opinión del MEF. El CF pide racionalizar beneficios sin justificación técnica.",
-   "fuente": "Consejo Fiscal, Informe N.º 04-2026-CF (opinión sobre el MMM 2027-2030)",
-   "url": "https://cf.gob.pe/wp-content/uploads/2026/08/Informe-sobre-MMM-27-30-vf.pdf"
-  },
-  {
-   "dato": "Entre ago-2021 y oct-2025 se promulgaron 229 leyes con impacto fiscal adverso (vs. 68 en promedio en congresos 2006-2021); 101 por insistencia con costo anual >S/ 36 mil millones.",
-   "fuente": "Consejo Fiscal, Comunicado N.º 06-2025-CF",
-   "url": "https://cf.gob.pe/wp-content/uploads/2025/10/Comunicado-Congreso-vf.pdf"
-  },
-  {
-   "dato": "El art. 19 de la LIR (exoneraciones a asociaciones, fundaciones, intereses, etc.) vence el 31-12-2026; costo potencial 2027 S/ 829,6 M; solo 41 % de entidades exoneradas presentó declaración.",
-   "fuente": "DL 1549 (El Peruano) y nota sobre proyecto del Ejecutivo",
-   "url": "https://lpderecho.pe/ejecutivo-plantea-ampliar-exoneracion-impuesto-renta-hasta-fines-2029-fundaciones-afectas-asociaciones-sin-fines-lucro/"
-  },
-  {
-   "dato": "INDECOPI inaplicó o eliminó 14 056 barreras burocráticas en 2025 (ahorro S/ 429 M, 6 veces 2024); 79 % (11 123) en licencias de funcionamiento, edificación y habilitación urbana; 11 958 en el interior del país.",
-   "fuente": "El Peruano / INDECOPI",
-   "url": "https://www.elperuano.pe/noticia/292137-indecopi-elimina-mas-de-14000-barreras-burocraticas-durante-el-2025"
-  },
-  {
-   "dato": "Shock de desburocratización (MEF): 187 de 371 barreras identificadas por INDECOPI ya eliminadas; 310 propuestas formalizadas en normas, 159 observadas, 196 en evaluación.",
-   "fuente": "El Peruano",
-   "url": "https://elperuano.pe/noticia/285888-gobierno-impulsa-la-desburocratizacion-conoce-los-cambios-clave-para-las-empresas"
-  },
-  {
-   "dato": "ACR (DL 1310): en 2019 la PCM reportó 700 procedimientos y 1 300 requisitos eliminados en el Ejecutivo nacional; la primera lista ratificó 237 procedimientos y eliminó 30.",
-   "fuente": "Andina (PCM) y DS 110-2018-PCM",
-   "url": "https://andina.pe/ingles/noticia-pcm-2019-se-elimino-700-procedimientos-y-1300-requisitos-para-agilizar-tramites-779420.aspx"
-  },
-  {
-   "dato": "Ley del Servicio Civil: solo ~25 de ~2 000 entidades transitaron (set-2024) y ~0,2 % de servidores (~3 000) está en el régimen 30057; coexisten 4 regímenes generales (276, 728, CAS y 30057).",
-   "fuente": "Gestión (editorial, cifras MTPE/SERVIR)",
-   "url": "https://gestion.pe/opinion/editorial/otra-reforma-estancada-noticia/"
-  },
-  {
-   "dato": "La OCDE (Tax Policy Review Peru 2026) estima el gasto tributario en 2,2 % del PBI en 2025 con presión tributaria de 16,3 % del PBI (2024) y recomienda racionalizar beneficios.",
-   "fuente": "OCDE, Tax Policy Reviews: Peru 2026",
-   "url": "https://www.oecd.org/en/publications/oecd-tax-policy-reviews-peru-2026_47e6c63e-en.html"
-  }
- ],
- "metodo": "Se partió del inventario oficial de gastos tributarios del MEF/SUNAT 2026 (Anexos 1 y 2: base legal, monto, vencimiento) y de los informes del Consejo Fiscal (Comunicado 06-2025, Informe 04-2026). Cada norma con rango de ley se verificó en la base del Archivo Digital de la Legislación del Congreso (búsqueda por número: título y fecha de publicación) y, para normas recientes no indexadas (posteriores a la Ley 32519 y DL >1450), en El Peruano o en su reproducción oficial. Para barreras se usaron reportes de INDECOPI (vía El Peruano) y el DS 059-2025-PCM; para ACR, el DL 1310/1448 y reportes PCM. Las normas infralegales se marcan como [infralegal]. Ninguna recomendación de derogación de beneficios que tocan alimentos, Amazonía o empleo se plantea sin transición y compensación.",
- "limites": "La base del Congreso marca casi todas las normas como 'vigentes' (incluso la Ley 27360, derogada), por lo que la vigencia se tomó del MEF/SUNAT o del texto de la norma posterior; donde no se pudo confirmar (Ley 29482, capítulo tributario de la Ley 31053, título exacto del DL 1481, fecha y texto oficial de la Ley 32582) se marcó verificado=false. No se pudo abrir el informe completo de la OCDE (403) ni un ranking oficial de INDECOPI por entidad; tampoco cifras oficiales 2025-2026 de SERVIR por régimen. Los montos de gasto tributario son estimaciones potenciales independientes y su suma puede sobrestimar la recaudación recuperable. No se listan barreras específicas contenidas en normas con rango de ley porque INDECOPI no las declara en esos casos (solo las reporta)."
+  "grupo": "B_beneficios_tramites",
+  "paquetes": [
+    {
+      "nombre": "Ley de racionalización de beneficios tributarios con cláusula de caducidad",
+      "objeto": "Hacer cumplir y reforzar la Norma VII del Código Tributario (DL 1521): plazo máximo de 3 años, una sola prórroga de hasta 3 años con evaluación ex post previa publicada por el MEF (revisada por el Consejo Fiscal), objetivo, beneficiarios y costo en la exposición de motivos, sin prórroga tácita ni prórrogas en bloque. Además: dejar caducar el art. 19 de la LIR (31-12-2026) salvo incisos evaluados, aunque se aprueben proyectos de prórroga a 2029; revisar partida por partida los Apéndices I y II del IGV antes de 2028; no prorrogar las Leyes 27623/27624 (vencen 31-12-2027); eliminar la inafectación de juegos de azar; derogar prórrogas de efecto consumado.",
+      "n_normas": 18,
+      "instrumento": "Ley ordinaria (materia tributaria: reserva de ley, art. 74 Const.); puede delegarse al Ejecutivo por Decreto Legislativo (art. 104).",
+      "nota_constitucional": "Art. 74: solo por ley o DL se crean, modifican o suprimen exoneraciones; art. 79: el Congreso no tiene iniciativa para crear tributos/gastos, pero sí puede suprimir beneficios; las leyes de exoneración requieren informe previo del MEF. No retroactividad (art. 103): la supresión rige hacia adelante; respetar plazos de beneficios con convenios de estabilidad jurídica. Evaluar incidencia en población vulnerable antes de tocar alimentos básicos. Como la Norma VII tiene rango de ley ordinaria, las leyes especiales posteriores la desplazan (Leyes 32434, 30446, 27623/27624). Para que la regla obligue de verdad, el Reglamento del Congreso (con fuerza de ley) debe impedir que se dictamine un beneficio sin informe del MEF con su costo y un plazo de 3 años o menos."
+    },
+    {
+      "nombre": "Ley de reconversión de exoneraciones regionales en inversión pública",
+      "objeto": "Reconvertir gradualmente (5-8 años) la exoneración del IGV y las tasas reducidas de IR en la Amazonía, ZOFRATACNA, ZED y zonas altoandinas en transferencias predecibles a fondos de inversión regional, siguiendo los modelos ya probados de San Martín (Ley 28575), Loreto (Ley 30897) y la región amazónica (Ley 30896); revertir ampliaciones no evaluadas (Ley 32582).",
+      "n_normas": 11,
+      "instrumento": "Ley ordinaria (tributaria, art. 74) con componente presupuestal plurianual.",
+      "nota_constitucional": "Respetar contratos de usuarios de zonas francas/ZED y convenios de estabilidad; consulta previa (Convenio 169 OIT) si afecta directamente a pueblos indígenas; compensación íntegra vía transferencias para no afectar a la población amazónica vulnerable; no hay derecho adquirido a la exoneración futura (TC), pero sí confianza legítima: vigencia diferida. Un trato tributario zonal requiere ley aprobada por dos tercios (art. 79, tercer párrafo). Los convenios de estabilidad (art. 62) se respetan hasta su vencimiento. El precedente de San Martín (Ley 28575) se revirtió con las Leyes 32317 y 32582, así que el fondo sustituto necesita una asignación mínima fijada por fórmula en la ley."
+    },
+    {
+      "nombre": "Ley de convergencia de regímenes especiales MYPE y laborales sectoriales",
+      "objeto": "Pasar de cuatro regímenes de renta empresarial a dos (régimen MYPE único con cuota simplificada para subsistencia + régimen general), integrar IGV Justo y el régimen laboral MYPE de la Ley 32353 (que ya derogó la Ley 28015 y el TUO DS 013-2013-PRODUCE); no prorrogar la tasa reducida de IGV a restaurantes/hoteles después de 2027; reemplazar los regímenes laborales sectoriales de exportación no tradicional y agrario por modalidades generales de contrato estacional con límites.",
+      "n_normas": 7,
+      "instrumento": "Ley ordinaria (tributaria y laboral); el TUO lo aprueba el Ejecutivo por DS.",
+      "nota_constitucional": "Art. 74 (tributos), art. 23 y 27 (trabajo y protección contra despido); progresividad de derechos laborales: los contratos vigentes se respetan hasta su término; igualdad (art. 2.2) como fundamento para eliminar regímenes diferenciados sin justificación."
+    },
+    {
+      "nombre": "Ley de régimen único de empleo público",
+      "objeto": "Un solo régimen de empleo público sobre la base de la Ley 30057: cierre de nuevos ingresos a DL 276, DL 728 (sector público) y CAS; tránsito obligatorio por cronograma presupuestado; escala remunerativa única que absorba CAFAE y homologaciones; carreras especiales armonizadas; derogación de mandatos incumplidos (Ley 29849).",
+      "n_normas": 7,
+      "instrumento": "Ley ordinaria; requiere informe del MEF y programación multianual (Ley de presupuesto). No es orgánica, salvo que modifique leyes orgánicas de organismos constitucionales autónomos.",
+      "nota_constitucional": "Art. 40 (carrera administrativa por ley), art. 26 (irrenunciabilidad), art. 78-79 (equilibrio presupuestal; el Congreso no puede crear gasto). Derechos adquiridos: los servidores actuales pueden permanecer en su régimen o optar; sin reducción nominal de remuneraciones. STC 00013-2021-PI/TC: la incorporación de los CAS a los regímenes 276/728 por ley fue declarada inconstitucional (arts. 40, 78-79). El régimen único debe financiarse y basarse en concurso."
+    },
+    {
+      "nombre": "Guillotina regulatoria: DS de depuración y Ley de licencias simplificadas",
+      "objeto": "(a) DS anual de guillotina regulatoria del Ejecutivo que derogue disposiciones infralegales declaradas barreras por INDECOPI y procedimientos no ratificados en ACR; (b) Ley de licencias simplificadas: licencia de funcionamiento y edificación automáticas para bajo/medio riesgo con fiscalización posterior, ITSE por riesgo, prohibición sancionada de pedir documentos que el Estado ya tiene, ACR extendido a gobiernos regionales y locales y ventanilla única de certificación ambiental.",
+      "n_normas": 12,
+      "instrumento": "DS (para normas infralegales del Ejecutivo nacional) + Ley ordinaria (para gobiernos subnacionales, licencias y SEIA).",
+      "nota_constitucional": "Autonomía municipal (art. 194-195): la uniformización de requisitos debe hacerse por ley marco, no por DS; art. 58-59 (libertad de empresa); art. 2.22 y 67 (ambiente): la simplificación no puede rebajar estándares ambientales ni de seguridad."
+    }
+  ],
+  "cifras_contexto": [
+    {
+      "dato": "Gasto tributario potencial 2026: S/ 26 350 millones = 2,16 % del PBI y 12,68 % de la recaudación (S/ 2 340 millones más que 2025).",
+      "fuente": "MEF/SUNAT, Estimación Potencial de los Gastos Tributarios 2026",
+      "url": "https://www.mef.gob.pe/contenidos/tributos/doc/Estimacion_Gastos_Tributarios_2026.pdf"
+    },
+    {
+      "dato": "Mayores rubros 2026: Apéndice I productos agrícolas S/ 4 645 M; IGV Amazonía S/ 3 709 M; servicios de crédito bancos S/ 2 089 M; CTS S/ 1 880 M; educación S/ 1 428 M; juegos de azar S/ 1 347 M.",
+      "fuente": "MEF/SUNAT, Estimación 2026, Anexo 2",
+      "url": "https://www.mef.gob.pe/contenidos/tributos/doc/Estimacion_Gastos_Tributarios_2026.pdf"
+    },
+    {
+      "dato": "12 gastos tributarios vencían en 2025 por S/ 6 889 M (0,56 % del PBI); fueron prorrogados (Apéndices I y II hasta 2028 por Ley 32542; ISC transportistas hasta 2028 por Ley 32540).",
+      "fuente": "MEF/SUNAT (Cuadro 3) y El Peruano 31-12-2025",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/01/Ley-32542-LPDerecho.pdf"
+    },
+    {
+      "dato": "En el periodo legislativo 2021-2026 se aprobaron 46 leyes que crean, amplían o prorrogan beneficios tributarios; solo 14 fueron observadas por el Ejecutivo y 8 no habrían contado con opinión del MEF. El CF pide racionalizar beneficios sin justificación técnica.",
+      "fuente": "Consejo Fiscal, Informe N.º 04-2026-CF (opinión sobre el MMM 2027-2030)",
+      "url": "https://cf.gob.pe/wp-content/uploads/2026/08/Informe-sobre-MMM-27-30-vf.pdf"
+    },
+    {
+      "dato": "Entre ago-2021 y oct-2025 se promulgaron 229 leyes con impacto fiscal adverso (vs. 68 en promedio en congresos 2006-2021); 101 por insistencia con costo anual >S/ 36 mil millones.",
+      "fuente": "Consejo Fiscal, Comunicado N.º 06-2025-CF",
+      "url": "https://cf.gob.pe/wp-content/uploads/2025/10/Comunicado-Congreso-vf.pdf"
+    },
+    {
+      "dato": "El art. 19 de la LIR (exoneraciones a asociaciones, fundaciones, intereses, etc.) vence el 31-12-2026; costo potencial 2027 S/ 829,6 M; solo 41 % de entidades exoneradas presentó declaración.",
+      "fuente": "DL 1549 (El Peruano) y nota sobre proyecto del Ejecutivo",
+      "url": "https://lpderecho.pe/ejecutivo-plantea-ampliar-exoneracion-impuesto-renta-hasta-fines-2029-fundaciones-afectas-asociaciones-sin-fines-lucro/"
+    },
+    {
+      "dato": "INDECOPI inaplicó o eliminó 14 056 barreras burocráticas en 2025 (ahorro S/ 429 M, 6 veces 2024); 79 % (11 123) en licencias de funcionamiento, edificación y habilitación urbana; 11 958 en el interior del país.",
+      "fuente": "El Peruano / INDECOPI",
+      "url": "https://www.elperuano.pe/noticia/292137-indecopi-elimina-mas-de-14000-barreras-burocraticas-durante-el-2025"
+    },
+    {
+      "dato": "Shock de desburocratización (MEF): 187 de 371 barreras identificadas por INDECOPI ya eliminadas; 310 propuestas formalizadas en normas, 159 observadas, 196 en evaluación.",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/285888-gobierno-impulsa-la-desburocratizacion-conoce-los-cambios-clave-para-las-empresas"
+    },
+    {
+      "dato": "ACR (DL 1310): en 2019 la PCM reportó 700 procedimientos y 1 300 requisitos eliminados en el Ejecutivo nacional; la primera lista ratificó 237 procedimientos y eliminó 30.",
+      "fuente": "Andina (PCM) y DS 110-2018-PCM",
+      "url": "https://andina.pe/ingles/noticia-pcm-2019-se-elimino-700-procedimientos-y-1300-requisitos-para-agilizar-tramites-779420.aspx"
+    },
+    {
+      "dato": "Ley del Servicio Civil: solo ~25 de ~2 000 entidades transitaron (set-2024) y ~0,2 % de servidores (~3 000) está en el régimen 30057; coexisten 4 regímenes generales (276, 728, CAS y 30057).",
+      "fuente": "Gestión (editorial, cifras MTPE/SERVIR)",
+      "url": "https://gestion.pe/opinion/editorial/otra-reforma-estancada-noticia/"
+    },
+    {
+      "dato": "La OCDE (Tax Policy Review Peru 2026) estima el gasto tributario en 2,2 % del PBI en 2025 con presión tributaria de 16,3 % del PBI (2024) y recomienda racionalizar beneficios.",
+      "fuente": "OCDE, Tax Policy Reviews: Peru 2026",
+      "url": "https://www.oecd.org/en/publications/oecd-tax-policy-reviews-peru-2026_47e6c63e-en.html"
+    },
+    {
+      "dato": "Norma VII del Código Tributario, modificada por el DL 1521 (22-01-2022): beneficios con plazo máximo de 3 años, una sola prórroga de hasta 3 años con evaluación previa y sin prórroga tácita.",
+      "fuente": "El Peruano, DL 1521",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2032894-1"
+    }
+  ],
+  "metodo": "Se partió del inventario oficial de gastos tributarios del MEF/SUNAT 2026 (Anexos 1 y 2: base legal, monto, vencimiento) y de los informes del Consejo Fiscal (Comunicado 06-2025, Informe 04-2026). Cada norma con rango de ley se verificó en la base del Archivo Digital de la Legislación del Congreso (búsqueda por número: título y fecha de publicación) y, para normas recientes no indexadas (posteriores a la Ley 32519 y DL >1450), en El Peruano o en su reproducción oficial. Para barreras se usaron reportes de INDECOPI (vía El Peruano) y el DS 059-2025-PCM; para ACR, el DL 1310/1448 y reportes PCM. Las normas infralegales se marcan como [infralegal]. Ninguna recomendación de derogación de beneficios que tocan alimentos, Amazonía o empleo se plantea sin transición y compensación.",
+  "limites": "La base del Congreso marca casi todas las normas como 'vigentes' (incluso la Ley 27360, derogada), por lo que la vigencia se tomó del MEF/SUNAT o del texto de la norma posterior; tras la revisión SPIJ (28-10-2026) se confirmaron el DL 1481, la Ley 32582, el vencimiento de la Ley 29482 (2019) y el traslado de los beneficios del libro a la Ley 31893; la ficha de la Ley 30056 quedó retirada (verificado=false) porque la Ley 32353 derogó su parte MYPE. El plazo del reintegro de la Ley 31893 (octubre de 2026) queda por verificar. No se pudo abrir el informe completo de la OCDE (403) ni un ranking oficial de INDECOPI por entidad; tampoco cifras oficiales 2025-2026 de SERVIR por régimen. Los montos de gasto tributario son estimaciones potenciales independientes y su suma puede sobrestimar la recaudación recuperable. No se listan barreras específicas contenidas en normas con rango de ley porque INDECOPI no las declara en esos casos (solo las reporta).",
+  "revision_atendida": [
+    {
+      "rol": "economia/constitucional-fiscal/jurista",
+      "hallazgo": "Paquete de beneficios alineado a Norma VII (DL 1521)",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "spij",
+      "hallazgo": "Ley 32353 sustituye Ley 28015 y parte MYPE de 30056",
+      "decision": "aplicado"
+    }
+  ]
 }

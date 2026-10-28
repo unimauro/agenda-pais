@@ -1,1838 +1,1976 @@
 {
- "id": "transporte",
- "nombre": "Transporte",
- "lema": "Llegar a tiempo, seguro y barato, en la ciudad y en el campo",
- "diagnostico": {
-  "resumen": "Según Provías Nacional (MTC), al cierre de 2024 el 77,6 % de la red vial nacional no concesionada estaba pavimentada. Las redes que usan los distritos rurales están muy rezagadas: con datos del SINAC del MTC a junio de 2025, unos 20 740 de los 27 733 km de la red departamental y unos 116 452 de los 120 596 km de la red vecinal seguían sin pavimentar. En las ciudades, el problema es el tiempo: el TomTom Traffic Index 2025 ubica a Lima como la ciudad del mundo donde los conductores pierden más horas en el tráfico, unas 195 al año. La Línea 1 del Metro transporta unos 630 000 pasajeros al día y está saturada (MTC, 2025). La Línea 2, contratada en 2014, tiene como fecha estimada agosto de 2029 según un ejercicio de Ositrán, que no es una fecha oficial. La mayoría de los viajes sigue en combis, buses de empresas que alquilan rutas y colectivos informales, con una flota de 14 años de antigüedad promedio (MTC, 2024). En seguridad vial, el Observatorio Nacional de Seguridad Vial registró 3 002 fallecidos en 2024. Hay avances, como el nuevo terminal del Jorge Chávez (2025) y Chancay (286 255 TEU en su primer año), pero el Banco Mundial estima que la logística pesa entre el 20 % y el 50 % del costo de los productos agrícolas, frente al 9–12 % de la OCDE. El problema de fondo no es la falta de leyes, sino la gestión de predios e interferencias, el mantenimiento y la capacidad de las autoridades urbanas.",
-  "indicadores": [
-   {
-    "nombre": "Red vial nacional no concesionada pavimentada",
-    "valor": "77,6",
-    "unidad": "%",
-    "anio": 2024,
-    "fuente": "MTC – Provías Nacional, ficha AEI.01.01 (II sem. 2024)",
-    "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
-   },
-   {
-    "nombre": "Red vial departamental sin pavimentar",
-    "valor": "≈20 740 de 27 733",
-    "unidad": "km",
-    "anio": 2025,
-    "fuente": "MTC – SINAC (jun-2025), citado por PerúCheck",
-    "url": "https://elbuho.pe/?p=430764"
-   },
-   {
-    "nombre": "Red vial vecinal sin pavimentar",
-    "valor": "≈116 452 de 120 596",
-    "unidad": "km",
-    "anio": 2025,
-    "fuente": "MTC – SINAC (jun-2025), citado por PerúCheck",
-    "url": "https://elbuho.pe/?p=430764"
-   },
-   {
-    "nombre": "Fallecidos por siniestros de tránsito",
-    "valor": "3 002",
-    "unidad": "personas",
-    "anio": 2024,
-    "fuente": "Observatorio Nacional de Seguridad Vial (MTC), vía PerúCheck",
-    "url": "https://caretas.pe/?p=801787"
-   },
-   {
-    "nombre": "Horas perdidas en congestión por conductor en Lima",
-    "valor": "195",
-    "unidad": "horas/año",
-    "anio": 2025,
-    "fuente": "TomTom Traffic Index 2025",
-    "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
-   },
-   {
-    "nombre": "Pasajeros diarios de la Línea 1 del Metro de Lima",
-    "valor": "≈630 000",
-    "unidad": "pasajeros/día",
-    "anio": 2025,
-    "fuente": "MTC, exposición en el Congreso (21-oct-2025)",
-    "url": "https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
-   },
-   {
-    "nombre": "Antigüedad promedio del parque vehicular",
-    "valor": "14",
-    "unidad": "años",
-    "anio": 2024,
-    "fuente": "MTC, exposición en la Comisión de Transportes (01-abr-2024)",
-    "url": "https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
-   },
-   {
-    "nombre": "Puesto del Perú en el Índice de Desempeño Logístico (LPI)",
-    "valor": "61 de 139",
-    "unidad": "puesto",
-    "anio": 2023,
-    "fuente": "Banco Mundial, LPI 2023 (citado por CIEN-ADEX)",
-    "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
-   },
-   {
-    "nombre": "Contenedores movidos por el puerto de Chancay en su primer año (nov-2024 a nov-2025)",
-    "valor": "286 255",
-    "unidad": "TEU",
-    "anio": 2025,
-    "fuente": "ComexPerú, citado por MundoMarítimo",
-    "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
-   }
+  "id": "transporte",
+  "nombre": "Transporte",
+  "lema": "Llegar a tiempo, seguro y barato, en la ciudad y en el campo",
+  "diagnostico": {
+    "resumen": "Según Provías Nacional (MTC), al cierre de 2024 el 77,6 % de la red vial nacional no concesionada estaba pavimentada. Las redes que usan los distritos rurales están muy rezagadas: con datos del SINAC del MTC a junio de 2025, unos 20 740 de los 27 733 km de la red departamental y unos 116 452 de los 120 596 km de la red vecinal seguían sin pavimentar. En las ciudades, el problema es el tiempo: el TomTom Traffic Index 2025 ubica a Lima como la ciudad del mundo donde los conductores pierden más horas en el tráfico, unas 195 al año. La Línea 1 del Metro transporta unos 630 000 pasajeros al día y está saturada (MTC, 2025). La Línea 2, contratada en 2014, tiene como fecha estimada agosto de 2029 según un ejercicio de Ositrán, que no es una fecha oficial. La mayoría de los viajes sigue en combis, buses de empresas que alquilan rutas y colectivos informales, con una flota de 14 años de antigüedad promedio (MTC, 2024). En seguridad vial, el Observatorio Nacional de Seguridad Vial registró 2 890 fallecidos en 2025 (3 002 en 2024). Hay avances, como el nuevo terminal del Jorge Chávez (2025) y Chancay (286 255 TEU en su primer año), pero el Banco Mundial estima que la logística pesa entre el 20 % y el 50 % del costo de los productos agrícolas, frente al 9–12 % de la OCDE. El problema de fondo no es la falta de leyes, sino la gestión de predios e interferencias, el mantenimiento y la capacidad de las autoridades urbanas.",
+    "indicadores": [
+      {
+        "nombre": "Red vial nacional no concesionada pavimentada",
+        "valor": "77,6",
+        "unidad": "%",
+        "anio": 2024,
+        "fuente": "MTC – Provías Nacional, ficha AEI.01.01 (II sem. 2024)",
+        "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
+      },
+      {
+        "nombre": "Red vial departamental sin pavimentar",
+        "valor": "≈20 740 de 27 733",
+        "unidad": "km",
+        "anio": 2025,
+        "fuente": "MTC – SINAC (jun-2025), citado por PerúCheck",
+        "url": "https://elbuho.pe/?p=430764"
+      },
+      {
+        "nombre": "Red vial vecinal sin pavimentar",
+        "valor": "≈116 452 de 120 596",
+        "unidad": "km",
+        "anio": 2025,
+        "fuente": "MTC – SINAC (jun-2025), citado por PerúCheck",
+        "url": "https://elbuho.pe/?p=430764"
+      },
+      {
+        "nombre": "Fallecidos por siniestros de tránsito (ONSV; no comparable con SINADEF)",
+        "valor": "2 890",
+        "unidad": "personas",
+        "anio": 2025,
+        "fuente": "Observatorio Nacional de Seguridad Vial (MTC), vía PerúCheck; 3 002 en 2024",
+        "url": "https://elbuho.pe/?p=418281"
+      },
+      {
+        "nombre": "Horas perdidas en congestión por conductor en Lima",
+        "valor": "195",
+        "unidad": "horas/año",
+        "anio": 2025,
+        "fuente": "TomTom Traffic Index 2025",
+        "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+      },
+      {
+        "nombre": "Pasajeros diarios de la Línea 1 del Metro de Lima",
+        "valor": "≈630 000",
+        "unidad": "pasajeros/día",
+        "anio": 2025,
+        "fuente": "MTC, exposición en el Congreso (21-oct-2025)",
+        "url": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+      },
+      {
+        "nombre": "Antigüedad promedio del parque vehicular",
+        "valor": "14",
+        "unidad": "años",
+        "anio": 2024,
+        "fuente": "MTC, exposición en la Comisión de Transportes (01-abr-2024)",
+        "url": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+      },
+      {
+        "nombre": "Puesto del Perú en el Índice de Desempeño Logístico (LPI)",
+        "valor": "61 de 139",
+        "unidad": "puesto",
+        "anio": 2023,
+        "fuente": "Banco Mundial, LPI 2023 (citado por CIEN-ADEX)",
+        "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
+      },
+      {
+        "nombre": "Contenedores movidos por el puerto de Chancay en su primer año (nov-2024 a nov-2025)",
+        "valor": "286 255",
+        "unidad": "TEU",
+        "anio": 2025,
+        "fuente": "ComexPerú, citado por MundoMarítimo",
+        "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
+      }
+    ],
+    "brechas": "La brecha es sobre todo territorial. La red nacional está mayormente pavimentada, pero casi toda la red vecinal, la que conecta a los centros poblados rurales de la sierra y la selva con su capital de distrito, es de afirmado o trocha (SINAC-MTC, 2025). En la Amazonía, Loreto y Ucayali dependen del río y del avión: tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024, gob.pe), no hay un servicio permanente de navegabilidad. En Lima, el tiempo de viaje castiga a quienes viven en la periferia (Lima Norte, Este y Sur) y dependen de dos o tres transbordos. Los datos de la ATU y de encuestas de movilidad que desagreguen por quintil y sexo están por verificar. Las mujeres reportan acoso en el transporte público. Las cifras nacionales desagregadas por sexo del INEI están por verificar. Los siniestros afectan sobre todo a peatones y motociclistas. El desglose oficial por tipo de usuario del ONSV está por verificar.",
+    "causas": [
+      "Inversión sin mantenimiento: el presupuesto premia obras nuevas y deja la conservación a campañas y transferencias puntuales. El MTC reportó 17 266 km con conservación por niveles de servicio en 2019 y 11 619 km en 2021 (evaluaciones del POI de Provías Nacional).",
+      "Fragmentación de competencias: 26 gobiernos regionales y más de 1 800 municipalidades gestionan redes viales con poca capacidad técnica, y Lima tuvo dos autoridades de transporte hasta la creación de la ATU (Ley 30900), que aún no controla todas las rutas.",
+      "Liberación de predios e interferencias como cuello de botella: la Contraloría alertó riesgo de sobrecostos en la Línea 2 por el retraso del MTC en entregar áreas de concesión.",
+      "Modelo empresarial del transporte urbano basado en el 'comisionista-afiliador': rutas concesionadas a empresas que alquilan la ruta a dueños de vehículos que compiten por pasajeros ('guerra del centavo'), un patrón descrito en las reformas de Bogotá y Santiago (las evaluaciones específicas están por verificar).",
+      "Priorización política antes que técnica: el Congreso aprueba con frecuencia leyes que solo 'declaran de necesidad pública' carreteras específicas (p. ej. Ley 31938, Ley 32488), sin asignar recursos.",
+      "Contratos APP con muchas adendas y riesgos mal asignados: la Línea 2 fue modificada por adendas y terminó en arbitraje CIADI con condena al Estado, según reportes de prensa y de la Contraloría."
+    ]
+  },
+  "vision_2056": "En 2056 cualquier peruano llega a su capital de provincia por un camino transitable todo el año y una persona de Lima Norte cruza la ciudad en metro o bus integrado con un solo pasaje en menos de una hora. Los siniestros viales son raros y la carga sale del campo al puerto a costos de país OCDE.",
+  "metas": [
+    {
+      "indicador": "Red vial nacional pavimentada (no concesionada)",
+      "linea_base": "77,6 % (2024)",
+      "2031": "85 %",
+      "2036": "90 %",
+      "2046": "97 %",
+      "2056": "100 %",
+      "referencia": "Chile tiene la red primaria casi totalmente pavimentada (por verificar con MOP)",
+      "fuente_linea_base": "MTC – Provías Nacional, ficha AEI.01.01 (II sem. 2024)"
+    },
+    {
+      "indicador": "Red vial vecinal con mantenimiento rutinario contratado al año",
+      "linea_base": "por verificar (Provías Descentralizado)",
+      "2031": "40 %",
+      "2036": "60 %",
+      "2046": "85 %",
+      "2056": "95 %",
+      "referencia": "Objetivo propio; los programas de caminos rurales con microempresas son la referencia nacional evaluada (BID, GRADE)",
+      "fuente_linea_base": "por verificar"
+    },
+    {
+      "indicador": "Fallecidos por siniestros de tránsito al año",
+      "linea_base": "2 890 (2025)",
+      "2031": "2 100",
+      "2036": "1 500",
+      "2046": "800",
+      "2056": "≤ 400",
+      "referencia": "Meta ODS 3.6 y Segundo Decenio de Acción de la ONU: −50 % al 2030 (OMS)",
+      "fuente_linea_base": "ONSV-MTC, vía PerúCheck (no comparable con SINADEF)"
+    },
+    {
+      "indicador": "Horas perdidas en congestión por conductor en Lima",
+      "linea_base": "195 h (2025)",
+      "2031": "170 h",
+      "2036": "140 h",
+      "2046": "100 h",
+      "2056": "≤ 80 h",
+      "referencia": "Ciudades latinoamericanas con metro extenso, como Santiago (por verificar con TomTom)",
+      "fuente_linea_base": "TomTom Traffic Index 2025"
+    },
+    {
+      "indicador": "Kilómetros de metro y tren urbano en operación en Lima-Callao",
+      "linea_base": "≈35 km Línea 1 + tramo 1A de Línea 2 (2026, por verificar)",
+      "2031": "≈70 km (L1 + L2 completa)",
+      "2036": "≈100 km (L3 inicial y tren Lima–Chosica regular)",
+      "2046": "≈180 km",
+      "2056": "≈250 km",
+      "referencia": "Santiago de Chile supera 140 km de metro (por verificar)",
+      "fuente_linea_base": "MTC/ATU (por verificar)"
+    },
+    {
+      "indicador": "Puesto en el Índice de Desempeño Logístico del Banco Mundial",
+      "linea_base": "61 (2023)",
+      "2031": "50",
+      "2036": "40",
+      "2046": "30",
+      "2056": "≤ 25",
+      "referencia": "Chile ocupa puestos alrededor del 30 en el LPI (por verificar)",
+      "fuente_linea_base": "Banco Mundial, LPI 2023"
+    },
+    {
+      "indicador": "Antigüedad promedio del parque vehicular",
+      "linea_base": "14 años (2024)",
+      "2031": "13",
+      "2036": "11",
+      "2046": "9",
+      "2056": "8",
+      "referencia": "Promedio europeo cercano a 12 años (ACEA, por verificar)",
+      "fuente_linea_base": "MTC (2024)"
+    }
   ],
-  "brechas": "La brecha es sobre todo territorial. La red nacional está mayormente pavimentada, pero casi toda la red vecinal, la que conecta a los centros poblados rurales de la sierra y la selva con su capital de distrito, es de afirmado o trocha (SINAC-MTC, 2025). En la Amazonía, Loreto y Ucayali dependen del río y del avión: tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024, gob.pe), no hay un servicio permanente de navegabilidad. En Lima, el tiempo de viaje castiga a quienes viven en la periferia (Lima Norte, Este y Sur) y dependen de dos o tres transbordos. Los datos de la ATU y de encuestas de movilidad que desagreguen por quintil y sexo están por verificar. Las mujeres reportan acoso en el transporte público. Las cifras nacionales desagregadas por sexo del INEI están por verificar. Los siniestros afectan sobre todo a peatones y motociclistas. El desglose oficial por tipo de usuario del ONSV está por verificar.",
-  "causas": [
-   "Inversión sin mantenimiento: el presupuesto premia obras nuevas y deja la conservación a campañas y transferencias puntuales. El MTC reportó 17 266 km con conservación por niveles de servicio en 2019 y 11 619 km en 2021 (evaluaciones del POI de Provías Nacional).",
-   "Fragmentación de competencias: 26 gobiernos regionales y más de 1 800 municipalidades gestionan redes viales con poca capacidad técnica, y Lima tuvo dos autoridades de transporte hasta la creación de la ATU (Ley 30900), que aún no controla todas las rutas.",
-   "Liberación de predios e interferencias como cuello de botella: la Contraloría alertó riesgo de sobrecostos en la Línea 2 por el retraso del MTC en entregar áreas de concesión.",
-   "Modelo empresarial del transporte urbano basado en el 'comisionista-afiliador': rutas concesionadas a empresas que alquilan la ruta a dueños de vehículos que compiten por pasajeros ('guerra del centavo'), un patrón descrito en las reformas de Bogotá y Santiago (las evaluaciones específicas están por verificar).",
-   "Priorización política antes que técnica: el Congreso aprueba con frecuencia leyes que solo 'declaran de necesidad pública' carreteras específicas (p. ej. Ley 31938, Ley 32488), sin asignar recursos.",
-   "Contratos APP con muchas adendas y riesgos mal asignados: la Línea 2 fue modificada por adendas y terminó en arbitraje CIADI con condena al Estado, según reportes de prensa y de la Contraloría."
-  ]
- },
- "vision_2056": "En 2056 cualquier peruano llega a su capital de provincia por un camino transitable todo el año y una persona de Lima Norte cruza la ciudad en metro o bus integrado con un solo pasaje en menos de una hora. Los siniestros viales son raros y la carga sale del campo al puerto a costos de país OCDE.",
- "metas": [
-  {
-   "indicador": "Red vial nacional pavimentada (no concesionada)",
-   "linea_base": "77,6 % (2024)",
-   "2031": "85 %",
-   "2036": "90 %",
-   "2046": "97 %",
-   "2056": "100 %",
-   "referencia": "Chile tiene la red primaria casi totalmente pavimentada (por verificar con MOP)",
-   "fuente_linea_base": "MTC – Provías Nacional, ficha AEI.01.01 (II sem. 2024)"
-  },
-  {
-   "indicador": "Red vial vecinal con mantenimiento rutinario contratado al año",
-   "linea_base": "por verificar (Provías Descentralizado)",
-   "2031": "40 %",
-   "2036": "60 %",
-   "2046": "85 %",
-   "2056": "95 %",
-   "referencia": "Objetivo propio; los programas de caminos rurales con microempresas son la referencia nacional evaluada (BID, GRADE)",
-   "fuente_linea_base": "por verificar"
-  },
-  {
-   "indicador": "Fallecidos por siniestros de tránsito al año",
-   "linea_base": "3 002 (2024)",
-   "2031": "2 100",
-   "2036": "1 500",
-   "2046": "800",
-   "2056": "≤ 400",
-   "referencia": "Meta ODS 3.6 y Segundo Decenio de Acción de la ONU: −50 % al 2030 (OMS)",
-   "fuente_linea_base": "ONSV-MTC, vía PerúCheck"
-  },
-  {
-   "indicador": "Horas perdidas en congestión por conductor en Lima",
-   "linea_base": "195 h (2025)",
-   "2031": "170 h",
-   "2036": "140 h",
-   "2046": "100 h",
-   "2056": "≤ 80 h",
-   "referencia": "Ciudades latinoamericanas con metro extenso, como Santiago (por verificar con TomTom)",
-   "fuente_linea_base": "TomTom Traffic Index 2025"
-  },
-  {
-   "indicador": "Kilómetros de metro y tren urbano en operación en Lima-Callao",
-   "linea_base": "≈35 km Línea 1 + tramo 1A de Línea 2 (2026, por verificar)",
-   "2031": "≈70 km (L1 + L2 completa)",
-   "2036": "≈100 km (L3 inicial y tren Lima–Chosica regular)",
-   "2046": "≈180 km",
-   "2056": "≈250 km",
-   "referencia": "Santiago de Chile supera 140 km de metro (por verificar)",
-   "fuente_linea_base": "MTC/ATU (por verificar)"
-  },
-  {
-   "indicador": "Puesto en el Índice de Desempeño Logístico del Banco Mundial",
-   "linea_base": "61 (2023)",
-   "2031": "50",
-   "2036": "40",
-   "2046": "30",
-   "2056": "≤ 25",
-   "referencia": "Chile ocupa puestos alrededor del 30 en el LPI (por verificar)",
-   "fuente_linea_base": "Banco Mundial, LPI 2023"
-  },
-  {
-   "indicador": "Antigüedad promedio del parque vehicular",
-   "linea_base": "14 años (2024)",
-   "2031": "13",
-   "2036": "11",
-   "2046": "9",
-   "2056": "8",
-   "referencia": "Promedio europeo cercano a 12 años (ACEA, por verificar)",
-   "fuente_linea_base": "MTC (2024)"
-  }
- ],
- "acciones": [
-  {
-   "id": "TRA-01",
-   "titulo": "Conservar toda la red nacional no concesionada con contratos plurianuales por niveles de servicio",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo permiten la Ley de Contrataciones del Estado (Ley 32069) y la programación presupuestal multianual. Basta con decisiones de Provías Nacional y del MEF.",
-   "etapa": "2026-2031",
-   "que": "Provías Nacional contrata por corredores la conservación de toda la red vial nacional no concesionada. Los contratos duran entre 5 y 10 años y pagan al contratista por resultados medibles (rugosidad, baches, señalización, tiempo de reapertura tras un huaico), no por metros de asfalto. Cada corredor tiene un tablero público con su nivel de servicio mensual. Las campañas de emergencia pasan a ser excepción. La rehabilitación se programa con un sistema de gestión de activos que prioriza intervenir antes de que la vía colapse.",
-   "evidencia": "Provías Nacional ya usa la conservación por niveles de servicio: cubrió 17 266 km en 2019 y 11 619 km en 2021, según sus evaluaciones del POI. Los contratos CREMA (rehabilitación y mantenimiento por desempeño) del Banco Mundial en América Latina son la referencia internacional. Una evaluación de impacto peruana específica está por verificar.",
-   "entrega": "100 % de la red vial nacional no concesionada bajo contratos plurianuales por niveles de servicio, con un tablero público por corredor.",
-   "responsable": "PROVIAS NACIONAL",
-   "entidades": [
+  "acciones": [
     {
-     "sigla": "MTC",
-     "rol": "rectora"
+      "id": "TRA-01",
+      "titulo": "Conservar toda la red nacional no concesionada con contratos plurianuales por niveles de servicio",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo permiten la Ley de Contrataciones del Estado (Ley 32069) y la programación presupuestal multianual. Basta con decisiones de Provías Nacional y del MEF.",
+      "etapa": "2026-2031",
+      "que": "Provías Nacional contrata por corredores la conservación de toda la red vial nacional no concesionada. Los contratos duran entre 5 y 10 años y pagan al contratista por resultados medibles (rugosidad, baches, señalización, tiempo de reapertura tras un huaico), no por metros de asfalto. Cada corredor tiene un tablero público con su nivel de servicio mensual. Las campañas de emergencia pasan a ser excepción. La rehabilitación se programa con un sistema de gestión de activos que prioriza intervenir antes de que la vía colapse.",
+      "evidencia": "Provías Nacional ya usa la conservación por niveles de servicio: cubrió 17 266 km en 2019 y 11 619 km en 2021, según sus evaluaciones del POI. Los contratos CREMA (rehabilitación y mantenimiento por desempeño) del Banco Mundial en América Latina son la referencia internacional. Una evaluación de impacto peruana específica está por verificar.",
+      "entrega": "100 % de la red vial nacional no concesionada bajo contratos plurianuales por niveles de servicio, con un tablero público por corredor.",
+      "responsable": "PROVIAS NACIONAL",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROVIAS NACIONAL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto del pliego MTC (PP 0138, Reducción del costo, tiempo e inseguridad en el sistema de transporte) con compromisos multianuales.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de la red nacional no concesionada en buen estado; km con contrato por niveles de servicio vigente.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Que el presupuesto multianual se recorte en años de ajuste fiscal y se vuelva a las campañas, o que se diseñen contratos con indicadores laxos.",
+      "fuentes": [
+        {
+          "titulo": "MTC – Provías Nacional, Ficha de implementación AEI.01.01 (II semestre 2024)",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE3.6.4"
+      ]
     },
     {
-     "sigla": "PROVIAS NACIONAL",
-     "rol": "ejecutora"
+      "id": "TRA-02",
+      "titulo": "Mantener los caminos vecinales con microempresas locales y transferencias condicionadas a resultados",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Se instrumenta con el programa presupuestal y transferencias condicionadas (modelo del Programa de Incentivos a la Mejora de la Gestión Municipal). No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Provías Descentralizado vuelve a escalar el modelo de los programas de caminos rurales. Cada tramo vecinal rehabilitado queda a cargo de una microempresa o asociación local de mantenimiento rutinario (limpieza de cunetas, alcantarillas, bacheo con material del lugar) contratada por la municipalidad provincial o su Instituto Vial Provincial. El MTC transfiere recursos solo si la verificación de campo y las fotos georreferenciadas muestran el camino transitable. Se prioriza a los distritos de quintiles 1 y 2 con escuelas y postas aisladas.",
+      "evidencia": "Entre 1995 y 2013 los programas de caminos rurales del MTC, con apoyo del BID y el Banco Mundial, crearon más de 800 microempresas de mantenimiento. GRADE y CIES (Valdivia, Escobal y Ponce) documentaron efectos en acceso a mercados, tiempo de viaje y salud, con resultados heterogéneos.",
+      "entrega": "60 % de la red vecinal con mantenimiento rutinario contratado al 2036 y 95 % al 2056, con microempresas locales verificadas.",
+      "responsable": "PROVIAS DESCENTRALIZADO",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROVIAS DESCENTRALIZADO",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC, transferencias a gobiernos locales, canon y créditos BID o Banco Mundial ya usados en programas anteriores. Se complementa con el fondo de canon de EST-19 cuando exista.",
+      "costo_referencial": "no estimado",
+      "indicador": "km de red vecinal con mantenimiento rutinario verificado; % de tramos transitables todo el año.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "EST-08"
+      ],
+      "riesgo": "Captura clientelar de las microempresas, o municipios sin capacidad para contratar y verificar.",
+      "fuentes": [
+        {
+          "titulo": "BID – Pequeñas vías, grandes impactos: programas de caminos vecinales en Perú",
+          "url": "https://blogs.iadb.org/transporte/es/pequenas-vias-grandes-impactos"
+        },
+        {
+          "titulo": "GRADE – Factores condicionantes y heterogeneidad de impactos de las mejoras en caminos rurales",
+          "url": "https://www.grade.org.pe/proyectos/464-factores-condicionantes-y-heterogeneidad-de-los-impactos-de-las-mejoras-en-los-caminos-rurales-peru"
+        },
+        {
+          "titulo": "CIES (Valdivia) – Concesionando el camino hacia el desarrollo: impactos del Programa de Caminos Rurales",
+          "url": "https://cies.org.pe/wp-content/uploads/2016/07/concesionando-el-camino-hacia-el-desarrollo-impactos-iniciales-del-programa-de-caminos-rurales.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE4.6.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Dependía de EST-19, de etapa posterior",
+          "decision": "aplicado: se quita EST-19 de depende_de"
+        }
+      ]
     },
     {
-     "sigla": "MEF",
-     "rol": "financiadora"
+      "id": "TRA-03",
+      "titulo": "Pavimentar con soluciones básicas la red departamental que une capitales provinciales",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Se hace con Invierte.pe y programación multianual. No requiere ley.",
+      "etapa": "2031-2036",
+      "que": "Los gobiernos regionales, con asistencia de Provías Descentralizado, pavimentan con soluciones básicas (tratamiento superficial bicapa, suelos estabilizados, micropavimento) los tramos departamentales que unen capitales de provincia con la red nacional. Ese estándar es más barato por kilómetro que el asfalto en caliente y se mantiene con el mismo contrato por niveles de servicio. Los tramos se priorizan con un índice público de población servida, producción y riesgo de desastres. El catálogo de diseños tipo evita hacer un expediente desde cero en cada tramo.",
+      "evidencia": "Provías Nacional y los gobiernos regionales ya aplican soluciones básicas en vías de bajo tránsito. Los costos comparados por km de una fuente oficial están por verificar.",
+      "entrega": "Red departamental pavimentada que pasa de ≈25 % (2025) a 60 % al 2036 en los tramos priorizados.",
+      "responsable": "GORE",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROVIAS DESCENTRALIZADO",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Recursos regionales, canon, Obras por Impuestos (ver TRA-23) y endeudamiento con la banca multilateral.",
+      "costo_referencial": "no estimado",
+      "indicador": "km de red departamental pavimentada; costo promedio por km publicado.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-04",
+        "TRA-23"
+      ],
+      "riesgo": "Obras abandonadas o paralizadas por expedientes deficientes; la meta de km puede inducir a pavimentar sin plan de mantenimiento.",
+      "fuentes": [
+        {
+          "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
+          "url": "https://elbuho.pe/?p=430764"
+        },
+        {
+          "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "cifras",
+          "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
-     "sigla": "CGR",
-     "rol": "supervisora"
+      "id": "TRA-04",
+      "titulo": "Publicar un inventario vial georreferenciado y gestionar las carreteras como activos",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo permite el reglamento del SINAC y basta con una resolución ministerial del MTC.",
+      "etapa": "2026-2031",
+      "que": "El MTC completa y abre en datos abiertos el inventario de toda la red vial (nacional, departamental y vecinal): trazo, superficie, estado, puentes, puntos críticos de huaicos y tránsito medio diario. Lo actualiza cada año con imágenes satelitales, vehículos con sensores y reportes ciudadanos. Con ese inventario, cada nivel de gobierno debe sustentar sus inversiones en un plan de gestión de activos viales. Es la base para priorizar TRA-01 a TRA-03 y para que la contraloría ciudadana compare costos.",
+      "evidencia": "La gestión de activos viales con inventarios actualizados es práctica estándar del Banco Mundial y de las agencias viales de la OCDE. El SINAC del MTC ya existe, pero con información desigual para la red vecinal.",
+      "entrega": "Inventario vial nacional abierto y actualizado cada año; 100 % de las inversiones viales sustentadas con el plan de gestión de activos.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROVIAS NACIONAL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PROVIAS DESCENTRALIZADO",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PCM-SGTD",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC y cooperación técnica.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de la red con inventario actualizado en los últimos 12 meses.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "DIG-22"
+      ],
+      "riesgo": "Datos desactualizados si no hay presupuesto recurrente para el levantamiento.",
+      "fuentes": [
+        {
+          "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
+          "url": "https://elbuho.pe/?p=430764"
+        },
+        {
+          "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.6.4",
+        "AE4.5.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "cifras",
+          "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        }
+      ]
+    },
+    {
+      "id": "TRA-05",
+      "titulo": "Derogar las leyes declarativas de carreteras y priorizar solo con el plan técnico",
+      "tipo": "derogacion",
+      "necesita_ley": "si",
+      "por_que_ley": "Solo una ley puede derogar otra ley. Es una ley de depuración sin gasto, admisible por iniciativa congresal.",
+      "etapa": "2026-2031",
+      "que": "Una ley de depuración deroga las leyes que solo 'declaran de necesidad pública e interés nacional' la construcción o el asfaltado de carreteras, puentes o ferrocarriles específicos. Esas leyes no asignan recursos ni obligan a nadie. La ley dispone que la priorización vial se haga solo por la programación multianual de inversiones del MTC y los gobiernos regionales, el Plan Nacional de Infraestructura y el Plan Maestro de Desarrollo Ferroviario. Los tramos que esas leyes mencionan se evalúan con los mismos criterios públicos y, si califican, entran en la cartera. Se exceptúan, con el mismo criterio que EST-22 y también dentro de las leyes que agrupan varias obras (como la Ley 32488), las leyes o extremos que autorizan expropiaciones conforme al art. 70 de la Constitución y al DL 1192 cuyos procesos estén en curso o cuyos proyectos ya tengan viabilidad en Invierte.pe, para no dejar sin base legal la adquisición de predios de derecho de vía.",
+      "evidencia": "El Congreso aprueba con frecuencia leyes declarativas de vías: por ejemplo la Ley 31938 (2023), que agrupa varias vías, y la Ley 32488 (2025), que agrupa proyectos y obras de infraestructura en diez departamentos. Generan expectativas sin financiamiento.",
+      "entrega": "Una ley de depuración que deroga las leyes declarativas de infraestructura vial y ferroviaria, con un registro público de la cartera priorizada.",
+      "responsable": "CONGRESO",
+      "entidades": [
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "No requiere gasto.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de leyes declarativas viales vigentes; % de la inversión vial asignada según la cartera priorizada.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "Ley 31938 (declara de necesidad pública e interés nacional diversas vías, 2023) y leyes declarativas viales análogas",
+          "motivo": "No asignan recursos ni obligan; distorsionan la priorización técnica."
+        },
+        {
+          "norma": "Ley 32488 (declara de necesidad pública e interés nacional diversos proyectos y obras de infraestructura en Amazonas, Apurímac, Arequipa, Junín, La Libertad, Lima, Loreto, Puno, Tumbes y Ucayali, 2025)",
+          "motivo": "Declarativa; los proyectos deben competir en la cartera técnica. Se conservan los extremos que sustenten expropiaciones en curso."
+        }
+      ],
+      "depende_de": [
+        "EST-22"
+      ],
+      "riesgo": "Costo político de derogar leyes de interés local; pueden seguir aprobándose nuevas leyes declarativas.",
+      "fuentes": [
+        {
+          "titulo": "Ley 31938 (declarativa de varias vías, nov-2023)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2023/11/Ley-31938-LPDerecho.pdf"
+        },
+        {
+          "titulo": "Gestión – Declaran de necesidad pública la construcción de 13 vías del país",
+          "url": "https://gestion.pe/peru/declaran-de-necesidad-publica-la-construccion-y-otras-acciones-a-13-vias-del-pais-cuales-son-mtc-noticia/"
+        },
+        {
+          "titulo": "Congreso – Ficha de la Ley 32488",
+          "url": "https://www.leyes.congreso.gob.pe/LeyNume_1p.aspx?xEstado=2&xTipoNorma=0&xTipoBusqueda=4&xFechaI=&xFechaF=&xTexto=&xOrden=0&xNormaI=32488&xNormaF=32488"
+        }
+      ],
+      "pedn": [
+        "AE4.5.2",
+        "AE3.6.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ley 32488 abarca diez departamentos, no Chiguata–Santa Lucía",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Exceptuar leyes que sustentan expropiaciones en curso",
+          "decision": "aplicado: excepción art. 70 y DL 1192"
+        },
+        {
+          "rol": "spij",
+          "hallazgo": "Título oficial de la Ley 32488 mal descrito",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "líder",
+          "hallazgo": "Alinear excepción de expropiaciones con EST-22",
+          "decision": "aplicado; Ley 31850 no verificada, no se cita por número"
+        }
+      ]
+    },
+    {
+      "id": "TRA-06",
+      "titulo": "Reducir a la mitad las muertes viales con el enfoque de sistema seguro",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Los límites de velocidad, el diseño vial y la fiscalización están en el Reglamento Nacional de Tránsito y otras normas reglamentarias (DS). No se necesita ley.",
+      "etapa": "2026-2031",
+      "que": "El MTC adopta el enfoque de sistema seguro como política obligatoria. Todo proyecto vial nuevo o rehabilitado pasa una auditoría de seguridad vial independiente. Se fijan 30 km/h en zonas escolares y de alto tránsito peatonal y 50 km/h en vías urbanas. Se corrigen primero los 100 tramos con más muertes del país (puntos negros identificados por el ONSV), con separadores, iluminación, cruces peatonales elevados y barreras. El ONSV publica cada mes los fallecidos por tramo, tipo de usuario y causa.",
+      "evidencia": "El enfoque de sistema seguro (Suecia, Noruega, España) es el recomendado por la OMS y el ITF/OCDE: asume que las personas se equivocan y diseña las vías para que el error no mate. La meta ODS 3.6 y el Segundo Decenio de Acción de la ONU fijan −50 % de muertes al 2030.",
+      "entrega": "100 puntos negros intervenidos al 2031; auditorías de seguridad vial en el 100 % de los proyectos; fallecidos por debajo de 2 100 al año en 2031.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ONSV",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "PROVIAS NACIONAL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PNP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC y municipal; parte del pago de papeletas reasignado por norma reglamentaria a seguridad vial (por verificar el margen legal).",
+      "costo_referencial": "no estimado",
+      "indicador": "Fallecidos por siniestros de tránsito al año y por cada 100 000 habitantes (ONSV).",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-07",
+        "TRA-08"
+      ],
+      "riesgo": "Que la velocidad baja sea impopular y no se fiscalice; reacción de transportistas.",
+      "fuentes": [
+        {
+          "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
+          "url": "https://caretas.pe/?p=801787"
+        },
+        {
+          "titulo": "OMS – Global status report on road safety 2023",
+          "url": "https://www.who.int/publications/i/item/9789240086517"
+        },
+        {
+          "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
+          "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
+        },
+        {
+          "titulo": "El Búho / PerúCheck – Fallecidos por siniestros de tránsito 2024 y 2025 (ONSV-MTC)",
+          "url": "https://elbuho.pe/?p=418281"
+        }
+      ],
+      "pedn": [
+        "AE1.4.2",
+        "AE1.4.1"
+      ]
+    },
+    {
+      "id": "TRA-07",
+      "titulo": "Emitir licencias con examen práctico serio, puntos que se pierden y registro único",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "El Reglamento Nacional del Sistema de Emisión de Licencias de Conducir es un decreto supremo; se modifica sin ley.",
+      "etapa": "2026-2031",
+      "que": "El MTC rehace el examen de manejo: pistas y prueba en vía pública grabadas, simuladores certificados y examinadores rotativos que no conocen al postulante. El sistema de puntos se vuelve real: las papeletas de todas las municipalidades, la ATU, la SUTRAN y la PNP alimentan en línea un solo registro, y la licencia se suspende automáticamente al llegar al límite. Para licencias profesionales (buses y carga), la renovación exige un curso práctico y controles de salud y de fatiga. Los centros de evaluación con tasas de aprobación anómalas se auditan y cierran.",
+      "evidencia": "La licencia por puntos redujo muertes en España tras su implantación en 2006 (DGT; evaluaciones publicadas, por verificar la cifra exacta). En el Perú las denuncias por brevetes irregulares son recurrentes.",
+      "entrega": "Registro único de infracciones en línea con el 100 % de las entidades fiscalizadoras; examen práctico grabado en todos los centros.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SUTRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PNP",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Tasas de los procedimientos y presupuesto del MTC.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de papeletas registradas en línea en el sistema de puntos; licencias suspendidas por puntos al año.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-08"
+      ],
+      "riesgo": "Corrupción en los centros de evaluación y resistencia de las municipalidades a compartir datos de papeletas.",
+      "fuentes": [
+        {
+          "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
+          "url": "https://caretas.pe/?p=801787"
+        },
+        {
+          "titulo": "OMS – Global status report on road safety 2023",
+          "url": "https://www.who.int/publications/i/item/9789240086517"
+        }
+      ],
+      "pedn": [
+        "AE1.4.2",
+        "AE4.5.4"
+      ]
+    },
+    {
+      "id": "TRA-08",
+      "titulo": "Fiscalizar con cámaras y cobrar papeletas en línea con SOAT y revisión técnica verificados",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "La fiscalización electrónica y la responsabilidad del propietario ya están en el marco vigente. Basta con reglamentación y convenios.",
+      "etapa": "2026-2031",
+      "que": "Las municipalidades provinciales, la ATU y la SUTRAN instalan cámaras de velocidad y semáforo en los tramos más peligrosos. Las papeletas se notifican en una casilla electrónica y se integran con SUNARP, el SOAT y las revisiones técnicas. Ningún vehículo puede transferirse, renovar SOAT o pasar revisión técnica con multas graves impagas. La SUTRAN controla en carretera con pesaje dinámico y GPS obligatorio en buses interprovinciales y camiones. Los ingresos por multas se publican y se destinan a seguridad vial.",
+      "evidencia": "La fiscalización automatizada de velocidad reduce siniestros según la revisión del ITF/OCDE sobre sistema seguro. En el Perú, la ATU retiró más de 2 000 vehículos informales en operativos, muchos con sanciones previas: hay reincidencia.",
+      "entrega": "Cámaras en los 100 tramos más peligrosos; 100 % de las papeletas notificadas electrónicamente e integradas con SUNARP y el SOAT.",
+      "responsable": "SUTRAN",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SUTRAN",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUNARP",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SBS",
+          "rol": "reguladora"
+        }
+      ],
+      "financiamiento": "Inversión municipal y de la SUTRAN recuperable con multas; posible APP de servicios.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de vehículos con SOAT vigente; velocidad media en tramos con cámara.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Que las cámaras se usen como recaudación y pierdan legitimidad; litigios por notificación.",
+      "fuentes": [
+        {
+          "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
+          "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
+        },
+        {
+          "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
+          "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.2",
+        "AE3.6.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo TRA-07 <-> TRA-08",
+          "decision": "aplicado: se quita TRA-07 de TRA-08"
+        }
+      ]
+    },
+    {
+      "id": "TRA-09",
+      "titulo": "Dar a la ATU control real de todas las rutas de Lima-Callao",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "Cambiar las funciones de la ATU y de las municipalidades sobre rutas y tarifas modifica la Ley 30900 y la Ley Orgánica de Municipalidades: hay reserva de ley. Por el art. 79 de la Constitución, la parte que genera gasto debe ser de iniciativa del Ejecutivo. La modificación de la Ley 27972 es materia de ley orgánica y requiere el voto de más de la mitad del número legal de miembros del Congreso (art. 106); el régimen especial de Lima tiene base en el art. 198.",
+      "etapa": "2026-2031",
+      "que": "Una ley precisa que la ATU es la única autoridad para planificar, concesionar, fiscalizar y fijar la tarifa de todo el transporte regular de Lima y Callao, incluidas las rutas interdistritales. Se cierran los vacíos que hoy permiten permisos municipales superpuestos. La ATU recibe un directorio técnico con mandato fijo, metas públicas de tiempo de viaje y una fuente estable de financiamiento definida por el Ejecutivo. Las autoridades metropolitanas de otras ciudades se tratan en TRA-26.",
+      "evidencia": "Las ciudades que ordenaron su transporte, como Bogotá con TransMilenio y el SITP o Santiago con la Red, lo hicieron con una autoridad única con poder sobre rutas y tarifas. La ATU (Ley 30900, 2018) aún convive con rutas y permisos heredados.",
+      "entrega": "Una ley que consolida las funciones de la ATU; 100 % de las rutas de Lima-Callao bajo un solo registro y contrato de la ATU.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MML",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MPC",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto de la ATU y tarifas; la fuente estable la propone el Ejecutivo.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de rutas de Lima-Callao bajo contrato de la ATU; tiempo promedio de viaje en transporte público.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Conflicto entre gobierno nacional y municipios; captura de la ATU por gremios de transportistas.",
+      "fuentes": [
+        {
+          "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
+          "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+        },
+        {
+          "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
+          "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE2.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Invadía el objeto de TRA-26 (otras ciudades)",
+          "decision": "aplicado: se remite a TRA-26"
+        },
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Votación de ley orgánica al tocar la LOM",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Responsable debe ser MTC, no PCM",
+          "decision": "aplicado"
+        }
+      ]
+    },
+    {
+      "id": "TRA-10",
+      "titulo": "Pasar los buses de Lima a contratos por kilómetro con pasaje único",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Con la Ley 30900 vigente, la ATU puede concesionar y reorganizar rutas por sus propios actos administrativos.",
+      "etapa": "2026-2031",
+      "que": "La ATU licita las rutas de Lima-Callao por paquetes troncales y alimentadores. Los operadores son empresas con flota propia y conductores en planilla, y se les paga por kilómetro recorrido con calidad (frecuencia, puntualidad, limpieza), no por pasajero, lo que termina con la 'guerra del centavo'. Un sistema de recaudo único con tarjeta, QR y billetera móvil permite transbordos con tarifa integrada entre Metro, Metropolitano, corredores y alimentadores. Los datos de ubicación y frecuencia se publican en tiempo real.",
+      "evidencia": "El paso del modelo afiliador a contratos con flota propia redujo siniestros y mejoró la regularidad en Bogotá (TransMilenio) y en Santiago tras corregir el diseño inicial del Transantiago. Ambas experiencias tienen evaluaciones publicadas por el Banco Mundial y académicos (por verificar las cifras exactas).",
+      "entrega": "100 % de los viajes en bus regular de Lima-Callao bajo contratos de pago por km al 2036; pasaje único integrado operativo al 2031.",
+      "responsable": "ATU",
+      "entidades": [
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "INDECOPI",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Tarifas más subsidio operativo explícito y focalizado (estudiantes, adultos mayores), definido en el presupuesto.",
+      "costo_referencial": "no estimado",
+      "indicador": "% de viajes con pasaje integrado; regularidad de frecuencias; fallecidos en siniestros con buses.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-09",
+        "TAL-11",
+        "GOB-11",
+        "DIG-22"
+      ],
+      "riesgo": "Paros de transportistas, subsidios no sostenibles o un diseño apresurado que repita el inicio del Transantiago.",
+      "fuentes": [
+        {
+          "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
+          "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+        },
+        {
+          "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
+          "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE2.3.2"
+      ]
+    },
+    {
+      "id": "TRA-11",
+      "titulo": "Renovar la flota urbana con buses eléctricos y a gas mediante chatarreo y arriendo",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Los programas de chatarreo y los fideicomisos se crean por decreto supremo y convenios. No requieren ley.",
+      "etapa": "2031-2036",
+      "que": "Los operadores con contrato de la ATU (TRA-10) y de las ciudades con autoridad metropolitana acceden a buses eléctricos o a GNV mediante arriendo de flota: un fideicomiso o una empresa de leasing es dueño de los buses y el operador paga por su uso. A cambio, el operador entrega para chatarreo un vehículo antiguo. Se instalan electrolineras en los patios de buses. Las compras se coordinan con el sector energía para asegurar la potencia eléctrica. Esta acción es la única meta de renovación de flota urbana; se complementa con ENE-18, que se limita a la red de carga en carreteras, tarifas de carga y reglas de carga en edificios.",
+      "evidencia": "Santiago y Bogotá incorporaron miles de buses eléctricos separando la propiedad de la flota de la operación, con financiamiento de empresas eléctricas y multilaterales (cifras por verificar). En el Perú, la flota tiene 14 años promedio (MTC, 2024) y el 52 % de los vehículos de carga y transporte supera los 10 años (IPE, 2025).",
+      "entrega": "3 000 buses urbanos de cero o bajas emisiones en operación al 2036 (meta indicativa); antigüedad promedio de la flota urbana regular por debajo de 8 años.",
+      "responsable": "ATU",
+      "entidades": [
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MINEM",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "COFIDE",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Leasing privado, garantías de COFIDE, financiamiento climático (BID, CAF, Fondo Verde para el Clima).",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de buses de cero o bajas emisiones en operación; antigüedad promedio de la flota urbana.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-10"
+      ],
+      "riesgo": "Que no haya contratos estables (TRA-10) que respalden el pago del arriendo; restricciones de la red eléctrica.",
+      "fuentes": [
+        {
+          "titulo": "MTC – Exposición ante la Comisión de Transportes (01-abr-2024): flota con 14 años promedio",
+          "url": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+        },
+        {
+          "titulo": "Gestión / IPE – Récord de venta de vehículos nuevos contrasta con envejecimiento del parque",
+          "url": "https://gestion.pe/economia/record-de-venta-de-vehiculos-nuevos-contrasta-con-envejecimiento-del-parque-automotor-segun-analiza-ipe-noticia/"
+        }
+      ],
+      "pedn": [
+        "AE3.3.22",
+        "AE1.4.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Solapa ENE-18 en flota eléctrica urbana",
+          "decision": "aplicado: TRA-11 queda con la flota; se quita ENE-18 de depende_de para evitar ciclo (ENE-18 pasa a depender de TRA-11)"
+        },
+        {
+          "rol": "cifras",
+          "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        }
+      ]
+    },
+    {
+      "id": "TRA-12",
+      "titulo": "Convertir a los colectivos de Lima en alimentadores contratados, sin legalizar la informalidad",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La ATU puede crear servicios alimentadores y zonales por sus propias normas. No hace falta una ley de formalización, que fragmentaría las rutas.",
+      "etapa": "2026-2031",
+      "que": "La ATU no legaliza los autos colectivos en rutas troncales, donde compiten con buses de mayor capacidad. En cambio, abre licitaciones de servicios alimentadores y de zonas de ladera con vehículos menores (vans o microbuses) donde hoy solo llegan colectivos. Los colectiveros empadronados pueden asociarse y postular, con flota acreditada, conductores con licencia profesional, SOAT y GPS. Quienes no se integren enfrentan una fiscalización sostenida con cámaras (TRA-08). Fuera de Lima-Callao, el MTC evalúa el régimen de la Ley 31096 con datos de siniestros y propone ajustes.",
+      "evidencia": "Unos 150 000 colectivos realizarían unos 7 millones de viajes diarios en Lima (estimación de la Municipalidad de Lima citada por la prensa, por verificar). La ATU sostiene que legalizarlos en Lima sin control posterior sería un retroceso. Bogotá integró parte de la oferta informal al SITP mediante contratos zonales (por verificar la evaluación).",
+      "entrega": "Servicios alimentadores licitados en todas las zonas de ladera de Lima-Callao sin oferta formal; registro de colectiveros integrados.",
+      "responsable": "ATU",
+      "entidades": [
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "PNP",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Tarifas e integración tarifaria del sistema (TRA-10).",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de colectiveros integrados a servicios contratados; viajes en servicios alimentadores formales.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-10",
+        "TRA-08"
+      ],
+      "riesgo": "Presión para una ley de formalización general en Lima; conflictos y paros.",
+      "fuentes": [
+        {
+          "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
+          "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+        },
+        {
+          "titulo": "Andina – Taxis colectivos: alcances de la Ley 31096",
+          "url": "https://andina.pe/agencia/noticia-taxis-colectivos-los-alcances-de-ley-publicada-por-congreso-827611.aspx"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1"
+      ]
+    },
+    {
+      "id": "TRA-13",
+      "titulo": "Terminar la Línea 2 con una unidad de predios e interferencias",
+      "tipo": "obra",
+      "necesita_ley": "parcial",
+      "por_que_ley": "La obra se ejecuta bajo el contrato vigente. La simplificación de expropiaciones e interferencias puede hacerse con los decretos legislativos autorizados por la Ley 32743 (numerales 2.2.8 y 2.2.10, plazo hasta ≈20-ene-2027).",
+      "etapa": "2026-2031",
+      "que": "El MTC y la ATU crean una unidad dedicada a liberar los predios e interferencias que faltan en la Línea 2 (incluidas las de la Estación Central y el tramo por la Ciudad Universitaria) y a coordinar con la Municipalidad de Lima los permisos de desvío. Usan los decretos legislativos de la Ley 32743 sobre adquisición y expropiación de predios y liberación de interferencias, sin tocar la consulta previa ni las obligaciones ambientales. Se publica cada mes un cronograma por estación con su porcentaje de avance. Se negocian las controversias con el concesionario en un mecanismo de solución temprana, para evitar nuevos arbitrajes.",
+      "evidencia": "Ositrán reporta avances de 96 % en la etapa 1B y 91 % en la etapa 2, pero la Estación Central va en 39 % en obras civiles y la fecha estimada es agosto de 2029. La Contraloría atribuye el riesgo de sobrecostos al retraso en la entrega de áreas de concesión.",
+      "entrega": "Línea 2 completa (Ate–Callao) en operación comercial, con un cronograma público por estación.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MML",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Contrato de concesión vigente (cofinanciamiento del Estado ya comprometido).",
+      "costo_referencial": "no estimado (montos del contrato y las adendas varían entre fuentes)",
+      "indicador": "% de avance por estación; fecha de puesta en operación completa.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-22"
+      ],
+      "riesgo": "Nuevos arbitrajes y adendas; conflictos con la universidad y el municipio por las áreas.",
+      "fuentes": [
+        {
+          "titulo": "Expreso – Culminación de la Línea 2 se postergaría hasta agosto de 2029 (estimación Ositrán)",
+          "url": "https://www.expreso.com.pe/actualidad/obras-de-estacion-central-tienen-un-avance-del-39-culminacion-de-linea-2-del-metro-de-lima-se-postergaria-hasta-agosto-de-2029-mtc-noicia/1170612/"
+        },
+        {
+          "titulo": "Energiminas – Línea 2: etapas 1B y 2 superan el 90 % de avance (ago-2026)",
+          "url": "https://energiminas.com/2026/08/11/linea-2-del-metro-etapas-1b-y-2-superan-el-90-de-avance-en-su-construccion/"
+        },
+        {
+          "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
+          "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
+        },
+        {
+          "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
+          "url": "https://busquedas.elperuano.pe/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE3.6.2"
+      ]
+    },
+    {
+      "id": "TRA-14",
+      "titulo": "Ampliar la Línea 1 a un millón de viajes y alistar la Línea 3",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "La ampliación de la Línea 1 se hace por adenda del contrato vigente, y las nuevas líneas por APP o contrato de Estado a Estado bajo la Ley 32441. No requieren ley nueva.",
+      "etapa": "2031-2036",
+      "que": "Se ejecuta la ampliación de capacidad de la Línea 1 (más trenes, patio y subestaciones) que Ositrán y ProInversión aprobaron para pasar de unos 600 000 a un millón de pasajeros diarios. En paralelo, la ATU y el MTC terminan los estudios de la Línea 3 (norte–sur) y del ramal completo de la Línea 4 con una oficina de gestión de proyectos especializada. Antes de licitar, la liberación de predios e interferencias debe estar avanzada (lección de la Línea 2).",
+      "evidencia": "La Línea 1 transporta unos 630 000 pasajeros diarios en condición de saturación (MTC, 2025). Ositrán autorizó la ampliación hasta un millón de pasajeros diarios, con obras desde 2027 según la prensa.",
+      "entrega": "Línea 1 con capacidad de un millón de pasajeros diarios; Línea 3 con estudios definitivos aprobados y predios liberados antes de su adjudicación.",
+      "responsable": "ATU",
+      "entidades": [
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Adenda del contrato de la Línea 1; APP cofinanciada o contrato de Estado a Estado para la Línea 3.",
+      "costo_referencial": "Ampliación de la Línea 1: el MTC ha citado cifras de entre US$ 2 600 y 3 887 millones según la fuente (por verificar).",
+      "indicador": "Pasajeros diarios de la Línea 1; % de predios de la Línea 3 liberados antes de adjudicar.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-13",
+        "TRA-22"
+      ],
+      "riesgo": "Que la adenda traslade riesgos al Estado; que la Línea 3 se licite sin predios liberados y repita los retrasos.",
+      "fuentes": [
+        {
+          "titulo": "Expreso – Ositrán autoriza ampliación de la Línea 1 hasta un millón de pasajeros diarios",
+          "url": "https://www.expreso.com.pe/actualidad/ositran-autoriza-ampliacion-de-la-linea-1-del-metro-de-lima-para-transportar-hasta-un-millon-de-pasajeros-diarios-ministerio-de-economia-y-finanzas-noticia/1226381/"
+        },
+        {
+          "titulo": "MTC – Exposición ante la Comisión de Defensa del Consumidor (21-oct-2025), Línea 1",
+          "url": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "cifras",
+          "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        }
+      ]
+    },
+    {
+      "id": "TRA-15",
+      "titulo": "Operar el tren Lima–Chosica con estándares de seguridad, horario fijo e integración tarifaria",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "La operación se rige por el contrato de concesión del Ferrocarril Central y convenios entre el MTC y la Municipalidad de Lima. No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "El MTC, como concedente del Ferrocarril Central, y la Municipalidad de Lima ponen en servicio regular el tren Lima–Chosica con los coches y locomotoras donados por Caltrain. Antes de abrir al público hay una certificación independiente de seguridad del material, la vía, los puentes y los cruces a nivel. El contrato de operación con el concesionario de la vía se publica, con su subsidio, horarios, tarifa y responsable de seguridad. El servicio se integra al pasaje único (TRA-10). Se cierran o protegen los cruces a nivel más peligrosos y se evalúa en 5 años si conviene un sistema definitivo de mayor capacidad.",
+      "evidencia": "El material llegó en 2025 y, a agosto de 2026, el servicio solo había hecho pruebas sin pasajeros, con anuncios de inicio que se postergaron varias veces. El material es usado y retirado de servicio en California. Su vida útil y su costo de mantenimiento están por verificar.",
+      "entrega": "Servicio regular Lima–Chosica con certificación de seguridad independiente y contrato de operación publicado.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MML",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Tarifa más subsidio operativo explícito de la Municipalidad de Lima y el MTC (monto por verificar).",
+      "costo_referencial": "no estimado",
+      "indicador": "Pasajeros diarios; incidentes por millón de km; puntualidad.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-10"
+      ],
+      "riesgo": "Operar sin certificación por presión política; material usado con costos de mantenimiento altos; cruces a nivel inseguros.",
+      "fuentes": [
+        {
+          "titulo": "Gestión – Tren Lima–Chosica: cuándo operaría con pasajeros y en qué horarios",
+          "url": "https://gestion.pe/peru/tren-lima-chosica-cuando-operaria-con-pasajeros-y-en-que-horarios-noticia/"
+        },
+        {
+          "titulo": "El Tiempo – A más de cuatro meses de su llegada, el tren Lima–Chosica aún no funciona",
+          "url": "https://eltiempo.pe/nacional/a-mas-de-cuatro-meses-de-su-llegada-el-tren-lima-chosica-aun-no-entra-en-funcionamiento/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE1.4.2"
+      ]
+    },
+    {
+      "id": "TRA-16",
+      "titulo": "Construir por etapas los trenes de cercanías, solo si su rentabilidad social es positiva",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta con APP o contrato de Estado a Estado bajo la Ley 32441, Invierte.pe y el Plan Maestro de Desarrollo Ferroviario al 2050 (RM 368-2026-MTC/01.02). No requiere ley.",
+      "etapa": "2031-2036",
+      "que": "El MTC y ProInversión estructuran los trenes de cercanías por tramos, empezando por los de mayor demanda metropolitana: Lima Sur (Villa El Salvador–Lurín–Chilca) y Lima Norte (Callao–Ancón–Huaral). Cada tramo solo pasa a licitación si su estudio de demanda y su análisis costo-beneficio social son revisados por un panel independiente y si el cofinanciamiento cabe en el tope de compromisos fiscales de APP. Las extensiones a Ica y Barranca se deciden con la demanda observada en los primeros tramos. El derecho de vía se reserva desde ya en los planes urbanos para que no lo ocupen viviendas.",
+      "evidencia": "ProInversión estima US$ 6 542 millones para Lima–Ica y US$ 4 393 millones para Lima–Barranca. Las fechas de inicio se han corrido varias veces. Hacer el proyecto por etapas limita el riesgo de demanda sobreestimada, frecuente en proyectos ferroviarios (Flyvbjerg, sobre megaproyectos de transporte).",
+      "entrega": "Primer tramo de cercanías (Lima Sur o Lima Norte) adjudicado con revisión independiente; derecho de vía reservado en los planes urbanos.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "APP cofinanciada o contrato de Estado a Estado; endeudamiento multilateral.",
+      "costo_referencial": "Lima–Ica US$ 6 542 M y Lima–Barranca US$ 4 393 M (ProInversión, cartera ferroviaria).",
+      "indicador": "Tramos con análisis costo-beneficio revisado de forma independiente; pasajeros por km de vía en operación.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-17",
+        "TRA-22"
+      ],
+      "riesgo": "Presión por anunciar el proyecto completo sin demanda probada; compromisos firmes y contingentes que excedan el espacio fiscal.",
+      "fuentes": [
+        {
+          "titulo": "Energiminas – ProInversión promueve cartera ferroviaria (Lima–Ica US$ 6 542 M; Lima–Barranca US$ 4 393 M)",
+          "url": "https://energiminas.com/?p=42636"
+        },
+        {
+          "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
+        },
+        {
+          "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
+          "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
+        }
+      ],
+      "pedn": [
+        "AE1.4.2",
+        "AE3.6.2"
+      ]
+    },
+    {
+      "id": "TRA-17",
+      "titulo": "Evaluar con honestidad el tren Lima–Tacna y reservar el corredor sin comprometer recursos",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Es una decisión de planificación del MTC y el MEF dentro del Plan Maestro de Desarrollo Ferroviario al 2050. No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "El Plan Maestro de Desarrollo Ferroviario al 2050 no define un tren Lima–Tacna como proyecto único: en el sur prioriza los corredores Ica–La Joya y La Joya–Tacna. Una prefactibilidad exploratoria ciudadana (oct-2026, no oficial) encontró un VAN social negativo en todas las alternativas evaluadas a tasa del 8 %, desde el tren convencional hasta la alta velocidad. Con la demanda base, la mejor opción era no construir. La propuesta es no comprometer recursos en un tren Lima–Tacna completo, reservar el derecho de vía en el ordenamiento territorial (con la restricción de las Líneas de Nasca, patrimonio UNESCO) y reevaluarlo en 2036 con la demanda real del tramo Lima–Ica (TRA-16).",
+      "evidencia": "Los megaproyectos ferroviarios suelen sobreestimar la demanda y subestimar los costos (Flyvbjerg). El PMDF 2050 (RM 368-2026-MTC/01.02) prioriza 10 corredores con criterios de impacto económico. La prefactibilidad ciudadana estimó, como escenario base, que la demanda al 2045 sería del orden del 69 % del umbral usual para alta velocidad (≈9 M pasajeros/año). Es una estimación no oficial.",
+      "entrega": "Decisión publicada de no comprometer recursos hasta la reevaluación de 2036, y corredor reservado en los instrumentos de ordenamiento territorial.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CEPLAN",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Sin gasto de inversión; estudios con el presupuesto del MTC.",
+      "costo_referencial": "no estimado (el costo de construir depende de la alternativa)",
+      "indicador": "Existencia de una reevaluación pública en 2036 con demanda observada.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-22"
+      ],
+      "riesgo": "Que el proyecto se anuncie por razones políticas sin sustento económico y comprometa decenas de miles de millones de dólares.",
+      "fuentes": [
+        {
+          "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
+        },
+        {
+          "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
+          "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE4.5.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Ciclo con TRA-16 de etapa posterior",
+          "decision": "aplicado: se quita TRA-16 y se agrega TRA-22"
+        }
+      ]
+    },
+    {
+      "id": "TRA-18",
+      "titulo": "Construir los accesos viales a Chancay y los antepuertos de Chancay y Callao",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Los accesos son obras del MTC y los gobiernos subnacionales; la interoperabilidad digital portuaria se desarrolla en GOB-20.",
+      "etapa": "2026-2031",
+      "que": "Esta acción se limita a las obras viales que el sistema logístico de ECP-13 necesita. El MTC ejecuta los accesos viales y la vía de evitamiento que conectan el puerto de Chancay con la Panamericana Norte sin atravesar el centro urbano, y construye antepuertos para camiones en Chancay y Callao con citas digitales, de modo que los camiones no esperen en la vía pública. La estrategia integral (zonas de actividades logísticas, integración Chancay–Callao) está en ECP-13 y la interoperabilidad digital portuaria en GOB-20. Los diseños de los accesos se coordinan con la municipalidad provincial de Huaral para ordenar el uso del suelo y evitar que se ocupe el derecho de vía.",
+      "evidencia": "Chancay movió 286 255 TEU en su primer año, cerca de la mitad en transbordo según SUNAT. El crecimiento presiona las vías de acceso. ECP-13 desarrolla la parte productiva del sistema logístico.",
+      "entrega": "Accesos viales y evitamiento a Chancay operativos; antepuertos con citas digitales en Chancay y Callao.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "APN",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "SUNAT",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC, APP u Obras por Impuestos con empresas portuarias.",
+      "costo_referencial": "no estimado",
+      "indicador": "Tiempo medio de camión en acceso y en puerto; TEU movidos.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "ECP-13",
+        "GOB-20"
+      ],
+      "riesgo": "Congestión y ocupación urbana desordenada en Chancay y Huaral si los accesos llegan tarde.",
+      "fuentes": [
+        {
+          "titulo": "MundoMarítimo – Puerto de Chancay cierra su primer año con 286 255 TEU",
+          "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
+        }
+      ],
+      "pedn": [
+        "AE3.6.3",
+        "AE3.6.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Duplica ECP-13",
+          "decision": "aplicado: limitada a accesos viales y antepuertos, depende de ECP-13 y GOB-20"
+        }
+      ]
+    },
+    {
+      "id": "TRA-19",
+      "titulo": "Mantener la navegabilidad amazónica como servicio público, con consulta previa y sin dragado masivo",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "Lo puede hacer el MTC con su presupuesto (Dirección de Hidrovías) o mediante contratos de servicios. No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "Tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024), el MTC organiza un servicio permanente de información de navegación en el Marañón, Huallaga, Ucayali y Amazonas: batimetría, señalización y alertas de vaciante en tiempo real para los usuarios. El dragado se limita a los puntos críticos, con un estudio de impacto ambiental aprobado y la consulta previa que exige el Convenio 169 de la OIT. Se modernizan embarcaderos y terminales fluviales comunitarios con seguridad y accesibilidad.",
+      "evidencia": "El contrato de la Hidrovía Amazónica (2017) no llegó a operar. Organizaciones indígenas cuestionaron el dragado por sus efectos sobre la pesca y los ríos.",
+      "entrega": "Servicio de información de navegación operando en los 4 ríos principales; 40 embarcaderos modernizados al 2031 (meta indicativa).",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "DICAPI",
+          "rol": "reguladora"
+        },
+        {
+          "sigla": "MINAM",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SENAMHI",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC y de los gobiernos regionales amazónicos; cooperación técnica.",
+      "costo_referencial": "no estimado",
+      "indicador": "Días al año con navegación restringida por vaciante; siniestros fluviales.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "GOB-21"
+      ],
+      "riesgo": "Retomar el dragado masivo sin consulta y repetir el conflicto; sequías cada vez más severas.",
+      "fuentes": [
+        {
+          "titulo": "gob.pe – Hidrovía Amazónica (concesión caducada, 15-oct-2024)",
+          "url": "https://www.gob.pe/102823-acceder-a-informacion-sobre-la-hidrovia-amazonica-concesion-caducada"
+        },
+        {
+          "titulo": "Mongabay – Hidrovía Amazónica y consulta previa a pueblos indígenas",
+          "url": "https://es.mongabay.com/2021/01/hidrovia-amazonia-peru-consulta-previa-pueblos-indigenas/"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE1.6.1"
+      ]
+    },
+    {
+      "id": "TRA-20",
+      "titulo": "Conectar las comunidades amazónicas aisladas con vuelos subsidiados y aeródromos mantenidos",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "El transporte aéreo subsidiado y el mantenimiento de aeródromos se ejecutan con presupuesto y convenios. No requieren ley.",
+      "etapa": "2026-2031",
+      "que": "El MTC amplía las rutas de transporte aéreo subsidiado a capitales de provincia y distritos amazónicos sin acceso terrestre (Purús, Putumayo, alto Amazonas). Las rutas se licitan por varios años con tarifas máximas y frecuencias mínimas. Al mismo tiempo, mantiene las pistas de los aeródromos regionales que dependen de CORPAC y de los gobiernos regionales y prioriza las evacuaciones médicas.",
+      "evidencia": "En el Perú ya existen rutas aéreas subsidiadas a localidades amazónicas aisladas; la cobertura y el presupuesto actuales están por verificar. Brasil y Colombia mantienen esquemas similares para su Amazonía.",
+      "entrega": "Todas las capitales de provincia amazónicas sin carretera con al menos dos vuelos semanales garantizados.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CORPAC",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "beneficiaria"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC (subsidio explícito).",
+      "costo_referencial": "no estimado",
+      "indicador": "Localidades aisladas con servicio aéreo regular; tiempo de evacuación médica.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Subsidio insuficiente o rutas con un solo operador sin competencia.",
+      "fuentes": [
+        {
+          "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
+          "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
+        }
+      ],
+      "pedn": [
+        "AE1.6.1",
+        "AE3.6.2"
+      ]
+    },
+    {
+      "id": "TRA-21",
+      "titulo": "Modernizar los aeropuertos regionales y concesionar el tercer grupo con reglas claras",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Se ejecuta bajo los contratos vigentes (adendas) y la Ley 32441 de APP. No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "ProInversión adjudica el tercer grupo de aeropuertos (Jaén, Huánuco, Jauja, Ilo, Rioja, Nuevo Chimbote y Yurimaguas, más la operación y mantenimiento de Chinchero). Cada adenda de los grupos 1 y 2 se evalúa con un análisis de valor por dinero publicado y opinión de Ositrán. En Lima se completan los accesos viales y de transporte público al nuevo terminal del Jorge Chávez. Se prioriza la seguridad operacional (radioayudas, iluminación de pista) en los aeropuertos que dependen de CORPAC.",
+      "evidencia": "El nuevo terminal del Jorge Chávez inició operaciones el 1 de junio de 2025, con capacidad inicial de unos 30 millones de pasajeros al año. El tercer grupo de aeropuertos se estima en US$ 220 millones, pero su calendario se ha postergado varias veces. Las adendas de 17 aeropuertos suman US$ 4 800 millones.",
+      "entrega": "Tercer grupo adjudicado; accesos al nuevo Jorge Chávez con transporte público masivo.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "CORPAC",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "APP autofinanciada (tercer grupo) y cofinanciamiento según adendas.",
+      "costo_referencial": "Tercer grupo: US$ 220 M sin IGV (ProInversión, preliminar).",
+      "indicador": "Pasajeros en aeropuertos regionales; puntualidad; incidentes operacionales.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-22"
+      ],
+      "riesgo": "Adendas que trasladen riesgos al Estado sin competencia; retrasos en la promoción.",
+      "fuentes": [
+        {
+          "titulo": "Energiminas – ProInversión incorporará el Tercer Grupo de Aeropuertos (ene-2026)",
+          "url": "https://energiminas.com/2026/01/16/proinversion-incorporara-al-proceso-de-promocion-al-tercer-grupo-de-aeropuertos-en-el-primer-trimestre-del-ano/"
+        },
+        {
+          "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
+          "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
+        },
+        {
+          "titulo": "Bloomberg Línea – Inauguración del nuevo aeropuerto Jorge Chávez",
+          "url": "https://www.bloomberglinea.com/latinoamerica/peru/inauguracion-del-aeropuerto-jorge-chavez-ubicacion-vuelos-y-lo-que-debe-saber/"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE3.3.15"
+      ]
+    },
+    {
+      "id": "TRA-22",
+      "titulo": "Adjudicar APP de transporte con predios liberados, riesgos estándar y menos adendas",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "parcial",
+      "por_que_ley": "La Ley 32441 y su reglamento (DS 316-2025-EF) dan el marco. Los cambios que propone la Ley 32743 (numeral 2.2.6: estudios a cargo del inversionista y delegación de funciones contractuales) se hacen por decreto legislativo hasta ≈20-ene-2027.",
+      "etapa": "2026-2031",
+      "que": "El MTC y ProInversión aplican a todas las APP de transporte cuatro reglas. Primero, ningún contrato se adjudica sin al menos un umbral alto de predios liberados y un plan de interferencias. Segundo, una matriz de riesgos estándar por tipo de proyecto (vial, ferroviario, aeroportuario). Tercero, toda adenda se publica con su análisis de valor por dinero y la opinión de Ositrán y del MEF. Cuarto, una oficina de gestión de proyectos acompaña los proyectos de más de US$ 500 millones. Si se usa la facultad delegada para que el inversionista haga los estudios, el decreto legislativo debe exigir revisión independiente y análisis de riesgo climático.",
+      "evidencia": "La Línea 2 se modificó con adendas y terminó en un arbitraje en el CIADI con condena al Estado, y la Contraloría vinculó sus sobrecostos al retraso en la entrega de predios. La Ley 32441 (2025) reemplazó al DL 1362 y al DL 1543 como marco de las APP.",
+      "entrega": "Reglas publicadas y aplicadas al 100 % de las APP de transporte nuevas; registro público de adendas con su análisis de valor por dinero.",
+      "responsable": "MEF",
+      "entidades": [
+        {
+          "sigla": "MEF",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "OSITRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
+        }
+      ],
+      "financiamiento": "Presupuesto de ProInversión y del MTC.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de adendas por contrato; % de predios liberados al adjudicar; sobrecosto promedio de las APP de transporte.",
+      "deroga_o_simplifica": [],
+      "depende_de": [],
+      "riesgo": "Que la urgencia de anunciar inversiones lleve a adjudicar sin predios; que la delegación a los inversionistas genere conflictos de interés.",
+      "fuentes": [
+        {
+          "titulo": "Cuatrecasas – Nueva regulación para la promoción de la inversión privada (Ley 32441)",
+          "url": "https://www.cuatrecasas.com/es/latam/publico/art/nueva-regulacion-promocion-inversion-privada"
+        },
+        {
+          "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
+          "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
+        },
+        {
+          "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
+          "url": "https://busquedas.elperuano.pe/"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE4.5.3"
+      ]
+    },
+    {
+      "id": "TRA-23",
+      "titulo": "Orientar las obras por impuestos hacia caminos vecinales, puentes y mantenimiento",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "La Ley 29230 ya permite Obras por Impuestos. La Ley 32743 (numeral 2.2.11) autoriza ampliarlas a GRD y a IOARR de emergencia por decreto legislativo. La priorización es administrativa.",
+      "etapa": "2026-2031",
+      "que": "ProInversión y el MTC publican una cartera priorizada de caminos vecinales, puentes y paquetes de mantenimiento vial elegibles para Obras por Impuestos, con diseños tipo. Así las empresas de cada región financian lo más necesario y no solo lo más visible. Se agrupan pequeños proyectos en paquetes provinciales para atraer empresas. Si el decreto legislativo de la Ley 32743 habilita los puentes y la rehabilitación de vías por El Niño, se usa con priorización basada en el riesgo.",
+      "evidencia": "En 2025 las entidades públicas adjudicaron un récord de 284 proyectos por Obras por Impuestos por unos S/ 3 436 millones a octubre. Entre enero y julio, transporte fue el segundo sector, con el 22 %.",
+      "entrega": "Cartera pública de proyectos viales para Obras por Impuestos; al menos el 30 % del monto adjudicado en transporte destinado a la red vecinal y a mantenimiento (meta indicativa).",
+      "responsable": "PROINVERSION",
+      "entidades": [
+        {
+          "sigla": "PROINVERSION",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Obras por Impuestos (adelanto del impuesto a la renta de las empresas, con cargo al canon o a recursos del pliego).",
+      "costo_referencial": "no estimado",
+      "indicador": "Monto adjudicado por Obras por Impuestos en red vecinal y mantenimiento.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-02"
+      ],
+      "riesgo": "Concentración de las obras donde hay empresas grandes (zonas mineras) y no donde la brecha es mayor.",
+      "fuentes": [
+        {
+          "titulo": "ProActivo – Entidades públicas adjudican en 2025 récord de 284 proyectos vía Obras por Impuestos",
+          "url": "https://proactivo.com.pe/proinversion-entidades-publicas-adjudican-en-2025-record-de-284-proyectos-via-obras-por-impuestos/"
+        },
+        {
+          "titulo": "Andina – Obras por Impuestos: 147 proyectos por S/ 1 725 millones (ene–jul 2025)",
+          "url": "https://andina.pe/agencia/noticia-obras-impuestos-adjudican-147-proyectos-s-1725-millones-enerojulio-del-2025-1040590.aspx"
+        },
+        {
+          "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
+          "url": "https://busquedas.elperuano.pe/"
+        }
+      ],
+      "pedn": [
+        "AE3.6.2",
+        "AE4.6.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "jurista",
+          "hallazgo": "Dependía de TRA-03, de etapa posterior",
+          "decision": "aplicado: se quita TRA-03"
+        }
+      ]
+    },
+    {
+      "id": "TRA-24",
+      "titulo": "Simplificar los permisos del transporte de carga y medir el costo logístico cada año",
+      "tipo": "derogacion",
+      "necesita_ley": "no",
+      "por_que_ley": "El Reglamento Nacional de Administración de Transporte (DS 017-2009-MTC) es un decreto supremo y se simplifica por otro decreto supremo, previo análisis de impacto regulatorio (DL 1565).",
+      "etapa": "2026-2031",
+      "que": "El MTC revisa el Reglamento Nacional de Administración de Transporte con análisis de impacto regulatorio: elimina los requisitos duplicados que el Estado ya tiene (SUNARP, SUNAT, RENIEC), digitaliza las habilitaciones vehiculares y los permisos de carga, y deja la fiscalización basada en riesgo con GPS y pesaje dinámico. El MTC y el Observatorio de Logística publican cada año un índice de costo logístico por corredor y producto (de la chacra o la mina al puerto) para orientar la inversión.",
+      "evidencia": "El Banco Mundial estimó que los costos logísticos representan entre el 20 % y el 50 % del costo de productos agrícolas peruanos, frente al 9–12 % de la OCDE. El Perú subió al puesto 61 del LPI en 2023. La simplificación con análisis de impacto regulatorio es práctica de la OCDE.",
+      "entrega": "RNAT simplificado con todos los trámites de carga digitales; índice anual de costo logístico por corredor publicado.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "SUTRAN",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "MINCETUR",
+          "rol": "consultiva"
+        }
+      ],
+      "financiamiento": "Presupuesto del MTC.",
+      "costo_referencial": "no estimado",
+      "indicador": "Costo logístico como % del valor del producto por corredor; N.º de requisitos eliminados.",
+      "deroga_o_simplifica": [
+        {
+          "norma": "DS 017-2009-MTC, Reglamento Nacional de Administración de Transporte (requisitos documentales duplicados para habilitación vehicular y permisos)",
+          "motivo": "Exige información que el Estado ya posee y encarece la formalidad del transporte de carga y pasajeros."
+        }
+      ],
+      "depende_de": [
+        "ECP-13",
+        "EST-23"
+      ],
+      "riesgo": "Que la simplificación se use para relajar controles de seguridad de buses y camiones.",
+      "fuentes": [
+        {
+          "titulo": "Banco Mundial – Análisis de la logística en el Perú (costos logísticos por cadena)",
+          "url": "https://documents1.worldbank.org/curated/en/555181547057977330/pdf/133561-WP-P145783-Analisis-dela-Logistica-Peru.pdf"
+        },
+        {
+          "titulo": "CIEN-ADEX – Policy Brief 3: Aportes para la logística (LPI 2023)",
+          "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
+        }
+      ],
+      "pedn": [
+        "AE3.6.3",
+        "AE3.7.2"
+      ]
+    },
+    {
+      "id": "TRA-25",
+      "titulo": "Construir calles completas: veredas, cruces seguros y ciclovías conectadas en ciudades grandes",
+      "tipo": "obra",
+      "necesita_ley": "no",
+      "por_que_ley": "Es competencia municipal y de los programas del MVCS y el MTC. No requiere ley.",
+      "etapa": "2031-2036",
+      "que": "Las municipalidades provinciales de las 20 ciudades más grandes, con asistencia del MTC y el MVCS, rediseñan los corredores de mayor tránsito peatonal como calles completas: veredas continuas y accesibles, cruces a nivel de vereda, carriles exclusivos de bus y ciclovías protegidas conectadas a estaciones de metro y bus. Se priorizan las zonas de colegios y mercados. Los diseños tipo y un fondo concursable evitan obras aisladas que no conectan.",
+      "evidencia": "La mayoría de los fallecidos en ciudades son peatones y motociclistas (el desglose oficial del ONSV está por verificar). La OMS y el ITF recomiendan infraestructura segura para usuarios vulnerables. Bogotá y Ciudad de México ampliaron redes de ciclovías conectadas con aumentos documentados de viajes en bicicleta (por verificar).",
+      "entrega": "500 km de corredores con calles completas en las 20 ciudades más grandes al 2036 (meta indicativa).",
+      "responsable": "GL",
+      "entidades": [
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "ATU",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto municipal, fondo concursable nacional y financiamiento climático.",
+      "costo_referencial": "no estimado",
+      "indicador": "km de calles completas; peatones y ciclistas fallecidos.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-06"
+      ],
+      "riesgo": "Obras de bajo uso por falta de conexión; oposición de comerciantes y conductores.",
+      "fuentes": [
+        {
+          "titulo": "OMS – Global status report on road safety 2023",
+          "url": "https://www.who.int/publications/i/item/9789240086517"
+        },
+        {
+          "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
+          "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
+        }
+      ],
+      "pedn": [
+        "AE2.3.2",
+        "AE1.4.1"
+      ]
+    },
+    {
+      "id": "TRA-26",
+      "titulo": "Crear autoridades de transporte metropolitano en las ciudades intermedias que crecen",
+      "tipo": "ley",
+      "necesita_ley": "si",
+      "por_que_ley": "Transferir competencias de transporte de municipalidades provinciales y distritales a una autoridad común modifica la Ley 27972, Ley Orgánica de Municipalidades: requiere votación calificada de ley orgánica (art. 106). La ley solo habilita a los municipios a crear la autoridad con sus propios recursos; el cofinanciamiento del MTC se compromete únicamente en la Ley de Presupuesto, a propuesta del Ejecutivo (art. 79).",
+      "etapa": "2031-2036",
+      "que": "Una ley marco permite que Arequipa, Trujillo, Piura, Chiclayo, Cusco y otras áreas metropolitanas creen, por acuerdo de sus municipalidades y con apoyo técnico del MTC, una autoridad de transporte metropolitano con el modelo de la ATU (TRA-09): planificación, concesión de rutas por contrato, recaudo integrado y fiscalización. La ley fija estándares mínimos y un mecanismo de financiamiento compartido. Se exige un plan de movilidad urbana sostenible aprobado antes de recibir cofinanciamiento nacional para buses o corredores.",
+      "evidencia": "Arequipa y Trujillo han intentado sistemas integrados con avances parciales por falta de una autoridad con competencias sobre todo el área metropolitana (las evaluaciones específicas están por verificar). La experiencia de la ATU muestra que la autoridad única es condición necesaria.",
+      "entrega": "Ley marco aprobada; al menos 5 autoridades metropolitanas de transporte en funciones al 2036.",
+      "responsable": "MTC",
+      "entidades": [
+        {
+          "sigla": "MTC",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "CONGRESO",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "GL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto municipal y cofinanciamiento del MTC condicionado al plan de movilidad.",
+      "costo_referencial": "no estimado",
+      "indicador": "N.º de ciudades con autoridad metropolitana y rutas bajo contrato.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "TRA-09"
+      ],
+      "riesgo": "Que se creen autoridades sin recursos ni capacidad técnica; conflictos entre municipios.",
+      "fuentes": [
+        {
+          "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
+          "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+        }
+      ],
+      "pedn": [
+        "AE1.4.1",
+        "AE4.6.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "constitucional-fiscal",
+          "hallazgo": "Ley orgánica y alcance real del art. 79",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "jurista",
+          "hallazgo": "Advertir votación calificada (art. 106)",
+          "decision": "aplicado"
+        }
+      ]
     }
-   ],
-   "financiamiento": "Presupuesto del pliego MTC (PP 0138, Reducción del costo, tiempo e inseguridad en el sistema de transporte) con compromisos multianuales.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de la red nacional no concesionada en buen estado; km con contrato por niveles de servicio vigente.",
-   "deroga_o_simplifica": [],
-   "depende_de": [],
-   "riesgo": "Que el presupuesto multianual se recorte en años de ajuste fiscal y se vuelva a las campañas, o que se diseñen contratos con indicadores laxos.",
-   "fuentes": [
+  ],
+  "articulacion": [
     {
-     "titulo": "MTC – Provías Nacional, Ficha de implementación AEI.01.01 (II semestre 2024)",
-     "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
+      "con": "estado",
+      "como": "Las obras paralizadas (EST-07), la depuración de leyes declarativas (EST-22) y las oficinas regionales de proyectos (EST-08) son condición para que TRA-02, TRA-03 y TRA-05 funcionen; el canon con fondo de mantenimiento (EST-19) financia la red vecinal."
+    },
+    {
+      "con": "economia",
+      "como": "El sistema logístico Chancay–Callao (ECP-13) y la agroexportación dependen de accesos viales, puertos y costo logístico (TRA-18, TRA-24)."
+    },
+    {
+      "con": "energia",
+      "como": "La electrificación del transporte público (ENE-18) y la red eléctrica son la base de la renovación de flota (TRA-11); el transporte genera cerca del 40 % de las emisiones de GEI ligadas a la energía (MINAM, INGEI 2019, citado en estudios académicos; por verificar)."
+    },
+    {
+      "con": "ambiente",
+      "como": "La navegabilidad amazónica (TRA-19) y las carreteras en la selva requieren evaluación ambiental y consulta previa para no abrir frentes de deforestación; las vías resilientes reducen el daño de huaicos y El Niño."
+    },
+    {
+      "con": "salud",
+      "como": "Los siniestros de tránsito saturan las emergencias; los caminos vecinales transitables (TRA-02) y los vuelos subsidiados (TRA-20) reducen el tiempo de acceso a postas y evacuaciones médicas."
+    },
+    {
+      "con": "educacion",
+      "como": "Caminos vecinales mantenidos y zonas escolares a 30 km/h (TRA-06) reducen la inasistencia y protegen a los niños en el trayecto."
+    },
+    {
+      "con": "digital",
+      "como": "El catastro digital, los datos abiertos de transporte y el pasaje único (DIG-22) sostienen TRA-04 y TRA-10."
+    },
+    {
+      "con": "seguridad",
+      "como": "La extorsión a transportistas es un riesgo para la reforma de rutas (TRA-10); los contratos con flota propia y pago electrónico reducen el efectivo que alimenta el cobro de cupos."
     }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE3.6.4"
-   ]
-  },
-  {
-   "id": "TRA-02",
-   "titulo": "Mantener los caminos vecinales con microempresas locales y transferencias condicionadas a resultados",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Se instrumenta con el programa presupuestal y transferencias condicionadas (modelo del Programa de Incentivos a la Mejora de la Gestión Municipal). No requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Provías Descentralizado vuelve a escalar el modelo de los programas de caminos rurales. Cada tramo vecinal rehabilitado queda a cargo de una microempresa o asociación local de mantenimiento rutinario (limpieza de cunetas, alcantarillas, bacheo con material del lugar) contratada por la municipalidad provincial o su Instituto Vial Provincial. El MTC transfiere recursos solo si la verificación de campo y las fotos georreferenciadas muestran el camino transitable. Se prioriza a los distritos de quintiles 1 y 2 con escuelas y postas aisladas.",
-   "evidencia": "Entre 1995 y 2013 los programas de caminos rurales del MTC, con apoyo del BID y el Banco Mundial, crearon más de 800 microempresas de mantenimiento. GRADE y CIES (Valdivia, Escobal y Ponce) documentaron efectos en acceso a mercados, tiempo de viaje y salud, con resultados heterogéneos.",
-   "entrega": "60 % de la red vecinal con mantenimiento rutinario contratado al 2036 y 95 % al 2056, con microempresas locales verificadas.",
-   "responsable": "PROVIAS DESCENTRALIZADO",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROVIAS DESCENTRALIZADO",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC, transferencias a gobiernos locales, canon (ver EST-19) y créditos BID o Banco Mundial ya usados en programas anteriores.",
-   "costo_referencial": "no estimado",
-   "indicador": "km de red vecinal con mantenimiento rutinario verificado; % de tramos transitables todo el año.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "EST-19",
-    "EST-08"
-   ],
-   "riesgo": "Captura clientelar de las microempresas, o municipios sin capacidad para contratar y verificar.",
-   "fuentes": [
-    {
-     "titulo": "BID – Pequeñas vías, grandes impactos: programas de caminos vecinales en Perú",
-     "url": "https://blogs.iadb.org/transporte/es/pequenas-vias-grandes-impactos"
-    },
-    {
-     "titulo": "GRADE – Factores condicionantes y heterogeneidad de impactos de las mejoras en caminos rurales",
-     "url": "https://www.grade.org.pe/proyectos/464-factores-condicionantes-y-heterogeneidad-de-los-impactos-de-las-mejoras-en-los-caminos-rurales-peru"
-    },
-    {
-     "titulo": "CIES (Valdivia) – Concesionando el camino hacia el desarrollo: impactos del Programa de Caminos Rurales",
-     "url": "https://cies.org.pe/wp-content/uploads/2016/07/concesionando-el-camino-hacia-el-desarrollo-impactos-iniciales-del-programa-de-caminos-rurales.pdf"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE4.6.1"
-   ]
-  },
-  {
-   "id": "TRA-03",
-   "titulo": "Pavimentar con soluciones básicas la red departamental que une capitales provinciales",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Se hace con Invierte.pe y programación multianual. No requiere ley.",
-   "etapa": "2031-2036",
-   "que": "Los gobiernos regionales, con asistencia de Provías Descentralizado, pavimentan con soluciones básicas (tratamiento superficial bicapa, suelos estabilizados, micropavimento) los tramos departamentales que unen capitales de provincia con la red nacional. Ese estándar es más barato por kilómetro que el asfalto en caliente y se mantiene con el mismo contrato por niveles de servicio. Los tramos se priorizan con un índice público de población servida, producción y riesgo de desastres. El catálogo de diseños tipo evita hacer un expediente desde cero en cada tramo.",
-   "evidencia": "Provías Nacional y los gobiernos regionales ya aplican soluciones básicas en vías de bajo tránsito. Los costos comparados por km de una fuente oficial están por verificar.",
-   "entrega": "Red departamental pavimentada que pasa de ≈25 % (2025) a 60 % al 2036 en los tramos priorizados.",
-   "responsable": "GORE",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROVIAS DESCENTRALIZADO",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Recursos regionales, canon, Obras por Impuestos (ver TRA-23) y endeudamiento con la banca multilateral.",
-   "costo_referencial": "no estimado",
-   "indicador": "km de red departamental pavimentada; costo promedio por km publicado.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-04",
-    "TRA-23"
-   ],
-   "riesgo": "Obras abandonadas o paralizadas por expedientes deficientes; la meta de km puede inducir a pavimentar sin plan de mantenimiento.",
-   "fuentes": [
-    {
-     "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
-     "url": "https://elbuho.pe/?p=430764"
-    },
-    {
-     "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
-     "url": "https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-04",
-   "titulo": "Publicar un inventario vial georreferenciado y gestionar las carreteras como activos",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo permite el reglamento del SINAC y basta con una resolución ministerial del MTC.",
-   "etapa": "2026-2031",
-   "que": "El MTC completa y abre en datos abiertos el inventario de toda la red vial (nacional, departamental y vecinal): trazo, superficie, estado, puentes, puntos críticos de huaicos y tránsito medio diario. Lo actualiza cada año con imágenes satelitales, vehículos con sensores y reportes ciudadanos. Con ese inventario, cada nivel de gobierno debe sustentar sus inversiones en un plan de gestión de activos viales. Es la base para priorizar TRA-01 a TRA-03 y para que la contraloría ciudadana compare costos.",
-   "evidencia": "La gestión de activos viales con inventarios actualizados es práctica estándar del Banco Mundial y de las agencias viales de la OCDE. El SINAC del MTC ya existe, pero con información desigual para la red vecinal.",
-   "entrega": "Inventario vial nacional abierto y actualizado cada año; 100 % de las inversiones viales sustentadas con el plan de gestión de activos.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROVIAS NACIONAL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PROVIAS DESCENTRALIZADO",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PCM-SGTD",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC y cooperación técnica.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de la red con inventario actualizado en los últimos 12 meses.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "DIG-22"
-   ],
-   "riesgo": "Datos desactualizados si no hay presupuesto recurrente para el levantamiento.",
-   "fuentes": [
-    {
-     "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
-     "url": "https://elbuho.pe/?p=430764"
-    },
-    {
-     "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
-     "url": "https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
-    }
-   ],
-   "pedn": [
-    "AE3.6.4",
-    "AE4.5.4"
-   ]
-  },
-  {
-   "id": "TRA-05",
-   "titulo": "Derogar las leyes declarativas de carreteras y priorizar solo con el plan técnico",
-   "tipo": "derogacion",
-   "necesita_ley": "si",
-   "por_que_ley": "Solo una ley puede derogar otra ley. Es una ley de depuración sin gasto, admisible por iniciativa congresal.",
-   "etapa": "2026-2031",
-   "que": "Una ley de depuración deroga las leyes que solo 'declaran de necesidad pública e interés nacional' la construcción o el asfaltado de carreteras, puentes o ferrocarriles específicos. Esas leyes no asignan recursos ni obligan a nadie. La ley dispone que la priorización vial se haga solo por la programación multianual de inversiones del MTC y los gobiernos regionales, el Plan Nacional de Infraestructura y el Plan Maestro de Desarrollo Ferroviario. Los tramos que esas leyes mencionan se evalúan con los mismos criterios públicos y, si califican, entran en la cartera.",
-   "evidencia": "El Congreso aprueba con frecuencia leyes declarativas de vías: por ejemplo la Ley 31938 (2023), que agrupa varias vías, y la Ley 32488 (2025), sobre la carretera Chiguata–Santa Lucía. Generan expectativas sin financiamiento.",
-   "entrega": "Una ley de depuración que deroga las leyes declarativas de infraestructura vial y ferroviaria, con un registro público de la cartera priorizada.",
-   "responsable": "CONGRESO",
-   "entidades": [
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "No requiere gasto.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de leyes declarativas viales vigentes; % de la inversión vial asignada según la cartera priorizada.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "Ley 31938 (declara de necesidad pública e interés nacional diversas vías, 2023) y leyes declarativas viales análogas",
-     "motivo": "No asignan recursos ni obligan; distorsionan la priorización técnica."
-    },
-    {
-     "norma": "Ley 32488 (declara de necesidad pública la construcción de la carretera Chiguata–Santa Lucía, 2025)",
-     "motivo": "Declarativa; el tramo debe competir en la cartera técnica con los demás."
-    }
-   ],
-   "depende_de": [
-    "EST-22"
-   ],
-   "riesgo": "Costo político de derogar leyes de interés local; pueden seguir aprobándose nuevas leyes declarativas.",
-   "fuentes": [
-    {
-     "titulo": "Ley 31938 (declarativa de varias vías, nov-2023)",
-     "url": "https://img.lpderecho.pe/wp-content/uploads/2023/11/Ley-31938-LPDerecho.pdf"
-    },
-    {
-     "titulo": "Gestión – Declaran de necesidad pública la construcción de 13 vías del país",
-     "url": "https://gestion.pe/peru/declaran-de-necesidad-publica-la-construccion-y-otras-acciones-a-13-vias-del-pais-cuales-son-mtc-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE4.5.2",
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-06",
-   "titulo": "Reducir a la mitad las muertes viales con el enfoque de sistema seguro",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Los límites de velocidad, el diseño vial y la fiscalización están en el Reglamento Nacional de Tránsito y otras normas reglamentarias (DS). No se necesita ley.",
-   "etapa": "2026-2031",
-   "que": "El MTC adopta el enfoque de sistema seguro como política obligatoria. Todo proyecto vial nuevo o rehabilitado pasa una auditoría de seguridad vial independiente. Se fijan 30 km/h en zonas escolares y de alto tránsito peatonal y 50 km/h en vías urbanas. Se corrigen primero los 100 tramos con más muertes del país (puntos negros identificados por el ONSV), con separadores, iluminación, cruces peatonales elevados y barreras. El ONSV publica cada mes los fallecidos por tramo, tipo de usuario y causa.",
-   "evidencia": "El enfoque de sistema seguro (Suecia, Noruega, España) es el recomendado por la OMS y el ITF/OCDE: asume que las personas se equivocan y diseña las vías para que el error no mate. La meta ODS 3.6 y el Segundo Decenio de Acción de la ONU fijan −50 % de muertes al 2030.",
-   "entrega": "100 puntos negros intervenidos al 2031; auditorías de seguridad vial en el 100 % de los proyectos; fallecidos por debajo de 2 100 al año en 2031.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ONSV",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "PROVIAS NACIONAL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PNP",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC y municipal; parte del pago de papeletas reasignado por norma reglamentaria a seguridad vial (por verificar el margen legal).",
-   "costo_referencial": "no estimado",
-   "indicador": "Fallecidos por siniestros de tránsito al año y por cada 100 000 habitantes (ONSV).",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-07",
-    "TRA-08"
-   ],
-   "riesgo": "Que la velocidad baja sea impopular y no se fiscalice; reacción de transportistas.",
-   "fuentes": [
-    {
-     "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
-     "url": "https://caretas.pe/?p=801787"
-    },
-    {
-     "titulo": "OMS – Global status report on road safety 2023",
-     "url": "https://www.who.int/publications/i/item/9789240086517"
-    },
-    {
-     "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
-     "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
-    }
-   ],
-   "pedn": [
-    "AE1.4.2",
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "TRA-07",
-   "titulo": "Emitir licencias con examen práctico serio, puntos que se pierden y registro único",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "El Reglamento Nacional del Sistema de Emisión de Licencias de Conducir es un decreto supremo; se modifica sin ley.",
-   "etapa": "2026-2031",
-   "que": "El MTC rehace el examen de manejo: pistas y prueba en vía pública grabadas, simuladores certificados y examinadores rotativos que no conocen al postulante. El sistema de puntos se vuelve real: las papeletas de todas las municipalidades, la ATU, la SUTRAN y la PNP alimentan en línea un solo registro, y la licencia se suspende automáticamente al llegar al límite. Para licencias profesionales (buses y carga), la renovación exige un curso práctico y controles de salud y de fatiga. Los centros de evaluación con tasas de aprobación anómalas se auditan y cierran.",
-   "evidencia": "La licencia por puntos redujo muertes en España tras su implantación en 2006 (DGT; evaluaciones publicadas, por verificar la cifra exacta). En el Perú las denuncias por brevetes irregulares son recurrentes.",
-   "entrega": "Registro único de infracciones en línea con el 100 % de las entidades fiscalizadoras; examen práctico grabado en todos los centros.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SUTRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "PNP",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Tasas de los procedimientos y presupuesto del MTC.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de papeletas registradas en línea en el sistema de puntos; licencias suspendidas por puntos al año.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-08"
-   ],
-   "riesgo": "Corrupción en los centros de evaluación y resistencia de las municipalidades a compartir datos de papeletas.",
-   "fuentes": [
-    {
-     "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
-     "url": "https://caretas.pe/?p=801787"
-    },
-    {
-     "titulo": "OMS – Global status report on road safety 2023",
-     "url": "https://www.who.int/publications/i/item/9789240086517"
-    }
-   ],
-   "pedn": [
-    "AE1.4.2",
-    "AE4.5.4"
-   ]
-  },
-  {
-   "id": "TRA-08",
-   "titulo": "Fiscalizar con cámaras y cobrar papeletas en línea con SOAT y revisión técnica verificados",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "La fiscalización electrónica y la responsabilidad del propietario ya están en el marco vigente. Basta con reglamentación y convenios.",
-   "etapa": "2026-2031",
-   "que": "Las municipalidades provinciales, la ATU y la SUTRAN instalan cámaras de velocidad y semáforo en los tramos más peligrosos. Las papeletas se notifican en una casilla electrónica y se integran con SUNARP, el SOAT y las revisiones técnicas. Ningún vehículo puede transferirse, renovar SOAT o pasar revisión técnica con multas graves impagas. La SUTRAN controla en carretera con pesaje dinámico y GPS obligatorio en buses interprovinciales y camiones. Los ingresos por multas se publican y se destinan a seguridad vial.",
-   "evidencia": "La fiscalización automatizada de velocidad reduce siniestros según la revisión del ITF/OCDE sobre sistema seguro. En el Perú, la ATU retiró más de 2 000 vehículos informales en operativos, muchos con sanciones previas: hay reincidencia.",
-   "entrega": "Cámaras en los 100 tramos más peligrosos; 100 % de las papeletas notificadas electrónicamente e integradas con SUNARP y el SOAT.",
-   "responsable": "SUTRAN",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SUTRAN",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SUNARP",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SBS",
-     "rol": "reguladora"
-    }
-   ],
-   "financiamiento": "Inversión municipal y de la SUTRAN recuperable con multas; posible APP de servicios.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de vehículos con SOAT vigente; velocidad media en tramos con cámara.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-07"
-   ],
-   "riesgo": "Que las cámaras se usen como recaudación y pierdan legitimidad; litigios por notificación.",
-   "fuentes": [
-    {
-     "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
-     "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
-    },
-    {
-     "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
-     "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.2",
-    "AE3.6.4"
-   ]
-  },
-  {
-   "id": "TRA-09",
-   "titulo": "Dar a la ATU control real de todas las rutas de Lima-Callao",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "Cambiar las funciones de la ATU y de las municipalidades sobre rutas y tarifas modifica la Ley 30900 y la Ley Orgánica de Municipalidades: hay reserva de ley. Por el art. 79 de la Constitución, la parte que genera gasto debe ser de iniciativa del Ejecutivo.",
-   "etapa": "2026-2031",
-   "que": "Una ley precisa que la ATU es la única autoridad para planificar, concesionar, fiscalizar y fijar la tarifa de todo el transporte regular de Lima y Callao, incluidas las rutas interdistritales. Se cierran los vacíos que hoy permiten permisos municipales superpuestos. La ATU recibe un directorio técnico con mandato fijo, metas públicas de tiempo de viaje y una fuente estable de financiamiento definida por el Ejecutivo. La misma ley habilita a ciudades como Arequipa, Trujillo, Piura o Cusco a crear autoridades metropolitanas por convenio, sin crear organismos nuevos por iniciativa congresal.",
-   "evidencia": "Las ciudades que ordenaron su transporte, como Bogotá con TransMilenio y el SITP o Santiago con la Red, lo hicieron con una autoridad única con poder sobre rutas y tarifas. La ATU (Ley 30900, 2018) aún convive con rutas y permisos heredados.",
-   "entrega": "Una ley que consolida las funciones de la ATU; 100 % de las rutas de Lima-Callao bajo un solo registro y contrato de la ATU.",
-   "responsable": "PCM",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MML",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MPC",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Presupuesto de la ATU y tarifas; la fuente estable la propone el Ejecutivo.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de rutas de Lima-Callao bajo contrato de la ATU; tiempo promedio de viaje en transporte público.",
-   "deroga_o_simplifica": [],
-   "depende_de": [],
-   "riesgo": "Conflicto entre gobierno nacional y municipios; captura de la ATU por gremios de transportistas.",
-   "fuentes": [
-    {
-     "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
-     "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
-    },
-    {
-     "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
-     "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE2.3.2"
-   ]
-  },
-  {
-   "id": "TRA-10",
-   "titulo": "Pasar los buses de Lima a contratos por kilómetro con pasaje único",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Con la Ley 30900 vigente, la ATU puede concesionar y reorganizar rutas por sus propios actos administrativos.",
-   "etapa": "2026-2031",
-   "que": "La ATU licita las rutas de Lima-Callao por paquetes troncales y alimentadores. Los operadores son empresas con flota propia y conductores en planilla, y se les paga por kilómetro recorrido con calidad (frecuencia, puntualidad, limpieza), no por pasajero, lo que termina con la 'guerra del centavo'. Un sistema de recaudo único con tarjeta, QR y billetera móvil permite transbordos con tarifa integrada entre Metro, Metropolitano, corredores y alimentadores. Los datos de ubicación y frecuencia se publican en tiempo real.",
-   "evidencia": "El paso del modelo afiliador a contratos con flota propia redujo siniestros y mejoró la regularidad en Bogotá (TransMilenio) y en Santiago tras corregir el diseño inicial del Transantiago. Ambas experiencias tienen evaluaciones publicadas por el Banco Mundial y académicos (por verificar las cifras exactas).",
-   "entrega": "100 % de los viajes en bus regular de Lima-Callao bajo contratos de pago por km al 2036; pasaje único integrado operativo al 2031.",
-   "responsable": "ATU",
-   "entidades": [
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "INDECOPI",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Tarifas más subsidio operativo explícito y focalizado (estudiantes, adultos mayores), definido en el presupuesto.",
-   "costo_referencial": "no estimado",
-   "indicador": "% de viajes con pasaje integrado; regularidad de frecuencias; fallecidos en siniestros con buses.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-09",
-    "TAL-11",
-    "GOB-11",
-    "DIG-22"
-   ],
-   "riesgo": "Paros de transportistas, subsidios no sostenibles o un diseño apresurado que repita el inicio del Transantiago.",
-   "fuentes": [
-    {
-     "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
-     "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
-    },
-    {
-     "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
-     "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE2.3.2"
-   ]
-  },
-  {
-   "id": "TRA-11",
-   "titulo": "Renovar la flota urbana con buses eléctricos y a gas mediante chatarreo y arriendo",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Los programas de chatarreo y los fideicomisos se crean por decreto supremo y convenios. No requieren ley.",
-   "etapa": "2031-2036",
-   "que": "Los operadores con contrato de la ATU (TRA-10) y de las ciudades con autoridad metropolitana acceden a buses eléctricos o a GNV mediante arriendo de flota: un fideicomiso o una empresa de leasing es dueño de los buses y el operador paga por su uso. A cambio, el operador entrega para chatarreo un vehículo antiguo. Se instalan electrolineras en los patios de buses. Las compras se coordinan con el sector energía para asegurar la potencia eléctrica.",
-   "evidencia": "Santiago y Bogotá incorporaron miles de buses eléctricos separando la propiedad de la flota de la operación, con financiamiento de empresas eléctricas y multilaterales (cifras por verificar). En el Perú, la flota tiene 14 años promedio (MTC, 2024) y el 52 % de los vehículos de carga y transporte supera los 10 años (IPE, 2025).",
-   "entrega": "3 000 buses urbanos de cero o bajas emisiones en operación al 2036 (meta indicativa); antigüedad promedio de la flota urbana regular por debajo de 8 años.",
-   "responsable": "ATU",
-   "entidades": [
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MINEM",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "COFIDE",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Leasing privado, garantías de COFIDE, financiamiento climático (BID, CAF, Fondo Verde para el Clima).",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de buses de cero o bajas emisiones en operación; antigüedad promedio de la flota urbana.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-10",
-    "ENE-18"
-   ],
-   "riesgo": "Que no haya contratos estables (TRA-10) que respalden el pago del arriendo; restricciones de la red eléctrica.",
-   "fuentes": [
-    {
-     "titulo": "MTC – Exposición ante la Comisión de Transportes (01-abr-2024): flota con 14 años promedio",
-     "url": "https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
-    },
-    {
-     "titulo": "Gestión / IPE – Récord de venta de vehículos nuevos contrasta con envejecimiento del parque",
-     "url": "https://gestion.pe/economia/record-de-venta-de-vehiculos-nuevos-contrasta-con-envejecimiento-del-parque-automotor-segun-analiza-ipe-noticia/"
-    }
-   ],
-   "pedn": [
-    "AE3.3.22",
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "TRA-12",
-   "titulo": "Convertir a los colectivos de Lima en alimentadores contratados, sin legalizar la informalidad",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La ATU puede crear servicios alimentadores y zonales por sus propias normas. No hace falta una ley de formalización, que fragmentaría las rutas.",
-   "etapa": "2026-2031",
-   "que": "La ATU no legaliza los autos colectivos en rutas troncales, donde compiten con buses de mayor capacidad. En cambio, abre licitaciones de servicios alimentadores y de zonas de ladera con vehículos menores (vans o microbuses) donde hoy solo llegan colectivos. Los colectiveros empadronados pueden asociarse y postular, con flota acreditada, conductores con licencia profesional, SOAT y GPS. Quienes no se integren enfrentan una fiscalización sostenida con cámaras (TRA-08). Fuera de Lima-Callao, el MTC evalúa el régimen de la Ley 31096 con datos de siniestros y propone ajustes.",
-   "evidencia": "Unos 150 000 colectivos realizarían unos 7 millones de viajes diarios en Lima (estimación de la Municipalidad de Lima citada por la prensa, por verificar). La ATU sostiene que legalizarlos en Lima sin control posterior sería un retroceso. Bogotá integró parte de la oferta informal al SITP mediante contratos zonales (por verificar la evaluación).",
-   "entrega": "Servicios alimentadores licitados en todas las zonas de ladera de Lima-Callao sin oferta formal; registro de colectiveros integrados.",
-   "responsable": "ATU",
-   "entidades": [
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "PNP",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Tarifas e integración tarifaria del sistema (TRA-10).",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de colectiveros integrados a servicios contratados; viajes en servicios alimentadores formales.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-10",
-    "TRA-08"
-   ],
-   "riesgo": "Presión para una ley de formalización general en Lima; conflictos y paros.",
-   "fuentes": [
-    {
-     "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
-     "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
-    },
-    {
-     "titulo": "Andina – Taxis colectivos: alcances de la Ley 31096",
-     "url": "https://andina.pe/agencia/noticia-taxis-colectivos-los-alcances-de-ley-publicada-por-congreso-827611.aspx"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "TRA-13",
-   "titulo": "Terminar la Línea 2 con una unidad de predios e interferencias",
-   "tipo": "obra",
-   "necesita_ley": "parcial",
-   "por_que_ley": "La obra se ejecuta bajo el contrato vigente. La simplificación de expropiaciones e interferencias puede hacerse con los decretos legislativos autorizados por la Ley 32743 (numerales 2.2.8 y 2.2.10, plazo hasta ≈20-ene-2027).",
-   "etapa": "2026-2031",
-   "que": "El MTC y la ATU crean una unidad dedicada a liberar los predios e interferencias que faltan en la Línea 2 (incluidas las de la Estación Central y el tramo por la Ciudad Universitaria) y a coordinar con la Municipalidad de Lima los permisos de desvío. Usan los decretos legislativos de la Ley 32743 sobre adquisición y expropiación de predios y liberación de interferencias, sin tocar la consulta previa ni las obligaciones ambientales. Se publica cada mes un cronograma por estación con su porcentaje de avance. Se negocian las controversias con el concesionario en un mecanismo de solución temprana, para evitar nuevos arbitrajes.",
-   "evidencia": "Ositrán reporta avances de 96 % en la etapa 1B y 91 % en la etapa 2, pero la Estación Central va en 39 % en obras civiles y la fecha estimada es agosto de 2029. La Contraloría atribuye el riesgo de sobrecostos al retraso en la entrega de áreas de concesión.",
-   "entrega": "Línea 2 completa (Ate–Callao) en operación comercial, con un cronograma público por estación.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "MML",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Contrato de concesión vigente (cofinanciamiento del Estado ya comprometido).",
-   "costo_referencial": "no estimado (montos del contrato y las adendas varían entre fuentes)",
-   "indicador": "% de avance por estación; fecha de puesta en operación completa.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-22"
-   ],
-   "riesgo": "Nuevos arbitrajes y adendas; conflictos con la universidad y el municipio por las áreas.",
-   "fuentes": [
-    {
-     "titulo": "Expreso – Culminación de la Línea 2 se postergaría hasta agosto de 2029 (estimación Ositrán)",
-     "url": "https://www.expreso.com.pe/actualidad/obras-de-estacion-central-tienen-un-avance-del-39-culminacion-de-linea-2-del-metro-de-lima-se-postergaria-hasta-agosto-de-2029-mtc-noicia/1170612/"
-    },
-    {
-     "titulo": "Energiminas – Línea 2: etapas 1B y 2 superan el 90 % de avance (ago-2026)",
-     "url": "https://energiminas.com/2026/08/11/linea-2-del-metro-etapas-1b-y-2-superan-el-90-de-avance-en-su-construccion/"
-    },
-    {
-     "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
-     "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
-    },
-    {
-     "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
-     "url": "https://busquedas.elperuano.pe/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-14",
-   "titulo": "Ampliar la Línea 1 a un millón de viajes y alistar la Línea 3",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "La ampliación de la Línea 1 se hace por adenda del contrato vigente, y las nuevas líneas por APP o contrato de Estado a Estado bajo la Ley 32441. No requieren ley nueva.",
-   "etapa": "2031-2036",
-   "que": "Se ejecuta la ampliación de capacidad de la Línea 1 (más trenes, patio y subestaciones) que Ositrán y ProInversión aprobaron para pasar de unos 600 000 a un millón de pasajeros diarios. En paralelo, la ATU y el MTC terminan los estudios de la Línea 3 (norte–sur) y del ramal completo de la Línea 4 con una oficina de gestión de proyectos especializada. Antes de licitar, la liberación de predios e interferencias debe estar avanzada (lección de la Línea 2).",
-   "evidencia": "La Línea 1 transporta unos 630 000 pasajeros diarios en condición de saturación (MTC, 2025). Ositrán autorizó la ampliación hasta un millón de pasajeros diarios, con obras desde 2027 según la prensa.",
-   "entrega": "Línea 1 con capacidad de un millón de pasajeros diarios; Línea 3 con estudios definitivos aprobados y predios liberados antes de su adjudicación.",
-   "responsable": "ATU",
-   "entidades": [
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Adenda del contrato de la Línea 1; APP cofinanciada o contrato de Estado a Estado para la Línea 3.",
-   "costo_referencial": "Ampliación de la Línea 1: el MTC ha citado cifras de entre US$ 2 600 y 3 887 millones según la fuente (por verificar).",
-   "indicador": "Pasajeros diarios de la Línea 1; % de predios de la Línea 3 liberados antes de adjudicar.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-13",
-    "TRA-22"
-   ],
-   "riesgo": "Que la adenda traslade riesgos al Estado; que la Línea 3 se licite sin predios liberados y repita los retrasos.",
-   "fuentes": [
-    {
-     "titulo": "Expreso – Ositrán autoriza ampliación de la Línea 1 hasta un millón de pasajeros diarios",
-     "url": "https://www.expreso.com.pe/actualidad/ositran-autoriza-ampliacion-de-la-linea-1-del-metro-de-lima-para-transportar-hasta-un-millon-de-pasajeros-diarios-ministerio-de-economia-y-finanzas-noticia/1226381/"
-    },
-    {
-     "titulo": "MTC – Exposición ante la Comisión de Defensa del Consumidor (21-oct-2025), Línea 1",
-     "url": "https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "TRA-15",
-   "titulo": "Operar el tren Lima–Chosica con estándares de seguridad, horario fijo e integración tarifaria",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "La operación se rige por el contrato de concesión del Ferrocarril Central y convenios entre el MTC y la Municipalidad de Lima. No requiere ley.",
-   "etapa": "2026-2031",
-   "que": "El MTC, como concedente del Ferrocarril Central, y la Municipalidad de Lima ponen en servicio regular el tren Lima–Chosica con los coches y locomotoras donados por Caltrain. Antes de abrir al público hay una certificación independiente de seguridad del material, la vía, los puentes y los cruces a nivel. El contrato de operación con el concesionario de la vía se publica, con su subsidio, horarios, tarifa y responsable de seguridad. El servicio se integra al pasaje único (TRA-10). Se cierran o protegen los cruces a nivel más peligrosos y se evalúa en 5 años si conviene un sistema definitivo de mayor capacidad.",
-   "evidencia": "El material llegó en 2025 y, a agosto de 2026, el servicio solo había hecho pruebas sin pasajeros, con anuncios de inicio que se postergaron varias veces. El material es usado y retirado de servicio en California. Su vida útil y su costo de mantenimiento están por verificar.",
-   "entrega": "Servicio regular Lima–Chosica con certificación de seguridad independiente y contrato de operación publicado.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MML",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Tarifa más subsidio operativo explícito de la Municipalidad de Lima y el MTC (monto por verificar).",
-   "costo_referencial": "no estimado",
-   "indicador": "Pasajeros diarios; incidentes por millón de km; puntualidad.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-10"
-   ],
-   "riesgo": "Operar sin certificación por presión política; material usado con costos de mantenimiento altos; cruces a nivel inseguros.",
-   "fuentes": [
-    {
-     "titulo": "Gestión – Tren Lima–Chosica: cuándo operaría con pasajeros y en qué horarios",
-     "url": "https://gestion.pe/peru/tren-lima-chosica-cuando-operaria-con-pasajeros-y-en-que-horarios-noticia/"
-    },
-    {
-     "titulo": "El Tiempo – A más de cuatro meses de su llegada, el tren Lima–Chosica aún no funciona",
-     "url": "https://eltiempo.pe/nacional/a-mas-de-cuatro-meses-de-su-llegada-el-tren-lima-chosica-aun-no-entra-en-funcionamiento/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE1.4.2"
-   ]
-  },
-  {
-   "id": "TRA-16",
-   "titulo": "Construir por etapas los trenes de cercanías, solo si su rentabilidad social es positiva",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta con APP o contrato de Estado a Estado bajo la Ley 32441, Invierte.pe y el Plan Maestro de Desarrollo Ferroviario al 2050 (RM 368-2026-MTC/01.02). No requiere ley.",
-   "etapa": "2031-2036",
-   "que": "El MTC y ProInversión estructuran los trenes de cercanías por tramos, empezando por los de mayor demanda metropolitana: Lima Sur (Villa El Salvador–Lurín–Chilca) y Lima Norte (Callao–Ancón–Huaral). Cada tramo solo pasa a licitación si su estudio de demanda y su análisis costo-beneficio social son revisados por un panel independiente y si el cofinanciamiento cabe en el tope de compromisos fiscales de APP. Las extensiones a Ica y Barranca se deciden con la demanda observada en los primeros tramos. El derecho de vía se reserva desde ya en los planes urbanos para que no lo ocupen viviendas.",
-   "evidencia": "ProInversión estima US$ 6 542 millones para Lima–Ica y US$ 4 393 millones para Lima–Barranca. Las fechas de inicio se han corrido varias veces. Hacer el proyecto por etapas limita el riesgo de demanda sobreestimada, frecuente en proyectos ferroviarios (Flyvbjerg, sobre megaproyectos de transporte).",
-   "entrega": "Primer tramo de cercanías (Lima Sur o Lima Norte) adjudicado con revisión independiente; derecho de vía reservado en los planes urbanos.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "APP cofinanciada o contrato de Estado a Estado; endeudamiento multilateral.",
-   "costo_referencial": "Lima–Ica US$ 6 542 M y Lima–Barranca US$ 4 393 M (ProInversión, cartera ferroviaria).",
-   "indicador": "Tramos con análisis costo-beneficio revisado de forma independiente; pasajeros por km de vía en operación.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-17",
-    "TRA-22"
-   ],
-   "riesgo": "Presión por anunciar el proyecto completo sin demanda probada; compromisos firmes y contingentes que excedan el espacio fiscal.",
-   "fuentes": [
-    {
-     "titulo": "Energiminas – ProInversión promueve cartera ferroviaria (Lima–Ica US$ 6 542 M; Lima–Barranca US$ 4 393 M)",
-     "url": "https://energiminas.com/?p=42636"
-    },
-    {
-     "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
-     "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
-    },
-    {
-     "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
-     "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
-    }
-   ],
-   "pedn": [
-    "AE1.4.2",
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-17",
-   "titulo": "Evaluar con honestidad el tren Lima–Tacna y reservar el corredor sin comprometer recursos",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "Es una decisión de planificación del MTC y el MEF dentro del Plan Maestro de Desarrollo Ferroviario al 2050. No requiere ley.",
-   "etapa": "2026-2031",
-   "que": "El Plan Maestro de Desarrollo Ferroviario al 2050 no define un tren Lima–Tacna como proyecto único: en el sur prioriza los corredores Ica–La Joya y La Joya–Tacna. Una prefactibilidad exploratoria ciudadana (oct-2026, no oficial) encontró un VAN social negativo en todas las alternativas evaluadas a tasa del 8 %, desde el tren convencional hasta la alta velocidad. Con la demanda base, la mejor opción era no construir. La propuesta es no comprometer recursos en un tren Lima–Tacna completo, reservar el derecho de vía en el ordenamiento territorial (con la restricción de las Líneas de Nasca, patrimonio UNESCO) y reevaluarlo en 2036 con la demanda real del tramo Lima–Ica (TRA-16).",
-   "evidencia": "Los megaproyectos ferroviarios suelen sobreestimar la demanda y subestimar los costos (Flyvbjerg). El PMDF 2050 (RM 368-2026-MTC/01.02) prioriza 10 corredores con criterios de impacto económico. La prefactibilidad ciudadana estimó, como escenario base, que la demanda al 2045 sería del orden del 69 % del umbral usual para alta velocidad (≈9 M pasajeros/año). Es una estimación no oficial.",
-   "entrega": "Decisión publicada de no comprometer recursos hasta la reevaluación de 2036, y corredor reservado en los instrumentos de ordenamiento territorial.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "CEPLAN",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MINCUL",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Sin gasto de inversión; estudios con el presupuesto del MTC.",
-   "costo_referencial": "no estimado (el costo de construir depende de la alternativa)",
-   "indicador": "Existencia de una reevaluación pública en 2036 con demanda observada.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-16"
-   ],
-   "riesgo": "Que el proyecto se anuncie por razones políticas sin sustento económico y comprometa decenas de miles de millones de dólares.",
-   "fuentes": [
-    {
-     "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
-     "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
-    },
-    {
-     "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
-     "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE4.5.1"
-   ]
-  },
-  {
-   "id": "TRA-18",
-   "titulo": "Integrar Chancay y Callao con accesos viales, zona logística y ventanilla digital",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Los accesos son obras del MTC y los gobiernos subnacionales; la interoperabilidad digital portuaria se desarrolla en GOB-20.",
-   "etapa": "2026-2031",
-   "que": "El MTC ejecuta los accesos viales y la vía de evitamiento que conectan el puerto de Chancay con la Panamericana Norte y Lima sin atravesar el centro urbano, y coordina con el Callao una red de antepuertos y zonas de actividades logísticas para camiones. La dimensión digital (comunidad portuaria interoperable, citas de camiones, trazabilidad) se implementa según GOB-20. Las tarifas y accesos se supervisan para evitar que la concentración portuaria eleve precios.",
-   "evidencia": "Chancay movió 286 255 TEU en su primer año, cerca de la mitad en transbordo según SUNAT. El crecimiento presiona las vías de acceso. ECP-13 desarrolla la parte productiva del sistema logístico.",
-   "entrega": "Accesos viales y evitamiento a Chancay operativos; antepuertos con citas digitales en Chancay y Callao.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "APN",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "SUNAT",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC, APP u Obras por Impuestos con empresas portuarias.",
-   "costo_referencial": "no estimado",
-   "indicador": "Tiempo medio de camión en acceso y en puerto; TEU movidos.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
+  ],
+  "conexion_tech": [
     "GOB-20",
-    "ECP-13"
-   ],
-   "riesgo": "Congestión y ocupación urbana desordenada en Chancay y Huaral si los accesos llegan tarde.",
-   "fuentes": [
+    "GOB-11",
+    "TAL-11",
+    "GOB-07",
+    "GOB-21",
+    "TAL-10",
+    "CON-14",
+    "IA-15"
+  ],
+  "plan2050": [
+    "transportes",
+    "infraestructura-y-construccion",
+    "ciudades-inteligentes",
+    "desarrollo-urbano",
+    "maritimo-fluvial-y-lacustre",
+    "aeronautica",
+    "competitividad",
+    "promocion-de-la-inversion"
+  ],
+  "fuentes": [
     {
-     "titulo": "MundoMarítimo – Puerto de Chancay cierra su primer año con 286 255 TEU",
-     "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
+      "titulo": "MTC – Provías Nacional, Ficha de implementación AEI.01.01 (II semestre 2024)",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
+    },
+    {
+      "titulo": "BID – Pequeñas vías, grandes impactos: programas de caminos vecinales en Perú",
+      "url": "https://blogs.iadb.org/transporte/es/pequenas-vias-grandes-impactos"
+    },
+    {
+      "titulo": "GRADE – Factores condicionantes y heterogeneidad de impactos de las mejoras en caminos rurales",
+      "url": "https://www.grade.org.pe/proyectos/464-factores-condicionantes-y-heterogeneidad-de-los-impactos-de-las-mejoras-en-los-caminos-rurales-peru"
+    },
+    {
+      "titulo": "CIES (Valdivia) – Concesionando el camino hacia el desarrollo: impactos del Programa de Caminos Rurales",
+      "url": "https://cies.org.pe/wp-content/uploads/2016/07/concesionando-el-camino-hacia-el-desarrollo-impactos-iniciales-del-programa-de-caminos-rurales.pdf"
+    },
+    {
+      "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
+      "url": "https://elbuho.pe/?p=430764"
+    },
+    {
+      "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
+      "url": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
+    },
+    {
+      "titulo": "Ley 31938 (declarativa de varias vías, nov-2023)",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2023/11/Ley-31938-LPDerecho.pdf"
+    },
+    {
+      "titulo": "Gestión – Declaran de necesidad pública la construcción de 13 vías del país",
+      "url": "https://gestion.pe/peru/declaran-de-necesidad-publica-la-construccion-y-otras-acciones-a-13-vias-del-pais-cuales-son-mtc-noticia/"
+    },
+    {
+      "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
+      "url": "https://caretas.pe/?p=801787"
+    },
+    {
+      "titulo": "OMS – Global status report on road safety 2023",
+      "url": "https://www.who.int/publications/i/item/9789240086517"
+    },
+    {
+      "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
+      "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
+    },
+    {
+      "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
+      "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+    },
+    {
+      "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
+      "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+    },
+    {
+      "titulo": "MTC – Exposición ante la Comisión de Transportes (01-abr-2024): flota con 14 años promedio",
+      "url": "https://www3.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
+    },
+    {
+      "titulo": "Gestión / IPE – Récord de venta de vehículos nuevos contrasta con envejecimiento del parque",
+      "url": "https://gestion.pe/economia/record-de-venta-de-vehiculos-nuevos-contrasta-con-envejecimiento-del-parque-automotor-segun-analiza-ipe-noticia/"
+    },
+    {
+      "titulo": "Andina – Taxis colectivos: alcances de la Ley 31096",
+      "url": "https://andina.pe/agencia/noticia-taxis-colectivos-los-alcances-de-ley-publicada-por-congreso-827611.aspx"
+    },
+    {
+      "titulo": "Expreso – Culminación de la Línea 2 se postergaría hasta agosto de 2029 (estimación Ositrán)",
+      "url": "https://www.expreso.com.pe/actualidad/obras-de-estacion-central-tienen-un-avance-del-39-culminacion-de-linea-2-del-metro-de-lima-se-postergaria-hasta-agosto-de-2029-mtc-noicia/1170612/"
+    },
+    {
+      "titulo": "Energiminas – Línea 2: etapas 1B y 2 superan el 90 % de avance (ago-2026)",
+      "url": "https://energiminas.com/2026/08/11/linea-2-del-metro-etapas-1b-y-2-superan-el-90-de-avance-en-su-construccion/"
+    },
+    {
+      "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
+      "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
+    },
+    {
+      "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
+      "url": "https://busquedas.elperuano.pe/"
+    },
+    {
+      "titulo": "Expreso – Ositrán autoriza ampliación de la Línea 1 hasta un millón de pasajeros diarios",
+      "url": "https://www.expreso.com.pe/actualidad/ositran-autoriza-ampliacion-de-la-linea-1-del-metro-de-lima-para-transportar-hasta-un-millon-de-pasajeros-diarios-ministerio-de-economia-y-finanzas-noticia/1226381/"
+    },
+    {
+      "titulo": "MTC – Exposición ante la Comisión de Defensa del Consumidor (21-oct-2025), Línea 1",
+      "url": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+    },
+    {
+      "titulo": "Gestión – Tren Lima–Chosica: cuándo operaría con pasajeros y en qué horarios",
+      "url": "https://gestion.pe/peru/tren-lima-chosica-cuando-operaria-con-pasajeros-y-en-que-horarios-noticia/"
+    },
+    {
+      "titulo": "El Tiempo – A más de cuatro meses de su llegada, el tren Lima–Chosica aún no funciona",
+      "url": "https://eltiempo.pe/nacional/a-mas-de-cuatro-meses-de-su-llegada-el-tren-lima-chosica-aun-no-entra-en-funcionamiento/"
+    },
+    {
+      "titulo": "Energiminas – ProInversión promueve cartera ferroviaria (Lima–Ica US$ 6 542 M; Lima–Barranca US$ 4 393 M)",
+      "url": "https://energiminas.com/?p=42636"
+    },
+    {
+      "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
+      "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
+    },
+    {
+      "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
+      "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
+    },
+    {
+      "titulo": "MundoMarítimo – Puerto de Chancay cierra su primer año con 286 255 TEU",
+      "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
+    },
+    {
+      "titulo": "gob.pe – Hidrovía Amazónica (concesión caducada, 15-oct-2024)",
+      "url": "https://www.gob.pe/102823-acceder-a-informacion-sobre-la-hidrovia-amazonica-concesion-caducada"
+    },
+    {
+      "titulo": "Mongabay – Hidrovía Amazónica y consulta previa a pueblos indígenas",
+      "url": "https://es.mongabay.com/2021/01/hidrovia-amazonia-peru-consulta-previa-pueblos-indigenas/"
+    },
+    {
+      "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
+      "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
+    },
+    {
+      "titulo": "Energiminas – ProInversión incorporará el Tercer Grupo de Aeropuertos (ene-2026)",
+      "url": "https://energiminas.com/2026/01/16/proinversion-incorporara-al-proceso-de-promocion-al-tercer-grupo-de-aeropuertos-en-el-primer-trimestre-del-ano/"
+    },
+    {
+      "titulo": "Bloomberg Línea – Inauguración del nuevo aeropuerto Jorge Chávez",
+      "url": "https://www.bloomberglinea.com/latinoamerica/peru/inauguracion-del-aeropuerto-jorge-chavez-ubicacion-vuelos-y-lo-que-debe-saber/"
+    },
+    {
+      "titulo": "Cuatrecasas – Nueva regulación para la promoción de la inversión privada (Ley 32441)",
+      "url": "https://www.cuatrecasas.com/es/latam/publico/art/nueva-regulacion-promocion-inversion-privada"
+    },
+    {
+      "titulo": "ProActivo – Entidades públicas adjudican en 2025 récord de 284 proyectos vía Obras por Impuestos",
+      "url": "https://proactivo.com.pe/proinversion-entidades-publicas-adjudican-en-2025-record-de-284-proyectos-via-obras-por-impuestos/"
+    },
+    {
+      "titulo": "Andina – Obras por Impuestos: 147 proyectos por S/ 1 725 millones (ene–jul 2025)",
+      "url": "https://andina.pe/agencia/noticia-obras-impuestos-adjudican-147-proyectos-s-1725-millones-enerojulio-del-2025-1040590.aspx"
+    },
+    {
+      "titulo": "Banco Mundial – Análisis de la logística en el Perú (costos logísticos por cadena)",
+      "url": "https://documents1.worldbank.org/curated/en/555181547057977330/pdf/133561-WP-P145783-Analisis-dela-Logistica-Peru.pdf"
+    },
+    {
+      "titulo": "CIEN-ADEX – Policy Brief 3: Aportes para la logística (LPI 2023)",
+      "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
+    },
+    {
+      "titulo": "MEF – Plan Nacional de Infraestructura Sostenible para la Competitividad 2022-2025 (DS 242-2022-EF)",
+      "url": "https://www.mef.gob.pe/es/inversion-privada-sp-21801/6082-plan-nacional-de-infraestructura-sostenible-para-la-competitividad-2022-2025"
+    },
+    {
+      "titulo": "El Búho / PerúCheck – Fallecidos por siniestros de tránsito 2024 y 2025 (ONSV-MTC)",
+      "url": "https://elbuho.pe/?p=418281"
     }
-   ],
-   "pedn": [
-    "AE3.6.3",
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-19",
-   "titulo": "Mantener la navegabilidad amazónica como servicio público, con consulta previa y sin dragado masivo",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "Lo puede hacer el MTC con su presupuesto (Dirección de Hidrovías) o mediante contratos de servicios. No requiere ley.",
-   "etapa": "2026-2031",
-   "que": "Tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024), el MTC organiza un servicio permanente de información de navegación en el Marañón, Huallaga, Ucayali y Amazonas: batimetría, señalización y alertas de vaciante en tiempo real para los usuarios. El dragado se limita a los puntos críticos, con un estudio de impacto ambiental aprobado y la consulta previa que exige el Convenio 169 de la OIT. Se modernizan embarcaderos y terminales fluviales comunitarios con seguridad y accesibilidad.",
-   "evidencia": "El contrato de la Hidrovía Amazónica (2017) no llegó a operar. Organizaciones indígenas cuestionaron el dragado por sus efectos sobre la pesca y los ríos.",
-   "entrega": "Servicio de información de navegación operando en los 4 ríos principales; 40 embarcaderos modernizados al 2031 (meta indicativa).",
-   "responsable": "MTC",
-   "entidades": [
+  ],
+  "revision_atendida": [
     {
-     "sigla": "MTC",
-     "rol": "rectora"
+      "rol": "cifras",
+      "hallazgo": "Actualizar fallecidos viales al dato ONSV 2025",
+      "decision": "aplicado: 2 890 (2025) en indicador, meta y resumen"
     },
     {
-     "sigla": "DICAPI",
-     "rol": "reguladora"
-    },
-    {
-     "sigla": "MINAM",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MINCUL",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "SENAMHI",
-     "rol": "consultiva"
+      "rol": "cifras",
+      "hallazgo": "URLs del Congreso movidas a www3 (9 casos)",
+      "decision": "aplicado en todo el archivo"
     }
-   ],
-   "financiamiento": "Presupuesto del MTC y de los gobiernos regionales amazónicos; cooperación técnica.",
-   "costo_referencial": "no estimado",
-   "indicador": "Días al año con navegación restringida por vaciante; siniestros fluviales.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "GOB-21"
-   ],
-   "riesgo": "Retomar el dragado masivo sin consulta y repetir el conflicto; sequías cada vez más severas.",
-   "fuentes": [
-    {
-     "titulo": "gob.pe – Hidrovía Amazónica (concesión caducada, 15-oct-2024)",
-     "url": "https://www.gob.pe/102823-acceder-a-informacion-sobre-la-hidrovia-amazonica-concesion-caducada"
-    },
-    {
-     "titulo": "Mongabay – Hidrovía Amazónica y consulta previa a pueblos indígenas",
-     "url": "https://es.mongabay.com/2021/01/hidrovia-amazonia-peru-consulta-previa-pueblos-indigenas/"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE1.6.1"
-   ]
-  },
-  {
-   "id": "TRA-20",
-   "titulo": "Conectar las comunidades amazónicas aisladas con vuelos subsidiados y aeródromos mantenidos",
-   "tipo": "servicio",
-   "necesita_ley": "no",
-   "por_que_ley": "El transporte aéreo subsidiado y el mantenimiento de aeródromos se ejecutan con presupuesto y convenios. No requieren ley.",
-   "etapa": "2026-2031",
-   "que": "El MTC amplía las rutas de transporte aéreo subsidiado a capitales de provincia y distritos amazónicos sin acceso terrestre (Purús, Putumayo, alto Amazonas). Las rutas se licitan por varios años con tarifas máximas y frecuencias mínimas. Al mismo tiempo, mantiene las pistas de los aeródromos regionales que dependen de CORPAC y de los gobiernos regionales y prioriza las evacuaciones médicas.",
-   "evidencia": "En el Perú ya existen rutas aéreas subsidiadas a localidades amazónicas aisladas; la cobertura y el presupuesto actuales están por verificar. Brasil y Colombia mantienen esquemas similares para su Amazonía.",
-   "entrega": "Todas las capitales de provincia amazónicas sin carretera con al menos dos vuelos semanales garantizados.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CORPAC",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MINSA",
-     "rol": "beneficiaria"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC (subsidio explícito).",
-   "costo_referencial": "no estimado",
-   "indicador": "Localidades aisladas con servicio aéreo regular; tiempo de evacuación médica.",
-   "deroga_o_simplifica": [],
-   "depende_de": [],
-   "riesgo": "Subsidio insuficiente o rutas con un solo operador sin competencia.",
-   "fuentes": [
-    {
-     "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
-     "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
-    }
-   ],
-   "pedn": [
-    "AE1.6.1",
-    "AE3.6.2"
-   ]
-  },
-  {
-   "id": "TRA-21",
-   "titulo": "Modernizar los aeropuertos regionales y concesionar el tercer grupo con reglas claras",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Se ejecuta bajo los contratos vigentes (adendas) y la Ley 32441 de APP. No requiere ley.",
-   "etapa": "2026-2031",
-   "que": "ProInversión adjudica el tercer grupo de aeropuertos (Jaén, Huánuco, Jauja, Ilo, Rioja, Nuevo Chimbote y Yurimaguas, más la operación y mantenimiento de Chinchero). Cada adenda de los grupos 1 y 2 se evalúa con un análisis de valor por dinero publicado y opinión de Ositrán. En Lima se completan los accesos viales y de transporte público al nuevo terminal del Jorge Chávez. Se prioriza la seguridad operacional (radioayudas, iluminación de pista) en los aeropuertos que dependen de CORPAC.",
-   "evidencia": "El nuevo terminal del Jorge Chávez inició operaciones el 1 de junio de 2025, con capacidad inicial de unos 30 millones de pasajeros al año. El tercer grupo de aeropuertos se estima en US$ 220 millones, pero su calendario se ha postergado varias veces. Las adendas de 17 aeropuertos suman US$ 4 800 millones.",
-   "entrega": "Tercer grupo adjudicado; accesos al nuevo Jorge Chávez con transporte público masivo.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "CORPAC",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "APP autofinanciada (tercer grupo) y cofinanciamiento según adendas.",
-   "costo_referencial": "Tercer grupo: US$ 220 M sin IGV (ProInversión, preliminar).",
-   "indicador": "Pasajeros en aeropuertos regionales; puntualidad; incidentes operacionales.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-22"
-   ],
-   "riesgo": "Adendas que trasladen riesgos al Estado sin competencia; retrasos en la promoción.",
-   "fuentes": [
-    {
-     "titulo": "Energiminas – ProInversión incorporará el Tercer Grupo de Aeropuertos (ene-2026)",
-     "url": "https://energiminas.com/2026/01/16/proinversion-incorporara-al-proceso-de-promocion-al-tercer-grupo-de-aeropuertos-en-el-primer-trimestre-del-ano/"
-    },
-    {
-     "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
-     "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
-    },
-    {
-     "titulo": "Bloomberg Línea – Inauguración del nuevo aeropuerto Jorge Chávez",
-     "url": "https://www.bloomberglinea.com/latinoamerica/peru/inauguracion-del-aeropuerto-jorge-chavez-ubicacion-vuelos-y-lo-que-debe-saber/"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE3.3.15"
-   ]
-  },
-  {
-   "id": "TRA-22",
-   "titulo": "Adjudicar APP de transporte con predios liberados, riesgos estándar y menos adendas",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "parcial",
-   "por_que_ley": "La Ley 32441 y su reglamento (DS 316-2025-EF) dan el marco. Los cambios que propone la Ley 32743 (numeral 2.2.6: estudios a cargo del inversionista y delegación de funciones contractuales) se hacen por decreto legislativo hasta ≈20-ene-2027.",
-   "etapa": "2026-2031",
-   "que": "El MTC y ProInversión aplican a todas las APP de transporte cuatro reglas. Primero, ningún contrato se adjudica sin al menos un umbral alto de predios liberados y un plan de interferencias. Segundo, una matriz de riesgos estándar por tipo de proyecto (vial, ferroviario, aeroportuario). Tercero, toda adenda se publica con su análisis de valor por dinero y la opinión de Ositrán y del MEF. Cuarto, una oficina de gestión de proyectos acompaña los proyectos de más de US$ 500 millones. Si se usa la facultad delegada para que el inversionista haga los estudios, el decreto legislativo debe exigir revisión independiente y análisis de riesgo climático.",
-   "evidencia": "La Línea 2 se modificó con adendas y terminó en un arbitraje en el CIADI con condena al Estado, y la Contraloría vinculó sus sobrecostos al retraso en la entrega de predios. La Ley 32441 (2025) reemplazó al DL 1362 y al DL 1543 como marco de las APP.",
-   "entrega": "Reglas publicadas y aplicadas al 100 % de las APP de transporte nuevas; registro público de adendas con su análisis de valor por dinero.",
-   "responsable": "MEF",
-   "entidades": [
-    {
-     "sigla": "MEF",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "OSITRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "CGR",
-     "rol": "supervisora"
-    }
-   ],
-   "financiamiento": "Presupuesto de ProInversión y del MTC.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de adendas por contrato; % de predios liberados al adjudicar; sobrecosto promedio de las APP de transporte.",
-   "deroga_o_simplifica": [],
-   "depende_de": [],
-   "riesgo": "Que la urgencia de anunciar inversiones lleve a adjudicar sin predios; que la delegación a los inversionistas genere conflictos de interés.",
-   "fuentes": [
-    {
-     "titulo": "Cuatrecasas – Nueva regulación para la promoción de la inversión privada (Ley 32441)",
-     "url": "https://www.cuatrecasas.com/es/latam/publico/art/nueva-regulacion-promocion-inversion-privada"
-    },
-    {
-     "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
-     "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
-    },
-    {
-     "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
-     "url": "https://busquedas.elperuano.pe/"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE4.5.3"
-   ]
-  },
-  {
-   "id": "TRA-23",
-   "titulo": "Orientar las obras por impuestos hacia caminos vecinales, puentes y mantenimiento",
-   "tipo": "accion_ejecutiva",
-   "necesita_ley": "no",
-   "por_que_ley": "La Ley 29230 ya permite Obras por Impuestos. La Ley 32743 (numeral 2.2.11) autoriza ampliarlas a GRD y a IOARR de emergencia por decreto legislativo. La priorización es administrativa.",
-   "etapa": "2026-2031",
-   "que": "ProInversión y el MTC publican una cartera priorizada de caminos vecinales, puentes y paquetes de mantenimiento vial elegibles para Obras por Impuestos, con diseños tipo. Así las empresas de cada región financian lo más necesario y no solo lo más visible. Se agrupan pequeños proyectos en paquetes provinciales para atraer empresas. Si el decreto legislativo de la Ley 32743 habilita los puentes y la rehabilitación de vías por El Niño, se usa con priorización basada en el riesgo.",
-   "evidencia": "En 2025 las entidades públicas adjudicaron un récord de 284 proyectos por Obras por Impuestos por unos S/ 3 436 millones a octubre. Entre enero y julio, transporte fue el segundo sector, con el 22 %.",
-   "entrega": "Cartera pública de proyectos viales para Obras por Impuestos; al menos el 30 % del monto adjudicado en transporte destinado a la red vecinal y a mantenimiento (meta indicativa).",
-   "responsable": "PROINVERSION",
-   "entidades": [
-    {
-     "sigla": "PROINVERSION",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GORE",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Obras por Impuestos (adelanto del impuesto a la renta de las empresas, con cargo al canon o a recursos del pliego).",
-   "costo_referencial": "no estimado",
-   "indicador": "Monto adjudicado por Obras por Impuestos en red vecinal y mantenimiento.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-02",
-    "TRA-03"
-   ],
-   "riesgo": "Concentración de las obras donde hay empresas grandes (zonas mineras) y no donde la brecha es mayor.",
-   "fuentes": [
-    {
-     "titulo": "ProActivo – Entidades públicas adjudican en 2025 récord de 284 proyectos vía Obras por Impuestos",
-     "url": "https://proactivo.com.pe/proinversion-entidades-publicas-adjudican-en-2025-record-de-284-proyectos-via-obras-por-impuestos/"
-    },
-    {
-     "titulo": "Andina – Obras por Impuestos: 147 proyectos por S/ 1 725 millones (ene–jul 2025)",
-     "url": "https://andina.pe/agencia/noticia-obras-impuestos-adjudican-147-proyectos-s-1725-millones-enerojulio-del-2025-1040590.aspx"
-    },
-    {
-     "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
-     "url": "https://busquedas.elperuano.pe/"
-    }
-   ],
-   "pedn": [
-    "AE3.6.2",
-    "AE4.6.1"
-   ]
-  },
-  {
-   "id": "TRA-24",
-   "titulo": "Simplificar los permisos del transporte de carga y medir el costo logístico cada año",
-   "tipo": "derogacion",
-   "necesita_ley": "no",
-   "por_que_ley": "El Reglamento Nacional de Administración de Transporte (DS 017-2009-MTC) es un decreto supremo y se simplifica por otro decreto supremo, previo análisis de impacto regulatorio (DL 1565).",
-   "etapa": "2026-2031",
-   "que": "El MTC revisa el Reglamento Nacional de Administración de Transporte con análisis de impacto regulatorio: elimina los requisitos duplicados que el Estado ya tiene (SUNARP, SUNAT, RENIEC), digitaliza las habilitaciones vehiculares y los permisos de carga, y deja la fiscalización basada en riesgo con GPS y pesaje dinámico. El MTC y el Observatorio de Logística publican cada año un índice de costo logístico por corredor y producto (de la chacra o la mina al puerto) para orientar la inversión.",
-   "evidencia": "El Banco Mundial estimó que los costos logísticos representan entre el 20 % y el 50 % del costo de productos agrícolas peruanos, frente al 9–12 % de la OCDE. El Perú subió al puesto 61 del LPI en 2023. La simplificación con análisis de impacto regulatorio es práctica de la OCDE.",
-   "entrega": "RNAT simplificado con todos los trámites de carga digitales; índice anual de costo logístico por corredor publicado.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "SUTRAN",
-     "rol": "supervisora"
-    },
-    {
-     "sigla": "PCM",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "MINCETUR",
-     "rol": "consultiva"
-    }
-   ],
-   "financiamiento": "Presupuesto del MTC.",
-   "costo_referencial": "no estimado",
-   "indicador": "Costo logístico como % del valor del producto por corredor; N.º de requisitos eliminados.",
-   "deroga_o_simplifica": [
-    {
-     "norma": "DS 017-2009-MTC, Reglamento Nacional de Administración de Transporte (requisitos documentales duplicados para habilitación vehicular y permisos)",
-     "motivo": "Exige información que el Estado ya posee y encarece la formalidad del transporte de carga y pasajeros."
-    }
-   ],
-   "depende_de": [
-    "ECP-13",
-    "EST-23"
-   ],
-   "riesgo": "Que la simplificación se use para relajar controles de seguridad de buses y camiones.",
-   "fuentes": [
-    {
-     "titulo": "Banco Mundial – Análisis de la logística en el Perú (costos logísticos por cadena)",
-     "url": "https://documents1.worldbank.org/curated/en/555181547057977330/pdf/133561-WP-P145783-Analisis-dela-Logistica-Peru.pdf"
-    },
-    {
-     "titulo": "CIEN-ADEX – Policy Brief 3: Aportes para la logística (LPI 2023)",
-     "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
-    }
-   ],
-   "pedn": [
-    "AE3.6.3",
-    "AE3.7.2"
-   ]
-  },
-  {
-   "id": "TRA-25",
-   "titulo": "Construir calles completas: veredas, cruces seguros y ciclovías conectadas en ciudades grandes",
-   "tipo": "obra",
-   "necesita_ley": "no",
-   "por_que_ley": "Es competencia municipal y de los programas del MVCS y el MTC. No requiere ley.",
-   "etapa": "2031-2036",
-   "que": "Las municipalidades provinciales de las 20 ciudades más grandes, con asistencia del MTC y el MVCS, rediseñan los corredores de mayor tránsito peatonal como calles completas: veredas continuas y accesibles, cruces a nivel de vereda, carriles exclusivos de bus y ciclovías protegidas conectadas a estaciones de metro y bus. Se priorizan las zonas de colegios y mercados. Los diseños tipo y un fondo concursable evitan obras aisladas que no conectan.",
-   "evidencia": "La mayoría de los fallecidos en ciudades son peatones y motociclistas (el desglose oficial del ONSV está por verificar). La OMS y el ITF recomiendan infraestructura segura para usuarios vulnerables. Bogotá y Ciudad de México ampliaron redes de ciclovías conectadas con aumentos documentados de viajes en bicicleta (por verificar).",
-   "entrega": "500 km de corredores con calles completas en las 20 ciudades más grandes al 2036 (meta indicativa).",
-   "responsable": "GL",
-   "entidades": [
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "MVCS",
-     "rol": "consultiva"
-    },
-    {
-     "sigla": "ATU",
-     "rol": "ejecutora"
-    }
-   ],
-   "financiamiento": "Presupuesto municipal, fondo concursable nacional y financiamiento climático.",
-   "costo_referencial": "no estimado",
-   "indicador": "km de calles completas; peatones y ciclistas fallecidos.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-06"
-   ],
-   "riesgo": "Obras de bajo uso por falta de conexión; oposición de comerciantes y conductores.",
-   "fuentes": [
-    {
-     "titulo": "OMS – Global status report on road safety 2023",
-     "url": "https://www.who.int/publications/i/item/9789240086517"
-    },
-    {
-     "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
-     "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
-    }
-   ],
-   "pedn": [
-    "AE2.3.2",
-    "AE1.4.1"
-   ]
-  },
-  {
-   "id": "TRA-26",
-   "titulo": "Crear autoridades de transporte metropolitano en las ciudades intermedias que crecen",
-   "tipo": "ley",
-   "necesita_ley": "si",
-   "por_que_ley": "La transferencia de competencias de transporte entre municipalidades provinciales y distritales a una autoridad común requiere ley (Ley Orgánica de Municipalidades). Por el art. 79 de la Constitución, la creación de organismos con gasto debe ser de iniciativa del Ejecutivo.",
-   "etapa": "2031-2036",
-   "que": "Una ley marco permite que Arequipa, Trujillo, Piura, Chiclayo, Cusco y otras áreas metropolitanas creen, por acuerdo de sus municipalidades y con apoyo técnico del MTC, una autoridad de transporte metropolitano con el modelo de la ATU (TRA-09): planificación, concesión de rutas por contrato, recaudo integrado y fiscalización. La ley fija estándares mínimos y un mecanismo de financiamiento compartido. Se exige un plan de movilidad urbana sostenible aprobado antes de recibir cofinanciamiento nacional para buses o corredores.",
-   "evidencia": "Arequipa y Trujillo han intentado sistemas integrados con avances parciales por falta de una autoridad con competencias sobre todo el área metropolitana (las evaluaciones específicas están por verificar). La experiencia de la ATU muestra que la autoridad única es condición necesaria.",
-   "entrega": "Ley marco aprobada; al menos 5 autoridades metropolitanas de transporte en funciones al 2036.",
-   "responsable": "MTC",
-   "entidades": [
-    {
-     "sigla": "MTC",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "CONGRESO",
-     "rol": "rectora"
-    },
-    {
-     "sigla": "GL",
-     "rol": "ejecutora"
-    },
-    {
-     "sigla": "MEF",
-     "rol": "financiadora"
-    }
-   ],
-   "financiamiento": "Presupuesto municipal y cofinanciamiento del MTC condicionado al plan de movilidad.",
-   "costo_referencial": "no estimado",
-   "indicador": "N.º de ciudades con autoridad metropolitana y rutas bajo contrato.",
-   "deroga_o_simplifica": [],
-   "depende_de": [
-    "TRA-09"
-   ],
-   "riesgo": "Que se creen autoridades sin recursos ni capacidad técnica; conflictos entre municipios.",
-   "fuentes": [
-    {
-     "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
-     "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
-    }
-   ],
-   "pedn": [
-    "AE1.4.1",
-    "AE4.6.1"
-   ]
-  }
- ],
- "articulacion": [
-  {
-   "con": "estado",
-   "como": "Las obras paralizadas (EST-07), la depuración de leyes declarativas (EST-22) y las oficinas regionales de proyectos (EST-08) son condición para que TRA-02, TRA-03 y TRA-05 funcionen; el canon con fondo de mantenimiento (EST-19) financia la red vecinal."
-  },
-  {
-   "con": "economia",
-   "como": "El sistema logístico Chancay–Callao (ECP-13) y la agroexportación dependen de accesos viales, puertos y costo logístico (TRA-18, TRA-24)."
-  },
-  {
-   "con": "energia",
-   "como": "La electrificación del transporte público (ENE-18) y la red eléctrica son la base de la renovación de flota (TRA-11); el transporte genera cerca del 40 % de las emisiones de GEI ligadas a la energía (MINAM, INGEI 2019, citado en estudios académicos; por verificar)."
-  },
-  {
-   "con": "ambiente",
-   "como": "La navegabilidad amazónica (TRA-19) y las carreteras en la selva requieren evaluación ambiental y consulta previa para no abrir frentes de deforestación; las vías resilientes reducen el daño de huaicos y El Niño."
-  },
-  {
-   "con": "salud",
-   "como": "Los siniestros de tránsito saturan las emergencias; los caminos vecinales transitables (TRA-02) y los vuelos subsidiados (TRA-20) reducen el tiempo de acceso a postas y evacuaciones médicas."
-  },
-  {
-   "con": "educacion",
-   "como": "Caminos vecinales mantenidos y zonas escolares a 30 km/h (TRA-06) reducen la inasistencia y protegen a los niños en el trayecto."
-  },
-  {
-   "con": "digital",
-   "como": "El catastro digital, los datos abiertos de transporte y el pasaje único (DIG-22) sostienen TRA-04 y TRA-10."
-  },
-  {
-   "con": "seguridad",
-   "como": "La extorsión a transportistas es un riesgo para la reforma de rutas (TRA-10); los contratos con flota propia y pago electrónico reducen el efectivo que alimenta el cobro de cupos."
-  }
- ],
- "conexion_tech": [
-  "GOB-20",
-  "GOB-11",
-  "TAL-11",
-  "GOB-07",
-  "GOB-21",
-  "TAL-10",
-  "CON-14",
-  "IA-15"
- ],
- "plan2050": [
-  "transportes",
-  "infraestructura-y-construccion",
-  "ciudades-inteligentes",
-  "desarrollo-urbano",
-  "maritimo-fluvial-y-lacustre",
-  "aeronautica",
-  "competitividad",
-  "promocion-de-la-inversion"
- ],
- "fuentes": [
-  {
-   "titulo": "MTC – Provías Nacional, Ficha de implementación AEI.01.01 (II semestre 2024)",
-   "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
-  },
-  {
-   "titulo": "BID – Pequeñas vías, grandes impactos: programas de caminos vecinales en Perú",
-   "url": "https://blogs.iadb.org/transporte/es/pequenas-vias-grandes-impactos"
-  },
-  {
-   "titulo": "GRADE – Factores condicionantes y heterogeneidad de impactos de las mejoras en caminos rurales",
-   "url": "https://www.grade.org.pe/proyectos/464-factores-condicionantes-y-heterogeneidad-de-los-impactos-de-las-mejoras-en-los-caminos-rurales-peru"
-  },
-  {
-   "titulo": "CIES (Valdivia) – Concesionando el camino hacia el desarrollo: impactos del Programa de Caminos Rurales",
-   "url": "https://cies.org.pe/wp-content/uploads/2016/07/concesionando-el-camino-hacia-el-desarrollo-impactos-iniciales-del-programa-de-caminos-rurales.pdf"
-  },
-  {
-   "titulo": "El Búho / PerúCheck – ¿El Perú tiene el 60 % de carreteras sin pavimentar? (datos SINAC-MTC, jun-2025)",
-   "url": "https://elbuho.pe/?p=430764"
-  },
-  {
-   "titulo": "Congreso – Estadísticas de transportes 2024 (DGP)",
-   "url": "https://www.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-24/estadisticas-de-transportes-2024.pdf"
-  },
-  {
-   "titulo": "Ley 31938 (declarativa de varias vías, nov-2023)",
-   "url": "https://img.lpderecho.pe/wp-content/uploads/2023/11/Ley-31938-LPDerecho.pdf"
-  },
-  {
-   "titulo": "Gestión – Declaran de necesidad pública la construcción de 13 vías del país",
-   "url": "https://gestion.pe/peru/declaran-de-necesidad-publica-la-construccion-y-otras-acciones-a-13-vias-del-pais-cuales-son-mtc-noticia/"
-  },
-  {
-   "titulo": "Caretas / PerúCheck – ¿Mueren 4 000 personas al año en accidentes de tránsito? (cifras ONSV-MTC)",
-   "url": "https://caretas.pe/?p=801787"
-  },
-  {
-   "titulo": "OMS – Global status report on road safety 2023",
-   "url": "https://www.who.int/publications/i/item/9789240086517"
-  },
-  {
-   "titulo": "ITF/OCDE – Zero Road Deaths and Serious Injuries: Leading a Paradigm Shift to a Safe System",
-   "url": "https://www.itf-oecd.org/zero-road-deaths-and-serious-injuries"
-  },
-  {
-   "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
-   "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
-  },
-  {
-   "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
-   "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
-  },
-  {
-   "titulo": "MTC – Exposición ante la Comisión de Transportes (01-abr-2024): flota con 14 años promedio",
-   "url": "https://www.congreso.gob.pe/Docs/comisiones2023/Transportes/files/presentaciones/so-13-exposici%C3%93n-03-mtc-01-04-2024.pdf"
-  },
-  {
-   "titulo": "Gestión / IPE – Récord de venta de vehículos nuevos contrasta con envejecimiento del parque",
-   "url": "https://gestion.pe/economia/record-de-venta-de-vehiculos-nuevos-contrasta-con-envejecimiento-del-parque-automotor-segun-analiza-ipe-noticia/"
-  },
-  {
-   "titulo": "Andina – Taxis colectivos: alcances de la Ley 31096",
-   "url": "https://andina.pe/agencia/noticia-taxis-colectivos-los-alcances-de-ley-publicada-por-congreso-827611.aspx"
-  },
-  {
-   "titulo": "Expreso – Culminación de la Línea 2 se postergaría hasta agosto de 2029 (estimación Ositrán)",
-   "url": "https://www.expreso.com.pe/actualidad/obras-de-estacion-central-tienen-un-avance-del-39-culminacion-de-linea-2-del-metro-de-lima-se-postergaria-hasta-agosto-de-2029-mtc-noicia/1170612/"
-  },
-  {
-   "titulo": "Energiminas – Línea 2: etapas 1B y 2 superan el 90 % de avance (ago-2026)",
-   "url": "https://energiminas.com/2026/08/11/linea-2-del-metro-etapas-1b-y-2-superan-el-90-de-avance-en-su-construccion/"
-  },
-  {
-   "titulo": "Expreso – Contraloría advierte riesgo de sobrecostos en Línea 2 por retraso en entrega de áreas",
-   "url": "https://www.expreso.com.pe/economia/linea-2-del-metro-contraloria-advierte-riesgo-de-sobrecostos-en-la-ejecucion-de-obras-ante-el-retraso-del-mtc-en-la-entrega-de-las-areas-de-concesion-universidad-nacional-mayor-de-san-marcos-noticia/1131856/"
-  },
-  {
-   "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
-   "url": "https://busquedas.elperuano.pe/"
-  },
-  {
-   "titulo": "Expreso – Ositrán autoriza ampliación de la Línea 1 hasta un millón de pasajeros diarios",
-   "url": "https://www.expreso.com.pe/actualidad/ositran-autoriza-ampliacion-de-la-linea-1-del-metro-de-lima-para-transportar-hasta-un-millon-de-pasajeros-diarios-ministerio-de-economia-y-finanzas-noticia/1226381/"
-  },
-  {
-   "titulo": "MTC – Exposición ante la Comisión de Defensa del Consumidor (21-oct-2025), Línea 1",
-   "url": "https://www.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
-  },
-  {
-   "titulo": "Gestión – Tren Lima–Chosica: cuándo operaría con pasajeros y en qué horarios",
-   "url": "https://gestion.pe/peru/tren-lima-chosica-cuando-operaria-con-pasajeros-y-en-que-horarios-noticia/"
-  },
-  {
-   "titulo": "El Tiempo – A más de cuatro meses de su llegada, el tren Lima–Chosica aún no funciona",
-   "url": "https://eltiempo.pe/nacional/a-mas-de-cuatro-meses-de-su-llegada-el-tren-lima-chosica-aun-no-entra-en-funcionamiento/"
-  },
-  {
-   "titulo": "Energiminas – ProInversión promueve cartera ferroviaria (Lima–Ica US$ 6 542 M; Lima–Barranca US$ 4 393 M)",
-   "url": "https://energiminas.com/?p=42636"
-  },
-  {
-   "titulo": "RM 368-2026-MTC/01.02 – Plan Maestro de Desarrollo Ferroviario al 2050",
-   "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/rm_368-2026-mtc-01.02.pdf"
-  },
-  {
-   "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
-   "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
-  },
-  {
-   "titulo": "MundoMarítimo – Puerto de Chancay cierra su primer año con 286 255 TEU",
-   "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
-  },
-  {
-   "titulo": "gob.pe – Hidrovía Amazónica (concesión caducada, 15-oct-2024)",
-   "url": "https://www.gob.pe/102823-acceder-a-informacion-sobre-la-hidrovia-amazonica-concesion-caducada"
-  },
-  {
-   "titulo": "Mongabay – Hidrovía Amazónica y consulta previa a pueblos indígenas",
-   "url": "https://es.mongabay.com/2021/01/hidrovia-amazonia-peru-consulta-previa-pueblos-indigenas/"
-  },
-  {
-   "titulo": "Andina – Adendas para mejorar 17 aeropuertos regionales por US$ 4 800 millones",
-   "url": "https://andina.pe/agencia/noticia-gobierno-impulsa-adendas-para-mejorar-17-aeropuertos-regionales-4800-millones-1027790.aspx"
-  },
-  {
-   "titulo": "Energiminas – ProInversión incorporará el Tercer Grupo de Aeropuertos (ene-2026)",
-   "url": "https://energiminas.com/2026/01/16/proinversion-incorporara-al-proceso-de-promocion-al-tercer-grupo-de-aeropuertos-en-el-primer-trimestre-del-ano/"
-  },
-  {
-   "titulo": "Bloomberg Línea – Inauguración del nuevo aeropuerto Jorge Chávez",
-   "url": "https://www.bloomberglinea.com/latinoamerica/peru/inauguracion-del-aeropuerto-jorge-chavez-ubicacion-vuelos-y-lo-que-debe-saber/"
-  },
-  {
-   "titulo": "Cuatrecasas – Nueva regulación para la promoción de la inversión privada (Ley 32441)",
-   "url": "https://www.cuatrecasas.com/es/latam/publico/art/nueva-regulacion-promocion-inversion-privada"
-  },
-  {
-   "titulo": "ProActivo – Entidades públicas adjudican en 2025 récord de 284 proyectos vía Obras por Impuestos",
-   "url": "https://proactivo.com.pe/proinversion-entidades-publicas-adjudican-en-2025-record-de-284-proyectos-via-obras-por-impuestos/"
-  },
-  {
-   "titulo": "Andina – Obras por Impuestos: 147 proyectos por S/ 1 725 millones (ene–jul 2025)",
-   "url": "https://andina.pe/agencia/noticia-obras-impuestos-adjudican-147-proyectos-s-1725-millones-enerojulio-del-2025-1040590.aspx"
-  },
-  {
-   "titulo": "Banco Mundial – Análisis de la logística en el Perú (costos logísticos por cadena)",
-   "url": "https://documents1.worldbank.org/curated/en/555181547057977330/pdf/133561-WP-P145783-Analisis-dela-Logistica-Peru.pdf"
-  },
-  {
-   "titulo": "CIEN-ADEX – Policy Brief 3: Aportes para la logística (LPI 2023)",
-   "url": "https://cien.adexperu.org.pe/wp-content/uploads/2025/02/Policy-Brief-3-Aportes-Logistica.pdf"
-  },
-  {
-   "titulo": "MEF – Plan Nacional de Infraestructura Sostenible para la Competitividad 2022-2025 (DS 242-2022-EF)",
-   "url": "https://www.mef.gob.pe/es/inversion-privada-sp-21801/6082-plan-nacional-de-infraestructura-sostenible-para-la-competitividad-2022-2025"
-  }
- ]
+  ]
 }

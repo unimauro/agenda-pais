@@ -1,0 +1,1419 @@
+[
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "veredicto": "observaciones",
+  "resumen": "Base legal correcta (DL 1077 y Ley 29337) y advierte bien el art. 79. Falta blindar la autonomía presupuestal de GORE y GL sobre los fondos PROCOMPITE.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Los fondos PROCOMPITE son recursos de inversión de los propios gobiernos regionales y locales (Ley 29337). Una ley nacional no puede canalizarlos obligatoriamente a una ventanilla del MIDAGRI sin chocar con la autonomía económica y administrativa de los arts. 191 y 194 de la Constitución y con la LOGR y la LOM, que son leyes orgánicas.",
+    "correccion": "Agregar al 'que': 'La adhesión de GORE y GL a la ventanilla única es voluntaria y por convenio; la ley no transfiere ni afecta la titularidad de sus fondos PROCOMPITE, que siguen aprobándose por sus propios órganos.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "La acción no deroga normas sin reemplazo: fusiona dos instrumentos y sustituye su procedimiento. El tipo 'derogacion' induce a pensar que se suprime el cofinanciamiento.",
+    "correccion": "Cambiar tipo a 'ley' y dejar las derogaciones en 'deroga_o_simplifica'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "veredicto": "conforme",
+  "resumen": "Distingue bien lo que hacen FONAFE y el directorio de lo que exige modificar la Ley 29064, y advierte el art. 79 para aportes de capital.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AGU-05",
+  "archivo": "data/sectores/agua.json",
+  "veredicto": "observaciones",
+  "resumen": "Es correcto que no requiere ley, pero la cita de la LOPE es imprecisa: el art. 28 regula organismos públicos; los programas se rigen por el art. 38.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El art. 28 de la Ley 29158 trata de los organismos públicos. Los programas y proyectos especiales se crean por decreto supremo con voto del Consejo de Ministros conforme al art. 38 de la misma ley. PNSU, PNSR y Agua Segura son programas, no organismos.",
+    "correccion": "Reemplazar '(Ley 29158, art. 28, y Ley 27658)' por '(Ley 29158, art. 38, y Ley 27658, art. 13)'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AGU-06",
+  "archivo": "data/sectores/agua.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien identificada la reserva de ley y el riesgo del art. 79. Hay que precisar qué se modifica: el DL 1280, no su TUO, y cuidar las competencias municipales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "deroga_o_simplifica",
+    "problema": "Un TUO aprobado por decreto supremo solo compila; la ley modifica el DL 1280 y luego se actualiza el TUO (DS 001-2025-VIVIENDA). Dice 'Modificar el TUO del DL 1280' en 'que' y en 'deroga_o_simplifica'.",
+    "correccion": "Cambiar a 'Decreto Legislativo 1280, Ley del Servicio Universal de Agua Potable y Saneamiento (TUO aprobado por DS 001-2025-VIVIENDA)' y en 'que' escribir 'Modificar el DL 1280 (y actualizar su TUO)'.",
+    "fuente": "https://lpderecho.pe/texto-unico-ordenado-ley-servicio-universal-agua-potable-saneamiento-decreto-supremo-001-2025-vivienda/"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La integración obligatoria de EPS y el concurso para directorios inciden en la competencia municipal sobre saneamiento (art. 195.8 de la Constitución) y en la LOM, que es ley orgánica. Si la ley altera competencias municipales, necesita votación de ley orgánica (art. 106).",
+    "correccion": "Agregar en 'por_que_ley': 'Si modifica competencias municipales de la Ley 27972, esa parte requiere votación de ley orgánica (art. 106); si no, debe limitarse a reglas de gobierno corporativo sin quitar competencias.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Los 'incentivos de inversión' no tienen fuente ni monto y dependen del programa único de AGU-05, que aún no existe.",
+    "correccion": "Escribir: 'Incentivos financiados dentro del techo del programa único de AGU-05, aprobados en la Ley anual de Presupuesto; no estimado.' y añadir AGU-05 en depende_de.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AGU-16",
+  "archivo": "data/sectores/agua.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que respete el art. 79 y verifique que la Ley 32743 no incluye esta materia. Pero exagera lo que requiere ley y omite la consulta previa.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "Revisar derechos de uso y fijar reservas en cuencas donde hay comunidades campesinas y nativas afecta derechos colectivos (la Ley 29338 reconoce el uso del agua de las comunidades). Una ley así es una medida legislativa que puede afectarlas directamente y debe pasar por consulta previa (Convenio 169 de la OIT y Ley 29785, art. 2).",
+    "correccion": "Agregar: 'Las disposiciones sobre revisión de derechos y reservas que afecten a comunidades campesinas y nativas se someten a consulta previa (Ley 29785) antes de votarse.' y agregar MINCUL como entidad consultiva.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La Ley 29338 ya permite reservar recursos hídricos (art. 103) y prevé la extinción de derechos por caducidad cuando no se usan. Reservar caudales y revisar derechos no usados se puede hacer por resolución de la ANA y decreto supremo. Lo que sí necesita ley es cambiar los criterios de las retribuciones.",
+    "correccion": "Cambiar necesita_ley a 'parcial' y reescribir: 'Requiere ley solo cambiar los criterios de las retribuciones económicas (arts. 90-94 de la Ley 29338). Las reservas para consumo humano y la revisión de derechos no usados pueden ir ya por resolución de la ANA y DS.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AGU-18",
+  "archivo": "data/sectores/agua.json",
+  "veredicto": "conforme",
+  "resumen": "Bien dicho que el núcleo va por reglamento y que la Ley 32743 no lo cubre.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-03",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que advierta consulta previa y no gasto. Pero la técnica de 'derogar artículos de la Ley 31973' no reviviría el texto anterior.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 31973 es una ley modificatoria: su contenido ya se incorporó a la Ley 29763. Derogarla no hace volver los textos anteriores (art. I del Título Preliminar del Código Civil: la derogación no hace recobrar vigencia a lo derogado). La medida quedaría sin efecto.",
+    "correccion": "Reescribir: 'Se modifican los artículos de la Ley 29763 que cambió la Ley 31973 (y se derogan sus disposiciones complementarias), restableciendo expresamente la clasificación por capacidad de uso mayor y la zonificación forestal para titular predios con bosque, con la regla de fecha de corte...'. En deroga_o_simplifica, citar la Ley 29763 en los artículos modificados.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La frase 'debe pasar por consulta previa si afecta a pueblos indígenas' es condicional, pero titular o regularizar en zonas de bosque amazónico afecta casi siempre territorios de comunidades nativas.",
+    "correccion": "Escribir: 'Debe pasar por consulta previa (Ley 29785) porque incide en territorios de comunidades nativas.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-05",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "conforme",
+  "resumen": "Bien: las sanciones nuevas a compradores y exportadores requieren ley (legalidad sancionadora). Fuente de financiamiento identificada.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-12",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "El 'subsidio cruzado para hogares pobres' en arbitrios choca con la jurisprudencia del TC sobre reparto del costo. Además falta salvar la autonomía tributaria municipal y las reglas del recibo eléctrico.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Los arbitrios son tasas y su costo se reparte según el servicio. El TC (STC 0041-2004-AI/TC y 0053-2004-PI/TC) solo admite la capacidad contributiva como criterio secundario, y las exoneraciones o rebajas las asume la municipalidad: no se trasladan a otros vecinos. Un subsidio cruzado que cargue a otros contribuyentes lo que dejan de pagar los pobres sería inconstitucional.",
+    "correccion": "Reemplazar 'con subsidio cruzado para hogares pobres' por 'con rebajas para hogares pobres asumidas por la municipalidad con recursos propios o del Programa de Incentivos, sin trasladar su costo a otros contribuyentes (STC 0053-2004-PI/TC)'.",
+    "fuente": "https://lpderecho.pe/principios-constitucionales-desarrollados-jurisprudencia-capacidad-contributiva-base-cantidad-individual-exp-0053-2004-pi-tc/"
+   },
+   {
+    "severidad": "media",
+    "campo": "responsable",
+    "problema": "Los arbitrios se crean por ordenanza (arts. 74 y 195.4 de la Constitución). El MEF no es rector de su cuantía: solo la ley puede fijar criterios generales. Además, incluir cobros de terceros en el recibo eléctrico o de agua requiere modificar las normas de esos servicios (Ley de Concesiones Eléctricas y reglas de SUNASS), no solo la Ley de Tributación Municipal.",
+    "correccion": "En por_que_ley escribir: 'Requiere modificar el TUO de la Ley de Tributación Municipal (DS 156-2004-EF, art. 69) para la metodología general, y las normas sectoriales del recibo (Ley de Concesiones Eléctricas; regulación de SUNASS) para el cobro conjunto, que será voluntario por convenio. Las municipalidades conservan la aprobación por ordenanza.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-17",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Define la titularidad de créditos de carbono en tierras de comunidades nativas y campesinas y no prevé consulta previa.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "Fijar por ley la titularidad y el reparto de beneficios de reducciones de emisiones en tierras de comunidades nativas y campesinas afecta directamente derechos colectivos. Es una medida legislativa sujeta a consulta previa (Convenio 169, art. 6; Ley 29785, art. 2), y la acción no la menciona.",
+    "correccion": "Agregar: 'El proyecto se somete a consulta previa con los pueblos indígenas (Ley 29785) antes de su aprobación; el MINCUL conduce el proceso.' y cambiar el rol de MINCUL a 'ejecutora'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Asignar un porcentaje al Estado en ANP debe respetar que los recursos naturales son patrimonio de la Nación (art. 66) y la Ley 26821. Conviene precisarlo para no sugerir que se crea un tributo.",
+    "correccion": "Precisar: 'el porcentaje para el Estado en ANP es una retribución por aprovechamiento de recursos naturales (Ley 26821) y se destina al SERNANP, no un tributo'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-18",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "conforme",
+  "resumen": "La Ley 32743 existe (publicada el 22-oct-2026, 90 días, seguridad ciudadana y El Niño). Bien que exija mantener las obligaciones ambientales y de consulta previa en los decretos legislativos.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-21",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien advertido que la fusión de organismos y el gasto son de iniciativa del Ejecutivo. Falta advertir el impacto en competencias de GORE y GL y el 'presupuesto mínimo'.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Exigir a los gobiernos locales oficinas con personal mínimo certificado y fijar un 'presupuesto mínimo de prevención' impone gasto a GORE y GL y un piso de gasto público. Si se hace por ley congresal choca con el art. 79. Si modifica funciones de la LOGR o la LOM, requiere votación de ley orgánica (art. 106).",
+    "correccion": "Agregar en por_que_ley: 'El presupuesto mínimo se fija en la Ley anual de Presupuesto, no en la ley del SINAGERD. Las obligaciones a GORE y GL se financian con transferencias del PP 0068 y, si alteran funciones de las leyes orgánicas de gobiernos regionales o municipalidades, esa parte se vota como ley orgánica.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "AMB-26",
+  "archivo": "data/sectores/ambiente.json",
+  "veredicto": "observaciones",
+  "resumen": "Ley justificada para garantías financieras. Pero la responsabilidad objetiva ya existe, y falta prever el pasivo contingente de Petroperú.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La responsabilidad objetiva por daño ambiental en actividades riesgosas ya está en el art. 144 de la Ley 28611 (Ley General del Ambiente). Presentarla como novedad es incorrecto. Lo nuevo es la garantía financiera obligatoria y su ejecución.",
+    "correccion": "Reescribir: 'La responsabilidad objetiva ya existe (Ley 28611, art. 144); la ley crea garantías financieras obligatorias con montos mínimos y su ejecución, lo que limita la libertad de empresa y requiere ley.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Dice 'No requiere gasto público', pero Petroperú es empresa del Estado: su garantía o seguro es un costo y un pasivo contingente para el Tesoro si la empresa no puede pagarlo.",
+    "correccion": "Escribir: 'Sin gasto del Tesoro para privados; para Petroperú es un costo que se cubre con su presupuesto FONAFE y puede volverse pasivo contingente del Estado.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-01",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Buena justificación de reserva de ley y del art. 79. Pero el registro de biobancos y la ANPD reforzada tienen costo anual sin fuente que no exija recursos nuevos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El costo referencial suma S/ 1,8–4,4 millones al año en funciones nuevas (ANPD, biobancos en el INS, desindexación). Si la ley es de iniciativa congresal, esas funciones nuevas son gasto que el art. 79 prohíbe crear. Decir 'meta presupuestal diferenciada' no basta.",
+    "correccion": "Agregar: 'La ley incluye la cláusula de que se financia con cargo al presupuesto institucional de MINJUSDH, INS e INEI sin demandar recursos adicionales al Tesoro; cualquier ampliación va en la Ley anual de Presupuesto a propuesta del Ejecutivo.' O indicar que el proyecto lo presenta el Ejecutivo.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-02",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien advertida la votación de ley orgánica para ONPE, JNE y RENIEC. Falta proteger la autonomía de los órganos electorales y corregir la fuente de financiamiento.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Las 'auditorías públicas de los sistemas electorales' no pueden quedar bajo una autoridad de la PCM: JNE, ONPE y RENIEC tienen autonomía constitucional (arts. 177 y 178). Si el Ejecutivo supervisara o sancionara sistemas electorales, se vulneraría esa autonomía.",
+    "correccion": "Reescribir: 'la ley ordena que ONPE, JNE y RENIEC contraten auditorías independientes de sus sistemas, con informes públicos; la PCM-CNSD solo presta apoyo técnico a pedido, sin potestad sancionadora sobre ellos.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "SUSALUD no cobra aporte por regulación: ese aporte está previsto en la Ley 27332 solo para OSIPTEL, OSINERGMIN, OSITRAN y SUNASS. Además, usar ese aporte para ciberseguridad requiere que la ley lo autorice. Y los S/ 5–10 millones al año de la autoridad y la supervisión, si la ley es congresal, chocan con el art. 79.",
+    "correccion": "Quitar SUSALUD de la lista de aportes por regulación (financiarlo con su presupuesto institucional), agregar 'la ley habilita expresamente el uso del aporte por regulación (Ley 27332) para supervisar ciberseguridad' e indicar que el proyecto lo presenta el Ejecutivo o lleva la cláusula 'sin demandar recursos adicionales al Tesoro'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-03",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley bien identificada. Falta consulta previa para la concesión comunitaria y decir que los ductos subnacionales tienen costo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Crear un régimen especial de 'concesión comunitaria para comunidades campesinas y nativas' afecta directamente a pueblos indígenas en la forma de acceder al espectro y a los servicios. Es una medida legislativa sujeta a consulta previa (Ley 29785, art. 2).",
+    "correccion": "Agregar: 'El capítulo de concesión comunitaria se somete a consulta previa antes de aprobarse (Ley 29785).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Obligar a dejar ductos en obras viales y de saneamiento de GORE y GL encarece sus proyectos sin fuente. Se impone gasto a otros niveles de gobierno.",
+    "correccion": "Agregar: 'El mayor costo de ductos en obras subnacionales se reconoce como componente elegible en Invierte.pe y se recupera con el alquiler a operadores (Ley 29904).'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-04",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien advertida la naturaleza orgánica de la LOPE y de la ley del RENIEC. Pero extiende obligaciones al Poder Judicial y a la Fiscalía sin advertir sus leyes orgánicas, y el costo exige iniciativa del Ejecutivo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Registrar algoritmos y exigir revisión humana 'también en el Poder Judicial y la Fiscalía' toca su organización (TUO de la Ley Orgánica del Poder Judicial y DL 052, Ley Orgánica del Ministerio Público), ambas leyes orgánicas y protegidas por autonomía (arts. 138, 143 y 158).",
+    "correccion": "Agregar en por_que_ley: 'Las obligaciones al Poder Judicial y al Ministerio Público se aprueban como modificación de sus leyes orgánicas (art. 106) o se formulan como regla que cada órgano autónomo desarrolla en su propio reglamento.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El costo referencial suma S/ 18–49 millones en inversiones (billetera, firma remota, audiencias, adhesión). Si la ley es de iniciativa congresal, crea gasto (art. 79).",
+    "correccion": "Indicar: 'Proyecto de iniciativa del Poder Ejecutivo; las inversiones se programan por Invierte.pe y la Ley anual de Presupuesto.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-05",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Identifica bien la reserva de ley (secreto bancario, Ley 26702 orgánica, régimen concursal, Código de Consumo) y lo que va por BCRP y OSIPTEL. Financiamiento sin Tesoro, coherente.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-06",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Extiende un beneficio tributario (deducción de I+D) sin los requisitos de la Norma VII del Código Tributario.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Extender el incentivo de I+D de la Ley 30309 y permitir arrastrarlo es un beneficio tributario. La Norma VII del Título Preliminar del Código Tributario exige que la ley diga su objetivo, sus beneficiarios y su plazo (máximo 3 años), y que vaya con cuantificación del costo fiscal e informe previo del MEF. Una prórroga sin evaluación se prohíbe. La acción no lo dice.",
+    "correccion": "Agregar: 'El arrastre del incentivo I+D cumple la Norma VII del Código Tributario: objetivo (aumentar la I+D de empresas en etapa temprana), beneficiarios (empresas con proyectos calificados por CONCYTEC), plazo máximo de 3 años, costo estimado S/ 0,5–3 millones/año e informe previo del MEF; su prórroga exige evaluación del MEF.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Incluye la reforma del FCEI (DU 013-2020) dentro de una ley congresal. Cualquier aporte público adicional a COFIDE es gasto; ya se reconoce en financiamiento, pero no en el texto.",
+    "correccion": "Agregar al 'que': 'sin aportes nuevos del Tesoro al FCEI; los aportes se aprueban solo en la Ley anual de Presupuesto'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-07",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien fundada en los arts. 72 y 63. Falta consulta previa para la información digital de secuencias y advertir los tratados de inversión.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las reglas sobre información digital de secuencias y reparto de beneficios inciden en los conocimientos colectivos de pueblos indígenas protegidos por la Ley 27811. Es una medida legislativa sujeta a consulta previa (Ley 29785).",
+    "correccion": "Agregar: 'El capítulo de recursos genéticos e información digital de secuencias se consulta con los pueblos indígenas (Ley 29785) y se coordina con el régimen de la Ley 27811.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "Revisar adquisiciones de control por inversionistas extranjeros puede chocar con el trato nacional pactado en tratados de libre comercio y convenios de inversión, que obligan al Estado (art. 55) y dan lugar a arbitraje internacional.",
+    "correccion": "Agregar a 'riesgo': 'Arbitrajes de inversión si el procedimiento no encaja en las excepciones de seguridad esencial de los tratados vigentes; la ley debe remitir a esas excepciones.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-08",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien justificada la ley penal. Falta advertir que la parte electoral modifica la Ley Orgánica de Elecciones y evitar retiros que sean censura previa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Las infracciones por deepfakes de candidatos y el retiro ante el JNE modifican la Ley 26859, Ley Orgánica de Elecciones. Esa parte requiere votación de ley orgánica (art. 106) y la acción no lo dice.",
+    "correccion": "Agregar: 'La parte electoral modifica la Ley 26859 (ley orgánica) y se aprueba con votación calificada (art. 106).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El art. 2.4 de la Constitución prohíbe la censura previa. El 'retiro célere' y el deber de diligencia de plataformas deben ser posteriores a la publicación, con decisión motivada y recurso, para no ser inconstitucionales.",
+    "correccion": "Agregar: 'el retiro procede solo después de publicado, por decisión motivada del JNE o del juez, con plazo para defenderse y apelar'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-09",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley justificada (derechos laborales oponibles, retención de aportes, infracciones de la Ley 28806); no crea tributo ni gasto del Tesoro.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-10",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien fundada en el art. 74. Pero la presunción temporal de exportación con devolución rápida es un beneficio tributario sin los requisitos de la Norma VII, y falta estimar el efecto de eliminar el RER en la recaudación.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Presumir que los servicios digitales a no domiciliados son exportación (sin probarlo) y devolver en 15 días a un grupo de contribuyentes es un beneficio tributario. Debe cumplir la Norma VII del Código Tributario: objetivo, beneficiarios, plazo ≤ 3 años, costo e informe del MEF.",
+    "correccion": "Agregar: 'La presunción de exportación rige como máximo 3 años, para MIPYME con perfil de bajo riesgo de la SUNAT, con objetivo y costo cuantificado en la exposición de motivos e informe previo del MEF (Norma VII del Código Tributario).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "costo_referencial",
+    "problema": "No se estima el efecto de integrar el RER en el Régimen MYPE Tributario sobre la recaudación, que es el impacto fiscal principal de la acción.",
+    "correccion": "Agregar: 'Efecto recaudatorio de integrar el RER: no estimado; la SUNAT lo cuantifica antes de presentar el proyecto.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-11",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Separa bien lo ejecutivo de lo que necesita ley; financiamiento por pliegos y Programa de Incentivos.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-12",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Delimita bien qué va por reglamento de la Ley 32069 y qué requiere modificarla.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-13",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "La tipificación de reidentificación requiere ley; el resto es reglamentario. Correcto.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-14",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto que la organización del Congreso va por su Reglamento (art. 94), con fuerza de ley y aprobado por resolución legislativa.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-15",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Casi todo es ejecutivo; la ley solo se usa para la convalidación y las consecuencias de becas.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-16",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "La vía ejecutiva es correcta, pero los bonos (componente central) no tienen costo ni fuente asegurada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "costo_referencial",
+    "problema": "Las subvenciones a privados requieren autorización expresa en la Ley anual de Presupuesto. Sin monto, la acción no puede programarse.",
+    "correccion": "Agregar un rango: 'Bonos: monto anual por definir en la Ley de Presupuesto según metas de cobertura (por ejemplo N empresas × bono promedio), no estimado.' y dejar claro que sin esa autorización no hay bonos.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-18",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Bien advertida la consulta previa para los corpus indígenas y la vía Invierte.pe.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-19",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Bien: va por reglamento de la Ley 30024; solo las infracciones nuevas necesitan ley. Costo grande pero identificado y por Invierte.pe.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-20",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "La vía reglamentaria es correcta y el financiamiento por el PP 0068 es coherente.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-21",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Bien que la telemetría obligatoria requiera modificar la Ley 29338; el resto es reglamentario.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-22",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "conforme",
+  "resumen": "Bien que los cambios al recaudo requieran modificar la Ley 30900. Falta costo, pero no es grave.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "DIG-23",
+  "archivo": "data/sectores/digital.json",
+  "veredicto": "observaciones",
+  "resumen": "La vía es correcta. Pero el registro de centros de datos se asigna al MTC y la restricción por cuencas tiene que pasar por la ANA.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las restricciones de uso de agua en cuencas agotadas corresponden a la ANA (Ley 29338), no a un registro del MTC. Si el registro sirve para negar o condicionar instalaciones, la autoridad que restringe debe ser la que tiene la competencia legal.",
+    "correccion": "Reescribir: 'el MTC (o el MINEM) lleva el registro informativo; las restricciones por agua las impone la ANA al otorgar derechos de uso en cuencas declaradas agotadas'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "La regla propuesta (hasta 6 años sin evaluación) es más laxa que la Norma VII vigente, que ya limita las exoneraciones a 3 años y exige evaluación para prorrogarlas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "La Norma VII del Título Preliminar del Código Tributario (modificada por el DL 1521) ya fija plazo máximo de 3 años, una sola prórroga de hasta 3 años con evaluación previa, y prohíbe la prórroga tácita. Permitir que un beneficio 'dure hasta 6 años sin evaluación' debilita la regla actual en vez de reforzarla.",
+    "correccion": "Reescribir: 'Una ley corta refuerza la Norma VII: la evaluación ex post que ya exige para prorrogar se publica y la revisa el Consejo Fiscal; las leyes que crean o prorrogan beneficios sin informe previo del MEF ni metas son observadas; y el beneficio caduca solo si no hay evaluación favorable publicada antes del vencimiento.' Eliminar el plazo de 6 años.",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-la-norma-vii-del-titulo-pre-decreto-legislativo-n-1521-2032894-1/"
+   },
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "Una ley ordinaria no impide que otra ley posterior y especial la deje de lado. Por eso la Norma VII se incumple seguido. La acción presenta la regla como si fuera vinculante para el Congreso futuro.",
+    "correccion": "Agregar a 'riesgo': 'Una ley general no obliga a leyes posteriores; la regla solo es exigible si el Reglamento del Congreso exige el informe del MEF y del Consejo Fiscal para admitir a debate proyectos con beneficios tributarios.' y vincularla a una modificación del Reglamento.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-08",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "conforme",
+  "resumen": "La Ley 32434 existe y fija 15 % de IR entre 2026 y 2035. Distingue bien entre evaluación (ejecutiva) y cambios (ley), y marca el costo fiscal como pendiente de confirmar con el MEF.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que prefiera la iniciativa del Ejecutivo. Falta advertir la votación de dos tercios para trato tributario zonal y los convenios de estabilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Convertir las zonas viables en ZEE con beneficios tributarios es crear un tratamiento tributario especial para zonas determinadas. El art. 79 exige ley expresa aprobada por dos tercios del número legal. Además, los nuevos beneficios deben cumplir la Norma VII.",
+    "correccion": "Agregar: 'Los beneficios del régimen único de ZEE requieren ley aprobada por dos tercios (art. 79, tercer párrafo) y cumplir la Norma VII del Código Tributario (objetivo, beneficiarios, plazo, costo, informe del MEF).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Las empresas con convenios de estabilidad tributaria están protegidas por el art. 62 (contratos-ley), no solo por 'derechos adquiridos' en general.",
+    "correccion": "Precisar: 'se respetan los convenios de estabilidad suscritos (art. 62 de la Constitución) hasta su vencimiento'. Verificar con el texto oficial la fecha 2042 atribuida a la Ley 30446.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-16",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "conforme",
+  "resumen": "Lo tributario se remite a la ley correspondiente; el resto es ejecutivo. Observación relacionada en DIG-10 (Norma VII para la presunción de exportación).",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-23",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien advertidos el informe del MEF y la iniciativa del Ejecutivo. Falta prever cómo se protegen los derechos laborales y verificar la norma laboral MYPE que cita.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Reemplazar los umbrales del régimen laboral MYPE por una 'senda gradual de beneficios' puede reducir derechos ya reconocidos. Si se hace por decreto legislativo delegado, la delegación debe incluir esa materia expresamente (art. 104). Además, el régimen laboral MYPE suele citarse como TUO de la Ley de Impulso MYPE (DS 013-2013-PRODUCE); la cita a la 'Ley 32353' debe verificarse.",
+    "correccion": "Agregar: 'la senda no reduce derechos de trabajadores con contrato vigente (aplicación hacia adelante)' y confirmar la norma laboral MYPE vigente; si no corresponde, citar 'TUO de la Ley de Impulso al Desarrollo Productivo y al Crecimiento Empresarial (DS 013-2013-PRODUCE)'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-25",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que advierta el art. 79 y siga el precedente de San Martín (Ley 28575). Pero la cifra de gasto tributario se toma de prensa, y un fondo 'equivalente' fijado por ley es gasto rígido.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "costo_referencial",
+    "problema": "La cifra 'más de S/ 3 700 millones' se toma 'vía prensa'. La fuente primaria es el informe de gasto tributario anexo al Marco Macroeconómico Multianual del MEF.",
+    "correccion": "Reemplazar 'vía prensa' por la cita del anexo de gasto tributario del MMM 2027-2030 (MEF) con el monto exacto del IGV de la Ley 27037; si no se ubica, escribir 'no verificable'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Atar por ley una transferencia 'equivalente' al gasto tributario crea gasto público obligatorio y rígido, aunque sea por iniciativa del Ejecutivo. Debe tener plazo y metas para no volverse una transferencia perpetua.",
+    "correccion": "Agregar: 'la transferencia es decreciente, con plazo máximo de 10 años, condicionada a la ejecución de la cartera y aprobada cada año en la Ley de Presupuesto'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-26",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto: la tasa del drawback se fija por decreto supremo; no requiere ley. Ahorro fiscal citado con fuente.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ECP-27",
+  "archivo": "data/sectores/economia.json",
+  "veredicto": "conforme",
+  "resumen": "Vía reglamentaria correcta; lo que requiere modificar la Ley 28832 se remite a la Agenda Tech.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-06",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "conforme",
+  "resumen": "Bien que la vía principal sea la Ley 30512 y su reglamento, con ley de iniciativa del Ejecutivo solo si cambia la ley.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Omite que la Constitución ya obliga a invertir no menos de 6 % del PBI en educación (art. 16, reformado por la Ley 31097) y que la Ley 28044 ya fija la senda de 0,25 % por año.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Presenta el 6 % del PBI como una meta nueva 'compatible con las reglas fiscales'. Pero desde la Ley 31097 (2020) el art. 16 de la Constitución obliga a invertir cada año no menos de 6 % del PBI en educación, y la Ley General de Educación ya fija una senda de aumento. La acción debe partir de ese mandato incumplido, no inventar otra senda.",
+    "correccion": "Reescribir el punto (3): 'una senda verificable para cumplir el mandato del art. 16 de la Constitución (no menos de 6 % del PBI, Ley 31097) y la Ley 28044, con metas anuales publicadas por el MEF en el Marco Macroeconómico Multianual'.",
+    "fuente": "https://comunicaciones.congreso.gob.pe/damos-cuenta/aprobado-6-del-pbi-para-sector-educacion"
+   },
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Una ley ordinaria no puede obligar a las leyes anuales de presupuesto futuras (cada ley anual puede modificarla). La fórmula por estudiante puede aprobarse por decreto supremo como regla de asignación del MEF. Y lo que vincula de verdad ya está en la Constitución.",
+    "correccion": "Agregar: 'La fórmula de asignación por estudiante puede empezar por DS del MEF y MINEDU; la ley sirve para darle estabilidad y publicidad, sin poder obligar a futuras leyes de presupuesto más allá del mandato del art. 16.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-18",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "conforme",
+  "resumen": "Respeta la competencia regional sobre las UGEL y reserva la ley solo para un cambio nacional uniforme.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-20",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley correcta (Ley 30220 modificada por la Ley 31520); no crea gasto ni organismo; puede ser congresal.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-21",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "observaciones",
+  "resumen": "Crear una 'agencia técnica e independiente' que reemplaza al SINEACE es crear un organismo público. Debe decirse sin condicional que la iniciativa es del Ejecutivo, y las tasas requieren base legal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Dice 'si crea un organismo nuevo, debe ser iniciativa del Ejecutivo'. El 'que' sí crea una agencia que sustituye a la Ley 28740. Según la LOPE (Ley 29158), los organismos públicos se crean por ley a iniciativa del Poder Ejecutivo, y el gasto nuevo está vedado al Congreso (art. 79).",
+    "correccion": "Reemplazar por: 'Crea un organismo técnico especializado que sustituye al SINEACE; debe ser proyecto del Poder Ejecutivo (Ley 29158 y art. 79), con informe del MEF sobre el costo.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Las 'tasas de acreditación' son tributos (tasas): necesitan base legal y se cobran según su costo (art. 74).",
+    "correccion": "Agregar: 'tasas de acreditación creadas por la misma ley, calculadas según el costo del servicio'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EDU-27",
+  "archivo": "data/sectores/educacion.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley bien justificada. Pero la cuenta personal de aprendizaje es gasto sin fuente.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Si la cuenta de aprendizaje recibe aportes públicos, es gasto nuevo; en una ley congresal choca con el art. 79.",
+    "correccion": "Escribir: 'La cuenta de aprendizaje se crea solo con aportes voluntarios de trabajadores y empleadores; cualquier aporte público se aprueba en la Ley de Presupuesto a propuesta del Ejecutivo.' (coherente con DIG-09).",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "La Ley 26221 es la Ley Orgánica de Hidrocarburos y regula condiciones de aprovechamiento de recursos naturales (art. 66). Su modificación requiere votación de ley orgánica, y la acción no lo advierte. Tampoco aclara que los contratos vigentes son contratos-ley.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "Según el art. 66, las condiciones de uso y otorgamiento de recursos naturales se fijan por ley orgánica, y la Ley 26221 es orgánica. Su modificación requiere el voto de más de la mitad del número legal de miembros de cada cámara (art. 106). El texto solo dice 'requiere ley'.",
+    "correccion": "Reemplazar por: 'Modifica la Ley 26221, Ley Orgánica de Hidrocarburos: requiere votación de ley orgánica (arts. 66 y 106 de la Constitución). No crea gasto, pero cambia ingresos por regalías y el canon de las regiones, por lo que debe acompañarse de informe del MEF.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Los contratos de licencia vigentes y sus convenios de estabilidad son contratos-ley (art. 62): no pueden modificarse por ley. El nuevo régimen de regalías solo aplica a contratos nuevos o a renegociaciones voluntarias.",
+    "correccion": "Agregar: 'El régimen de regalías flexibles se aplica a contratos nuevos, prórrogas y renegociaciones acordadas; los contratos vigentes se respetan (art. 62).'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley y ausencia de gasto bien planteadas. Pero la apertura de capital ya tiene base legal previa y la 'regla de no rescate' no puede obligar a leyes futuras.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La posibilidad de inscribir en bolsa hasta 49 % del capital de Petroperú ya fue autorizada por la Ley 30130 (2013). Presentarla como novedad induce a error. Además, una ley no puede impedir que una ley posterior apruebe un rescate.",
+    "correccion": "Reescribir: 'Se reglamenta y ejecuta la apertura de capital ya autorizada por la Ley 30130 (hasta 49 %)...' y en riesgo agregar: 'la regla de no rescate es política, no blindada: cualquier ley posterior puede exceptuarla; por eso se exige informe del Consejo Fiscal publicado antes de votar'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-13",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "conforme",
+  "resumen": "Base legal correcta (DU 010-2004); el vale se ejecuta por vía FISE/MIDIS; ahorro fiscal con fuente. Eliminar la devolución del ISC al diésel requiere norma con rango de ley y está prevista.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-20",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "conforme",
+  "resumen": "Prudente y bien encuadrado. Evita anunciar beneficios tributarios o empresas estatales.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-23",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "conforme",
+  "resumen": "El FOSE es un subsidio cruzado entre usuarios creado por la Ley 27510, no gasto público; reordenarlo por ley no choca con el art. 79. Publicar los costos no requiere ley.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "ENE-24",
+  "archivo": "data/sectores/energia.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "El régimen único que se propone es un beneficio tributario con evaluación cada cinco años, que excede el plazo de la Norma VII. Además ya existe un régimen general de recuperación anticipada del IGV.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "La Norma VII del Código Tributario limita los beneficios a 3 años y exige evaluación para una sola prórroga de hasta 3 años. Un régimen con 'evaluación del MEF cada cinco años' no la cumple. Faltan además objetivo, beneficiarios y costo cuantificado.",
+    "correccion": "Reemplazar por: 'régimen con vigencia máxima de 3 años, prorrogable una vez previa evaluación publicada del MEF (Norma VII), con objetivo, beneficiarios y costo fiscal cuantificado en la exposición de motivos'.",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-la-norma-vii-del-titulo-pre-decreto-legislativo-n-1521-2032894-1/"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Ya existe un Régimen Especial de Recuperación Anticipada del IGV para la etapa preproductiva (DL 973). Crear uno nuevo duplica en vez de consolidar.",
+    "correccion": "Escribir: 'Las Leyes 27623 y 27624 se derogan y la exploración se integra al régimen de recuperación anticipada del DL 973, con sus requisitos de evaluación.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-02",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "Distingue con precisión lo que va por DS (Ley 27658, LOPE) y lo que requiere ley del Ejecutivo (crear o disolver organismos).",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-03",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien advertida la naturaleza orgánica de la LOPE. Falta reconocer que una regla general no obliga a leyes futuras.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Las leyes posteriores que creen organismos o programas pueden exceptuarse de la regla, porque una ley ordinaria u orgánica no limita al legislador futuro. Para que se cumpla debe estar también en el Reglamento del Congreso.",
+    "correccion": "Agregar a 'riesgo': 'Para que obligue al Congreso, el requisito de análisis ex ante y caducidad se incorpora también al Reglamento de cada cámara como condición de admisión a debate.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-10",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto: el tránsito ya está mandado por la Ley 30057; el financiamiento y las consecuencias obligatorias requieren ley del Ejecutivo. El costo queda pendiente de cálculo del MEF.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-11",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley, iniciativa del Ejecutivo y respeto a los derechos adquiridos bien planteados.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-15",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "Advierte que la Ley 27785 es orgánica y que la responsabilidad funcional tiene reserva de ley; fuente de financiamiento existente.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-18",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "Advierte las leyes orgánicas involucradas (27783, 27867, 27972) y la votación calificada.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-19",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley e iniciativa del Ejecutivo bien planteadas. Falta respetar el art. 77 (canon por circunscripción) y verificar si el uso en mantenimiento ya está permitido.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El art. 77 da a cada circunscripción una participación en el canon. Un fondo de estabilización es compatible solo si los recursos siguen siendo de cada región y municipio (cuentas a su nombre), no del Tesoro. Si no se dice, el fondo puede ser impugnado.",
+    "correccion": "Agregar: 'El fondo de estabilización se registra en subcuentas a nombre de cada gobierno regional y local beneficiario, que conservan la titularidad (art. 77).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Normas vigentes (la Ley 27506 y leyes de presupuesto) ya autorizan usar una parte del canon en mantenimiento. Proponerlo como novedad sin verificar puede duplicar.",
+    "correccion": "Verificar el porcentaje vigente en la Ley 27506 y sus modificatorias, y redactar como 'ampliar y hacer permanente el uso en operación y mantenimiento' si ya existe.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-20",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "conforme",
+  "resumen": "La vía reglamentaria es correcta; las transferencias directas requieren modificar la Ley 29029.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-21",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "observaciones",
+  "resumen": "La vía es correcta y la Ley 32743 existe. La cita del TUO de la Ley 27444 como 'DS 006-2026-JUS' debe verificarse.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "Por TUO de la Ley 27444 suele citarse el DS 004-2019-JUS. Si existe un TUO nuevo de 2026 (DS 006-2026-JUS), debe confirmarse en El Peruano; además, un artículo no se deroga en el TUO sino en la ley.",
+    "correccion": "Escribir: 'Ley 27444, artículo sobre silencio negativo (TUO vigente: verificar número de DS)'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-22",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "observaciones",
+  "resumen": "Buena propuesta. Pero el requisito de 'no se tramite' debe ir en el Reglamento del Congreso, no en la Ley 26889, y falta verificar la cita de la Ley 31238.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El trámite de los proyectos en el Congreso es materia del Reglamento (art. 94), con fuerza de ley. Una modificación de la Ley 26889 no puede impedir que se tramite un proyecto; solo el Reglamento puede fijar requisitos de admisión.",
+    "correccion": "Reescribir (2): 'modificar el Reglamento de cada cámara para que los proyectos declarativos de inversiones requieran opinión del sector y del MEF y código en Invierte.pe para ser admitidos; la Ley 26889 se ajusta en lo técnico'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "Se cita la 'Ley 31238' como ejemplo de ley declarativa sin decir de qué trata; debe verificarse que es una ley declarativa de inversión.",
+    "correccion": "Agregar el título oficial de la Ley 31238 o reemplazarla por un ejemplo verificado en el SPIJ.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "EST-27",
+  "archivo": "data/sectores/estado.json",
+  "veredicto": "observaciones",
+  "resumen": "Base legal de demarcación e integración correcta. Pero los 'gobiernos municipales asociados' modifican la LOM (orgánica) y usar el FONCOMUN como incentivo resta a otros municipios.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Crear una figura nueva de 'gobierno municipal asociado' cambia la organización municipal regulada por la Ley 27972, que es ley orgánica (art. 106). La acción no lo advierte.",
+    "correccion": "Agregar en por_que_ley: 'La figura de gobiernos municipales asociados modifica la Ley Orgánica de Municipalidades y requiere votación de ley orgánica.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El FONCOMUN se reparte entre todas las municipalidades con índices fijados por decreto supremo (art. 196 de la Constitución; Ley de Tributación Municipal). Pagar incentivos con él reduce lo que reciben las demás; el FIDT tiene reglas propias.",
+    "correccion": "Escribir: 'Incentivos con cargo a recursos adicionales del FIDT o del Tesoro aprobados en la Ley de Presupuesto a propuesta del Ejecutivo; si se usa el FONCOMUN, solo mediante un ajuste de índices por DS del MEF que se publica con su efecto en cada municipio.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley bien fundada. Faltan la consulta previa, la posible naturaleza orgánica de las restricciones al aprovechamiento y el costo de aplicación para los GORE.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La ley regula a mineros artesanales que en muchos casos son comuneros o trabajan en territorios de comunidades campesinas y nativas, y fija prohibiciones territoriales. Afecta directamente derechos colectivos y debe pasar por consulta previa (Ley 29785). Además, si cambia las condiciones de otorgamiento de concesiones, entra en la reserva de ley orgánica del art. 66.",
+    "correccion": "Agregar: 'El proyecto se somete a consulta previa en lo que afecte a comunidades campesinas y nativas (Ley 29785); las disposiciones que cambien condiciones de otorgamiento de concesiones se aprueban con votación de ley orgánica (arts. 66 y 106).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Los GORE son competentes en la formalización de la MAPE; plazos firmes y fiscalización les generan costos sin fuente. Decir 'no crea gasto' oculta ese costo.",
+    "correccion": "Escribir: 'La ley no crea gasto del Tesoro; su aplicación exige reforzar las direcciones regionales de energía y minas con transferencias del MINEM aprobadas en la Ley de Presupuesto (no estimado).'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "MIN-06",
+  "archivo": "data/sectores/mineria.json",
+  "veredicto": "conforme",
+  "resumen": "Distingue bien lo reglamentario (registro, aduanas) de lo que requiere ley (sanciones penales y obligación general).",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "MIN-14",
+  "archivo": "data/sectores/mineria.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que el ordenamiento vinculante requiera ley. Falta la consulta previa cuando la zonificación toca tierras de comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Una ley que haga vinculante el ordenamiento territorial frente a concesiones, y los actos que definan zonas en tierras de comunidades campesinas y nativas, son medidas que pueden afectarlas directamente: requieren consulta previa (Convenio 169; Ley 29785). La acción solo prevé 'consulta con el gobierno regional'.",
+    "correccion": "Agregar: 'La ley de ordenamiento territorial y las zonificaciones que comprendan tierras de comunidades campesinas y nativas se someten a consulta previa (Ley 29785).'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "MIN-17",
+  "archivo": "data/sectores/mineria.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley y respeto a convenios de estabilidad bien planteados. Falta el impacto en el canon y regalías que reciben las regiones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las regalías mineras se distribuyen a gobiernos regionales y locales, y el impuesto especial va al Tesoro. 'Simplificar la superposición' puede trasladar recursos de las regiones al Tesoro o al revés, y afectar la participación del art. 77.",
+    "correccion": "Agregar: 'Cualquier cambio de mezcla entre regalías, impuesto especial y gravamen especial mantiene, como mínimo, la participación de las circunscripciones (art. 77); el MEF publica el efecto por región antes del debate.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Igual que ENE-24: el régimen propuesto (evaluación cada cinco años) no cumple la Norma VII y duplica el régimen de recuperación anticipada del DL 973.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Un beneficio tributario con 'evaluación del MEF cada cinco años' excede el plazo máximo de 3 años de la Norma VII del Código Tributario, que además exige objetivo, beneficiarios y costo.",
+    "correccion": "Reemplazar por: 'vigencia máxima de 3 años, una prórroga solo con evaluación publicada del MEF (Norma VII), con objetivo, beneficiarios y costo fiscal cuantificado'.",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-la-norma-vii-del-titulo-pre-decreto-legislativo-n-1521-2032894-1/"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Ya existe el Régimen Especial de Recuperación Anticipada del IGV (DL 973) para la etapa preproductiva.",
+    "correccion": "Escribir: 'Se derogan las Leyes 27623 y 27624 y la exploración se integra al régimen del DL 973'. Hacer coherente con ENE-24.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "PRO-04",
+  "archivo": "data/sectores/proteccion.json",
+  "veredicto": "observaciones",
+  "resumen": "La fusión por decreto supremo es correcta. Pero la pensión por discapacidad severa tiene base legal en la Ley 29973, y el decreto no puede reducirla.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La pensión no contributiva por discapacidad severa en pobreza que paga Contigo está reconocida en la Ley 29973 (Ley General de la Persona con Discapacidad). El DS de fusión puede integrar la operación, pero no cambiar requisitos ni montos fijados por ley.",
+    "correccion": "Agregar: 'La fusión es operativa (padrón, pago, sistemas); los derechos y requisitos de la pensión por discapacidad previstos en la Ley 29973 se mantienen.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "Indexar el monto a la inflación es un aumento automático del gasto que no puede asumirse solo con los 'presupuestos actuales'.",
+    "correccion": "Agregar: 'La indexación se aprueba cada año en la Ley de Presupuesto según el espacio fiscal; costo no estimado.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "PRO-07",
+  "archivo": "data/sectores/proteccion.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley y art. 79 bien planteados. Pero usar parte de la CTS para un fondo solidario afecta un beneficio que es propiedad del trabajador.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La CTS es un beneficio social del trabajador (art. 24 de la Constitución) depositado en cuentas a su nombre. Destinar una parte a un 'fondo solidario' común, sin consentimiento, puede ser una afectación a su propiedad y a un derecho laboral irrenunciable (art. 26).",
+    "correccion": "Reescribir: 'el seguro se financia con la CTS que el propio trabajador mantiene en su cuenta individual (que funciona como primer tramo del seguro) y con un aporte solidario nuevo de empleadores, sin trasladar CTS ya devengada a un fondo común'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "veredicto": "conforme",
+  "resumen": "Advierte bien que una ley congresal no puede crear gasto y que no crea entidades; articula programas existentes.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "PRO-21",
+  "archivo": "data/sectores/proteccion.json",
+  "veredicto": "conforme",
+  "resumen": "Se apoya en la Ley 32123 ya vigente; la contrapartida estatal queda sujeta a disponibilidad fiscal y lo obligatorio nuevo se reserva a la ley.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-06",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "conforme",
+  "resumen": "Ley de depuración sin gasto, admisible por iniciativa congresal. Coordinada con EST-22 (verificar la cita de la Ley 31238 en ambas).",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-08",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "conforme",
+  "resumen": "Cita bien la intangibilidad de los fondos de la seguridad social (art. 12) y la iniciativa del Ejecutivo por gasto.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-10",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "observaciones",
+  "resumen": "Base legal correcta (Ley 27056). Pero un directorio con mayoría independiente debe conservar la representación de asegurados y empleadores.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El Consejo Directivo de EsSalud es tripartito (Estado, empleadores y asegurados). El Convenio 102 de la OIT, ratificado por el Perú, exige que los representantes de las personas protegidas participen en la administración cuando esta no la hace directamente el Estado. Sustituirlos por independientes sin mantener esa participación puede contradecir el tratado.",
+    "correccion": "Reescribir: 'directorio con miembros independientes por concurso y representantes de asegurados y empleadores elegidos con requisitos de idoneidad, manteniendo la participación que exige el Convenio 102 de la OIT; presidente con mandato fijo'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-12",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto que va por el reglamento de la Ley 23330; las bonificaciones caben en el DL 1153.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-13",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "conforme",
+  "resumen": "Bien fundada en el art. 40, iniciativa del Ejecutivo y costeo multianual del MEF.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-15",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto: la Ley 29459 ya permite la confianza regulatoria; basta el reglamento salvo reconocimiento automático.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SAL-26",
+  "archivo": "data/sectores/salud.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que diga que crear el organismo es iniciativa del Ejecutivo. El objetivo de 'reducir la judicialización' debe formularse sin limitar el acceso a la justicia.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Los informes vinculantes de la agencia no pueden impedir que una persona demande la protección de su derecho a la salud (art. 139.3, tutela jurisdiccional). Formularlo como 'reduce la judicialización' puede leerse como un límite.",
+    "correccion": "Agregar: 'Las decisiones de la agencia son impugnables y no limitan el amparo; su evidencia pública sirve de referencia a los jueces.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-06",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "conforme",
+  "resumen": "Bien: DL 1149 y DL 1267 tienen rango de ley (art. 168), la Ley 32743 no los delegó, y lo remunerativo es iniciativa del Ejecutivo.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que la Ley 30714 requiera ley. Pero cruzar declaraciones juradas con información de SUNAT y UIF no puede hacerse 'por DS y directivas': esa información está protegida por la reserva tributaria y el secreto bancario.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La reserva tributaria y el secreto bancario (art. 2.5 de la Constitución) solo se levantan a pedido del juez, del Fiscal de la Nación, de una comisión investigadora o en los casos que fije la ley. La Inspectoría de la PNP y el MININTER no pueden acceder por directiva a información de SUNAT o UIF. La información de la UIF además es reservada por ley.",
+    "correccion": "Cambiar a: 'La auditoría patrimonial con datos de SUNAT, SUNARP y UIF requiere autorización legal expresa o pedido fiscal/judicial; mientras tanto se usa la información pública de SUNARP y de las declaraciones juradas, y los casos con indicios se derivan al Ministerio Público.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La inhabilitación 'permanente' debe ser proporcional y limitarse al reingreso a la PNP y a cargos relacionados con la seguridad, para no ser desproporcionada frente a otras sanciones administrativas.",
+    "correccion": "Precisar: 'inhabilitación permanente para reingresar a la PNP y a cargos de seguridad pública'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-12",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "conforme",
+  "resumen": "Distingue bien lo vigente (DL 1106, 1103, 1107) de lo que impone obligaciones nuevas a privados, y el alcance penal de la Ley 32743.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien encaminada y respeta la autonomía de la JNJ. Debe advertir que modifica una ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "La Ley 30916 es Ley Orgánica de la JNJ; su modificación requiere el voto de más de la mitad del número legal de miembros de cada cámara (art. 106). El texto dice solo 'requiere modificarla'.",
+    "correccion": "Agregar: 'Al ser ley orgánica, requiere votación calificada (art. 106); los cambios a las autoridades de control del PJ y del MP (Leyes 30943 y 30944) se coordinan con sus leyes orgánicas.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-24",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "conforme",
+  "resumen": "Simplificación por modificación de la Ley 27933 sin gasto. Preserva la participación ciudadana en el comité provincial.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "SEG-25",
+  "archivo": "data/sectores/seguridad.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien que distinga lo ya corregido por la Ley 32138 y lo delegado por la Ley 32743. Falta advertir que la derogación no revierte los efectos favorables ya producidos en procesos penales.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Por la retroactividad benigna (arts. 103 y 139.11 de la Constitución), quienes fueron procesados durante la vigencia de la Ley 32108 pueden seguir invocando la definición más favorable. Derogarla no reactiva los casos ya archivados.",
+    "correccion": "Agregar a 'riesgo': 'La derogación rige hacia adelante; por retroactividad benigna no revierte los archivamientos ni la norma más favorable ya aplicada en procesos en curso.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-05",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "conforme",
+  "resumen": "Ley de depuración sin gasto, admisible por iniciativa congresal. Coherente con SAL-06 y EST-22.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-09",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "observaciones",
+  "resumen": "Bien citado el art. 79. Pero quitar competencias de transporte a las municipalidades de Lima y Callao modifica la LOM y el régimen especial de Lima, materia de ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Las competencias municipales de transporte están en la Ley 27972 (ley orgánica) y el régimen especial de Lima tiene base en el art. 198. Reasignarlas en forma exclusiva a la ATU requiere votación de ley orgánica (art. 106); el texto no lo advierte.",
+    "correccion": "Agregar: 'Las modificaciones a la Ley Orgánica de Municipalidades se aprueban con votación de ley orgánica (art. 106).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "responsable",
+    "problema": "Se indica PCM como responsable y MTC como rectora; la ATU está adscrita al MTC.",
+    "correccion": "Cambiar responsable a 'MTC'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-13",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "conforme",
+  "resumen": "Usa la delegación de la Ley 32743 (vigente desde el 23-oct-2026, 90 días) sin tocar la consulta previa ni las obligaciones ambientales; el financiamiento es el contrato vigente.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-22",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "conforme",
+  "resumen": "Vía reglamentaria y facultades delegadas bien identificadas; exige revisión independiente en el decreto legislativo.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-24",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto: el DS 017-2009-MTC se simplifica por DS con análisis de impacto regulatorio.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "TRA-26",
+  "archivo": "data/sectores/transporte.json",
+  "veredicto": "observaciones",
+  "resumen": "La ley marco es viable. Pero modifica la LOM (orgánica) y el razonamiento sobre el art. 79 es impreciso: una ley que solo habilita a municipios a crear autoridades con sus recursos no crea gasto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "Transferir competencias de transporte entre municipalidades provinciales y distritales a una autoridad común modifica la Ley 27972, ley orgánica (art. 106). Y el art. 79 no impide al Congreso habilitar a los municipios a crear, con sus propios recursos, entidades municipales; sí le impide comprometer el cofinanciamiento del MTC.",
+    "correccion": "Reescribir: 'Modifica la Ley Orgánica de Municipalidades (votación de ley orgánica, art. 106). La ley habilita a los municipios a crear la autoridad con sus recursos; el cofinanciamiento del MTC solo se compromete en la Ley de Presupuesto a propuesta del Ejecutivo (art. 79).'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-03",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "conforme",
+  "resumen": "Correcto: los montos van por DS; la fusión de bonos creados por ley (27829, 29033) requiere ley del Ejecutivo.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-09",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "observaciones",
+  "resumen": "Reserva de ley penal correcta y respeto a la autonomía del Ministerio Público. La recuperación en 48 horas debe ajustarse al régimen ya existente y al debido proceso.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La recuperación extrajudicial de predios estatales ya existe en la Ley 30230. Un plazo de 48 horas con apoyo policial, si se aplica a posesiones antiguas, puede vulnerar el debido proceso (art. 139.3) de ocupantes con derechos en trámite.",
+    "correccion": "Precisar: 'se unifica el procedimiento de recuperación extrajudicial de la Ley 30230 para ocupaciones recientes (dentro del plazo legal); las posesiones antiguas se recuperan por vía judicial'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-10",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley correcta; reconoce en 'riesgo' que una ley posterior puede volver a prorrogar.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-15",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Un plan 'vinculante' para los distritos de Lima y del Callao, con un órgano por encima de la Municipalidad de Lima y del Gobierno Regional del Callao, choca con la autonomía constitucional de ambos (arts. 191, 194 y 198) y exige como mínimo una ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "El Callao tiene gobierno regional con autonomía política, económica y administrativa (art. 191), y Lima tiene régimen especial en la LOM (art. 198). Una instancia que apruebe un plan vinculante para ambos y administre su fondo afecta competencias fijadas en leyes orgánicas (27867, 27972) y puede requerir reforma constitucional si subordina un gobierno regional a otro órgano. El texto solo menciona 'ley de iniciativa del Ejecutivo'.",
+    "correccion": "Reescribir: 'Opción A (sin reforma constitucional): instancia de coordinación por convenio entre la MML, el GORE Callao y la ATU, con plan metropolitano aprobado por ambos y fondo por aportes voluntarios (mancomunidad o junta, Ley 29029/Ley 28274). Opción B: gobierno metropolitano con funciones vinculantes mediante reforma del art. 198 (art. 206) y modificación de las leyes orgánicas 27867 y 27972 con votación calificada.'",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-21",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "conforme",
+  "resumen": "La vía es correcta: reglamento de la Ley 29090, y ley solo para ampliar la aprobación automática.",
+  "hallazgos": [],
+  "rol": "constitucional-fiscal"
+ },
+ {
+  "id": "VIV-22",
+  "archivo": "data/sectores/vivienda.json",
+  "veredicto": "observaciones_graves",
+  "resumen": "Algunas inafectaciones del art. 17 de la Ley de Tributación Municipal tienen respaldo constitucional o en un tratado. No pueden derogarse por ley ordinaria.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "El art. 19 de la Constitución da a universidades, institutos y centros educativos inafectación de todo impuesto directo e indirecto sobre los bienes destinados a su finalidad educativa, y la Iglesia Católica tiene beneficios por el Acuerdo con la Santa Sede de 1980 (tratado). Esas inafectaciones del predial no pueden derogarse por ley ordinaria. La acción propone evaluar y derogar 'cada inafectación' sin distinguir.",
+    "correccion": "Agregar: 'Se excluyen de la revisión las inafectaciones con base constitucional (art. 19: instituciones educativas en bienes destinados a su fin) o en tratados (Acuerdo con la Santa Sede); la revisión se limita a las de origen solo legal.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Los valores arancelarios los aprueba ya cada año el MVCS por resolución ministerial; la ley no es necesaria para esa parte.",
+    "correccion": "Precisar: 'la actualización de valores arancelarios no requiere ley: el MVCS la hace por resolución ministerial con metodología pública'.",
+    "fuente": "no verificable"
+   }
+  ],
+  "rol": "constitucional-fiscal"
+ }
+]

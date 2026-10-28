@@ -1,0 +1,1112 @@
+[
+ {
+  "id": "ECP-01",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Palanca central y bien planteada; falta la lección institucional peruana.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "No menciona que las mesas ejecutivas nacieron con el Plan Nacional de Diversificación Productiva (2014) en PRODUCE, pasaron al MEF y perdieron continuidad con los cambios de gobierno. Esa discontinuidad es el principal riesgo y justifica el 'cierre público'.",
+    "correccion": "Añadir: 'Las mesas nacieron con el Plan Nacional de Diversificación Productiva (DS 004-2014-PRODUCE), migraron al MEF y su continuidad dependió del gobierno de turno; por eso se institucionalizan con tablero y evaluación'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-02",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "La acción propone un tope de 6 años que es más laxo que la Norma VII vigente (3 años y una sola prórroga de hasta 3 con evaluación) y no ataca el problema real: leyes especiales posteriores que fijan plazos de 10 a 20 años.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Propone que ningún beneficio dure 'más de 6 años' sin evaluación. La Norma VII del Código Tributario (texto modificado por el DL 1521) ya limita la vigencia a 3 años, sin prórroga tácita, y solo admite una prórroga única de hasta 3 años con evaluación previa del sector. La propuesta, tal como está escrita, rebajaría el estándar vigente.",
+    "correccion": "Reemplazar 'más de 6 años' por: 'más de 3 años, con una sola prórroga de hasta 3 años condicionada a una evaluación ex post publicada por el MEF y revisada por el Consejo Fiscal, como ya exige la Norma VII'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2032894-1"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Norma VII tiene rango de ley ordinaria y por eso leyes especiales posteriores la desplazan: Ley 32434 (régimen agrario 2026-2035), Ley 30446 (ZED hasta 2042) y la prórroga de las Leyes 27623/27624 por 5 años. Una 'ley corta' más tendría la misma debilidad.",
+    "correccion": "Agregar que la regla se asegura en el procedimiento: modificar el Reglamento del Congreso (tiene fuerza de ley) para que no se pueda dictaminar ni votar un beneficio tributario sin informe previo del MEF con su costo anual y sin plazo ≤3 años, y que el beneficio que no cumpla la Norma VII quede como no aprobado. Citar en 'evidencia' los tres casos recientes como prueba del problema.",
+    "fuente": "https://gestion.pe/economia/prorrogan-hasta-el-2027-ley-de-devolucion-del-igv-a-la-exploracion-minera-y-de-hidrocarburos-noticia/"
+   },
+   {
+    "severidad": "baja",
+    "campo": "fuentes",
+    "problema": "Falta la norma que se dice modificar.",
+    "correccion": "Añadir a fuentes el DL 1521, que modifica la Norma VII (El Peruano).",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2032894-1"
+   }
+  ]
+ },
+ {
+  "id": "ECP-04",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-05",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Buen enfoque de prudencia, pero confunde una refinería de zinc con capacidad de cobre.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Dice 'ampliación de la existente en Ilo y Cajamarquilla'. Cajamarquilla (Nexa Resources) es una refinería de zinc, no de cobre; la capacidad de fundición y refinación de cobre en operación está en Ilo.",
+    "correccion": "Reemplazar por: 'o ampliación de la fundición y refinería de Ilo, la principal capacidad de cobre del país (Cajamarquilla es una refinería de zinc y puede servir como comparador para el análisis de refinación de zinc)'.",
+    "fuente": "https://energiminas.com/2024/03/06/senace-aprueba-inversion-de-nexa-en-refineria-de-zinc-cajamarquilla"
+   }
+  ]
+ },
+ {
+  "id": "ECP-06",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-07",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-08",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "La transición ordenada es correcta, pero no dice que el régimen de la Ley 32434 incumple el plazo de la Norma VII ni detalla sus beneficios.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 32434 otorga tasa de IR de 15 % y una deducción adicional de 25 % por compras a pequeños productores durante 10 años (2026-2035), muy por encima del plazo máximo de 3 años de la Norma VII. La acción pospone la evaluación hasta 2029-2030, cuando ya se habrá consumido la mitad del beneficio.",
+    "correccion": "Agregar: 'El régimen excede el plazo de 3 años de la Norma VII; por eso el MEF publica desde 2027 su gasto tributario anual (tasa reducida y deducción de 25 % por compras a pequeños productores, por separado) y la evaluación independiente se adelanta a 2028, con efectos posibles sobre la segunda mitad del periodo'.",
+    "fuente": "https://www.cuatrecasas.com/es/global/fiscalidad/art/nueva-ley-agraria-regimen-especial-beneficios-tributarios"
+   },
+   {
+    "severidad": "baja",
+    "campo": "costo_referencial",
+    "problema": "La cifra de S/ 1 888 millones viene de una exposición de motivos y está disputada; hay estimaciones de prensa distintas.",
+    "correccion": "Mantener 'por verificar' y pedir explícitamente la estimación del MEF en el MMM o en el Informe de Gasto Tributario; no usar la cifra como dato.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-09",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Correcta como palanca de encadenamiento; falta precisar el instrumento y su control.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La 'deducción adicional por compras a pequeños productores' de la Ley 32434 es de 25 % del valor de compras a productores inscritos en el Padrón; sin cruce de información es fácil de simular.",
+    "correccion": "Precisar: 'deducción adicional de 25 % (Ley 32434) por compras a pequeños productores del Padrón; la SUNAT cruza comprobantes y liquidaciones de compra con el Padrón y publica cada año el monto deducido y el número de productores proveedores'.",
+    "fuente": "https://www.cuatrecasas.com/es/global/fiscalidad/art/nueva-ley-agraria-regimen-especial-beneficios-tributarios"
+   }
+  ]
+ },
+ {
+  "id": "ECP-10",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-11",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "El enfoque de metas y evaluación es adecuado; falta exigir el costo fiscal ex ante de un régimen con IR 0 % inicial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "costo_referencial",
+    "problema": "Las ZEEP (Ley 32449, reglamento DS 005-2026-MINCETUR) otorgan, según lo informado, IR de 0 % en los primeros años y otros beneficios de largo plazo; la acción deja el costo 'no estimado' y solo propone publicarlo ex post. Para un beneficio de esta duración, la Norma VII exige costo y plazo.",
+    "correccion": "Cambiar a: 'El MEF estima y publica el gasto tributario esperado de cada ZEEP antes de autorizarla y cada año después; ninguna autorización nueva sin esa estimación'. Agregar como riesgo que el régimen excede el plazo de la Norma VII y debe entrar en la evaluación de ECP-03.",
+    "fuente": "https://infomercado.pe/gobierno-aprueba-reglamento-de-zonas-economicas-especiales-privadas-empresas-pagaran-0-de-impuesto-a-la-renta-los-primeros-5-anos/"
+   }
+  ]
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Propuesta correcta; la lista de normas está incompleta.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "La extensión de beneficios de las ZED hasta 2042 viene de la Ley 30446 y de la Ley 30777, que no se menciona.",
+    "correccion": "Agregar la Ley 30777 a 'deroga_o_simplifica' con el mismo motivo que la Ley 30446 (no volver a prorrogar; integrar al régimen único).",
+    "fuente": "https://investperu.peru.info/archivos/zona/zed_matarani_es.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-13",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-14",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-15",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-16",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-17",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-18",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-19",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-20",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-21",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-22",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-23",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico sólido sobre enanismo; conviene reconocer lo que ya trae la Ley 32353.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La Ley 32353 (mayo de 2025) derogó la Ley 28015 y el DL 1086, creó un régimen laboral MYPE permanente y ya permite mantener el régimen 3 años después de superar el límite de ventas: es una salida gradual que la acción debería evaluar en vez de suponer que no existe.",
+    "correccion": "Agregar: 'Se evalúa la regla de permanencia de 3 años de la Ley 32353 y la afiliación al SIS semicontributivo de trabajadores de microempresa frente a aportes a EsSalud desde el primer trabajador'.",
+    "fuente": "https://lacamara.pe/ley-n-32353-nuevo-marco-para-el-desarrollo-de-las-mypes-en-el-peru/"
+   }
+  ]
+ },
+ {
+  "id": "ECP-24",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-25",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "El canje de exoneración por inversión es la ruta correcta, pero el precedente de San Martín ya fue revertido y eso debe decirse.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "evidencia",
+    "problema": "Se usa la Ley 28575 (San Martín) como prueba de viabilidad y solo se dice que la Ley 32317 devolvió el crédito fiscal especial. Además, la Ley 32582 (abril de 2026) derogó los artículos 3 y 4 de la Ley 28575. El precedente se deshizo en dos pasos, lo que muestra que el canje sin un candado legal se revierte.",
+    "correccion": "Reescribir: 'El caso San Martín mostró que el canje es viable, pero fue revertido por la Ley 32317 (2025) y por la Ley 32582 (2026), que derogó los artículos 3 y 4 de la Ley 28575'. Agregar en 'que': el fondo regional sustituto tiene asignación anual mínima fijada por fórmula en la ley, y cualquier nueva exoneración en la zona debe cumplir la Norma VII (ECP-03).",
+    "fuente": "https://lpderecho.pe/ley-32582-amplian-beneficios-tributarios-crean-comite-impulsar-inversion-amazonia/"
+   }
+  ]
+ },
+ {
+  "id": "ECP-26",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Correcta y bien fundamentada; precisar la secuencia normativa.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "El DS 189-2024-EF fijaba 1 % y luego 0,5 %; el DS 197-2024-EF postergó su aplicación y el DS 027-2025-EF (28-feb-2025) derogó ambos. No se menciona el DS 197-2024-EF.",
+    "correccion": "Precisar: 'el DS 189-2024-EF (1 % y luego 0,5 %) fue postergado por el DS 197-2024-EF y ambos se derogaron con el DS 027-2025-EF, que mantuvo el 3 %'.",
+    "fuente": "https://www.sunat.gob.pe/legislacion/oficiosAd/2025/2025-INF-107-340000.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-27",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-28",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-01",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-02",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Diálogo temprano adecuado; la frase sobre el rechazo mayoritario no tiene base legal y crea expectativas de veto.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "'Si la población rechaza informada y mayoritariamente un proyecto, el Estado lo reconoce' no define quién vota, cómo ni con qué efecto jurídico frente a una concesión vigente. Ni la Ley 29785 ni el Convenio 169 otorgan veto, y la acción dice que no necesita ley.",
+    "correccion": "Reemplazar por: 'Si tras el diálogo y, cuando corresponda, la consulta previa no hay acuerdo, el Estado publica una decisión motivada que explica cómo atendió cada objeción o por qué no autoriza el proyecto'. Si se quiere un mecanismo vinculante, marcar necesita_ley 'si'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-03",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-04",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Correcto no volver a prorrogar, pero el calendario es muy apretado: el REINFO vence en dos meses y la Ley MAPE apenas se presentó.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "Hoy (28-oct-2026) el REINFO vence el 31-dic-2026 y el proyecto de Ley MAPE se presentó el 19-oct-2026. Si la ley no se aprueba a tiempo, más de 31 mil inscritos quedan sin régimen de transición. Ese vacío es el argumento típico para una nueva prórroga general, y la acción no tiene plan B.",
+    "correccion": "Agregar al 'que': 'Si la Ley MAPE no está vigente al 31-dic-2026, solo pasan a un régimen puente los inscritos que ya tengan instrumento ambiental aprobado y operen fuera de zonas prohibidas, verificado con coordenadas; el resto queda fuera. No hay prórroga general'. Indicar que ese puente requiere norma con rango de ley.",
+    "fuente": "https://infomercado.pe/gobierno-amplia-vigencia-del-reinfo-hasta-2026-con-nuevas-exigencias-para-mineros/"
+   }
+  ]
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "Contenido correcto, pero omite evaluar la consulta previa de una medida legislativa que regula la minería en territorios de comunidades campesinas y nativas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "La Ley 29785 (art. 2) incluye las medidas legislativas que afectan directamente derechos colectivos. Una Ley MAPE que define quién puede minar, prohíbe zonas y fija requisitos sobre tierras comunales (Madre de Dios, Puno, sierra sur) puede afectarlos directamente. La acción no lo menciona.",
+    "correccion": "Agregar: 'Antes del dictamen, el Ministerio de Cultura emite opinión sobre la afectación directa a pueblos indígenas. Si la hay, se hace consulta previa de las disposiciones pertinentes conforme a la Ley 29785'. Añadirlo también como riesgo (nulidad o inaplicación).",
+    "fuente": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29785.pdf"
+   }
+  ]
+ },
+ {
+  "id": "MIN-06",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-07",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-08",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-09",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-10",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-11",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-12",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-13",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-14",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-15",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-16",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-17",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "La dirección es razonable, pero la evidencia ignora que desde 2011 el régimen ya es progresivo según margen operativo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "evidencia",
+    "problema": "Presenta como novedad 'capturar más cuando los precios son altos'. Desde 2011 la regalía (Ley 29788), el Impuesto Especial a la Minería (Ley 29789) y el Gravamen Especial (Ley 29790, para empresas con convenio de estabilidad) ya se calculan con tasas crecientes según el margen operativo trimestral. El problema que falta medir es la tasa efectiva total frente a Chile y los convenios de estabilidad.",
+    "correccion": "Reescribir: 'Desde 2011 la regalía, el IEM y el GEM ya son progresivos según margen operativo; el estudio del MEF compara la tasa efectiva total con la de Chile tras su royalty de 2023, evalúa si los tramos capturan los precios récord de 2024-2026 y revisa los convenios de estabilidad'. Añadir la Ley 29790 a fuentes.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_29789.pdf"
+   }
+  ]
+ },
+ {
+  "id": "MIN-18",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-19",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-20",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-21",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-22",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-23",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "Propone un régimen con evaluación cada 5 años, contrario a la Norma VII, duplica ENE-24 y reinventa la recuperación anticipada del IGV que ya existe (DL 973).",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Un beneficio con 'evaluación del MEF cada cinco años' y plazo de vencimiento sin definir contradice la Norma VII (≤3 años, prórroga única con evaluación). La Ley 27623 ya fue prorrogada en 2022 por 5 años, hasta el 31-dic-2027, por encima de ese tope. Además existe el Régimen de Recuperación Anticipada del IGV (DL 973), así que un 'régimen único' nuevo sería una tercera vía.",
+    "correccion": "Reemplazar por: 'Las Leyes 27623 y 27624 vencen el 31-dic-2027 y no se prorrogan. Si el MEF demuestra con una evaluación publicada que hace falta un incentivo, la exploración se incorpora al DL 973 con un plazo de 3 años y costo anual publicado'. Indicar en evidencia la vigencia hasta 2027.",
+    "fuente": "https://gestion.pe/economia/prorrogan-hasta-el-2027-ley-de-devolucion-del-igv-a-la-exploracion-minera-y-de-hidrocarburos-noticia/"
+   },
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "MIN-24 y ENE-24 son la misma acción, con el mismo texto, en dos sectores.",
+    "correccion": "Dejar una sola acción, con dueño en el sector economía o minería, y convertir la otra en referencia cruzada.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-25",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Acción pertinente; la fuente no respalda el ejemplo.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "Atribuye al informe del Banco Mundial 'Managing Coal Mine Closure' (2018) casos de regiones mineras de Chile y Australia. Ese informe trata del cierre de minas de carbón en otros países.",
+    "correccion": "Reescribir: 'La experiencia internacional en cierre de minas de carbón muestra que planificar con años de anticipación reduce el impacto en empleo y en las finanzas locales (Banco Mundial, 2018)'.",
+    "fuente": "https://www.worldbank.org/en/topic/extractiveindustries/publication/managing-coal-mine-closure"
+   }
+  ]
+ },
+ {
+  "id": "MIN-26",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-01",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-02",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-03",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-04",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-05",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-06",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-07",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "Remediar antes de licitar es correcto, pero omite la consulta previa obligatoria para nuevos contratos en lotes de la selva norte con pueblos indígenas.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "Plantea volver a licitar lotes de la selva norte (Loreto) con un 'plan de vigilancia acordado con las federaciones', sin mencionar la consulta previa. La Ley 29785 la exige antes de aprobar por decreto supremo un contrato de licencia que afecte a pueblos indígenas. Perupetro la aplica a lotes amazónicos.",
+    "correccion": "Agregar: 'Antes de aprobar por decreto supremo cada nuevo contrato en lotes superpuestos con pueblos indígenas, Perupetro y el MINEM hacen la consulta previa conforme a la Ley 29785, y los acuerdos de remediación y vigilancia forman parte del acta'. Incluir la Ley 29785 en fuentes.",
+    "fuente": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29785.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "Modificar la Ley 26221 es materia de ley orgánica y la acción no lo dice; además, el ajuste de regalías por precio ya existe por vía reglamentaria y contractual.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "necesita_ley",
+    "problema": "La Ley 26221 es la Ley Orgánica de Hidrocarburos: regula el aprovechamiento de un recurso natural (art. 66 de la Constitución). Para modificarla se necesita una ley orgánica, aprobada con el voto de más de la mitad del número legal de miembros (art. 106). 'por_que_ley' solo dice 'requiere ley'.",
+    "correccion": "Escribir: 'Requiere ley orgánica (art. 66 y 106 de la Constitución): modificar la Ley 26221 exige votación calificada en ambas cámaras'.",
+    "fuente": "https://leap.unep.org/en/countries/pe/national-legislation/ley-no-26221-ley-organica-de-hidrocarburos-texto-unico-ordenado"
+   },
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Propone por ley 'regalías que se ajusten al precio internacional', pero el DS 049-93-EM ya fija metodologías de ajuste de la regalía según el precio, y los contratos de Perupetro usan esquemas escalonados o por resultado económico. Una parte de la reforma no necesita ley.",
+    "correccion": "Precisar: 'El ajuste de regalías por precio y por madurez del campo se actualiza en las metodologías reglamentarias y contractuales de Perupetro. Por ley solo se cambian los plazos máximos de aprobación, las garantías de abandono y la publicidad de los contratos'. Cambiar necesita_ley a 'parcial'.",
+    "fuente": "https://cdn.www.gob.pe/uploads/document/file/176530/DS_49_1993_DM.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ENE-09",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-10",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-11",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-13",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-14",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-15",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-16",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-17",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-18",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-19",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-20",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-21",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-22",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-23",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-24",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "observaciones_graves",
+  "resumen": "Igual que MIN-24: contradice la Norma VII, duplica MIN-24 y el DL 973.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "que",
+    "problema": "La 'evaluación cada cinco años' contradice la Norma VII (≤3 años). La Ley 27624 ya vence el 31-dic-2027 tras la prórroga de 5 años de 2022. Un 'régimen único' nuevo duplicaría el DL 973 (recuperación anticipada del IGV).",
+    "correccion": "Aplicar la misma corrección que en MIN-24: dejar vencer las Leyes 27623 y 27624 el 31-dic-2027 y, solo con una evaluación favorable publicada, incorporar la exploración al DL 973 con un plazo de 3 años. Unificar MIN-24 y ENE-24 en una sola acción.",
+    "fuente": "https://gestion.pe/economia/prorrogan-hasta-el-2027-ley-de-devolucion-del-igv-a-la-exploracion-minera-y-de-hidrocarburos-noticia/"
+   }
+  ]
+ },
+ {
+  "id": "ENE-25",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-01",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-02",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-03",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Intervención pertinente; la evidencia es un párrafo genérico repetido.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "evidencia",
+    "problema": "Repite la misma cita de la OCDE (2,1 % frente a 3,2 %) que AGR-01, AGR-05 y AGR-10. No prueba el efecto de la siembra y cosecha de agua ni del riego tecnificado.",
+    "correccion": "Reemplazar por evidencia específica de riego o cosecha de agua (por ejemplo, la evaluación de Haku Wiñay en GRADE 2016, que incluye riego por aspersión familiar) o marcar 'por verificar: no hay evaluación causal pública del Fondo Sierra Azul'.",
+    "fuente": "https://grade.org.pe/publicaciones/combinando-proteccion-social-con-generacion-de-oportunidades-economicas-una-evaluacion-de-los-avances-del-programa-haku-winay"
+   }
+  ]
+ },
+ {
+  "id": "AGR-04",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-05",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "La fusión es razonable para programas nacionales, pero los grandes proyectos especiales son de gobiernos regionales y no se reordenan por decreto supremo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Chavimochic (La Libertad), Majes Siguas (Arequipa) y Olmos (Lambayeque) están a cargo de gobiernos regionales. La LOPE permite fusionar programas del Poder Ejecutivo por decreto supremo, pero no imponer contratos de gestión a entidades regionales.",
+    "correccion": "Precisar: 'Los programas nacionales (PSI, Sierra Azul y los de riego de AGRO RURAL) se fusionan por DS. Los proyectos especiales regionales firman convenios de gestión por resultados con el operador nacional, a cambio de cofinanciamiento condicionado'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-06",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-08",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-09",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-10",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-11",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-12",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-14",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-15",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-16",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-17",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-18",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-19",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-20",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-21",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-22",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-23",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Sin observaciones de fondo desde la diversificación productiva: instrumento coherente con la evidencia, sin beneficios tributarios nuevos ni riesgos omitidos relevantes.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:economia",
+  "archivo": "data/sectores/economia.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "La cartera de ECP es sólida y coherente con la nueva política industrial: bienes públicos, mesas, CITE, calidad y disciplina sobre el gasto tributario. Faltan tres palancas clave y casi no hay costos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (palanca faltante)",
+    "problema": "Ninguna acción atrae inversión extranjera orientada a exportar y buscar eficiencia, que fue el motor de la diversificación en Costa Rica (CINDE: dispositivos médicos, ≈48 % de sus exportaciones de bienes), Malasia y Vietnam. PROINVERSIÓN se dedica a APP y concesiones; PROMPERÚ, a exportaciones.",
+    "correccion": "Agregar una acción (dueño: PRODUCE o MINCETUR) con una unidad de atracción de inversión extranjera dirigida a los sectores que identifique ECP-02. Debe hacer acompañamiento posterior a la inversión, vincular a proveedores locales (ECP-04, ECP-14) y fijar metas de empleo formal y exportaciones, sin exoneraciones nuevas.",
+    "fuente": "https://publications.iadb.org/en/node/33152"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones (palanca faltante)",
+    "problema": "No hay una regla para manejar las rentas extraordinarias de la minería, aunque los precios de 2024-2026 son récord y el diagnóstico atribuye el récord exportador a precios. Sin ahorro anticíclico, el sol se aprecia y se pierde competitividad no tradicional (enfermedad holandesa).",
+    "correccion": "Coordinar con el sector Estado una acción que destine al Fondo de Estabilización Fiscal la recaudación minera por encima de un precio de referencia del cobre y el oro (regla estructural, como en Chile), sin crear un fondo nuevo.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones (palanca faltante)",
+    "problema": "La productividad depende también de la competencia en servicios que encarecen exportar (logística, puertos, transporte de carga, insumos). No hay acción de política de competencia ni de uso del control de concentraciones.",
+    "correccion": "Agregar a ECP-13 o ECP-15 un componente: 'El INDECOPI hace estudios de mercado de logística portuaria, transporte de carga y servicios del sistema Chancay–Callao, y aplica el control previo de concentraciones (Ley 31112) a las integraciones verticales del puerto'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "metas[1]",
+    "problema": "La meta de participación de las exportaciones no tradicionales cae cuando sube el precio de los metales aunque el volumen crezca. El propio campo 'referencia' lo reconoce. No mide la diversificación.",
+    "correccion": "Añadir una meta complementaria que no dependa del precio: 'número de productos de exportación con ventaja comparativa revelada >1 (Atlas de Complejidad)' o 'exportaciones no tradicionales en volumen o a precios constantes (índice de volumen del BCRP)'.",
+    "fuente": "https://atlas.hks.harvard.edu/"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones[*].costo_referencial",
+    "problema": "26 de 28 acciones tienen 'no estimado', incluidas las de mayor costo o ahorro fiscal: ECP-10, ECP-13, ECP-21, ECP-22 y ECP-25. Así no se puede juzgar si son realistas.",
+    "correccion": "Dar al menos órdenes de magnitud en las 5 acciones citadas, con su fuente (presupuesto del ITP para la red CITE, patrimonio del Fondo CRECER, inversión de la APP del parque Ancón según PROINVERSIÓN, gasto tributario amazónico del MEF).",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico",
+    "problema": "En ECP-17 el texto habla de 3,42 millones de 'turistas' y una de sus fuentes, de 4,16 millones de 'visitantes internacionales'. Son conceptos distintos y el lector puede verlo como una contradicción.",
+    "correccion": "Aclarar: 'visitantes internacionales 4,16 millones; de ellos, 3,42 millones turistas (pernoctan)', si ambas cifras se confirman en las fuentes.",
+    "fuente": "https://elperuano.pe/noticia/287183-ministra-mera-peru-recibio-4-157-469-visitantes-internacionales-al-cierre-de-2025"
+   }
+  ]
+ },
+ {
+  "id": "sector:mineria",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Diagnóstico equilibrado y bien documentado; las cifras de exportación no coinciden con las del sector economía.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico",
+    "problema": "Minería usa exportaciones de 2024 (US$ 47 701 millones, 63 %). Economía usa 2025 (US$ 62 848 millones, ≈68 %, MINEM y BCRP). El mismo documento muestra dos fotos distintas del peso minero.",
+    "correccion": "Actualizar el indicador y el resumen a 2025 (US$ 62 848 millones; ≈68 % del total, con BCRP) o citar ambos años de forma explícita para mostrar el salto por precios.",
+    "fuente": "https://energiminas.com/?p=43849"
+   }
+  ]
+ },
+ {
+  "id": "sector:agro",
+  "archivo": "data/sectores/agro.json",
+  "rol": "economia",
+  "veredicto": "observaciones",
+  "resumen": "Muy buen foco en agricultura familiar; falta el principal riesgo de la agroexportación: el agua subterránea de la costa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (palanca faltante)",
+    "problema": "Ninguna acción de AGR ni de ECP trata la sobreexplotación de los acuíferos de Ica, Villacurí y Lanchas. Hay vedas desde 2005 y descensos de hasta 1,5 m al año, por la expansión agroexportadora. Es la mayor amenaza al modelo que ECP-09 y AGR-06 quieren ampliar.",
+    "correccion": "Agregar a AGR-06 (o como acción nueva con el sector Agua) lo siguiente. Primero, que toda ampliación agroexportadora en acuíferos en veda dependa de un balance hídrico público de la ANA. Segundo, medición telemétrica obligatoria de pozos y cobro por volumen. Tercero, priorizar la recarga y el agua superficial regulada.",
+    "fuente": "https://revistas.pucp.edu.pe/index.php/anthropologica/article/view/14834"
+   }
+  ]
+ },
+ {
+  "id": "sector:energia",
+  "archivo": "data/sectores/energia.json",
+  "rol": "economia",
+  "veredicto": "conforme",
+  "resumen": "Diagnóstico y metas consistentes con MIN y ECP: transmisión, renovables por bloques, gas como respaldo y prudencia con hidrógeno y litio. Sin observaciones de fondo; las de ENE-07, ENE-08 y ENE-24 se registran por acción.",
+  "hallazgos": []
+ }
+]
