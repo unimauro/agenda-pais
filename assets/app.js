@@ -61,7 +61,7 @@
   const add = (cls, h) => { log.insertAdjacentHTML("beforeend", `<div class="msg ${cls}">${h}</div>`); log.scrollTop = log.scrollHeight; };
   const SEC = {};
   const enlace = (id) => SEC[id] ? `<a href="${raiz}s/${SEC[id]}.html#${id}"><b>${id}</b></a>` : `<b>${id}</b>`;
-  const enlazar = (t) => esc(String(t).replace(/^\s*#{1,6}\s*/gm, "").replace(/^\s*[*-]\s+/gm, "• ")).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+  const enlazar = (t) => esc(String(t).replace(/\b([A-Z]{3})[\u2010-\u2015\u2212](\d{2})\b/g, "$1-$2").replace(/^\s*#{1,6}\s*/gm, "").replace(/^\s*[*-]\s+/gm, "• ")).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
     .replace(/\b([A-Z]{3}-\d{2})\b/g, (m) => enlace(m)).replace(/\n/g, "<br>");
   // Búsqueda local (sin IA): palabras del título y del responsable
   const STOP = new Set("que como para por con los las del una uno sus mas hay cual quiero saber sobre esta este agenda propone proponen se hace".split(" "));
