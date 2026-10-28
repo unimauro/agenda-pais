@@ -45,7 +45,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
 .m-etapa0 { fill: transparent; } .m-etapa1 { fill: var(--papel2); }
 .m-anio { font-size: 15px; font-weight: 700; fill: var(--tinta2); }
 .m-sec { font-size: 14px; font-weight: 700; fill: #fff; font-stretch: 85%; }
-.m-con { fill: none; stroke: var(--gris); stroke-width: 1.6; stroke-dasharray: 3 3; opacity: .8; }
+.m-con { fill: none; stroke: var(--gris); stroke-width: 1.4; stroke-dasharray: 3 3; opacity: .22; transition: opacity .15s; }
+.m-con.on { opacity: 1; stroke: var(--tinta); stroke-width: 2.4; stroke-dasharray: none; }
+.mapa.foco .m-con:not(.on) { opacity: .06; }
 .m-est circle { transition: r .12s; } .m-est:hover circle, .m-est:focus circle { r: 10; }
 .m-est:focus { outline: none; } .m-est:focus-visible circle { stroke: var(--foco); }
 .tip { position: fixed; z-index: 20; max-width: 300px; background: var(--tinta); color: var(--papel); font: 600 14px/1.35 var(--display); padding: 8px 10px; border-radius: 6px; pointer-events: none; }

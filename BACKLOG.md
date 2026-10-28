@@ -21,10 +21,18 @@ Lee esto primero si continúas el proyecto (otra IA u otra sesión).
 - Cifras clave: 448/1823 leyes 2016–2025 declarativas (24,6 %, conteo propio); gasto tributario 2026 S/ 26 350 M (2,16 % PBI); 2572 obras paralizadas
   (S/ 43 163 M, CGR mar-2025); 51,8 % del PIM 2026 en acciones centrales/APNOP; 66,8 % de objetivos de políticas desarticulados del PEDN.
 
+## Hecho 28-oct-2026 (3.ª tanda)
+- 9 sectores nuevos: agua (AGU), vivienda (VIV), energia (ENE), mineria (MIN), transporte (TRA), ambiente (AMB), seguridad (SEG), agro (AGR),
+  proteccion (PRO). Total 14 sectores, 357 acciones (136 ejecutivas, 107 servicios, 50 obras, 42 leyes = 12 %, 22 derogaciones).
+- Perú 2050: 135 de 162 AE cubiertas. 195 normas para derogar/simplificar (123 en paquetes + derogaciones sectoriales).
+- Mapa: conexiones atenuadas; al pasar sobre una estación se resaltan solo sus dependencias.
+- Cruce resuelto: cierre del REINFO solo en MIN-04/05; AMB-06 = monitoreo de mercurio.
+- Contexto nuevo verificado: DS 016-2026-VIVIENDA (25-oct-2026) declara en emergencia Vivienda y Saneamiento; DS 010-2026-VIVIENDA = Política
+  Nacional Multisectorial de Agua y Saneamiento al 2050. Seguridad no duplica la delegación de la Ley 32743.
+
 ## SIGUIENTE
-1. [ ] Sectores restantes (uno o dos por agente, con `BRIEF_SECTOR.md`): agua, energia, mineria, transporte, seguridad, agro, ambiente,
-       vivienda, proteccion. Cada uno con campo `pedn` (sube la cobertura del Perú 2050).
-2. [ ] Revisión especializada por sector (constitucional/fiscal + verificador de cifras y URLs), como en Agenda Tech.
+1. [x] Los 14 sectores escritos (28-oct-2026). Faltan 27 AE del PEDN sin acción: ver peru2050.html.
+2. [ ] PRIORIDAD: revisión especializada por sector (ojo: SEG propone derogar la Ley 32108 — polémico, revisar) (constitucional/fiscal + verificador de cifras y URLs), como en Agenda Tech.
 3. [ ] Re-enlazar `depende_de` entre sectores cuando existan (p. ej. anemia SAL ↔ EDU).
 4. [ ] Participación ciudadana (votos/comentarios). OJO: el módulo de api.tunky.net es SOLO para Agenda Legislativa; para este
        proyecto hace falta un módulo propio o preguntar a Carlos.

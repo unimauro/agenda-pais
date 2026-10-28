@@ -1,0 +1,2021 @@
+{
+ "id": "ambiente",
+ "nombre": "Ambiente y clima",
+ "lema": "Bosques en pie, aire limpio y ciudades preparadas para el riesgo",
+ "diagnostico": {
+  "resumen": "El Perú tiene la segunda mayor extensión de bosque amazónico de la región y lo está perdiendo: según la plataforma Geobosques del MINAM, entre 2001 y 2024 se perdieron 3,2 millones de hectáreas de bosque húmedo amazónico, con un pico oficial de 203 272 ha en 2020. Las causas directas son la agricultura migratoria de pequeña escala, la minería aurífera ilegal (más de 30 mil ha de bosque primario arrasadas en el sur amazónico entre 2021 y 2024, según MAAP) y los cultivos de coca, que DEVIDA midió en 84 546 ha en 2025. La deforestación es la principal fuente de emisiones: el inventario nacional de 2016 atribuyó 53 % de los gases de efecto invernadero al uso del suelo y los bosques (USCUSS). En las ciudades, cerca de la mitad de la basura urbana todavía termina en botaderos (MINAM estima 52–53 % en rellenos sanitarios) y el OEFA registra miles de áreas degradadas por residuos. Lima respira un promedio anual de 18,2 µg/m³ de PM2,5 (IQAir 2024), más de tres veces la guía de la OMS. Los glaciares, reserva de agua de la costa, perdieron 56 % de su superficie desde 1962 (INAIGEM, 2023). El país vive bajo amenaza múltiple: El Niño costero de 2017 dejó una reconstrucción que, años después, no concluyó cerca del 30 % de sus obras, mientras un sismo de 8,8 frente a Lima podría, según el escenario usado en simulacros del INDECI, causar más de 100 mil muertes. Hay instituciones (SERNANP, OEFA, SENACE, SINAGERD, Ley Marco de Cambio Climático) y metas (NDC 3.0: tope de 179 MtCO2e), pero fallan la fiscalización en el territorio, el financiamiento estable y la coordinación entre niveles de gobierno.",
+  "indicadores": [
+   {
+    "nombre": "Pérdida acumulada de bosque húmedo amazónico 2001–2024",
+    "valor": "3,2",
+    "unidad": "millones de hectáreas",
+    "anio": 2024,
+    "fuente": "MINAM, plataforma Geobosques (reportado por Canal N)",
+    "url": "https://canaln.pe/actualidad/peru-perdio-32-millones-hectareas-bosques-23-anos-n488132"
+   },
+   {
+    "nombre": "Pérdida anual de bosque húmedo amazónico (máximo oficial reciente)",
+    "valor": "203 272",
+    "unidad": "ha (año 2020)",
+    "anio": 2020,
+    "fuente": "MINAM, Reporte de deforestación de bosques amazónicos 2020",
+    "url": "https://geobosques.minam.gob.pe/geobosque/descargas_geobosque/perdida/documentos/Reporte_de_deforestacion_bosques_amazonicos_2020.pdf"
+   },
+   {
+    "nombre": "Superficie de cultivos de coca",
+    "valor": "84 546",
+    "unidad": "ha",
+    "anio": 2025,
+    "fuente": "DEVIDA, Monitoreo de cultivos de coca 2025 (con UNODC)",
+    "url": "https://www.gob.pe/institucion/devida/noticias/1420118-peru-reduce-en-5-8-la-superficie-de-cultivos-de-coca-y-consolida-tendencia-descendente-por-tercer-ano-consecutivo"
+   },
+   {
+    "nombre": "Áreas naturales protegidas (nacionales, regionales y privadas)",
+    "valor": "22,5 millones de ha (≈ 17,2 % del territorio)",
+    "unidad": "ha / %",
+    "anio": 2025,
+    "fuente": "SERNANP (citado por ProActivo)",
+    "url": "https://proactivo.com.pe/?p=58626"
+   },
+   {
+    "nombre": "Residuos sólidos urbanos dispuestos en rellenos sanitarios",
+    "valor": "≈ 53",
+    "unidad": "% de lo generado",
+    "anio": 2023,
+    "fuente": "MINAM (citado por Andina); año exacto por verificar",
+    "url": "https://andina.pe/ingles/noticia-minam-impulsa-proyectos-integrales-rellenos-sanitarios-mediante-obras-impuestos-816896.aspx"
+   },
+   {
+    "nombre": "Concentración media anual de PM2,5 en Lima",
+    "valor": "18,2",
+    "unidad": "µg/m³ (guía OMS: 5)",
+    "anio": 2024,
+    "fuente": "IQAir, World Air Quality Report 2024 (fuente privada; SENAMHI no publica promedio anual consolidado)",
+    "url": "https://www.iqair.com/newsroom/lima-among-the-most-polluted-cities-in-the-world-09-06-2025"
+   },
+   {
+    "nombre": "Pérdida de superficie glaciar desde 1962",
+    "valor": "56,22",
+    "unidad": "%",
+    "anio": 2023,
+    "fuente": "INAIGEM, Inventario Nacional de Glaciares 2023",
+    "url": "https://phys.org/news/2023-11-peru-lost-glacier-surface-century.html"
+   },
+   {
+    "nombre": "Emisiones de GEI que provienen de uso del suelo y bosques (USCUSS)",
+    "valor": "53,09",
+    "unidad": "% del total nacional",
+    "anio": 2016,
+    "fuente": "MINAM, INGEI 2016",
+    "url": "https://www.actualidadambiental.pe/?p=71313"
+   },
+   {
+    "nombre": "Tope de emisiones comprometido en la NDC",
+    "valor": "179",
+    "unidad": "MtCO2e al 2035",
+    "anio": 2025,
+    "fuente": "Gobierno del Perú, NDC 3.0 ante la CMNUCC",
+    "url": "https://unfccc.int/sites/default/files/2025-11/Documento NDC 3.0_UNFCCC.pdf"
+   }
+  ],
+  "brechas": "La deforestación se concentra en pocas regiones amazónicas (Ucayali, Loreto, San Martín, Huánuco, Madre de Dios), donde la capacidad de fiscalización de los gobiernos regionales es mínima; la cuenca del Ucayali acumula cerca del 45 % de la pérdida 2001–2023 (estudio académico, por verificar). DEVIDA reporta que 14 % de la coca está dentro de comunidades nativas (12 274 ha en 252 comunidades, 2024) y Mongabay que dos tercios de la coca ilícita está en ANP, zonas de amortiguamiento o territorios indígenas. Los botaderos son responsabilidad de municipalidades pequeñas sin escala para un relleno: más de 90 % de las áreas degradadas por residuos están a cargo de gobiernos locales (OEFA). La contaminación del aire golpea más a Lima Norte y Este (Ate, Carabayllo, Comas, San Juan de Lurigancho), según SENAMHI. Los pasivos petroleros afectan a pueblos indígenas de las cuencas Pastaza, Tigre, Corrientes y Marañón (Loreto). El riesgo sísmico y de huaicos es mayor en viviendas autoconstruidas en laderas y quebradas de la periferia urbana.",
+  "causas": [
+   "Fiscalización débil y fragmentada: SERFOR, gobiernos regionales, OEFA, fiscalías ambientales y policía actúan sin un circuito común desde la alerta satelital hasta la sanción (Defensoría del Pueblo, 2025).",
+   "Incentivos económicos a deforestar: el oro a precios altos financia la minería ilegal; la frontera agrícola se expande porque titular o usar tierra deforestada es más barato que intensificar la ya abierta (MAAP; MINAM).",
+   "Normas que debilitan el ordenamiento: la Ley 31973 eliminó la clasificación de tierras por capacidad de uso mayor como requisito para titular predios en zonas de bosque, y el REINFO se ha prorrogado sucesivamente (Leyes 32213 y 32537).",
+   "Municipios sin escala ni cobro: la mayoría no cubre el costo del servicio de residuos con arbitrios y no puede financiar rellenos sanitarios (MINAM; MEF, Programa de Incentivos).",
+   "Gestión del riesgo reactiva: se gasta más en respuesta y reconstrucción que en prevención; la reconstrucción de 2017 tuvo baja ejecución inicial (Contraloría: 25 % entre 2017 y 2018).",
+   "Ocupación informal del territorio en zonas de peligro (quebradas, laderas, cauces) sin control urbano efectivo (CENEPRED)."
+  ]
+ },
+ "vision_2056": "En 2056 la Amazonía peruana gana bosque cada año en vez de perderlo, y sus pueblos viven de conservarlo. Ninguna ciudad bota su basura a cielo abierto, el aire de Lima cumple las metas intermedias de la OMS y el país sabe resistir un terremoto, un Niño o un huaico sin volver a empezar de cero.",
+ "metas": [
+  {
+   "indicador": "Pérdida anual de bosque húmedo amazónico (Geobosques)",
+   "linea_base": "203 272 ha (2020); ~140 000–150 000 ha/año en 2021–2022 (por verificar el dato oficial 2024)",
+   "2031": "≤ 75 000 ha",
+   "2036": "≤ 30 000 ha",
+   "2046": "Deforestación neta cero",
+   "2056": "Ganancia neta de bosque",
+   "referencia": "Declaración de Glasgow sobre Bosques (detener la pérdida al 2030) y NDC 3.0 del Perú",
+   "fuente_linea_base": "MINAM, Geobosques"
+  },
+  {
+   "indicador": "Residuos sólidos urbanos dispuestos en rellenos sanitarios",
+   "linea_base": "≈ 53 % (MINAM, año por verificar)",
+   "2031": "75 %",
+   "2036": "90 %",
+   "2046": "100 %",
+   "2056": "100 % y < 30 % del total enterrado (el resto valorizado)",
+   "referencia": "ODS 11.6 y 12.5; Chile dispone ~ 90 % en rellenos (por verificar)",
+   "fuente_linea_base": "MINAM, SIGERSOL"
+  },
+  {
+   "indicador": "PM2,5 medio anual en Lima Metropolitana",
+   "linea_base": "18,2 µg/m³ (2024, IQAir)",
+   "2031": "15 µg/m³ (meta intermedia 3 OMS)",
+   "2036": "12 µg/m³",
+   "2046": "10 µg/m³ (meta intermedia 4 OMS)",
+   "2056": "≤ 8 µg/m³",
+   "referencia": "OMS, Directrices de calidad del aire 2021 (guía 5 µg/m³)",
+   "fuente_linea_base": "IQAir World Air Quality Report 2024; se reemplazará por la red oficial SENAMHI"
+  },
+  {
+   "indicador": "Emisiones nacionales de GEI",
+   "linea_base": "Tope NDC 3.0: 179 MtCO2e al 2035",
+   "2031": "Trayectoria verificada hacia el tope NDC",
+   "2036": "≤ 179 MtCO2e",
+   "2046": "≤ 90 MtCO2e (por definir en la estrategia de largo plazo)",
+   "2056": "Neutralidad de carbono (alcanzada desde 2050)",
+   "referencia": "Acuerdo de París; meta de carbono neutralidad al 2050 del Perú",
+   "fuente_linea_base": "NDC 3.0 (CMNUCC, 2025)"
+  },
+  {
+   "indicador": "Sitios impactados por hidrocarburos priorizados en Loreto con remediación concluida",
+   "linea_base": "Remediación iniciada en 2025 en 38 sitios (MINEM)",
+   "2031": "50 % de los sitios priorizados",
+   "2036": "100 % de los priorizados",
+   "2046": "Inventario de pasivos de hidrocarburos reducido a la mitad",
+   "2056": "Sin pasivos de alto riesgo sin plan",
+   "referencia": "Ley 30321 y su reglamento",
+   "fuente_linea_base": "MINEM / PROFONANPE"
+  },
+  {
+   "indicador": "Viviendas de alto riesgo sísmico reforzadas o reubicadas en Lima y Callao",
+   "linea_base": "No medido de forma sistemática (escenario 8,8: 353 495 viviendas destruidas, simulacro INDECI)",
+   "2031": "Catastro de vulnerabilidad completo",
+   "2036": "100 000 viviendas reforzadas",
+   "2046": "300 000",
+   "2056": "Toda vivienda en riesgo muy alto atendida",
+   "referencia": "Programas de reforzamiento de Chile y Colombia (por verificar)",
+   "fuente_linea_base": "INDECI / CENEPRED"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "AMB-01",
+   "titulo": "Responder cada alerta satelital de deforestación con intervención en el terreno en 72 horas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: decreto supremo que aprueba un protocolo interinstitucional y convenios MINAM–SERFOR–gobiernos regionales–Ministerio Público–PNP; se financia con el programa presupuestal de conservación de bosques.",
+   "etapa": "2026-2031",
+   "que": "Se crea un circuito único que convierte las alertas tempranas de Geobosques (semanales) en acción: una mesa de control por región amazónica clasifica cada alerta por causa probable (minería, agricultura, coca, vía ilegal), la cruza con catastro de derechos (concesiones, comunidades, predios, ANP) y despacha en 72 horas una brigada mixta (SERFOR/ARFFS, OEFA o fiscalía ambiental y policía). Cada caso queda en un expediente digital público con su resultado: archivo, sanción administrativa, denuncia penal o recuperación del bosque. Empieza en Ucayali, Madre de Dios, Huánuco, San Martín y Loreto.",
+   "evidencia": "Brasil redujo su deforestación amazónica en más de 70 % entre 2004 y 2012 combinando alertas satelitales DETER con operaciones de control y restricciones de crédito (evaluaciones de Climate Policy Initiative); el Perú ya produce alertas en Geobosques, pero la Defensoría del Pueblo advierte que no se traducen en intervenciones sistemáticas.",
+   "entrega": "Cinco salas de control regional operando y un tablero público con el 100 % de alertas mayores a 5 ha atendidas y su resultado.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SERFOR",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MP-FEMA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PNP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto del Programa Nacional de Conservación de Bosques (MINAM) y de los gobiernos regionales; cooperación internacional (acuerdos de pagos por resultados en REDD+).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de alertas > 5 ha con intervención en ≤ 72 h; hectáreas deforestadas por año en las cinco regiones (Geobosques).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-20",
+    "DIG-25",
+    "GOB-07"
+   ],
+   "riesgo": "Que las brigadas no tengan combustible, seguridad ni respaldo fiscal frente a economías ilegales armadas; captura regional.",
+   "fuentes": [
+    {
+     "titulo": "MINAM – Geobosques, plataforma de monitoreo de bosques amazónicos",
+     "url": "https://geobosques.minam.gob.pe/geobosque/view/perdida.php"
+    },
+    {
+     "titulo": "Defensoría del Pueblo – Exhorta a reforzar la protección de la Amazonía frente a la persistente pérdida de bosques",
+     "url": "https://www.defensoria.gob.pe/defensoria-del-pueblo-exhorta-al-estado-a-reforzar-la-proteccion-de-la-amazonia-peruana-frente-a-la-persistente-perdida-de-bosques/"
+    },
+    {
+     "titulo": "Ojo Público – Pérdida de bosques crece entre retrasos del Minam y cifras paralelas",
+     "url": "https://ojo-publico.com/ambiente/territorio-amazonas/perdida-bosques-crece-entre-retrasos-del-minam-y-cifras-paralelas"
+    }
+   ],
+   "pedn": [
+    "AE2.4.1",
+    "AE2.1.5"
+   ]
+  },
+  {
+   "id": "AMB-02",
+   "titulo": "Completar la zonificación forestal y el catastro forestal de todas las regiones amazónicas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 29763 ya manda la zonificación forestal; basta resolución del SERFOR y aprobación regional por ordenanza. No requiere ley nueva.",
+   "etapa": "2026-2031",
+   "que": "Se termina la zonificación forestal de las regiones con bosques (Loreto, Ucayali, Madre de Dios, San Martín, Amazonas, Huánuco, Junín, Pasco, Cusco, Puno, Cajamarca) y se integra en un catastro forestal digital interoperable con el catastro rural, el de comunidades nativas y el minero. La zonificación dice qué tierra es para producción forestal, para protección y para uso agropecuario, y se vuelve la capa de referencia para titular, otorgar concesiones y aprobar proyectos. Se publica en datos abiertos.",
+   "evidencia": "La zonificación forestal es el instrumento que la Ley 29763 prevé para ordenar el uso del bosque; su ausencia fue uno de los argumentos para la Ley 31973. Sin una capa oficial, cada entidad titula u otorga derechos sobre información distinta (SERFOR; SPDA).",
+   "entrega": "Zonificación forestal aprobada en 11 regiones y catastro forestal único en línea.",
+   "responsable": "SERFOR",
+   "entidades": [
+    {
+     "sigla": "SERFOR",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "COFOPRI",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del SERFOR y de los gobiernos regionales; cooperación (programas forestales de Alemania, Noruega, Reino Unido u otros por gestionar).",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de regiones con zonificación forestal aprobada; % de títulos rurales en Amazonía otorgados con consulta a la capa de zonificación.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "GOB-07"
+   ],
+   "riesgo": "Presión de gremios agrarios y de traficantes de tierras para clasificar bosque como apto agrícola; lentitud de los gobiernos regionales.",
+   "fuentes": [
+    {
+     "titulo": "Actualidad Ambiental (SPDA) – Procesos normativos que buscan derogar la Ley 31973",
+     "url": "https://www.actualidadambiental.pe/cuales-son-los-procesos-normativos-que-buscan-derogar-la-ley-antiforestal/"
+    },
+    {
+     "titulo": "MINAM – Geobosques, plataforma de monitoreo de bosques amazónicos",
+     "url": "https://geobosques.minam.gob.pe/geobosque/view/perdida.php"
+    }
+   ],
+   "pedn": [
+    "AE2.1.5",
+    "AE2.1.1"
+   ]
+  },
+  {
+   "id": "AMB-03",
+   "titulo": "Modificar la Ley 31973 para restituir el ordenamiento previo a titular tierras con bosque",
+   "tipo": "derogacion",
+   "necesita_ley": "si",
+   "por_que_ley": "Solo una ley puede derogar o modificar la Ley 31973. No crea gasto, por lo que es admisible por iniciativa congresal; debe pasar por consulta previa si afecta a pueblos indígenas.",
+   "etapa": "2026-2031",
+   "que": "Se derogan los artículos de la Ley 31973 que eliminaron la clasificación de tierras por capacidad de uso mayor y la exigencia de zonificación forestal para titular o reconocer predios en zonas con bosque, y se reemplazan por una regla clara: los predios con uso agropecuario anterior a una fecha de corte, verificada con imágenes satelitales históricas, se regularizan; todo bosque talado después de esa fecha no se titula y debe restaurarse. La regla convive con la zonificación de AMB-02.",
+   "evidencia": "La Ley 31973 (enero de 2024) fue cuestionada ante el Tribunal Constitucional; en la sentencia de los expedientes acumulados 00002, 00003 y 00005-2024-PI/TC (2025) el TC declaró inconstitucionales sus disposiciones complementarias transitorias primera y segunda y desestimó el resto. Varios proyectos de ley de derogación siguen pendientes y estudios académicos (2025) concluyen que debilitó la gestión forestal.",
+   "entrega": "Una ley modificatoria con fecha de corte verificable por satélite y un registro público de predios regularizados.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SERFOR",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "No requiere gasto adicional.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas de bosque tituladas como predio agrícola después de la fecha de corte (meta: cero).",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley 31973, Ley que modifica la Ley 29763, Ley Forestal y de Fauna Silvestre",
+     "motivo": "Eliminó la clasificación de tierras por capacidad de uso mayor como filtro para titular predios en zonas con bosque, lo que en la práctica permite regularizar deforestación reciente."
+    }
+   ],
+   "depende_de": [
+    "AMB-02"
+   ],
+   "riesgo": "Conflicto con productores que ya titularon o esperan titular; si la fecha de corte no se verifica bien, se repite el incentivo a deforestar.",
+   "fuentes": [
+    {
+     "titulo": "Tribunal Constitucional – Nota: TC declara inconstitucionales la primera y segunda disposiciones complementarias transitorias de la Ley 31973",
+     "url": "https://www.tc.gob.pe/institucional/notas-de-prensa/tc-declara-inconstitucionales-primera-y-segunda-disposiciones-complementarias-transitorias-de-la-ley-31973/"
+    },
+    {
+     "titulo": "Tribunal Constitucional – Sentencia Exp. 00002-2024-PI/TC y acumulados (Ley 31973)",
+     "url": "https://tc.gob.pe/jurisprudencia/2025/00002-2024-AI.pdf"
+    },
+    {
+     "titulo": "Actualidad Ambiental (SPDA) – Procesos normativos que buscan derogar la Ley 31973",
+     "url": "https://www.actualidadambiental.pe/cuales-son-los-procesos-normativos-que-buscan-derogar-la-ley-antiforestal/"
+    }
+   ],
+   "pedn": [
+    "AE2.1.5",
+    "AE2.1.1"
+   ]
+  },
+  {
+   "id": "AMB-04",
+   "titulo": "Titular comunidades nativas y pagarles por conservar bosque con transferencias directas condicionadas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: el Programa Nacional de Conservación de Bosques (MINAM) ya opera transferencias directas condicionadas; la titulación es función regional con apoyo de MIDAGRI. Basta presupuesto y metas.",
+   "etapa": "2026-2031",
+   "que": "Se completa la titulación y georreferenciación de las comunidades nativas pendientes, empezando por las que tienen frentes de deforestación, minería o coca. A las comunidades tituladas se les ofrece un convenio de conservación: reciben una transferencia anual por hectárea conservada, verificada con Geobosques, que invierten en planes de vida (vigilancia comunal, negocios sostenibles, salud, educación). Se financian también comités de vigilancia indígena conectados a la sala de control de AMB-01.",
+   "evidencia": "Las tierras indígenas tituladas en la Amazonía peruana tienen menor deforestación que tierras comparables (Blackman et al., 2017, PNAS); el Programa Bosques del MINAM opera transferencias directas condicionadas desde hace más de una década (evaluación de impacto por verificar).",
+   "entrega": "Todas las comunidades nativas con solicitud pendiente tituladas y georreferenciadas; convenios de conservación cubriendo el bosque comunal en riesgo alto.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "COMUNIDADES NATIVAS",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINAM (Programa Bosques); pagos por resultados REDD+ y mercado de carbono (AMB-17).",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de comunidades tituladas; hectáreas bajo convenio de conservación; deforestación dentro de comunidades con convenio vs. sin convenio.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "GOB-21",
+    "SOB-11"
+   ],
+   "riesgo": "Retrasos en la titulación por superposición con concesiones o predios; pagos insuficientes frente al ingreso de la minería o la coca.",
+   "fuentes": [
+    {
+     "titulo": "Blackman et al. (2017) – Titling indigenous communities protects forests in the Peruvian Amazon, PNAS",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.1603290114"
+    },
+    {
+     "titulo": "MINAM – Geobosques, plataforma de monitoreo de bosques amazónicos",
+     "url": "https://geobosques.minam.gob.pe/geobosque/view/perdida.php"
+    }
+   ],
+   "pedn": [
+    "AE2.4.1",
+    "AE2.1.6"
+   ]
+  },
+  {
+   "id": "AMB-05",
+   "titulo": "Cortar el negocio de la minería ilegal trazando oro, mercurio y dragas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "La mayor parte es acción ejecutiva (SUNAT, MINEM, PNP, Marina). Es 'parcial' porque la trazabilidad obligatoria del oro con sanciones nuevas a compradores y exportadores requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Se ataca el negocio y no solo la balsa: (1) trazabilidad del oro desde la concesión hasta la exportación con declaración de origen, cruce con capacidad productiva y alertas de lavado de la UIF; (2) control de insumos químicos y fiscalizados, mercurio y combustible en Madre de Dios, Puno, Amazonas, Loreto y Huánuco; (3) interdicción con destrucción de dragas y maquinaria en ríos y ANP; (4) recuperación de áreas degradadas en La Pampa y corredores mineros. Se coordina con DEVIDA donde coinciden minería y coca.",
+   "evidencia": "La minería aurífera deforestó 30 846 ha de bosque primario en el sur amazónico peruano entre enero de 2021 y marzo de 2024, buena parte fuera del corredor minero (MAAP #208). Operaciones de interdicción sostenidas en La Pampa (2019) redujeron temporalmente la deforestación (MAAP), pero sin control del oro la actividad se desplaza.",
+   "entrega": "Sistema de trazabilidad del oro operativo para el 100 % de exportaciones; reducción medible de la deforestación por minería en Madre de Dios.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PNP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MGP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "UIF-SBS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de MININTER, MINDEF, SUNAT y MINEM; recuperación de bienes por extinción de dominio.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas deforestadas por minería al año (MAAP / Geobosques); kg de oro exportado sin origen verificable.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-21",
+    "AMB-06"
+   ],
+   "riesgo": "Violencia de las economías ilegales; corrupción local; desplazamiento hacia nuevas zonas; conflicto con mineros en proceso de formalización.",
+   "fuentes": [
+    {
+     "titulo": "Amazon Conservation / MAAP – Minería aurífera en la Amazonía sur del Perú",
+     "url": "https://www.amazonconservation.org/new-maap-report-gold-mining-in-the-southern-peruvian-amazon/"
+    },
+    {
+     "titulo": "Actualidad Ambiental – Madre de Dios: minería deforestó más de 30 mil ha de bosques primarios en tres años",
+     "url": "https://www.actualidadambiental.pe/mineria-ilegal-madre-de-dios-deforestacion-de-bosque"
+    }
+   ],
+   "pedn": [
+    "AE3.3.19",
+    "AE2.4.1"
+   ]
+  },
+  {
+   "id": "AMB-06",
+   "titulo": "Vigilar el mercurio en ríos, sedimentos y peces de las zonas mineras y publicarlo",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El monitoreo y la fiscalización ambiental ya son funciones del OEFA, la ANA y el MINAM (Ley 29325 del SINEFA, Ley 29338 de Recursos Hídricos). Basta con un programa presupuestal y convenios.",
+   "etapa": "2026-2031",
+   "que": "El MINAM, el OEFA y la ANA instalan una red permanente de monitoreo de mercurio y otros metales en agua, sedimentos y peces de consumo en las cuencas afectadas por la minería aurífera ilegal e informal: Madre de Dios (Tambopata, Inambari, Malinowski), Puno (Ramis, Suches, lago Titicaca), Nanay y Napo en Loreto, Cenepa, Huallaga y Pataz. Los resultados se publican cada trimestre en un mapa abierto, con alertas de consumo de pescado en lenguas originarias para las comunidades ribereñas. Cuando los valores superan los estándares, se activa la Declaratoria de Emergencia Ambiental. Los datos sirven para priorizar la restauración (MIN-10), sustentar sanciones y reportar avances al Convenio de Minamata.",
+   "evidencia": "Estudios en Madre de Dios han medido mercurio en peces y en personas por encima de los límites de referencia de la OMS (cifras específicas por verificar). El Perú ratificó el Convenio de Minamata en 2016 (fecha por verificar), que obliga a reportar el uso de mercurio en la minería artesanal. Hoy el monitoreo es puntual y por campañas, no continuo.",
+   "entrega": "Red de monitoreo de mercurio en al menos 10 cuencas mineras, con informes trimestrales abiertos y alertas de consumo de pescado.",
+   "responsable": "OEFA",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SANIPES",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del OEFA y de la ANA; cooperación del Fondo para el Medio Ambiente Mundial (GEF) en el marco del Convenio de Minamata.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de cuencas con monitoreo continuo; % de puntos con mercurio en peces por encima del estándar; alertas emitidas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-04",
+    "MIN-05",
+    "AMB-05",
+    "MIN-09",
+    "MIN-10"
+   ],
+   "riesgo": "Que los resultados no se publiquen por presión local, o que el monitoreo exista sin consecuencias (sanción, restauración o alerta sanitaria).",
+   "fuentes": [
+    {
+     "titulo": "UNEP – Convenio de Minamata sobre el Mercurio (Partes)",
+     "url": "https://minamataconvention.org/en/parties"
+    },
+    {
+     "titulo": "OEFA – Organismo de Evaluación y Fiscalización Ambiental",
+     "url": "https://www.gob.pe/oefa"
+    }
+   ],
+   "pedn": [
+    "AE2.6.8",
+    "AE3.3.19"
+   ]
+  },
+  {
+   "id": "AMB-07",
+   "titulo": "Intensificar la agricultura en tierras ya deforestadas con agroforestería, crédito y asistencia técnica",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: programas existentes de MIDAGRI (AGROIDEAS, AGRORURAL, extensión) y Agrobanco con reglas de elegibilidad por decreto supremo; no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Para que el pequeño productor amazónico no necesite tumbar más monte, se le ayuda a producir más en la tierra que ya abrió: sistemas agroforestales de cacao, café y frutales, recuperación de pasturas degradadas, semilla mejorada y asistencia técnica en campo. El crédito público y los cofinanciamientos solo se otorgan a predios sin deforestación posterior a la fecha de corte verificada por satélite (vínculo con AMB-03). Prioriza San Martín, Ucayali, Huánuco, Junín y Amazonas.",
+   "evidencia": "La agricultura de pequeña escala es la principal causa directa de pérdida de bosque en la Amazonía peruana según el MINAM; Brasil logró reducir deforestación condicionando el crédito rural a la conformidad ambiental (Resolución 3545 del Banco Central de Brasil, evaluada por Climate Policy Initiative).",
+   "entrega": "100 000 ha de tierras degradadas convertidas a sistemas agroforestales o pasturas mejoradas con productores verificados libres de deforestación (meta indicativa).",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "AGROBANCO",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SERFOR",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto de MIDAGRI y gobiernos regionales; fondos de cooperación y compradores con compromisos de cadena libre de deforestación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas de tierra degradada recuperada; rendimiento por hectárea; deforestación en predios beneficiarios (Geobosques).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ECP-18",
+    "ECP-19",
+    "AMB-03"
+   ],
+   "riesgo": "Que la mayor productividad atraiga a más migrantes y abra más frontera (efecto rebote); capacidad limitada de extensión.",
+   "fuentes": [
+    {
+     "titulo": "MINAM – Geobosques, plataforma de monitoreo de bosques amazónicos",
+     "url": "https://geobosques.minam.gob.pe/geobosque/view/perdida.php"
+    },
+    {
+     "titulo": "Defensoría del Pueblo – Exhorta a reforzar la protección de la Amazonía frente a la persistente pérdida de bosques",
+     "url": "https://www.defensoria.gob.pe/defensoria-del-pueblo-exhorta-al-estado-a-reforzar-la-proteccion-de-la-amazonia-peruana-frente-a-la-persistente-perdida-de-bosques/"
+    }
+   ],
+   "pedn": [
+    "AE2.1.6",
+    "AE3.3.3"
+   ]
+  },
+  {
+   "id": "AMB-08",
+   "titulo": "Erradicar la coca ilícita en áreas protegidas y comunidades con desarrollo alternativo sostenido",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: Estrategia Nacional y programas presupuestales de DEVIDA; erradicación por CORAH; no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Se prioriza erradicar y no permitir resiembra de coca ilícita dentro de áreas naturales protegidas, zonas de amortiguamiento y comunidades nativas que lo pidan, y se acompaña con desarrollo alternativo de largo plazo (cinco a diez años): cacao y café con asociatividad, títulos, caminos vecinales, mercados y servicios. La erradicación sin alternativa no se ejecuta; la alternativa sin erradicación tampoco. El seguimiento se hace con el monitoreo satelital anual de DEVIDA y UNODC.",
+   "evidencia": "DEVIDA reportó tres años consecutivos de reducción de la coca (84 546 ha en 2025); el caso San Martín muestra que el desarrollo alternativo sostenido redujo la coca y la violencia, aunque su reproducibilidad es debatida (UNODC; estudios por verificar).",
+   "entrega": "Cero hectáreas de coca dentro de ANP y reducción de 50 % de la coca en comunidades nativas.",
+   "responsable": "DEVIDA",
+   "entidades": [
+    {
+     "sigla": "DEVIDA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MININTER",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SERNANP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de DEVIDA y MININTER; cooperación internacional antidrogas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas de coca en ANP y en comunidades nativas (DEVIDA/UNODC); % de familias en desarrollo alternativo que no vuelven a la coca a 5 años.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-01"
+   ],
+   "riesgo": "Violencia del narcotráfico contra guardaparques y líderes indígenas; resiembra si el desarrollo alternativo se corta por presupuesto.",
+   "fuentes": [
+    {
+     "titulo": "DEVIDA – Perú reduce en 5,8 % la superficie de cultivos de coca (monitoreo 2025)",
+     "url": "https://www.gob.pe/institucion/devida/noticias/1420118-peru-reduce-en-5-8-la-superficie-de-cultivos-de-coca-y-consolida-tendencia-descendente-por-tercer-ano-consecutivo"
+    },
+    {
+     "titulo": "DEVIDA – Perú reduce por segundo año consecutivo los cultivos de coca (monitoreo 2024)",
+     "url": "https://www.gob.pe/institucion/devida/noticias/1195330-peru-reduce-por-segundo-ano-consecutivo-los-cultivos-de-coca"
+    },
+    {
+     "titulo": "Mongabay – Dos tercios de los cultivos de coca ilícitos están dentro de áreas naturales y territorios indígenas",
+     "url": "https://es.mongabay.com/2024/07/peru-dos-tercios-cultivos-de-coca-ilicitos-estan-dentro-de-areas-naturales-territorios-indigenas/"
+    }
+   ],
+   "pedn": [
+    "AE2.4.1",
+    "AE3.3.19"
+   ]
+  },
+  {
+   "id": "AMB-09",
+   "titulo": "Financiar la gestión efectiva de todas las áreas naturales protegidas con un fondo permanente",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: presupuesto del SERNANP y fondos fiduciarios existentes (PROFONANPE); no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Cada área natural protegida nacional tiene jefatura, guardaparques suficientes, puestos de control, plan maestro vigente y monitoreo biológico. Se consolida un fondo de financiamiento permanente (modelo 'financiamiento para la permanencia') que combina presupuesto público creciente con aportes de cooperación y donantes, administrado por PROFONANPE con metas de efectividad de gestión. Las áreas de conservación regional y privadas reciben asistencia técnica y acceso a pagos por servicios ecosistémicos.",
+   "evidencia": "El Perú tiene alrededor de 22,5 millones de hectáreas en ANP (≈ 17 % del territorio, SERNANP). El esquema 'Patrimonio Natural del Perú' (2019) aplica el modelo de financiamiento para la permanencia usado en Brasil (ARPA) y Costa Rica; sus resultados deben evaluarse (por verificar).",
+   "entrega": "100 % de ANP nacionales con plan maestro vigente y dotación mínima de guardaparques; brecha de financiamiento cerrada.",
+   "responsable": "SERNANP",
+   "entidades": [
+    {
+     "sigla": "SERNANP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PROFONANPE",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del SERNANP, fondo PROFONANPE, cooperación y pagos por servicios ecosistémicos.",
+   "costo_referencial": "no estimado",
+   "indicador": "Índice de efectividad de gestión de ANP (SERNANP); deforestación dentro de ANP y zonas de amortiguamiento.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-01",
+    "AMB-08"
+   ],
+   "riesgo": "Recortes presupuestales y presión para recortar o recategorizar ANP con fines extractivos.",
+   "fuentes": [
+    {
+     "titulo": "ProActivo – Perú cuenta con 185 ANP que abarcan 22,5 millones de hectáreas (17,22 % del territorio)",
+     "url": "https://proactivo.com.pe/?p=58626"
+    },
+    {
+     "titulo": "Gestión – Perú cuenta con 246 áreas naturales protegidas: quiénes las administran",
+     "url": "https://gestion.pe/peru/gobierno-minam-sernanp-peru-cuenta-con-246-areas-naturales-protegidas-quienes-la-administran-noticia/"
+    }
+   ],
+   "pedn": [
+    "AE2.4.1"
+   ]
+  },
+  {
+   "id": "AMB-10",
+   "titulo": "Prevenir los incendios forestales con brigadas comunales, alerta temprana y prohibición estacional de quemas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: Plan de prevención de incendios forestales de SERFOR, ordenanzas regionales y programa presupuestal de GRD (PP 0068); no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Antes de cada temporada seca se activa un plan: alerta de focos de calor (SERFOR, SENAMHI, sensores satelitales), calendario de prohibición de quemas agrícolas en zonas de riesgo, brigadas comunales capacitadas y equipadas en Amazonía y sierra, y alternativas a la quema (mecanización ligera, compost). Las quemas con daño a bosque se sancionan y se publica dónde ocurren.",
+   "evidencia": "La Amazonía peruana perdió 47 574 ha de bosque por fuego en 2024, más del doble que en 2023; SERFOR registra más de 759 mil ha afectadas por incendios forestales entre 2017 y 2024 (El Comercio, con datos de SERFOR).",
+   "entrega": "1 000 brigadas comunales equipadas (meta indicativa) y reducción de la superficie de bosque quemada a la mitad hacia 2031.",
+   "responsable": "SERFOR",
+   "entidades": [
+    {
+     "sigla": "SERFOR",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CGBVP",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "PP 0068 (reducción de vulnerabilidad y atención de emergencias por desastres) y presupuesto de SERFOR y gobiernos regionales.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas de bosque afectadas por incendios al año (SERFOR/Geobosques); tiempo de respuesta a focos.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-20"
+   ],
+   "riesgo": "Sequías más severas por cambio climático y El Niño; dependencia cultural de la quema.",
+   "fuentes": [
+    {
+     "titulo": "El Comercio – 2,8 millones de hectáreas en la Amazonía afectadas por el fuego en 2024",
+     "url": "https://elcomercio.pe/tecnologia/ecologia/incendios-forestales-28-millones-de-hectareas-en-la-amazonia-fueron-afectadas-por-el-fuego-en-2024-noticia/"
+    }
+   ],
+   "pedn": [
+    "AE2.4.1",
+    "AE2.2.5"
+   ]
+  },
+  {
+   "id": "AMB-11",
+   "titulo": "Cerrar los botaderos y construir rellenos sanitarios provinciales y mancomunados",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: Invierte.pe, Obras por Impuestos, programa presupuestal 0036 de residuos y planes de cierre exigidos por el DL 1278; no requiere ley.",
+   "etapa": "2026-2036",
+   "que": "Se construye una red de rellenos sanitarios provinciales o mancomunados (un relleno sirve a varios distritos) con plantas de valorización de orgánicos, y se clausuran y recuperan los botaderos con un plan de cierre fiscalizado por el OEFA. Se prioriza por población servida y riesgo (botaderos junto a ríos, playas o centros poblados). Las municipalidades firman contratos de servicio con tarifa que cubre la operación; el Gobierno nacional cofinancia la inversión inicial.",
+   "evidencia": "Solo alrededor de 53 % de los residuos urbanos van a rellenos sanitarios (MINAM); el OEFA registra miles de áreas degradadas por residuos, más de 90 % bajo responsabilidad de gobiernos locales. Proyectos de rellenos con BID/JICA en 31 ciudades priorizadas muestran que el modelo provincial funciona cuando hay operador y tarifa.",
+   "entrega": "Rellenos sanitarios operando en todas las capitales de provincia y 100 % de los botaderos priorizados clausurados.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Invierte.pe (PP 0036), Obras por Impuestos, endeudamiento con banca multilateral y tarifas municipales.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de residuos urbanos dispuestos en rellenos sanitarios; N.º de botaderos activos (inventario OEFA).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-07"
+   ],
+   "riesgo": "Oposición vecinal a la ubicación de rellenos; municipios que no cobran arbitrios y no sostienen la operación.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Minam impulsa proyectos integrales de rellenos sanitarios mediante obras por impuestos",
+     "url": "https://andina.pe/ingles/noticia-minam-impulsa-proyectos-integrales-rellenos-sanitarios-mediante-obras-impuestos-816896.aspx"
+    },
+    {
+     "titulo": "Andina – Rellenos sanitarios: Minam trabaja con 31 ciudades priorizadas",
+     "url": "https://andina.pe/ingles/noticia-rellenos-sanitarios-minam-trabaja-31-ciudades-priorizadas-para-gestionar-residuos-725627.aspx"
+    },
+    {
+     "titulo": "OEFA – Áreas degradadas por residuos sólidos municipales (Áncash)",
+     "url": "https://www.gob.pe/institucion/oefa/noticias/1399165-oefa-identifica-162-areas-degradadas-por-residuos-solidos-municipales-que-requieren-atencion-en-ancash"
+    },
+    {
+     "titulo": "MEF – Programa de Incentivos: metas de residuos sólidos",
+     "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/metas/Presentacion_Residuos_A.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.6.2",
+    "AE2.6.9"
+   ]
+  },
+  {
+   "id": "AMB-12",
+   "titulo": "Cobrar arbitrios de limpieza realistas junto con el recibo de agua o luz",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "Los arbitrios son tributos municipales regulados por ley (Ley de Tributación Municipal); permitir el cobro conjunto con recibos de servicios públicos y criterios uniformes de costo requiere modificar esa ley. El resto es asistencia técnica y metas del Programa de Incentivos.",
+   "etapa": "2026-2031",
+   "que": "Se establece una metodología nacional de costos del servicio de limpieza pública y se permite a las municipalidades cobrar el arbitrio junto con el recibo de agua o electricidad, con subsidio cruzado para hogares pobres. El Programa de Incentivos del MEF premia a los municipios que cubren al menos el 80 % del costo con recaudación propia. Así el relleno sanitario (AMB-11) se puede operar sin colapsar.",
+   "evidencia": "La morosidad y el bajo cobro de arbitrios impiden una buena gestión de residuos según el MINAM; el cobro con servicios públicos eleva la recaudación en experiencias de Colombia (cobro de aseo en factura de agua, por verificar).",
+   "entrega": "Metodología aprobada y 100 municipalidades con cobro conjunto implementado (meta indicativa).",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNASS",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Recaudación municipal; Programa de Incentivos a la Mejora de la Gestión Municipal.",
+   "costo_referencial": "no estimado",
+   "indicador": "% del costo del servicio de residuos cubierto con arbitrios; morosidad.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-11"
+   ],
+   "riesgo": "Rechazo ciudadano al alza del arbitrio; resistencia de empresas de servicios a cobrar por terceros.",
+   "fuentes": [
+    {
+     "titulo": "MEF – Programa de Incentivos: metas de residuos sólidos",
+     "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/metas/Presentacion_Residuos_A.pdf"
+    },
+    {
+     "titulo": "Actualidad Ambiental – Minam: morosidad y falta de pago de arbitrios impide una buena gestión de residuos",
+     "url": "https://www.actualidadambiental.pe/?p=52706"
+    }
+   ],
+   "pedn": [
+    "AE2.6.2"
+   ]
+  },
+  {
+   "id": "AMB-13",
+   "titulo": "Aplicar la responsabilidad extendida del productor a envases, plásticos y electrónicos con metas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El DL 1278 ya establece la responsabilidad extendida del productor y el reglamento de RAEE existe; basta decretos supremos que fijen metas por tipo de residuo. La Ley 29419 ya reconoce a los recicladores.",
+   "etapa": "2026-2036",
+   "que": "Productores e importadores de envases, plásticos, aparatos eléctricos y electrónicos, llantas y baterías financian sistemas de recolección y valorización con metas anuales crecientes, auditadas y publicadas. Los sistemas contratan a asociaciones de recicladores formalizados para la recolección selectiva municipal. Las compras públicas exigen contenido reciclado mínimo en papel, plásticos y mobiliario. Las municipalidades reciben del sistema REP un pago por tonelada recolectada selectivamente, lo que financia el servicio.",
+   "evidencia": "La responsabilidad extendida del productor en la Unión Europea y Chile (Ley REP 20.920) elevó tasas de recolección de envases; el Perú la tiene en el DL 1278 pero sin metas exigibles para la mayoría de flujos (MINAM).",
+   "entrega": "Metas REP vigentes para cinco flujos de residuos y 10 000 recicladores formalizados con ingreso estable (meta indicativa).",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "RECICLADORES",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Financiado por los productores (costo internalizado); presupuesto de fiscalización de OEFA y PRODUCE.",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de valorización por flujo de residuo; N.º de recicladores formalizados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-12"
+   ],
+   "riesgo": "Captura por la industria en la fijación de metas; competencia desleal de importadores informales.",
+   "fuentes": [
+    {
+     "titulo": "Expreso – La informalidad en el reciclaje de residuos sólidos en el Perú",
+     "url": "https://www.expreso.com.pe/opinion/la-informalidad-en-el-reciclaje-de-residuos-solidos-en-el-peru-jorge-baca-campodonico/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.11",
+    "AE2.6.2"
+   ]
+  },
+  {
+   "id": "AMB-14",
+   "titulo": "Medir el aire en ciudades grandes y reducir emisiones de transporte e industria",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: decretos supremos de estándares (ECA) y límites máximos permisibles, planes de acción de Zonas de Atención Prioritaria; no requiere ley.",
+   "etapa": "2026-2036",
+   "que": "Se amplía la red de monitoreo de calidad del aire de SENAMHI y gobiernos locales a todas las ciudades de más de 250 mil habitantes, con datos abiertos en tiempo real. Con esa medición se ejecutan planes de acción: estándares vehiculares más estrictos para vehículos nuevos e importados, chatarreo de buses y camiones viejos, inspección técnica efectiva, control de emisiones de ladrilleras y fundiciones, pavimentación de vías de tierra y transporte público limpio.",
+   "evidencia": "Lima registró un promedio de 18,2 µg/m³ de PM2,5 en 2024 (IQAir), más de tres veces la guía de la OMS (5 µg/m³), y SENAMHI reporta niveles insalubres en distritos de Lima Norte y Este. Ciudad de México y Santiago redujeron material particulado con monitoreo, normas vehiculares y planes de descontaminación sostenidos.",
+   "entrega": "Red de monitoreo en 20 ciudades con datos abiertos y planes de acción aprobados en cada una.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MTC",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto de MINAM, SENAMHI y gobiernos locales.",
+   "costo_referencial": "no estimado",
+   "indicador": "PM2,5 y PM10 medio anual por ciudad (SENAMHI); N.º de ciudades con monitoreo continuo.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "GOB-11"
+   ],
+   "riesgo": "Resistencia de transportistas e importadores de vehículos usados; mala calidad de datos si las estaciones no tienen mantenimiento.",
+   "fuentes": [
+    {
+     "titulo": "IQAir – Lima among the most polluted cities in the world (2025)",
+     "url": "https://www.iqair.com/newsroom/lima-among-the-most-polluted-cities-in-the-world-09-06-2025"
+    },
+    {
+     "titulo": "Gestión – SENAMHI: la calidad del aire para casi el 50 % de Lima Metropolitana es insalubre",
+     "url": "https://gestion.pe/peru/senamhi-la-calidad-del-aire-para-casi-el-50-de-lima-metropolitana-es-insalubre-noticia/"
+    },
+    {
+     "titulo": "OMS – Directrices mundiales de calidad del aire 2021",
+     "url": "https://www.who.int/publications/i/item/9789240034228"
+    }
+   ],
+   "pedn": [
+    "AE2.6.7",
+    "AE3.3.22"
+   ]
+  },
+  {
+   "id": "AMB-15",
+   "titulo": "Exigir análisis de riesgo climático y de desastres a toda inversión pública",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: directiva de Invierte.pe (MEF) y lineamientos del Plan Nacional de Adaptación al Cambio Climático; no requiere ley porque la Ley 30754 y la Ley 29664 ya lo exigen en términos generales.",
+   "etapa": "2026-2031",
+   "que": "Ningún proyecto de agua, transporte, salud, educación, vivienda o riego se declara viable sin un análisis de exposición a peligros (lluvias extremas, huaicos, inundación, sequía, sismo, retroceso glaciar) con mapas oficiales de CENEPRED, SENAMHI, INGEMMET e IGP, y sin medidas de adaptación costeadas. El MEF publica fichas tipo por sector y un mapa abierto de peligros para formuladores. Se aplica también a APP y Obras por Impuestos.",
+   "evidencia": "El Plan Nacional de Adaptación y la NDC 3.0 del Perú priorizan la adaptación en agua, agro, salud, bosques, pesca y transporte; el Banco Mundial estima que la infraestructura resiliente rinde beneficios netos de alrededor de 4 dólares por cada dólar invertido en países de ingreso bajo y medio (informe 'Lifelines', 2019).",
+   "entrega": "Directiva de Invierte.pe vigente y 100 % de proyectos de más de 15 millones de soles con análisis de riesgo climático aprobado.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CENEPRED",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Sin costo adicional relevante: forma parte de la preinversión.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de proyectos viables con análisis de riesgo climático; pérdidas en infraestructura pública por eventos climáticos.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-20",
+    "TAL-10"
+   ],
+   "riesgo": "Que se convierta en un trámite de copiar y pegar sin información local de peligros.",
+   "fuentes": [
+    {
+     "titulo": "Gobierno del Perú – Contribución Determinada a Nivel Nacional (NDC 3.0) ante la CMNUCC",
+     "url": "https://unfccc.int/sites/default/files/2025-11/Documento NDC 3.0_UNFCCC.pdf"
+    },
+    {
+     "titulo": "Banco Mundial – Lifelines: The Resilient Infrastructure Opportunity (2019)",
+     "url": "https://openknowledge.worldbank.org/handle/10986/31805"
+    }
+   ],
+   "pedn": [
+    "AE2.2.4",
+    "AE2.7.2"
+   ]
+  },
+  {
+   "id": "AMB-16",
+   "titulo": "Convertir la NDC en presupuestos sectoriales de mitigación con registro y verificación públicos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: la Ley 30754 (Ley Marco sobre Cambio Climático) y su reglamento ya obligan a los sectores; basta resoluciones ministeriales con metas y su vinculación a programas presupuestales.",
+   "etapa": "2026-2031",
+   "que": "Cada ministerio con medidas de mitigación (energía, transporte, agro, forestal, residuos, industria) publica una hoja de ruta anual con presupuesto, responsable e indicador, alineada a la NDC 3.0 (tope de 179 MtCO2e al 2035). El inventario nacional de gases se publica cada dos años con un desfase máximo de dos años, y un tablero abierto muestra el avance de cada medida. La deforestación evitada (AMB-01 a AMB-09) es la mayor palanca.",
+   "evidencia": "El uso del suelo y los bosques generaron 53 % de las emisiones del Perú en 2016 (INGEI); por eso la NDC se cumple o se incumple en la Amazonía. Países con leyes climáticas y presupuesto etiquetado (Reino Unido, Chile) reportan mejor cumplimiento (por verificar).",
+   "entrega": "Hojas de ruta sectoriales aprobadas y presupuesto climático etiquetado en el presupuesto público.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MTC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de cada pliego; financiamiento climático internacional (fondos verdes, bancos multilaterales).",
+   "costo_referencial": "no estimado",
+   "indicador": "Emisiones nacionales de GEI (INGEI); % de medidas de la NDC con presupuesto asignado.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-01",
+    "ECP-27"
+   ],
+   "riesgo": "Que la hoja de ruta sea declarativa y sin presupuesto; desfase del inventario de emisiones.",
+   "fuentes": [
+    {
+     "titulo": "Gobierno del Perú – Contribución Determinada a Nivel Nacional (NDC 3.0) ante la CMNUCC",
+     "url": "https://unfccc.int/sites/default/files/2025-11/Documento NDC 3.0_UNFCCC.pdf"
+    },
+    {
+     "titulo": "Andina – Actualización de metas ante el cambio climático enfatiza la prevención de riesgos",
+     "url": "https://andina.pe/agencia/noticia-actualizacion-metas-ante-cambio-climatico-enfatiza-la-prevencion-riesgos-1052311.aspx"
+    },
+    {
+     "titulo": "Actualidad Ambiental – Presentan Inventario Nacional de GEI 2016 (USCUSS 53,09 %)",
+     "url": "https://www.actualidadambiental.pe/?p=71313"
+    }
+   ],
+   "pedn": [
+    "AE2.7.3",
+    "AE2.6.4"
+   ]
+  },
+  {
+   "id": "AMB-17",
+   "titulo": "Dar reglas claras al mercado de carbono: titularidad, reparto de beneficios y registro único",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Definir a quién pertenecen las reducciones de emisiones de bosques en tierras de comunidades, concesiones y ANP y cómo se reparten sus beneficios afecta derechos de propiedad: requiere ley. No crea gasto público.",
+   "etapa": "2026-2031",
+   "que": "Una ley modifica la Ley 30754 para fijar: (1) que las reducciones de emisiones solo se transfieren si están inscritas en el Registro Nacional de Medidas de Mitigación (RENAMI) y, si salen del país bajo el artículo 6 del Acuerdo de París, con autorización y ajuste correspondiente para evitar doble conteo; (2) la titularidad de los créditos generados en tierras de comunidades nativas y campesinas y la obligación de consentimiento informado; (3) un porcentaje mínimo de beneficios para las comunidades y otro para el Estado (ANP); (4) transparencia total de contratos y precios.",
+   "evidencia": "El Perú firmó con Suiza en 2020 el primer acuerdo bilateral del mundo bajo el artículo 6 y tiene acuerdos con Singapur y Corea; el RENAMI funciona por DS 010-2024-MINAM y sus tasas por DS 023-2025-MINAM. Investigaciones periodísticas documentan conflictos por proyectos de carbono en territorios indígenas sin reglas de reparto claras (Pulitzer Center).",
+   "entrega": "Una ley de mercados de carbono con registro público de contratos y reglas de reparto de beneficios.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SERNANP",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "No requiere gasto; genera ingresos para comunidades y ANP.",
+   "costo_referencial": "no estimado",
+   "indicador": "Toneladas de CO2e transferidas con autorización; % de beneficios recibidos por comunidades.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-04",
+    "GOB-21"
+   ],
+   "riesgo": "Créditos de baja calidad (sobreestimación de la deforestación evitada) que dañen la reputación del país; captura por intermediarios.",
+   "fuentes": [
+    {
+     "titulo": "MINAM – Decreto Supremo que aprueba las disposiciones para el funcionamiento del RENAMI",
+     "url": "https://cdna.www.gob.pe/institucion/minam/informes-publicaciones/6882169-publicacion-bilingue-decreto-supremo-que-aprueba-las-disposiciones-para-el-funcionamiento-del-registro-nacional-de-medidas-de-mitigacion-renami"
+    },
+    {
+     "titulo": "Climate Laws of the World – Decreto Supremo 023-2025-MINAM (tasas del RENAMI)",
+     "url": "https://climate-laws.org/document/supreme-decree-no-023-2025-minam_8bf6"
+    },
+    {
+     "titulo": "Pulitzer Center – Latin America and its new carbon sales amid uncertainty",
+     "url": "https://pulitzercenter.org/stories/andean-hearth-global-market-latin-america-and-its-new-carbon-sales-amid-uncertainty"
+    },
+    {
+     "titulo": "El Peruano – Perú y Singapur fortalecen cooperación para impulsar mercado de carbono",
+     "url": "https://elperuano.pe/noticia/293430-peru-y-singapur-fortalecen-cooperacion-para-impulsar-mercado-de-carbono-y-financiamiento-climatico"
+    }
+   ],
+   "pedn": [
+    "AE2.7.3",
+    "AE2.4.1"
+   ]
+  },
+  {
+   "id": "AMB-18",
+   "titulo": "Usar la delegación por El Niño de la Ley 32743 para prevenir",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "La Ley 32743 (22-oct-2026) delega facultades al Ejecutivo por 90 días (hasta ~20-ene-2027) en materias del Fenómeno El Niño; los decretos legislativos que se dicten tienen rango de ley. El resto (planes multisectoriales, transferencias) es acción ejecutiva.",
+   "etapa": "2026-2031",
+   "que": "Los decretos legislativos que se emitan con la delegación deben: priorizar descolmatación, defensas ribereñas, drenajes y quebradas con IOARR de emergencia por procedimiento simplificado (numeral 2.2.11 c); permitir Obras y Servicios por Impuestos en gestión del riesgo y vivienda rural de damnificados (2.2.11 a-b); facultar al INDECI a entregar ayuda humanitaria directa en los primeros 15 días (2.2.1); agilizar bonos habitacionales (2.2.14). Toda simplificación para el Plan Nacional de Infraestructura (2.2.7) mantiene intactas las obligaciones ambientales y de consulta previa, y toda solución temporal de agua (2.2.15) tiene fecha de término.",
+   "evidencia": "Tras El Niño costero de 2017 la reconstrucción tuvo baja ejecución inicial (25 % entre 2017 y 2018 según Contraloría) y no concluyó cerca de 30 % de su plan; la prevención cuesta menos que reconstruir (Banco Mundial, Lifelines). La matriz de articulación de la Ley 32743 con el PEDN identifica qué numerales acercan o alejan de las metas de gestión del riesgo.",
+   "entrega": "Decretos legislativos con salvaguardas ambientales explícitas y una cartera de intervenciones preventivas ejecutadas antes del pico de lluvias.",
+   "responsable": "PCM",
+   "entidades": [
+    {
+     "sigla": "PCM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "ANIN",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Reserva de contingencia, PP 0068, Obras por Impuestos y endeudamiento contingente.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de intervenciones preventivas concluidas antes de la temporada de lluvias; daños y damnificados por evento comparados con 2017.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-10",
+    "CON-14",
+    "AMB-15"
+   ],
+   "riesgo": "Que la simplificación se use para exceptuar estudios ambientales o adjudicar obras sin control; que las medidas temporales se vuelvan permanentes.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano – Ley 32743, delega facultades en seguridad ciudadana y Fenómeno El Niño (22-oct-2026)",
+     "url": "https://busquedas.elperuano.pe/"
+    },
+    {
+     "titulo": "Andina – Reconstrucción con Cambios: se ejecutó el 41 % de la inversión aprobada (Contraloría)",
+     "url": "https://andina.pe/agencia/noticia-reconstruccion-cambios-se-ejecuto-41-inversion-aprobada-780188.aspx"
+    },
+    {
+     "titulo": "El Búho – El Niño en Perú: ARCC no concluyó casi el 30 % de las obras del plan integral",
+     "url": "https://elbuho.pe/?p=329713"
+    }
+   ],
+   "pedn": [
+    "AE2.2.5",
+    "AE2.2.4"
+   ]
+  },
+  {
+   "id": "AMB-19",
+   "titulo": "Reubicar familias en riesgo no mitigable y cerrar las quebradas a nueva ocupación",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 29869 de reasentamiento poblacional ya regula el procedimiento; se ejecuta con planes de reasentamiento, programas de vivienda y control urbano municipal.",
+   "etapa": "2026-2046",
+   "que": "Con mapas de CENEPRED e INGEMMET se identifica a las familias que viven en cauces de quebradas, riberas y laderas con riesgo muy alto no mitigable (Lima, Arequipa, Piura, Áncash, Cusco). Se les ofrece reasentamiento voluntario con vivienda segura (bono habitacional) y servicios, y el terreno liberado se convierte en área verde o defensa. En paralelo se ejecutan obras de mitigación donde el riesgo sí es reducible: diques, disipadores de energía, mallas y canalizaciones de quebradas.",
+   "evidencia": "Los huaicos de 2017 afectaron sobre todo a viviendas en cauces de quebradas; la Ley 29869 existe desde 2012 pero su aplicación ha sido mínima por falta de vivienda alternativa y financiamiento (CENEPRED; Defensoría, por verificar).",
+   "entrega": "Catastro de viviendas en riesgo no mitigable y 30 000 familias reasentadas al 2036 (meta indicativa).",
+   "responsable": "MVCS",
+   "entidades": [
+    {
+     "sigla": "MVCS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "CENEPRED",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Bono Familiar Habitacional, PP 0068, Invierte.pe y Obras por Impuestos (numeral 2.2.11 de la Ley 32743).",
+   "costo_referencial": "no estimado",
+   "indicador": "Familias en zonas de riesgo no mitigable reasentadas; nuevas ocupaciones en quebradas (detección satelital).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-15"
+   ],
+   "riesgo": "Re-ocupación de los terrenos liberados por traficantes de tierras; rechazo de las familias a dejar su barrio.",
+   "fuentes": [
+    {
+     "titulo": "Gobierno del Perú – Estudio de vulnerabilidad y riesgo sísmico en Lima–Callao",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/5183107/Estudio%20de%20vulnerabilidad%20y%20Riesgo%20S%C3%ADsmico%20en%20Lima%20%E2%80%93%20Callao.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.2.2",
+    "AE2.1.7"
+   ]
+  },
+  {
+   "id": "AMB-20",
+   "titulo": "Reforzar las viviendas, escuelas y hospitales más vulnerables ante un gran sismo en Lima",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: programa del MVCS de reforzamiento de vivienda con bono, inversión sectorial de MINEDU y MINSA vía Invierte.pe; no requiere ley.",
+   "etapa": "2026-2046",
+   "que": "Se levanta un catastro de vulnerabilidad sísmica de Lima y Callao (tipo de suelo, material, autoconstrucción, pisos sobre la licencia) y se financia el reforzamiento estructural de viviendas autoconstruidas de alto riesgo con un bono y asistencia técnica certificada. Escuelas y hospitales críticos se refuerzan o reponen por cartera. Se ensaya cada año la continuidad de agua, electricidad, telecomunicaciones y hospitales con el escenario oficial de sismo 8,8 y tsunami.",
+   "evidencia": "El escenario de sismo 8,8 usado en el simulacro del INDECI estima 110 310 fallecidos, más de 2 millones de heridos, 353 495 viviendas destruidas y 623 882 inhabitables en Lima y Callao (Andina). Chile, con normas sísmicas y control de construcción efectivos, tuvo baja mortalidad en el sismo de 8,8 de 2010 en relación con su magnitud.",
+   "entrega": "Catastro de vulnerabilidad completo al 2031 y 100 000 viviendas reforzadas al 2036 (meta indicativa).",
+   "responsable": "MVCS",
+   "entidades": [
+    {
+     "sigla": "MVCS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CENEPRED",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MVCS (bono de reforzamiento), MINEDU, MINSA; seguros y banca multilateral.",
+   "costo_referencial": "no estimado",
+   "indicador": "Viviendas reforzadas; % de escuelas y hospitales de Lima con evaluación estructural aprobada.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EDU-09",
+    "SAL-22",
+    "CON-14"
+   ],
+   "riesgo": "Costo alto frente a otras prioridades sin un desastre reciente que presione; mala calidad de obra si no hay supervisión.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Simulacro multipeligro: así serían los resultados de un sismo real de magnitud 8,8",
+     "url": "https://andina.pe/agencia/noticia-simulacro-multipeligro-asi-serian-los-resultados-si-hubiera-un-sismo-real-magnitud-88-997008.aspx"
+    },
+    {
+     "titulo": "Gobierno del Perú – Estudio de vulnerabilidad y riesgo sísmico en Lima–Callao",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/5183107/Estudio%20de%20vulnerabilidad%20y%20Riesgo%20S%C3%ADsmico%20en%20Lima%20%E2%80%93%20Callao.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.2.2",
+    "AE2.3.1"
+   ]
+  },
+  {
+   "id": "AMB-21",
+   "titulo": "Reordenar el SINAGERD para que una sola autoridad responda por prevenir y por responder",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "La organización del SINAGERD y las funciones de INDECI y CENEPRED están fijadas en la Ley 29664; reordenarlas requiere ley. Crear o fusionar organismos es iniciativa del Ejecutivo (el Congreso no puede crear organismos ni gasto, art. 79 de la Constitución), por lo que debe ser un proyecto del Poder Ejecutivo o un decreto legislativo delegado.",
+   "etapa": "2026-2031",
+   "que": "Se modifica la Ley 29664 para que la rectoría del sistema tenga una sola cabeza técnica con dos brazos (prevención y respuesta) y un mandato claro sobre gobiernos regionales y locales: planes de gestión del riesgo obligatorios y verificados, oficinas municipales con personal mínimo certificado, y la Red Nacional de Alerta Temprana multiamenaza (TAL-10) con emisión automática para peligros súbitos (sismo, tsunami, huaico). Se asegura la continuidad de telecomunicaciones en desastres (CON-14) y un presupuesto mínimo de prevención atado a resultados.",
+   "evidencia": "La Ley 29664 (2011) separó la prevención (CENEPRED) de la respuesta (INDECI) bajo la PCM; la reconstrucción de 2017 necesitó crear una autoridad aparte (ARCC) y luego trasladar funciones a la ANIN, señal de que el sistema no tenía capacidad de recuperación. México (SINAPROC) y Chile (SENAPRED, 2021) unificaron prevención y respuesta en una agencia.",
+   "entrega": "Ley modificatoria del SINAGERD aprobada, con alerta temprana multiamenaza y planes de gestión del riesgo vigentes en todas las provincias.",
+   "responsable": "PCM",
+   "entidades": [
+    {
+     "sigla": "PCM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CENEPRED",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Reasignación de los presupuestos existentes de INDECI y CENEPRED; PP 0068.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de gobiernos locales con plan de gestión del riesgo vigente y verificado; tiempo de emisión de alertas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-10",
+    "CON-14",
+    "DIG-20"
+   ],
+   "riesgo": "Que la reorganización consuma años en trámites internos sin mejorar la capacidad local.",
+   "fuentes": [
+    {
+     "titulo": "El Búho – El Niño en Perú: ARCC no concluyó casi el 30 % de las obras del plan integral",
+     "url": "https://elbuho.pe/?p=329713"
+    },
+    {
+     "titulo": "Andina – Simulacro multipeligro: así serían los resultados de un sismo real de magnitud 8,8",
+     "url": "https://andina.pe/agencia/noticia-simulacro-multipeligro-asi-serian-los-resultados-si-hubiera-un-sismo-real-magnitud-88-997008.aspx"
+    }
+   ],
+   "pedn": [
+    "AE2.2.1",
+    "AE2.2.5"
+   ]
+  },
+  {
+   "id": "AMB-22",
+   "titulo": "Tener listo un modelo permanente de reconstrucción con diseños tipo y contratos estandarizados",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: la ANIN ya tiene facultades de ejecución; basta directivas, catálogo de diseños tipo y contratos marco aprobados antes del desastre.",
+   "etapa": "2026-2036",
+   "que": "Antes del próximo desastre grande se aprueban diseños tipo de vivienda, aulas, postas, puentes modulares y defensas ribereñas; contratos marco con proveedores precalificados que se activan en días; un padrón de damnificados interoperable (RENIEC, SISFOH, catastro) y reglas para que la reconstrucción no vuelva a construir en el mismo lugar de riesgo. Las lecciones de la reconstrucción de 2017 y de los convenios de gobierno a gobierno se documentan y se convierten en procedimiento estándar.",
+   "evidencia": "La reconstrucción del Niño costero 2017 transfirió cerca de 9 900 millones de soles a 13 regiones, pero tuvo baja ejecución inicial y dejó cerca del 30 % de obras sin concluir (Contraloría; Norte Sostenible). Nueva Zelanda y Chile reconstruyen con contratos y diseños preaprobados.",
+   "entrega": "Catálogo de diseños tipo, contratos marco y padrón de damnificados interoperable listos y probados en simulacro.",
+   "responsable": "ANIN",
+   "entidades": [
+    {
+     "sigla": "ANIN",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MVCS",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CGR",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto de la ANIN; endeudamiento contingente y seguros catastróficos.",
+   "costo_referencial": "no estimado",
+   "indicador": "Tiempo entre el desastre y el inicio de obras de reconstrucción; % de obras concluidas a dos años.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-07",
+    "AMB-21"
+   ],
+   "riesgo": "Que los contratos marco se usen para evitar competencia y control; que no se actualicen los diseños.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Reconstrucción con Cambios: se ejecutó el 41 % de la inversión aprobada (Contraloría)",
+     "url": "https://andina.pe/agencia/noticia-reconstruccion-cambios-se-ejecuto-41-inversion-aprobada-780188.aspx"
+    },
+    {
+     "titulo": "El Búho – El Niño en Perú: ARCC no concluyó casi el 30 % de las obras del plan integral",
+     "url": "https://elbuho.pe/?p=329713"
+    }
+   ],
+   "pedn": [
+    "AE2.2.6"
+   ]
+  },
+  {
+   "id": "AMB-23",
+   "titulo": "Vigilar lagunas glaciares peligrosas y asegurar el agua de cuencas que dependen del hielo",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: funciones del INAIGEM, la ANA y los gobiernos regionales; obras por Invierte.pe; no requiere ley.",
+   "etapa": "2026-2046",
+   "que": "El INAIGEM monitorea en tiempo real las lagunas de origen glaciar de mayor peligro (como Palcacocha sobre Huaraz) con sensores, cámaras y alerta a la población aguas abajo, y se ejecutan obras de seguridad (descenso del espejo de agua, sifones, diques). En las cuencas que dependen del hielo (Santa, Rímac, Chillón, Vilcanota, Chili) se planifica el agua para cuando el glaciar se agote: infraestructura natural (recuperación de bofedales, amunas, qochas), siembra y cosecha de agua y represas pequeñas.",
+   "evidencia": "El Perú perdió 56,22 % de su superficie glaciar desde 1962 (INAIGEM, inventario 2023); cordilleras como Chila han perdido 99 %. Los mecanismos de retribución por servicios ecosistémicos de SUNASS financian infraestructura natural en cuencas de varias EPS.",
+   "entrega": "Alerta temprana en las 20 lagunas glaciares de mayor peligro y planes de seguridad hídrica en las 5 cuencas más dependientes del hielo.",
+   "responsable": "INAIGEM",
+   "entidades": [
+    {
+     "sigla": "INAIGEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNASS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de INAIGEM y ANA, mecanismos de retribución por servicios ecosistémicos en tarifas de agua (SUNASS), Invierte.pe.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de lagunas peligrosas con alerta y obra de seguridad; volumen de agua regulado por infraestructura natural.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-10",
+    "SOB-10",
+    "AGR-03"
+   ],
+   "riesgo": "Desconfianza de comunidades altoandinas frente a obras en sus lagunas; financiamiento intermitente del monitoreo.",
+   "fuentes": [
+    {
+     "titulo": "Phys.org / INAIGEM – Peru lost more than half its glacier surface in just over half a century",
+     "url": "https://phys.org/news/2023-11-peru-lost-glacier-surface-century.html"
+    }
+   ],
+   "pedn": [
+    "AE2.7.1",
+    "AE2.5.1"
+   ]
+  },
+  {
+   "id": "AMB-24",
+   "titulo": "Fiscalizar con satélite, sensores en línea y multas que sí se cobran",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: el OEFA ya tiene potestad sancionadora y de monitoreo (Ley 29325); basta reglamentos de monitoreo en línea y convenios de datos.",
+   "etapa": "2026-2031",
+   "que": "El OEFA exige monitoreo continuo en línea (efluentes, emisiones, caudales) a las grandes unidades mineras, petroleras, pesqueras e industriales, con datos publicados; usa imágenes satelitales para detectar derrames, relaves y deforestación; mejora la cobranza de multas firmes y publica un ranking de cumplimiento. Asume asistencia técnica y supervisión de las Entidades de Fiscalización Ambiental regionales y municipales, que hoy casi no fiscalizan.",
+   "evidencia": "La Ley 29325 creó el Sistema Nacional de Evaluación y Fiscalización Ambiental con el OEFA como rector; el monitoreo en tiempo real de efluentes es estándar en Chile (SMA) y la Unión Europea. El inventario de áreas degradadas por residuos del OEFA muestra que la fiscalización municipal es el eslabón débil.",
+   "entrega": "Monitoreo en línea en 100 % de las grandes unidades fiscalizables y tablero público de cumplimiento.",
+   "responsable": "OEFA",
+   "entidades": [
+    {
+     "sigla": "OEFA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Aporte por regulación del OEFA y presupuesto del MINAM.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de multas firmes cobradas; N.º de unidades con monitoreo en línea; tiempo de detección de incidentes.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-21"
+   ],
+   "riesgo": "Litigios contra multas; recortes del aporte por regulación; debilidad de las fiscalizadoras regionales.",
+   "fuentes": [
+    {
+     "titulo": "OEFA – Áreas degradadas por residuos sólidos municipales (Áncash)",
+     "url": "https://www.gob.pe/institucion/oefa/noticias/1399165-oefa-identifica-162-areas-degradadas-por-residuos-solidos-municipales-que-requieren-atencion-en-ancash"
+    }
+   ],
+   "pedn": [
+    "AE2.6.6",
+    "AE2.6.11"
+   ]
+  },
+  {
+   "id": "AMB-25",
+   "titulo": "Remediar los sitios contaminados por petróleo en Loreto y renovar el Oleoducto Norperuano",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 30321 ya creó el Fondo de Contingencia para Remediación Ambiental de las cuencas Pastaza, Tigre, Corrientes y Marañón; el resto es inversión de Petroperú y del MINEM.",
+   "etapa": "2026-2036",
+   "que": "Se remedian los sitios impactados priorizados en las cuencas del Pastaza, Tigre, Corrientes y Marañón con participación de las federaciones indígenas en la vigilancia, y se atiende la salud de la población expuesta. Petroperú ejecuta un plan de integridad del Oleoducto Norperuano (inspección interna, reemplazo de tramos corroídos, vigilancia) para cortar los derrames recurrentes. Se depura y prioriza por riesgo el inventario nacional de pasivos de hidrocarburos que actualiza anualmente el MINEM con información del OEFA.",
+   "evidencia": "La Ley 30321 (2015) creó el fondo para remediar las cuencas de Loreto; la remediación efectiva empezó recién en 2025 en 38 sitios, con un fondo de alrededor de S/ 390–450 millones según fuentes oficiales y de prensa. PROFONANPE reporta 146 sitios impactados en el lote 192.",
+   "entrega": "100 % de los sitios priorizados por la Junta del Fondo remediados al 2036 y Oleoducto Norperuano sin derrames por corrosión.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PROFONANPE",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "PETROPERU",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "COMUNIDADES NATIVAS",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Fondo de Contingencia para Remediación Ambiental (Ley 30321), presupuesto de Petroperú, cobro a responsables identificados.",
+   "costo_referencial": "Fondo de remediación de S/ 390–450 millones para la primera etapa (MINEM y Andina, 2025); el costo total no está estimado.",
+   "indicador": "N.º de sitios remediados con conformidad del OEFA; derrames por año en el Oleoducto Norperuano.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-24"
+   ],
+   "riesgo": "Lentitud por conflicto sobre responsables; falta de caja de Petroperú para el plan de integridad.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Gobierno activa Fondo de Remediación Ambiental de S/ 450 millones para la Amazonía",
+     "url": "https://andina.pe/agencia/noticia-gobierno-activa-fondo-remediacion-ambiental-s-450-millones-para-amazonia-1026750.aspx"
+    },
+    {
+     "titulo": "Energiminas – Anuncian inicio de labores de remediación ambiental en cuencas del Pastaza, Tigre y Corrientes",
+     "url": "https://energiminas.com/2025/04/14/anuncian-inicio-de-labores-de-remediacion-ambiental-en-cuencas-del-pastaza-tigre-y-corrientes/"
+    },
+    {
+     "titulo": "SINIA – Aprueban actualización del Inventario de Pasivos Ambientales del Subsector Hidrocarburos",
+     "url": "https://sinia.minam.gob.pe/normas/aprueban-septima-actualizacion-inventario-pasivos-ambientales-subsector"
+    }
+   ],
+   "pedn": [
+    "AE2.6.1",
+    "AE2.6.8"
+   ]
+  },
+  {
+   "id": "AMB-26",
+   "titulo": "Exigir garantías financieras y planes de contingencia probados contra derrames de hidrocarburos",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Imponer garantías financieras obligatorias y responsabilidad objetiva por daño ambiental con montos mínimos a operadores privados y públicos limita derechos de empresa: requiere ley. No crea gasto público.",
+   "etapa": "2026-2031",
+   "que": "Una ley obliga a terminales, refinerías, oleoductos y buques que manejan hidrocarburos a mantener garantías financieras o seguros proporcionales al riesgo (volumen y sensibilidad del entorno), planes de contingencia aprobados y probados con simulacros anuales, y a responder por la remediación y la compensación a pescadores y comunidades sin esperar juicios de años. Las garantías se ejecutan si el operador no remedia en plazo.",
+   "evidencia": "El derrame de la refinería La Pampilla en Ventanilla (enero de 2022) vertió cerca de 11 900 barriles según el MINAM (10 396 según la empresa), contaminó playas y zonas de pesca del litoral de Lima y Callao, motivó multas del OEFA por más de S/ 42 millones —una de ellas por información falsa en el reporte inicial— y mostró que la respuesta y la compensación dependen de largos procesos (OEFA; Defensoría). Estados Unidos aprobó la Oil Pollution Act de 1990 tras el Exxon Valdez con garantías financieras obligatorias.",
+   "entrega": "Ley de garantías por derrames vigente y 100 % de instalaciones de alto riesgo con garantía y simulacro anual.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "DICAPI",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "No requiere gasto público; costo para operadores (primas de seguro).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de instalaciones con garantía vigente; tiempo entre derrame y compensación a afectados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-24"
+   ],
+   "riesgo": "Lobby de operadores para fijar montos bajos; Petroperú sin capacidad financiera para garantías.",
+   "fuentes": [
+    {
+     "titulo": "Actualidad Ambiental – Derrame de petróleo en Ventanilla: puntos clave",
+     "url": "https://www.actualidadambiental.pe/derrame-de-petroleo-en-ventanilla-puntos-claves-para-entender-el-desastre-ambiental/"
+    },
+    {
+     "titulo": "Andina – OEFA detalla sanciones a Repsol por más de S/ 42 millones",
+     "url": "https://andina.pe/agencia/noticia-oefa-da-detalles-sobre-las-dos-ultimas-sanciones-a-repsol-mas-s-42-millones-915901.aspx"
+    },
+    {
+     "titulo": "US EPA – Oil Pollution Act overview",
+     "url": "https://www.epa.gov/laws-regulations/summary-oil-pollution-act"
+    }
+   ],
+   "pedn": [
+    "AE2.6.12",
+    "AE2.6.8"
+   ]
+  },
+  {
+   "id": "AMB-27",
+   "titulo": "Impulsar la economía circular en industria y construcción con compras públicas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Instrumento: hojas de ruta de economía circular de PRODUCE, normas técnicas y directivas de compras públicas (OECE); no requiere ley.",
+   "etapa": "2031-2036",
+   "que": "Se aprueban y ejecutan hojas de ruta de economía circular para industria, construcción, pesca y agro: valorización de residuos de construcción y demolición en agregados reciclados, aprovechamiento de residuos orgánicos y subproductos agroindustriales y pesqueros, simbiosis industrial en parques industriales y reparación de bienes. El Estado compra con criterios de ciclo de vida y contenido reciclado. Los residuos de construcción dejan de terminar en riberas y playas.",
+   "evidencia": "El PEDN incluye la producción industrial bajo principios de economía verde y circular (AE3.3.11); la Unión Europea y Chile tienen hojas de ruta de economía circular con metas de valorización. Los residuos de construcción vertidos en cauces y playas son un problema documentado en Lima (por verificar).",
+   "entrega": "Hojas de ruta sectoriales aprobadas con metas y 30 % de valorización de residuos de construcción en Lima al 2036 (meta indicativa).",
+   "responsable": "PRODUCE",
+   "entidades": [
+    {
+     "sigla": "PRODUCE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MVCS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OECE",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de PRODUCE y MVCS; inversión privada.",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de valorización de residuos no municipales por sector; % de compras públicas con criterios circulares.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AMB-13",
+    "TAL-12",
+    "ECP-14"
+   ],
+   "riesgo": "Que quede en declaraciones sin mercado para los materiales reciclados.",
+   "fuentes": [
+    {
+     "titulo": "MEF – Programa de Incentivos: metas de residuos sólidos",
+     "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/metas/Presentacion_Residuos_A.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.11"
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "agro",
+   "como": "La agricultura migratoria es la principal causa directa de deforestación: AMB-07 se apoya en la extensión agraria y el cofinanciamiento (AGR-01, AGR-07); la siembra y cosecha de agua (AGR-03) es la respuesta al retroceso glaciar (AMB-23)."
+  },
+  {
+   "con": "energia",
+   "como": "La minería ilegal (AMB-05, AMB-06) y los pasivos petroleros (AMB-25, AMB-26) dependen de la política minera y de hidrocarburos; la transición energética es parte de la NDC (AMB-16)."
+  },
+  {
+   "con": "seguridad",
+   "como": "La interdicción de minería ilegal, coca y tala ilegal (AMB-01, AMB-05, AMB-08) requiere policía, fiscalía e inteligencia financiera; las economías ilegales amenazan a guardaparques y defensores ambientales."
+  },
+  {
+   "con": "salud",
+   "como": "La contaminación del aire, el mercurio y los hidrocarburos dañan la salud (AMB-14, AMB-25); El Niño y el calor amplían el dengue (SAL-22)."
+  },
+  {
+   "con": "educacion",
+   "como": "Escuelas seguras ante sismos y huaicos (EDU-09 con AMB-20) y educación ambiental para residuos y reciclaje (AMB-13)."
+  },
+  {
+   "con": "economia",
+   "como": "La bioeconomía amazónica y las plantaciones en tierras degradadas (ECP-18, ECP-19) son la alternativa económica a deforestar; el mercado de carbono (AMB-17) puede financiarla."
+  },
+  {
+   "con": "estado",
+   "como": "Reconstrucción y obras paralizadas (EST-07 con AMB-22), canon y descentralización (EST-19) y capacidad de gobiernos regionales y locales para fiscalizar."
+  },
+  {
+   "con": "digital",
+   "como": "La alerta temprana multiamenaza, las imágenes satelitales y los datos abiertos ambientales (DIG-20, DIG-21, DIG-25) son la base de AMB-01, AMB-23 y AMB-24."
+  },
+  {
+   "con": "transporte",
+   "como": "Las carreteras en la Amazonía abren frentes de deforestación y el transporte urbano es la principal fuente de contaminación del aire de Lima (AMB-14); la infraestructura vial debe pasar el filtro de riesgo climático (AMB-15)."
+  }
+ ],
+ "conexion_tech": [
+  "TAL-10",
+  "CON-14",
+  "TAL-12",
+  "SOB-10",
+  "SOB-11",
+  "GOB-07",
+  "GOB-21",
+  "GOB-22",
+  "GOB-11"
+ ],
+ "plan2050": [
+  "medio-ambiente",
+  "forestal",
+  "cuencas-hidrograficas",
+  "aguas",
+  "desarrollo-rural",
+  "drogas",
+  "mineria",
+  "hidrocarburos",
+  "desarrollo-urbano",
+  "orden-publico-y-seguridad"
+ ],
+ "fuentes": [
+  {
+   "titulo": "MINAM – Geobosques, plataforma de monitoreo de bosques amazónicos",
+   "url": "https://geobosques.minam.gob.pe/geobosque/view/perdida.php"
+  },
+  {
+   "titulo": "Defensoría del Pueblo – Exhorta a reforzar la protección de la Amazonía frente a la persistente pérdida de bosques",
+   "url": "https://www.defensoria.gob.pe/defensoria-del-pueblo-exhorta-al-estado-a-reforzar-la-proteccion-de-la-amazonia-peruana-frente-a-la-persistente-perdida-de-bosques/"
+  },
+  {
+   "titulo": "Ojo Público – Pérdida de bosques crece entre retrasos del Minam y cifras paralelas",
+   "url": "https://ojo-publico.com/ambiente/territorio-amazonas/perdida-bosques-crece-entre-retrasos-del-minam-y-cifras-paralelas"
+  },
+  {
+   "titulo": "Actualidad Ambiental (SPDA) – Procesos normativos que buscan derogar la Ley 31973",
+   "url": "https://www.actualidadambiental.pe/cuales-son-los-procesos-normativos-que-buscan-derogar-la-ley-antiforestal/"
+  },
+  {
+   "titulo": "Tribunal Constitucional – Nota: TC declara inconstitucionales la primera y segunda disposiciones complementarias transitorias de la Ley 31973",
+   "url": "https://www.tc.gob.pe/institucional/notas-de-prensa/tc-declara-inconstitucionales-primera-y-segunda-disposiciones-complementarias-transitorias-de-la-ley-31973/"
+  },
+  {
+   "titulo": "Tribunal Constitucional – Sentencia Exp. 00002-2024-PI/TC y acumulados (Ley 31973)",
+   "url": "https://tc.gob.pe/jurisprudencia/2025/00002-2024-AI.pdf"
+  },
+  {
+   "titulo": "Blackman et al. (2017) – Titling indigenous communities protects forests in the Peruvian Amazon, PNAS",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.1603290114"
+  },
+  {
+   "titulo": "Amazon Conservation / MAAP – Minería aurífera en la Amazonía sur del Perú",
+   "url": "https://www.amazonconservation.org/new-maap-report-gold-mining-in-the-southern-peruvian-amazon/"
+  },
+  {
+   "titulo": "Actualidad Ambiental – Madre de Dios: minería deforestó más de 30 mil ha de bosques primarios en tres años",
+   "url": "https://www.actualidadambiental.pe/mineria-ilegal-madre-de-dios-deforestacion-de-bosque"
+  },
+  {
+   "titulo": "Energiminas – Congreso aprueba ampliación del REINFO hasta diciembre de 2026",
+   "url": "https://energiminas.com/2025/12/17/en-solo-30-minutos-congreso-aprueba-ampliacion-del-reinfo-hasta-diciembre-de-2026/"
+  },
+  {
+   "titulo": "Minería & Energía – Promulgan ley que amplía vigencia del REINFO hasta diciembre de 2026",
+   "url": "https://mineriaenergia.com/promulgan-ley-que-amplia-vigencia-del-reinfo-hasta-diciembre-del-2026/"
+  },
+  {
+   "titulo": "DEVIDA – Perú reduce en 5,8 % la superficie de cultivos de coca (monitoreo 2025)",
+   "url": "https://www.gob.pe/institucion/devida/noticias/1420118-peru-reduce-en-5-8-la-superficie-de-cultivos-de-coca-y-consolida-tendencia-descendente-por-tercer-ano-consecutivo"
+  },
+  {
+   "titulo": "DEVIDA – Perú reduce por segundo año consecutivo los cultivos de coca (monitoreo 2024)",
+   "url": "https://www.gob.pe/institucion/devida/noticias/1195330-peru-reduce-por-segundo-ano-consecutivo-los-cultivos-de-coca"
+  },
+  {
+   "titulo": "Mongabay – Dos tercios de los cultivos de coca ilícitos están dentro de áreas naturales y territorios indígenas",
+   "url": "https://es.mongabay.com/2024/07/peru-dos-tercios-cultivos-de-coca-ilicitos-estan-dentro-de-areas-naturales-territorios-indigenas/"
+  },
+  {
+   "titulo": "ProActivo – Perú cuenta con 185 ANP que abarcan 22,5 millones de hectáreas (17,22 % del territorio)",
+   "url": "https://proactivo.com.pe/?p=58626"
+  },
+  {
+   "titulo": "Gestión – Perú cuenta con 246 áreas naturales protegidas: quiénes las administran",
+   "url": "https://gestion.pe/peru/gobierno-minam-sernanp-peru-cuenta-con-246-areas-naturales-protegidas-quienes-la-administran-noticia/"
+  },
+  {
+   "titulo": "El Comercio – 2,8 millones de hectáreas en la Amazonía afectadas por el fuego en 2024",
+   "url": "https://elcomercio.pe/tecnologia/ecologia/incendios-forestales-28-millones-de-hectareas-en-la-amazonia-fueron-afectadas-por-el-fuego-en-2024-noticia/"
+  },
+  {
+   "titulo": "Andina – Minam impulsa proyectos integrales de rellenos sanitarios mediante obras por impuestos",
+   "url": "https://andina.pe/ingles/noticia-minam-impulsa-proyectos-integrales-rellenos-sanitarios-mediante-obras-impuestos-816896.aspx"
+  },
+  {
+   "titulo": "Andina – Rellenos sanitarios: Minam trabaja con 31 ciudades priorizadas",
+   "url": "https://andina.pe/ingles/noticia-rellenos-sanitarios-minam-trabaja-31-ciudades-priorizadas-para-gestionar-residuos-725627.aspx"
+  },
+  {
+   "titulo": "OEFA – Áreas degradadas por residuos sólidos municipales (Áncash)",
+   "url": "https://www.gob.pe/institucion/oefa/noticias/1399165-oefa-identifica-162-areas-degradadas-por-residuos-solidos-municipales-que-requieren-atencion-en-ancash"
+  },
+  {
+   "titulo": "MEF – Programa de Incentivos: metas de residuos sólidos",
+   "url": "https://www.mef.gob.pe/contenidos/presu_publ/migl/metas/Presentacion_Residuos_A.pdf"
+  },
+  {
+   "titulo": "Actualidad Ambiental – Minam: morosidad y falta de pago de arbitrios impide una buena gestión de residuos",
+   "url": "https://www.actualidadambiental.pe/?p=52706"
+  },
+  {
+   "titulo": "Expreso – La informalidad en el reciclaje de residuos sólidos en el Perú",
+   "url": "https://www.expreso.com.pe/opinion/la-informalidad-en-el-reciclaje-de-residuos-solidos-en-el-peru-jorge-baca-campodonico/"
+  },
+  {
+   "titulo": "IQAir – Lima among the most polluted cities in the world (2025)",
+   "url": "https://www.iqair.com/newsroom/lima-among-the-most-polluted-cities-in-the-world-09-06-2025"
+  },
+  {
+   "titulo": "Gestión – SENAMHI: la calidad del aire para casi el 50 % de Lima Metropolitana es insalubre",
+   "url": "https://gestion.pe/peru/senamhi-la-calidad-del-aire-para-casi-el-50-de-lima-metropolitana-es-insalubre-noticia/"
+  },
+  {
+   "titulo": "OMS – Directrices mundiales de calidad del aire 2021",
+   "url": "https://www.who.int/publications/i/item/9789240034228"
+  },
+  {
+   "titulo": "Gobierno del Perú – Contribución Determinada a Nivel Nacional (NDC 3.0) ante la CMNUCC",
+   "url": "https://unfccc.int/sites/default/files/2025-11/Documento NDC 3.0_UNFCCC.pdf"
+  },
+  {
+   "titulo": "Banco Mundial – Lifelines: The Resilient Infrastructure Opportunity (2019)",
+   "url": "https://openknowledge.worldbank.org/handle/10986/31805"
+  },
+  {
+   "titulo": "Andina – Actualización de metas ante el cambio climático enfatiza la prevención de riesgos",
+   "url": "https://andina.pe/agencia/noticia-actualizacion-metas-ante-cambio-climatico-enfatiza-la-prevencion-riesgos-1052311.aspx"
+  },
+  {
+   "titulo": "Actualidad Ambiental – Presentan Inventario Nacional de GEI 2016 (USCUSS 53,09 %)",
+   "url": "https://www.actualidadambiental.pe/?p=71313"
+  },
+  {
+   "titulo": "MINAM – Decreto Supremo que aprueba las disposiciones para el funcionamiento del RENAMI",
+   "url": "https://cdna.www.gob.pe/institucion/minam/informes-publicaciones/6882169-publicacion-bilingue-decreto-supremo-que-aprueba-las-disposiciones-para-el-funcionamiento-del-registro-nacional-de-medidas-de-mitigacion-renami"
+  },
+  {
+   "titulo": "Climate Laws of the World – Decreto Supremo 023-2025-MINAM (tasas del RENAMI)",
+   "url": "https://climate-laws.org/document/supreme-decree-no-023-2025-minam_8bf6"
+  },
+  {
+   "titulo": "Pulitzer Center – Latin America and its new carbon sales amid uncertainty",
+   "url": "https://pulitzercenter.org/stories/andean-hearth-global-market-latin-america-and-its-new-carbon-sales-amid-uncertainty"
+  },
+  {
+   "titulo": "El Peruano – Perú y Singapur fortalecen cooperación para impulsar mercado de carbono",
+   "url": "https://elperuano.pe/noticia/293430-peru-y-singapur-fortalecen-cooperacion-para-impulsar-mercado-de-carbono-y-financiamiento-climatico"
+  },
+  {
+   "titulo": "El Peruano – Ley 32743, delega facultades en seguridad ciudadana y Fenómeno El Niño (22-oct-2026)",
+   "url": "https://busquedas.elperuano.pe/"
+  },
+  {
+   "titulo": "Andina – Reconstrucción con Cambios: se ejecutó el 41 % de la inversión aprobada (Contraloría)",
+   "url": "https://andina.pe/agencia/noticia-reconstruccion-cambios-se-ejecuto-41-inversion-aprobada-780188.aspx"
+  },
+  {
+   "titulo": "El Búho – El Niño en Perú: ARCC no concluyó casi el 30 % de las obras del plan integral",
+   "url": "https://elbuho.pe/?p=329713"
+  },
+  {
+   "titulo": "Gobierno del Perú – Estudio de vulnerabilidad y riesgo sísmico en Lima–Callao",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/5183107/Estudio%20de%20vulnerabilidad%20y%20Riesgo%20S%C3%ADsmico%20en%20Lima%20%E2%80%93%20Callao.pdf"
+  },
+  {
+   "titulo": "Andina – Simulacro multipeligro: así serían los resultados de un sismo real de magnitud 8,8",
+   "url": "https://andina.pe/agencia/noticia-simulacro-multipeligro-asi-serian-los-resultados-si-hubiera-un-sismo-real-magnitud-88-997008.aspx"
+  },
+  {
+   "titulo": "Phys.org / INAIGEM – Peru lost more than half its glacier surface in just over half a century",
+   "url": "https://phys.org/news/2023-11-peru-lost-glacier-surface-century.html"
+  },
+  {
+   "titulo": "Andina – Gobierno activa Fondo de Remediación Ambiental de S/ 450 millones para la Amazonía",
+   "url": "https://andina.pe/agencia/noticia-gobierno-activa-fondo-remediacion-ambiental-s-450-millones-para-amazonia-1026750.aspx"
+  },
+  {
+   "titulo": "Energiminas – Anuncian inicio de labores de remediación ambiental en cuencas del Pastaza, Tigre y Corrientes",
+   "url": "https://energiminas.com/2025/04/14/anuncian-inicio-de-labores-de-remediacion-ambiental-en-cuencas-del-pastaza-tigre-y-corrientes/"
+  },
+  {
+   "titulo": "SINIA – Aprueban actualización del Inventario de Pasivos Ambientales del Subsector Hidrocarburos",
+   "url": "https://sinia.minam.gob.pe/normas/aprueban-septima-actualizacion-inventario-pasivos-ambientales-subsector"
+  },
+  {
+   "titulo": "Actualidad Ambiental – Derrame de petróleo en Ventanilla: puntos clave",
+   "url": "https://www.actualidadambiental.pe/derrame-de-petroleo-en-ventanilla-puntos-claves-para-entender-el-desastre-ambiental/"
+  },
+  {
+   "titulo": "Andina – OEFA detalla sanciones a Repsol por más de S/ 42 millones",
+   "url": "https://andina.pe/agencia/noticia-oefa-da-detalles-sobre-las-dos-ultimas-sanciones-a-repsol-mas-s-42-millones-915901.aspx"
+  },
+  {
+   "titulo": "US EPA – Oil Pollution Act overview",
+   "url": "https://www.epa.gov/laws-regulations/summary-oil-pollution-act"
+  },
+  {
+   "titulo": "Canal N – Perú perdió 3,2 millones de hectáreas de bosques en 23 años (datos Geobosques)",
+   "url": "https://canaln.pe/actualidad/peru-perdio-32-millones-hectareas-bosques-23-anos-n488132"
+  },
+  {
+   "titulo": "MINAM – Reporte de deforestación de bosques amazónicos 2020",
+   "url": "https://geobosques.minam.gob.pe/geobosque/descargas_geobosque/perdida/documentos/Reporte_de_deforestacion_bosques_amazonicos_2020.pdf"
+  }
+ ]
+}

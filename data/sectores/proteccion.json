@@ -1,0 +1,1545 @@
+{
+ "id": "proteccion",
+ "nombre": "Protección social",
+ "lema": "Que nadie caiga y que quien cae pueda levantarse",
+ "diagnostico": {
+  "resumen": "La pobreza monetaria bajó a 25,7 % en 2025 y la extrema a 4,7 %, pero sigue más de cinco puntos por encima del 20,2 % de 2019, y 32,8 % de la población es vulnerable: puede caer en pobreza ante una enfermedad, un desastre o la pérdida del trabajo (INEI). La pobreza rural (35,5 %) supera ampliamente a la urbana (23,4 %). La medición oficial multidimensional, aprobada en 2024, no se publica con regularidad. La causa estructural es la informalidad: 70,7 % de los ocupados tenía empleo informal en 2025 (INEI), por lo que la mayoría no aporta a pensiones ni a EsSalud. Siete de cada diez adultos mayores están fuera del sistema de pensiones (EPEN, citada en prensa) y Pensión 65 atiende a unos 824 000 en pobreza extrema con S/ 350 bimestrales. La reforma de la Ley 32123 está en implementación, mientras ocho retiros extraordinarios de AFP desde 2020 —el último por hasta 4 UIT con la Ley 32445— han reducido el ahorro previsional. Juntos llega a cerca de 795 000 hogares. La violencia es masiva: 52 % de las mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja (ENDES 2024) y hubo 154 feminicidios en 2024 (INEI). No existe un sistema nacional de cuidados aprobado. El Padrón General de Hogares tiene errores de clasificación señalados por la Contraloría y en la pandemia mostró su desactualización. El Perú alberga además alrededor de 1,6 millones de personas venezolanas, muchas sin papeles.",
+  "indicadores": [
+   {
+    "nombre": "Pobreza monetaria",
+    "valor": "25,7",
+    "unidad": "% de la población",
+    "anio": 2025,
+    "fuente": "INEI, ENAHO 2025",
+    "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+   },
+   {
+    "nombre": "Pobreza monetaria extrema",
+    "valor": "4,7",
+    "unidad": "% de la población",
+    "anio": 2025,
+    "fuente": "INEI, ENAHO 2025",
+    "url": "https://larepublica.pe/economia/2026/05/05/inei-pobreza-monetaria-extrema-alcanzo-al-47-de-la-poblacion-en-2025-hnews-320660"
+   },
+   {
+    "nombre": "Población vulnerable a la pobreza monetaria",
+    "valor": "32,8",
+    "unidad": "% de la población",
+    "anio": 2025,
+    "fuente": "INEI, ENAHO 2025",
+    "url": "https://www.expreso.com.pe/informes/inei-alerta-que-uno-de-cada-tres-peruanos-esta-al-borde-de-caer-en-la-pobreza-compatriotas-siguen-en-la-zona-riesgo-instituto-nacional-de-estadistica-e-informatica-noticia/1285247/"
+   },
+   {
+    "nombre": "Tasa de empleo informal",
+    "valor": "70,7",
+    "unidad": "% de la población ocupada",
+    "anio": 2025,
+    "fuente": "INEI, Comportamiento de los indicadores del mercado laboral",
+    "url": "https://gestion.pe/economia/informalidad-en-peru-cayo-pero-en-10-ciudades-la-situacion-fue-otra-como-entenderlo-empleo-en-peru-puestos-de-trabajo-inei-mercado-laboral-noticia/"
+   },
+   {
+    "nombre": "Mujeres de 15 a 49 años que sufrieron alguna vez violencia de su pareja",
+    "valor": "52",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "INEI, ENDES 2024",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1296342-52-de-cada-100-mujeres-de-15-a-49-anos-fueron-alguna-vez-victimas-de-violencia-por-parte-de-su-esposo-o-companero"
+   },
+   {
+    "nombre": "Feminicidios registrados",
+    "valor": "154",
+    "unidad": "casos",
+    "anio": 2024,
+    "fuente": "INEI",
+    "url": "https://www.gob.pe/en/institucion/inei/noticias/1291805-inei-peru-registro-154-casos-de-feminicidio-en-el-2024"
+   },
+   {
+    "nombre": "Hogares afiliados a Juntos",
+    "valor": "794 768",
+    "unidad": "hogares",
+    "anio": 2025,
+    "fuente": "MIDIS – Juntos (Andina)",
+    "url": "https://andina.pe/agencia/noticia-mas-20000-mil-hogares-se-encuentran-proceso-afiliacion-al-programa-juntos-1042215.aspx"
+   },
+   {
+    "nombre": "Usuarios de Pensión 65",
+    "valor": "> 824 000",
+    "unidad": "adultos mayores",
+    "anio": 2026,
+    "fuente": "MIDIS (Perú21)",
+    "url": "https://peru21.pe/noticias/pension-65/"
+   },
+   {
+    "nombre": "Inseguridad alimentaria moderada o severa en la población pobre",
+    "valor": "42,0",
+    "unidad": "% de la población pobre",
+    "anio": 2025,
+    "fuente": "INEI con asistencia técnica de la FAO",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1405139-inseguridad-alimentaria-afecto-al-30-5-de-la-poblacion-en-el-ano-2025"
+   },
+   {
+    "nombre": "Personas inscritas en el Registro Nacional de la Persona con Discapacidad",
+    "valor": "≈ 496 000",
+    "unidad": "personas (fecha de corte por verificar)",
+    "anio": 2024,
+    "fuente": "CONADIS (El Peruano)",
+    "url": "https://elperuano.pe/noticia/254087-atencion-mas-de-496000-personas-con-discapacidad-estan-registradas-en-el-peru"
+   }
+  ],
+  "brechas": "Pobreza rural de 35,5 % frente a 23,4 % urbana en 2025 (INEI). La informalidad laboral es mayor entre mujeres (alrededor de 72 %) que entre hombres (alrededor de 68 %) y llega a 84,8 % entre jóvenes de 14 a 24 años (INEI, 2025, citado en prensa). La inseguridad alimentaria alcanza a 42,0 % de la población pobre (INEI, 2025). Solo una fracción de las más de 3 millones de personas con discapacidad del Censo 2017 está inscrita en el registro del CONADIS. Los pueblos indígenas y afroperuanos —cerca de 9 millones según los Censos 2025— enfrentan servicios sin pertinencia lingüística. El trabajo infantil se concentra en zonas rurales (por verificar con el informe oficial del INEI).",
+  "causas": [
+   "Informalidad laboral estructural (70,7 %, INEI 2025) que deja a la mayoría fuera de la seguridad social contributiva.",
+   "Focalización basada en un padrón desactualizado y con errores de clasificación (Contraloría; GRADE–UNICEF 2022).",
+   "Programas fragmentados entre MIDIS, MIMP, MTPE y municipios, sin un sistema de cuidados ni evaluación periódica vinculante.",
+   "Decisiones previsionales coyunturales: ocho retiros extraordinarios de AFP desde 2020 que erosionan el ahorro para la vejez.",
+   "Servicios contra la violencia centrados en recibir denuncias y no en el seguimiento de medidas de protección.",
+   "Ausencia de mecanismos preacordados de respuesta ante shocks, que vuelve tardía y desigual la ayuda en emergencias como la pandemia de 2020."
+  ]
+ },
+ "vision_2056": "En 2056 ningún peruano vive en pobreza extrema, toda persona mayor tiene una pensión digna, quien cuida es reconocido y apoyado, y una emergencia no hunde a ninguna familia porque la ayuda llega en días.",
+ "metas": [
+  {
+   "indicador": "Pobreza monetaria",
+   "linea_base": "25,7 % (2025)",
+   "2031": "20 %",
+   "2036": "15 %",
+   "2046": "9 %",
+   "2056": "≤ 5 %",
+   "referencia": "Nivel prepandemia de 20,2 % (2019, INEI); pobreza de Chile por debajo de 10 % (por verificar, CEPAL)",
+   "fuente_linea_base": "INEI, ENAHO 2025"
+  },
+  {
+   "indicador": "Pobreza monetaria extrema",
+   "linea_base": "4,7 % (2025)",
+   "2031": "3 %",
+   "2036": "2 %",
+   "2046": "1 %",
+   "2056": "< 1 %",
+   "referencia": "ODS 1.1: erradicar la pobreza extrema",
+   "fuente_linea_base": "INEI, ENAHO 2025"
+  },
+  {
+   "indicador": "Tasa de empleo informal",
+   "linea_base": "70,7 % (2025)",
+   "2031": "65 %",
+   "2036": "58 %",
+   "2046": "48 %",
+   "2056": "38 %",
+   "referencia": "Promedio de América Latina cercano a 50 % según la OIT (por verificar)",
+   "fuente_linea_base": "INEI, 2025"
+  },
+  {
+   "indicador": "Mujeres que sufrieron violencia de su pareja en los últimos 12 meses",
+   "linea_base": "33,9 % (2024)",
+   "2031": "27 %",
+   "2036": "21 %",
+   "2046": "13 %",
+   "2056": "≤ 7 %",
+   "referencia": "ODS 5.2: eliminar todas las formas de violencia contra las mujeres",
+   "fuente_linea_base": "INEI, ENDES 2024"
+  },
+  {
+   "indicador": "Personas de 65 años o más con alguna pensión (contributiva o no contributiva)",
+   "linea_base": "por verificar (aprox. 3 de cada 10 en el sistema contributivo según EPEN citada en prensa, 2026)",
+   "2031": "60 %",
+   "2036": "75 %",
+   "2046": "90 %",
+   "2056": "100 %",
+   "referencia": "Chile y Bolivia con cobertura cercana a universal por pilares no contributivos (por verificar, OIT)",
+   "fuente_linea_base": "INEI, EPEN (por verificar)"
+  },
+  {
+   "indicador": "Feminicidios",
+   "linea_base": "154 (2024)",
+   "2031": "110",
+   "2036": "80",
+   "2046": "45",
+   "2056": "< 25",
+   "referencia": "Meta indicativa propia alineada al ODS 5.2",
+   "fuente_linea_base": "INEI"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "PRO-01",
+   "titulo": "Convertir el Padrón General de Hogares en un registro social actualizado con datos administrativos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El SISFOH y el Padrón General de Hogares se regulan por directivas del MIDIS (Directiva 006-2024-MIDIS); la interoperabilidad con RENIEC, SUNAT, SIS y planillas se hace por convenios y el marco de gobierno digital vigente.",
+   "etapa": "2026-2031",
+   "que": "La clasificación socioeconómica depende todavía de fichas aplicadas por municipios, que envejecen y fallan: la Contraloría encontró hogares clasificados como pobres sin corresponderles, y en la pandemia el padrón urbano estaba desactualizado. Se pasa a un registro social de hogares que se actualiza de forma continua con datos de RENIEC, SUNAT, planillas, SIS, consumo eléctrico y propiedad vehicular, con verificación de campo solo donde los datos no alcanzan. Cada persona puede ver en línea su clasificación y pedir revisión.",
+   "evidencia": "Chile (Registro Social de Hogares, 2016) y Colombia (SISBÉN IV) pasaron a registros alimentados con datos administrativos y reclasificación continua. En el Perú, la Contraloría detectó errores de clasificación en el padrón (Gestión) y GRADE–UNICEF (2022) documentó su desactualización urbana en 2020.",
+   "entrega": "Registro social interoperable con actualización mensual automática y consulta ciudadana en línea al 2028.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "RENIEC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MIDIS (DGFIS) y de la Secretaría de Gobierno y Transformación Digital.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de hogares del registro con información actualizada en los últimos 12 meses y tasas de filtración y subcobertura medidas con ENAHO.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Directiva 006-2024-MIDIS, que regula la operatividad del SISFOH",
+     "motivo": "Se simplifica: la clasificación se hace de oficio con datos administrativos y la ficha socioeconómica en campo queda solo para casos sin datos."
+    }
+   ],
+   "depende_de": [
+    "DIG-04",
+    "GOB-01"
+   ],
+   "riesgo": "Protección de datos personales y sesgos de los algoritmos de clasificación; municipios que pierden un rol y no colaboran.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – Contraloría: hogares clasificados como pobres sin corresponderles en el Padrón General de Hogares",
+     "url": "https://gestion.pe/peru/contraloria-general-de-la-republica-86-mil-hogares-fueron-considerados-pobres-o-pobres-extremos-sin-que-les-corresponda-midis-ministerio-de-desarrollo-e-inclusion-social-noticia/"
+    },
+    {
+     "titulo": "GRADE–UNICEF (2022) – Lecciones de la pandemia para una mejor protección social de la niñez y adolescencia en el Perú",
+     "url": "https://www.unicef.org/peru/sites/unicef.org.peru/files/2022-10/Lecciones%20pandemia%20mejor%20proteccion%20social%20ninez%20adolescencia%20Peru%20Grade-UNICEF%20Set2022%20Presentacion.pdf"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8",
+    "AE4.5.4"
+   ]
+  },
+  {
+   "id": "PRO-02",
+   "titulo": "Fortalecer las unidades locales de empadronamiento con barridos y ventanilla de reclasificación",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Las unidades locales de empadronamiento (ULE) son parte del SISFOH bajo directivas del MIDIS; su fortalecimiento se financia por el programa de incentivos municipales y transferencias.",
+   "etapa": "2026-2031",
+   "que": "Donde los datos administrativos no llegan —comunidades rurales, Amazonía, asentamientos urbanos nuevos— las ULE hacen barridos censales periódicos, empadronan con tableta y georreferencia y atienden pedidos de reclasificación en plazos cortos. Se capacita a su personal, se le da conectividad y se paga a los municipios por indicadores de calidad (precisión verificada por muestreo, tiempos de respuesta). Las ULE también informan a los hogares sobre los programas a los que tienen derecho y orientan a quien fue mal clasificado.",
+   "evidencia": "UNICEF documentó barridos focalizados como estrategia para reducir brechas de empadronamiento en el Perú; el programa de incentivos municipales del MEF ha logrado mejoras cuando las metas son verificables.",
+   "entrega": "100 % de ULE con equipos y conectividad y barridos cada 3 años en distritos rurales y periurbanos.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "INEI",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Programa de Incentivos a la Mejora de la Gestión Municipal y presupuesto del MIDIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "Tiempo promedio de atención de solicitudes de clasificación y % de hogares rurales empadronados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-01"
+   ],
+   "riesgo": "Manipulación local de clasificaciones con fines clientelares.",
+   "fuentes": [
+    {
+     "titulo": "UNICEF Perú – Empadronamiento de hogares mediante barridos focalizados como estrategia para la reducción de brecha",
+     "url": "https://www.unicef.org/peru/media/15736/file/Empadronamiento%20de%20hogares%20mediante%20barridos%20focalizados%20como%20estrategia%20para%20la%20reducci%C3%B3n%20de%20brecha.pdf"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8"
+   ]
+  },
+  {
+   "id": "PRO-03",
+   "titulo": "Rediseñar Juntos con montos por hijo, incentivo a terminar la secundaria y pago digital",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Juntos se rige por su decreto de creación y normas del MIDIS; el monto, las corresponsabilidades y los medios de pago se modifican por decreto supremo y resoluciones.",
+   "etapa": "2026-2031",
+   "que": "Juntos llega a cerca de 795 000 hogares (2025) con un monto plano por hogar. Se propone un monto base más un componente por cada niña o niño menor de 3 años (controles y anemia) y un incentivo por cada adolescente que pase de año y termine la secundaria, con pago a cuentas digitales a nombre de la madre. Se agrega acompañamiento familiar y vínculo con Haku Wiñay para generar ingresos y una ruta de salida gradual cuando el hogar supera la pobreza.",
+   "evidencia": "Las evaluaciones de Juntos (Perova y Vakis, 2010 y 2012) encontraron efectos en consumo, uso de servicios de salud y matrícula en años de transición, pero no en nutrición a dos años; por eso se refuerza el foco en primera infancia y en la secundaria, como hizo Prospera en México.",
+   "entrega": "Nuevo esquema de transferencias de Juntos aprobado y 100 % de pagos por cuenta digital al 2028.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "JUNTOS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "BN",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del programa Juntos; el componente por adolescente se financia con ahorro por reglas de salida.",
+   "costo_referencial": "no estimado",
+   "indicador": "Culminación oportuna de secundaria y anemia en menores de 3 años en hogares Juntos frente a hogares comparables.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-01",
+    "SAL-17",
+    "EDU-14"
+   ],
+   "riesgo": "Recortes que conviertan el rediseño en reducción de montos; carga administrativa para verificar corresponsabilidades.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Más de 20 000 hogares en proceso de afiliación a Juntos (794 768 hogares afiliados en 2025)",
+     "url": "https://andina.pe/agencia/noticia-mas-20000-mil-hogares-se-encuentran-proceso-afiliacion-al-programa-juntos-1042215.aspx"
+    },
+    {
+     "titulo": "Perova y Vakis (2010) – El impacto y potencial del Programa Juntos en Perú: evidencia de una evaluación no experimental",
+     "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/3974"
+    },
+    {
+     "titulo": "Perova y Vakis (2012) – 5 Years in Juntos: New Evidence on the Program's Short and Long-Term Impacts, Revista Economía PUCP",
+     "url": "https://ideas.repec.org/a/pcp/pucrev/y2012i69p53-82.html"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8",
+    "AE1.5.6"
+   ]
+  },
+  {
+   "id": "PRO-04",
+   "titulo": "Integrar Pensión 65 y Contigo en un solo programa de pensiones no contributivas",
+   "tipo": "derogacion",
+   "necesita_ley": "no",
+   "por_que_ley": "Pensión 65 fue creado por el Decreto Supremo 081-2011-PCM y Contigo también por decreto supremo; ambos son programas del Poder Ejecutivo y pueden fusionarse por decreto supremo según la Ley 29158 (LOPE).",
+   "etapa": "2026-2031",
+   "que": "Dos programas del MIDIS pagan pensiones no contributivas con padrones, oficinas y sistemas separados: Pensión 65 (más de 824 000 adultos mayores en pobreza extrema, S/ 350 bimestrales en 2026) y Contigo (personas con discapacidad severa en pobreza). Se integran en un programa único con un solo padrón, un solo canal de pago digital y reglas de indexación del monto a la inflación, liberando costos administrativos para ampliar cobertura.",
+   "evidencia": "La consolidación de pensiones no contributivas en un solo pilar solidario es la práctica de Chile (Pensión Garantizada Universal, 2022) y lo recomendado por la OIT para sistemas de protección social coherentes.",
+   "entrega": "Decreto supremo de fusión y padrón único de pensiones no contributivas al 2028.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PENSION 65",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CONTIGO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CONADIS",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuestos actuales de Pensión 65 y Contigo.",
+   "costo_referencial": "no estimado",
+   "indicador": "Costo administrativo por usuario y % de adultos mayores y personas con discapacidad severa en pobreza cubiertos.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo 081-2011-PCM, que crea el Programa Nacional de Asistencia Solidaria Pensión 65",
+     "motivo": "Se sustituye por el decreto de creación del programa unificado de pensiones no contributivas."
+    }
+   ],
+   "depende_de": [
+    "PRO-01",
+    "PRO-05",
+    "EST-02"
+   ],
+   "riesgo": "Que la fusión diluya la atención especializada a la discapacidad.",
+   "fuentes": [
+    {
+     "titulo": "Perú21 – Pensión 65: más de 824 mil adultos mayores cobran la subvención (2026)",
+     "url": "https://peru21.pe/noticias/pension-65/"
+    },
+    {
+     "titulo": "Canal N – Pensión 65 inicia pagos de S/ 350 bimestrales (2025)",
+     "url": "https://canaln.pe/actualidad/pension-65-inicia-pagos-s350-adultos-mayores-2025-n479858"
+    }
+   ],
+   "pedn": [
+    "AE1.5.9",
+    "AE4.5.3"
+   ]
+  },
+  {
+   "id": "PRO-05",
+   "titulo": "Ampliar la pensión no contributiva en coherencia con la Ley 32123",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La cobertura y el monto de Pensión 65 se definen por decreto supremo y ley de presupuesto anual; es gasto que solo puede proponer el Ejecutivo (art. 79).",
+   "etapa": "2031-2036",
+   "que": "Siete de cada diez adultos mayores están fuera del sistema de pensiones contributivo y Pensión 65 cubre solo a quienes están en pobreza extrema. Se amplía gradualmente la pensión no contributiva a adultos mayores en pobreza y luego a todos los que no tengan pensión contributiva suficiente, empezando por los de 75 años o más, y se coordina con la pensión mínima y los complementos estatales de la Ley 32123 para que no haya saltos ni dobles pagos. El monto se indexa a la inflación con regla fija. El costo se publica cada año en el Marco Macroeconómico Multianual.",
+   "evidencia": "La OIT advierte que las brechas de cobertura previsional del Perú siguen altas; Bolivia (Renta Dignidad) y Chile (PGU) muestran que pilares no contributivos amplios reducen la pobreza en la vejez a costo fiscal acotado y previsible.",
+   "entrega": "Pensión no contributiva para el 100 % de adultos mayores de 75 años sin pensión contributiva al 2036.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "ONP",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Recursos ordinarios con regla fiscal; requiere espacio fiscal explícito (trade-off con otras prioridades).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de personas de 65 años o más con alguna pensión (contributiva o no contributiva).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-04",
+    "PRO-06"
+   ],
+   "riesgo": "Aumentos de monto por decisión política sin financiamiento que pongan en riesgo la sostenibilidad; incentivos a no aportar.",
+   "fuentes": [
+    {
+     "titulo": "La República – El Perú tendrá más adultos mayores que niños (siete de cada diez adultos mayores fuera del sistema de pensiones, EPEN)",
+     "url": "https://larepublica.pe/opinion/2026/07/11/el-peru-tendra-mas-adultos-mayores-que-ninos-1063348"
+    },
+    {
+     "titulo": "Gestión – OIT: las reformas del sistema peruano de pensiones no han dado los resultados esperados",
+     "url": "https://gestion.pe/economia/oit-las-reformas-realizadas-en-el-sistema-peruano-de-pensiones-no-han-dado-los-resultados-esperados-noticia/"
+    },
+    {
+     "titulo": "Perú21 – Pensión 65: más de 824 mil adultos mayores cobran la subvención (2026)",
+     "url": "https://peru21.pe/noticias/pension-65/"
+    }
+   ],
+   "pedn": [
+    "AE1.5.9",
+    "AE3.2.2"
+   ]
+  },
+  {
+   "id": "PRO-06",
+   "titulo": "Implementar la reforma previsional de la Ley 32123 con evaluación pública cada dos años",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 32123 de Modernización del Sistema Previsional ya está vigente y su reglamento fue aprobado (DS 189-2025-EF, modificado por DS 061-2026-EF); la tarea es implementar y medir.",
+   "etapa": "2026-2031",
+   "que": "La Ley 32123 (2024) introdujo, entre otros elementos, la pensión mínima con complemento estatal, el aporte por consumo y nuevos mecanismos de ahorro voluntario, y la SBS avanza en el cambio hacia la comisión sobre el saldo. Se propone un calendario público de implementación, un tablero trimestral con afiliados, aportantes activos, densidad de aportes, comisiones y costo fiscal de los complementos, y una evaluación independiente cada dos años que proponga ajustes basados en evidencia y no en coyunturas.",
+   "evidencia": "Las reformas previsionales que se sostienen en el tiempo (Suecia, Chile con ajustes sucesivos) tienen reglas de revisión periódica y datos abiertos; la OIT señala que las reformas peruanas previas no lograron los resultados esperados en cobertura.",
+   "entrega": "Tablero público trimestral de pensiones y primera evaluación independiente de la Ley 32123 en 2027.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "ONP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MEF y la SBS; costo de complementos según la ley.",
+   "costo_referencial": "no estimado",
+   "indicador": "Aportantes activos como % de la PEA ocupada y densidad de aportes.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-07",
+    "PRO-21"
+   ],
+   "riesgo": "Nuevas leyes de retiro o cambios ad hoc que desarmen la reforma antes de evaluarla.",
+   "fuentes": [
+    {
+     "titulo": "MEF – Decreto Supremo 061-2026-EF que modifica el reglamento de la Ley 32123",
+     "url": "https://www.gob.pe/institucion/mef/normas-legales/8058441-061-2026-ef"
+    },
+    {
+     "titulo": "MEF – Presentación del reglamento de la Ley 32123 ante la Comisión de Economía del Congreso",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf"
+    },
+    {
+     "titulo": "Gestión – OIT: las reformas del sistema peruano de pensiones no han dado los resultados esperados",
+     "url": "https://gestion.pe/economia/oit-las-reformas-realizadas-en-el-sistema-peruano-de-pensiones-no-han-dado-los-resultados-esperados-noticia/"
+    }
+   ],
+   "pedn": [
+    "AE3.2.2",
+    "AE1.5.9"
+   ]
+  },
+  {
+   "id": "PRO-07",
+   "titulo": "Sustituir los retiros extraordinarios de AFP por un seguro de desempleo y anticipos reembolsables",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "El uso de los fondos previsionales y la creación de un seguro de desempleo financiado con aportes están reservados a la ley. Una ley congresal no puede crear gasto público (art. 79); el diseño debe financiarse con aportes y reasignar la CTS o ser de iniciativa del Ejecutivo.",
+   "etapa": "2026-2031",
+   "que": "Desde 2020 se aprobaron ocho retiros extraordinarios de fondos de AFP; el octavo (Ley 32445, 2025) permitió retirar hasta 4 UIT (S/ 21 400). Los retiros alivian emergencias, pero dejan a millones sin ahorro para la vejez y trasladan el costo a la pensión mínima futura. Se propone un seguro de desempleo con cuentas individuales y fondo solidario (integrando parte de la CTS) y anticipos reembolsables del fondo solo ante desempleo prolongado o enfermedad grave, con reposición obligatoria. Se publica el efecto de cada retiro en la pensión esperada.",
+   "evidencia": "Chile combina cuentas individuales de cesantía y un fondo solidario (Seguro de Cesantía, Ley 19728) que paga beneficios sin vaciar el ahorro previsional. Los retiros masivos reducen el saldo previsional de forma difícil de reponer (OIT; SBS).",
+   "entrega": "Ley del seguro de desempleo aprobada y retiros extraordinarios reemplazados por anticipos reembolsables con reglas.",
+   "responsable": "MTPE",
+   "entidades": [
+    {
+     "sigla": "MTPE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Aportes de trabajadores y empleadores, reasignación parcial de la CTS; sin recursos del Tesoro salvo decisión del Ejecutivo.",
+   "costo_referencial": "no estimado",
+   "indicador": "Saldo promedio de las cuentas individuales y trabajadores formales con seguro de desempleo.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-06"
+   ],
+   "riesgo": "Presión política por nuevos retiros (alta popularidad) y desconfianza en las AFP.",
+   "fuentes": [
+    {
+     "titulo": "Expreso – Octavo retiro AFP 2025 hasta 4 UIT (Ley 32445): cronograma oficial",
+     "url": "https://www.expreso.com.pe/economia/octavo-retiro-afp-2025-revise-aqui-el-cronograma-oficial-sbs-superintendencia-noticia/1227058/"
+    },
+    {
+     "titulo": "Gestión – OIT: las reformas del sistema peruano de pensiones no han dado los resultados esperados",
+     "url": "https://gestion.pe/economia/oit-las-reformas-realizadas-en-el-sistema-peruano-de-pensiones-no-han-dado-los-resultados-esperados-noticia/"
+    },
+    {
+     "titulo": "Superintendencia de Pensiones de Chile – Seguro de Cesantía",
+     "url": "https://www.spensiones.cl/portal/institucional/594/w3-propertyvalue-9908.html"
+    }
+   ],
+   "pedn": [
+    "AE3.2.2"
+   ]
+  },
+  {
+   "id": "PRO-08",
+   "titulo": "Crear por ley el Sistema Nacional de Cuidados con rectoría del MIMP",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Los sistemas funcionales del Poder Ejecutivo se crean por ley (Ley 29158, art. 45). Varios proyectos fueron archivados y el PL 11659 sigue en trámite; si es de iniciativa congresal no puede crear gasto, por lo que su implementación depende del presupuesto que asigne el Ejecutivo.",
+   "etapa": "2026-2031",
+   "que": "El trabajo de cuidado de niñas y niños, personas con discapacidad y adultos mayores dependientes recae casi siempre en mujeres y no se reconoce. La ley reconoce el derecho al cuidado, define a la población prioritaria (dependencia severa y primera infancia), crea un registro de personas cuidadoras y de servicios, y ordena cómo se coordinan MIMP, MIDIS, MINSA, MINEDU y municipios. No crea entidades nuevas: articula Cuna Más, CIAM, Contigo y servicios municipales bajo metas comunes.",
+   "evidencia": "Uruguay creó su Sistema Nacional Integrado de Cuidados por Ley 19353 (2015) con servicios progresivos; el PNUD acompaña al MIMP en el diseño de redes locales de cuidado en Lima y Callao.",
+   "entrega": "Ley del Sistema Nacional de Cuidados y su reglamento aprobados, con registro nacional de cuidadoras y servicios.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Presupuestos existentes de programas de cuidado; ampliaciones progresivas por ley de presupuesto.",
+   "costo_referencial": "no estimado",
+   "indicador": "Horas semanales de trabajo de cuidado no remunerado de mujeres (Encuesta de Uso del Tiempo, INEI) y personas dependientes con servicio.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-09",
+    "EDU-01"
+   ],
+   "riesgo": "Ley declarativa sin presupuesto ni servicios.",
+   "fuentes": [
+    {
+     "titulo": "Congreso – Proyecto de Ley 11659 que crea el Sistema Nacional de Cuidados (opinión MIMP)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf"
+    },
+    {
+     "titulo": "PNUD – Por un Perú que construye un sistema integral de cuidados con redes locales",
+     "url": "https://www.undp.org/es/node/428446"
+    },
+    {
+     "titulo": "Uruguay – Ley 19353, Sistema Nacional Integrado de Cuidados",
+     "url": "https://www.impo.com.uy/bases/leyes/19353-2015"
+    }
+   ],
+   "pedn": [
+    "AE1.5.1",
+    "AE1.5.9"
+   ]
+  },
+  {
+   "id": "PRO-09",
+   "titulo": "Abrir centros de día y servicios de cuidado domiciliario para personas dependientes",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Los Centros Integrales de Atención al Adulto Mayor (CIAM) son municipales (Ley 30490) y los servicios de cuidado se financian por programas presupuestales y convenios; no requieren ley.",
+   "etapa": "2031-2036",
+   "que": "Se ofrecen centros de día para adultos mayores y personas con discapacidad con dependencia moderada, y cuidado domiciliario por horas para dependencia severa, prestado por cuidadoras certificadas y pagadas. Se empieza en distritos con mayor envejecimiento y pobreza, y se da a las cuidadoras familiares respiro, formación y afiliación a salud y pensión. La atención a la primera infancia se cubre con Cuna Más (EDU-01).",
+   "evidencia": "Los servicios de cuidado de larga duración liberan tiempo, sobre todo de mujeres, para empleo y estudio; la experiencia de Uruguay con asistentes personales y centros de día es una referencia regional (Sistema Nacional Integrado de Cuidados).",
+   "entrega": "Un centro de día en cada provincia y servicio de cuidado domiciliario en 300 distritos priorizados al 2036.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Transferencias a municipios por programa presupuestal; copago según clasificación socioeconómica.",
+   "costo_referencial": "no estimado",
+   "indicador": "Personas con dependencia que reciben servicios de cuidado (registro nacional).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-08",
+    "SAL-21"
+   ],
+   "riesgo": "Servicios de baja calidad sin supervisión; dificultad para retener cuidadoras con salarios bajos.",
+   "fuentes": [
+    {
+     "titulo": "PNUD – Por un Perú que construye un sistema integral de cuidados con redes locales",
+     "url": "https://www.undp.org/es/node/428446"
+    },
+    {
+     "titulo": "Ley 30490, Ley de la Persona Adulta Mayor",
+     "url": "https://busquedas.elperuano.pe/normaslegales/ley-de-la-persona-adulta-mayor-ley-n-30490-1407242-1/"
+    }
+   ],
+   "pedn": [
+    "AE1.5.9",
+    "AE1.5.1"
+   ]
+  },
+  {
+   "id": "PRO-10",
+   "titulo": "Reducir el trabajo infantil con transferencias, escuela e inspección en cadenas productivas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Estrategia Nacional para la Prevención y Erradicación del Trabajo Infantil, la inspección de SUNAFIL y los programas sociales operan con normas vigentes (Código de los Niños y Adolescentes, listado de trabajos peligrosos).",
+   "etapa": "2026-2031",
+   "que": "Alrededor de 1,8 millones de niñas, niños y adolescentes de 5 a 17 años realizaron alguna actividad laboral en 2025 según la ENAHO citada en prensa (por verificar en el informe oficial del INEI), con mayor incidencia en zonas rurales. Se combina: incentivo de Juntos por asistencia y aprobación escolar (PRO-03), jornada escolar completa y secundaria rural (EDU-13), inspección focalizada de SUNAFIL en minería, ladrilleras, agricultura y comercio ambulatorio, y sellos de cadenas libres de trabajo infantil para exportadores de café, cacao y espárrago.",
+   "evidencia": "Las transferencias condicionadas reducen el trabajo infantil en América Latina, con efectos documentados en México y Brasil (OIT; Banco Mundial). La trazabilidad exigida por compradores internacionales refuerza el control en cadenas exportadoras.",
+   "entrega": "Plan de inspección focalizado y sello de cadenas libres de trabajo infantil en las cinco principales cadenas agroexportadoras.",
+   "responsable": "MTPE",
+   "entidades": [
+    {
+     "sigla": "MTPE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAFIL",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de MTPE, SUNAFIL y programas sociales existentes.",
+   "costo_referencial": "no estimado",
+   "indicador": "Tasa de trabajo infantil peligroso (ENAHO, INEI).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-03",
+    "EDU-13"
+   ],
+   "riesgo": "Desplazar el trabajo infantil a la informalidad más oculta; cifras sin definición estable.",
+   "fuentes": [
+    {
+     "titulo": "Infomercado – Trabajo infantil aún afecta a 1,8 millones de menores y golpea más a regiones rurales (ENAHO 2025)",
+     "url": "https://infomercado.pe/trabajo-infantil-aun-afecta-a-1-8-millones-de-menores-y-golpea-mas-a-regiones-rurales/"
+    },
+    {
+     "titulo": "OIT – Trabajo infantil en América Latina y el Caribe",
+     "url": "https://www.ilo.org/es/regiones-y-paises/america-latina-y-el-caribe/areas-de-trabajo/trabajo-infantil"
+    }
+   ],
+   "pedn": [
+    "AE3.2.6"
+   ]
+  },
+  {
+   "id": "PRO-11",
+   "titulo": "Priorizar el acogimiento familiar sobre los albergues para niñas y niños desprotegidos",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El Decreto Legislativo 1297 para la protección de niñas, niños y adolescentes sin cuidados parentales ya prioriza el acogimiento familiar; se implementa con Unidades de Protección Especial (UPE) del MIMP y DEMUNA municipales.",
+   "etapa": "2026-2031",
+   "que": "Se amplían las Unidades de Protección Especial a todas las regiones, se fortalece a las Defensorías Municipales del Niño y del Adolescente (DEMUNA) con personal permanente y se paga y acompaña a familias acogedoras (extensas y ajenas) para que la institucionalización en centros de acogida residencial sea el último recurso y por el menor tiempo. Se publica cuántos niños viven en centros residenciales y cuánto tiempo permanecen.",
+   "evidencia": "La evidencia de los estudios de Bucarest (Bucharest Early Intervention Project) muestra que el acogimiento familiar produce mejores resultados de desarrollo que la institucionalización; el DL 1297 recoge ese principio.",
+   "entrega": "UPE en las 25 regiones y número de niños en acogimiento familiar mayor que en acogimiento residencial al 2031.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PJ",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINJUSDH",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MIMP y transferencias a DEMUNA por el programa de incentivos municipales.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de niñas y niños en desprotección familiar atendidos en acogimiento familiar.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-12"
+   ],
+   "riesgo": "Familias acogedoras sin acompañamiento ni pago oportuno; demoras judiciales.",
+   "fuentes": [
+    {
+     "titulo": "Decreto Legislativo 1297, para la protección de niñas, niños y adolescentes sin cuidados parentales o en riesgo de perderlos",
+     "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-para-la-proteccion-de-ninas-ninos-y-ado-decreto-legislativo-n-1297-1468963-5/"
+    },
+    {
+     "titulo": "Nelson et al. (2007) – Cognitive recovery in socially deprived young children: the Bucharest Early Intervention Project, Science",
+     "url": "https://doi.org/10.1126/science.1143921"
+    }
+   ],
+   "pedn": [
+    "AE1.5.2",
+    "AE1.5.5"
+   ]
+  },
+  {
+   "id": "PRO-12",
+   "titulo": "Atender la violencia contra la mujer con CEM 24 horas y seguimiento de medidas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 30364 y su reglamento ya definen el sistema; los Centros Emergencia Mujer (programa Warmi Ñan, antes Aurora), la Línea 100 y los hogares de refugio se amplían con presupuesto del MIMP y convenios con PNP y municipios.",
+   "etapa": "2026-2031",
+   "que": "El 52 % de mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja y 33,9 % en los últimos 12 meses (ENDES 2024); en 2024 hubo 154 feminicidios (INEI). Se asegura un CEM con atención 24 horas en cada comisaría de alta demanda, patrocinio legal gratuito, hogares de refugio temporal en cada región y, sobre todo, seguimiento activo de cada medida de protección otorgada por los juzgados: visita policial, botón de pánico y aviso ante incumplimiento. Se priorizan zonas rurales con servicios itinerantes en lenguas originarias.",
+   "evidencia": "El seguimiento de medidas de protección y la evaluación de riesgo son los factores que más reducen la revictimización según la OMS (RESPECT, marco de prevención de la violencia contra las mujeres); la mayoría de feminicidios ocurre tras denuncias previas.",
+   "entrega": "CEM 24 horas en todas las comisarías priorizadas y 100 % de medidas de protección con seguimiento registrado al 2031.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PNP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PJ",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Programa presupuestal de lucha contra la violencia familiar del MIMP.",
+   "costo_referencial": "no estimado",
+   "indicador": "Mujeres que sufrieron violencia de su pareja en los últimos 12 meses (ENDES) y feminicidios con denuncia previa.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-13",
+    "DER-07"
+   ],
+   "riesgo": "Servicios saturados sin personal especializado; medidas de protección que nadie verifica.",
+   "fuentes": [
+    {
+     "titulo": "INEI – 52 de cada 100 mujeres de 15 a 49 años fueron alguna vez víctimas de violencia por parte de su esposo o compañero (ENDES 2024)",
+     "url": "https://www.gob.pe/institucion/inei/noticias/1296342-52-de-cada-100-mujeres-de-15-a-49-anos-fueron-alguna-vez-victimas-de-violencia-por-parte-de-su-esposo-o-companero"
+    },
+    {
+     "titulo": "INEI – Perú registró 154 casos de feminicidio en 2024",
+     "url": "https://www.gob.pe/en/institucion/inei/noticias/1291805-inei-peru-registro-154-casos-de-feminicidio-en-el-2024"
+    },
+    {
+     "titulo": "Caretas – Feminicidios en Perú 2025: el MIMP confirma 119 víctimas a octubre",
+     "url": "https://caretas.pe/?p=776306"
+    },
+    {
+     "titulo": "OMS – RESPECT women: Preventing violence against women",
+     "url": "https://www.who.int/publications/i/item/WHO-RHR-18.19"
+    }
+   ],
+   "pedn": [
+    "AE1.5.2"
+   ]
+  },
+  {
+   "id": "PRO-13",
+   "titulo": "Integrar en un registro único las denuncias, medidas de protección y casos de violencia",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 30364 ya prevé el Registro Único de Víctimas y Personas Agresoras; su implementación interoperable entre PNP, Ministerio Público, Poder Judicial y MIMP se hace por convenios y normas reglamentarias.",
+   "etapa": "2026-2031",
+   "que": "Hoy cada institución registra la violencia en su propio sistema y una mujer puede tener varias denuncias sin que nadie vea el patrón. Se implementa el registro único interoperable con alertas automáticas de reincidencia y riesgo alto, acceso protegido y auditado para policías, fiscales, jueces y personal de los CEM, y estadísticas abiertas anonimizadas por distrito. Así, quien atiende un nuevo caso sabe si la persona agresora ya tenía denuncias o medidas incumplidas y puede pedir protección reforzada de inmediato.",
+   "evidencia": "Los sistemas integrados de gestión de casos (por ejemplo VioGén en España) permiten valorar el riesgo y coordinar la protección entre policía y justicia.",
+   "entrega": "Registro único operativo e interoperable en PNP, Ministerio Público, Poder Judicial y CEM al 2028.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PNP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PJ",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MIMP y de las entidades del sistema de justicia.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de casos con valoración de riesgo actualizada visible para todas las instituciones.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "GOB-01",
+    "DIG-01"
+   ],
+   "riesgo": "Filtración de datos sensibles de víctimas; falta de interoperabilidad real.",
+   "fuentes": [
+    {
+     "titulo": "INEI – 52 de cada 100 mujeres de 15 a 49 años fueron alguna vez víctimas de violencia por parte de su esposo o compañero (ENDES 2024)",
+     "url": "https://www.gob.pe/institucion/inei/noticias/1296342-52-de-cada-100-mujeres-de-15-a-49-anos-fueron-alguna-vez-victimas-de-violencia-por-parte-de-su-esposo-o-companero"
+    },
+    {
+     "titulo": "Ministerio del Interior de España – Sistema VioGén",
+     "url": "https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/violencia-contra-la-mujer/sistema-viogen/"
+    }
+   ],
+   "pedn": [
+    "AE1.5.2",
+    "AE4.5.4"
+   ]
+  },
+  {
+   "id": "PRO-14",
+   "titulo": "Certificar la discapacidad en el primer nivel e inscribir de oficio en el registro",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La certificación es competencia del MINSA y el registro es del CONADIS bajo la Ley 29973; la inscripción automática se aprueba por decreto supremo y convenio de interoperabilidad. La Ley 32367 (2025) ya eliminó la renovación periódica para la discapacidad permanente.",
+   "etapa": "2026-2031",
+   "que": "El Censo 2017 contó más de 3 millones de personas con discapacidad, pero el registro del CONADIS tiene alrededor de 496 000 inscritos, porque certificar exige trámites en pocos establecimientos. Se habilita a equipos del primer nivel y a brigadas móviles para certificar, el certificado inscribe automáticamente en el registro y da acceso a Contigo, cuota laboral, educación inclusiva y rehabilitación. Se prioriza la Amazonía y la sierra rural.",
+   "evidencia": "La brecha entre población con discapacidad y población certificada está documentada por el propio CONADIS ante el Congreso; la inscripción de oficio elimina un paso que no agrega valor.",
+   "entrega": "Certificación disponible en todas las redes de salud y registro automático al 2028.",
+   "responsable": "MINSA",
+   "entidades": [
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CONADIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "ESSALUD",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "Presupuesto de MINSA y CONADIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "Personas con certificado e inscritas en el registro frente a la población con discapacidad del Censo 2025.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley 29973, Ley General de la Persona con Discapacidad – trámite de inscripción en el Registro Nacional de la Persona con Discapacidad",
+     "motivo": "Se simplifica: la inscripción se hace de oficio al emitirse el certificado, sin solicitud adicional."
+    }
+   ],
+   "depende_de": [
+    "SAL-24",
+    "TAL-13"
+   ],
+   "riesgo": "Certificaciones laxas que generen desconfianza; falta de médicos capacitados.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano – Más de 496 000 personas con discapacidad están registradas en el Perú",
+     "url": "https://elperuano.pe/noticia/254087-atencion-mas-de-496000-personas-con-discapacidad-estan-registradas-en-el-peru"
+    },
+    {
+     "titulo": "CONADIS – Exposición ante la Comisión de Inclusión Social del Congreso (2024)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2024/InclusionSocial/files/se13_conadis.pdf"
+    }
+   ],
+   "pedn": [
+    "AE1.5.1",
+    "AE1.5.3"
+   ]
+  },
+  {
+   "id": "PRO-15",
+   "titulo": "Proteger a las personas adultas mayores del abandono y el abuso económico",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 30490 de la Persona Adulta Mayor ya establece derechos y los CIAM; se implementa con el MIMP, municipios y el sistema financiero.",
+   "etapa": "2031-2036",
+   "que": "El Perú envejece rápido y muchos adultos mayores viven solos o dependen de familiares. Se crea una línea de atención y equipos municipales que visitan a adultos mayores solos, se identifican situaciones de abandono y maltrato, y se coordina con la SBS para alertas de abuso financiero (préstamos y retiros no consentidos, fraudes digitales). Los CIAM ofrecen actividades, alfabetización digital y orientación legal.",
+   "evidencia": "La OMS estima que alrededor de uno de cada seis adultos mayores sufre algún tipo de maltrato en entornos comunitarios; la detección temprana y la visita domiciliaria son intervenciones recomendadas.",
+   "entrega": "CIAM activo en cada distrito urbano y servicio de visitas domiciliarias en las 50 provincias con más adultos mayores solos.",
+   "responsable": "MIMP",
+   "entidades": [
+    {
+     "sigla": "MIMP",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MIMP y municipios.",
+   "costo_referencial": "no estimado",
+   "indicador": "Adultos mayores que viven solos con visita periódica registrada.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-09",
+    "TAL-02"
+   ],
+   "riesgo": "Servicios municipales que dependen de la voluntad de cada alcalde.",
+   "fuentes": [
+    {
+     "titulo": "OMS – Maltrato de las personas mayores (nota descriptiva)",
+     "url": "https://www.who.int/es/news-room/fact-sheets/detail/abuse-of-older-people"
+    },
+    {
+     "titulo": "Ley 30490, Ley de la Persona Adulta Mayor",
+     "url": "https://busquedas.elperuano.pe/normaslegales/ley-de-la-persona-adulta-mayor-ley-n-30490-1407242-1/"
+    }
+   ],
+   "pedn": [
+    "AE1.5.2",
+    "AE1.5.9"
+   ]
+  },
+  {
+   "id": "PRO-16",
+   "titulo": "Crear pagos de emergencia escalables ante El Niño, pandemias y otros shocks",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se aprueba por decreto supremo un protocolo con disparadores, padrones y canales de pago preacordados; el financiamiento contingente usa la reserva de contingencia y los instrumentos de gestión del riesgo fiscal del MEF.",
+   "etapa": "2026-2031",
+   "que": "En 2020 los bonos de emergencia llegaron tarde y con errores porque el padrón estaba desactualizado y muchos hogares no tenían cuenta: la Comisión de Fiscalización registró que el Bono Rural tenía apenas 32,9 % de cobro. Se aprueba un protocolo que define de antemano qué evento activa los pagos (alerta oficial de El Niño, sismo, emergencia sanitaria), a quién (registro social y Padrón de Productores Agrarios), cuánto y por qué canal (cuentas digitales con DNI, billeteras, agentes), y se financia con reservas y seguros catastróficos. Se ensaya cada año con simulacros.",
+   "evidencia": "El Banco Mundial (Bowen et al., 2020) muestra que la protección social adaptativa con disparadores y financiamiento preacordados reduce el costo de los desastres; las lecciones peruanas de 2020 están documentadas por GRADE–UNICEF (2022).",
+   "entrega": "Protocolo aprobado, 90 % de hogares del registro social con cuenta para recibir pagos y simulacro anual.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "BN",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Reserva de contingencia y estrategia de gestión del riesgo fiscal ante desastres del MEF.",
+   "costo_referencial": "no estimado",
+   "indicador": "Días entre el evento y el primer pago y % de hogares afectados que reciben el pago.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-01",
+    "AGR-15",
+    "DIG-20"
+   ],
+   "riesgo": "Uso político de los pagos fuera de los disparadores; padrones desactualizados.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial – Bowen et al. (2020): Adaptive Social Protection: Building Resilience to Shocks",
+     "url": "https://openknowledge.worldbank.org/handle/10986/33785"
+    },
+    {
+     "titulo": "GRADE–UNICEF (2022) – Lecciones de la pandemia para una mejor protección social de la niñez y adolescencia en el Perú",
+     "url": "https://www.unicef.org/peru/sites/unicef.org.peru/files/2022-10/Lecciones%20pandemia%20mejor%20proteccion%20social%20ninez%20adolescencia%20Peru%20Grade-UNICEF%20Set2022%20Presentacion.pdf"
+    },
+    {
+     "titulo": "Congreso – Comisión de Fiscalización advierte que bonos no llegan a los más vulnerables (2020)",
+     "url": "https://comunicaciones.congreso.gob.pe/noticias/advierten-que-bonos-no-estan-llegando-a-personas-vulnerables-que-mas-lo-necesitan"
+    }
+   ],
+   "pedn": [
+    "AE2.2.5",
+    "AE2.2.6"
+   ]
+  },
+  {
+   "id": "PRO-17",
+   "titulo": "Llevar servicios sociales con intérpretes y pertinencia cultural a pueblos indígenas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se apoya en la Ley 29735 de lenguas originarias, el Registro Nacional de Intérpretes y Traductores del Ministerio de Cultura y las plataformas itinerantes existentes (PIAS, Tambos); se financia con presupuestos sectoriales.",
+   "etapa": "2026-2031",
+   "que": "Cerca de 9 millones de peruanos se identifican como indígenas o afroperuanos según los Censos 2025 (Ministerio de Cultura). Se garantiza que los programas sociales, los CEM, el registro civil y las ventanillas del Estado en distritos con población indígena atiendan en la lengua local con intérpretes certificados y contratados, se amplían las Plataformas Itinerantes de Acción Social en ríos amazónicos y lago Titicaca, y se consulta a las organizaciones indígenas el diseño de los servicios.",
+   "evidencia": "La atención en lengua materna mejora el uso de servicios y la confianza; las PIAS han llevado DNI, salud y programas sociales a comunidades ribereñas aisladas.",
+   "entrega": "Intérpretes contratados en los servicios de los distritos con mayoría indígena y PIAS ampliadas en cuencas priorizadas.",
+   "responsable": "MINCUL",
+   "entidades": [
+    {
+     "sigla": "MINCUL",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "RENIEC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIMP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuestos sectoriales y del programa PAIS del MIDIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de servicios públicos en distritos con mayoría indígena que atienden en lengua originaria.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SAL-25",
+    "GOB-23",
+    "EDU-15"
+   ],
+   "riesgo": "Cuestionamientos a la medición étnica del Censo 2025 por organizaciones indígenas; rotación de intérpretes.",
+   "fuentes": [
+    {
+     "titulo": "RPP – Censos 2025: cerca de 9 millones de peruanos se identifican como indígenas o afroperuanos",
+     "url": "https://rpp.pe/peru/actualidad/censos-2025-cerca-de-9-millones-de-peruanos-se-identifican-como-parte-de-un-pueblo-indigena-o-afroperuano-noticia-1696906"
+    },
+    {
+     "titulo": "Ministerio de Cultura – Registro Nacional de Intérpretes y Traductores de Lenguas Indígenas u Originarias",
+     "url": "https://www.gob.pe/institucion/cultura/campa%C3%B1as/3006-registro-nacional-de-interpretes-y-traductores-de-lenguas-indigenas-u-originarias"
+    }
+   ],
+   "pedn": [
+    "AE1.5.11",
+    "AE1.5.10"
+   ]
+  },
+  {
+   "id": "PRO-18",
+   "titulo": "Ejecutar la Política Nacional del Pueblo Afroperuano con metas y presupuesto visibles",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Política Nacional del Pueblo Afroperuano al 2030 (DS 005-2022-MC) es de cumplimiento obligatorio para el Estado; falta asignarle metas presupuestales.",
+   "etapa": "2026-2031",
+   "que": "Se vinculan los objetivos de la política (reducir la discriminación étnico-racial, mejorar educación, salud, empleo y participación) a programas presupuestales con metas en los distritos con mayor población afroperuana (costa norte y sur, Lima y Callao). Se usa el Registro de Información del Pueblo Afroperuano para focalizar, se incorpora la variable étnica en registros administrativos y se publica un informe anual de avance.",
+   "evidencia": "La desagregación étnica de datos permite detectar brechas invisibles en promedios nacionales (CEPAL, Afrodescendientes y la matriz de la desigualdad social en América Latina).",
+   "entrega": "Metas de la política ligadas a programas presupuestales e informe anual de avance publicado.",
+   "responsable": "MINCUL",
+   "entidades": [
+    {
+     "sigla": "MINCUL",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "INEI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuestos sectoriales existentes.",
+   "costo_referencial": "no estimado",
+   "indicador": "Brechas en educación superior y empleo formal de la población afroperuana respecto del promedio nacional.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-24"
+   ],
+   "riesgo": "Política sin presupuesto ni seguimiento.",
+   "fuentes": [
+    {
+     "titulo": "Decreto Supremo 005-2022-MC – Política Nacional del Pueblo Afroperuano al 2030",
+     "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-la-politica-nacional-del-pueblo-decreto-supremo-n-005-2022-mc-2073931-3/"
+    },
+    {
+     "titulo": "CEPAL (2020) – Afrodescendientes y la matriz de la desigualdad social en América Latina",
+     "url": "https://www.cepal.org/es/publicaciones/46191-afrodescendientes-la-matriz-la-desigualdad-social-america-latina-retos-la"
+    }
+   ],
+   "pedn": [
+    "AE1.5.10",
+    "AE1.5.11"
+   ]
+  },
+  {
+   "id": "PRO-19",
+   "titulo": "Regularizar a personas migrantes y afiliarlas a salud y empleo formal",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La regularización migratoria (carné de permiso temporal de permanencia) y la afiliación al SIS se regulan por decreto supremo y normas de MIGRACIONES y el MINSA bajo la Ley de Migraciones (DL 1350).",
+   "etapa": "2026-2031",
+   "que": "El Perú alberga alrededor de 1,6 millones de personas venezolanas (proyección R4V a 2023) y una parte importante no tiene permiso de permanencia vigente. Se abre un proceso de regularización permanente con verificación de antecedentes, se permite la afiliación al SIS de niñas, niños, gestantes y personas con enfermedades transmisibles independientemente de su estatus, y se reconoce de forma ágil títulos y competencias para que trabajen formalmente y aporten.",
+   "evidencia": "Colombia otorgó el Estatuto Temporal de Protección a venezolanos (2021) y estudios del Banco Mundial y el BID encontraron efectos positivos en empleo formal e ingresos fiscales; la irregularidad empuja a la informalidad y al riesgo de explotación.",
+   "entrega": "Proceso de regularización abierto y permanente con verificación de antecedentes y afiliación al SIS de grupos prioritarios.",
+   "responsable": "MIGRACIONES",
+   "entidades": [
+    {
+     "sigla": "MIGRACIONES",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MININTER",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SIS",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MTPE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Tasas de trámite y presupuesto de MIGRACIONES; cooperación internacional para salud.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de población migrante con permiso de permanencia vigente y con seguro de salud.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-15"
+   ],
+   "riesgo": "Rechazo social y politización de la migración; seguridad ciudadana usada como argumento para cerrar la regularización.",
+   "fuentes": [
+    {
+     "titulo": "R4V / GTRM – Análisis Conjunto de Necesidades 2023, Perú (población venezolana proyectada 1,6 millones)",
+     "url": "https://www.r4v.info/sites/default/files/2024-04/GTRM%20Peru%20Analisis%20Conjunto%20Necesidades%202023.pdf"
+    },
+    {
+     "titulo": "Banco Mundial (2023) – Migración venezolana en Colombia: efectos del Estatuto Temporal de Protección (Informe sobre el desarrollo mundial 2023: Migrantes, refugiados y sociedades)",
+     "url": "https://www.worldbank.org/es/publication/wdr2023"
+    }
+   ],
+   "pedn": [
+    "AE4.4.6",
+    "AE4.3.1"
+   ]
+  },
+  {
+   "id": "PRO-20",
+   "titulo": "Publicar cada año la pobreza multidimensional oficial junto con la monetaria",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El Decreto Supremo 014-2024-MIDIS ya establece la medición oficial de la pobreza multidimensional (índice y tablero) con publicación anual; falta cumplirla de manera regular.",
+   "etapa": "2026-2031",
+   "que": "En 2025 la pobreza monetaria bajó a 25,7 % y la extrema a 4,7 %, pero 32,8 % de la población es vulnerable y puede caer en pobreza ante cualquier shock (INEI). La pobreza no es solo ingreso: falta de agua, salud, educación, conectividad. Se publica cada año, en la misma fecha que la monetaria, la medición multidimensional del INEI por distrito, y se usa para asignar presupuesto a las brechas que más pesan en cada territorio.",
+   "evidencia": "México (CONEVAL) y Colombia (DANE) publican pobreza multidimensional oficial que orienta la asignación de programas; el INEI ya publicó los indicadores 2015-2024.",
+   "entrega": "Publicación anual de la pobreza multidimensional por el INEI con resultados por departamento y provincia.",
+   "responsable": "INEI",
+   "entidades": [
+    {
+     "sigla": "INEI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del INEI (ENAHO).",
+   "costo_referencial": "no estimado",
+   "indicador": "Publicación oportuna anual y uso del índice en la programación presupuestal.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-24",
+    "EST-25"
+   ],
+   "riesgo": "Cambios metodológicos por conveniencia política; pérdida de autonomía del INEI.",
+   "fuentes": [
+    {
+     "titulo": "INEI – Informe técnico: Evolución de los indicadores de pobreza multidimensional 2015-2024",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/8150471/6823750-informe-tecnico-evolucion-de-los-indicadores-de-pobreza-multidimensional-2015-2024.pdf"
+    },
+    {
+     "titulo": "Expreso – INEI: uno de cada tres peruanos está al borde de caer en la pobreza (32,8 % vulnerable)",
+     "url": "https://www.expreso.com.pe/informes/inei-alerta-que-uno-de-cada-tres-peruanos-esta-al-borde-de-caer-en-la-pobreza-compatriotas-siguen-en-la-zona-riesgo-instituto-nacional-de-estadistica-e-informatica-noticia/1285247/"
+    },
+    {
+     "titulo": "El Peruano – INEI: pobreza se redujo a 25,7 % en 2025",
+     "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8",
+    "AE4.5.1"
+   ]
+  },
+  {
+   "id": "PRO-21",
+   "titulo": "Afiliar a independientes y trabajadores de plataformas a salud y pensión con aportes simples",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El aporte por consumo y el ahorro voluntario ya están en la Ley 32123 y su reglamento; el piso de protección para trabajadores de plataformas requiere ley (propuesta ECO-11). Los aportes obligatorios nuevos están reservados a la ley.",
+   "etapa": "2026-2031",
+   "que": "Con 70,7 % de empleo informal en 2025 (INEI), la protección social atada al contrato deja fuera a la mayoría. Se facilita la afiliación de independientes al SIS contributivo y a pensiones mediante aportes por consumo con boleta electrónica, débitos pequeños desde billeteras digitales y aportes de contrapartida estatal para los de menores ingresos, y se aplica un piso de protección para quienes trabajan por plataformas digitales (ECO-11). Se integra la afiliación al trámite de RUC y a la escalera MYPE (ECP-23).",
+   "evidencia": "El aporte por consumo y los esquemas de contrapartida (México, Colombia con BEPS) elevan el ahorro de independientes de bajos ingresos; la evidencia de economía del comportamiento muestra que la afiliación automática aumenta la participación (Madrian y Shea, 2001).",
+   "entrega": "Independientes afiliados a salud y pensión con aporte digital simple y piso de protección para trabajadores de plataformas.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MTPE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "SIS",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Aportes de los trabajadores; contrapartida estatal según disponibilidad fiscal.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de trabajadores independientes que aportan a pensiones y salud al menos 6 meses al año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ECO-11",
+    "ECP-23",
+    "PRO-06"
+   ],
+   "riesgo": "Baja confianza en el sistema previsional que frene la afiliación voluntaria.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – La informalidad cayó a 70,7 % en 2025 según el INEI, pero subió en 10 ciudades",
+     "url": "https://gestion.pe/economia/informalidad-en-peru-cayo-pero-en-10-ciudades-la-situacion-fue-otra-como-entenderlo-empleo-en-peru-puestos-de-trabajo-inei-mercado-laboral-noticia/"
+    },
+    {
+     "titulo": "MEF – Presentación del reglamento de la Ley 32123 ante la Comisión de Economía del Congreso",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2025/economia/files/mef-reglamento_ley_32123.pdf"
+    },
+    {
+     "titulo": "Madrian y Shea (2001) – The Power of Suggestion: Inertia in 401(k) Participation, QJE",
+     "url": "https://doi.org/10.1162/003355301753265543"
+    }
+   ],
+   "pedn": [
+    "AE3.2.2",
+    "AE3.2.1"
+   ]
+  },
+  {
+   "id": "PRO-22",
+   "titulo": "Evaluar cada programa social cada cinco años y rediseñar los que fallan",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El MEF y el MIDIS pueden ordenar evaluaciones independientes en el marco del presupuesto por resultados (DL 1440) y del Sistema Nacional de Desarrollo e Inclusión Social (Ley 29792).",
+   "etapa": "2026-2031",
+   "que": "Se aprueba una agenda pública de evaluaciones: cada programa social (Juntos, Pensión 65, Contigo, Cuna Más, alimentación escolar, Haku Wiñay, programas de violencia y cuidado) tiene una evaluación de impacto o de diseño independiente al menos cada cinco años, con datos anonimizados para investigadores. Los resultados son vinculantes para la programación presupuestal: se amplían los programas que funcionan y se rediseñan o cierran los que no.",
+   "evidencia": "El sistema de evaluación de CONEVAL en México y las evaluaciones independientes del MEF en el Perú muestran que la evaluación periódica mejora el diseño de programas cuando sus resultados tienen consecuencias presupuestales.",
+   "entrega": "Agenda quinquenal de evaluaciones publicada y 100 % de programas sociales evaluados al 2031.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONTRALORIA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto de evaluación del MEF (presupuesto por resultados) y del MIDIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "% del presupuesto social con evaluación independiente vigente.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-05",
+    "EST-28"
+   ],
+   "riesgo": "Evaluaciones que se archivan sin consecuencias.",
+   "fuentes": [
+    {
+     "titulo": "Perova y Vakis (2012) – 5 Years in Juntos: New Evidence on the Program's Short and Long-Term Impacts, Revista Economía PUCP",
+     "url": "https://ideas.repec.org/a/pcp/pucrev/y2012i69p53-82.html"
+    },
+    {
+     "titulo": "MEF – Evaluaciones independientes del presupuesto por resultados",
+     "url": "https://www.mef.gob.pe/es/presupuesto-por-resultados/instrumentos/evaluaciones-independientes"
+    }
+   ],
+   "pedn": [
+    "AE4.5.3",
+    "AE4.5.1"
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "educacion",
+   "como": "Cuna Más (EDU-01) es la pieza de primera infancia del sistema de cuidados (PRO-08); el incentivo de Juntos por terminar la secundaria (PRO-03) se apoya en las alertas contra la deserción (EDU-14) y la secundaria rural (EDU-13)."
+  },
+  {
+   "con": "salud",
+   "como": "Juntos y el registro social ayudan a llegar con el paquete contra la anemia (SAL-17); el cuidado de larga duración se coordina con la atención geriátrica (SAL-21) y la certificación de discapacidad con la historia clínica electrónica (SAL-24)."
+  },
+  {
+   "con": "agro",
+   "como": "Haku Wiñay (AGR-02) y Juntos se combinan para generar ingresos rurales; el seguro agrario (AGR-15) y los pagos de emergencia (PRO-16) forman la red ante El Niño; los pescadores artesanales se afilian a salud y pensión (AGR-21, PRO-21)."
+  },
+  {
+   "con": "economia",
+   "como": "La escalera MYPE (ECP-23) reduce el costo de formalizarse y amplía la base contributiva de salud y pensiones."
+  },
+  {
+   "con": "estado",
+   "como": "La fusión de Pensión 65 y Contigo (PRO-04) y la evaluación periódica de programas (PRO-22) aplican el mapa de duplicidades (EST-01) y la revisión de programas presupuestales (EST-05)."
+  },
+  {
+   "con": "digital",
+   "como": "El registro social interoperable (PRO-01) y el registro único de violencia (PRO-13) dependen de la ley de procedimiento digital (DIG-04) y de la protección de datos personales (DIG-01)."
+  }
+ ],
+ "conexion_tech": [
+  "ECO-11",
+  "TAL-02",
+  "TAL-13",
+  "TAL-16",
+  "GOB-01",
+  "GOB-23",
+  "DER-07",
+  "CIB-10"
+ ],
+ "plan2050": [
+  "cohesion-social",
+  "la-familia",
+  "pensiones-de-jubilacion",
+  "prevision",
+  "seguros",
+  "desarrollo-rural",
+  "seguridad-alimentaria-nutricion",
+  "proyecto-pais-joven"
+ ],
+ "fuentes": [
+  {
+   "titulo": "El Peruano – INEI: pobreza se redujo a 25,7 % en 2025",
+   "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+  },
+  {
+   "titulo": "La República – INEI: pobreza extrema alcanzó al 4,7 % de la población en 2025",
+   "url": "https://larepublica.pe/economia/2026/05/05/inei-pobreza-monetaria-extrema-alcanzo-al-47-de-la-poblacion-en-2025-hnews-320660"
+  },
+  {
+   "titulo": "Expreso – INEI: uno de cada tres peruanos está al borde de caer en la pobreza (32,8 % vulnerable)",
+   "url": "https://www.expreso.com.pe/informes/inei-alerta-que-uno-de-cada-tres-peruanos-esta-al-borde-de-caer-en-la-pobreza-compatriotas-siguen-en-la-zona-riesgo-instituto-nacional-de-estadistica-e-informatica-noticia/1285247/"
+  },
+  {
+   "titulo": "INEI – Informe técnico: Evolución de los indicadores de pobreza multidimensional 2015-2024",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/8150471/6823750-informe-tecnico-evolucion-de-los-indicadores-de-pobreza-multidimensional-2015-2024.pdf"
+  },
+  {
+   "titulo": "Gestión – La informalidad cayó a 70,7 % en 2025 según el INEI, pero subió en 10 ciudades",
+   "url": "https://gestion.pe/economia/informalidad-en-peru-cayo-pero-en-10-ciudades-la-situacion-fue-otra-como-entenderlo-empleo-en-peru-puestos-de-trabajo-inei-mercado-laboral-noticia/"
+  },
+  {
+   "titulo": "INEI – 52 de cada 100 mujeres de 15 a 49 años fueron alguna vez víctimas de violencia por parte de su esposo o compañero (ENDES 2024)",
+   "url": "https://www.gob.pe/institucion/inei/noticias/1296342-52-de-cada-100-mujeres-de-15-a-49-anos-fueron-alguna-vez-victimas-de-violencia-por-parte-de-su-esposo-o-companero"
+  },
+  {
+   "titulo": "INEI – Perú registró 154 casos de feminicidio en 2024",
+   "url": "https://www.gob.pe/en/institucion/inei/noticias/1291805-inei-peru-registro-154-casos-de-feminicidio-en-el-2024"
+  },
+  {
+   "titulo": "Andina – Más de 20 000 hogares en proceso de afiliación a Juntos (794 768 hogares afiliados en 2025)",
+   "url": "https://andina.pe/agencia/noticia-mas-20000-mil-hogares-se-encuentran-proceso-afiliacion-al-programa-juntos-1042215.aspx"
+  },
+  {
+   "titulo": "Perú21 – Pensión 65: más de 824 mil adultos mayores cobran la subvención (2026)",
+   "url": "https://peru21.pe/noticias/pension-65/"
+  },
+  {
+   "titulo": "MEF – Decreto Supremo 061-2026-EF que modifica el reglamento de la Ley 32123",
+   "url": "https://www.gob.pe/institucion/mef/normas-legales/8058441-061-2026-ef"
+  },
+  {
+   "titulo": "Expreso – Octavo retiro AFP 2025 hasta 4 UIT (Ley 32445): cronograma oficial",
+   "url": "https://www.expreso.com.pe/economia/octavo-retiro-afp-2025-revise-aqui-el-cronograma-oficial-sbs-superintendencia-noticia/1227058/"
+  },
+  {
+   "titulo": "La República – El Perú tendrá más adultos mayores que niños (siete de cada diez adultos mayores fuera del sistema de pensiones, EPEN)",
+   "url": "https://larepublica.pe/opinion/2026/07/11/el-peru-tendra-mas-adultos-mayores-que-ninos-1063348"
+  },
+  {
+   "titulo": "Gestión – OIT: las reformas del sistema peruano de pensiones no han dado los resultados esperados",
+   "url": "https://gestion.pe/economia/oit-las-reformas-realizadas-en-el-sistema-peruano-de-pensiones-no-han-dado-los-resultados-esperados-noticia/"
+  },
+  {
+   "titulo": "Congreso – Proyecto de Ley 11659 que crea el Sistema Nacional de Cuidados (opinión MIMP)",
+   "url": "https://www.congreso.gob.pe/Docs/comisiones2025/constitucion/files/mimp_proyecto_de_ley_11659.pdf"
+  },
+  {
+   "titulo": "Gestión – Contraloría: hogares clasificados como pobres sin corresponderles en el Padrón General de Hogares",
+   "url": "https://gestion.pe/peru/contraloria-general-de-la-republica-86-mil-hogares-fueron-considerados-pobres-o-pobres-extremos-sin-que-les-corresponda-midis-ministerio-de-desarrollo-e-inclusion-social-noticia/"
+  },
+  {
+   "titulo": "GRADE–UNICEF (2022) – Lecciones de la pandemia para una mejor protección social de la niñez y adolescencia en el Perú",
+   "url": "https://www.unicef.org/peru/sites/unicef.org.peru/files/2022-10/Lecciones%20pandemia%20mejor%20proteccion%20social%20ninez%20adolescencia%20Peru%20Grade-UNICEF%20Set2022%20Presentacion.pdf"
+  },
+  {
+   "titulo": "Perova y Vakis (2012) – 5 Years in Juntos: New Evidence on the Program's Short and Long-Term Impacts, Revista Economía PUCP",
+   "url": "https://ideas.repec.org/a/pcp/pucrev/y2012i69p53-82.html"
+  },
+  {
+   "titulo": "RPP – Censos 2025: cerca de 9 millones de peruanos se identifican como indígenas o afroperuanos",
+   "url": "https://rpp.pe/peru/actualidad/censos-2025-cerca-de-9-millones-de-peruanos-se-identifican-como-parte-de-un-pueblo-indigena-o-afroperuano-noticia-1696906"
+  },
+  {
+   "titulo": "R4V / GTRM – Análisis Conjunto de Necesidades 2023, Perú (población venezolana proyectada 1,6 millones)",
+   "url": "https://www.r4v.info/sites/default/files/2024-04/GTRM%20Peru%20Analisis%20Conjunto%20Necesidades%202023.pdf"
+  },
+  {
+   "titulo": "Banco Mundial – Bowen et al. (2020): Adaptive Social Protection: Building Resilience to Shocks",
+   "url": "https://openknowledge.worldbank.org/handle/10986/33785"
+  }
+ ]
+}

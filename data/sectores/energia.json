@@ -1,0 +1,1747 @@
+{
+ "id": "energia",
+ "nombre": "Energía",
+ "lema": "Luz y gas seguros, limpios y a precio justo para todos",
+ "diagnostico": {
+  "resumen": "El Perú produjo 63 565 GWh de electricidad en 2024 (MINEM, estadística del subsector electricidad, diciembre de 2024). La mitad vino del agua (32 028 GWh, 50,4 %), alrededor del 9 % de fuentes renovables no convencionales, sobre todo eólica y solar (5 777 GWh), y el resto, cerca del 40 %, de centrales térmicas que queman casi todas gas de Camisea (cálculo propio con datos del MINEM). Esa dependencia tiene dos puntos débiles. Un solo sistema de transporte lleva el gas desde el Cusco hasta la costa, y las reservas probadas del país bajaron a unos 7,1 billones de pies cúbicos al cierre de 2024, unos 13 años de consumo, concentradas en un 96 % en Camisea (MINEM, Libro Anual de Recursos de Hidrocarburos 2024, citado por la prensa especializada). La sequía de 2022-2023 mostró el riesgo: cayó la generación hidroeléctrica, se usó toda la capacidad de gas disponible y los usuarios pagaron más de US$ 2 000 millones por generar con diésel (Gestión, con datos del COES). La producción de petróleo ronda los 40 000 barriles diarios (40,6 mil en 2024, según Perupetro) y en 2025-2026 volvió a caer. Petroperú perdió unos US$ 1 064 millones en 2023 y cerca de US$ 968 millones en 2024 (cifra preliminar), y la refinería de Talara costó más de US$ 6 500 millones con intereses. El Consejo Fiscal advirtió que los rescates tienen un costo fiscal relevante. En el campo, el coeficiente de electrificación rural llegó a 86,6 % en 2024 (MINEM). La Ley 32249, de enero de 2025, abrió la puerta a contratar renovables por bloques horarios, pero su reglamento avanzó con más de un año de retraso.",
+  "indicadores": [
+   {
+    "nombre": "Producción nacional de electricidad",
+    "valor": "63 565",
+    "unidad": "GWh",
+    "anio": 2024,
+    "fuente": "MINEM, Estadística del subsector electricidad, diciembre de 2024",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/7676275/6501622-estadistica-subsector-electricidad-diciembre-2024%282%29.pdf"
+   },
+   {
+    "nombre": "Participación hidroeléctrica en la producción eléctrica",
+    "valor": "50,4 (32 028 GWh)",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "MINEM, Estadística del subsector electricidad, diciembre de 2024 (cálculo propio)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/7676275/6501622-estadistica-subsector-electricidad-diciembre-2024%282%29.pdf"
+   },
+   {
+    "nombre": "Generación con renovables no convencionales (eólica, solar, biomasa, minihidro)",
+    "valor": "5 777 GWh (≈ 9 %)",
+    "unidad": "GWh y % del total",
+    "anio": 2024,
+    "fuente": "MINEM, citado en la propuesta SOB-09 de Agenda Legislativa Tech",
+    "url": "https://www.gob.pe/minem"
+   },
+   {
+    "nombre": "Reservas probadas de gas natural",
+    "valor": "≈ 7,13 (≈ 13,5 años de consumo; 96 % en Camisea)",
+    "unidad": "TCF",
+    "anio": 2024,
+    "fuente": "MINEM, Libro Anual de Recursos de Hidrocarburos 2024, vía Promigas InfoGas Perú (por verificar en el original)",
+    "url": "https://www.promigas.com/Documents/InfoGas%20Per%c3%ba%2018102025.pdf"
+   },
+   {
+    "nombre": "Producción de petróleo",
+    "valor": "40,6",
+    "unidad": "miles de barriles por día",
+    "anio": 2024,
+    "fuente": "Perupetro, vía Sociedad Peruana de Hidrocarburos",
+    "url": "https://energiminas.com/?p=26728"
+   },
+   {
+    "nombre": "Coeficiente de electrificación rural",
+    "valor": "86,6",
+    "unidad": "%",
+    "anio": 2024,
+    "fuente": "MINEM",
+    "url": "https://energiminas.com/2025/01/06/minem-ejecuto-el-96-5-de-su-presupuesto-en-2024-con-mayor-enfasis-en-electrificacion"
+   },
+   {
+    "nombre": "Resultado neto de Petroperú",
+    "valor": "−968 (preliminar; −1 064 en 2023)",
+    "unidad": "millones de US$",
+    "anio": 2024,
+    "fuente": "Petroperú, vía La República",
+    "url": "https://larepublica.pe/economia/2025/01/22/petroperu-busca-revertir-perdidas-y-mejorar-resultados-financieros-en-el-2025-hnews-1464246"
+   },
+   {
+    "nombre": "Costo acumulado del Fondo de Estabilización de Precios de los Combustibles (FEPC)",
+    "valor": "> 18 000 (en términos reales, a mayo de 2024)",
+    "unidad": "millones de S/",
+    "anio": 2024,
+    "fuente": "Instituto Peruano de Economía, vía Gestión",
+    "url": "https://gestion.pe/economia/fondo-de-estabilizacion-de-combustibles-costo-supera-los-s-18000-mlls-ipe-gasolina-mef-noticia/"
+   },
+   {
+    "nombre": "Hogares con Bonogas (conexión domiciliaria de gas natural financiada por el FISE)",
+    "valor": "≈ 1,5 millones",
+    "unidad": "hogares",
+    "anio": 2024,
+    "fuente": "MINEM, administrador del FISE, vía Energiminas",
+    "url": "https://energiminas.com/?p=17648"
+   }
+  ],
+  "brechas": "Territoriales: según un documento del Congreso con datos del INEI y del MINEM, en 2024 el 96,5 % de los hogares del país tenía electricidad, pero en el área rural la cifra bajaba a 86,0 % (cifra preliminar); las comunidades amazónicas dispersas y las zonas altoandinas son las últimas sin red. El gas natural por red llega sobre todo a Lima, Callao, Ica y algunas ciudades del norte; el sur andino, que está al lado de Camisea, sigue sin ducto tras la caída del Gasoducto Sur Peruano en 2017. Calidad: las distribuidoras estatales regionales tienen más cortes por usuario que las de Lima (OSINERGMIN, indicadores SAIDI/SAIFI; magnitud por verificar). Fiscales: el FEPC y los rescates de Petroperú benefician a todos los consumidores de combustibles, sin focalizarse en los hogares pobres.",
+  "causas": [
+   "Matriz eléctrica concentrada en dos recursos expuestos al clima y a un solo ducto: el agua (sequías y fenómeno El Niño) y el gas de Camisea, con reservas probadas en descenso (MINEM, Libro Anual de Recursos de Hidrocarburos; COES).",
+   "Reglas de contratación que, hasta la Ley 32249 de 2025, obligaban a ofrecer energía y potencia juntas durante las 24 horas, lo que excluía de las licitaciones a la solar y la eólica sin almacenamiento (análisis de Baker McKenzie y de la Sociedad Peruana de Energías Renovables).",
+   "Gobierno corporativo débil en Petroperú y decisiones de inversión sin evaluación independiente: Talara pasó de un presupuesto inicial mucho menor a más de US$ 6 500 millones con intereses, y la empresa perdió mercado y grado de inversión (Contraloría; Consejo Fiscal).",
+   "Subsidios generales y poco transparentes (FEPC, devoluciones de impuestos a combustibles) que el Consejo Fiscal y el IPE consideran costosos y regresivos.",
+   "Contratos de exploración petrolera poco atractivos, conflictos con comunidades por derrames en el Oleoducto Norperuano y lotes del norte, y caída de la inversión upstream (Perupetro; OEFA).",
+   "Planeamiento energético desactualizado: la Política Energética Nacional vigente es de 2010 (DS 064-2010-EM) y no incorpora la transición, la electromovilidad ni el almacenamiento."
+  ]
+ },
+ "vision_2056": "En 2056 todo hogar del Perú tiene electricidad confiable y cocina con energía limpia; la mayor parte de la electricidad viene del agua, el sol y el viento con baterías, y el gas cumple un papel de respaldo. Las tarifas son competitivas y ninguna sequía ni rotura de ducto deja al país a oscuras.",
+ "metas": [
+  {
+   "indicador": "Participación de renovables no convencionales (solar, eólica, geotermia, biomasa) en la generación eléctrica",
+   "linea_base": "≈ 9 % (2024)",
+   "2031": "20 %",
+   "2036": "30 %",
+   "2046": "40 %",
+   "2056": "50 %",
+   "referencia": "Chile superó el 35 % de solar y eólica en 2024 (Coordinador Eléctrico Nacional; por verificar)",
+   "fuente_linea_base": "MINEM, 2024"
+  },
+  {
+   "indicador": "Coeficiente de electrificación rural",
+   "linea_base": "86,6 % (2024)",
+   "2031": "95 %",
+   "2036": "98 %",
+   "2046": "99,5 %",
+   "2056": "100 %",
+   "referencia": "ODS 7.1: acceso universal a la electricidad al 2030",
+   "fuente_linea_base": "MINEM"
+  },
+  {
+   "indicador": "Hogares con cocina limpia (gas natural, GLP o electricidad) en lugar de leña o bosta",
+   "linea_base": "por verificar con ENAHO (INEI)",
+   "2031": "+10 puntos sobre la línea de base",
+   "2036": "+20 puntos",
+   "2046": "95 %",
+   "2056": "99 %",
+   "referencia": "ODS 7.1.2 (OMS / Banco Mundial, Tracking SDG7)",
+   "fuente_linea_base": "INEI, ENAHO (por verificar)"
+  },
+  {
+   "indicador": "Apoyo financiero neto del Tesoro a Petroperú (nuevos aportes, préstamos o garantías)",
+   "linea_base": "US$ 750 millones solo con el DU 010-2022, más otros apoyos en 2022-2025",
+   "2031": "0 nuevos rescates",
+   "2036": "0",
+   "2046": "0",
+   "2056": "0",
+   "referencia": "Directrices de la OCDE sobre gobierno corporativo de empresas públicas (2024)",
+   "fuente_linea_base": "DU 010-2022; Consejo Fiscal"
+  },
+  {
+   "indicador": "Costo fiscal anual de subsidios generales a combustibles (FEPC y similares)",
+   "linea_base": "≈ S/ 756 millones reales por año en promedio 2019-2023 (IPE)",
+   "2031": "≤ 25 % de la línea de base, solo focalizado",
+   "2036": "0 general; solo vale focalizado",
+   "2046": "0 general",
+   "2056": "0 general",
+   "referencia": "Recomendaciones del Consejo Fiscal y del FMI sobre subsidios energéticos",
+   "fuente_linea_base": "IPE, vía Gestión (2024)"
+  },
+  {
+   "indicador": "Reservas probadas de gas natural en años de consumo",
+   "linea_base": "≈ 13,5 años (2024)",
+   "2031": "≥ 15 años",
+   "2036": "≥ 15 años",
+   "2046": "≥ 12 años",
+   "2056": "según papel del gas en la matriz",
+   "referencia": "Relación reservas/producción usual en países productores",
+   "fuente_linea_base": "MINEM, Libro Anual de Recursos de Hidrocarburos 2024 (por verificar)"
+  },
+  {
+   "indicador": "Intensidad energética (energía final por unidad de PBI)",
+   "linea_base": "por verificar en el Balance Nacional de Energía (MINEM)",
+   "2031": "−5 % sobre la línea de base",
+   "2036": "−10 %",
+   "2046": "−20 %",
+   "2056": "−30 %",
+   "referencia": "ODS 7.3: duplicar la tasa de mejora de la eficiencia energética",
+   "fuente_linea_base": "MINEM, Balance Nacional de Energía (por verificar)"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "ENE-01",
+   "titulo": "Actualizar la Política Energética Nacional con un plan integrado de electricidad, gas y combustibles",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se aprueba por decreto supremo del MINEM con opinión de CEPLAN y sustituye al DS 064-2010-EM; no hay reserva de ley.",
+   "etapa": "2026-2031",
+   "que": "El MINEM elabora, con el COES, OSINERGMIN, Perupetro, el MEF y CEPLAN, un plan energético integrado a 25 años que se revisa cada cinco. Compara escenarios de demanda (minería, centros de datos, electromovilidad), de precios y de clima (sequías y El Niño) y propone una matriz de mínimo costo con metas de seguridad, emisiones y acceso. Los modelos, supuestos y datos se publican abiertos para que universidades y gremios puedan replicarlos. Las licitaciones de generación, el plan de transmisión y las rondas de exploración deben guardar coherencia con este plan.",
+   "evidencia": "Chile planifica su energía a largo plazo cada cinco años con escenarios públicos (Planificación Energética de Largo Plazo, Ley 20.936) y Colombia usa el Plan Energético Nacional de la UPME. La política vigente del Perú es de 2010, no considera almacenamiento, hidrógeno ni electromovilidad, y el propio MINEM la reporta en 2024 como política en proceso de actualización.",
+   "entrega": "Plan Energético Nacional 2027-2052 aprobado y publicado con modelos abiertos; revisiones en 2032, 2037 y siguientes.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "COES",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PERUPETRO",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM y cooperación técnica (BID, Banco Mundial).",
+   "costo_referencial": "no estimado",
+   "indicador": "Plan aprobado y publicado con modelos abiertos; porcentaje de licitaciones y concesiones alineadas con el plan.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo N.º 064-2010-EM, Política Energética Nacional del Perú 2010-2040",
+     "motivo": "Sustituirlo por una política y un plan integrado actualizados que incluyan la transición, el almacenamiento y los riesgos climáticos."
+    }
+   ],
+   "depende_de": [],
+   "riesgo": "Que sea otro documento sin efecto sobre las licitaciones y las concesiones reales; capacidad técnica limitada del MINEM.",
+   "fuentes": [
+    {
+     "titulo": "MINEM – Decreto Supremo 064-2010-EM, Política Energética Nacional 2010-2040",
+     "url": "https://www.gob.pe/institucion/minem/normas-legales/178093-0064-2010-em"
+    },
+    {
+     "titulo": "MINEM – Reporte de cumplimiento de la Política Energética Nacional 2010-2040, año 2024 (política en proceso de actualización)",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/8211476/6862743-reporte-de-cumplimiento-de-la-politica-energetica-nacional-2010-2040-ano-2024.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE3.3.20"
+   ]
+  },
+  {
+   "id": "ENE-02",
+   "titulo": "Reglamentar del todo la Ley 32249 y licitar renovables por bloques horarios con almacenamiento",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 32249 ya existe; falta completar sus reglamentos por decreto supremo del MINEM y que las distribuidoras y PROINVERSIÓN convoquen las licitaciones. Remite a SOB-09 de Agenda Tech para los ajustes legales pendientes.",
+   "etapa": "2026-2031",
+   "que": "Se completan y publican los reglamentos de la Ley 32249, que permite licitar energía y potencia por separado y por bloques horarios (base, media y punta). Con ellos, las distribuidoras convocan licitaciones de largo plazo en las que compiten centrales solares y eólicas, con o sin baterías, frente al gas. OSINERGMIN publica los precios resultantes y su efecto en la tarifa. Se evita el sesgo hacia una sola tecnología: gana la oferta de menor costo que cumpla los requisitos de firmeza.",
+   "evidencia": "La Ley 32249, de enero de 2025, es la mayor reforma eléctrica desde 2006, pero su reglamentación se retrasó más de un año (Energiminas; StrategicEnergy). En Chile y Brasil, las subastas por bloques horarios hicieron que la solar y la eólica bajaran los precios de los contratos regulados (IRENA, Renewable Power Generation Costs). Hay controversia: la SNMPE advierte sobre el costo de respaldo y la SPR sobre la discrecionalidad; por eso los precios deben publicarse.",
+   "entrega": "Reglamentos completos publicados y al menos tres licitaciones de suministro por bloques horarios adjudicadas al 2031.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "COES",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Inversión privada; sin gasto público adicional.",
+   "costo_referencial": "no estimado",
+   "indicador": "MW de renovables no convencionales contratados por licitación y precio medio adjudicado (US$/MWh) publicado por OSINERGMIN.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SOB-09",
+    "ECP-27",
+    "DIG-23",
+    "ENE-01"
+   ],
+   "riesgo": "Captura del diseño de las bases por generadores establecidos o por un solo gremio; cambios regulatorios que ahuyenten a los inversionistas.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas (2025) – Promulgan la Ley 32249 que abre la competencia en generación eléctrica",
+     "url": "https://energiminas.com/2025/01/22/energia-promulgan-ley-que-abre-la-competencia-en-generacion-electrica"
+    },
+    {
+     "titulo": "Baker McKenzie – Peru: Government amends Law No. 28832 (Ley 32249)",
+     "url": "https://insightplus.bakermckenzie.com/bm/projects/peru-government-amends-law-no-28832-law-to-ensure-the-efficient-development-of-electricity-generation"
+    },
+    {
+     "titulo": "Gestión – Energía renovable: lo que realmente está en juego con el reglamento eléctrico",
+     "url": "https://gestion.pe/opinion/energia-renovable-lo-que-realmente-esta-en-juego-con-el-reglamento-electrico-noticia/"
+    },
+    {
+     "titulo": "IRENA – Renewable Power Generation Costs in 2023",
+     "url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE2.6.5"
+   ]
+  },
+  {
+   "id": "ENE-03",
+   "titulo": "Ejecutar a tiempo el Plan de Transmisión 2025-2034 y adelantar los enlaces críticos",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "El plan está aprobado por la RM 483-2024-MINEM/DM y los proyectos se adjudican por concurso de PROINVERSIÓN bajo la Ley 28832 vigente.",
+   "etapa": "2026-2031",
+   "que": "PROINVERSIÓN licita sin demoras los proyectos vinculantes del Plan de Transmisión 2025-2034, entre ellos el enlace de 500 kV Colectora-Bicentenario-Chilca y el segundo circuito Poroma-Ocoña-San José-Montalvo, que llevan energía del sur y de las zonas solares a los centros de consumo. Se crea un tablero público con el avance de cada línea, sus servidumbres y su certificación ambiental. El MINEM y el SENACE coordinan los permisos en paralelo y se negocia con anticipación con las comunidades por donde pasan las líneas.",
+   "evidencia": "El COES estima que el sur podría demandar hasta 2 000 MW del centro hacia 2028 (Energiminas) y advirtió que la falta de transmisión eleva los costos. ProInversión tiene encargados 16 proyectos de transmisión por unos US$ 900 millones (Gestión). La experiencia de Chile muestra que los retrasos en la transmisión obligan a desperdiciar energía solar (Coordinador Eléctrico Nacional).",
+   "entrega": "Proyectos vinculantes del Plan de Transmisión 2025-2034 adjudicados al 2027 y en operación al 2031.",
+   "responsable": "PROINVERSION",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "COES",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "SENACE",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Inversión privada remunerada por la tarifa de transmisión (Ley 28832).",
+   "costo_referencial": "≈ US$ 900 millones para los 16 proyectos encargados a ProInversión (Gestión), sin contar servidumbres.",
+   "indicador": "Km de líneas y MVA de transformación en servicio frente a lo programado; meses de retraso promedio.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-01",
+    "ENE-02"
+   ],
+   "riesgo": "Retrasos por servidumbres, conflictos locales y permisos; licitaciones desiertas.",
+   "fuentes": [
+    {
+     "titulo": "Andina – Perú aprobó el Plan de Transmisión 2025-2034 (RM 483-2024-MINEM/DM)",
+     "url": "https://andina.pe/ingles/noticia-peru-approved-its-20252034-electric-transmission-plan-to-attract-investors-1013191.aspx"
+    },
+    {
+     "titulo": "Garrigues – Perú: aprobado el Plan de Transmisión 2025-2034",
+     "url": "https://www.garrigues.com/es_ES/noticia/peru-aprobado-plan-transmision-2025-2034"
+    },
+    {
+     "titulo": "Gestión – MINEM encarga a ProInversión 16 proyectos eléctricos por US$ 900 millones",
+     "url": "https://gestion.pe/economia/proinversion-minem-encarga-nuevamente-16-proyectos-electricos-por-us-900-millones-noticia/"
+    },
+    {
+     "titulo": "Energiminas – COES: el sur podría demandar hasta 2 000 MW del centro hacia 2028",
+     "url": "https://energiminas.com/?p=23975"
+    }
+   ],
+   "pedn": [
+    "AE2.6.5",
+    "AE3.3.21"
+   ]
+  },
+  {
+   "id": "ENE-04",
+   "titulo": "Incorporar almacenamiento en baterías y servicios de respaldo remunerados en el sistema eléctrico",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "OSINERGMIN y el MINEM pueden definir por norma técnica y decreto supremo la remuneración de servicios complementarios y almacenamiento.",
+   "etapa": "2026-2031",
+   "que": "Se aprueban reglas para que las baterías y otras tecnologías de almacenamiento participen en el mercado: cobran por regulación de frecuencia, reserva rotante y energía en horas punta. El COES actualiza sus procedimientos técnicos y OSINERGMIN fija una remuneración transparente. Se priorizan baterías junto a parques solares del sur y en nodos con congestión, para que la energía del día cubra la noche y para reducir el uso de diésel en emergencias.",
+   "evidencia": "La Agencia Internacional de Energía documenta que el almacenamiento en baterías es la tecnología de mayor crecimiento en sistemas con mucha solar (IEA, Batteries and Secure Energy Transitions, 2024). Chile pasó de casi cero a más de 1 GW de baterías en pocos años tras reconocer su remuneración (Coordinador Eléctrico Nacional; cifra por verificar).",
+   "entrega": "Procedimientos COES y norma de OSINERGMIN aprobados; al menos 500 MW de almacenamiento conectados al 2031.",
+   "responsable": "OSINERGMIN",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "COES",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Inversión privada remunerada por el mercado.",
+   "costo_referencial": "no estimado",
+   "indicador": "MW de almacenamiento conectados al SEIN; horas de despacho con diésel por año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-02"
+   ],
+   "riesgo": "Que la remuneración sea insuficiente o incierta y no llegue inversión; sobrecostos si se diseña mal.",
+   "fuentes": [
+    {
+     "titulo": "IEA – Batteries and Secure Energy Transitions (2024)",
+     "url": "https://www.iea.org/reports/batteries-and-secure-energy-transitions"
+    },
+    {
+     "titulo": "Gestión – Consumidores eléctricos pagaron más de US$ 2 000 millones por generación con diésel",
+     "url": "https://gestion.pe/economia/consumidores-electricos-pagaron-mas-de-us2000-millones-por-generacion-con-diesel-noticia/"
+    }
+   ],
+   "pedn": [
+    "AE2.6.5",
+    "AE3.3.21"
+   ]
+  },
+  {
+   "id": "ENE-05",
+   "titulo": "Reducir la dependencia de un solo ducto de gas con redundancia y respaldo",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con contratos de concesión vigentes, adendas y decretos supremos del MINEM; la priorización del gas para generación se norma por decreto supremo.",
+   "etapa": "2026-2031",
+   "que": "Se encarga un estudio independiente de confiabilidad del sistema Camisea-Lima que identifique qué pasa si el ducto se rompe en temporada seca. Según sus resultados, se exige mayor capacidad de compresión y tramos de respaldo, se habilita almacenamiento de gas y de combustible en centrales duales y se aprueba un protocolo para priorizar el gas para la generación eléctrica y los hogares en emergencias. Se prueban cada año simulacros de corte con el COES.",
+   "evidencia": "En la sequía de 2022-2023 se agotó la capacidad de gas disponible para generación y hubo que usar diésel, con un sobrecosto que Gestión estima en unos US$ 2 000 millones; un proyecto de decreto para priorizar el gas para generación no llegó a aprobarse. El BCRP vinculó el alza de la tarifa eléctrica a ese episodio.",
+   "entrega": "Estudio de confiabilidad publicado al 2027; protocolo de priorización aprobado; obras de redundancia definidas y en ejecución al 2031.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "COES",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PERUPETRO",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Tarifa de transporte de gas y contratos de concesión; estudio con presupuesto del MINEM.",
+   "costo_referencial": "no estimado",
+   "indicador": "Horas de indisponibilidad de gas para generación y costo marginal promedio en temporada seca.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-01",
+    "ENE-21"
+   ],
+   "riesgo": "Costo para usuarios si se sobredimensiona; resistencia de los concesionarios a adendas.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – Consumidores eléctricos pagaron más de US$ 2 000 millones por generación con diésel",
+     "url": "https://gestion.pe/economia/consumidores-electricos-pagaron-mas-de-us2000-millones-por-generacion-con-diesel-noticia/"
+    },
+    {
+     "titulo": "BCRP – Reporte de Inflación diciembre 2023, recuadro 4",
+     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Inflacion/2023/diciembre/reporte-de-inflacion-diciembre-2023-recuadro-4.pdf"
+    },
+    {
+     "titulo": "Energiminas (2023) – Proyecto de DS para priorizar el gas natural para la generación eléctrica",
+     "url": "https://energiminas.com/2023/07/19/amplian-plazo-para-comentar-proyecto-de-ds-que-prioriza-abastecimiento-de-gas-natural-para-la-generacion-electrica"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE2.2.4"
+   ]
+  },
+  {
+   "id": "ENE-06",
+   "titulo": "Reponer reservas de gas con rondas de exploración alrededor de Camisea y Candamo",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Perupetro firma contratos de licencia bajo la Ley 26221 vigente; los términos de las rondas se aprueban por acuerdo de directorio y decreto supremo.",
+   "etapa": "2026-2031",
+   "que": "Perupetro convoca rondas competitivas por lotes cercanos a la infraestructura de Camisea y en la cuenca Madre de Dios, con datos geológicos abiertos y regalías ligadas al resultado. Antes de licitar se identifican las áreas superpuestas con reservas indígenas, reservas territoriales para pueblos en aislamiento y áreas naturales protegidas, que quedan excluidas. Se hace consulta previa donde corresponda. El objetivo es mantener al menos 15 años de reservas probadas mientras el gas siga siendo respaldo de la matriz.",
+   "evidencia": "Las reservas probadas bajaron a cerca de 7,1 TCF en 2024, unos 13 años de consumo (MINEM, citado por Promigas), aunque el MINEM estima recursos prospectivos de más de 43 TCF (Energiminas). Los recursos prospectivos no son reservas: requieren exploración con riesgo.",
+   "entrega": "Al menos dos rondas de licitación al 2031 y nuevos contratos de exploración firmados.",
+   "responsable": "PERUPETRO",
+   "entidades": [
+    {
+     "sigla": "PERUPETRO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "SERNANP",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Inversión privada.",
+   "costo_referencial": "no estimado",
+   "indicador": "Reservas probadas de gas (TCF) y su relación reservas/producción (años).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-01",
+    "ENE-08"
+   ],
+   "riesgo": "Que se exploren zonas sensibles de la Amazonía y aparezcan conflictos o daños; falta de interés de inversionistas.",
+   "fuentes": [
+    {
+     "titulo": "Promigas – InfoGas Perú (octubre de 2025), reservas y producción de gas natural",
+     "url": "https://www.promigas.com/Documents/InfoGas%20Per%c3%ba%2018102025.pdf"
+    },
+    {
+     "titulo": "Energiminas (2025) – Recursos prospectivos de gas natural superan los 43 TCF, según el MINEM",
+     "url": "https://energiminas.com/2025/09/10/recursos-prospectivos-de-gas-natural-en-el-peru-superan-los-43-tcf-reporta-el-minem/"
+    },
+    {
+     "titulo": "El Peruano – En búsqueda del próximo Camisea",
+     "url": "https://elperuano.pe/noticia/306624-en-busqueda-del-proximo-camisea"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE1.5.11"
+   ]
+  },
+  {
+   "id": "ENE-07",
+   "titulo": "Reactivar el petróleo del norte con remediación previa y un oleoducto seguro",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Perupetro y el MINEM actúan con contratos y decretos supremos; la remediación se financia con fondos ya creados (Fondo de Contingencia para Remediación Ambiental, Ley 30321).",
+   "etapa": "2026-2031",
+   "que": "Antes de volver a licitar lotes de la selva norte, el Estado completa la remediación de los sitios contaminados priorizados y acuerda con las federaciones indígenas un plan de vigilancia ambiental. Se ejecuta una auditoría independiente del Oleoducto Norperuano y se decide, con evaluación económica, entre repararlo, modernizarlo u operarlo con un tercero. En la costa norte y el zócalo se renegocian contratos para recuperación secundaria. La producción y los derrames se publican en datos abiertos.",
+   "evidencia": "La producción de petróleo fue de 40,6 mil barriles por día en 2024 y cayó a 36,5 mil en noviembre de 2025 (Perupetro). Los derrames del Oleoducto Norperuano y los pasivos de los lotes 192 y 8 alimentan conflictos en Loreto (OEFA; Defensoría). Sin remediación creíble, la reactivación provoca más paralización.",
+   "entrega": "Plan de remediación de sitios priorizados ejecutado al 2031; auditoría del Oleoducto Norperuano publicada; producción ≥ 45 mil barriles por día al 2031 (meta indicativa).",
+   "responsable": "PERUPETRO",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PERUPETRO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PETROPERU",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Fondo de Contingencia para Remediación Ambiental; inversión privada en lotes.",
+   "costo_referencial": "no estimado",
+   "indicador": "Producción de petróleo (miles de barriles por día); número de derrames por año; sitios remediados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-11",
+    "ENE-25"
+   ],
+   "riesgo": "Conflictos por incumplimientos pasados; caída de precios internacionales que vuelva inviable la inversión.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas – Producción de petróleo aumentó 4,9 % en 2024 (40,63 MBPD)",
+     "url": "https://energiminas.com/?p=26728"
+    },
+    {
+     "titulo": "Energiminas – Producción de petróleo cae 19 % a 36,5 mil barriles en noviembre de 2025",
+     "url": "https://energiminas.com/?p=39681"
+    },
+    {
+     "titulo": "Ley 30321, que crea el Fondo de Contingencia para Remediación Ambiental",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30321.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE2.6.1"
+   ]
+  },
+  {
+   "id": "ENE-08",
+   "titulo": "Modernizar la Ley Orgánica de Hidrocarburos con regalías flexibles y plazos claros",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Los contratos de licencia, las regalías y los plazos se rigen por la Ley 26221; modificar su régimen económico requiere ley. Es una ley que no crea gasto.",
+   "etapa": "2026-2031",
+   "que": "Se modifica la Ley 26221 para que las regalías se ajusten al precio internacional y a la rentabilidad de cada campo (más altas cuando el precio sube y más bajas en campos maduros), para fijar plazos máximos para las aprobaciones y para exigir garantías de abandono y remediación desde el inicio. Se estandarizan los contratos y se publican completos. No se otorgan estabilidades tributarias nuevas sin evaluación del MEF.",
+   "evidencia": "Colombia y Brasil usan regímenes de regalías progresivas o de participación en la producción que se ajustan al precio (Banco Mundial; FMI, Fiscal Regimes for Extractive Industries). Perupetro y la SPH señalan que contratos rígidos explican parte de la caída de la inversión. Hay un trade-off: menores regalías en campos maduros reducen el canon petrolero de Loreto, Piura y Tumbes en el corto plazo.",
+   "entrega": "Ley publicada y contratos modelo actualizados al 2029.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PERUPETRO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "No requiere gasto.",
+   "costo_referencial": "no estimado",
+   "indicador": "Inversión en exploración y explotación de hidrocarburos (US$ por año) y n.º de contratos firmados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-06",
+    "ENE-07"
+   ],
+   "riesgo": "Que se use para reducir regalías sin contrapartida de inversión; presión de gobiernos regionales que dependen del canon.",
+   "fuentes": [
+    {
+     "titulo": "Ley 26221, Ley Orgánica de Hidrocarburos (Congreso)",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/26221.pdf"
+    },
+    {
+     "titulo": "FMI – Fiscal Regimes for Extractive Industries: Design and Implementation (2012)",
+     "url": "https://www.imf.org/external/np/pp/eng/2012/081512.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE3.1.2"
+   ]
+  },
+  {
+   "id": "ENE-09",
+   "titulo": "Evaluar Bonogas y la masificación del gas antes de ampliarlas y focalizar el FISE",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El FISE (Ley 29852) se administra por el MINEM; su reorientación se hace por decreto supremo y resoluciones del administrador.",
+   "etapa": "2026-2031",
+   "que": "El MEF y el MINEM encargan una evaluación independiente de impacto del Bonogas y de las concesiones regionales de gas: cuántos hogares conectados usan el gas, cuánto ahorran, cuánto costó cada conexión y qué parte llegó a hogares pobres. Con esos resultados se decide dónde seguir conectando por red, dónde conviene el GLP con vale focalizado y dónde la cocina eléctrica eficiente. El FISE prioriza a los hogares que aún cocinan con leña y a los servicios públicos.",
+   "evidencia": "El Bonogas suma alrededor de 1,5 millones de hogares (MINEM, administrador del FISE), pero no se ha publicado una evaluación de impacto independiente; en algunas ciudades las conexiones tienen bajo consumo. Las evaluaciones del Banco Mundial sobre cocinas limpias muestran que el acceso no garantiza el uso si el combustible es caro.",
+   "entrega": "Evaluación independiente publicada al 2028; reglas del FISE reorientadas con metas de uso y focalización.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Recursos existentes del FISE (recargos en electricidad y gas).",
+   "costo_referencial": "no estimado",
+   "indicador": "Costo por hogar conectado que efectivamente usa gas; porcentaje de beneficiarios de quintiles 1 y 2.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-10"
+   ],
+   "riesgo": "Que la evaluación incomode a quienes promueven la expansión y no se publique; presión regional por más ductos sin análisis.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas – MINEM: Bonogas beneficia a 1,5 millones de hogares",
+     "url": "https://energiminas.com/?p=17648"
+    },
+    {
+     "titulo": "Ley 29852, que crea el Sistema de Seguridad Energética en Hidrocarburos y el FISE",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29852.pdf"
+    },
+    {
+     "titulo": "Banco Mundial / ESMAP – The State of Access to Modern Energy Cooking Services (2020)",
+     "url": "https://openknowledge.worldbank.org/entities/publication/3b07067d-bd68-59fa-b1aa-1db2f4de9f07/full"
+    }
+   ],
+   "pedn": [
+    "AE1.3.8",
+    "AE3.3.20"
+   ]
+  },
+  {
+   "id": "ENE-10",
+   "titulo": "Decidir el gas para el sur andino solo con análisis costo-beneficio independiente",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La decisión sobre el SIT Gas o un ducto regional es de inversión pública o APP y pasa por Invierte.pe y PROINVERSIÓN; no requiere ley nueva.",
+   "etapa": "2026-2031",
+   "que": "Tras el fracaso del Gasoducto Sur Peruano, cualquier ducto al sur se decide comparando alternativas con el mismo rigor: ducto troncal, gas natural licuado o comprimido por camión, generación eléctrica en el sur y transmisión, o cocina eléctrica. El análisis lo hace una entidad independiente con supuestos públicos de demanda, precio y riesgo de que la demanda no llegue. Si el ducto no es rentable, no se garantizan sus ingresos con cargos a todos los usuarios eléctricos.",
+   "evidencia": "El Gasoducto Sur Peruano se paralizó en 2017 y su mantenimiento costaba unos US$ 50 millones al año, con arbitrajes internacionales en curso (ProActivo). Los esquemas de garantía de ingresos con cargo a la tarifa eléctrica trasladan el riesgo a los usuarios. El caso muestra el costo de decidir sin análisis independiente.",
+   "entrega": "Estudio comparativo de alternativas publicado al 2028 y decisión motivada de inversión.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "CONTRALORIA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MEF y PROINVERSIÓN para estudios; inversión según alternativa elegida.",
+   "costo_referencial": "no estimado",
+   "indicador": "Estudio publicado; costo por hogar o industria abastecida en la alternativa elegida.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-09",
+    "ENE-01"
+   ],
+   "riesgo": "Presión regional por el ducto como símbolo, sin importar su rentabilidad; arbitrajes pendientes.",
+   "fuentes": [
+    {
+     "titulo": "ProActivo – El Gasoducto Sur Peruano y el SIT Gas en la cartera de ProInversión",
+     "url": "https://proactivo.com.pe/gasoducto-sur-peruano-podria-no-licitarse-el-proximo-ano/"
+    },
+    {
+     "titulo": "ProActivo – Macrorregión sur discute el futuro del gasoducto con el MINEM",
+     "url": "https://proactivo.com.pe/macrorregion-sur-se-reunio-con-minem-y-consorcio-para-discutir-futuro-del-gasoducto-del-sur/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.21",
+    "AE3.1.2"
+   ]
+  },
+  {
+   "id": "ENE-11",
+   "titulo": "Completar la reorganización de Petroperú por unidades de negocio y sin nuevos rescates",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El DU 010-2025 ya autoriza la reorganización en bloques patrimoniales conducida por PROINVERSIÓN; se ejecuta con acuerdos de la junta de accionistas y decretos supremos. Su constitucionalidad está en revisión ante el Tribunal Constitucional.",
+   "etapa": "2026-2031",
+   "que": "Se termina de separar a Petroperú en unidades con contabilidad propia (refinería de Talara, Oleoducto Norperuano, comercialización y terminales, lotes) y se publica una evaluación independiente de cada una: cuánto vale, cuánto debe y qué opción conviene (operación propia, socio estratégico, concesión de operación o cierre). Cada decisión se toma con criterios técnicos, cuidando el abastecimiento del país y a los trabajadores. El MEF publica cada año el costo fiscal acumulado de los apoyos a la empresa.",
+   "evidencia": "Petroperú perdió cerca de US$ 1 064 millones en 2023 y US$ 968 millones en 2024 (La República, con cifras preliminares de la empresa). El Consejo Fiscal advirtió que los rescates presionan la deuda pública y que Talara no garantizaba la sostenibilidad de la empresa. El DU 010-2025 dispuso la reorganización patrimonial y el gobierno sostiene que no es una privatización ni implica alzas de precios (Energiminas). Las Directrices de la OCDE recomiendan separar funciones comerciales de las de política pública.",
+   "entrega": "Evaluación independiente por unidad publicada; decisión adoptada para cada unidad al 2028; reporte anual del costo fiscal.",
+   "responsable": "PROINVERSION",
+   "entidades": [
+    {
+     "sigla": "PROINVERSION",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONTRALORIA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "CF",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Recursos asignados por el DU 010-2025 y el DU 003-2026 (financiamiento sin garantía soberana).",
+   "costo_referencial": "no estimado",
+   "indicador": "Apoyo financiero neto del Tesoro a Petroperú por año; resultado operativo por unidad de negocio.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-12"
+   ],
+   "riesgo": "Que el Tribunal Constitucional anule el DU 010-2025; que se repitan rescates por presión política; pérdida de valor de los activos por demoras.",
+   "fuentes": [
+    {
+     "titulo": "La República (2025) – Petroperú busca revertir pérdidas: US$ 968 millones en 2024 y US$ 1 064 millones en 2023",
+     "url": "https://larepublica.pe/economia/2025/01/22/petroperu-busca-revertir-perdidas-y-mejorar-resultados-financieros-en-el-2025-hnews-1464246"
+    },
+    {
+     "titulo": "La República (2024) – Consejo Fiscal: la refinería de Talara no garantizaría la sostenibilidad financiera de Petroperú",
+     "url": "https://larepublica.pe/economia/2024/10/09/refineria-de-talara-no-garantizaria-sostenibilidad-financiera-de-petroperu-513279"
+    },
+    {
+     "titulo": "Gestión – Consejo Fiscal: medidas de apoyo a Petroperú sientan un mal precedente",
+     "url": "https://gestion.pe/economia/petroperu-consejo-fiscal-dice-que-medidas-sientan-mal-precedente-para-gestion-de-empresas-publicas-deficit-fiscal-mml-cf-noticia/"
+    },
+    {
+     "titulo": "CMS – DU 010-2025: medidas para la reorganización patrimonial de Petroperú",
+     "url": "https://cms.law/en/per/publication/establecen-medidas-en-materia-economica-y-financiera-para-la-reorganizacion-patrimonial-de-petroperu-s.a.-y-garantizar-la-continuidad-de-la-cadena"
+    },
+    {
+     "titulo": "Energiminas (2026) – Reorganización de Petroperú: «no más salvatajes»",
+     "url": "https://energiminas.com/2026/01/05/no-mas-salvatajes-reorganizacion-de-petroperu-no-es-una-privatizacion-ni-implica-alza-de-precios/"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE4.5.3"
+   ]
+  },
+  {
+   "id": "ENE-12",
+   "titulo": "Dar a Petroperú gobierno corporativo OCDE y una regla legal de no rescate",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "La organización, el directorio y el régimen de capital de Petroperú están en la Ley 28840; cambiarlos, limitar los aportes del Tesoro o abrir capital a privados requiere ley. No crea gasto.",
+   "etapa": "2026-2031",
+   "que": "Se modifica la Ley 28840 para que el directorio tenga mayoría de miembros independientes elegidos por concurso público, con mandatos escalonados que no coincidan con el periodo de gobierno; para que la empresa publique estados financieros trimestrales auditados; y para prohibir aportes, préstamos o garantías del Tesoro salvo una ley específica con análisis del Consejo Fiscal. Se deja abierta, con evaluación previa, la opción de listar en bolsa una parte minoritaria del capital, como hizo Colombia con Ecopetrol.",
+   "evidencia": "Ecopetrol colocó en bolsa alrededor del 10 % de su capital en 2007, con directorio sujeto a reglas del mercado de valores (Ecopetrol; Banco Mundial; porcentaje por verificar). Las Directrices de la OCDE sobre empresas públicas recomiendan directorios independientes y restricciones presupuestarias duras. El DU 010-2022 otorgó a Petroperú un apoyo de hasta US$ 750 millones, uno de varios desde 2022.",
+   "entrega": "Ley publicada; directorio con mayoría independiente instalado; cero aportes del Tesoro sin ley específica.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SMV",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "PETROPERU",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "No requiere gasto.",
+   "costo_referencial": "no estimado",
+   "indicador": "Proporción de directores independientes; apoyos del Tesoro otorgados sin ley específica (meta: cero).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-11"
+   ],
+   "riesgo": "Rechazo político a la palabra «privatización» que bloquee cualquier reforma; que una ley posterior la desactive.",
+   "fuentes": [
+    {
+     "titulo": "OCDE – Guidelines on Corporate Governance of State-Owned Enterprises (2024)",
+     "url": "https://www.oecd.org/en/publications/oecd-guidelines-on-corporate-governance-of-state-owned-enterprises-2024_18a24f43-en.html"
+    },
+    {
+     "titulo": "Gestión – Consejo Fiscal: medidas de apoyo a Petroperú sientan un mal precedente",
+     "url": "https://gestion.pe/economia/petroperu-consejo-fiscal-dice-que-medidas-sientan-mal-precedente-para-gestion-de-empresas-publicas-deficit-fiscal-mml-cf-noticia/"
+    },
+    {
+     "titulo": "Ley 28840, Ley de Fortalecimiento y Modernización de Petroperú",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28840.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE4.5.6"
+   ]
+  },
+  {
+   "id": "ENE-13",
+   "titulo": "Sustituir el FEPC por un vale energético focalizado y una regla fiscal transparente",
+   "tipo": "derogacion",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El FEPC fue creado por el Decreto de Urgencia 010-2004 y prorrogado por leyes y decretos; eliminarlo requiere una norma con rango de ley. El vale focalizado se ejecuta con el FISE y el MIDIS por decreto supremo.",
+   "etapa": "2026-2031",
+   "que": "Se cierra por etapas el FEPC, que abarata gasolina, diésel y GLP para todos los consumidores, y se reemplaza por un vale de GLP y transporte para los hogares vulnerables registrados en el Padrón General de Hogares, que se activa automáticamente cuando el precio internacional sube por encima de un umbral. Se pagan las deudas pendientes del fondo con los productores. El MEF publica cada año el costo fiscal de cualquier medida de precio de combustibles.",
+   "evidencia": "El IPE estimó que el costo del FEPC superó los S/ 18 000 millones reales a mayo de 2024, con un promedio de S/ 756 millones al año en 2019-2023, y que solo tuvo saldos positivos en cinco de sus veinte años (Gestión). El FMI muestra que los subsidios generales a combustibles benefician sobre todo a los hogares de mayores ingresos. Trade-off: sin colchón, los precios en surtidor serán más volátiles.",
+   "entrega": "FEPC cerrado y deudas saldadas al 2029; vale energético focalizado operando para hogares de los quintiles 1 y 2.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "Ahorro fiscal del FEPC; el vale se paga con parte de ese ahorro.",
+   "costo_referencial": "Ahorro bruto de referencia ≈ S/ 756 millones al año (promedio real 2019-2023 según el IPE); el costo del vale es menor y depende de la cobertura.",
+   "indicador": "Costo fiscal anual de subsidios generales a combustibles; porcentaje del apoyo que llega a los quintiles 1 y 2.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto de Urgencia N.º 010-2004, que crea el Fondo para la Estabilización de Precios de los Combustibles Derivados del Petróleo",
+     "motivo": "Subsidio general, costoso y regresivo; se reemplaza por un vale focalizado con regla de activación pública."
+    },
+    {
+     "norma": "Decreto de Urgencia N.º 012-2019, que devuelve parte del ISC al diésel para transportistas de carga y pasajeros",
+     "motivo": "Beneficio a un combustible contaminante sin evaluación pública de impacto; se evalúa y elimina gradualmente junto con el FEPC."
+    }
+   ],
+   "depende_de": [
+    "ENE-09"
+   ],
+   "riesgo": "Protestas de transportistas y alzas de precios en un año de crisis que lleven a restituir el subsidio.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – IPE: costo del FEPC supera los S/ 18 000 millones",
+     "url": "https://gestion.pe/economia/fondo-de-estabilizacion-de-combustibles-costo-supera-los-s-18000-mlls-ipe-gasolina-mef-noticia/"
+    },
+    {
+     "titulo": "FMI – Fossil Fuel Subsidies (base de datos y notas de política)",
+     "url": "https://www.imf.org/en/Topics/climate-change/energy-subsidies"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE3.3.20"
+   ]
+  },
+  {
+   "id": "ENE-14",
+   "titulo": "Cerrar la brecha de electrificación rural con redes, minirredes y paneles solares",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con la Ley 28749 vigente, el Plan Nacional de Electrificación Rural e Invierte.pe; la priorización de servicios públicos rurales se propone en CON-15 de Agenda Tech.",
+   "etapa": "2026-2031",
+   "que": "El MINEM, a través de la DGER y las distribuidoras estatales, electrifica las localidades rurales que faltan eligiendo la opción de menor costo para cada caso: extensión de red donde está cerca, minirredes solares con baterías en comunidades agrupadas y sistemas fotovoltaicos domiciliarios en viviendas dispersas de la Amazonía y la sierra alta. Los contratos incluyen el mantenimiento por al menos diez años y la reposición de baterías, que es donde fracasaron programas anteriores. Se prioriza conectar escuelas, postas y nodos de internet.",
+   "evidencia": "El coeficiente de electrificación rural subió de 85,8 % en 2023 a 86,6 % en 2024 (MINEM). El ritmo es lento para las localidades más remotas, donde la red es muy cara. Las evaluaciones del Banco Mundial y ESMAP sobre minirredes en África y Asia muestran que la sostenibilidad depende del mantenimiento y la tarifa, más que de la instalación.",
+   "entrega": "Coeficiente de electrificación rural de 95 % al 2031 y 98 % al 2036; 100 % de escuelas y postas rurales con electricidad confiable.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "ADINELSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto de electrificación rural del MINEM, FOSE, Obras por Impuestos y cooperación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Coeficiente de electrificación rural (MINEM) y horas de servicio efectivo de los sistemas instalados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "CON-15",
+    "EDU-10",
+    "DIG-17"
+   ],
+   "riesgo": "Sistemas que se abandonan por falta de mantenimiento; dispersión y costo por conexión en la Amazonía.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas (2025) – MINEM: coeficiente de electrificación rural de 86,6 % a diciembre de 2024",
+     "url": "https://energiminas.com/2025/01/06/minem-ejecuto-el-96-5-de-su-presupuesto-en-2024-con-mayor-enfasis-en-electrificacion"
+    },
+    {
+     "titulo": "Congreso – Documento con datos INEI/MINEM sobre acceso eléctrico de hogares 2024 (96,5 % nacional, 86,0 % rural)",
+     "url": "https://api.congreso.gob.pe/spley-portal-service/archivo/Mzg1NTky/pdf"
+    },
+    {
+     "titulo": "Banco Mundial / ESMAP – Mini Grids for Half a Billion People (2022)",
+     "url": "https://www.worldbank.org/en/topic/energy/publication/mini-grids-for-half-a-billion-people"
+    }
+   ],
+   "pedn": [
+    "AE1.3.8",
+    "AE2.6.5"
+   ]
+  },
+  {
+   "id": "ENE-15",
+   "titulo": "Profesionalizar las distribuidoras eléctricas estatales regionales con metas de calidad",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Las distribuidoras regionales son empresas del FONAFE; su gobierno se cambia por acuerdo de directorio y directivas del FONAFE.",
+   "etapa": "2026-2031",
+   "que": "El FONAFE elige por concurso a los directorios y gerentes de las distribuidoras estatales regionales, firma con cada una un convenio de metas de calidad (cortes por usuario, pérdidas, atención) y publica su cumplimiento. Se moderniza la red con medición inteligente donde sea rentable y se reducen las pérdidas por robo de energía. Si una empresa incumple de manera sostenida, se evalúa operarla con contratos de gestión con operadores especializados manteniendo la propiedad pública.",
+   "evidencia": "OSINERGMIN publica los indicadores de interrupciones por empresa y las distribuidoras estatales regionales suelen tener peores resultados que las privadas de Lima (magnitud por verificar en sus reportes SAIDI/SAIFI). Los contratos de gestión en distribución en Colombia y en Brasil han reducido pérdidas cuando se atan a metas medibles (Banco Mundial).",
+   "entrega": "Convenios de metas firmados con todas las distribuidoras estatales y publicados cada año.",
+   "responsable": "FONAFE",
+   "entidades": [
+    {
+     "sigla": "FONAFE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Ingresos propios de las distribuidoras y tarifa regulada.",
+   "costo_referencial": "no estimado",
+   "indicador": "Interrupciones promedio por usuario y horas de corte al año (SAIFI y SAIDI) por empresa.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-14",
+    "ENE-22"
+   ],
+   "riesgo": "Uso político de cargos en las empresas; inversiones sin control de calidad.",
+   "fuentes": [
+    {
+     "titulo": "OSINERGMIN – Indicadores de calidad del suministro eléctrico",
+     "url": "https://www.gob.pe/osinergmin"
+    },
+    {
+     "titulo": "FONAFE – Empresas de distribución eléctrica de la corporación",
+     "url": "https://www.fonafe.gob.pe/"
+    }
+   ],
+   "pedn": [
+    "AE1.3.8",
+    "AE4.5.3"
+   ]
+  },
+  {
+   "id": "ENE-16",
+   "titulo": "Ampliar el etiquetado y fijar estándares mínimos de eficiencia para equipos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se modifica el DS 009-2017-EM y se aprueban reglamentos técnicos de estándares mínimos por decreto supremo, con base en la Ley 27345.",
+   "etapa": "2026-2031",
+   "que": "Se amplía el etiquetado obligatorio de eficiencia energética a más familias de equipos (aire acondicionado, motores, iluminación, refrigeradoras comerciales) y se fijan estándares mínimos de eficiencia que retiran del mercado los equipos más derrochadores. INACAL acredita laboratorios y el INDECOPI fiscaliza las etiquetas. Los estándares se revisan cada cinco años y se armonizan con los de la Alianza del Pacífico para no encarecer las importaciones.",
+   "evidencia": "El reglamento técnico de etiquetado (DS 009-2017-EM) solo cubre nueve tipos de equipos y el MINEM ha prepublicado su ampliación. La Agencia Internacional de Energía y CLASP estiman que los estándares mínimos y el etiquetado ahorran energía a un costo menor que generarla.",
+   "entrega": "Etiquetado ampliado a por lo menos 15 familias de equipos y estándares mínimos vigentes para 5 al 2031.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INACAL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INDECOPI",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM e INACAL; los costos de certificación los asumen los importadores.",
+   "costo_referencial": "no estimado",
+   "indicador": "Consumo eléctrico residencial por hogar y n.º de familias de equipos con estándar mínimo.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo N.º 009-2017-EM, Reglamento Técnico sobre el etiquetado de eficiencia energética",
+     "motivo": "Modificarlo para ampliar las familias de equipos y añadir estándares mínimos de eficiencia."
+    }
+   ],
+   "depende_de": [
+    "ENE-01"
+   ],
+   "riesgo": "Fiscalización débil y equipos de contrabando sin etiqueta.",
+   "fuentes": [
+    {
+     "titulo": "CLASP – Supreme Decree No. 009-2017-EM: reglamento técnico de etiquetado de eficiencia energética",
+     "url": "https://cprc-clasp.ngo/policies/supreme-decree-no-009-2017-em-technical-regulation-labeling-energy-efficiency-energy"
+    },
+    {
+     "titulo": "Ley 27345, Ley de Promoción del Uso Eficiente de la Energía",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27345.pdf"
+    }
+   ],
+   "pedn": [
+    "AE1.3.9",
+    "AE3.3.23"
+   ]
+  },
+  {
+   "id": "ENE-17",
+   "titulo": "Hacer eficientes los edificios públicos con contratos de ahorro garantizado",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con la Ley 27345 vigente, la Ley de Contrataciones y directivas del MEF que permitan pagar con los ahorros.",
+   "etapa": "2031-2036",
+   "que": "Los hospitales, universidades, sedes ministeriales y alumbrado público con mayor consumo contratan empresas de servicios energéticos que invierten en iluminación eficiente, climatización, paneles solares en techos y gestión del consumo, y cobran con una parte del ahorro medido. El MINEM publica un ranking anual de consumo por metro cuadrado de las entidades públicas. Se empieza por los 500 edificios de mayor consumo.",
+   "evidencia": "Los contratos de desempeño energético (ESCO) en edificios públicos de México, Chile y la Unión Europea han logrado ahorros del 20 % al 30 % del consumo (Banco Mundial, Energy Efficiency in Public Buildings). La Ley 27345 de 2000 promueve el uso eficiente de la energía, pero el Estado no tiene un programa masivo de este tipo.",
+   "entrega": "500 edificios públicos con contrato de ahorro garantizado y ahorro medido publicado al 2036.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "PERU COMPRAS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "MINEDU",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Los propios ahorros en las facturas; inversión privada de las ESCO.",
+   "costo_referencial": "no estimado",
+   "indicador": "Ahorro de energía y de gasto en electricidad de las entidades públicas (MWh y S/ por año).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-16"
+   ],
+   "riesgo": "Reglas presupuestarias que impiden comprometer pagos plurianuales; miedo de los funcionarios al control.",
+   "fuentes": [
+    {
+     "titulo": "Ley 27345, Ley de Promoción del Uso Eficiente de la Energía",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27345.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.20",
+    "AE3.3.23"
+   ]
+  },
+  {
+   "id": "ENE-18",
+   "titulo": "Electrificar el transporte público urbano y preparar la red de carga",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con normas de la ATU y del MTC, reglamentos de OSINERGMIN sobre carga y el reglamento de infraestructura de carga vigente; no requiere ley.",
+   "etapa": "2031-2036",
+   "que": "En Lima, Callao y las ciudades grandes, las nuevas flotas de buses de corredores y del transporte formal se licitan priorizando buses eléctricos o de bajas emisiones, con financiamiento por arrendamiento y estaciones de carga en patios. Las distribuidoras ofrecen tarifas de carga nocturna. Se establece una red básica de carga rápida en las principales carreteras y se ordenan las reglas para la carga en edificios. El GNV sigue como opción de transición donde ya existe infraestructura.",
+   "evidencia": "Santiago de Chile opera más de 2 000 buses eléctricos con un modelo que separa la propiedad de la flota de la operación (Ministerio de Transportes de Chile; cifra por verificar) y Bogotá tiene una de las mayores flotas eléctricas de la región. El transporte es una de las principales fuentes de contaminación del aire en Lima (MINAM).",
+   "entrega": "30 % de la flota de buses de corredores de Lima en electricidad al 2036; red básica de carga rápida en la red vial nacional.",
+   "responsable": "ATU",
+   "entidades": [
+    {
+     "sigla": "ATU",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MTC",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Inversión privada de operadores con arrendamiento de flota; cooperación climática (BID, CAF).",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de buses eléctricos en operación y puntos de carga pública.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-02"
+   ],
+   "riesgo": "Costo inicial de las flotas y debilidad financiera de los operadores formales.",
+   "fuentes": [
+    {
+     "titulo": "MINAM – Calidad del aire en Lima Metropolitana",
+     "url": "https://www.gob.pe/minam"
+    }
+   ],
+   "pedn": [
+    "AE3.3.22",
+    "AE2.6.7"
+   ]
+  },
+  {
+   "id": "ENE-19",
+   "titulo": "Probar el hidrógeno verde con pilotos y certificación, sin subsidios ni promesas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 31992 ya existe; el reglamento, la certificación de origen y los pilotos se aprueban por decreto supremo del MINEM.",
+   "etapa": "2031-2036",
+   "que": "Se completa la reglamentación de la Ley 31992 con un sistema de certificación del origen renovable acreditado por INACAL y reglas de seguridad. Se apoyan dos o tres proyectos piloto con demanda local real (fertilizantes, explosivos para minería, transporte pesado en minas) y financiamiento privado o de cooperación, sin garantías del Estado ni tarifas eléctricas especiales. Cada piloto publica sus costos. Solo si los costos bajan y aparece demanda firme se evalúa escalar a exportación.",
+   "evidencia": "La Ley 31992 se promulgó en marzo de 2024 y su reglamento seguía pendiente en 2025, pese a que el plazo venció en 2024 (Energiminas; Reporte Minero). La Agencia Internacional de Energía advierte que la mayoría de proyectos anunciados de hidrógeno bajo en emisiones no ha llegado a decisión final de inversión por falta de compradores (IEA, Global Hydrogen Review 2024).",
+   "entrega": "Reglamento y certificación vigentes; al menos dos pilotos operando con costos publicados al 2036.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INACAL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONCYTEC",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Inversión privada y cooperación internacional; fondos concursables de CONCYTEC para investigación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Costo nivelado del hidrógeno de los pilotos (US$/kg) y toneladas producidas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-02"
+   ],
+   "riesgo": "Expectativas infladas que lleven a pedir subsidios o tarifas especiales; uso de agua en zonas áridas.",
+   "fuentes": [
+    {
+     "titulo": "LP Derecho – Ley 31992, Ley de Fomento del Hidrógeno Verde",
+     "url": "https://lpderecho.pe/ley-31992-fomento-hidrogeno-verde/"
+    },
+    {
+     "titulo": "Energiminas (2025) – MINEM prepublica el proyecto de reglamento de la Ley de Fomento del Hidrógeno Verde",
+     "url": "https://energiminas.com/2025/10/03/minem-prepublica-proyecto-de-reglamento-de-la-ley-de-fomento-del-hidrogeno-verde/"
+    },
+    {
+     "titulo": "IEA – Global Hydrogen Review 2024",
+     "url": "https://www.iea.org/reports/global-hydrogen-review-2024"
+    }
+   ],
+   "pedn": [
+    "AE3.3.20",
+    "AE2.7.3"
+   ]
+  },
+  {
+   "id": "ENE-20",
+   "titulo": "Ordenar las reglas para el litio y el uranio de Puno con prudencia",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El litio se rige por la Ley General de Minería; la minería de uranio y otros minerales radiactivos necesita un marco con rango de ley sobre seguridad radiológica y cierre que hoy no está completo. Remite a SOB-01 de Agenda Tech sobre minerales críticos.",
+   "etapa": "2026-2031",
+   "que": "El MINEM, el IPEN y el MINAM aclaran por norma qué requisitos de seguridad radiológica, agua y cierre aplican a la exploración y explotación de litio en Carabaya (Puno) y presentan un proyecto de ley para el uranio. Se publica la información geológica disponible y se informa a las comunidades con datos. No se anuncian beneficios tributarios, empresas estatales ni plazos de producción mientras no existan reservas probadas y estudios ambientales aprobados.",
+   "evidencia": "El USGS registra recursos identificados de litio en el Perú del orden de 1 millón de toneladas (Mineral Commodity Summaries 2025). El proyecto Falchani anunció producción para 2027, pero sufrió paralizaciones por conflictos y el propio MINEM señaló en 2025 que necesitaba una empresa más robusta (Energiminas). La prudencia evita repetir promesas sin respaldo.",
+   "entrega": "Norma de requisitos para litio publicada y proyecto de ley de minerales radiactivos presentado al 2028.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "IPEN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM, IPEN e INGEMMET.",
+   "costo_referencial": "no estimado",
+   "indicador": "Normas aprobadas; reservas de litio declaradas conforme a estándares internacionales.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SOB-01",
+    "MIN-22"
+   ],
+   "riesgo": "Conflictos por desinformación sobre el uranio; expectativas de riqueza rápida.",
+   "fuentes": [
+    {
+     "titulo": "USGS – Mineral Commodity Summaries 2025",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+    },
+    {
+     "titulo": "Energiminas (2025) – MINEM: el proyecto de litio de Puno requiere una dinámica empresarial más robusta",
+     "url": "https://energiminas.com/2025/03/05/en-mi-opinion-este-proyecto-de-litio-en-puno-requiere-de-una-dinamica-empresarial-mas-robusta-declara-titular-del-minem"
+    },
+    {
+     "titulo": "Energiminas – Macusani Yellowcake aclara que el proyecto de litio Falchani no contiene uranio",
+     "url": "https://energiminas.com/macusani-yellowcake-aclara-que-su-proyecto-de-litio-falchani-no-contiene-uranio"
+    }
+   ],
+   "pedn": [
+    "AE3.3.16",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "ENE-21",
+   "titulo": "Blindar la electricidad ante sequías y El Niño con un plan anual de contingencia",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El COES y el MINEM pueden aprobar el plan por procedimiento técnico y decreto supremo; la reserva fría ya existe en la regulación.",
+   "etapa": "2026-2031",
+   "que": "Cada año, antes de la temporada seca, el COES publica un análisis de riesgo de abastecimiento con escenarios de sequía y de El Niño elaborados con el SENAMHI y la ANA. Si el riesgo es alto, se activan medidas preacordadas: priorización del gas para generación, coordinación del uso de los embalses con la agricultura, contratos de respuesta de la demanda con grandes clientes que reducen su consumo a cambio de pago, y despacho de reserva fría. Se revisa la gestión de los embalses ante el retroceso de los glaciares.",
+   "evidencia": "En la sequía de 2022-2023 el costo marginal de la electricidad superó los US$ 179 por MWh y se pagaron más de US$ 2 000 millones por generar con diésel (presentación del Gobierno Regional del Cusco al Congreso con datos del COES; Gestión). La respuesta de la demanda, usada en Chile y en Estados Unidos, reduce picos a menor costo que nuevas centrales (IEA).",
+   "entrega": "Plan anual de contingencia publicado desde 2027; programa de respuesta de la demanda con al menos 300 MW inscritos al 2031.",
+   "responsable": "COES",
+   "entidades": [
+    {
+     "sigla": "COES",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    }
+   ],
+   "financiamiento": "Presupuesto del COES (aportes de los integrantes) y tarifa.",
+   "costo_referencial": "no estimado",
+   "indicador": "Horas de generación con diésel y costo marginal promedio en años secos.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-05",
+    "ENE-04",
+    "SOB-10"
+   ],
+   "riesgo": "Que se trate como trámite y no se active a tiempo; conflictos por el uso del agua de los embalses.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – Consumidores eléctricos pagaron más de US$ 2 000 millones por generación con diésel",
+     "url": "https://gestion.pe/economia/consumidores-electricos-pagaron-mas-de-us2000-millones-por-generacion-con-diesel-noticia/"
+    },
+    {
+     "titulo": "BCRP – Reporte de Inflación diciembre 2023, recuadro 4",
+     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Inflacion/2023/diciembre/reporte-de-inflacion-diciembre-2023-recuadro-4.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.2.4",
+    "AE2.7.2"
+   ]
+  },
+  {
+   "id": "ENE-22",
+   "titulo": "Medición inteligente, tarifas horarias y techos solares para usuarios",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La generación distribuida tiene base en el Decreto Legislativo 1221; falta completar y aplicar su reglamento y las normas tarifarias de OSINERGMIN, por decreto supremo y resolución.",
+   "etapa": "2031-2036",
+   "que": "Se despliegan medidores inteligentes por etapas, empezando por los grandes consumidores residenciales y comerciales, y se ofrecen tarifas que cobran menos en horas de baja demanda. Hogares, comercios y pequeñas industrias pueden instalar paneles solares en sus techos y vender sus excedentes a la red con reglas simples y conexión en plazos máximos. OSINERGMIN vigila que los costos de la red no se trasladen injustamente a quienes no tienen paneles.",
+   "evidencia": "El Decreto Legislativo 1221 de 2015 permitió la generación distribuida, pero su reglamentación y aplicación han sido lentas (por verificar el estado actual en el MINEM). Brasil multiplicó la generación distribuida solar tras reglas de compensación claras, aunque luego tuvo que ajustarlas para no cargar el costo de la red a otros usuarios (ANEEL).",
+   "entrega": "Reglamento de generación distribuida vigente y aplicado; 1 millón de medidores inteligentes instalados al 2036.",
+   "responsable": "OSINERGMIN",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INDECOPI",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Inversión de las distribuidoras reconocida en la tarifa; inversión privada de usuarios.",
+   "costo_referencial": "no estimado",
+   "indicador": "MW de generación distribuida conectados; porcentaje de usuarios con medidor inteligente.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Legislativo N.º 1221, que mejora la regulación de la distribución de electricidad",
+     "motivo": "Completar su reglamentación sobre generación distribuida con plazos de conexión y reglas de compensación."
+    }
+   ],
+   "depende_de": [
+    "ENE-15"
+   ],
+   "riesgo": "Resistencia de distribuidoras a perder ventas; subsidios cruzados mal diseñados.",
+   "fuentes": [
+    {
+     "titulo": "Decreto Legislativo 1221 (Congreso)",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01221.pdf"
+    },
+    {
+     "titulo": "IEA – Unlocking the Potential of Distributed Energy Resources (2022)",
+     "url": "https://www.iea.org/reports/unlocking-the-potential-of-distributed-energy-resources"
+    }
+   ],
+   "pedn": [
+    "AE3.3.20",
+    "AE2.6.5"
+   ]
+  },
+  {
+   "id": "ENE-23",
+   "titulo": "Transparentar y focalizar los subsidios y cargos escondidos en la tarifa eléctrica",
+   "tipo": "ley",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El FOSE fue creado por la Ley 27510 y varios cargos de la tarifa provienen de leyes; reordenarlos requiere ley. La publicación de su costo la puede hacer OSINERGMIN sin ley. Una ley de iniciativa congresal no puede crear gasto (art. 79 de la Constitución).",
+   "etapa": "2031-2036",
+   "que": "OSINERGMIN publica en cada recibo y en un tablero cuánto paga el usuario por energía, por transmisión y por cada cargo adicional (FISE, FOSE, garantías de ductos, compensaciones). Con esa información se aprueba una ley que focaliza el FOSE en hogares vulnerables según el Padrón General de Hogares, en lugar de hacerlo solo por nivel de consumo, y que prohíbe crear nuevos cargos en la tarifa sin análisis costo-beneficio y plazo de vencimiento.",
+   "evidencia": "El FOSE (Ley 27510) subsidia a los usuarios de bajo consumo con un recargo a los demás, pero el bajo consumo no siempre coincide con la pobreza (análisis de OSINERGMIN y del Banco Mundial sobre subsidios eléctricos; por verificar la magnitud del error de inclusión). El FMI recomienda que los subsidios energéticos sean explícitos y focalizados.",
+   "entrega": "Desglose de cargos publicado desde 2027; ley de focalización aprobada al 2033.",
+   "responsable": "OSINERGMIN",
+   "entidades": [
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "No requiere gasto adicional; redistribuye recargos existentes.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje del subsidio FOSE que llega a hogares de los quintiles 1 y 2.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley N.º 27510, que crea el Fondo de Compensación Social Eléctrica (FOSE)",
+     "motivo": "Modificar su criterio de asignación para focalizarlo por pobreza y no solo por consumo."
+    }
+   ],
+   "depende_de": [
+    "ENE-13",
+    "ENE-09"
+   ],
+   "riesgo": "Rechazo de usuarios que hoy reciben el subsidio sin ser pobres; errores del padrón.",
+   "fuentes": [
+    {
+     "titulo": "Ley 27510, que crea el Fondo de Compensación Social Eléctrica",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27510.pdf"
+    },
+    {
+     "titulo": "FMI – Fossil Fuel Subsidies",
+     "url": "https://www.imf.org/en/Topics/climate-change/energy-subsidies"
+    }
+   ],
+   "pedn": [
+    "AE1.3.8",
+    "AE3.1.2"
+   ]
+  },
+  {
+   "id": "ENE-24",
+   "titulo": "Consolidar la devolución de IGV para exploración de hidrocarburos en un régimen evaluado",
+   "tipo": "derogacion",
+   "necesita_ley": "si",
+   "por_que_ley": "Los beneficios tributarios tienen reserva de ley (art. 74 de la Constitución); consolidar o derogar la Ley 27624 requiere ley o decreto legislativo delegado.",
+   "etapa": "2026-2031",
+   "que": "La devolución del IGV a las empresas que exploran hidrocarburos (Ley 27624) y su gemela para minería (Ley 27623) se reemplazan por un único régimen de recuperación anticipada del IGV para la fase preproductiva de proyectos extractivos, con plazo de vencimiento, informe anual de su costo y evaluación del MEF cada cinco años. El objetivo no es quitar el incentivo a explorar, sino ordenarlo, medirlo y evitar duplicidades.",
+   "evidencia": "El inventario de derogaciones de Agenda País identifica las leyes 27623 y 27624 como regímenes duplicados que conviene consolidar. El Consejo Fiscal y el MEF recomiendan evaluar periódicamente los gastos tributarios y fijarles plazos.",
+   "entrega": "Ley de régimen único de recuperación del IGV preproductivo aprobada, con evaluación quinquenal.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "No requiere gasto.",
+   "costo_referencial": "no estimado",
+   "indicador": "Costo fiscal anual del beneficio publicado por el MEF; n.º de regímenes de devolución vigentes.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley N.º 27624, que dispone la devolución del IGV e IPM para la exploración de hidrocarburos",
+     "motivo": "Duplicada con la Ley 27623; se consolida en un régimen único con plazo y evaluación."
+    }
+   ],
+   "depende_de": [
+    "MIN-24",
+    "ECP-03"
+   ],
+   "riesgo": "Que se perciba como alza de impuestos y desincentive la exploración si se diseña mal.",
+   "fuentes": [
+    {
+     "titulo": "Ley 27624 (Congreso)",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27624.pdf"
+    },
+    {
+     "titulo": "MEF – Marco Macroeconómico Multianual (anexo de gastos tributarios)",
+     "url": "https://www.mef.gob.pe/es/marco-macroeconomico"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE4.5.2"
+   ]
+  },
+  {
+   "id": "ENE-25",
+   "titulo": "Remediar los derrames y pasivos de hidrocarburos de la Amazonía norte",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con la Ley 30321 (Fondo de Contingencia para Remediación Ambiental), la Ley 29134 de pasivos del subsector hidrocarburos y presupuesto del MINEM y el MINAM.",
+   "etapa": "2026-2031",
+   "que": "Se completa el inventario de pasivos ambientales de hidrocarburos en Loreto (cuencas del Pastaza, Corrientes, Tigre y Marañón) y en la costa norte, se priorizan los de riesgo alto para la salud y el agua, y se remedian por portafolio con contratos que pagan por resultados verificados. Las comunidades participan en el monitoreo y en el empleo de las obras. OEFA publica la ubicación, el responsable y el avance de cada sitio.",
+   "evidencia": "La Ley 30321 creó un fondo para remediar sitios en las cuencas del Pastaza, Tigre, Corrientes y Marañón, cuya ejecución ha sido lenta según la Defensoría del Pueblo y la Contraloría (por verificar el avance actual). La falta de remediación es una de las causas de los bloqueos al Oleoducto Norperuano.",
+   "entrega": "Sitios priorizados de las cuatro cuencas remediados y verificados al 2031.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "PERUPETRO",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Fondo de Contingencia para Remediación Ambiental (Ley 30321) y responsables identificados.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de sitios remediados y verificados por OEFA; derrames por año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ENE-07"
+   ],
+   "riesgo": "Contratos lentos y responsables que litigan; desconfianza de las comunidades.",
+   "fuentes": [
+    {
+     "titulo": "Ley 30321 (Congreso)",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/30321.pdf"
+    },
+    {
+     "titulo": "Ley 29134, que regula los pasivos ambientales del subsector hidrocarburos",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29134.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.6.1",
+    "AE2.6.8"
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "mineria",
+   "como": "La minería es el mayor cliente eléctrico del sur: sus nuevos proyectos dependen de la transmisión (ENE-03) y de contratos renovables (ENE-02); a su vez, los minerales críticos y el litio (MIN-22, ENE-20) se rigen con las mismas reglas de prudencia."
+  },
+  {
+   "con": "economia",
+   "como": "La energía competitiva para la industria y los parques industriales se trabaja en ECP-27 y ECP-10; este sector aporta el plan integrado (ENE-01), las licitaciones por bloques (ENE-02) y la transmisión (ENE-03) sin duplicar esas acciones."
+  },
+  {
+   "con": "digital",
+   "como": "Los centros de datos y la carga eléctrica (DIG-23) y la conectividad de escuelas y postas (DIG-17) necesitan energía firme y electrificación rural (ENE-14)."
+  },
+  {
+   "con": "educacion",
+   "como": "Electricidad confiable en todas las escuelas rurales (ENE-14 con EDU-10) es condición para la conectividad y el uso de tecnología en el aula."
+  },
+  {
+   "con": "salud",
+   "como": "La cocina limpia (ENE-09) reduce la contaminación del aire dentro de las casas, asociada a enfermedades respiratorias en niñas, niños y mujeres; las postas rurales necesitan electricidad para la cadena de frío."
+  },
+  {
+   "con": "estado",
+   "como": "La reforma de Petroperú (ENE-11, ENE-12), del FEPC (ENE-13) y de las distribuidoras regionales (ENE-15) aplica las reglas de gobierno corporativo, evaluación de gasto y caducidad de beneficios del sector Estado (EST-03, EST-06)."
+  }
+ ],
+ "conexion_tech": [
+  "SOB-09",
+  "CON-15",
+  "CON-10",
+  "SOB-01",
+  "SOB-10",
+  "CON-14",
+  "TAL-09"
+ ],
+ "plan2050": [
+  "energia",
+  "energia-electrica",
+  "hidrocarburos",
+  "energia-nuclear",
+  "medio-ambiente",
+  "infraestructura-y-construccion",
+  "promocion-de-la-inversion",
+  "transportes",
+  "desarrollo-rural"
+ ],
+ "fuentes": [
+  {
+   "titulo": "MINEM – Estadística del subsector electricidad, diciembre de 2024",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/7676275/6501622-estadistica-subsector-electricidad-diciembre-2024%282%29.pdf"
+  },
+  {
+   "titulo": "Energiminas (2025) – Promulgan la Ley 32249 que abre la competencia en generación eléctrica",
+   "url": "https://energiminas.com/2025/01/22/energia-promulgan-ley-que-abre-la-competencia-en-generacion-electrica"
+  },
+  {
+   "titulo": "Gestión – Consumidores eléctricos pagaron más de US$ 2 000 millones por generación con diésel",
+   "url": "https://gestion.pe/economia/consumidores-electricos-pagaron-mas-de-us2000-millones-por-generacion-con-diesel-noticia/"
+  },
+  {
+   "titulo": "Promigas – InfoGas Perú (octubre de 2025), reservas y producción de gas natural",
+   "url": "https://www.promigas.com/Documents/InfoGas%20Per%c3%ba%2018102025.pdf"
+  },
+  {
+   "titulo": "Energiminas – Producción de petróleo aumentó 4,9 % en 2024 (40,63 MBPD)",
+   "url": "https://energiminas.com/?p=26728"
+  },
+  {
+   "titulo": "Energiminas (2025) – MINEM: coeficiente de electrificación rural de 86,6 % a diciembre de 2024",
+   "url": "https://energiminas.com/2025/01/06/minem-ejecuto-el-96-5-de-su-presupuesto-en-2024-con-mayor-enfasis-en-electrificacion"
+  },
+  {
+   "titulo": "La República (2025) – Petroperú busca revertir pérdidas: US$ 968 millones en 2024 y US$ 1 064 millones en 2023",
+   "url": "https://larepublica.pe/economia/2025/01/22/petroperu-busca-revertir-perdidas-y-mejorar-resultados-financieros-en-el-2025-hnews-1464246"
+  },
+  {
+   "titulo": "La República (2024) – Consejo Fiscal: la refinería de Talara no garantizaría la sostenibilidad financiera de Petroperú",
+   "url": "https://larepublica.pe/economia/2024/10/09/refineria-de-talara-no-garantizaria-sostenibilidad-financiera-de-petroperu-513279"
+  },
+  {
+   "titulo": "Lampadia / El Comercio – La inversión total en la refinería de Talara supera los US$ 6 500 millones (incluye US$ 992 millones de intereses)",
+   "url": "https://www.lampadia.com/opiniones/el-comercio/la-inversion-total-en-la-refineria-de-talara-supera-ya-los-us6500-mlls"
+  },
+  {
+   "titulo": "CMS – DU 010-2025: medidas para la reorganización patrimonial de Petroperú",
+   "url": "https://cms.law/en/per/publication/establecen-medidas-en-materia-economica-y-financiera-para-la-reorganizacion-patrimonial-de-petroperu-s.a.-y-garantizar-la-continuidad-de-la-cadena"
+  },
+  {
+   "titulo": "Gestión – IPE: costo del FEPC supera los S/ 18 000 millones",
+   "url": "https://gestion.pe/economia/fondo-de-estabilizacion-de-combustibles-costo-supera-los-s-18000-mlls-ipe-gasolina-mef-noticia/"
+  },
+  {
+   "titulo": "Energiminas – MINEM: Bonogas beneficia a 1,5 millones de hogares",
+   "url": "https://energiminas.com/?p=17648"
+  },
+  {
+   "titulo": "Andina – Perú aprobó el Plan de Transmisión 2025-2034 (RM 483-2024-MINEM/DM)",
+   "url": "https://andina.pe/ingles/noticia-peru-approved-its-20252034-electric-transmission-plan-to-attract-investors-1013191.aspx"
+  },
+  {
+   "titulo": "LP Derecho – Ley 31992, Ley de Fomento del Hidrógeno Verde",
+   "url": "https://lpderecho.pe/ley-31992-fomento-hidrogeno-verde/"
+  },
+  {
+   "titulo": "USGS – Mineral Commodity Summaries 2025",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+  }
+ ]
+}

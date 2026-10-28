@@ -5,11 +5,18 @@
   // Tooltip de estaciones (el <title> del SVG queda como respaldo y para lectores de pantalla)
   const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; document.body.appendChild(tip);
   const mostrar = (el, x, y) => { tip.textContent = el.dataset.t; tip.hidden = false; const w = tip.offsetWidth; tip.style.left = Math.max(8, Math.min(innerWidth - w - 8, x + 12)) + "px"; tip.style.top = y + 16 + "px"; };
+  // Resalta las conexiones de la estación activa con otros sectores
+  const resaltar = (el, on) => {
+    const svg = el.closest("svg"), id = el.dataset.id;
+    svg.classList.toggle("foco", on);
+    $$(".m-con", svg).forEach((p) => p.classList.toggle("on", on && (p.dataset.a === id || p.dataset.b === id)));
+  };
   $$(".m-est").forEach((el) => {
     el.addEventListener("mousemove", (ev) => mostrar(el, ev.clientX, ev.clientY));
-    el.addEventListener("mouseleave", () => (tip.hidden = true));
-    el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); mostrar(el, r.left, r.bottom - 10); });
-    el.addEventListener("blur", () => (tip.hidden = true));
+    el.addEventListener("mouseenter", () => resaltar(el, true));
+    el.addEventListener("mouseleave", () => { tip.hidden = true; resaltar(el, false); });
+    el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); mostrar(el, r.left, r.bottom - 10); resaltar(el, true); });
+    el.addEventListener("blur", () => { tip.hidden = true; resaltar(el, false); });
   });
 
   // Abrir la acción enlazada desde el mapa u otra página

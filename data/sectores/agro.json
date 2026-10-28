@@ -1,0 +1,1542 @@
+{
+ "id": "agro",
+ "nombre": "Agro y alimentación",
+ "lema": "Que quien produce nuestra comida viva bien de su trabajo",
+ "diagnostico": {
+  "resumen": "El agro peruano tiene dos caras. La agroexportación de la costa batió récords: según el MIDAGRI, los envíos de 2025 se acercaron a los US$ 15 000 millones (las cifras finales publicadas varían entre US$ 14 600 y 15 000 millones), con arándanos, uvas y paltas a la cabeza. Pero la mayoría de los más de 2 millones de productores registrados en el Padrón de Productores Agrarios son familiares, con parcelas pequeñas, en secano y con poca ayuda pública. Según la Encuesta Nacional Agropecuaria (ENA) 2024 del INEI, solo 3,1 % de los productores recibió asistencia técnica, 7,5 % pertenece a alguna organización y 9,1 % solicitó crédito. La pobreza rural fue de 35,5 % en 2025 frente a 23,4 % en zonas urbanas (INEI), y la primera medición oficial con la escala FIES de la FAO halló que 30,5 % de la población sufrió inseguridad alimentaria moderada o severa en 2025 (INEI). La OCDE (2026) calcula que el apoyo a servicios generales del agro —investigación, extensión, infraestructura— es 2,1 % del valor de la producción, por debajo del promedio OCDE de 3,2 %. La crisis de fertilizantes de 2022 mostró la fragilidad: cuatro compras estatales de urea fallidas y un subsidio de emergencia. El seguro catastrófico cubre más de 2 millones de hectáreas pero paga como máximo S/ 1000 por hectárea. La titulación avanza lento (132 607 títulos del PTRT3 desde 2019) y la norma europea contra la deforestación exigirá trazabilidad al café y al cacao desde fines de 2026.",
+  "indicadores": [
+   {
+    "nombre": "Pobreza monetaria en el área rural",
+    "valor": "35,5",
+    "unidad": "% de la población rural",
+    "anio": 2025,
+    "fuente": "INEI, ENAHO 2025 (Evolución de la pobreza monetaria 2016-2025)",
+    "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+   },
+   {
+    "nombre": "Inseguridad alimentaria moderada o severa (FIES)",
+    "valor": "30,5",
+    "unidad": "% de la población",
+    "anio": 2025,
+    "fuente": "INEI con asistencia técnica de la FAO",
+    "url": "https://www.gob.pe/institucion/inei/noticias/1405139-inseguridad-alimentaria-afecto-al-30-5-de-la-poblacion-en-el-ano-2025"
+   },
+   {
+    "nombre": "Productores que recibieron asistencia técnica",
+    "valor": "3,1",
+    "unidad": "% de productores",
+    "anio": 2024,
+    "fuente": "INEI, ENA 2024 (citado por Agraria.pe)",
+    "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+   },
+   {
+    "nombre": "Productores que pertenecen a alguna organización",
+    "valor": "7,5",
+    "unidad": "% de productores",
+    "anio": 2024,
+    "fuente": "INEI, ENA 2024 (citado por Agraria.pe)",
+    "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+   },
+   {
+    "nombre": "Productores que solicitaron crédito en los últimos 12 meses",
+    "valor": "9,1",
+    "unidad": "% de productores",
+    "anio": 2024,
+    "fuente": "INEI, ENA 2024 (por verificar en el cuadro oficial; una columna cita 9,7 %)",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/8237929/6879473-productores-agropecuarios-principales-resultados-de-la-encuesta-nacional-agropecuaria-ena-2018-2019-y-2022-2024%282%29.pdf"
+   },
+   {
+    "nombre": "Productores en el Padrón de Productores Agrarios",
+    "valor": "2 048 400",
+    "unidad": "productores",
+    "anio": 2026,
+    "fuente": "MIDAGRI, Padrón de Productores Agrarios (El Peruano)",
+    "url": "https://elperuano.pe/noticia/298657-dia-del-campesino-mas-de-2-millones-de-productores-alimentan-al-peru"
+   },
+   {
+    "nombre": "Agroexportaciones",
+    "valor": "≈ 14 600 – 15 000",
+    "unidad": "millones de US$",
+    "anio": 2025,
+    "fuente": "MIDAGRI / ComexPerú (cifra final por verificar)",
+    "url": "https://andina.pe/agencia/noticia-midagri-agroexportaciones-superarian-los-15000-millones-2025-1058126.aspx"
+   },
+   {
+    "nombre": "Superficie cubierta por el Seguro Agrícola Catastrófico",
+    "valor": "> 2 000 000",
+    "unidad": "hectáreas (campaña 2025-2026)",
+    "anio": 2026,
+    "fuente": "MIDAGRI (Agraria.pe)",
+    "url": "https://agraria.pe/noticias/seguro-agricola-catastrofico-cubrira-mas-de-8-000-hectareas--42188"
+   },
+   {
+    "nombre": "Títulos rurales individuales inscritos por el PTRT3 desde 2019",
+    "valor": "132 607",
+    "unidad": "títulos",
+    "anio": 2026,
+    "fuente": "MIDAGRI – UEGPS (El Peruano)",
+    "url": "https://www.elperuano.pe/noticia/297539-gobierno-formaliza-mas-de-132-mil-predios-rurales-y-asegura-el-territorio-de-261-comunidades"
+   },
+   {
+    "nombre": "Morosidad de Agrobanco",
+    "valor": "3,29",
+    "unidad": "% de la cartera",
+    "anio": 2025,
+    "fuente": "Agrobanco (Agraria.pe)",
+    "url": "https://www.agraria.pe/index.php/noticias/2025-tasa-de-morosidad-de-agrobanco-alcanzo-el-3-29-41506"
+   }
+  ],
+  "brechas": "La pobreza rural (35,5 %) supera en 12 puntos a la urbana (23,4 %) en 2025 (INEI). La inseguridad alimentaria llega a 42,0 % entre la población pobre frente a 30,5 % del promedio nacional (INEI, 2025). El riego tecnificado y la agroexportación se concentran en la costa, mientras la sierra y la selva dependen de la lluvia; según MIDAGRI citado por Agraria.pe, solo hay infraestructura de riego para unos 3 millones de hectáreas agropecuarias. La titulación avanza desigual: Puno concentra la mitad de los títulos del PTRT3. La brecha por sexo y lengua en el acceso a crédito y asistencia técnica no se publica de forma regular (por verificar con microdatos de la ENA).",
+  "causas": [
+   "Servicios públicos agrarios débiles y fragmentados: el apoyo a servicios generales es 2,1 % del valor de la producción frente a 3,2 % del promedio OCDE (OCDE, 2026), y la asistencia técnica llega a 3,1 % de productores (ENA 2024).",
+   "Baja asociatividad (7,5 % en organizaciones, ENA 2024) que impide escala, poder de negociación y acceso a certificaciones.",
+   "Dependencia de la lluvia y mantenimiento insuficiente de la infraestructura de riego, agravados por El Niño y el cambio climático.",
+   "Mercados de crédito y seguro rurales delgados: 9,1 % de productores solicita crédito (ENA 2024) y el seguro catastrófico paga montos bajos.",
+   "Inseguridad en la tenencia de la tierra y lentitud de la titulación, especialmente de comunidades nativas y campesinas.",
+   "Políticas reactivas ante shocks (fertilizantes 2022) en lugar de sistemas de información y respuesta preparados."
+  ]
+ },
+ "vision_2056": "En 2056 la familia campesina vive por encima de la pobreza, riega con agua segura, vende organizada en cooperativas y tiene crédito y seguro; nadie en el Perú pasa hambre y el café, el cacao y el pescado artesanal se venden trazables al mundo.",
+ "metas": [
+  {
+   "indicador": "Pobreza monetaria rural",
+   "linea_base": "35,5 % (2025)",
+   "2031": "28 %",
+   "2036": "22 %",
+   "2046": "14 %",
+   "2056": "≤ 8 %",
+   "referencia": "Tendencia de reducción de pobreza rural de Chile y Colombia en las últimas décadas (por verificar, CEPAL)",
+   "fuente_linea_base": "INEI, ENAHO 2025"
+  },
+  {
+   "indicador": "Inseguridad alimentaria moderada o severa (FIES)",
+   "linea_base": "30,5 % (2025)",
+   "2031": "24 %",
+   "2036": "18 %",
+   "2046": "10 %",
+   "2056": "≤ 5 %",
+   "referencia": "ODS 2.1.2 (meta: poner fin al hambre); promedio de América Latina y el Caribe 22,9 % en 2025 según agencias de la ONU (por verificar)",
+   "fuente_linea_base": "INEI con asistencia técnica de la FAO"
+  },
+  {
+   "indicador": "Productores que reciben asistencia técnica",
+   "linea_base": "3,1 % (2024)",
+   "2031": "15 %",
+   "2036": "25 %",
+   "2046": "40 %",
+   "2056": "50 %",
+   "referencia": "Valor de 9,2 % alcanzado en 2014 según la serie ENA citada por Agraria.pe",
+   "fuente_linea_base": "INEI, ENA 2024"
+  },
+  {
+   "indicador": "Productores que pertenecen a una organización",
+   "linea_base": "7,5 % (2024)",
+   "2031": "15 %",
+   "2036": "25 %",
+   "2046": "40 %",
+   "2056": "50 %",
+   "referencia": "Meta indicativa propia; no hay referencia internacional comparable verificada",
+   "fuente_linea_base": "INEI, ENA 2024"
+  },
+  {
+   "indicador": "Productores que solicitan crédito formal",
+   "linea_base": "9,1 % (2024)",
+   "2031": "15 %",
+   "2036": "22 %",
+   "2046": "32 %",
+   "2056": "40 %",
+   "referencia": "Meta indicativa propia",
+   "fuente_linea_base": "INEI, ENA 2024 (por verificar en cuadro oficial)"
+  },
+  {
+   "indicador": "Títulos rurales individuales inscritos en departamentos del PTRT3 (acumulado)",
+   "linea_base": "132 607 (2026)",
+   "2031": "283 000",
+   "2036": "cierre nacional de brecha",
+   "2046": "actualización continua",
+   "2056": "catastro rural completo y al día",
+   "referencia": "Brecha estimada de 283 000 títulos en 10 departamentos (MIDAGRI, 2022)",
+   "fuente_linea_base": "MIDAGRI – UEGPS"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "AGR-01",
+   "titulo": "Crear un servicio público de extensión agraria con extensionistas locales pagados por resultados",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se organiza con resolución ministerial del MIDAGRI y convenios con gobiernos regionales; se financia con programas presupuestales agrarios existentes y con el Fondo AgroPerú para asistencia técnica asociada al crédito.",
+   "etapa": "2026-2031",
+   "que": "Solo el 3,1 % de los productores recibió asistencia técnica en 2024 (ENA). Se forma una red de extensionistas —técnicos de institutos, yachachiq y kamayoq certificados— que atienden a grupos de 80 a 150 productores por cadena (papa, leche, café, cacao, granos andinos, cuyes) con un plan de finca, visitas y parcelas demostrativas. Cada extensionista se contrata por tres años con metas verificables: adopción de prácticas, rendimientos y ventas. INIA y universidades dan el respaldo técnico; los gobiernos regionales operan y el MIDAGRI fija estándares y mide.",
+   "evidencia": "La extensión bien diseñada eleva la adopción de tecnología; en el Perú, la evaluación experimental de Haku Wiñay (asistencia técnica entre pares con yachachiq) halló aumentos de ingresos autónomos de los hogares rurales (Escobal y Ponce, GRADE 2016). Además, la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %.",
+   "entrega": "Red de al menos 5000 extensionistas certificados al 2031 atendiendo a 500 000 productores de agricultura familiar con plan de finca.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INIA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "AGRO RURAL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Reasignación dentro del presupuesto agrario (programas de AGRO RURAL y de la Dirección de Agricultura Familiar) y transferencias condicionadas a GORE.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de productores que reciben asistencia técnica en los últimos 12 meses (ENA, INEI).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-10",
+    "TAL-08"
+   ],
+   "riesgo": "Que se contraten extensionistas por afinidad y sin metas, o que se diluyan en tareas administrativas; sin datos de la ENA por región no se puede medir.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – Encuesta Nacional Agraria 2024: el dolor persiste (asistencia técnica, asociatividad, crédito)",
+     "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+    },
+    {
+     "titulo": "GRADE – Escobal y Ponce (eds.) (2016): Combinando protección social con generación de oportunidades económicas. Evaluación de Haku Wiñay",
+     "url": "https://grade.org.pe/publicaciones/combinando-proteccion-social-con-generacion-de-oportunidades-economicas-una-evaluacion-de-los-avances-del-programa-haku-winay"
+    },
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE3.3.3",
+    "AE3.3.5"
+   ]
+  },
+  {
+   "id": "AGR-02",
+   "titulo": "Escalar Haku Wiñay y Noa Jayatai para hogares rurales en pobreza extrema",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Es una intervención de FONCODES (MIDIS) que se amplía por programación presupuestal y convenios; no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Haku Wiñay (sierra) y Noa Jayatai (selva) combinan cocinas mejoradas, agua segura, riego por aspersión familiar, huertos, crianza de animales menores, capacitación entre pares y fondos concursables para pequeños negocios. Se prioriza a hogares de Juntos en distritos de quintil 1 con alta inseguridad alimentaria, y se articula la salida con el servicio de extensión (AGR-01) y el acceso a compras públicas (AGR-12). La meta es que los hogares pasen de la subsistencia a vender excedentes.",
+   "evidencia": "La evaluación aleatorizada de GRADE (Escobal y Ponce, 2016) encontró aumentos de ingresos autónomos, mejor producción familiar y condiciones de vida en hogares que también recibían Juntos.",
+   "entrega": "300 000 hogares adicionales atendidos por Haku Wiñay / Noa Jayatai entre 2026 y 2036 en distritos de quintil 1.",
+   "responsable": "FONCODES",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "FONCODES",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de FONCODES y programa presupuestal de inclusión económica del MIDIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "Ingreso autónomo de hogares atendidos frente a grupo de comparación (evaluación de impacto cada 5 años).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-01",
+    "PRO-03"
+   ],
+   "riesgo": "Masificar sin calidad: el efecto depende de yachachiq bien capacitados y del seguimiento posterior.",
+   "fuentes": [
+    {
+     "titulo": "GRADE – Escobal y Ponce (eds.) (2016): Combinando protección social con generación de oportunidades económicas. Evaluación de Haku Wiñay",
+     "url": "https://grade.org.pe/publicaciones/combinando-proteccion-social-con-generacion-de-oportunidades-economicas-una-evaluacion-de-los-avances-del-programa-haku-winay"
+    },
+    {
+     "titulo": "El Peruano – INEI: pobreza se redujo a 25,7 % en 2025 (rural 35,5 %)",
+     "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8",
+    "AE3.3.3"
+   ]
+  },
+  {
+   "id": "AGR-03",
+   "titulo": "Construir siembra y cosecha de agua con riego tecnificado parcelario en la sierra",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Inversiones por Invierte.pe a cargo de MIDAGRI (Fondo Sierra Azul / PSI), gobiernos regionales y locales; obras por impuestos posible.",
+   "etapa": "2026-2031",
+   "que": "En la sierra la mayor parte de la agricultura depende de la lluvia. Se financian qochas (lagunas artificiales), zanjas de infiltración, reservorios familiares y comunales y riego por aspersión o goteo en parcela, con diseño tipo para acortar plazos. Se priorizan microcuencas con déficit hídrico, alta pobreza y riesgo de sequía por El Niño, y cada obra se entrega con un comité de regantes capacitado para operar y mantener.",
+   "evidencia": "El riego tecnificado reduce pérdidas de agua y permite una segunda campaña; y la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %. La cosecha de agua es una práctica andina tradicional recuperada por programas públicos.",
+   "entrega": "Obras de siembra y cosecha de agua y riego parcelario en 1500 microcuencas altoandinas priorizadas al 2036.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PSI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "reguladora"
+    }
+   ],
+   "financiamiento": "Fondo Sierra Azul, presupuesto del PSI, canon regional y obras por impuestos.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas incorporadas a riego tecnificado parcelario en sierra (registro PSI) y hogares con segunda campaña.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-05",
+    "AGR-04"
+   ],
+   "riesgo": "Obras sin dueño local que se abandonan; captura por proyectos pequeños fraccionados sin estudio de agua disponible.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – Inversión en riego tecnificado ayudará a impulsar la agricultura (2025)",
+     "url": "https://agraria.pe/noticias/inversion-en-riego-tecnificado-ayudara-a-impulsar-la-agricul-39314"
+    },
+    {
+     "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+    },
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE2.5.2",
+    "AE3.3.1"
+   ]
+  },
+  {
+   "id": "AGR-04",
+   "titulo": "Rehabilitar y mantener canales y bocatomas con juntas de usuarios por contrato",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Programa de mantenimiento con presupuesto del PSI y gobiernos regionales; las tarifas de agua se fijan bajo la Ley 29338 de Recursos Hídricos y su reglamento vigente.",
+   "etapa": "2026-2031",
+   "que": "La infraestructura de riego existente se pierde por falta de mantenimiento: canales sin revestir, bocatomas colapsadas por huaicos y drenes colmatados. Se crea un programa anual de mantenimiento por contrato con juntas y comisiones de usuarios, que cofinancian con su tarifa y reciben fondos según cumplimiento. Se prioriza el reforzamiento ante El Niño en la costa norte (Piura, Lambayeque, Tumbes) y los sistemas de riego de la sierra.",
+   "evidencia": "Mantener cuesta menos que reconstruir: la reconstrucción tras El Niño costero 2017 obligó a rehacer defensas y canales que no tenían mantenimiento (Autoridad para la Reconstrucción con Cambios).",
+   "entrega": "Plan multianual de mantenimiento con 100 % de los sistemas mayores y 50 % de los menores con contrato de mantenimiento al 2031.",
+   "responsable": "PSI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PSI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Tarifa por uso de infraestructura hidráulica de las juntas, presupuesto del PSI y fondos de prevención ante El Niño.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de sistemas de riego con mantenimiento ejecutado y verificado al año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-05",
+    "PRO-16"
+   ],
+   "riesgo": "Juntas de usuarios capturadas por grandes regantes; tarifas que no se cobran.",
+   "fuentes": [
+    {
+     "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+    },
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE3.3.1",
+    "AE2.2.4"
+   ]
+  },
+  {
+   "id": "AGR-05",
+   "titulo": "Fusionar los programas de riego en un solo operador con cartera priorizada",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La fusión de programas y unidades ejecutoras del Poder Ejecutivo se aprueba por decreto supremo según la Ley 29158 (LOPE) y las normas de modernización del Estado.",
+   "etapa": "2026-2031",
+   "que": "Hoy invierten en riego el PSI, el Fondo Sierra Azul, AGRO RURAL, proyectos especiales hidráulicos, gobiernos regionales y municipios, con estándares distintos y obras duplicadas. Se integran los programas nacionales de riego en un solo operador con una cartera única priorizada por agua disponible, beneficiarios por sol invertido y capacidad de operación; los proyectos especiales (Chavimochic, Majes, Olmos, Chinecas) pasan a contratos de gestión con metas de agua entregada a pequeños productores.",
+   "evidencia": "La fragmentación de programas con un mismo fin eleva costos y duplica obras (ver EST-01); la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %, por lo que cada sol en servicios debe rendir más.",
+   "entrega": "Decreto supremo de fusión y cartera única pública de proyectos de riego con puntaje de priorización.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Sin costo adicional; ahorro por eliminación de duplicidades.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de programas de riego activos y % de inversión en riego con priorización publicada.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-01",
+    "EST-02"
+   ],
+   "riesgo": "Resistencia de unidades ejecutoras y gobiernos regionales; que la fusión paralice la ejecución por un año.",
+   "fuentes": [
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    },
+    {
+     "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.1",
+    "AE4.5.3"
+   ]
+  },
+  {
+   "id": "AGR-06",
+   "titulo": "Concluir Chavimochic III y Majes Siguas II con cuotas de agua para pequeños productores",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Son contratos de APP y proyectos especiales vigentes; su reestructuración se hace por adendas y acuerdos bajo el marco de APP (DL 1362) y Invierte.pe.",
+   "etapa": "2031-2036",
+   "que": "Los grandes proyectos de irrigación de la costa llevan años retrasados por controversias contractuales. Se propone cerrar las controversias con un panel técnico independiente, terminar las presas y canales troncales, y condicionar la venta de nuevas tierras a que una parte del agua (y de lotes medianos) se destine a pequeños y medianos productores organizados, con reglas transparentes de subasta. Antes de nuevas irrigaciones, se exige un análisis costo-beneficio público y de disponibilidad hídrica con cambio climático.",
+   "evidencia": "Majes Siguas II prevé irrigar 38 500 ha según la exposición ante la Comisión Agraria del Congreso; la experiencia de Olmos y Chavimochic I-II muestra que las irrigaciones generan empleo masivo pero concentran tierra si no hay reglas de acceso.",
+   "entrega": "Presas y canales troncales de ambos proyectos concluidos y reglamento de acceso con al menos 20 % del área para pequeños y medianos productores.",
+   "responsable": "GORE",
+   "entidades": [
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONTRALORIA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Contratos APP vigentes, cofinanciamiento del Estado ya comprometido y venta de tierras.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas nuevas con agua efectivamente entregada y % adjudicado a pequeños y medianos productores.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-05",
+    "ECP-09"
+   ],
+   "riesgo": "Arbitrajes interminables y sobrecostos; que la tierra nueva se concentre en pocos grupos sin beneficio para la agricultura familiar.",
+   "fuentes": [
+    {
+     "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
+     "url": "https://www.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.1",
+    "AE2.5.1"
+   ]
+  },
+  {
+   "id": "AGR-07",
+   "titulo": "Unificar AGROIDEAS y PROCOMPITE en una ventanilla única de cofinanciamiento",
+   "tipo": "derogacion",
+   "necesita_ley": "si",
+   "por_que_ley": "AGROIDEAS fue creado por el Decreto Legislativo 1077 y PROCOMPITE por la Ley 29337; fusionarlos y cambiar sus reglas exige una norma con rango de ley. Una ley de iniciativa congresal no puede crear gasto (art. 79 de la Constitución): debe ser neutra o de iniciativa del Ejecutivo.",
+   "etapa": "2026-2031",
+   "que": "Dos fondos con el mismo fin —cofinanciar planes de negocio de organizaciones de productores— funcionan con reglas, ventanillas y evaluaciones distintas, uno nacional (AGROIDEAS) y otro regional y municipal (PROCOMPITE). Se crea una sola ventanilla digital con un formulario, un banco de planes de negocio evaluados y reglas comunes de cofinanciamiento decreciente, donde los gobiernos regionales y locales aportan por convenio. Los planes se aprueban con evaluación independiente y se publican los resultados de ventas a tres años.",
+   "evidencia": "La dispersión de fondos concursables con objetivos iguales eleva costos de transacción para las organizaciones pequeñas; la OCDE (2026) recomienda integrar mejor a los pequeños productores a los mercados locales, nacionales e internacionales.",
+   "entrega": "Ley de unificación y plataforma única de cofinanciamiento con 100 % de planes de negocio y resultados publicados.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Presupuestos actuales de AGROIDEAS y PROCOMPITE (sin gasto nuevo).",
+   "costo_referencial": "no estimado",
+   "indicador": "Organizaciones cofinanciadas con ventas superiores a la línea de base a tres años (%).",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Legislativo 1077, que crea el Programa de Compensaciones para la Competitividad (AGROIDEAS)",
+     "motivo": "Se integra en un instrumento único de cofinanciamiento con reglas comunes."
+    },
+    {
+     "norma": "Ley 29337, Ley que establece disposiciones para apoyar la competitividad productiva (PROCOMPITE)",
+     "motivo": "Se sustituye su procedimiento propio por la ventanilla única; los fondos regionales y locales se aportan por convenio."
+    }
+   ],
+   "depende_de": [
+    "AGR-08",
+    "EST-02"
+   ],
+   "riesgo": "Pérdida de autonomía regional percibida; que la fusión reduzca el monto total disponible.",
+   "fuentes": [
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE3.3.4",
+    "AE3.4.3"
+   ]
+  },
+  {
+   "id": "AGR-08",
+   "titulo": "Fortalecer cooperativas agrarias con gerencia profesional y registro simplificado",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 31335 de perfeccionamiento de la asociatividad en cooperativas agrarias ya existe; se implementa con su reglamento, programas de MIDAGRI y simplificación de trámites en SUNARP y SUNAT.",
+   "etapa": "2026-2031",
+   "que": "Solo el 7,5 % de los productores pertenece a alguna organización (ENA 2024). Se ofrece a cooperativas y asociaciones un paquete: gerentes profesionales cofinanciados por tres años, contabilidad y facturación electrónica gratuitas, certificaciones (orgánica, comercio justo) y acceso a compradores. Se simplifica el registro y la constitución en línea, y se publican estándares de buen gobierno cooperativo. Se prioriza café, cacao, leche, granos andinos y frutas.",
+   "evidencia": "Las cooperativas cafetaleras y cacaoteras peruanas que lograron escala (por ejemplo en San Martín, Junín y Cusco) acceden a precios diferenciados y certificaciones; la asociatividad reduce costos de comercialización (FAO, Decenio de la Agricultura Familiar).",
+   "entrega": "2000 organizaciones con gerencia profesional y contabilidad al día al 2031.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "SUNARP",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de MIDAGRI y fondo unificado de cofinanciamiento (AGR-07).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de productores que pertenecen a una organización (ENA, INEI).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-07",
+    "ECO-22"
+   ],
+   "riesgo": "Organizaciones de papel creadas solo para captar subsidios; conflictos internos por mala gobernanza.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – Encuesta Nacional Agraria 2024: el dolor persiste (asistencia técnica, asociatividad, crédito)",
+     "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+    },
+    {
+     "titulo": "FAO – Decenio de las Naciones Unidas de la Agricultura Familiar 2019-2028",
+     "url": "https://www.fao.org/family-farming-decade/es/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.4"
+   ]
+  },
+  {
+   "id": "AGR-09",
+   "titulo": "Ampliar áreas libres de plagas y certificar sanidad para pequeños productores",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Competencia de SENASA bajo la Ley General de Sanidad Agraria (DL 1059); se ejecuta con su presupuesto y convenios con gobiernos regionales.",
+   "etapa": "2026-2031",
+   "que": "Se amplían las áreas libres y de baja prevalencia de mosca de la fruta hacia valles interandinos y de la selva alta, y se intensifica el control de enfermedades del ganado y de cultivos (roya del café, moniliasis del cacao, fusarium del banano). SENASA instala puestos de servicio a una hora de los productores, registra predios y ofrece certificación fitosanitaria digital gratuita para pequeñas organizaciones exportadoras. La agenda de protocolos para abrir mercados se coordina con ECP-07.",
+   "evidencia": "La declaración de áreas libres de mosca de la fruta en la costa sur permitió exportar fruta fresca sin tratamientos cuarentenarios costosos.",
+   "entrega": "Área libre o de baja prevalencia de mosca de la fruta ampliada a nuevos valles y 300 000 predios pequeños registrados con certificación digital.",
+   "responsable": "SENASA",
+   "entidades": [
+    {
+     "sigla": "SENASA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de SENASA (recursos ordinarios y tasas) y cooperación técnica.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas declaradas libres o de baja prevalencia y n.º de predios pequeños con certificación.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ECP-07"
+   ],
+   "riesgo": "Recortes presupuestales a SENASA; reintroducción de plagas por control fronterizo débil.",
+   "fuentes": [
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE3.3.6",
+    "AE3.3.7"
+   ]
+  },
+  {
+   "id": "AGR-10",
+   "titulo": "Reorganizar el INIA por cadenas con convenios de desempeño y semilla certificada",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El INIA es un organismo público ejecutor; su reorganización interna y los convenios de desempeño se aprueban por decreto supremo y resoluciones del sector.",
+   "etapa": "2026-2031",
+   "que": "El INIA se organiza en programas por cadena (papa y tubérculos, granos andinos, café, cacao, pastos y ganadería, frutales) con agendas definidas junto con productores. Cada estación experimental firma un convenio de desempeño con metas de variedades liberadas, semilla certificada producida y adopción medida. Se forman consorcios con universidades y centros internacionales (como el Centro Internacional de la Papa) y se priorizan variedades tolerantes a sequía y heladas.",
+   "evidencia": "Embrapa (Brasil) muestra que la investigación agraria pública por cadenas, con autonomía y metas, transforma la productividad; la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %.",
+   "entrega": "Convenios de desempeño en todas las estaciones experimentales y variedades adaptadas al clima liberadas y difundidas con semilla certificada.",
+   "responsable": "INIA",
+   "entidades": [
+    {
+     "sigla": "INIA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "CONCYTEC",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Presupuesto del INIA, PROCIENCIA y cooperación internacional.",
+   "costo_referencial": "no estimado",
+   "indicador": "Superficie sembrada con semilla certificada de variedades liberadas por el INIA.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-24",
+    "AGR-01"
+   ],
+   "riesgo": "Investigación sin vínculo con productores; presupuesto que se va en planillas sin operación.",
+   "fuentes": [
+    {
+     "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+     "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+    }
+   ],
+   "pedn": [
+    "AE3.3.5"
+   ]
+  },
+  {
+   "id": "AGR-11",
+   "titulo": "Enviar alertas agroclimáticas y de precios a productores por SMS y radio",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con SENAMHI, MIDAGRI (SIEA) e INIA por convenio; la apertura de datos agroclimáticos puede reforzarse con la propuesta TAL-08.",
+   "etapa": "2026-2031",
+   "que": "Se integra la información de SENAMHI, el Sistema Integrado de Estadística Agraria y los mercados mayoristas en un servicio gratuito que avisa a cada productor registrado de heladas, sequías, lluvias extremas, plagas y precios de referencia, por SMS, WhatsApp, radio local y en quechua, aimara y lenguas amazónicas. Los datos se publican abiertos para que universidades y empresas desarrollen servicios de agricultura de precisión.",
+   "evidencia": "Los servicios de información de precios y clima por teléfono móvil mejoran la capacidad de negociación y reducen pérdidas en contextos rurales, según la literatura revisada por el Banco Mundial (World Development Report 2016: Digital Dividends).",
+   "entrega": "Servicio de alertas con un millón de productores inscritos y datos agroclimáticos abiertos.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INIA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MTC",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de MIDAGRI y SENAMHI; costo marginal bajo por mensaje.",
+   "costo_referencial": "no estimado",
+   "indicador": "Productores inscritos que reciben alertas y % que declara haber actuado ante una alerta (encuesta).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-08",
+    "DIG-21",
+    "DIG-26"
+   ],
+   "riesgo": "Mala cobertura móvil en zonas altas; mensajes genéricos que nadie usa.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial – World Development Report 2016: Digital Dividends",
+     "url": "https://www.worldbank.org/en/publication/wdr2016"
+    }
+   ],
+   "pedn": [
+    "AE2.7.2",
+    "AE3.3.5"
+   ]
+  },
+  {
+   "id": "AGR-12",
+   "titulo": "Cumplir la cuota de compras públicas de alimentos a la agricultura familiar",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 31071 y su reglamento (DS 012-2021-MIDAGRI) ya obligan a comprar como mínimo 30 % de alimentos a la agricultura familiar desde 2024; falta implementarla.",
+   "etapa": "2026-2031",
+   "que": "Los programas alimentarios (alimentación escolar, Vaso de Leche, comedores, ollas comunes, FF. AA. y penales) deben comprar al menos 30 % a productores familiares organizados, pero la implementación ha sido mínima. Se publica cada trimestre el cumplimiento por entidad, se crea un catálogo de organizaciones proveedoras habilitadas por SENASA y DIGESA, se adaptan los lotes y plazos de pago a pequeños proveedores y se apoya la logística con centros de acopio regionales.",
+   "evidencia": "El Programa de Adquisición de Alimentos de Brasil y la compra a agricultura familiar en la alimentación escolar elevaron ingresos de pequeños productores (FAO, Decenio de la Agricultura Familiar). En el Perú, Agraria.pe reportó en 2024 una mínima implementación de la Ley 31071.",
+   "entrega": "Tablero público trimestral de cumplimiento por entidad y 30 % efectivo de compras a la agricultura familiar al 2031.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OECE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "SENASA",
+     "rol": "reguladora"
+    }
+   ],
+   "financiamiento": "Presupuestos existentes de los programas alimentarios (no es gasto nuevo, es reorientación de compras).",
+   "costo_referencial": "no estimado",
+   "indicador": "% del valor de compras de alimentos de programas públicos adquirido a la agricultura familiar.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-08",
+    "AGR-09"
+   ],
+   "riesgo": "Problemas de inocuidad o de abastecimiento que lleven a abandonar la cuota; intermediarios que se hacen pasar por productores.",
+   "fuentes": [
+    {
+     "titulo": "Ley 31071, Ley de compras estatales de alimentos de origen de la agricultura familiar",
+     "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf"
+    },
+    {
+     "titulo": "Agraria.pe – Ley de compras estatales a la agricultura familiar tiene mínima implementación (2024)",
+     "url": "https://agraria.pe/noticias/ley-de-compras-estatales-a-la-agricultura-familiar-tiene-min-34765"
+    },
+    {
+     "titulo": "FAO – Decenio de las Naciones Unidas de la Agricultura Familiar 2019-2028",
+     "url": "https://www.fao.org/family-farming-decade/es/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.4",
+    "AE1.5.8"
+   ]
+  },
+  {
+   "id": "AGR-13",
+   "titulo": "Evaluar Agrobanco de forma independiente y redefinir su rol en el crédito rural",
+   "tipo": "ley",
+   "necesita_ley": "parcial",
+   "por_que_ley": "La evaluación y los cambios de gobierno corporativo se hacen por acuerdo de FONAFE y del directorio; convertir a Agrobanco en banca de segundo piso o cambiar su objeto exige modificar la Ley 29064 de relanzamiento del Banco Agropecuario. Una ley de iniciativa congresal no puede comprometer nuevos aportes de capital (art. 79).",
+   "etapa": "2026-2031",
+   "que": "Agrobanco tuvo una crisis de cartera en la década pasada que obligó a aportes de capital; desde entonces se reorientó a pequeños productores. En 2025 reportó morosidad de 3,29 %, cartera propia de S/ 445 millones y un aporte de capital de S/ 45 millones, y administra además el Fondo AgroPerú. Se encarga una evaluación independiente (costo por sol prestado, adicionalidad frente a cajas y cooperativas, pérdida esperada, subsidios implícitos) y, según el resultado, se decide entre mantenerlo como banca de primer piso con metas públicas o convertirlo en banca de segundo piso y fondo de garantías que trabaje con cajas, cooperativas de ahorro y crédito y microfinancieras.",
+   "evidencia": "Las bancas agrarias públicas de primer piso tienen historial de captura y pérdidas en la región; el propio Agrobanco requirió capitalizaciones tras pérdidas (Agraria.pe, 2018). La adicionalidad debe probarse con datos, no suponerse.",
+   "entrega": "Evaluación independiente publicada en 2027 y decisión de modelo con metas de cobertura y costo fiscal anual explícito.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "AGROBANCO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    }
+   ],
+   "financiamiento": "Evaluación con presupuesto de FONAFE/MEF; capital existente de Agrobanco y Fondo AgroPerú.",
+   "costo_referencial": "no estimado",
+   "indicador": "Productores de agricultura familiar con crédito formal (% ENA) y costo fiscal por sol colocado.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley 29064, Ley de relanzamiento del Banco Agropecuario – AGROBANCO",
+     "motivo": "Se modifica el objeto y el modelo de negocio si la evaluación indica banca de segundo piso."
+    }
+   ],
+   "depende_de": [
+    "AGR-14",
+    "ECP-22"
+   ],
+   "riesgo": "Presión para condonar deudas o prestar a quienes no pagan; repetir la concentración en grandes deudores.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – En 2025 la morosidad de Agrobanco alcanzó 3,29 %",
+     "url": "https://www.agraria.pe/index.php/noticias/2025-tasa-de-morosidad-de-agrobanco-alcanzo-el-3-29-41506"
+    },
+    {
+     "titulo": "Agraria.pe – Agrobanco proyecta colocaciones por S/ 1804 millones en 2026",
+     "url": "https://agraria.pe/noticias/agrobanco-proyecta-colocaciones-por-s-1-804-millones-en-2026-41514"
+    },
+    {
+     "titulo": "Agraria.pe – Gobierno evaluaría nueva inyección de capital para Agrobanco (2018)",
+     "url": "https://agraria.pe/noticias/gobierno-evaluaria-nueva-inyeccion-de-capital-para-agrobanco-17456"
+    },
+    {
+     "titulo": "La Cámara – Fondo AgroPerú colocó más de S/ 1220 millones a favor de pequeños productores",
+     "url": "https://lacamara.pe/fondo-agroperu-coloco-mas-de-s-1-220-millones-a-favor-de-pequenos-productores/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.3",
+    "AE3.4.1"
+   ]
+  },
+  {
+   "id": "AGR-14",
+   "titulo": "Movilizar crédito privado al agro con garantías parciales y certificados de cosecha",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se usan fondos existentes (Fondo AgroPerú, garantías de COFIDE) y normas vigentes sobre warrants y almacenes generales de depósito; la regulación prudencial es de la SBS.",
+   "etapa": "2026-2031",
+   "que": "Solo 9,1 % de los productores solicitó crédito en 2024 (ENA). Se ofrece a cajas municipales y rurales, cooperativas de ahorro y crédito y bancos una garantía parcial (por ejemplo 50 %) para créditos a productores organizados, con precio según riesgo. Se habilitan almacenes certificados para que café, cacao, quinua y granos sirvan de garantía (warrants) y se vincula el crédito al seguro agrario (AGR-15) y a la asistencia técnica (AGR-01).",
+   "evidencia": "Las garantías parciales bien diseñadas aumentan el crédito a pequeños prestatarios con menor costo fiscal que el préstamo directo, siempre que el riesgo se comparta con el intermediario (literatura revisada por el Banco Mundial sobre esquemas de garantía crediticia).",
+   "entrega": "Programa de garantías parciales operando con al menos 20 entidades financieras y red de almacenes certificados en zonas cafetaleras y cacaoteras.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "COFIDE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "AGROBANCO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "Fondo AgroPerú reorientado parcialmente a garantías.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de productores que solicitan y obtienen crédito formal (ENA).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-13",
+    "ECP-22"
+   ],
+   "riesgo": "Que las entidades trasladen todo el riesgo a la garantía; fraude con almacenes no supervisados.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – Encuesta Nacional Agraria 2024: el dolor persiste (asistencia técnica, asociatividad, crédito)",
+     "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+    },
+    {
+     "titulo": "La Cámara – Fondo AgroPerú colocó más de S/ 1220 millones a favor de pequeños productores",
+     "url": "https://lacamara.pe/fondo-agroperu-coloco-mas-de-s-1-220-millones-a-favor-de-pequenos-productores/"
+    }
+   ],
+   "pedn": [
+    "AE3.4.1",
+    "AE3.3.3"
+   ]
+  },
+  {
+   "id": "AGR-15",
+   "titulo": "Pasar del seguro catastrófico a un seguro agrario por índices satelitales",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El Seguro Agrícola Catastrófico (SAC) se financia con el Fondo de Garantía para el Campo y del Seguro Agropecuario (FOGASA, Ley 29148) y se contrata por concurso; el cambio de diseño es administrativo.",
+   "etapa": "2026-2031",
+   "que": "El SAC 2025-2026 cuenta con más de S/ 73 millones para más de 2 millones de hectáreas en los 24 departamentos y paga hasta S/ 1000 por hectárea, pero el ajuste de daños en campo es lento. Se migra gradualmente a seguros por índices (lluvia, temperatura, vegetación satelital) que pagan de forma automática por distrito, y se subsidia una parte de la prima de seguros comerciales para productores organizados que quieran mayor cobertura. Los pagos se depositan en cuentas digitales de los productores del Padrón.",
+   "evidencia": "Los seguros por índices reducen costos de verificación y aceleran pagos, aunque tienen riesgo de base (FIDA, guía técnica de seguros por índices climáticos).",
+   "entrega": "Seguro por índice operativo en todos los distritos altoandinos y amazónicos priorizados y pagos en menos de 30 días tras el evento.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "financiadora"
+    }
+   ],
+   "financiamiento": "FOGASA y presupuesto del MIDAGRI para el SAC.",
+   "costo_referencial": "Línea base: más de S/ 73 millones por campaña para el SAC 2025-2026 (Agraria.pe, 2026); el nuevo diseño no estimado.",
+   "indicador": "Días promedio entre el evento y el pago; hectáreas y productores cubiertos.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-11",
+    "PRO-16"
+   ],
+   "riesgo": "Riesgo de base (el índice no refleja el daño real) que erosione la confianza; dependencia de un solo reasegurador.",
+   "fuentes": [
+    {
+     "titulo": "Agraria.pe – Seguro Agrícola Catastrófico 2025-2026: más de S/ 73 millones y 2 millones de hectáreas",
+     "url": "https://agraria.pe/noticias/seguro-agricola-catastrofico-cubrira-mas-de-8-000-hectareas--42188"
+    },
+    {
+     "titulo": "Agraria.pe – SAC prevé indemnización de hasta S/ 1000 por hectárea",
+     "url": "https://agraria.pe/noticias/seguro-agricola-catastrofico-preve-cobertura-de-8-000-hectar-41707"
+    },
+    {
+     "titulo": "FIDA/IFAD – Weather Index-based Insurance in Agricultural Development: A Technical Guide",
+     "url": "https://www.ifad.org/en/web/knowledge/-/publication/weather-index-based-insurance-in-agricultural-development-a-technical-guide"
+    }
+   ],
+   "pedn": [
+    "AE2.7.2",
+    "AE2.2.6"
+   ]
+  },
+  {
+   "id": "AGR-16",
+   "titulo": "Aprender de 2022: análisis de suelos, guano de islas y alerta de precios",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con AGRO RURAL (guano de islas), INIA (análisis de suelos) y el sistema de información de precios del MIDAGRI.",
+   "etapa": "2026-2031",
+   "que": "En 2022 el precio de la urea se disparó (la bolsa superó los S/ 200), el Estado intentó comprar urea en el mercado internacional cuatro veces sin lograrlo y destinó los recursos a un subsidio en efectivo (Fertiabono) para productores de hasta 10 ha. Lecciones: el Estado no es buen importador de emergencia y la mayoría de pequeños productores aplica fertilizante sin análisis de suelo. Se propone un monitoreo mensual de precios e inventarios de fertilizantes, laboratorios de suelos regionales con recomendaciones por parcela, mayor producción y distribución de guano de islas y abonos orgánicos, y un protocolo preaprobado de apoyo en efectivo vía Padrón si los precios superan un umbral.",
+   "evidencia": "Las compras fallidas de 2022 están documentadas en la prensa económica (Gestión, Bloomberg Línea); el uso de recomendaciones de fertilización basadas en análisis de suelo mejora la eficiencia del nitrógeno según la literatura agronómica.",
+   "entrega": "Laboratorios de suelos en cada región, protocolo de respuesta ante alzas de precios aprobado y tablero mensual de precios de insumos.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "AGRO RURAL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INIA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de AGRO RURAL e INIA; el apoyo de emergencia se financia por reserva de contingencia solo si se activa el umbral.",
+   "costo_referencial": "no estimado",
+   "indicador": "Productores con análisis de suelo y recomendación de fertilización (n.º) y tiempo de respuesta ante shocks de precios.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-10",
+    "AGR-01"
+   ],
+   "riesgo": "Volver a improvisar compras estatales en la próxima crisis; subsidios permanentes que distorsionen el mercado.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – Urea: el panorama de precios tras caerse la compra internacional de fertilizantes (2022)",
+     "url": "https://gestion.pe/economia/agrorural-urea-fertilizantes-el-panorama-de-precios-tras-caerse-la-compra-internacional-de-fertilizantes-agrorural-noticia/"
+    },
+    {
+     "titulo": "Bloomberg Línea – Compra de fertilizantes: Perú duplicará presupuesto (2022)",
+     "url": "https://www.bloomberglinea.com/2022/06/09/compra-de-fertilizantes-peru-duplicara-presupuesto-hasta-700-millones-de-soles/"
+    },
+    {
+     "titulo": "RPP – El Fertiabono solo favorecerá a una fracción de agricultores, según exdirector de Agro Rural",
+     "url": "https://rpp.pe/economia/economia/el-fertiabono-solo-favorecera-al-5-de-agricultores-del-pais-dice-exdirector-de-agro-rural-noticia-1428849"
+    }
+   ],
+   "pedn": [
+    "AE3.3.2",
+    "AE3.3.3"
+   ]
+  },
+  {
+   "id": "AGR-17",
+   "titulo": "Completar el catastro y la titulación rural individual y comunal",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La titulación es función transferida a los gobiernos regionales y se financia con proyectos de inversión (PTRT3, préstamo BID) y recursos regionales; rectoría del MIDAGRI.",
+   "etapa": "2026-2031",
+   "que": "Desde 2019 el PTRT3 inscribió 132 607 títulos individuales y 261 comunidades campesinas y nativas, frente a una brecha estimada de 283 000 títulos solo en sus diez departamentos. Se propone terminar el PTRT3 y extender el modelo a todo el país con barridos por distrito, catastro georreferenciado interoperable con SUNARP y el catastro multipropósito, titulación de comunidades nativas con prioridad en zonas de deforestación y conflictos, y actualización de títulos ya emitidos para que no se vuelvan informales.",
+   "evidencia": "La titulación con registro aumenta la inversión en la parcela y el acceso a crédito cuando existen mercados; las comunidades nativas tituladas reducen la deforestación en la Amazonía peruana (Blackman et al., PNAS 2017).",
+   "entrega": "Cierre de la brecha estimada de títulos en los departamentos del PTRT3 al 2031 y catastro rural nacional interoperable al 2036.",
+   "responsable": "GORE",
+   "entidades": [
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNARP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "COFOPRI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Préstamo BID del PTRT3, recursos regionales y canon.",
+   "costo_referencial": "Inversión total del PTRT3 de alrededor de US$ 80 millones según MIDAGRI (citado en prensa); extensión nacional no estimada.",
+   "indicador": "Títulos rurales individuales y comunales inscritos (acumulado) y % de comunidades nativas tituladas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "GOB-07",
+    "DIG-22"
+   ],
+   "riesgo": "Superposición con concesiones mineras y forestales; tráfico de tierras que aprovecha la titulación.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano – Gobierno formaliza más de 132 mil predios rurales y asegura el territorio de 261 comunidades (PTRT3)",
+     "url": "https://www.elperuano.pe/noticia/297539-gobierno-formaliza-mas-de-132-mil-predios-rurales-y-asegura-el-territorio-de-261-comunidades"
+    },
+    {
+     "titulo": "Agraria.pe – Midagri titulará 153 000 predios rurales; brecha de 283 000 títulos en 10 departamentos (2022)",
+     "url": "https://agraria.pe/noticias/midagri-titulara-153-000-predios-rurales-este-ano-27433"
+    },
+    {
+     "titulo": "Blackman et al. (2017) – Titling indigenous communities protects forests in the Peruvian Amazon, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1603290114"
+    }
+   ],
+   "pedn": [
+    "AE3.3.2",
+    "AE1.5.11"
+   ]
+  },
+  {
+   "id": "AGR-18",
+   "titulo": "Medir la inseguridad alimentaria cada año y activar respuestas por distrito",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 31315 de Seguridad Alimentaria y Nutricional y su reglamento (DS 003-2024-MIDAGRI) ya crean el marco y un observatorio; falta su operación con presupuesto.",
+   "etapa": "2026-2031",
+   "que": "En 2025 el INEI publicó la primera medición oficial con la escala FIES de la FAO: 30,5 % de la población vivió inseguridad alimentaria moderada o severa y 3,4 % severa. Se institucionaliza la medición anual con representatividad regional, se cruzan los resultados con el Padrón de Hogares, anemia y precios de alimentos y se definen umbrales que activan respuestas: compras locales a la agricultura familiar, refuerzo de ollas comunes, transferencias temporales. El observatorio publica tableros abiertos por distrito.",
+   "evidencia": "La FIES es la métrica del ODS 2.1.2 y permite comparar países; los sistemas de alerta que vinculan datos con acciones predefinidas reducen el tiempo de respuesta (FAO).",
+   "entrega": "Medición FIES anual del INEI con resultados por región y protocolo de respuesta aprobado.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INEI",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDIS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del INEI (módulo en ENAHO) y del MIDAGRI.",
+   "costo_referencial": "no estimado",
+   "indicador": "Prevalencia de inseguridad alimentaria moderada o severa (FIES, INEI).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-16",
+    "AGR-19"
+   ],
+   "riesgo": "Que la medición se use solo para titulares y no active presupuesto.",
+   "fuentes": [
+    {
+     "titulo": "INEI – Inseguridad alimentaria afectó al 30,5 % de la población en 2025",
+     "url": "https://www.gob.pe/institucion/inei/noticias/1405139-inseguridad-alimentaria-afecto-al-30-5-de-la-poblacion-en-el-ano-2025"
+    },
+    {
+     "titulo": "Andina – Gobierno reglamenta la Ley 31315 de Seguridad Alimentaria y Nutricional (DS 003-2024-MIDAGRI)",
+     "url": "https://andina.pe/agencia/noticia-gobierno-reglamenta-ley-seguridad-alimentaria-y-nutricional-975950.aspx"
+    }
+   ],
+   "pedn": [
+    "AE1.2.1",
+    "AE1.5.8"
+   ]
+  },
+  {
+   "id": "AGR-19",
+   "titulo": "Convertir las ollas comunes en comedores con alimentos frescos de productores locales",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 31458 ya reconoce a las ollas comunes y su reglamento (DS 002-2022-MIDIS) define el registro y la asistencia alimentaria; se ejecuta con presupuesto de municipios y MIDIS.",
+   "etapa": "2026-2031",
+   "que": "Las ollas comunes nacieron en la pandemia y siguen activas en la periferia urbana. Se completa su registro nominal, se les entrega alimentos frescos comprados a la agricultura familiar (AGR-12), equipamiento básico de cocina y gas, capacitación en nutrición y manipulación, y se las vincula con los establecimientos de salud para tamizaje de anemia. Las que lo deseen pasan a comedores formales o a microempresas de alimentos con apoyo de capital semilla.",
+   "evidencia": "Las organizaciones comunitarias de alimentación (comedores populares) han sido una red de protección probada en el Perú desde los años ochenta; la Ley 31458 recoge esa experiencia.",
+   "entrega": "100 % de ollas comunes registradas con abastecimiento regular y vínculo con su centro de salud.",
+   "responsable": "MIDIS",
+   "entidades": [
+    {
+     "sigla": "MIDIS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Programa de Complementación Alimentaria transferido a municipios y presupuesto del MIDIS.",
+   "costo_referencial": "no estimado",
+   "indicador": "Raciones con alimentos frescos locales por mes y n.º de ollas registradas activas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-12",
+    "SAL-17"
+   ],
+   "riesgo": "Clientelismo en la distribución; dependencia permanente sin salida económica.",
+   "fuentes": [
+    {
+     "titulo": "Ley 31458, que reconoce a las ollas comunes y garantiza su sostenibilidad",
+     "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31458.pdf"
+    },
+    {
+     "titulo": "INEI – Inseguridad alimentaria afectó al 30,5 % de la población en 2025",
+     "url": "https://www.gob.pe/institucion/inei/noticias/1405139-inseguridad-alimentaria-afecto-al-30-5-de-la-poblacion-en-el-ano-2025"
+    }
+   ],
+   "pedn": [
+    "AE1.5.8",
+    "AE1.2.1"
+   ]
+  },
+  {
+   "id": "AGR-20",
+   "titulo": "Modernizar desembarcaderos de pesca artesanal con hielo, frío y control sanitario",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Inversiones de FONDEPES y gobiernos regionales por Invierte.pe; la habilitación sanitaria es competencia de SANIPES.",
+   "etapa": "2026-2031",
+   "que": "Muchos desembarcaderos pesqueros artesanales carecen de hielo, agua potable, frío y habilitación sanitaria, lo que reduce el precio del pescado y bloquea la venta a mercados exigentes. Se modernizan los desembarcaderos con mayor desembarque, con plantas de hielo, cámaras de frío, salas de procesamiento primario y registro digital de desembarques, y se entrega su gestión a operadores con contratos de desempeño y participación de las organizaciones de pescadores.",
+   "evidencia": "La pesca artesanal abastece la mayor parte del pescado para consumo humano directo en el Perú; la cadena de frío reduce pérdidas poscaptura (FAO, pérdidas y desperdicio en pesca).",
+   "entrega": "Desembarcaderos priorizados con habilitación sanitaria de SANIPES y cadena de frío operativa al 2031.",
+   "responsable": "FONDEPES",
+   "entidades": [
+    {
+     "sigla": "PRODUCE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "FONDEPES",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SANIPES",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de FONDEPES; PRODUCE anunció S/ 60 millones para fortalecer la pesca artesanal (Gestión).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de desembarques artesanales en infraestructura habilitada por SANIPES.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-21",
+    "ECP-20"
+   ],
+   "riesgo": "Obras sin operador que se deterioran; captura de la gestión por intermediarios.",
+   "fuentes": [
+    {
+     "titulo": "Gestión – Produce anuncia inversión de S/ 60 millones para la pesca artesanal y II Censo en 2025",
+     "url": "https://gestion.pe/economia/gobierno-ministerio-de-la-produccion-se-invertira-s-60-millones-para-fortalecer-pesca-artesanal-noticia/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.8",
+    "AE3.3.6"
+   ]
+  },
+  {
+   "id": "AGR-21",
+   "titulo": "Formalizar a pescadores artesanales con registro digital, seguro y trazabilidad",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Los permisos y registros de pesca artesanal se regulan por la Ley General de Pesca (DL 25977) y su reglamento; la formalización y el registro son actos administrativos de PRODUCE y gobiernos regionales.",
+   "etapa": "2026-2031",
+   "que": "Las cifras sobre cuántos pescadores artesanales hay difieren (56 559 en el litoral en el I Censo; estimaciones posteriores superiores) y el II Censo Nacional de la Pesca Artesanal estaba programado para 2025. Se publica el censo, se crea un registro digital único de pescadores y embarcaciones, se simplifican los permisos para embarcaciones menores, se afilia a los pescadores a salud y pensión con aportes simplificados (PRO-21) y se implementa la trazabilidad digital de la captura hasta el mercado. La acuicultura se impulsa por ECP-20.",
+   "evidencia": "La formalización con beneficios concretos (seguro, crédito, acceso a mercados) es más efectiva que la sanción; la trazabilidad permite combatir la pesca ilegal (FAO, Directrices voluntarias para la pesca en pequeña escala).",
+   "entrega": "II Censo publicado y registro digital con 100 % de embarcaciones artesanales activas identificadas al 2031.",
+   "responsable": "PRODUCE",
+   "entidades": [
+    {
+     "sigla": "PRODUCE",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "DICAPI",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "SANIPES",
+     "rol": "reguladora"
+    },
+    {
+     "sigla": "INEI",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de PRODUCE y gobiernos regionales.",
+   "costo_referencial": "no estimado",
+   "indicador": "% de pescadores artesanales con registro y afiliación a salud.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "PRO-21",
+    "ECP-20"
+   ],
+   "riesgo": "Ampliar el esfuerzo pesquero sobre recursos ya presionados al formalizar sin ordenamiento.",
+   "fuentes": [
+    {
+     "titulo": "Perú21 – I Censo de la Pesca Artesanal: 56 559 pescadores en el litoral",
+     "url": "https://peru21.pe/lima/existen-56-559-pescadores-artesanales-litoral-peruano-39992-noticia/"
+    },
+    {
+     "titulo": "Gestión – Produce anuncia inversión de S/ 60 millones para la pesca artesanal y II Censo en 2025",
+     "url": "https://gestion.pe/economia/gobierno-ministerio-de-la-produccion-se-invertira-s-60-millones-para-fortalecer-pesca-artesanal-noticia/"
+    },
+    {
+     "titulo": "FAO – Directrices voluntarias para lograr la sostenibilidad de la pesca en pequeña escala",
+     "url": "https://www.fao.org/voluntary-guidelines-small-scale-fisheries/es/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.8",
+    "AE3.2.2"
+   ]
+  },
+  {
+   "id": "AGR-22",
+   "titulo": "Georreferenciar parcelas de café y cacao para cumplir la norma europea de deforestación",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El mapeo, la trazabilidad y la certificación se hacen con programas de MIDAGRI, SERFOR y gobiernos regionales; la propuesta legislativa de economía digital rural (ECO-22) complementa.",
+   "etapa": "2026-2031",
+   "que": "El Reglamento (UE) 2023/1115 exige probar que el café y el cacao no vienen de tierras deforestadas después de 2020; tras su aplazamiento, rige desde el 30 de diciembre de 2026 para medianas y grandes empresas y desde el 30 de junio de 2027 para micro y pequeñas. Se georreferencia gratuitamente cada parcela de pequeños productores, se cruza con mapas oficiales de bosque y deforestación, y se entrega a cooperativas y exportadores una plataforma pública de trazabilidad con datos que pertenecen al productor. Quien quede fuera por deforestación recibe un plan de reconversión agroforestal.",
+   "evidencia": "El MIDAGRI reporta avances en talleres regionales de implementación de la EUDR; la trazabilidad pública reduce costos de cumplimiento frente a que cada importador mapee por su cuenta.",
+   "entrega": "100 % de parcelas de café y cacao de pequeños productores georreferenciadas y en la plataforma de trazabilidad al 2027.",
+   "responsable": "MIDAGRI",
+   "entidades": [
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SERFOR",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PROMPERU",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de MIDAGRI y cooperación internacional (UE y otros).",
+   "costo_referencial": "no estimado",
+   "indicador": "% de volumen exportado de café y cacao con geolocalización verificable.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ECO-22",
+    "ECP-18",
+    "AGR-17"
+   ],
+   "riesgo": "Exclusión de los productores más pequeños y sin título; datos en manos de intermediarios.",
+   "fuentes": [
+    {
+     "titulo": "MIDAGRI – Perú avanza en el cumplimiento del Reglamento europeo de deforestación (EUDR)",
+     "url": "https://www.gob.pe/institucion/midagri/noticias/1319697-midagri-peru-has-made-significant-progress-in-complying-with-the-eudr-regulation"
+    },
+    {
+     "titulo": "Mongabay – La ley de deforestación cero de la Unión Europea se pospuso (2026)",
+     "url": "https://es.mongabay.com/short-article/2026/01/ley-deforestacion-cero-union-europea-se-pospuso/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.14",
+    "AE2.1.6"
+   ]
+  },
+  {
+   "id": "AGR-23",
+   "titulo": "Construir centros de acopio con frío y mercados mayoristas regionales modernos",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Inversiones públicas o APP de gobiernos regionales y municipios por Invierte.pe; también obras por impuestos.",
+   "etapa": "2031-2036",
+   "que": "Gran parte de los alimentos de la agricultura familiar se pierde o se vende barato por falta de acopio, clasificación y frío. Se financian centros de acopio gestionados por cooperativas en provincias productoras y mercados mayoristas regionales con normas sanitarias, básculas públicas, información de precios en línea y cadena de frío, conectados a caminos vecinales mantenidos. Se exigen planes de operación y tarifas que cubran el mantenimiento.",
+   "evidencia": "La FAO estima que una parte importante de las pérdidas de alimentos ocurre entre la cosecha y el mercado; la infraestructura de poscosecha reduce esas pérdidas y mejora precios al productor (FAO, El estado mundial de la agricultura y la alimentación 2019).",
+   "entrega": "Un mercado mayorista regional moderno por macrorregión y 200 centros de acopio cooperativos con frío al 2036.",
+   "responsable": "GORE",
+   "entidades": [
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Invierte.pe, obras por impuestos, APP autofinanciadas por tarifas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Toneladas comercializadas por centros de acopio cooperativos y diferencia de precio al productor.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "AGR-08",
+    "AGR-12"
+   ],
+   "riesgo": "Elefantes blancos sin operador; conflictos con comerciantes establecidos.",
+   "fuentes": [
+    {
+     "titulo": "FAO – El estado mundial de la agricultura y la alimentación 2019: pérdida y desperdicio de alimentos",
+     "url": "https://www.fao.org/state-of-food-agriculture/2019/es/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.4",
+    "AE3.3.6"
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "economia",
+   "como": "La salida ordenada del régimen agrario (Ley 32434) se trata en ECP-08 y no se duplica aquí; la integración de pequeños productores a la agroexportación (ECP-09), la bioeconomía amazónica (ECP-18), la acuicultura (ECP-20) y los protocolos sanitarios (ECP-07) complementan este sector."
+  },
+  {
+   "con": "proteccion",
+   "como": "Juntos y Haku Wiñay se combinan para sacar a hogares rurales de la pobreza (AGR-02, PRO-03); la protección social adaptativa (PRO-16) usa el Padrón para pagos ante El Niño junto con el seguro agrario (AGR-15)."
+  },
+  {
+   "con": "salud",
+   "como": "La seguridad alimentaria y las compras locales de alimentos frescos apoyan el paquete contra la anemia y la desnutrición (SAL-17)."
+  },
+  {
+   "con": "educacion",
+   "como": "La alimentación escolar compra a la agricultura familiar (AGR-12) y se articula con la escuela saludable (EDU-28)."
+  },
+  {
+   "con": "estado",
+   "como": "La fusión de programas de riego y de fondos concursables (AGR-05, AGR-07) aplica el mapa de duplicidades (EST-01, EST-02)."
+  },
+  {
+   "con": "digital",
+   "como": "Alertas agroclimáticas, catastro y trazabilidad dependen de datos abiertos y conectividad rural (DIG-21, DIG-22, DIG-26)."
+  }
+ ],
+ "conexion_tech": [
+  "TAL-08",
+  "ECO-22",
+  "SOB-10",
+  "SOB-11",
+  "GOB-07",
+  "ECO-17"
+ ],
+ "plan2050": [
+  "agricultura",
+  "agroindustria",
+  "desarrollo-rural",
+  "seguridad-alimentaria-nutricion",
+  "pecuaria",
+  "acuicultura-y-pesca",
+  "pesca",
+  "cuencas-hidrograficas"
+ ],
+ "fuentes": [
+  {
+   "titulo": "El Peruano – INEI: pobreza se redujo a 25,7 % en 2025 (rural 35,5 %)",
+   "url": "https://elperuano.pe/noticia/295035-inei-pobreza-se-redujo-en-19-en-el-2025-y-afecta-al-257-de-peruanos"
+  },
+  {
+   "titulo": "INEI – Inseguridad alimentaria afectó al 30,5 % de la población en 2025",
+   "url": "https://www.gob.pe/institucion/inei/noticias/1405139-inseguridad-alimentaria-afecto-al-30-5-de-la-poblacion-en-el-ano-2025"
+  },
+  {
+   "titulo": "INEI – Productores agropecuarios: principales resultados de la ENA 2018, 2019 y 2022–2024",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/8237929/6879473-productores-agropecuarios-principales-resultados-de-la-encuesta-nacional-agropecuaria-ena-2018-2019-y-2022-2024%282%29.pdf"
+  },
+  {
+   "titulo": "Agraria.pe – Encuesta Nacional Agraria 2024: el dolor persiste (asistencia técnica, asociatividad, crédito)",
+   "url": "https://agraria.pe/columna/encuesta-nacional-agraria-2024-el-dolor-persiste-39901"
+  },
+  {
+   "titulo": "El Peruano – Día del Campesino: más de 2 millones de productores alimentan al Perú (2026)",
+   "url": "https://elperuano.pe/noticia/298657-dia-del-campesino-mas-de-2-millones-de-productores-alimentan-al-peru"
+  },
+  {
+   "titulo": "Andina – Midagri: agroexportaciones superarían los US$ 15 000 millones en 2025",
+   "url": "https://andina.pe/agencia/noticia-midagri-agroexportaciones-superarian-los-15000-millones-2025-1058126.aspx"
+  },
+  {
+   "titulo": "Agraria.pe – Seguro Agrícola Catastrófico 2025-2026: más de S/ 73 millones y 2 millones de hectáreas",
+   "url": "https://agraria.pe/noticias/seguro-agricola-catastrofico-cubrira-mas-de-8-000-hectareas--42188"
+  },
+  {
+   "titulo": "El Peruano – Gobierno formaliza más de 132 mil predios rurales y asegura el territorio de 261 comunidades (PTRT3)",
+   "url": "https://www.elperuano.pe/noticia/297539-gobierno-formaliza-mas-de-132-mil-predios-rurales-y-asegura-el-territorio-de-261-comunidades"
+  },
+  {
+   "titulo": "Agraria.pe – En 2025 la morosidad de Agrobanco alcanzó 3,29 %",
+   "url": "https://www.agraria.pe/index.php/noticias/2025-tasa-de-morosidad-de-agrobanco-alcanzo-el-3-29-41506"
+  },
+  {
+   "titulo": "Gestión – Urea: el panorama de precios tras caerse la compra internacional de fertilizantes (2022)",
+   "url": "https://gestion.pe/economia/agrorural-urea-fertilizantes-el-panorama-de-precios-tras-caerse-la-compra-internacional-de-fertilizantes-agrorural-noticia/"
+  },
+  {
+   "titulo": "MIDAGRI – Perú avanza en el cumplimiento del Reglamento europeo de deforestación (EUDR)",
+   "url": "https://www.gob.pe/institucion/midagri/noticias/1319697-midagri-peru-has-made-significant-progress-in-complying-with-the-eudr-regulation"
+  },
+  {
+   "titulo": "OCDE (2026) – Policies for the Future of Farming and Food in Peru",
+   "url": "https://www.oecd.org/en/publications/policies-for-the-future-of-farming-and-food-in-peru_4a2aa5b8-en"
+  },
+  {
+   "titulo": "GRADE – Escobal y Ponce (eds.) (2016): Combinando protección social con generación de oportunidades económicas. Evaluación de Haku Wiñay",
+   "url": "https://grade.org.pe/publicaciones/combinando-proteccion-social-con-generacion-de-oportunidades-economicas-una-evaluacion-de-los-avances-del-programa-haku-winay"
+  },
+  {
+   "titulo": "Ley 31071, Ley de compras estatales de alimentos de origen de la agricultura familiar",
+   "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_31071.pdf"
+  },
+  {
+   "titulo": "Andina – Gobierno reglamenta la Ley 31315 de Seguridad Alimentaria y Nutricional (DS 003-2024-MIDAGRI)",
+   "url": "https://andina.pe/agencia/noticia-gobierno-reglamenta-ley-seguridad-alimentaria-y-nutricional-975950.aspx"
+  }
+ ]
+}

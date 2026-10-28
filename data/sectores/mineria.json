@@ -1,0 +1,1815 @@
+{
+ "id": "mineria",
+ "nombre": "Minería",
+ "lema": "Minería que deja agua limpia, desarrollo local y cero ilegalidad",
+ "diagnostico": {
+  "resumen": "La minería es el principal motor exportador del Perú: en 2024 vendió al exterior un récord de US$ 47 701 millones, el 63 % de todas las exportaciones; el cobre explicó el 49 % y el oro el 32 % (SNMPE con datos del BCRP, vía Andina). El país produjo 2,74 millones de toneladas de cobre en 2024 y es el tercer productor mundial, detrás de Chile y la República Democrática del Congo (MINEM). La Cartera de Proyectos de Inversión Minera 2025 suma 67 proyectos por US$ 64 071 millones (MINEM), pero muchos están en etapas tempranas o detenidos por conflictos y permisos. Las regiones recibieron unos S/ 9 936 millones por canon, regalías y derecho de vigencia en 2025 (MINEM). Al mismo tiempo, la minería es la actividad con más conflictos socioambientales: en julio de 2024 involucraba 70 de los 114 conflictos de ese tipo (Defensoría del Pueblo). Y crece una economía paralela: el Instituto Peruano de Economía estima que en 2024 se exportaron unas 92 toneladas de oro ilegal, por entre US$ 6 800 y 7 400 millones según la estimación, más que el narcotráfico. Esa minería usa la mayor parte de las cerca de 150 toneladas de mercurio que entran al país cada año (PNUMA) y ha deforestado decenas de miles de hectáreas en Madre de Dios (MAAP). El REINFO, creado como registro temporal, fue prorrogado hasta el 31 de diciembre de 2026 por la Ley 32537, y en más de una década muy pocos mineros completaron su formalización. El país carga además con unos 6 000 pasivos ambientales mineros inventariados (MINEM, 2024).",
+  "indicadores": [
+   {
+    "nombre": "Exportaciones mineras",
+    "valor": "47 701 (63 % del total exportado)",
+    "unidad": "millones de US$",
+    "anio": 2024,
+    "fuente": "SNMPE con datos del BCRP, vía Andina",
+    "url": "https://andina.pe/ingles/noticia-peru-logra-record-exportaciones-mineras-47701-millones-2024-1020293.aspx"
+   },
+   {
+    "nombre": "Producción de cobre",
+    "valor": "2 736 150 (3.er productor mundial)",
+    "unidad": "toneladas métricas finas",
+    "anio": 2024,
+    "fuente": "MINEM, Boletín Estadístico Minero, vía Energiminas",
+    "url": "https://energiminas.com/2025/02/24/peru-espera-recuperar-segundo-lugar-como-productor-mundial-de-cobre-con-puesta-en-marcha-de-mas-proyectos-mineros"
+   },
+   {
+    "nombre": "Cartera de proyectos de inversión minera",
+    "valor": "67 proyectos; 64 071",
+    "unidad": "millones de US$",
+    "anio": 2025,
+    "fuente": "MINEM, Cartera de Proyectos de Inversión Minera 2025",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/8000189/6722917-cpim-2025.pdf"
+   },
+   {
+    "nombre": "Transferencias por minería a departamentos (canon, regalías, vigencia)",
+    "valor": "≈ 9 936 (canon ≈ 6 992)",
+    "unidad": "millones de S/",
+    "anio": 2025,
+    "fuente": "MINEM, Boletín Estadístico Minero, vía Minería y Energía",
+    "url": "https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/"
+   },
+   {
+    "nombre": "Conflictos socioambientales que involucran a la minería",
+    "valor": "70 de 114 (61 %)",
+    "unidad": "casos",
+    "anio": 2024,
+    "fuente": "Defensoría del Pueblo, reporte de julio de 2024, vía Actualidad Ambiental",
+    "url": "https://www.actualidadambiental.pe/defensoria-mayor-numero-de-conflictos-socioambientales-se-concentra-en-sector-minero"
+   },
+   {
+    "nombre": "Exportaciones de oro ilegal (estimación)",
+    "valor": "≈ 92 toneladas; 6 840 a 7 415 millones de US$ según la estimación",
+    "unidad": "t y millones de US$",
+    "anio": 2024,
+    "fuente": "Instituto Peruano de Economía (IPE), vía Gestión y Energiminas",
+    "url": "https://energiminas.com/2025/05/05/us7000-millones-en-oro-ilegal-el-crimen-crece-y-el-reinfo-blinda/"
+   },
+   {
+    "nombre": "Consumo de mercurio (más del 90 % en minería artesanal y de pequeña escala)",
+    "valor": "≈ 150",
+    "unidad": "toneladas por año",
+    "anio": 2023,
+    "fuente": "PNUMA, vía ProActivo (año de la estimación por verificar)",
+    "url": "https://proactivo.com.pe/convenio-de-minamata-expertos-analizaran-acciones-para-eliminar-el-uso-del-mercurio-en-el-peru/"
+   },
+   {
+    "nombre": "Pasivos ambientales mineros inventariados",
+    "valor": "6 001",
+    "unidad": "pasivos",
+    "anio": 2024,
+    "fuente": "MINEM, RM 351-2024-MINEM/DM",
+    "url": "https://busquedas.elperuano.pe/dispositivo/NL/2321224-1"
+   },
+   {
+    "nombre": "Deforestación por minería aurífera en Madre de Dios",
+    "valor": "23 881 (2021 a noviembre de 2023)",
+    "unidad": "hectáreas",
+    "anio": 2023,
+    "fuente": "MAAP, vía Actualidad Ambiental",
+    "url": "https://www.actualidadambiental.pe/en-dos-anos-la-mineria-aurifera-deforesto-mas-de-18-mil-hectareas-en-madre-de-dios/"
+   }
+  ],
+  "brechas": "Territoriales: la producción y el canon se concentran en pocas regiones; en 2025 Áncash recibió S/ 1 780 millones, el 17,9 % de las transferencias mineras, seguida de Arequipa, Moquegua y Tacna (MINEM), mientras regiones vecinas sin minas reciben poco. La minería ilegal se concentra en Madre de Dios, Puno (La Rinconada), La Libertad (Pataz), Amazonas, Loreto y Huánuco, con delitos conexos como extorsión, trata de personas y sicariato documentados por la Policía, el Ministerio Público y la Defensoría. Los pueblos indígenas amazónicos y las comunidades campesinas sufren de manera desproporcionada la contaminación por mercurio y metales pesados y la pérdida de bosques y ríos (MAAP; MINAM). Hay pocas cifras desagregadas por sexo sobre empleo y exposición; las mujeres trabajan sobre todo en la minería artesanal informal (pallaqueo) sin protección social (por verificar con el MTPE).",
+  "causas": [
+   "Un Estado con poca presencia en las zonas mineras remotas y una formalización basada en registros prorrogables (REINFO) en lugar de control del comercio del oro y de los insumos (IPE; Contraloría).",
+   "Precios internacionales del oro muy altos que hacen rentable la minería ilegal y financian a organizaciones criminales (IPE; GAFI sobre el oro como vehículo de lavado).",
+   "Desconfianza sobre el agua y beneficios locales poco visibles: el canon llega años después y se gasta mal, y los compromisos de diálogo se incumplen (Defensoría del Pueblo).",
+   "Permisos fragmentados entre muchas entidades, sin expediente único ni medición pública de plazos reales (OCDE, Regulatory Policy in Peru, 2016).",
+   "Herencia de minería sin cierre ni garantías: miles de pasivos ambientales sin responsable (inventario del MINEM).",
+   "Una economía regional poco diversificada que depende de uno o dos minerales (Atlas Peruano de Complejidad Económica, Harvard Growth Lab y CONCYTEC)."
+  ]
+ },
+ "vision_2056": "En 2056 el Perú es un proveedor confiable de cobre y minerales críticos para el mundo, sin minería ilegal en sus ríos y bosques; las comunidades cercanas a las minas tienen agua limpia, servicios y empleo, y las regiones mineras viven también de otras actividades.",
+ "metas": [
+  {
+   "indicador": "Exportaciones de oro ilegal estimadas",
+   "linea_base": "≈ 92 t (2024, IPE)",
+   "2031": "≤ 50 t",
+   "2036": "≤ 25 t",
+   "2046": "≤ 10 t",
+   "2056": "≈ 0",
+   "referencia": "Meta del PEDN 2050: erradicar la minería ilegal (AE3.3.19)",
+   "fuente_linea_base": "Instituto Peruano de Economía"
+  },
+  {
+   "indicador": "Conflictos socioambientales activos vinculados a la minería",
+   "linea_base": "70 casos (julio de 2024)",
+   "2031": "≤ 50",
+   "2036": "≤ 35",
+   "2046": "≤ 25",
+   "2056": "≤ 15",
+   "referencia": "PEDN 2050, AE4.4.9 (reducir conflictos sociales)",
+   "fuente_linea_base": "Defensoría del Pueblo"
+  },
+  {
+   "indicador": "Pasivos ambientales mineros de alto y muy alto riesgo remediados",
+   "linea_base": "por verificar (Activos Mineros tenía 1 153 de alto riesgo a su cargo en 2023)",
+   "2031": "50 % de los encargados",
+   "2036": "100 % de los encargados",
+   "2046": "100 % de alto riesgo del inventario",
+   "2056": "100 % de alto riesgo del inventario",
+   "referencia": "PEDN 2050, AE2.6.1",
+   "fuente_linea_base": "Defensoría del Pueblo, vía Energiminas"
+  },
+  {
+   "indicador": "Consumo de mercurio en la minería artesanal y de pequeña escala",
+   "linea_base": "≈ 135 t al año (90 % de ≈ 150 t, PNUMA)",
+   "2031": "−50 %",
+   "2036": "−80 %",
+   "2046": "≈ 0",
+   "2056": "0",
+   "referencia": "Convenio de Minamata",
+   "fuente_linea_base": "PNUMA, vía ProActivo"
+  },
+  {
+   "indicador": "Producción de cobre",
+   "linea_base": "2,74 Mt (2024)",
+   "2031": "3,2 Mt",
+   "2036": "3,6 Mt",
+   "2046": "4,0 Mt",
+   "2056": "según mercado y licencia social",
+   "referencia": "Chile ≈ 5,3 Mt (USGS 2025)",
+   "fuente_linea_base": "MINEM"
+  },
+  {
+   "indicador": "Tiempo total promedio desde la solicitud del EIA-d hasta el inicio de construcción",
+   "linea_base": "por verificar (no hay medición pública consolidada)",
+   "2031": "−30 % sobre la línea de base",
+   "2036": "−40 %",
+   "2046": "−50 %",
+   "2056": "−50 %",
+   "referencia": "Recomendaciones de la OCDE sobre medición de cargas regulatorias",
+   "fuente_linea_base": "MINEM / SENACE (por construir)"
+  },
+  {
+   "indicador": "Mineros de pequeña escala formalizados (con título, permiso ambiental y autorización)",
+   "linea_base": "≈ 2 295 acumulados 2014-2025 (por verificar)",
+   "2031": "15 000",
+   "2036": "25 000",
+   "2046": "universal en el régimen MAPE",
+   "2056": "universal",
+   "referencia": "PEDN 2050, AE3.3.18",
+   "fuente_linea_base": "Cifras citadas en prensa con base en el MINEM"
+  }
+ ],
+ "acciones": [
+  {
+   "id": "MIN-01",
+   "titulo": "Destrabar la cartera minera con seguimiento público proyecto por proyecto y sin exoneraciones",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con equipos especializados del MINEM, el MEF y PROINVERSIÓN y un tablero público; no requiere ley ni exonera requisitos ambientales.",
+   "etapa": "2026-2031",
+   "que": "Una unidad de seguimiento identifica, para cada proyecto de la cartera, qué permiso, servidumbre, acuerdo social o infraestructura lo detiene y qué entidad es responsable. Publica un tablero con fechas comprometidas y cumplidas. No elimina estudios ni consultas: coordina que las entidades opinen en paralelo y a tiempo, y escala los cuellos de botella al Consejo de Ministros. Los proyectos paralizados por conflicto se tratan con la ruta de diálogo de MIN-02, no con presión.",
+   "evidencia": "La Cartera de Proyectos de Inversión Minera 2025 del MINEM suma 67 proyectos por US$ 64 071 millones, pero buena parte está en prefactibilidad o detenida por conflictos o permisos. Las unidades de cumplimiento con seguimiento público, como las de Reino Unido y Malasia (PEMANDU), mejoraron la ejecución de prioridades (Banco Mundial, Delivery Units).",
+   "entrega": "Tablero público trimestral con el estado de los 67 proyectos de la cartera y sus cuellos de botella.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SENACE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM.",
+   "costo_referencial": "no estimado",
+   "indicador": "Inversión minera ejecutada (US$ por año, MINEM) y meses promedio de retraso por proyecto atribuibles al Estado.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-02",
+    "MIN-12"
+   ],
+   "riesgo": "Que se convierta en presión para recortar estudios o consultas; captura por las empresas más grandes.",
+   "fuentes": [
+    {
+     "titulo": "MINEM – Cartera de Proyectos de Inversión Minera 2025",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/8000189/6722917-cpim-2025.pdf"
+    },
+    {
+     "titulo": "Banco Mundial – Delivery units: what works (2015)",
+     "url": "https://openknowledge.worldbank.org/handle/10986/22168"
+    }
+   ],
+   "pedn": [
+    "AE3.3.16",
+    "AE4.5.3"
+   ]
+  },
+  {
+   "id": "MIN-02",
+   "titulo": "Dialogar antes del conflicto con mesas territoriales y acuerdos verificables",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "La PCM, a través de su órgano de diálogo y sostenibilidad, y el MINEM pueden operarlo con normas vigentes; los acuerdos se registran por resolución.",
+   "etapa": "2026-2031",
+   "que": "En cada zona con proyectos en exploración avanzada o construcción se instala, antes de que estalle el conflicto, una mesa territorial con la empresa, el gobierno regional, los municipios y las comunidades. Se acuerda un plan de desarrollo con metas medibles (agua, caminos, salud, empleo local) y se nombra un verificador independiente. Los acuerdos se registran y su cumplimiento se publica. Si la población rechaza informada y mayoritariamente un proyecto, el Estado lo reconoce en vez de imponerlo.",
+   "evidencia": "La Defensoría del Pueblo registró 195 conflictos sociales en mayo de 2026, con la minería y los hidrocarburos como actividades con más casos; en julio de 2024, 70 de los 114 conflictos socioambientales involucraban a la minería (61 %). Casos como Conga y Tía María muestran que imponer proyectos sin licencia social los paraliza por años. Trade-off honesto: algunos proyectos no se harán, y eso tiene un costo económico que debe reconocerse.",
+   "entrega": "Mesas territoriales activas en los principales corredores mineros con informes públicos semestrales de cumplimiento.",
+   "responsable": "PCM",
+   "entidades": [
+    {
+     "sigla": "PCM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "DEFENSORIA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de la PCM y del MINEM; fondo de adelanto social (MIN-16).",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de conflictos socioambientales activos vinculados a minería (Defensoría) y porcentaje de acuerdos cumplidos.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-03",
+    "MIN-16"
+   ],
+   "riesgo": "Que las mesas se instalen solo cuando ya hay bloqueos; promesas sin presupuesto.",
+   "fuentes": [
+    {
+     "titulo": "Defensoría del Pueblo – Reportes mensuales de conflictos sociales",
+     "url": "https://www.defensoria.gob.pe/conflictos-sociales/"
+    },
+    {
+     "titulo": "Actualidad Ambiental – Defensoría: el mayor número de conflictos socioambientales se concentra en el sector minero",
+     "url": "https://www.actualidadambiental.pe/defensoria-mayor-numero-de-conflictos-socioambientales-se-concentra-en-sector-minero"
+    }
+   ],
+   "pedn": [
+    "AE4.4.9",
+    "AE2.1.4"
+   ]
+  },
+  {
+   "id": "MIN-03",
+   "titulo": "Publicar un registro de compromisos sociales y alertas tempranas de conflicto",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se aprueba por decreto supremo de la PCM y el MINEM; usa los reportes de la Defensoría y datos de las entidades.",
+   "etapa": "2026-2031",
+   "que": "Se crea un registro digital público de todos los compromisos asumidos por el Estado y las empresas en actas de diálogo, estudios ambientales y convenios, con responsable, plazo y estado de cumplimiento. Se combina con un sistema de alerta temprana que cruza datos de la Defensoría, del OEFA (denuncias, monitoreos) y del MINEM para anticipar dónde puede escalar un conflicto. La información está disponible para la ciudadanía.",
+   "evidencia": "La Defensoría documenta que el incumplimiento de compromisos es un detonante frecuente de conflictos (reportes mensuales de conflictos sociales). Un registro público reduce la desconfianza y permite exigir cumplimiento.",
+   "entrega": "Registro público de compromisos operativo con al menos los acuerdos de los últimos diez años cargados al 2028.",
+   "responsable": "PCM",
+   "entidades": [
+    {
+     "sigla": "PCM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "DEFENSORIA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SEGDI",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de la PCM.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje de compromisos con estado actualizado; conflictos que escalan a violencia por año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-02",
+    "DIG-13"
+   ],
+   "riesgo": "Que las entidades no carguen la información o la maquillen.",
+   "fuentes": [
+    {
+     "titulo": "Defensoría del Pueblo – Reportes mensuales de conflictos sociales",
+     "url": "https://www.defensoria.gob.pe/conflictos-sociales/"
+    }
+   ],
+   "pedn": [
+    "AE4.4.9",
+    "AE4.5.5"
+   ]
+  },
+  {
+   "id": "MIN-04",
+   "titulo": "Cerrar el REINFO al vencer en diciembre de 2026 y no aprobar más prórrogas",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El REINFO vence el 31 de diciembre de 2026 según la Ley 32537; cerrarlo no necesita ley nueva, basta con no prorrogarlo y aplicar la transición de la Ley MAPE (MIN-05). El MINEM ejecuta la depuración por resolución.",
+   "etapa": "2026-2031",
+   "que": "El MINEM depura el registro, suspende a los inscritos sin actividad real o con actividad en zonas prohibidas (áreas naturales protegidas, cauces de ríos, zonas de amortiguamiento) y publica el padrón con coordenadas. Quienes cumplen los pasos de formalización pasan al régimen de la nueva Ley MAPE; quienes no, dejan de tener protección frente a la persecución penal. Se coordina con la SUNAT y la UIF para que el registro deje de servir como fachada para vender oro ilegal.",
+   "evidencia": "El REINFO nació como registro temporal en 2016-2017 y se prorrogó varias veces; la Ley 32537 lo extendió hasta el 31 de diciembre de 2026. Según una columna con datos oficiales, al 20 de abril de 2026 había más de 31 mil inscritos vigentes y entre 2014 y 2025 apenas 2 295 culminaron su formalización (por verificar con el MINEM). El IPE y la Contraloría advierten que el registro protege a mineros ilegales.",
+   "entrega": "REINFO cerrado el 31 de diciembre de 2026, padrón depurado y publicado; inscritos que cumplen trasladados al régimen MAPE.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "UIF",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MINISTERIO PUBLICO",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM y de las direcciones regionales de energía y minas.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de mineros formalizados con título, permiso ambiental y autorización de explotación.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Legislativo N.º 1293, que crea el Registro Integral de Formalización Minera (REINFO), y sus prórrogas",
+     "motivo": "Registro temporal convertido en permanente que, según el IPE y la Contraloría, protege actividad ilegal; se deja vencer y se sustituye por el régimen de la Ley MAPE."
+    }
+   ],
+   "depende_de": [
+    "MIN-05",
+    "MIN-06"
+   ],
+   "riesgo": "Que el Congreso apruebe otra prórroga bajo presión de bloqueos; violencia de grupos ilegales.",
+   "fuentes": [
+    {
+     "titulo": "Infomercado – Gobierno amplía la vigencia del REINFO hasta 2026 con nuevas exigencias (Ley 32537)",
+     "url": "https://infomercado.pe/gobierno-amplia-vigencia-del-reinfo-hasta-2026-con-nuevas-exigencias-para-mineros/"
+    },
+    {
+     "titulo": "Expreso – Reinfo: cuando la excepción reemplaza a la ley (columna con cifras de inscritos y formalizados)",
+     "url": "https://www.expreso.com.pe/opinion/reinfo-cuando-la-excepcion-reemplaza-a-la-ley/"
+    },
+    {
+     "titulo": "Energiminas (2025) – US$ 7 000 millones en oro ilegal: el crimen crece y el Reinfo blinda (estimación del IPE)",
+     "url": "https://energiminas.com/2025/05/05/us7000-millones-en-oro-ilegal-el-crimen-crece-y-el-reinfo-blinda/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.18",
+    "AE3.3.19"
+   ]
+  },
+  {
+   "id": "MIN-05",
+   "titulo": "Aprobar una Ley MAPE con regímenes diferenciados, trazabilidad y plazos firmes",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "La pequeña minería y la minería artesanal se regulan por la Ley 27651 y normas con rango de ley; un régimen nuevo con requisitos, sanciones y fin de la protección penal requiere ley. El Ejecutivo presentó su proyecto a la Cámara de Diputados el 19 de octubre de 2026.",
+   "etapa": "2026-2031",
+   "que": "Se aprueba una ley que reemplaza el régimen actual: define la pequeña minería y la minería artesanal por capacidad real, exige título o contrato con el concesionario, instrumento ambiental, uso de agua y pago de tributos, y fija plazos máximos y no prorrogables para formalizarse. Prohíbe la minería en ríos, áreas naturales protegidas y sus zonas de amortiguamiento. Obliga a vender el oro solo a compradores registrados con trazabilidad. Quien no se formaliza en plazo queda fuera.",
+   "evidencia": "El proyecto del Ejecutivo propone un régimen ordinario y uno de consolidación, y crea un órgano adscrito al MINEM (El Peruano, octubre de 2026). Colombia y Ecuador muestran que la formalización funciona cuando se combina con control del comercio y de los insumos, no solo con registros (OCDE, Due Diligence Guidance for Responsible Supply Chains of Minerals). Hay que evitar que la ley sea otra amnistía.",
+   "entrega": "Ley MAPE publicada al 2027 con reglamento y plazos firmes; régimen único que sustituye a la Ley 27651.",
+   "responsable": "CONGRESO",
+   "entidades": [
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "La ley no crea gasto; su aplicación se financia con presupuesto del MINEM y los gobiernos regionales.",
+   "costo_referencial": "no estimado",
+   "indicador": "Producción de oro de pequeña escala con trazabilidad formal (toneladas) frente a la estimación de oro ilegal.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley N.º 27651, Ley de Formalización y Promoción de la Pequeña Minería y la Minería Artesanal",
+     "motivo": "Sustituirla por la nueva Ley MAPE con requisitos, plazos y trazabilidad."
+    }
+   ],
+   "depende_de": [
+    "MIN-04",
+    "MIN-06",
+    "MIN-11"
+   ],
+   "riesgo": "Que el texto final incluya prórrogas, amnistías o reincorporación masiva de excluidos.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano (2026) – El Poder Ejecutivo presenta el proyecto de Ley MAPE ante la Cámara de Diputados",
+     "url": "https://elperuano.pe/noticia/307158-poder-ejecutivo-presenta-proyecto-de-ley-mape-ante-la-camara-de-diputados"
+    },
+    {
+     "titulo": "OCDE – Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas",
+     "url": "https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-supply-chains-of-minerals-from-conflict-affected-and-high-risk-areas_9789264252479-en.html"
+    },
+    {
+     "titulo": "Ley 27651 (Congreso)",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/27651.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.18",
+    "AE3.3.19"
+   ]
+  },
+  {
+   "id": "MIN-06",
+   "titulo": "Rastrear cada gramo de oro desde la mina hasta la exportación",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "El registro de comercializadores y el control aduanero se pueden ordenar por decreto supremo y resoluciones de SUNAT; las sanciones penales nuevas y la obligación general de trazabilidad requieren ley (remite a TAL-09 de Agenda Tech).",
+   "etapa": "2026-2031",
+   "que": "Se implementa un sistema digital de trazabilidad del oro: cada productor formal declara su producción con ubicación, cada planta de beneficio y cada comprador registra lo que recibe, y la SUNAT cruza esa información con las exportaciones. Las exportaciones de oro sin origen acreditado se retienen. Se fija un límite de compras en efectivo y se exige debida diligencia a refinadores y exportadores, alineada con la guía de la OCDE. Los datos agregados se publican abiertos.",
+   "evidencia": "El IPE estima que el Perú exportó unas 92 toneladas de oro ilegal en 2024, por más de US$ 6 800 millones según una de sus estimaciones y unos US$ 7 400 millones según otra (Gestión; Energiminas). El ministro de Economía dijo en 2025 que la minería ilegal equivale a cerca del 2,7 % del PBI. Sin trazabilidad, el oro ilegal se mezcla con el formal en la exportación.",
+   "entrega": "Sistema de trazabilidad operativo para el 100 % de las exportaciones de oro al 2029.",
+   "responsable": "SUNAT",
+   "entidades": [
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "UIF",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "MEF",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto de SUNAT y MINEM; cooperación (Iniciativa Global de Oro, OCDE).",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje de exportaciones de oro con origen acreditado; brecha entre producción declarada y exportaciones.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-09",
+    "DIG-21",
+    "MIN-08"
+   ],
+   "riesgo": "Corrupción en el registro y lavado a través de países vecinos.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas (2025) – US$ 7 000 millones en oro ilegal: el crimen crece y el Reinfo blinda (estimación del IPE)",
+     "url": "https://energiminas.com/2025/05/05/us7000-millones-en-oro-ilegal-el-crimen-crece-y-el-reinfo-blinda/"
+    },
+    {
+     "titulo": "Gestión – IPE: Perú exportaría más de 90 toneladas de oro ilegal",
+     "url": "https://gestion.pe/economia/mineria-ilegal-peru-exportaria-mas-de-90-toneladas-de-oro-ilegal-este-ano-ipe-noticia/"
+    },
+    {
+     "titulo": "Reporte Minero (2025) – MEF: la minería ilegal equivale a cerca del 2,7 % del PBI",
+     "url": "https://www.reporteminero.cl/noticia/noticias/2025/07/mineria-ilegal-pbi-trazabilidad-exportaciones-mef"
+    }
+   ],
+   "pedn": [
+    "AE3.3.19",
+    "AE4.4.4"
+   ]
+  },
+  {
+   "id": "MIN-07",
+   "titulo": "Cortar la logística de la minería ilegal: combustible, explosivos, dragas y maquinaria",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El control de insumos químicos y bienes fiscalizados ya tiene base legal (Decreto Legislativo 1126 y normas de SUCAMEC); se ejecuta con presupuesto y coordinación interinstitucional.",
+   "etapa": "2026-2031",
+   "que": "Un comando conjunto de la Policía, las Fuerzas Armadas en apoyo, la SUNAT, la SUCAMEC y el Ministerio Público controla las rutas de abastecimiento de combustible, explosivos, mercurio, dragas y maquinaria pesada hacia las zonas de minería ilegal en Madre de Dios, Puno, La Libertad (Pataz), Amazonas y Loreto. Se usan imágenes satelitales y alertas de deforestación para ubicar los frentes. Las operaciones se sostienen con presencia permanente del Estado y alternativas económicas, no solo con intervenciones puntuales.",
+   "evidencia": "La Operación Mercurio en La Pampa (Madre de Dios) redujo la deforestación de esa zona en 92 % en 2019, pero la minería se desplazó a otras áreas (MAAP, vía Actualidad Ambiental). La lección es que la interdicción funciona solo si es sostenida y se acompaña de control de insumos y comercio.",
+   "entrega": "Puestos de control permanentes en las principales rutas de abastecimiento; reducción de la deforestación por minería en Madre de Dios.",
+   "responsable": "MININTER",
+   "entidades": [
+    {
+     "sigla": "MININTER",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PNP",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINDEF",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUCAMEC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINISTERIO PUBLICO",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MININTER y del MINDEF; bienes decomisados.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas deforestadas por minería al año (MAAP, MINAM) y toneladas de insumos decomisados.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-06",
+    "MIN-08",
+    "DIG-21"
+   ],
+   "riesgo": "Corrupción de agentes en puestos de control; violencia de organizaciones criminales.",
+   "fuentes": [
+    {
+     "titulo": "Actualidad Ambiental – MAAP: la deforestación en La Pampa disminuye 92 % tras la Operación Mercurio",
+     "url": "https://www.actualidadambiental.pe/maap-deforestacion-en-la-pampa-diminuye-en-92-tras-operativo-mercurio/"
+    },
+    {
+     "titulo": "Actualidad Ambiental – En dos años la minería aurífera deforestó más de 18 mil hectáreas en Madre de Dios (MAAP)",
+     "url": "https://www.actualidadambiental.pe/en-dos-anos-la-mineria-aurifera-deforesto-mas-de-18-mil-hectareas-en-madre-de-dios/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.19",
+    "AE4.4.4"
+   ]
+  },
+  {
+   "id": "MIN-08",
+   "titulo": "Perseguir el dinero del oro ilegal con inteligencia financiera y extinción de dominio",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La UIF, el Ministerio Público y la SUNAT ya tienen facultades (Ley de lavado de activos, Decreto Legislativo 1106, y extinción de dominio, Decreto Legislativo 1373); se requieren equipos y prioridad.",
+   "etapa": "2026-2031",
+   "que": "Se crea una fuerza de tarea financiera dedicada a la minería ilegal que sigue el dinero: empresas fachada, exportadoras de reciente creación, compras en efectivo y envíos al exterior. Se priorizan casos grandes con extinción de dominio de bienes y se coordina con los países destino del oro (Suiza, India, Emiratos Árabes Unidos, Estados Unidos) para intercambiar información. Se publican estadísticas anuales de casos y bienes recuperados.",
+   "evidencia": "Las estimaciones del IPE sitúan el oro ilegal exportado en 2024 entre US$ 6 800 y 7 400 millones, una cifra comparable con la del narcotráfico. El GAFI identifica el oro como un vehículo de lavado de alto riesgo (FATF, Money Laundering and Terrorist Financing Risks and Vulnerabilities Associated with Gold, 2015).",
+   "entrega": "Fuerza de tarea financiera operativa; casos con sentencia o extinción de dominio publicados cada año.",
+   "responsable": "UIF",
+   "entidades": [
+    {
+     "sigla": "UIF",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SBS",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINISTERIO PUBLICO",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PODER JUDICIAL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto de la SBS (UIF), Ministerio Público y bienes decomisados.",
+   "costo_referencial": "no estimado",
+   "indicador": "Monto de bienes con extinción de dominio vinculados a minería ilegal (S/ por año).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-06",
+    "MIN-07"
+   ],
+   "riesgo": "Lentitud judicial; presión política sobre fiscales.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas (2025) – US$ 7 000 millones en oro ilegal: el crimen crece y el Reinfo blinda (estimación del IPE)",
+     "url": "https://energiminas.com/2025/05/05/us7000-millones-en-oro-ilegal-el-crimen-crece-y-el-reinfo-blinda/"
+    },
+    {
+     "titulo": "FATF/GAFI – ML/TF risks and vulnerabilities associated with gold (2015)",
+     "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/Ml-tf-risks-and-vulnerabilities-gold.html"
+    }
+   ],
+   "pedn": [
+    "AE3.3.19",
+    "AE4.4.4"
+   ]
+  },
+  {
+   "id": "MIN-09",
+   "titulo": "Eliminar el mercurio de la pequeña minería con plantas limpias y control del contrabando",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "El Perú ratificó el Convenio de Minamata; el Plan de Acción Nacional MAPE se aprueba por decreto supremo del MINAM. El control aduanero es competencia de la SUNAT.",
+   "etapa": "2026-2031",
+   "que": "Se aprueba y ejecuta el Plan de Acción Nacional sobre mercurio en la minería artesanal y de pequeña escala. Se instalan plantas de beneficio con métodos sin mercurio (gravimetría, flotación, cianuración controlada) en los principales corredores formales, con acceso para los mineros que se formalizan. La SUNAT controla el contrabando de mercurio desde los países vecinos. El MINSA mide el mercurio en la población de zonas de riesgo y publica los resultados.",
+   "evidencia": "El Perú usa unas 150 toneladas de mercurio al año y más del 90 % va a la minería artesanal y de pequeña escala (PNUMA, vía ProActivo). El plan exigido por el Convenio de Minamata se prepublicó en 2024 (RM 020-2024-MINAM) tras años de retraso. Programas como planetGOLD muestran que las plantas sin mercurio son viables si dan mejor recuperación de oro.",
+   "entrega": "Plan de Acción Nacional MAPE aprobado; al menos diez plantas de beneficio sin mercurio operando al 2031.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINSA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINAM y MINEM; cooperación (GEF/planetGOLD); inversión privada en plantas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Toneladas de mercurio usadas por año en la MAPE y niveles de mercurio en población de zonas mineras.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-05",
+    "MIN-11"
+   ],
+   "riesgo": "Que los mineros no adopten las plantas por costo o desconfianza; contrabando persistente.",
+   "fuentes": [
+    {
+     "titulo": "ProActivo – Convenio de Minamata: el Perú usa unas 150 toneladas de mercurio al año, más del 90 % en la MAPE (PNUMA)",
+     "url": "https://proactivo.com.pe/convenio-de-minamata-expertos-analizaran-acciones-para-eliminar-el-uso-del-mercurio-en-el-peru/"
+    },
+    {
+     "titulo": "MINAM – RM 020-2024-MINAM: proyecto de decreto supremo del Plan de Acción Nacional MAPE sobre mercurio",
+     "url": "https://www.gob.pe/institucion/minam/normas-legales/5144122-020-2024-minam"
+    },
+    {
+     "titulo": "planetGOLD – Programa mundial para minería de oro sin mercurio",
+     "url": "https://www.planetgold.org/"
+    }
+   ],
+   "pedn": [
+    "AE2.6.8",
+    "AE3.3.18"
+   ]
+  },
+  {
+   "id": "MIN-10",
+   "titulo": "Restaurar los bosques y ríos destruidos por la minería ilegal en la Amazonía",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con proyectos de Invierte.pe del MINAM, el SERFOR y los gobiernos regionales, y con recursos de cooperación climática.",
+   "etapa": "2031-2036",
+   "que": "Se recuperan, por etapas, las áreas degradadas por la minería aurífera en Madre de Dios y en los ríos amazónicos afectados: se rellenan pozas, se reforesta con especies nativas y se monitorea la calidad del agua y de los peces. Se prioriza la zona de La Pampa y las cabeceras de cuenca que abastecen a comunidades. Las comunidades locales y los mineros reconvertidos trabajan en la restauración con pago por resultados.",
+   "evidencia": "El MAAP atribuye a la minería aurífera la pérdida de 23 881 hectáreas de bosque en Madre de Dios entre 2021 y noviembre de 2023, de las cuales unas 5 700 estaban fuera del corredor minero (Actualidad Ambiental). Experiencias de restauración del CINCIA en La Pampa muestran que es técnicamente posible, aunque lenta y costosa.",
+   "entrega": "Hectáreas degradadas en restauración activa con monitoreo público; meta indicativa de 10 000 ha al 2036.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SERFOR",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "SERNANP",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Cooperación climática (Fondo Verde para el Clima, Noruega, Alemania), canje de deuda por naturaleza y presupuesto del MINAM.",
+   "costo_referencial": "no estimado",
+   "indicador": "Hectáreas en restauración con cobertura forestal verificada por satélite.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-07",
+    "MIN-09"
+   ],
+   "riesgo": "Que la minería ilegal vuelva a las áreas restauradas si no hay control sostenido.",
+   "fuentes": [
+    {
+     "titulo": "Actualidad Ambiental – En dos años la minería aurífera deforestó más de 18 mil hectáreas en Madre de Dios (MAAP)",
+     "url": "https://www.actualidadambiental.pe/en-dos-anos-la-mineria-aurifera-deforesto-mas-de-18-mil-hectareas-en-madre-de-dios/"
+    },
+    {
+     "titulo": "Actualidad Ambiental – MAAP: la deforestación en La Pampa disminuye 92 % tras la Operación Mercurio",
+     "url": "https://www.actualidadambiental.pe/maap-deforestacion-en-la-pampa-diminuye-en-92-tras-operativo-mercurio/"
+    },
+    {
+     "titulo": "CINCIA – Centro de Innovación Científica Amazónica",
+     "url": "https://cincia.wfu.edu/"
+    }
+   ],
+   "pedn": [
+    "AE2.6.9",
+    "AE2.7.3"
+   ]
+  },
+  {
+   "id": "MIN-11",
+   "titulo": "Dar asistencia técnica y crédito a los pequeños mineros que sí se formalizan",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con presupuesto del MINEM, Activos Mineros, COFIDE y gobiernos regionales; no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Los pequeños mineros y mineros artesanales que cumplen los requisitos de la Ley MAPE reciben asistencia técnica en geología, seguridad, procesamiento sin mercurio y gestión ambiental, y acceso a crédito formal y a compradores registrados con precios transparentes. Se facilita que firmen contratos de explotación con los titulares de concesiones. Se mide si los formalizados mejoran ingresos, seguridad y cumplimiento ambiental.",
+   "evidencia": "La ENAMI de Chile compra y procesa minerales de la pequeña minería con precios públicos y asistencia técnica desde hace décadas, lo que facilita su formalización (ENAMI; OCDE). En el Perú, el éxito de la formalización ha sido mínimo: unos 2 295 formalizados entre 2014 y 2025 según cifras citadas en prensa (por verificar).",
+   "entrega": "Programa de asistencia técnica y crédito activo en los principales corredores de pequeña minería al 2028.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "AMSAC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "COFIDE",
+     "rol": "financiadora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM, líneas de COFIDE y cooperación.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de mineros que completan la formalización y siguen operando tres años después.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-05",
+    "MIN-09"
+   ],
+   "riesgo": "Que el apoyo llegue a fachadas de mineros ilegales; costo fiscal sin resultados.",
+   "fuentes": [
+    {
+     "titulo": "Expreso – Reinfo: cuando la excepción reemplaza a la ley (columna con cifras de inscritos y formalizados)",
+     "url": "https://www.expreso.com.pe/opinion/reinfo-cuando-la-excepcion-reemplaza-a-la-ley/"
+    },
+    {
+     "titulo": "ENAMI Chile – Fomento a la pequeña y mediana minería",
+     "url": "https://www.enami.cl/"
+    }
+   ],
+   "pedn": [
+    "AE3.3.18",
+    "AE3.4.4"
+   ]
+  },
+  {
+   "id": "MIN-12",
+   "titulo": "Acabar con la permisología con ventanilla digital única y plazos medidos y públicos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Los procedimientos, plazos y opiniones técnicas se ordenan por decreto supremo (reglamentos del SEIA y de procedimientos mineros); no se necesita ley para integrar y publicar.",
+   "etapa": "2026-2031",
+   "que": "Todos los permisos de un proyecto minero (certificación ambiental, uso de agua, arqueología, inicio de actividades, servidumbres) se tramitan en una sola plataforma digital con expediente compartido, en la que las entidades opinan en paralelo. Cada entidad publica sus plazos reales promedio frente al plazo legal. Se eliminan requisitos duplicados y se exige que las observaciones se hagan de una sola vez. No se recortan estándares ambientales ni de participación.",
+   "evidencia": "La OCDE recomendó al Perú simplificar y coordinar los permisos y medir la carga regulatoria (Regulatory Policy in Peru, 2016). El plazo legal de evaluación de un EIA detallado minero es de 156 días hábiles y el SENACE informó en 2025 una reducción de 24 % de sus plazos promedio; su meta para 2026 es de 150-160 días (ProActivo). Faltan cifras públicas consolidadas del tiempo total de todos los permisos.",
+   "entrega": "Plataforma única operativa para proyectos mineros y reporte público semestral de plazos reales por entidad.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SENACE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "SEGDI",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM, SENACE y la PCM (Gobierno Digital).",
+   "costo_referencial": "no estimado",
+   "indicador": "Tiempo total promedio desde la solicitud del EIA hasta el inicio de construcción (meses).",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo N.º 019-2009-MINAM, Reglamento de la Ley del SEIA",
+     "motivo": "Sustituirlo por un reglamento actualizado con expediente digital único, opiniones en paralelo y plazos medidos (también señalado en el inventario de derogaciones de Agenda País)."
+    }
+   ],
+   "depende_de": [
+    "MIN-13",
+    "DIG-04"
+   ],
+   "riesgo": "Que la «simplificación» se use para debilitar el control ambiental y genere más conflictos.",
+   "fuentes": [
+    {
+     "titulo": "OCDE – Regulatory Policy in Peru: Assembling the Framework for Regulatory Quality (2016)",
+     "url": "https://oecd.org/publications/regulatory-policy-in-peru-9789264260054-en.htm"
+    },
+    {
+     "titulo": "ProActivo – SENACE: los EIA de minería deberán aprobarse en 150-160 días en 2026",
+     "url": "https://proactivo.com.pe/senace-estudios-de-impacto-ambiental-para-mineria-deberan-aprobarse-en-150-160-dias-en-2026/"
+    },
+    {
+     "titulo": "gob.pe – Solicitar la evaluación de un Estudio de Impacto Ambiental detallado (EIA-d)",
+     "url": "https://www.gob.pe/11011-solicitar-la-evaluacion-de-un-estudio-de-impacto-ambiental-detallado-eia-d-para-el-subsector-electricidad"
+    }
+   ],
+   "pedn": [
+    "AE3.3.16",
+    "AE4.5.2"
+   ]
+  },
+  {
+   "id": "MIN-13",
+   "titulo": "Fortalecer el SENACE con líneas de base públicas y estudios en datos abiertos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con presupuesto del SENACE y del MINAM y resoluciones sobre el contenido de los estudios; la Ley 29968 ya creó el SENACE.",
+   "etapa": "2026-2031",
+   "que": "El SENACE contrata y retiene evaluadores especializados con carrera del servicio civil, y el Estado, con el MINAM y el SENAMHI, produce líneas de base ambientales regionales públicas (agua, aire, biodiversidad, glaciares) que todos los proyectos usan y amplían. Los estudios de impacto ambiental, sus observaciones y sus monitoreos se publican en datos abiertos y en lenguaje claro, con resúmenes en quechua o aimara donde corresponda.",
+   "evidencia": "La OCDE recomendó al Perú reforzar la independencia y capacidad técnica de la evaluación ambiental (OCDE/CEPAL, Evaluaciones del desempeño ambiental: Perú 2017). Las líneas de base compartidas reducen costos y desconfianza, como en los estudios regionales de Canadá (Impact Assessment Agency of Canada, evaluaciones regionales).",
+   "entrega": "Líneas de base regionales públicas en los cinco principales corredores mineros y repositorio abierto de EIA al 2031.",
+   "responsable": "SENACE",
+   "entidades": [
+    {
+     "sigla": "SENACE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SENAMHI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SERVIR",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del SENACE y tasas por evaluación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje de EIA publicados en datos abiertos; rotación anual de evaluadores del SENACE.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-12",
+    "DIG-21"
+   ],
+   "riesgo": "Recortes presupuestales y fuga de evaluadores al sector privado.",
+   "fuentes": [
+    {
+     "titulo": "OCDE/CEPAL – Evaluaciones del desempeño ambiental: Perú 2017",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/12/oecd-environmental-performance-reviews-peru-2017_g1g834e6/9789264283138-en.pdf"
+    },
+    {
+     "titulo": "ProActivo – SENACE: los EIA de minería deberán aprobarse en 150-160 días en 2026",
+     "url": "https://proactivo.com.pe/senace-estudios-de-impacto-ambiental-para-mineria-deberan-aprobarse-en-150-160-dias-en-2026/"
+    }
+   ],
+   "pedn": [
+    "AE2.6.6",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "MIN-14",
+   "titulo": "Ordenar el territorio para decidir dónde sí y dónde no hacer minería",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "parcial",
+   "por_que_ley": "La zonificación ecológica-económica y el catastro se hacen con normas vigentes; dar carácter vinculante al ordenamiento territorial frente a las concesiones requiere ley (no existe una ley de ordenamiento territorial).",
+   "etapa": "2031-2036",
+   "que": "Se cruza en una plataforma pública el catastro minero de INGEMMET con las cabeceras de cuenca, los glaciares, las áreas naturales protegidas, las tierras de comunidades campesinas y nativas, las zonas agrícolas y los peligros naturales. Los gobiernos regionales completan su zonificación ecológica-económica con apoyo técnico y se identifican zonas donde la minería no es compatible. Antes de otorgar nuevas concesiones en zonas sensibles, se exige consulta con el gobierno regional.",
+   "evidencia": "El PEDN 2050 plantea compatibilizar el uso del territorio para evitar conflictos (AE2.1.4) y alertas sobre superposiciones (AE2.1.2). En el Perú una concesión minera se otorga sin evaluar el uso del suelo, lo que genera superposiciones con comunidades y fuentes de agua, señaladas por la Defensoría como causa de conflictos.",
+   "entrega": "Plataforma pública de superposiciones operativa y zonificación ecológica-económica aprobada en todas las regiones al 2036.",
+   "responsable": "MINAM",
+   "entidades": [
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "SERNANP",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINCUL",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINAM, INGEMMET y gobiernos regionales; cooperación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje del territorio con zonificación aprobada; n.º de concesiones superpuestas con zonas sensibles.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "DIG-21",
+    "MIN-15"
+   ],
+   "riesgo": "Que el ordenamiento se use para prohibir de manera generalizada o, al revés, que se ignore; conflictos de competencias.",
+   "fuentes": [
+    {
+     "titulo": "INGEMMET – GEOCATMIN, catastro minero y geología",
+     "url": "https://geocatmin.ingemmet.gob.pe/geocatmin/"
+    },
+    {
+     "titulo": "Defensoría del Pueblo – Reportes mensuales de conflictos sociales",
+     "url": "https://www.defensoria.gob.pe/conflictos-sociales/"
+    }
+   ],
+   "pedn": [
+    "AE2.1.4",
+    "AE2.1.2"
+   ]
+  },
+  {
+   "id": "MIN-15",
+   "titulo": "Hacer la consulta previa a tiempo, con información clara y acuerdos cumplidos",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 29785 está vigente; los cambios de oportunidad y seguimiento se hacen modificando su reglamento (DS 001-2012-MC) y las normas sectoriales del MINEM.",
+   "etapa": "2026-2031",
+   "que": "La consulta previa se realiza en una etapa temprana, cuando aún se pueden cambiar las decisiones del proyecto, y no al final como un trámite. El Ministerio de Cultura mantiene actualizada la base de datos de pueblos indígenas, se usan intérpretes y materiales en la lengua de cada pueblo, y los acuerdos tienen presupuesto, responsable y verificación pública. Las comunidades cuentan con asesoría técnica independiente financiada por un fondo común, no por la empresa.",
+   "evidencia": "Desde 2011 se han hecho decenas de procesos de consulta y el Ministerio de Cultura reporta más de 1 600 acuerdos, con seguimiento a cargo de una comisión multisectorial; el MINEM registró al menos 24 procesos para proyectos mineros (ProActivo; fecha de corte por verificar). Comunidades y la Defensoría han cuestionado que la consulta llegue tarde y que los acuerdos no se cumplan.",
+   "entrega": "Reglamento modificado; registro público del cumplimiento de acuerdos de consulta; fondo de asesoría técnica operando.",
+   "responsable": "MINCUL",
+   "entidades": [
+    {
+     "sigla": "MINCUL",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "DEFENSORIA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto del Ministerio de Cultura y del MINEM; aportes a un fondo común de asesoría.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje de acuerdos de consulta cumplidos en plazo.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo N.º 001-2012-MC, Reglamento de la Ley 29785 de consulta previa",
+     "motivo": "Modificarlo para adelantar la oportunidad de la consulta y exigir presupuesto y seguimiento público de los acuerdos."
+    }
+   ],
+   "depende_de": [
+    "MIN-02",
+    "MIN-03"
+   ],
+   "riesgo": "Que se perciba como veto o, al revés, como trámite formal; falta de intérpretes y capacidad del Ministerio de Cultura.",
+   "fuentes": [
+    {
+     "titulo": "ProActivo – Suman 24 procesos de consulta previa aprobados para proyectos mineros",
+     "url": "https://proactivo.com.pe/suman-ya-24-procesos-de-consulta-previa-aprobados-para-proyectos-mineros"
+    },
+    {
+     "titulo": "Ley 29785, Ley del derecho a la consulta previa a los pueblos indígenas u originarios",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29785.pdf"
+    }
+   ],
+   "pedn": [
+    "AE1.5.11",
+    "AE4.4.9"
+   ]
+  },
+  {
+   "id": "MIN-16",
+   "titulo": "Adelantar obras sociales en zonas mineras antes de que llegue el canon",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El Fondo de Adelanto Social fue creado por el Decreto Legislativo 1334; se reactiva con presupuesto y lineamientos del MEF. El uso del canon y su trazabilidad se tratan en EST-19 y en GOB-22 de Agenda Tech.",
+   "etapa": "2026-2031",
+   "que": "En las zonas de influencia de proyectos en exploración avanzada o construcción, el Estado adelanta inversiones en agua, saneamiento, salud, educación y caminos antes de que el proyecto produzca y genere canon, con cargo a un fondo que se repone luego con parte del canon o con Obras por Impuestos de las empresas. Las obras se eligen en las mesas territoriales (MIN-02) y se ejecutan con unidades especializadas para evitar obras paralizadas.",
+   "evidencia": "Las transferencias por minería a los departamentos sumaron unos S/ 9 936 millones en 2025, de los cuales S/ 6 992 millones fueron canon (MINEM, Boletín Estadístico Minero). Pero el canon llega años después de iniciado el proyecto y muchas veces se gasta mal; la población de las zonas de influencia no ve beneficios cuando más se discute el proyecto. El Fondo de Adelanto Social de 2017 se usó poco.",
+   "entrega": "Fondo de Adelanto Social reactivado con cartera de obras en los principales corredores mineros al 2028.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "PCM",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "GL",
+     "rol": "ejecutora"
+    }
+   ],
+   "financiamiento": "Fondo de Adelanto Social, Obras por Impuestos y canon futuro.",
+   "costo_referencial": "no estimado",
+   "indicador": "Obras de adelanto social terminadas y en operación en zonas de influencia minera.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-19",
+    "GOB-22",
+    "MIN-02",
+    "EST-07"
+   ],
+   "riesgo": "Obras de mala calidad o paralizadas; uso clientelar del fondo.",
+   "fuentes": [
+    {
+     "titulo": "Minería y Energía – MINEM: más de S/ 9 936 millones recibieron los departamentos al cierre de 2025 por la actividad minera",
+     "url": "https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/"
+    },
+    {
+     "titulo": "Decreto Legislativo 1334, que crea el Fondo de Adelanto Social (Congreso)",
+     "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01334.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.3.17",
+    "AE4.6.1"
+   ]
+  },
+  {
+   "id": "MIN-17",
+   "titulo": "Revisar regalías e impuesto especial minero con un esquema progresivo y estable",
+   "tipo": "ley",
+   "necesita_ley": "si",
+   "por_que_ley": "Las regalías (Ley 28258) y el impuesto especial a la minería (Ley 29789) son tributos o cargas con reserva de ley (art. 74 de la Constitución); su cambio requiere ley y debe respetar los convenios de estabilidad vigentes.",
+   "etapa": "2031-2036",
+   "que": "Con un estudio independiente del MEF y comparaciones internacionales, se ajusta el régimen fiscal minero para que el Estado capture una parte mayor de la renta cuando los precios son muy altos y una menor cuando caen, sin cambiar las reglas a cada ciclo. Se simplifica la superposición entre regalías, impuesto especial y gravamen especial, y se reduce el uso de convenios de estabilidad a casos excepcionales y evaluados. La ley entra en vigencia para nuevos proyectos y renovaciones.",
+   "evidencia": "El FMI recomienda regímenes progresivos basados en renta para captar más en ciclos de precios altos sin desincentivar la inversión (Fiscal Regimes for Extractive Industries, 2012). Chile aprobó en 2023 una nueva ley de royalty minero progresivo. Trade-off: más carga fiscal puede reducir la inversión en un mercado que compite con Chile, Argentina y la República Democrática del Congo.",
+   "entrega": "Estudio independiente publicado y ley aprobada con régimen progresivo para nuevos proyectos.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CF",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "No requiere gasto; puede aumentar la recaudación en ciclos altos.",
+   "costo_referencial": "no estimado",
+   "indicador": "Participación del Estado en la renta minera (government take) frente a países comparables.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "EST-19",
+    "GOB-22"
+   ],
+   "riesgo": "Cambios que espanten la inversión o que se hagan por presión coyuntural de precios.",
+   "fuentes": [
+    {
+     "titulo": "FMI – Fiscal Regimes for Extractive Industries: Design and Implementation (2012)",
+     "url": "https://www.imf.org/external/np/pp/eng/2012/081512.pdf"
+    },
+    {
+     "titulo": "Ley 29789, que crea el Impuesto Especial a la Minería",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29789.pdf"
+    },
+    {
+     "titulo": "Ley 28258, Ley de Regalía Minera",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28258.pdf"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE3.3.16"
+   ]
+  },
+  {
+   "id": "MIN-18",
+   "titulo": "Remediar los pasivos ambientales mineros de alto riesgo por portafolios",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con la Ley 28271 de pasivos ambientales mineros, encargos a Activos Mineros y proyectos de Invierte.pe; no requiere ley.",
+   "etapa": "2026-2031",
+   "que": "Activos Mineros remedia por portafolios regionales los pasivos de alto y muy alto riesgo sin responsable identificado, con diseños tipo, contratos que incluyen el mantenimiento posterior y supervisión independiente. Se identifica y obliga a pagar a los responsables que existen. Se priorizan los pasivos que contaminan fuentes de agua para consumo humano. El avance de cada pasivo se publica en un mapa abierto.",
+   "evidencia": "El inventario oficial tenía 6 001 pasivos ambientales mineros en setiembre de 2024 (RM 351-2024-MINEM/DM), con actualizaciones posteriores. La Defensoría del Pueblo señaló que Activos Mineros tenía a su cargo 1 187 pasivos, 1 153 de alto riesgo, y que en más de la mitad no había iniciado obras; su presupuesto de 2024 fue de unos S/ 145 millones (Energiminas).",
+   "entrega": "Todos los pasivos de alto y muy alto riesgo encargados a Activos Mineros remediados al 2036; mapa público de avance.",
+   "responsable": "AMSAC",
+   "entidades": [
+    {
+     "sigla": "AMSAC",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "FONAFE",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINEM transferido a fideicomisos de Activos Mineros, Obras por Impuestos y cobro a responsables.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de pasivos de alto y muy alto riesgo remediados por año.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-19"
+   ],
+   "riesgo": "Lentitud de obras y estudios; presupuesto insuficiente frente al tamaño del inventario.",
+   "fuentes": [
+    {
+     "titulo": "El Peruano – RM 351-2024-MINEM/DM: actualización del inventario de pasivos ambientales mineros (6 001 PAM)",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2321224-1"
+    },
+    {
+     "titulo": "SNI – Actualizan el Inventario Inicial de Pasivos Ambientales Mineros",
+     "url": "https://sni.org.pe/actualizan-el-inventario-inicial-de-pasivos-ambientales-mineros/"
+    },
+    {
+     "titulo": "Energiminas (2023) – Defensoría pide uso eficiente de los recursos para remediar pasivos a cargo de Activos Mineros",
+     "url": "https://energiminas.com/2023/07/17/defensoria-pide-garantizar-uso-eficiente-de-recursos-destinados-a-remediacion-de-pasivos-ambientales-a-cargo-de-activos-mineros"
+    },
+    {
+     "titulo": "Energiminas (2024) – Activos Mineros ejecutará obras de remediación por S/ 145 millones",
+     "url": "https://energiminas.com/2024/04/24/este-2024-activos-mineros-ejecutara-obras-de-remediacion-por-s-145-millones"
+    }
+   ],
+   "pedn": [
+    "AE2.6.1",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "MIN-19",
+   "titulo": "Asegurar el cierre de minas con garantías suficientes y cierre progresivo verificado",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La Ley 28090 de cierre de minas y su reglamento (DS 033-2005-EM) están vigentes; la actualización del cálculo de garantías y la supervisión se hacen por decreto supremo y resoluciones.",
+   "etapa": "2026-2031",
+   "que": "El MINEM revisa con criterios técnicos independientes el costo real de cerrar cada mina en operación y exige garantías que cubran ese costo actualizado, para que el Estado no herede nuevos pasivos. El OEFA verifica en campo el cierre progresivo de los componentes que dejan de usarse. Los planes de cierre, sus montos y garantías se publican. Se prepara con las regiones la transición económica de las zonas donde cerrarán minas grandes.",
+   "evidencia": "La existencia de miles de pasivos heredados muestra el costo de cierres sin garantías. El Consejo Internacional de Minería y Metales recomienda planificar el cierre desde el diseño, con cierre progresivo y provisiones financieras suficientes (ICMM, Integrated Mine Closure: Good Practice Guide, 3.ª edición 2025).",
+   "entrega": "Garantías de cierre recalculadas y publicadas para todas las unidades de mediana y gran minería al 2029.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "SMV",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Garantías constituidas por las empresas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje del costo de cierre estimado cubierto por garantías vigentes.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Decreto Supremo N.º 033-2005-EM, Reglamento de la Ley de Cierre de Minas",
+     "motivo": "Actualizar la metodología de cálculo de garantías y la verificación del cierre progresivo."
+    }
+   ],
+   "depende_de": [
+    "MIN-18",
+    "MIN-25"
+   ],
+   "riesgo": "Presión empresarial para garantías menores; recálculos sin capacidad técnica.",
+   "fuentes": [
+    {
+     "titulo": "Ley 28090, Ley que regula el Cierre de Minas",
+     "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/28090.pdf"
+    }
+   ],
+   "pedn": [
+    "AE2.6.1",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "MIN-20",
+   "titulo": "Fiscalizar con datos en tiempo real y por riesgo desde OEFA y OSINERGMIN",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "El OEFA (Ley 29325) y OSINERGMIN (seguridad de infraestructura minera) pueden exigir monitoreo en línea por resolución de consejo directivo; la obligación legal general se propone en TAL-09 de Agenda Tech.",
+   "etapa": "2026-2031",
+   "que": "La mediana y gran minería transmite en tiempo real al OEFA sus mediciones de agua, aire y efluentes; los datos se publican con alertas. El OEFA planifica sus inspecciones según el riesgo (cercanía a fuentes de agua, historial de incumplimientos) en lugar de por calendario. OSINERGMIN supervisa la estabilidad de los depósitos de relaves con sensores y auditorías independientes. Las comunidades pueden participar en monitoreos conjuntos con equipos certificados.",
+   "evidencia": "La OCDE evaluó al OEFA y recomendó planificar la fiscalización según el riesgo (Regulatory Enforcement and Inspections in the Environmental Sector of Peru). Tras los colapsos de relaves de Mariana y Brumadinho en Brasil se creó el Estándar Global de Gestión de Relaves (ICMM, PNUMA y PRI, 2020). La desconfianza sobre la calidad del agua es un factor central de los conflictos (Defensoría).",
+   "entrega": "Monitoreo en línea obligatorio en todas las unidades de mediana y gran minería y portal público de datos al 2029.",
+   "responsable": "OEFA",
+   "entidades": [
+    {
+     "sigla": "OEFA",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINAM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "OSINERGMIN",
+     "rol": "supervisora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Aporte por regulación que pagan las empresas fiscalizadas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje de unidades con monitoreo en línea; tiempo de respuesta ante alertas.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "TAL-09",
+    "DIG-21"
+   ],
+   "riesgo": "Datos manipulables por las empresas si no hay auditoría; reducción del aporte por regulación.",
+   "fuentes": [
+    {
+     "titulo": "OCDE – Regulatory Enforcement and Inspections in the Environmental Sector of Peru (OEFA)",
+     "url": "https://www.oecd.org/en/publications/regulatory-enforcement-and-inspections-in-the-environmental-sector-of-peru_54253639-en.html"
+    }
+   ],
+   "pedn": [
+    "AE2.6.6",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "MIN-21",
+   "titulo": "Vigilar la salud de las poblaciones expuestas a metales pesados y atenderlas",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con presupuesto del MINSA y los gobiernos regionales y con las normas sanitarias vigentes sobre metales pesados.",
+   "etapa": "2026-2031",
+   "que": "El MINSA identifica a las poblaciones expuestas a plomo, arsénico, cadmio y mercurio en zonas de minería formal, informal y de pasivos, mide sus niveles en sangre u orina con laboratorios acreditados y garantiza atención especializada. Los resultados agregados se publican. Si la fuente de contaminación tiene responsable, se le exige remediar y pagar. Se protege especialmente a niñas, niños y gestantes.",
+   "evidencia": "Casos como los de La Oroya, Cerro de Pasco y Espinar muestran exposición prolongada a metales sin atención adecuada, según la Defensoría del Pueblo y la Comisión Interamericana de Derechos Humanos. La OMS considera que no hay nivel seguro de plomo en sangre para niñas y niños.",
+   "entrega": "Censo de poblaciones expuestas y atención especializada en las regiones mineras priorizadas al 2030.",
+   "responsable": "MINSA",
+   "entidades": [
+    {
+     "sigla": "MINSA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "OEFA",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "INS",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "DEFENSORIA",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Presupuesto del MINSA y gobiernos regionales; cobro a responsables identificados.",
+   "costo_referencial": "no estimado",
+   "indicador": "N.º de personas expuestas evaluadas y en tratamiento; niños con plomo en sangre por encima del valor de referencia.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-18",
+    "MIN-20"
+   ],
+   "riesgo": "Falta de laboratorios y especialistas; estigmatización de las comunidades.",
+   "fuentes": [
+    {
+     "titulo": "OMS – Intoxicación por plomo y salud (nota descriptiva)",
+     "url": "https://www.who.int/es/news-room/fact-sheets/detail/lead-poisoning-and-health"
+    },
+    {
+     "titulo": "Defensoría del Pueblo – Informes sobre metales pesados",
+     "url": "https://www.defensoria.gob.pe/"
+    }
+   ],
+   "pedn": [
+    "AE2.6.9",
+    "AE3.3.17"
+   ]
+  },
+  {
+   "id": "MIN-22",
+   "titulo": "Aprovechar el cobre y los minerales críticos con diplomacia económica sin exclusividades",
+   "tipo": "accion_ejecutiva",
+   "necesita_ley": "no",
+   "por_que_ley": "La estrategia se aprueba por decreto supremo del MINEM y el MINCETUR con la Cancillería; la definición legal de minerales críticos se propone en SOB-01 de Agenda Tech.",
+   "etapa": "2026-2031",
+   "que": "El Perú define su lista de minerales críticos y estratégicos (cobre, zinc, estaño, molibdeno, plata, litio) y una estrategia para atraer inversión de todos los grandes compradores (China, Estados Unidos, Unión Europea, Japón, Corea) con estándares ambientales y laborales altos, sin cláusulas de exclusividad ni concesiones que comprometan la soberanía. Se negocian acuerdos de cooperación en geología, trazabilidad y capacitación. La evaluación de fundir y refinar se hace en ECP-05, sin duplicarla.",
+   "evidencia": "El Perú produjo 2,74 millones de toneladas de cobre en 2024 y es el tercer productor mundial, detrás de Chile y la República Democrática del Congo (MINEM, vía Energiminas). El USGS estima que refina solo unas 390 mil toneladas (Mineral Commodity Summaries 2025). La Agencia Internacional de Energía proyecta una demanda creciente de cobre por la transición energética y advierte riesgos de concentración del refinado (Global Critical Minerals Outlook 2025).",
+   "entrega": "Estrategia nacional de minerales críticos aprobada al 2028 con acuerdos de cooperación con al menos tres socios.",
+   "responsable": "MINEM",
+   "entidades": [
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MINCETUR",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "RREE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "INGEMMET",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PROINVERSION",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Presupuesto sectorial.",
+   "costo_referencial": "no estimado",
+   "indicador": "Inversión extranjera en minería por país de origen; producción de cobre (toneladas).",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SOB-01",
+    "ECP-05",
+    "ECP-04",
+    "ENE-20"
+   ],
+   "riesgo": "Quedar atrapado en la rivalidad entre potencias; concesiones apresuradas por presión geopolítica.",
+   "fuentes": [
+    {
+     "titulo": "Energiminas (2025) – Perú espera recuperar el segundo lugar como productor mundial de cobre (2,74 Mt en 2024)",
+     "url": "https://energiminas.com/2025/02/24/peru-espera-recuperar-segundo-lugar-como-productor-mundial-de-cobre-con-puesta-en-marcha-de-mas-proyectos-mineros"
+    },
+    {
+     "titulo": "USGS – Mineral Commodity Summaries 2025 (cobre, litio)",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+    },
+    {
+     "titulo": "IEA – Global Critical Minerals Outlook 2025",
+     "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025"
+    }
+   ],
+   "pedn": [
+    "AE3.3.16",
+    "AE3.3.14"
+   ]
+  },
+  {
+   "id": "MIN-23",
+   "titulo": "Completar el mapa geológico nacional con datos abiertos para atraer exploración",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "INGEMMET lo ejecuta con su presupuesto y Invierte.pe; no requiere ley.",
+   "etapa": "2031-2036",
+   "que": "INGEMMET completa la cartografía geológica y geofísica a escala detallada del país, incluidos levantamientos aerotransportados, y publica todo en datos abiertos con acceso gratuito. La información también sirve para la gestión del agua subterránea, la prevención de desastres y la geotermia. Se prioriza la exploración en zonas con aceptación social y sin superposición con áreas protegidas.",
+   "evidencia": "Canadá, Australia y Finlandia atribuyen parte de su atractivo para la exploración a sus datos geocientíficos públicos (Geoscience Australia, Exploring for the Future). El PEDN 2050 pide elevar la información geológica e hidrológica estratégica (AE2.7.1).",
+   "entrega": "Cobertura geofísica aerotransportada de las principales franjas metalogénicas publicada al 2036.",
+   "responsable": "INGEMMET",
+   "entidades": [
+    {
+     "sigla": "INGEMMET",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "ANA",
+     "rol": "beneficiaria"
+    },
+    {
+     "sigla": "INDECI",
+     "rol": "beneficiaria"
+    }
+   ],
+   "financiamiento": "Presupuesto de INGEMMET (derecho de vigencia) y cooperación.",
+   "costo_referencial": "no estimado",
+   "indicador": "Porcentaje del territorio con cartografía geológica y geofísica detallada publicada.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "MIN-14",
+    "DIG-21"
+   ],
+   "riesgo": "Presupuesto insuficiente; datos que no se actualizan.",
+   "fuentes": [
+    {
+     "titulo": "INGEMMET – GEOCATMIN",
+     "url": "https://geocatmin.ingemmet.gob.pe/geocatmin/"
+    }
+   ],
+   "pedn": [
+    "AE2.7.1",
+    "AE3.3.16"
+   ]
+  },
+  {
+   "id": "MIN-24",
+   "titulo": "Consolidar la devolución de IGV por exploración minera en un régimen evaluado",
+   "tipo": "derogacion",
+   "necesita_ley": "si",
+   "por_que_ley": "Los beneficios tributarios tienen reserva de ley (art. 74 de la Constitución); consolidar o derogar la Ley 27623 requiere ley o decreto legislativo delegado.",
+   "etapa": "2026-2031",
+   "que": "La devolución del IGV a los titulares mineros en fase de exploración (Ley 27623) y su gemela para hidrocarburos (Ley 27624, ver ENE-24) se reemplazan por un único régimen de recuperación anticipada del IGV para la fase preproductiva, con plazo de vencimiento, reporte anual de su costo y evaluación del MEF cada cinco años. Se mantiene el incentivo a explorar, pero ordenado y medido.",
+   "evidencia": "El inventario de derogaciones de Agenda País identifica la Ley 27623 como régimen duplicado con la Ley 27624. El MEF y el Consejo Fiscal recomiendan evaluar periódicamente los gastos tributarios y ponerles fecha de vencimiento.",
+   "entrega": "Ley de régimen único aprobada con evaluación quinquenal publicada.",
+   "responsable": "MEF",
+   "entidades": [
+    {
+     "sigla": "MEF",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "SUNAT",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "CONGRESO",
+     "rol": "rectora"
+    }
+   ],
+   "financiamiento": "No requiere gasto.",
+   "costo_referencial": "no estimado",
+   "indicador": "Costo fiscal anual del beneficio y n.º de regímenes de devolución vigentes.",
+   "deroga_o_simplifica": [
+    {
+     "norma": "Ley N.º 27623, que dispone la devolución del IGV e IPM a los titulares de la actividad minera durante la fase de exploración",
+     "motivo": "Duplicada con la Ley 27624; se consolida en un régimen único con plazo y evaluación."
+    }
+   ],
+   "depende_de": [
+    "ENE-24",
+    "ECP-03"
+   ],
+   "riesgo": "Que se perciba como alza de impuestos y reduzca la exploración si se diseña mal.",
+   "fuentes": [
+    {
+     "titulo": "Ley 27623 (Congreso)",
+     "url": "https://leyes.congreso.gob.pe/Documentos/Leyes/27623.pdf"
+    },
+    {
+     "titulo": "MEF – Marco Macroeconómico Multianual",
+     "url": "https://www.mef.gob.pe/es/marco-macroeconomico"
+    }
+   ],
+   "pedn": [
+    "AE3.1.2",
+    "AE4.5.2"
+   ]
+  },
+  {
+   "id": "MIN-25",
+   "titulo": "Preparar a las regiones mineras para la vida después de la mina",
+   "tipo": "servicio",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con presupuesto regional, canon y programas existentes de PRODUCE y del MTPE; la diversificación productiva y los proveedores se tratan en ECP-04 y ECP-05.",
+   "etapa": "2036-2046",
+   "que": "En las provincias donde las grandes minas cerrarán en las próximas décadas, el gobierno regional, las empresas y el Estado acuerdan con años de anticipación un plan de transición: formación técnica de los trabajadores, uso del canon en infraestructura productiva que dure más que la mina, reconversión de terrenos e instalaciones y apoyo a proveedores locales para vender a otros sectores. El plan se actualiza cada cinco años y su avance se publica.",
+   "evidencia": "Las regiones mineras de Chile y Australia que planificaron el cierre redujeron el impacto en empleo, a diferencia de casos de cierre abrupto (Banco Mundial, Managing Coal Mine Closure, 2018). El Atlas de Complejidad Económica muestra que la canasta exportadora de varias regiones peruanas depende de uno o dos minerales.",
+   "entrega": "Planes de transición aprobados para las provincias con cierres previstos antes de 2050.",
+   "responsable": "GORE",
+   "entidades": [
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "PRODUCE",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MTPE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "CEPLAN",
+     "rol": "supervisora"
+    }
+   ],
+   "financiamiento": "Canon minero, presupuesto regional y aportes de las empresas.",
+   "costo_referencial": "no estimado",
+   "indicador": "Empleo formal no minero en provincias mineras.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "ECP-04",
+    "ECP-05",
+    "MIN-19"
+   ],
+   "riesgo": "Planes en papel sin financiamiento; cortoplacismo de las autoridades.",
+   "fuentes": [
+    {
+     "titulo": "Banco Mundial – Managing Coal Mine Closure: Achieving a Just Transition for All (2018)",
+     "url": "https://www.worldbank.org/en/topic/extractiveindustries/publication/managing-coal-mine-closure"
+    }
+   ],
+   "pedn": [
+    "AE3.3.17",
+    "AE3.3.9"
+   ]
+  },
+  {
+   "id": "MIN-26",
+   "titulo": "Construir infraestructura hídrica compartida entre minería, agro y ciudades",
+   "tipo": "obra",
+   "necesita_ley": "no",
+   "por_que_ley": "Se ejecuta con Obras por Impuestos, APP o inversión pública por Invierte.pe, y con la planificación de la ANA en consejos de cuenca; no requiere ley.",
+   "etapa": "2031-2036",
+   "que": "En las cuencas con proyectos mineros y escasez de agua, se financian reservorios, siembra y cosecha de agua, plantas de tratamiento y reúso, y desalinización en la costa sur, diseñados para servir a la vez a la minería, la agricultura y las ciudades. La gestión queda en manos de operadores con participación de los usuarios y la ANA publica los balances de agua. Las mineras pagan una parte proporcional a su uso y priorizan el agua de mar o reciclada.",
+   "evidencia": "En Chile, la minería usa cada vez más agua de mar desalada (Cochilco, Consumo de agua en la minería del cobre). La competencia por el agua es una de las principales causas de conflictos socioambientales en el Perú (Defensoría). El PEDN 2050 prioriza la gestión integrada de los recursos hídricos (AE2.5.1).",
+   "entrega": "Al menos cinco proyectos hídricos compartidos operando en cuencas mineras al 2036.",
+   "responsable": "ANA",
+   "entidades": [
+    {
+     "sigla": "ANA",
+     "rol": "rectora"
+    },
+    {
+     "sigla": "MIDAGRI",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "MINEM",
+     "rol": "consultiva"
+    },
+    {
+     "sigla": "GORE",
+     "rol": "ejecutora"
+    },
+    {
+     "sigla": "MVCS",
+     "rol": "consultiva"
+    }
+   ],
+   "financiamiento": "Obras por Impuestos, APP, aportes de empresas mineras y presupuesto público.",
+   "costo_referencial": "no estimado",
+   "indicador": "Millones de m3 de agua disponibles en cuencas mineras para uso agrario y poblacional.",
+   "deroga_o_simplifica": [],
+   "depende_de": [
+    "SOB-10",
+    "MIN-02"
+   ],
+   "riesgo": "Que la obra beneficie solo a la mina; conflictos sobre la gestión.",
+   "fuentes": [
+    {
+     "titulo": "Cochilco – Consumo de agua en la minería del cobre",
+     "url": "https://www.cochilco.cl/"
+    },
+    {
+     "titulo": "Defensoría del Pueblo – Reportes mensuales de conflictos sociales",
+     "url": "https://www.defensoria.gob.pe/conflictos-sociales/"
+    }
+   ],
+   "pedn": [
+    "AE2.5.1",
+    "AE3.3.17"
+   ]
+  }
+ ],
+ "articulacion": [
+  {
+   "con": "economia",
+   "como": "Los proveedores mineros (ECP-04), la evaluación de fundir y refinar cobre (ECP-05) y la investigación en relaves (ECP-06) son la diversificación desde la minería; este sector no los duplica y aporta la transición de regiones mineras (MIN-25)."
+  },
+  {
+   "con": "estado",
+   "como": "El uso y la estabilización del canon (EST-19), las obras paralizadas (EST-07) y la calidad regulatoria (EST-21) condicionan si la minería deja desarrollo; el adelanto social (MIN-16) y la permisología (MIN-12) se apoyan en ellos."
+  },
+  {
+   "con": "energia",
+   "como": "Los proyectos mineros del sur necesitan transmisión y energía renovable (ENE-02, ENE-03); el litio y el uranio (ENE-20) y los minerales críticos (MIN-22) siguen las mismas reglas de prudencia."
+  },
+  {
+   "con": "digital",
+   "como": "La trazabilidad del oro y el monitoreo ambiental en tiempo real (DIG-21, TAL-09) son la base técnica de MIN-06 y MIN-20."
+  },
+  {
+   "con": "salud",
+   "como": "La exposición a mercurio y metales pesados (MIN-09, MIN-21) exige vigilancia y atención del MINSA en las regiones mineras."
+  }
+ ],
+ "conexion_tech": [
+  "GOB-22",
+  "TAL-09",
+  "SOB-01",
+  "SOB-10",
+  "CON-09",
+  "SOB-13"
+ ],
+ "plan2050": [
+  "mineria",
+  "metalurgia",
+  "medio-ambiente",
+  "promocion-de-la-inversion",
+  "orden-publico-y-seguridad",
+  "cuencas-hidrograficas",
+  "desarrollo-rural",
+  "institucionalidad"
+ ],
+ "fuentes": [
+  {
+   "titulo": "Andina (2025) – Perú logra récord de exportaciones mineras por US$ 47 701 millones en 2024",
+   "url": "https://andina.pe/ingles/noticia-peru-logra-record-exportaciones-mineras-47701-millones-2024-1020293.aspx"
+  },
+  {
+   "titulo": "Energiminas (2025) – Perú espera recuperar el segundo lugar como productor mundial de cobre (2,74 Mt en 2024)",
+   "url": "https://energiminas.com/2025/02/24/peru-espera-recuperar-segundo-lugar-como-productor-mundial-de-cobre-con-puesta-en-marcha-de-mas-proyectos-mineros"
+  },
+  {
+   "titulo": "MINEM – Cartera de Proyectos de Inversión Minera 2025",
+   "url": "https://cdn.www.gob.pe/uploads/document/file/8000189/6722917-cpim-2025.pdf"
+  },
+  {
+   "titulo": "Minería y Energía – MINEM: más de S/ 9 936 millones recibieron los departamentos al cierre de 2025 por la actividad minera",
+   "url": "https://mineriaenergia.com/minem-mas-de-s-9936-millones-recibieron-los-departamentos-al-cierre-de-2025-producto-de-la-actividad-minera/"
+  },
+  {
+   "titulo": "Defensoría del Pueblo – Reportes mensuales de conflictos sociales",
+   "url": "https://www.defensoria.gob.pe/conflictos-sociales/"
+  },
+  {
+   "titulo": "Actualidad Ambiental – Defensoría: el mayor número de conflictos socioambientales se concentra en el sector minero",
+   "url": "https://www.actualidadambiental.pe/defensoria-mayor-numero-de-conflictos-socioambientales-se-concentra-en-sector-minero"
+  },
+  {
+   "titulo": "Energiminas (2025) – US$ 7 000 millones en oro ilegal: el crimen crece y el Reinfo blinda (estimación del IPE)",
+   "url": "https://energiminas.com/2025/05/05/us7000-millones-en-oro-ilegal-el-crimen-crece-y-el-reinfo-blinda/"
+  },
+  {
+   "titulo": "Gestión – IPE: Perú exportaría más de 90 toneladas de oro ilegal",
+   "url": "https://gestion.pe/economia/mineria-ilegal-peru-exportaria-mas-de-90-toneladas-de-oro-ilegal-este-ano-ipe-noticia/"
+  },
+  {
+   "titulo": "Reporte Minero (2025) – MEF: la minería ilegal equivale a cerca del 2,7 % del PBI",
+   "url": "https://www.reporteminero.cl/noticia/noticias/2025/07/mineria-ilegal-pbi-trazabilidad-exportaciones-mef"
+  },
+  {
+   "titulo": "Infomercado – Gobierno amplía la vigencia del REINFO hasta 2026 con nuevas exigencias (Ley 32537)",
+   "url": "https://infomercado.pe/gobierno-amplia-vigencia-del-reinfo-hasta-2026-con-nuevas-exigencias-para-mineros/"
+  },
+  {
+   "titulo": "El Peruano (2026) – El Poder Ejecutivo presenta el proyecto de Ley MAPE ante la Cámara de Diputados",
+   "url": "https://elperuano.pe/noticia/307158-poder-ejecutivo-presenta-proyecto-de-ley-mape-ante-la-camara-de-diputados"
+  },
+  {
+   "titulo": "ProActivo – Convenio de Minamata: el Perú usa unas 150 toneladas de mercurio al año, más del 90 % en la MAPE (PNUMA)",
+   "url": "https://proactivo.com.pe/convenio-de-minamata-expertos-analizaran-acciones-para-eliminar-el-uso-del-mercurio-en-el-peru/"
+  },
+  {
+   "titulo": "MINAM – RM 020-2024-MINAM: proyecto de decreto supremo del Plan de Acción Nacional MAPE sobre mercurio",
+   "url": "https://www.gob.pe/institucion/minam/normas-legales/5144122-020-2024-minam"
+  },
+  {
+   "titulo": "Actualidad Ambiental – En dos años la minería aurífera deforestó más de 18 mil hectáreas en Madre de Dios (MAAP)",
+   "url": "https://www.actualidadambiental.pe/en-dos-anos-la-mineria-aurifera-deforesto-mas-de-18-mil-hectareas-en-madre-de-dios/"
+  },
+  {
+   "titulo": "El Peruano – RM 351-2024-MINEM/DM: actualización del inventario de pasivos ambientales mineros (6 001 PAM)",
+   "url": "https://busquedas.elperuano.pe/dispositivo/NL/2321224-1"
+  },
+  {
+   "titulo": "Energiminas (2023) – Defensoría pide uso eficiente de los recursos para remediar pasivos a cargo de Activos Mineros",
+   "url": "https://energiminas.com/2023/07/17/defensoria-pide-garantizar-uso-eficiente-de-recursos-destinados-a-remediacion-de-pasivos-ambientales-a-cargo-de-activos-mineros"
+  },
+  {
+   "titulo": "ProActivo – SENACE: los EIA de minería deberán aprobarse en 150-160 días en 2026",
+   "url": "https://proactivo.com.pe/senace-estudios-de-impacto-ambiental-para-mineria-deberan-aprobarse-en-150-160-dias-en-2026/"
+  },
+  {
+   "titulo": "OCDE – Regulatory Policy in Peru: Assembling the Framework for Regulatory Quality (2016)",
+   "url": "https://oecd.org/publications/regulatory-policy-in-peru-9789264260054-en.htm"
+  },
+  {
+   "titulo": "USGS – Mineral Commodity Summaries 2025 (cobre, litio)",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+  },
+  {
+   "titulo": "IEA – Global Critical Minerals Outlook 2025",
+   "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025"
+  }
+ ]
+}

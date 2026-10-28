@@ -140,7 +140,7 @@ def mapa(secs, raiz="", solo=None):
         for dep in a.get("depende_de") or []:
             if dep in pos and pos[dep][2]["id"] != s["id"]:
                 x2, y2 = pos[dep][0], pos[dep][1]
-                con.append(f'<path d="M{x2:.0f} {y2} C{x2:.0f} {(y2+y)/2:.0f} {x:.0f} {(y2+y)/2:.0f} {x:.0f} {y}" class="m-con"/>')
+                con.append(f'<path d="M{x2:.0f} {y2} C{x2:.0f} {(y2+y)/2:.0f} {x:.0f} {(y2+y)/2:.0f} {x:.0f} {y}" class="m-con" data-a="{e(aid)}" data-b="{e(dep)}"/>')
     partes += con
     for s in secs:
         y = s["_y"]
@@ -149,7 +149,7 @@ def mapa(secs, raiz="", solo=None):
                       f'<text x="{6 + (x0-24)/2}" y="{y+5}" class="m-sec" text-anchor="middle">{e(s["nombre_corto"])}</text></a>')
     for aid, (x, y, s, a) in pos.items():
         etq = f'{a["id"]}: {a.get("titulo","")} ({TIPOS.get(a.get("tipo"), a.get("tipo"))})'
-        partes.append(f'<a href="{raiz}s/{s["id"]}.html#{e(aid)}" class="m-est" data-t="{e(etq)}" aria-label="{e(etq)}">'
+        partes.append(f'<a href="{raiz}s/{s["id"]}.html#{e(aid)}" class="m-est" data-id="{e(aid)}" data-t="{e(etq)}" aria-label="{e(etq)}">'
                       f'{glifo(a.get("tipo"), round(x, 1), y, s["color"])}<title>{e(etq)}</title></a>')
     return (f'<div class="mapa-scroll"><svg class="mapa" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
             f'aria-label="Mapa de las acciones por sector y etapa, 2026 a 2056">{"".join(partes)}</svg></div>')
