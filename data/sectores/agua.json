@@ -3,7 +3,7 @@
   "nombre": "Agua y saneamiento",
   "lema": "Agua segura las 24 horas y desagüe tratado en cada hogar",
   "diagnostico": {
-    "resumen": "Casi todo el Perú tiene un caño, pero pocos tienen agua segura. Según la ENAPRES del INEI (año móvil julio 2025–junio 2026, preliminar), el 90,6 % de los hogares se abastece por red pública (93,1 % urbano y 80,4 % rural), pero solo el 37,7 % recibe agua con cloro residual adecuado; en el área rural apenas el 3,1 %. El 80,7 % de hogares tiene alcantarillado u otra disposición sanitaria de excretas, frente a 47,1 % en el campo. Loreto (73,9 %), Ucayali (76,2 %) y Puno (78,2 %) tienen la menor cobertura de agua. En las ciudades, las 50 empresas prestadoras (EPS) reguladas por la SUNASS dieron en 2025 un promedio de 18,62 horas diarias de servicio, perdieron 38,17 % del agua producida sin facturarla y trataron el 82,05 % del desagüe recolectado, pero solo el 51,37 % cumplió la norma de calidad (Benchmarking SUNASS 2026). Quince EPS siguen en el Régimen de Apoyo Transitorio del OTASS. El Estado programó más de S/ 5 600 millones en 2026 para los programas de saneamiento urbano y rural (PIM, MEF), pero la ejecución es lenta y hay obras paralizadas. El sector vive una reforma inconclusa: el DS 006-2024-VIVIENDA declaró en reorganización al OTASS y a los tres programas de inversión, que siguen operando por separado; en 2026 se aprobó una política al 2050 (DS 010-2026-VIVIENDA) y el 25 de octubre de 2026 el sector fue declarado en emergencia (DS 016-2026-VIVIENDA). En la costa, donde vive la mayoría, el estrés hídrico crece con el cambio climático.",
+    "resumen": "Casi todo el Perú tiene un caño, pero pocos tienen agua segura. El art. 7-A de la Constitución (Ley 30588) reconoce el derecho de toda persona a acceder de forma progresiva y universal al agua potable, con prioridad del consumo humano; el Comité DESC de la ONU (Observación General 15) exige un mínimo vital asequible y prohíbe negar el acceso por la situación de tenencia de la vivienda. Según la ENAPRES del INEI (año móvil julio 2025–junio 2026, preliminar), el 90,6 % de los hogares se abastece por red pública (93,1 % urbano y 80,4 % rural), pero solo el 37,7 % recibe agua con cloro residual adecuado; en el área rural apenas el 3,1 %. El 80,7 % de hogares tiene alcantarillado u otra disposición sanitaria de excretas, frente a 47,1 % en el campo. Loreto (73,9 %), Ucayali (76,2 %) y Puno (78,2 %) tienen la menor cobertura de agua. En las ciudades, las 50 empresas prestadoras (EPS) reguladas por la SUNASS dieron en 2025 un promedio de 18,62 horas diarias de servicio, perdieron 38,17 % del agua producida sin facturarla y trataron el 82,05 % del desagüe recolectado, pero solo el 51,37 % cumplió la norma de calidad (Benchmarking SUNASS 2026). Quince EPS siguen en el Régimen de Apoyo Transitorio del OTASS. El Estado programó más de S/ 5 600 millones en 2026 para los programas de saneamiento urbano y rural (PIM, MEF), pero la ejecución es lenta y hay obras paralizadas. El sector vive una reforma inconclusa: el DS 006-2024-VIVIENDA declaró en reorganización al OTASS y a los tres programas de inversión, que siguen operando por separado; en 2026 se aprobó una política al 2050 (DS 010-2026-VIVIENDA) y el 25 de octubre de 2026 el sector fue declarado en emergencia (DS 016-2026-VIVIENDA). En la costa, donde vive la mayoría, el estrés hídrico crece con el cambio climático.",
     "indicadores": [
       {
         "nombre": "Hogares con agua por red pública (nacional)",
@@ -93,7 +93,8 @@
       "Inversión sin operación: se construyen sistemas sin operador ni cuota familiar que los sostenga; en el campo casi no se clora (3,1 % de hogares rurales con cloro adecuado, INEI).",
       "Inversión dispersa entre tres programas nacionales, gobiernos regionales y municipios, con expedientes deficientes y obras paralizadas; la reorganización dispuesta en 2024 no unificó los programas (DS 006-2024-VIVIENDA; PIM 2026, MEF).",
       "Crecimiento urbano informal que llega antes que las redes y obliga a soluciones caras (cisternas, extensiones a laderas), y estrés hídrico en la costa agravado por el cambio climático.",
-      "Débil gestión de cuencas: los consejos de recursos hídricos de cuenca cubren solo parte del país y la protección de fuentes (MERESE) avanza lentamente."
+      "Débil gestión de cuencas: los consejos de recursos hídricos de cuenca cubren solo parte del país y la protección de fuentes (MERESE) avanza lentamente.",
+      "Baja capacidad de ejecución de los programas nacionales, gobiernos regionales y municipios: a la fecha de corte 2026 el PP 0083 (saneamiento rural) había devengado 33,4 % de su PIM y el PP 0082 (urbano) 43,8 %, frente a 75,3 % del PP 0146 de vivienda (MEF, Consulta Amigable)."
     ]
   },
   "vision_2056": "En 2056 toda familia peruana, en la ciudad o en el campo, abre el caño y recibe agua segura todo el día, y su desagüe se trata y se reúsa; prestadores profesionales y cuencas cuidadas sostienen el servicio aunque el clima cambie.",
@@ -167,6 +168,16 @@
       "2056": "100 %",
       "referencia": "SUNASS estima que cada 4 puntos de micromedición reducen 1 punto de agua no facturada (Gestión)",
       "fuente_linea_base": "SUNASS, Benchmarking 2026"
+    },
+    {
+      "indicador": "Comunidades nativas amazónicas con sistema de agua segura (clorada) operativo",
+      "linea_base": "por verificar (DATASS; III Censo de Comunidades Nativas 2017, INEI)",
+      "2031": "50 %",
+      "2036": "80 %",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "ODS 6.1 (acceso universal); meta indicativa hasta fijar la línea base",
+      "fuente_linea_base": "MVCS, DATASS (por construir)"
     }
   ],
   "acciones": [
@@ -179,7 +190,7 @@
       "etapa": "2026-2031",
       "que": "Cada sistema de agua rural recibe un clorador adecuado a su caudal, insumos asegurados por compra agregada regional y una rutina de medición de cloro residual reportada al DATASS. Las áreas técnicas municipales (ATM) visitan cada sistema al menos cada trimestre, capacitan a la JASS y reponen equipos; las DIRESA toman muestras independientes y publican el resultado por centro poblado. Se empieza por los distritos con más anemia y diarrea infantil y por los sistemas en estado bueno o regular, donde la cloración es inmediata.",
       "evidencia": "Solo el 3,1 % de hogares rurales recibe agua con cloro adecuado (INEI, ENAPRES jul 2025–jun 2026). El MEF ya condiciona incentivos municipales a reportes de cloro ≥ 0,5 mg/l en sistemas operativos verificados en el DATASS (fichas 2025 del Programa de Incentivos). La OMS considera la desinfección con cloro la intervención de menor costo para reducir enfermedades diarreicas.",
-      "entrega": "Sistemas rurales operativos con cloración verificada y reporte trimestral público por centro poblado.",
+      "entrega": "Hogares rurales con cloro residual adecuado del 3,1 % (ENAPRES jul 2025–jun 2026) al 25 % en 2031, con sistemas que reportan cloro ≥ 0,5 mg/l en el DATASS (línea base de sistemas por verificar en DATASS 2026) y reporte trimestral público por centro poblado.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -229,6 +240,13 @@
       "pedn": [
         "AE1.3.1",
         "AE1.3.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -238,9 +256,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Inversión pública por Invierte.pe con fichas técnicas estándar del MVCS; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Construir o rehabilitar sistemas de agua con desinfección y unidades básicas de saneamiento en los centros poblados rurales sin servicio, usando diseños tipo por piso ecológico (gravedad, bombeo solar, captación de lluvia en la Amazonía) y paquetes de obra agrupados por cuenca para atraer contratistas serios. Ningún proyecto se aprueba sin operador identificado (JASS u operador mancomunado), cuota familiar acordada y plan de mantenimiento. Se priorizan Loreto, Ucayali, Puno, Huánuco y los distritos con mayor anemia infantil.",
+      "que": "Construir o rehabilitar sistemas de agua con desinfección y unidades básicas de saneamiento en los centros poblados rurales sin servicio, usando diseños tipo por piso ecológico (gravedad, bombeo solar, captación de lluvia en la Amazonía) y paquetes de obra agrupados por cuenca para atraer contratistas serios. Ningún proyecto se aprueba sin operador identificado (JASS u operador mancomunado), cuota familiar acordada y plan de mantenimiento. Se priorizan Loreto, Ucayali, Puno, Huánuco y los distritos con mayor anemia infantil. En comunidades nativas y campesinas el diseño del sistema y la cuota familiar se acuerdan en asamblea comunal y la capacitación de la JASS se hace en la lengua local desde el inicio.",
       "evidencia": "La disposición sanitaria de excretas rural es 47,1 % y el agua por red rural 80,4 % (INEI, ENAPRES jul 2025–jun 2026). La evaluación de impacto del saneamiento rural del MEF y el PNSR documentó beneficios en salud cuando los sistemas operan y se mantienen; el Banco Mundial (WASH Poverty Diagnostic, 2017) advierte que la falta de operación explica gran parte del fracaso de sistemas rurales.",
-      "entrega": "Sistemas rurales nuevos o rehabilitados con operador y cloración, priorizados por brecha y anemia, en los departamentos con menor cobertura.",
+      "entrega": "Sistemas rurales nuevos o rehabilitados con operador y cloración al 2031, dimensionados para que la cobertura de agua por red suba de 90,6 % a 93 % y la disposición sanitaria de excretas de 80,7 % a 85 % (metas del sector, ENAPRES), empezando por Loreto, Ucayali, Puno y Huánuco; el número de centros poblados y hogares se fija con el PMI del MVCS (por verificar) y se publica en el DATASS.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -265,7 +283,7 @@
         }
       ],
       "financiamiento": "PP 0083 (PIM 2026: S/ 2 824 millones), FONCODES en zonas dispersas, Obras por Impuestos y cooperación (BID, Banco Mundial).",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Banda indicativa: el tramo 2026-2031 se financia con ≈ S/ 2 800 millones anuales del PP 0083 (PIM 2026: S/ 2 824 millones, MEF), es decir del orden de S/ 14 000 millones en cinco años si el PIM se mantiene, más cooperación; la brecha rural del Plan Nacional de Saneamiento está por verificar y la entrega se dimensiona a esa capacidad. Cálculo indicativo, por validar con el MEF.",
       "indicador": "Hogares rurales con agua por red pública y con disposición sanitaria de excretas (INEI, ENAPRES); sistemas en estado bueno (DATASS).",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -274,7 +292,7 @@
         "EST-08",
         "SAL-17"
       ],
-      "riesgo": "Obras de baja calidad por expedientes deficientes y contratistas pequeños; sistemas sin operador que colapsan en pocos años.",
+      "riesgo": "Obras de baja calidad por expedientes deficientes y contratistas pequeños; sistemas sin operador que colapsan en pocos años. Ejecución del PP 0083 de solo 33,4 % del PIM a la fecha de corte 2026 (MEF, Consulta Amigable): el PNSR y los GORE son el cuello de botella.",
       "fuentes": [
         {
           "titulo": "INEI – Acceso a los servicios básicos en el Perú, año móvil jul 2025–jun 2026 (ENAPRES, preliminar)",
@@ -291,6 +309,23 @@
       ],
       "pedn": [
         "AE1.3.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Diseño y capacitación en lengua local en comunidades",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin meta numérica; PP 0083 rezagado",
+          "decision": "aplicado: entrega atada a metas del sector, riesgo con ejecución 33,4 %"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo no estimado pese a PIM conocido",
+          "decision": "aplicado: banda con PP 0083; brecha del Plan Nacional por verificar"
+        }
       ]
     },
     {
@@ -302,7 +337,7 @@
       "etapa": "2026-2031",
       "que": "Ampliar redes, conexiones domiciliarias y colectores en las zonas urbanas con menor cobertura: Ucayali, Loreto, Piura y Madre de Dios, y los conos de expansión de Lima, Arequipa, Trujillo y Chiclayo. Los proyectos se diseñan junto con el plan de desarrollo urbano para no tender redes en zonas de riesgo no mitigable, y se ejecutan por la EPS o con contratos de obra por resultados que pagan por conexión activa y facturada, no por metro de tubería.",
       "evidencia": "Las menores coberturas urbanas de agua están en Ucayali (79,0 %), Piura (82,0 %) y Loreto (83,5 %), y de alcantarillado en Ucayali (62,1 %), Madre de Dios (63,8 %) y Piura (70,6 %) (INEI, ENAPRES jul 2025–jun 2026). Pagar por conexión activa y no por obra ejecutada alinea al contratista con el servicio; el Banco Mundial documentó contratos por desempeño en agua en países en desarrollo (The Challenge of Reducing Non-Revenue Water, 2006).",
-      "entrega": "Conexiones nuevas de agua y alcantarillado activas y facturadas en las ciudades con menor cobertura.",
+      "entrega": "Conexiones nuevas de agua y de alcantarillado activas y facturadas al 2031 en las ciudades con menor cobertura (Ucayali, Loreto, Piura, Madre de Dios y los conos de Lima, Arequipa, Trujillo y Chiclayo), con meta numérica por EPS fijada en los estudios tarifarios y el PMI (por verificar) y reporte anual en el Benchmarking SUNASS.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -331,7 +366,7 @@
         }
       ],
       "financiamiento": "PP 0082 (PIM 2026: S/ 2 779 millones), recursos propios y endeudamiento de EPS, APP y Obras por Impuestos.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Banda indicativa: conexiones objetivo al 2031 (por fijar en el PMI) × costo medio por conexión activa según contratos recientes del PNSU (por verificar); financiado con ≈ S/ 2 800 millones anuales del PP 0082 (PIM 2026, MEF) más tarifas de las EPS grandes; el endeudamiento de las EPS solo es realista para SEDAPAL. Cálculo indicativo, por validar con el MEF.",
       "indicador": "Hogares urbanos con agua y alcantarillado por red pública por departamento (INEI); conexiones activas nuevas (SUNASS).",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -356,6 +391,18 @@
       ],
       "pedn": [
         "AE1.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: meta por EPS en PMI (por verificar)"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo sin dimensionar frente al PP 0082",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -367,7 +414,7 @@
       "etapa": "2026-2031",
       "que": "Cada EPS sectoriza su red en distritos hidrométricos, instala macromedidores y completa la micromedición, repara fugas visibles en 48 horas y busca fugas ocultas con equipos acústicos. El agua recuperada se destina primero a ampliar horas de servicio en los sectores con menos continuidad. SUNASS fija metas anuales de agua no facturada y continuidad con incentivos y sanciones, y publica el avance por sector. Las EPS pequeñas acceden a contratos de servicio compartidos para el control de pérdidas.",
       "evidencia": "En 2025 las EPS perdieron el 38,17 % del agua producida y dieron 18,62 horas diarias de servicio en promedio; la micromedición alcanzó 77,1 % (SUNASS, Benchmarking 2026). SUNASS estima que cada 4 puntos de mayor micromedición reducen 1 punto de agua no facturada (Gestión). La reducción de pérdidas es la fuente de agua más barata según la IWA y el Banco Mundial (The Challenge of Reducing Non-Revenue Water, 2006).",
-      "entrega": "Redes sectorizadas con medición y metas de pérdidas en todas las EPS, con reporte público por sector.",
+      "entrega": "Agua no facturada ≤ 34 % y micromedición ≥ 85 % en el promedio de las EPS al 2031 (línea base 38,17 % y 77,1 % en 2025, Benchmarking SUNASS), con redes sectorizadas, macromedición y reporte público por sector en todas las EPS.",
       "responsable": "EPS",
       "entidades": [
         {
@@ -417,6 +464,13 @@
       "pedn": [
         "AE1.3.4",
         "AE1.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -450,11 +504,15 @@
       ],
       "financiamiento": "Reasignación de los presupuestos existentes de los tres programas; sin gasto adicional.",
       "costo_referencial": "no estimado",
-      "indicador": "Unidades ejecutoras fusionadas; porcentaje de la inversión del programa en proyectos de la cartera priorizada; ejecución del PIM.",
+      "indicador": "Unidades ejecutoras fusionadas; porcentaje de la inversión del programa en proyectos de la cartera priorizada; ejecución del PIM del programa único (devengado sobre PIM, MEF), con línea base 2026 de 43,8 % en el PP 0082 y 33,4 % en el PP 0083 a la fecha de corte.",
       "deroga_o_simplifica": [
         {
           "norma": "DS 002-2012-VIVIENDA (crea el Programa Nacional de Saneamiento Rural y renombra el Programa Nacional de Saneamiento Urbano)",
           "motivo": "Se sustituye por el decreto de fusión que crea un programa único de inversiones en saneamiento."
+        },
+        {
+          "norma": "DS 008-2017-VIVIENDA, que crea el Programa Agua Segura para Lima y Callao",
+          "motivo": "Se integra en el programa único de inversiones en saneamiento."
         }
       ],
       "depende_de": [
@@ -488,6 +546,16 @@
         {
           "rol": "constitucional-fiscal",
           "hallazgo": "Cita LOPE imprecisa: art. 38 y Ley 27658 art. 13",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Falta derogar DS 008-2017-VIVIENDA (Agua Segura)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Ejecución del PIM como indicador del programa único",
           "decision": "aplicado"
         }
       ]
@@ -640,9 +708,9 @@
       "necesita_ley": "no",
       "por_que_ley": "SUNASS fija tarifas y estructuras de subsidios cruzados por estudios tarifarios dentro del TUO del DL 1280; ampliar subsidios con fondos del Tesoro sí requeriría norma presupuestal. La delegación de facultades de 2026 no incluyó este punto (Ley 32743).",
       "etapa": "2026-2031",
-      "que": "SUNASS aplica en todas las EPS estructuras tarifarias que cubren operación, mantenimiento y reposición de activos, y focaliza el subsidio cruzado usando la clasificación socioeconómica del SISFOH por hogar en lugar de la ubicación de la manzana. Se publica en cada recibo cuánto cuesta el servicio y cuánto se subsidia. Para las organizaciones comunales rurales, la SUNASS y las ATM fijan cuotas familiares mínimas que cubran cloración y mantenimiento.",
+      "que": "SUNASS aplica en todas las EPS estructuras tarifarias que cubren operación, mantenimiento y reposición de activos, y focaliza el subsidio cruzado usando la clasificación socioeconómica del SISFOH por hogar en lugar de la ubicación de la manzana. Se publica en cada recibo cuánto cuesta el servicio y cuánto se subsidia. Para las organizaciones comunales rurales, la SUNASS y las ATM fijan cuotas familiares mínimas que cubran cloración y mantenimiento. Se garantiza un consumo mínimo vital (50 litros por persona al día, referencia de la OMS) con tarifa social; la deuda de hogares clasificados como pobres en el SISFOH no habilita el corte total sino la reducción de caudal y un plan de pago, y los errores de clasificación se corrigen en 15 días sin corte (art. 7-A de la Constitución; Observación General 15 del Comité DESC). Los incrementos tarifarios se aplican por tramos atados a metas de continuidad y calidad verificadas por la SUNASS.",
       "evidencia": "La gestión comercial deficiente y el agua no facturada (38,17 % en 2025, SUNASS) reducen los ingresos de las EPS. El MEF y SUNASS han reportado que los subsidios por ubicación generan filtraciones hacia hogares no pobres; el Banco Mundial (Doing More with Less, 2019) documenta que los subsidios al agua en América Latina benefician desproporcionadamente a hogares de mayores ingresos.",
-      "entrega": "Estructuras tarifarias con subsidio focalizado por SISFOH en todas las EPS y cuotas familiares mínimas en el ámbito rural.",
+      "entrega": "Estructuras tarifarias con subsidio focalizado por SISFOH, mínimo vital y límite al corte en el 100 % de las EPS al 2029, y cuotas familiares mínimas en el ámbito rural.",
       "responsable": "SUNASS",
       "entidades": [
         {
@@ -668,7 +736,7 @@
       ],
       "financiamiento": "Tarifas; sin gasto público adicional.",
       "costo_referencial": "no estimado",
-      "indicador": "Relación ingresos/costos de las EPS; porcentaje del subsidio que llega a hogares pobres según SISFOH.",
+      "indicador": "Relación ingresos/costos de las EPS; porcentaje del subsidio que llega a hogares pobres según SISFOH. Gasto en agua y saneamiento como porcentaje del gasto del hogar en el quintil 1 (ENAHO), con tope de referencia de 3 a 5 %.",
       "deroga_o_simplifica": [],
       "depende_de": [],
       "riesgo": "Rechazo social a alzas tarifarias y errores de clasificación del SISFOH.",
@@ -691,6 +759,21 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-04 con AGU-08",
           "decision": "aplicado: se quita AGU-04 de depende_de"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Sin mínimo vital ni límite al corte",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Indicador sin asequibilidad; alzas atadas a mejoras",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin año",
+          "decision": "aplicado: 100 % de EPS al 2029"
         }
       ]
     },
@@ -703,7 +786,7 @@
       "etapa": "2031-2036",
       "que": "Completar plantas de tratamiento de aguas residuales (PTAR) en las ciudades que aún vierten sin tratar y rehabilitar las que no cumplen los límites máximos permisibles, con contratos que incluyan operación y mantenimiento por al menos diez años. Se prioriza el lago Titicaca, los ríos que abastecen a ciudades aguas abajo y las playas urbanas. Cada PTAR publica en línea sus resultados de calidad del efluente.",
       "evidencia": "En 2025 las EPS trataron el 82,05 % del desagüe recolectado, pero solo el 51,37 % cumplió la norma (TEAR), por debajo del 57,94 % de 2023 (SUNASS, Benchmarking 2026). La brecha entre agua tratada y agua que cumple la norma muestra que el problema no es solo construir sino operar y mantener; por eso los contratos deben incluir la operación.",
-      "entrega": "PTAR operando con cumplimiento verificado de límites máximos permisibles en las ciudades de más de 20 000 habitantes.",
+      "entrega": "TEAR ≥ 75 % al 2036 (línea base 51,37 % en 2025, Benchmarking SUNASS), con PTAR nuevas o rehabilitadas operando con cumplimiento verificado de límites máximos permisibles en las ciudades de más de 20 000 habitantes; el número de plantas se fija en la cartera del programa único (por verificar).",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -731,12 +814,14 @@
           "rol": "supervisora"
         }
       ],
-      "financiamiento": "PP 0082, APP cofinanciadas, tarifas (componente de tratamiento) y cooperación.",
+      "financiamiento": "PP 0082, APP cofinanciadas (los pagos por disponibilidad se registran como compromisos firmes bajo el tope de compromisos de la ley de APP vigente, citado como 12 % del PBI en la Ley 32441, por verificar, y se trasladan gradualmente a la tarifa de tratamiento), tarifas (componente de tratamiento) y cooperación.",
       "costo_referencial": "no estimado",
       "indicador": "TEAR por EPS (SUNASS, Benchmarking anual).",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "AGU-05"
+        "AGU-05",
+        "AGU-06",
+        "AGU-08"
       ],
       "riesgo": "Plantas construidas sin presupuesto de operación que dejan de funcionar; descargas industriales no controladas que dañan los procesos.",
       "fuentes": [
@@ -754,6 +839,21 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-09/AGU-10",
           "decision": "aplicado: se quita AGU-10 de depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Falta depender de tarifas (AGU-08) y escala (AGU-06)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: TEAR ≥ 75 % al 2036"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Pagos por disponibilidad de APP son compromisos firmes",
+          "decision": "aplicado: tope de la Ley 32441 por verificar"
         }
       ]
     },
@@ -766,7 +866,7 @@
       "etapa": "2026-2031",
       "que": "Con las plantas de tratamiento que ya cumplen la norma, las EPS venden agua residual tratada a industrias, minería, agroexportación y municipalidades para parques, con contratos de largo plazo cuyos ingresos se reconocen en la tarifa. La ANA otorga autorizaciones de reúso en plazos cortos con estándares por uso, y los municipios de la costa riegan sus parques solo con agua tratada. Se priorizan Lima, Trujillo, Chiclayo, Piura, Ica y Arequipa, donde el agua dulce es escasa. Se amplía a las nuevas plantas a medida que AGU-09 las ponga en operación.",
       "evidencia": "El MVCS aprobó la Hoja de Ruta de economía circular al 2030 (DS 007-2024-VIVIENDA) y su plan de implementación (RM 217-2025-VIVIENDA). La OMS tiene guías para el uso seguro de aguas residuales en agricultura que permiten fijar estándares por uso (OMS, 2006); el reúso reduce la presión sobre las fuentes y genera ingresos a las EPS.",
-      "entrega": "Contratos de reúso firmados por EPS de la costa y parques municipales regados con agua tratada.",
+      "entrega": "Volumen de agua residual tratada reusada medido y publicado por la SUNASS al 2031 (línea base por verificar en el Benchmarking SUNASS), con contratos de reúso en al menos 5 EPS de la costa y parques municipales de esas ciudades regados con agua tratada.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -825,6 +925,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-09/AGU-10 y dependencia hacia etapa posterior",
           "decision": "aplicado: AGU-10 se limita a plantas existentes; AGU-09 queda como complemento en el texto"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: línea base por verificar"
         }
       ]
     },
@@ -837,7 +942,7 @@
       "etapa": "2026-2031",
       "que": "Cada municipalidad distrital rural tiene un área técnica municipal con al menos un técnico a tiempo completo, movilidad y kit de medición, financiada con transferencias condicionadas a metas. Donde los distritos son pequeños, varios forman una mancomunidad que contrata un operador especializado para dar mantenimiento, cloración y reparaciones mayores a todas las JASS del ámbito. Las JASS reciben capacitación en gestión, cobro de cuota familiar y rendición de cuentas a la comunidad.",
       "evidencia": "La continuidad rural es alta (144 horas semanales) pero el agua casi no se clora (3,1 %) (INEI, ENAPRES jul 2025–jun 2026), señal de sistemas que funcionan sin gestión de calidad. La estrategia del PNSR en la que el gobierno local compra insumos de cloración y los vende a precio de costo a las JASS, que cloran y cobran cuota familiar, fue evaluada por el MVCS en 2020 como base para escalar la cloración rural.",
-      "entrega": "ATM operativas en todos los distritos rurales y operadores mancomunados en las provincias con distritos pequeños.",
+      "entrega": "ATM operativa en el 100 % de los distritos rurales al 2029 (línea base: porcentaje de distritos con ATM según el DATASS, por verificar) y operadores mancomunados contratados en todas las provincias con distritos pequeños al 2031.",
       "responsable": "MUNICIPALIDADES",
       "entidades": [
         {
@@ -892,6 +997,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-01 con AGU-11",
           "decision": "aplicado: se quita AGU-01 de depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
         }
       ]
     },
@@ -904,7 +1014,7 @@
       "etapa": "2026-2031",
       "que": "Las EPS ejecutan los fondos de retribución por servicios ecosistémicos que ya cobran en la tarifa: recuperan bofedales, praderas altoandinas, amunas y qochas en las cabeceras de cuenca que abastecen a sus ciudades, mediante acuerdos con comunidades campesinas que reciben pagos o apoyo productivo a cambio de conservar. SUNASS publica cada año lo recaudado, lo ejecutado y los resultados hidrológicos medidos, y simplifica los trámites que hoy frenan la ejecución.",
       "evidencia": "En 2023, 45 de las 50 EPS tenían el mecanismo pero solo 18 ejecutaban sus fondos (Agraria, con datos de SUNASS); para 2026 las EPS prevén invertir S/ 17 millones en conservación de fuentes (El Peruano). Estudios sobre amunas en Huamantanga (Lima) mostraron que la infiltración ancestral aumenta el caudal en la época seca (Ochoa-Tocachi et al., Nature Sustainability, 2019).",
-      "entrega": "Fondos MERESE ejecutados en las cabeceras de las cuencas que abastecen a las principales ciudades, con reporte hidrológico público.",
+      "entrega": "Al menos 80 % de los fondos MERESE recaudados ejecutados al 2031 (línea base por verificar en la SUNASS) en las cabeceras de las cuencas que abastecen a las principales ciudades, con hectáreas recuperadas y reporte hidrológico público.",
       "responsable": "EPS",
       "entidades": [
         {
@@ -953,6 +1063,13 @@
       ],
       "pedn": [
         "AE2.5.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -962,9 +1079,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Inversión pública y APP de SEDAPAL, EPS y gobiernos regionales; no requiere ley.",
       "etapa": "2031-2036",
-      "que": "Para Lima, Trujillo, Chiclayo, Piura, Ica, Tacna y Arequipa se elabora un balance hídrico al 2056 con escenarios climáticos, y se ejecuta la cartera de menor costo por metro cúbico seguro: reducción de pérdidas, reúso, recarga de acuíferos, represas pequeñas y siembra y cosecha de agua en las partes altas, y solo después trasvases o grandes represas. La siembra y cosecha de agua se evalúa con medición de caudales antes y después, no por número de qochas construidas.",
+      "que": "Para Lima, Trujillo, Chiclayo, Piura, Ica, Tacna y Arequipa se elabora un balance hídrico al 2056 con escenarios climáticos, y se ejecuta la cartera de menor costo por metro cúbico seguro: reducción de pérdidas, reúso, recarga de acuíferos, represas pequeñas y siembra y cosecha de agua en las partes altas, y solo después trasvases o grandes represas. La siembra y cosecha de agua se evalúa con medición de caudales antes y después, no por número de qochas construidas. Todo trasvase o represa que afecte a comunidades campesinas o nativas pasa por consulta previa (Ley 29785) y garantiza el caudal para sus usos poblacionales y agrarios.",
       "evidencia": "La costa concentra la mayor parte de la población y la menor disponibilidad de agua del país (ANA). La evaluación de programas de cosecha de agua en Perú encontró resultados heterogéneos y falta de medición hidrológica, por lo que se recomienda evaluar antes de escalar (MEF, evaluaciones independientes del Fondo Sierra Azul, por verificar).",
-      "entrega": "Balances hídricos al 2056 y carteras de seguridad hídrica ordenadas por costo por metro cúbico para las siete principales ciudades costeras.",
+      "entrega": "Balances hídricos al 2056 y carteras de seguridad hídrica ordenadas por costo por metro cúbico aprobadas al 2033 para las siete principales ciudades costeras.",
       "responsable": "SEDAPAL",
       "entidades": [
         {
@@ -1020,6 +1137,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-13 con AGU-14",
           "decision": "aplicado: se quita AGU-14 de depende_de"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Trasvases sin consulta previa ni garantía de caudal",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin año",
+          "decision": "aplicado: al 2033"
         }
       ]
     },
@@ -1092,7 +1219,7 @@
       "etapa": "2026-2031",
       "que": "Completar los consejos de recursos hídricos de cuenca en las cuencas de la costa y en las principales cuencas andinas y amazónicas, cada uno con secretaría técnica financiada, plan de gestión aprobado y balance hídrico actualizado. Los derechos de uso se otorgan según disponibilidad real medida, priorizando el consumo humano, y el consejo arbitra entre agricultura, minería, ciudades y energía. La gestión digital del agua (telemetría, registro de derechos y balances abiertos) se desarrolla según la propuesta SOB-10 de Agenda Tech, y se complementa con la reforma de retribuciones de AGU-16.",
       "evidencia": "El primer proyecto de modernización de la gestión de recursos hídricos con el Banco Mundial creó seis consejos y la segunda fase financia cuatro más en Urubamba, Pampas, Mantaro y Alto Mayo (ProActivo); la ANA reportó 14 consejos creados, 9 con plan de gestión (iAgua). La gestión por cuencas es el estándar recomendado por la OCDE (Water Governance in Peru, 2021).",
-      "entrega": "Consejos de cuenca con plan de gestión y secretaría técnica en las cuencas priorizadas de costa, sierra y selva.",
+      "entrega": "Consejos de cuenca con plan de gestión aprobado y secretaría técnica financiada en las cuencas priorizadas de costa, sierra y selva al 2031 (línea base: consejos ya creados según la ANA, por verificar).",
       "responsable": "ANA",
       "entidades": [
         {
@@ -1151,6 +1278,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-15 con AGU-16",
           "decision": "aplicado: se quita AGU-16 de depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: línea base por verificar"
         }
       ]
     },
@@ -1161,7 +1293,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Requiere ley solo cambiar los criterios de las retribuciones económicas (arts. 90-94 de la Ley 29338). Las reservas de agua para consumo humano (la Ley 29338 ya permite reservar recursos hídricos) y la revisión o extinción de derechos no usados pueden ir ya por resolución de la ANA y decreto supremo. Las disposiciones sobre revisión de derechos y reservas que afecten a comunidades campesinas y nativas se someten a consulta previa (Convenio 169 de la OIT y Ley 29785) antes de aprobarse. La delegación de facultades de octubre de 2026 no incluyó la modificación de la Ley 29338 (Ley 32743), por lo que la parte legal queda en el Congreso.",
       "etapa": "2026-2031",
-      "que": "Modificar la Ley 29338 para que las retribuciones económicas por uso del agua reflejen la escasez de cada cuenca y se reinviertan en ella a través de su consejo. En paralelo, sin esperar la ley, la ANA reserva caudales para el consumo humano futuro en las cuencas que abastecen ciudades y revisa los derechos no usados o sobreotorgados con las herramientas que ya le da la ley. Lo que afecte a comunidades pasa por consulta previa. La medición y el registro digital del agua se coordinan con SOB-10. No crea organismos ni gasto nuevo.",
+      "que": "Modificar la Ley 29338 para que las retribuciones económicas por uso del agua reflejen la escasez de cada cuenca y se reinviertan en ella a través de su consejo. En paralelo, sin esperar la ley, la ANA reserva caudales para el consumo humano futuro en las cuencas que abastecen ciudades y revisa los derechos no usados o sobreotorgados con las herramientas que ya le da la ley. Lo que afecte a comunidades pasa por consulta previa. La revisión de derechos no alcanza a los usos ancestrales de comunidades campesinas y nativas (Ley 29338, art. 64), que se reconocen aunque no estén formalizados. La medición y el registro digital del agua se coordinan con SOB-10. No crea organismos ni gasto nuevo.",
       "evidencia": "La OCDE (Water Governance in Peru, 2021) recomendó revisar los instrumentos económicos del agua, hoy demasiado bajos para incentivar la eficiencia. En Australia, la reforma de la cuenca Murray-Darling con límites de extracción y precios mejoró la asignación en sequía (OCDE).",
       "entrega": "Ley que modifica los criterios de retribución de la Ley 29338, y reservas para consumo humano y revisión de derechos aprobadas por la ANA.",
       "responsable": "ANA",
@@ -1229,6 +1361,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Reservas y revisión de derechos no necesitan ley",
           "decision": "aplicado: necesita_ley pasa a parcial"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Revisión de derechos podría afectar usos ancestrales",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1241,7 +1378,7 @@
       "etapa": "2026-2031",
       "que": "El programa único de inversiones de AGU-05 forma un equipo que revisa cada obra de agua y desagüe paralizada registrada en INFOBRAS, la clasifica en terminable, reformulable o inviable, y contrata los saldos de obra con supervisión independiente. Se priorizan las que tienen 40 % o más de avance y las que darán servicio a más hogares. Las inviables se cierran formalmente con deslinde de responsabilidades. Se coordina con el plan nacional de obras paralizadas EST-07.",
       "evidencia": "A marzo de 2025 la Contraloría registraba 2 572 obras paralizadas por más de S/ 43 163 millones, 71,8 % de gobiernos locales (EST-07); las obras de saneamiento son una parte relevante de ese universo (por verificar el número actual en INFOBRAS).",
-      "entrega": "Obras de saneamiento paralizadas terminadas o cerradas formalmente, con registro público en INFOBRAS.",
+      "entrega": "Al menos 70 % de las obras de saneamiento paralizadas registradas en INFOBRAS al corte 2026 (línea base por verificar) terminadas o cerradas formalmente al 2031, con registro público.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -1293,6 +1430,11 @@
           "rol": "jurista",
           "hallazgo": "Debe depender del plan nacional EST-07",
           "decision": "aplicado: ya dependía de EST-07; se mantiene"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin línea base ni año",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1303,7 +1445,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Las EPS y SUNASS pueden fijar criterios técnicos de factibilidad por reglamento; establecer responsabilidad de funcionarios por factibilidades indebidas requiere ley (la delegación de 2026 no la incluyó, Ley 32743).",
       "etapa": "2026-2031",
-      "que": "Las EPS otorgan factibilidad de servicios solo a habilitaciones ubicadas en suelo urbanizable según el plan de desarrollo urbano, fuera de zonas de riesgo no mitigable y con fuente de agua disponible en el balance de la EPS. Para vivienda de interés social se aceptan soluciones transitorias certificadas con fecha de conexión definitiva. Las factibilidades se publican en un mapa abierto para que compradores y municipios sepan dónde habrá servicio.",
+      "que": "Las EPS otorgan factibilidad de servicios solo a habilitaciones ubicadas en suelo urbanizable según el plan de desarrollo urbano, fuera de zonas de riesgo no mitigable y con fuente de agua disponible en el balance de la EPS. Para vivienda de interés social se aceptan soluciones transitorias certificadas con fecha de conexión definitiva. Las factibilidades se publican en un mapa abierto para que compradores y municipios sepan dónde habrá servicio. La restricción aplica a nuevas habilitaciones: los asentamientos ya existentes fuera de zonas de riesgo no mitigable reciben soluciones no convencionales registradas (AGU-20) con fecha de conexión definitiva, y los ubicados en riesgo no mitigable las reciben hasta su reasentamiento (VIV-12), sin que la falta de título justifique negar el servicio (art. 7-A de la Constitución; Observación General 15 del Comité DESC).",
       "evidencia": "La delegación de facultades de 2026 autorizó soluciones alternativas a factibilidades para vivienda de interés social, pero no la prevención de factibilidades sin condiciones (Ley 32743). El 93 % de la expansión urbana 2001–2018 fue informal (GRADE), lo que obliga a llevar redes después, a mayor costo.",
       "entrega": "Criterios técnicos de factibilidad vinculados al plan urbano y mapa público de factibilidades por EPS.",
       "responsable": "SUNASS",
@@ -1348,6 +1490,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AGU-18 con VIV-08",
           "decision": "aplicado: se quita VIV-08 de depende_de"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Asentamientos existentes sin alternativa de acceso",
+          "decision": "aplicado: se cita AGU-20 y VIV-12 en el texto; no se añaden a depende_de para no crear ciclo con AGU-03"
         }
       ]
     },
@@ -1360,7 +1507,7 @@
       "etapa": "2026-2031",
       "que": "En los distritos con más anemia y diarrea infantil, los hogares con gestantes y niños menores de 3 años que aún no tienen agua clorada reciben filtros domiciliarios o cloro para tratar el agua en casa, un punto de lavado de manos y consejería en las visitas de salud y de Cuna Más. La entrega se cruza con el padrón nominal y se retira cuando llega la conexión clorada. Se complementa el paquete integrado contra la anemia SAL-17.",
       "evidencia": "La anemia en niños de 6 a 35 meses fue 34,9 % con criterio OMS 2024 (INEI, ENDES 2025, citada en SAL-17). Revisiones Cochrane (Clasen et al., 2015) encontraron que el tratamiento del agua en el hogar y el lavado de manos reducen la diarrea infantil, que afecta la absorción de nutrientes.",
-      "entrega": "Kits de agua segura y lavado de manos en los hogares priorizados del padrón nominal sin agua clorada.",
+      "entrega": "Kits de agua segura y lavado de manos con acompañamiento en el 100 % de los hogares con gestantes y niños menores de 3 años del padrón nominal sin agua clorada en los distritos priorizados al 2029 (número de hogares por verificar en el padrón nominal MIDIS-MINSA).",
       "responsable": "MINSA",
       "entidades": [
         {
@@ -1398,6 +1545,13 @@
       ],
       "pedn": [
         "AE1.3.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1465,7 +1619,7 @@
       "etapa": "2026-2031",
       "que": "Cada EPS aprueba un plan de gestión del riesgo con escenarios de El Niño, huaicos, sismos y sequía; asegura captaciones alternas, reservorios de respaldo y conexiones entre sistemas para que una sola falla no deje sin agua a una ciudad; y mantiene stock de tuberías, plantas portátiles y cloro. Las alertas del SENAMHI y de la Red Nacional de Alerta Temprana activan protocolos de operación. En Lima se reduce la dependencia de una sola captación en el río Rímac.",
       "evidencia": "SUNASS autorizó a las EPS el uso de más de S/ 1 300 millones de reservas para enfrentar El Niño (Infomercado). Los cortes masivos en Lima tras los huaicos de 2017 mostraron la vulnerabilidad de depender de una sola captación (SEDAPAL).",
-      "entrega": "Planes de riesgo aprobados y obras de redundancia en todas las EPS, empezando por SEDAPAL y las EPS de la costa norte.",
+      "entrega": "100 % de las EPS con plan de gestión del riesgo aprobado al 2028 y obras de redundancia (captación alterna o interconexión) operando en SEDAPAL y en las EPS de la costa norte al 2031.",
       "responsable": "EPS",
       "entidades": [
         {
@@ -1512,6 +1666,13 @@
       "pedn": [
         "AE2.2.4",
         "AE1.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1523,7 +1684,7 @@
       "etapa": "2031-2036",
       "que": "Crear un itinerario de formación y certificación para operadores de plantas, técnicos de redes, gestores comerciales y técnicos de ATM, dictado por institutos tecnológicos y centros de formación de las EPS más grandes. Las EPS y municipalidades exigen la certificación para los puestos operativos y pagan una bonificación por ella. Se forman también operadores rurales en quechua, aimara y lenguas amazónicas, con prácticas en sistemas reales y recertificación cada cinco años.",
       "evidencia": "La capacidad técnica de los prestadores es uno de los ejes de la Política Nacional de Saneamiento (fortalecimiento de prestadores, DS 007-2017-VIVIENDA). La IWA y el Banco Mundial señalan la escasez de personal calificado como una barrera al servicio en países en desarrollo.",
-      "entrega": "Itinerario de certificación de competencias en agua y saneamiento con operadores certificados en todas las EPS.",
+      "entrega": "Itinerario de certificación de competencias en agua y saneamiento operando y al menos 60 % del personal operativo de EPS y ATM certificado al 2036.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -1564,6 +1725,13 @@
       ],
       "pedn": [
         "AE1.3.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado"
+        }
       ]
     }
   ],
@@ -1676,6 +1844,26 @@
       "rol": "cifras",
       "hallazgo": "Benchmarking SUNASS alojado en sitio de prensa regional",
       "decision": "aplicado: se identifica el informe oficial (00063-2026-SUNASS-DF) y se agrega la colección oficial de gob.pe, que aún no publica la edición 2026"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Diagnóstico sin art. 7-A ni Observación General 15",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Capacidad de ejecución PNSR/PNSU ausente en causas",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Sin meta para comunidades nativas amazónicas",
+      "decision": "aplicado: meta indicativa con línea base por verificar"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "transversal:fiscal pide bloque marco_fiscal por sector",
+      "decision": "descartado: cambia el esquema; decisión del líder (archivo transversal); se acotan costos en AGU-02 y AGU-03"
     }
   ]
 }

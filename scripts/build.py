@@ -437,6 +437,23 @@ def buscar(secs):
                  head='<link rel="preload" href="data/indice.json" as="fetch" crossorigin>')
 
 
+def revision_txt(secs):
+    """Resumen de las rondas de revisión especializada: hallazgos por rol y cuántos se atendieron."""
+    rev = sorted((ROOT / "data/revision").glob("*.json")) if (ROOT / "data/revision").exists() else []
+    r1 = [f for f in rev if not f.name.startswith("r2-")]
+    r2 = [f for f in rev if f.name.startswith("r2-")]
+    def n(fs):
+        return sum(len(h) for f in fs for x in json.loads(f.read_text()) for h in [x.get("hallazgos", [])])
+    atendidas = sum(len(a.get("revision_atendida", [])) for s in secs for a in s.get("acciones", [])) + sum(len(s.get("revision_atendida", [])) for s in secs)
+    roles1 = "constitucional-fiscal, jurista, cifras y URL, seguridad, economía y vigencia en el SPIJ"
+    roles2 = "gobierno digital, gestión pública y ejecución, constitucionalista, derechos humanos y economía"
+    return (f"Antes de publicar, cada acción pasó por dos rondas de revisores de IA especializados que no escribieron el contenido: "
+            f"la primera con seis roles ({roles1}; {n(r1)} hallazgos) y la segunda con cinco ({roles2}; {n(r2)} hallazgos). "
+            f"El dueño de cada sector aplicó o descartó cada hallazgo con motivo: hay {atendidas} decisiones registradas en el campo "
+            f"<code>revision_atendida</code> de los datos abiertos. Los hallazgos completos están en <code>data/revision/</code>. "
+            f"Esta revisión no reemplaza la de expertos humanos.")
+
+
 def metodo(secs):
     cuerpo = f"""{migas("", ("Método", ""))}<section class="s-head" data-c="tinta"><h1>Método</h1><p class="bajada">Cómo se hizo y qué no es.</p></section>
 <section class="bloque prosa"><h2>Qué es</h2><p>Una propuesta ciudadana de hoja de ruta a 30 años. No es un plan oficial ni compromete a ninguna entidad. Se alinea al
@@ -446,6 +463,7 @@ una ley o si basta con presupuesto, gestión y decisiones que ya puede tomar el 
 e internacionales (OCDE, Banco Mundial, OMS, UNESCO). Cada acción trae su evidencia, entidad responsable, financiamiento, indicador y riesgo.
 Las cifras sin verificar se marcan como tales. El sector Digital consolida las 128 propuestas de
 <a href="{TECH}">Agenda Legislativa Tech</a> en leyes marco, paquetes del Ejecutivo y obras.</p>
+<h2>Revisión por pares (de IA)</h2><p>{revision_txt(secs)}</p>
 <h2>Límites</h2><p>Las metas son indicativas. Los costos solo se muestran cuando hay una base explícita. Falta revisión humana experta, sector por sector:
 si encuentras un error, escríbelo a <a href="https://www.linkedin.com/in/unimauro/" target="_blank" rel="noopener">Carlos Cárdenas</a>.</p>
 <h2>Datos abiertos</h2><p>Todo está en JSON: <a href="data/indice.json">índice</a> y un archivo por sector en <code>data/sectores/</code>.</p></section>"""
