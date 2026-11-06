@@ -1,6 +1,6 @@
 """Genera el sitio estático de Agenda País 2026–2056 a partir de data/sectores/*.json.
 
-Salidas: index.html (mapa de metro de los sectores), s/<sector>.html, entidades.html, metodo.html, privacidad.html,
+Salidas: index.html (mapa de metro de los sectores), s/<sector>.html, entidades.html, buscar.html, metodo.html, privacidad.html,
 data/indice.json (liviano), sitemap.xml y og.png (si hay rsvg-convert).
 Uso: python3 scripts/build.py
 """
@@ -32,6 +32,24 @@ TIPOS = {"obra": "Obra", "servicio": "Servicio", "accion_ejecutiva": "Acción de
 LEY = {"ley", "reforma_constitucional"}
 
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
+PV = re.compile(r"\(por verificar[^)]*\)|por verificar")
+
+
+def txt(s):
+    """Texto escapado con los avisos «por verificar» marcados de forma visible y consistente."""
+    return PV.sub(lambda m: f'<mark class="pv" title="Dato pendiente de verificación">{m.group(0)}</mark>', e(s))
+
+
+def lum(hexcolor):
+    """Luminancia relativa (WCAG) de un color #rrggbb."""
+    r, g, b = (int(hexcolor[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    f = lambda c: c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
+
+
+def texto_sobre(color):
+    """Blanco o tinta sobre el color del sector, el que dé contraste ≥ 4,5:1 (texto pequeño)."""
+    return "#fff" if (1.05 / (lum(color) + 0.05)) >= 4.5 else "#1d2b3a"
 
 
 def url_ok(u):
@@ -70,11 +88,17 @@ def cargar():
 
 
 # ---------------------------------------------------------------- plantilla
-def shell(titulo, desc, cuerpo, raiz="", ruta=""):
+def migas(raiz, *pasos):
+    """Migas de pan: (texto, href)… y el último paso es la página actual (solo texto)."""
+    li = "".join(f'<li><a href="{raiz}{h}">{e(t)}</a></li>' for t, h in pasos[:-1])
+    return f'<nav class="migas" aria-label="Ubicación"><ol><li><a href="{raiz}index.html">Inicio</a></li>{li}<li aria-current="page">{e(pasos[-1][0])}</li></ol></nav>'
+
+
+def shell(titulo, desc, cuerpo, raiz="", ruta="", head=""):
     return f"""<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(titulo)}</title>
-<meta name="description" content="{e(desc)}">
+<meta name="description" content="{e(desc)}"><meta name="theme-color" content="#f1f4f3">{head}
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://api.tunky.net https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="canonical" href="{SITE}{ruta}">
@@ -88,7 +112,7 @@ def shell(titulo, desc, cuerpo, raiz="", ruta=""):
 </head><body>
 <a class="saltar" href="#main">Saltar al contenido</a>
 <header class="top"><a class="marca" href="{raiz}index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 22h24M4 12h24" stroke="#0b8a6a" stroke-width="4"/><path d="M4 22C14 22 18 12 28 12" stroke="#d48a00" stroke-width="4" fill="none"/><circle cx="16" cy="17" r="5" fill="var(--papel)" stroke="var(--tinta)" stroke-width="3"/></svg>Agenda País</a>
-<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}peru2050.html">Perú 2050</a><a href="{raiz}limpieza.html">Limpieza normativa</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a><button class="tema" id="tema-btn" type="button" aria-pressed="false" aria-label="Modo oscuro" title="Modo oscuro">◐</button></nav></header>
+<nav aria-label="Principal"><a href="{raiz}index.html#mapa">Mapa</a><a href="{raiz}index.html#sectores">Sectores</a><a href="{raiz}buscar.html">Buscar</a><a href="{raiz}peru2050.html">Perú 2050</a><a href="{raiz}limpieza.html">Limpieza normativa</a><a href="{raiz}entidades.html">Entidades</a><a href="{raiz}metodo.html">Método</a><button class="tema" id="tema-btn" type="button" aria-pressed="false" aria-label="Modo oscuro" title="Modo oscuro">◐</button></nav></header>
 <main id="main">{cuerpo}</main>
 <footer class="pie"><div class="pie-in">
 <p><b>Agenda País 2026–2056</b> es una propuesta ciudadana independiente, no un plan oficial. Hecha por
@@ -158,17 +182,22 @@ def mapa(secs, raiz="", solo=None):
                 x2, y2 = pos[dep][0], pos[dep][1]
                 con.append(f'<path d="M{x2:.0f} {y2} C{x2:.0f} {(y2+y)/2:.0f} {x:.0f} {(y2+y)/2:.0f} {x:.0f} {y}" class="m-con" data-a="{e(aid)}" data-b="{e(dep)}"/>')
     partes += con
+    ejes = []
     for s in secs:
         y = s["_y"]
         partes.append(f'<line x1="{x0-8}" y1="{y}" x2="{W-24}" y2="{y}" stroke="{s["color"]}" stroke-width="7" stroke-linecap="round"/>')
-        partes.append(f'<a href="{raiz}s/{s["id"]}.html"><rect x="6" y="{y-15}" width="{x0-24}" height="30" rx="15" fill="{s["color"]}"/>'
-                      f'<text x="{6 + (x0-24)/2}" y="{y+5}" class="m-sec" text-anchor="middle">{e(s["nombre_corto"])}</text></a>')
+        # Los rótulos de sector van en un SVG aparte que queda fijo mientras el mapa se desplaza
+        ejes.append(f'<a href="{raiz}s/{s["id"]}.html"><rect x="6" y="{y-15}" width="{x0-24}" height="30" rx="15" fill="{s["color"]}"/>'
+                    f'<text x="{6 + (x0-24)/2}" y="{y+5}" class="m-sec" fill="{texto_sobre(s["color"])}" text-anchor="middle">{e(s["nombre_corto"])}</text></a>')
     for aid, (x, y, s, a) in pos.items():
         etq = f'{a["id"]}: {a.get("titulo","")} ({TIPOS.get(a.get("tipo"), a.get("tipo"))})'
-        partes.append(f'<a href="{raiz}s/{s["id"]}.html#{e(aid)}" class="m-est" data-id="{e(aid)}" data-t="{e(etq)}" aria-label="{e(etq)}">'
-                      f'{glifo(a.get("tipo"), round(x, 1), y, s["color"])}<title>{e(etq)}</title></a>')
-    return (f'<div class="mapa-scroll"><svg class="mapa" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-            f'aria-label="Mapa de las acciones por sector y etapa, 2026 a 2056">{"".join(partes)}</svg></div>')
+        # El área táctil (r=14 → 28 px) es un círculo transparente; la etiqueta vive solo en aria-label (app.js la usa como tooltip)
+        partes.append(f'<a href="{raiz}s/{s["id"]}.html#{e(aid)}" class="m-est" data-id="{e(aid)}" aria-label="{e(etq)}">'
+                      f'<circle cx="{round(x, 1)}" cy="{y}" r="14" fill="transparent"/>{glifo(a.get("tipo"), round(x, 1), y, s["color"])}</a>')
+    return (f'<div class="mapa-wrap"><svg class="mapa-ejes" viewBox="0 0 {x0-12} {H}" width="{x0-12}" height="{H}" role="group" aria-label="Sectores del mapa">{"".join(ejes)}</svg>'
+            f'<div class="mapa-scroll" tabindex="0"><svg class="mapa" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="group" '
+            f'aria-label="Mapa de las acciones por sector y etapa, 2026 a 2056">{"".join(partes)}</svg></div>'
+            f'<p class="m-pista" hidden>Desliza para ver hasta 2056 →</p></div>')
 
 
 def leyenda():
@@ -187,8 +216,9 @@ def balance(secs):
     for a in acc:
         cnt[a.get("tipo")] += 1
     ley = sum(cnt[t] for t in LEY)
+    # Un punto por acción; el título lo pone app.js al pasar el ratón (lo toma de la estación del mapa, sin repetir texto)
     puntos = "".join(
-        f'<span class="pt t-{e(a.get("tipo"))}" data-c="{s["id"]}" title="{e(a["id"])}: {e(a.get("titulo"))}"></span>'
+        f'<span class="pt t-{e(a.get("tipo"))}" data-c="{s["id"]}" data-id="{e(a["id"])}"></span>'
         for s in secs for a in sorted(s.get("acciones", []), key=lambda a: a.get("tipo") in LEY))
     filas = "".join(f'<li><b>{cnt[t]}</b> {e(nom.lower() if t != "accion_ejecutiva" else "acciones del Ejecutivo")}</li>'
                     for t, nom in TIPOS.items() if cnt[t])
@@ -231,7 +261,9 @@ def index(secs):
 <section class="hero"><h1>Agenda País<span>2026–2056</span></h1>
 <p class="bajada">Treinta años, sector por sector: qué construir, qué servicio mejorar, quién responde y qué ley sí hace falta.
 {total} acciones con evidencia, responsables y fuentes.</p></section>
-<section class="bloque" id="mapa"><h2 class="vh">Mapa de acciones</h2>{leyenda()}{mapa(secs)}<p class="nota">Toca una estación para ver la acción. Las curvas grises unen acciones que dependen de otro sector.</p></section>
+<section class="bloque" id="mapa"><h2 class="vh">Mapa de acciones</h2>
+<p class="como"><b>Cómo leer el mapa.</b> Cada línea es un sector y cada estación una acción, puesta en el quinquenio en que empieza. Toca una estación para abrirla. ¿Buscas algo concreto? <a href="buscar.html">Busca por texto, sector o tipo</a>.</p>
+{leyenda()}{mapa(secs)}</section>
 {balance(secs)}
 {resumen_2050(secs)}
 <section class="bloque" id="sectores"><h2>Sectores</h2><ul class="sectores">{filas}</ul>{pend}</section>"""
@@ -240,46 +272,50 @@ def index(secs):
 
 def sector(s, secs):
     d = s.get("diagnostico", {})
-    ind = "".join(f'<li><span class="iv">{e(valor(i)[0])}<small>{e(i.get("unidad",""))}</small></span>{('<span class="ivn">' + e(valor(i)[1]) + '</span>') if valor(i)[1] else ''}<span class="in">{e(i.get("nombre"))}</span>'
+    ind = "".join(f'<li><span class="iv">{e(valor(i)[0])}<small>{e(i.get("unidad",""))}</small></span>{('<span class="ivn">' + txt(valor(i)[1]) + '</span>') if valor(i)[1] else ''}<span class="in">{e(i.get("nombre"))}</span>'
                   f'<span class="if">{enlace(str(i.get("fuente","")) + (" " + str(i.get("anio")) if i.get("anio") else ""), i.get("url"))}</span></li>'
                   for i in d.get("indicadores", []))
-    causas = "".join(f"<li>{e(c)}</li>" for c in d.get("causas", []))
-    metas = "".join(f'<tr><th scope="row">{e(m.get("indicador"))}<small>{e(m.get("referencia",""))}</small></th><td>{e(m.get("linea_base"))}</td>'
+    causas = "".join(f"<li>{txt(c)}</li>" for c in d.get("causas", []))
+    metas = "".join(f'<tr><th scope="row">{e(m.get("indicador"))}<small>{txt(m.get("referencia",""))}</small></th><td>{txt(m.get("linea_base"))}</td>'
                     + "".join(f'<td>{e(m.get(y, ""))}</td>' for y in ("2031", "2036", "2046", "2056")) + "</tr>" for m in s.get("metas", []))
     nombres = {x["id"]: x for x in secs}
-    ids_todas = {a["id"]: x["id"] for x in secs for a in x.get("acciones", [])}
+    ids_todas = {a["id"]: (x["id"], a.get("titulo", "")) for x in secs for a in x.get("acciones", [])}
 
-    def dep(i):
+    def dep(i, con_titulo=False):
+        """Enlace a otra acción; con título visible para que la dependencia se entienda sin abrirla."""
         if i in ids_todas:
-            return f'<a href="{"" if ids_todas[i] == s["id"] else ids_todas[i] + ".html"}#{e(i)}">{e(i)}</a>'
+            sid, tit = ids_todas[i]
+            href = f'{"" if sid == s["id"] else sid + ".html"}#{e(i)}'
+            return f'<a href="{href}" title="{e(tit)}">{e(i)}</a>' + (f' <span class="dep-t">{e(tit)}</span>' if con_titulo else "")
         if re.match(r"^(IA|CIB|GOB|CON|ECO|TAL|SOB|DER)-\d{2}$", i):
-            return f'<a href="{TECH}p/{i}.html" target="_blank" rel="noopener">{e(i)} (Agenda Tech)</a>'
+            return f'<a href="{TECH}p/{i}.html" target="_blank" rel="noopener">{e(i)}</a>' + (' <span class="dep-t">Agenda Legislativa Tech</span>' if con_titulo else " (Agenda Tech)")
         return e(i)
 
     def accion(a):
         ents = ", ".join(f'<a href="../entidades.html#{e(x.get("sigla"))}">{e(x.get("sigla"))}</a> ({e(x.get("rol"))})' for x in a.get("entidades", []))
-        der = "".join(f'<li>{e(x.get("norma"))}: {e(x.get("motivo"))}</li>' for x in a.get("deroga_o_simplifica", []))
+        der = "".join(f'<li>{e(x.get("norma"))}: {txt(x.get("motivo"))}</li>' for x in a.get("deroga_o_simplifica", []))
         fu = ", ".join(enlace(x.get("titulo"), x.get("url")) for x in a.get("fuentes", []))
         agr = a.get("agrupa") or []
         agr_html = ("<dt>Agrupa</dt><dd>" + ", ".join(dep(i) for i in agr) + "</dd>") if agr else ""
-        deps = ", ".join(dep(i) for i in a.get("depende_de") or [])
+        deps = "".join(f"<li>{dep(i, True)}</li>" for i in a.get("depende_de") or [])
         ley = a.get("necesita_ley")
-        return f"""<details class="acc t-{e(a.get('tipo'))}" id="{e(a['id'])}" data-c="{s['id']}">
+        return f"""<details class="acc t-{e(a.get('tipo'))}" id="{e(a['id'])}" data-c="{s['id']}" data-et="{e(a['etapa'])}">
 <summary>{glifo_html(a.get('tipo'), s['color'])}<span class="aid">{e(a['id'])}</span><span class="at">{e(a.get('titulo'))}</span><span class="atipo">{e(TIPOS.get(a.get('tipo'), a.get('tipo')))}</span></summary>
-<div class="acc-in"><p>{e(a.get('que'))}</p>
-<dl><dt>Qué se entrega</dt><dd>{e(a.get('entrega'))}</dd>
-<dt>¿Necesita ley?</dt><dd><b>{e({'si':'Sí','no':'No','parcial':'En parte'}.get(ley, ley))}</b>. {e(a.get('por_que_ley'))}</dd>
+<div class="acc-in"><p>{txt(a.get('que'))}</p>
+<dl><dt>Qué se entrega</dt><dd>{txt(a.get('entrega'))}</dd>
+<dt>¿Necesita ley?</dt><dd><b>{e({'si':'Sí','no':'No','parcial':'En parte'}.get(ley, ley))}</b>. {txt(a.get('por_que_ley'))}</dd>
 <dt>Responsable</dt><dd>{e(a.get('responsable'))}{(' · con ' + ents) if ents else ''}</dd>
-<dt>Financiamiento</dt><dd>{e(a.get('financiamiento'))}</dd><dt>Costo referencial</dt><dd>{e(a.get('costo_referencial'))}</dd>
-<dt>Indicador</dt><dd>{e(a.get('indicador'))}</dd><dt>Evidencia</dt><dd>{e(a.get('evidencia'))}</dd>
-<dt>Riesgo</dt><dd>{e(a.get('riesgo'))}</dd>{agr_html}{('<dt>Perú 2050</dt><dd>' + ', '.join(f'<a href="../peru2050.html#{e(c)}">{e(c)}</a>' for c in a.get('pedn') or []) + '</dd>') if a.get('pedn') else ''}{('<dt>Depende de</dt><dd>' + deps + '</dd>') if deps else ''}
-{('<dt>Deroga o simplifica</dt><dd><ul>' + der + '</ul></dd>') if der else ''}{('<dt>Fuentes</dt><dd>' + fu + '</dd>') if fu else ''}</dl></div></details>"""
+<dt>Financiamiento</dt><dd>{txt(a.get('financiamiento'))}</dd><dt>Costo referencial</dt><dd>{txt(a.get('costo_referencial'))}</dd>
+<dt>Indicador</dt><dd>{txt(a.get('indicador'))}</dd><dt>Evidencia</dt><dd>{txt(a.get('evidencia'))}</dd>
+<dt>Riesgo</dt><dd>{txt(a.get('riesgo'))}</dd>{agr_html}{('<dt>Perú 2050</dt><dd>' + ', '.join(f'<a href="../peru2050.html#{e(c)}">{e(c)}</a>' for c in a.get('pedn') or []) + '</dd>') if a.get('pedn') else ''}{('<dt>Depende de</dt><dd><ul class="deps">' + deps + '</ul></dd>') if deps else ''}
+{('<dt>Deroga o simplifica</dt><dd><ul>' + der + '</ul></dd>') if der else ''}{('<dt>Fuentes</dt><dd>' + fu + '</dd>') if fu else ''}</dl>
+<p class="acc-pie"><a class="copiar" href="#{e(a['id'])}">Copiar enlace a {e(a['id'])}</a></p></div></details>"""
 
     grupos = ""
     for et in ETAPAS:
         L = [a for a in s.get("acciones", []) if a["etapa"] == et]
         if L:
-            grupos += f'<h3 class="etapa">{et.replace("-", "–")}</h3>' + "".join(accion(a) for a in L)
+            grupos += f'<h3 class="etapa" data-et="{et}">{et.replace("-", "–")}</h3>' + "".join(accion(a) for a in L)
     art = "".join(f'<li><a href="{x.get("con")}.html">{e(nombres[x["con"]]["nombre"])}</a>: {e(x.get("como"))}</li>' if x.get("con") in nombres
                   else f'<li><b>{e(x.get("con"))}</b>: {e(x.get("como"))}</li>' for x in s.get("articulacion", []))
     tech = ", ".join(dep(i) for i in s.get("conexion_tech", []))
@@ -292,11 +328,22 @@ def sector(s, secs):
                     f'<p class="intro">Las propuestas de Agenda Legislativa Tech se consolidaron en {e(bal.get("leyes_marco"))} leyes marco, '
                     f'{e(bal.get("paquetes_ejecutivos"))} paquetes del Ejecutivo y {e(bal.get("obras"))} obras o servicios. De las originales, '
                     f'{e(nl.get("no"))} no necesitaban ley y {e(nl.get("parcial"))} solo en parte.</p><p>{e(bal.get("nota",""))}</p></section>')
-    n = len(s.get("acciones", []))
-    nley = sum(1 for a in s.get("acciones", []) if a.get("tipo") in LEY)
+    acc = s.get("acciones", [])
+    n = len(acc)
+    cnt = defaultdict(int)
+    for a in acc:
+        cnt[a.get("tipo")] += 1
+    nley = cnt["ley"] + cnt["reforma_constitucional"]
+    por_et = {et: sum(1 for a in acc if a["etapa"] == et) for et in ETAPAS}
+    et_max = max(ETAPAS, key=lambda et: por_et[et]) if acc else ETAPAS[0]
+    resumen = (f'<ul class="s-resumen" aria-label="Resumen del sector"><li><b>{n}</b> acciones</li><li><b>{nley}</b> necesitan ley</li>'
+               f'<li><b>{cnt["obra"]}</b> obras</li><li><b>{cnt["servicio"]}</b> servicios</li><li><b>{cnt["accion_ejecutiva"]}</b> del Ejecutivo</li>'
+               + (f'<li><b>{cnt["derogacion"]}</b> derogaciones</li>' if cnt["derogacion"] else "")
+               + f'<li>Etapa más cargada: <b>{et_max.replace("-", "–")}</b> ({por_et[et_max]})</li></ul>')
     cuerpo = f"""
-<section class="s-head" data-c="{s['id']}"><p class="migas"><a href="../index.html#sectores">Sectores</a></p><h1>{e(s['nombre'])}</h1>
-<p class="bajada">{e(s.get('lema'))}</p><p class="s-n">{n} acciones, {nley} necesitan ley</p></section>
+{migas("../", ("Sectores", "index.html#sectores"), (s["nombre_corto"], ""))}
+<section class="s-head" data-c="{s['id']}"><h1>{e(s['nombre'])}</h1>
+<p class="bajada">{e(s.get('lema'))}</p>{resumen}</section>
 <nav class="s-nav" aria-label="En esta página"><a href="#hoy">Dónde estamos</a><a href="#vision">A dónde vamos</a><a href="#acciones">Qué hacer</a><a href="#conexiones">Conexiones</a></nav>
 <section class="bloque" id="hoy"><h2>Dónde estamos</h2><div class="prosa">{parrafos(d.get('resumen'))}</div>
 <ul class="indicadores">{ind}</ul>
@@ -306,7 +353,10 @@ def sector(s, secs):
 <div class="tabla-scroll"><table class="metas"><caption>Metas indicativas</caption><thead><tr><th scope="col">Indicador</th><th scope="col">Hoy</th><th scope="col">2031</th><th scope="col">2036</th><th scope="col">2046</th><th scope="col">2056</th></tr></thead><tbody>{metas}</tbody></table></div></section>
 {bal_html}
 <section class="bloque" id="acciones"><h2>Qué hacer</h2>{leyenda()}{mapa(secs, '../', solo=s['id'])}
-<div class="filtros" role="group" aria-label="Filtrar acciones"><button class="chip on" data-f="todas" aria-pressed="true">Todas</button><button class="chip" data-f="sinley" aria-pressed="false">No necesitan ley</button><button class="chip" data-f="ley" aria-pressed="false">Leyes</button></div>
+<div class="filtros" role="group" aria-label="Filtrar por necesidad de ley"><button class="chip on" type="button" data-g="ley" data-f="" aria-pressed="true">Todas</button><button class="chip" type="button" data-g="ley" data-f="sinley" aria-pressed="false">No necesitan ley</button><button class="chip" type="button" data-g="ley" data-f="ley" aria-pressed="false">Leyes</button></div>
+<div class="filtros" role="group" aria-label="Filtrar por tipo"><button class="chip on" type="button" data-g="tipo" data-f="" aria-pressed="true">Todo tipo</button>{"".join(f'<button class="chip" type="button" data-g="tipo" data-f="{t}" aria-pressed="false">{e(TIPOS[t]) if t != "accion_ejecutiva" else "Del Ejecutivo"}</button>' for t in TIPOS if cnt[t])}</div>
+<div class="filtros" role="group" aria-label="Filtrar por etapa"><button class="chip on" type="button" data-g="etapa" data-f="" aria-pressed="true">Toda etapa</button>{"".join(f'<button class="chip" type="button" data-g="etapa" data-f="{et}" aria-pressed="false">{et.replace("-", "–")}</button>' for et in ETAPAS if por_et[et])}</div>
+<p class="nota filtro-n" aria-live="polite"></p>
 <div class="acciones">{grupos}</div></section>
 <section class="bloque" id="conexiones"><h2>Con qué se conecta</h2><ul class="prosa">{art}</ul>
 {('<p>En Agenda Legislativa Tech: ' + tech + '</p>') if tech else ''}</section>
@@ -324,7 +374,7 @@ def valor(i):
 def parrafos(t, n=3):
     """Parte un texto largo en párrafos de ~n oraciones."""
     ors = re.split(r"(?<=[.;])\s+(?=[A-ZÁÉÍÓÚÑ¿])", str(t or ""))
-    return "".join(f"<p>{e(' '.join(ors[k:k+n]))}</p>" for k in range(0, len(ors), n))
+    return "".join(f"<p>{txt(' '.join(ors[k:k+n]))}</p>" for k in range(0, len(ors), n))
 
 
 def glifo_html(tipo, color):
@@ -333,6 +383,7 @@ def glifo_html(tipo, color):
 
 def entidades(secs):
     por = defaultdict(list)
+    nombres = {s["id"]: s["nombre_corto"] for s in secs}
     for s in secs:
         for a in s.get("acciones", []):
             vistos = set()
@@ -343,17 +394,51 @@ def entidades(secs):
                     por[sg].append((s, a, x.get("rol")))
     filas = ""
     for sg in sorted(por, key=lambda k: (-len(por[k]), k)):
-        items = "".join(f'<li><a href="s/{s["id"]}.html#{e(a["id"])}" data-c="{s["id"]}"><span class="dot"></span>{e(a["id"])}</a> {e(a.get("titulo"))} <span class="rol">{e(r)}</span></li>'
-                        for s, a, r in por[sg])
-        filas += f'<details class="ent" id="{e(sg)}" data-q="{e(sg.lower())}"><summary><b>{e(sg)}</b><span>{len(por[sg])} acciones</span></summary><ul>{items}</ul></details>'
-    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Entidades</h1><p class="bajada">Qué le toca a cada entidad del Estado en esta agenda, para que se le pueda pedir cuentas.</p></section>
+        # Solo id, enlace y rol, agrupados por sector: el título de cada acción lo rellena app.js desde data/indice.json
+        # (evita repetir 1 800 títulos). Sin JavaScript quedan los enlaces y el rol.
+        por_sec = defaultdict(list)
+        for s, a, r in por[sg]:
+            por_sec[s["id"]].append((a, r))
+        orden = sorted(por_sec, key=lambda sid: -len(por_sec[sid]))
+        listas = "".join(f'<ul data-c="{sid}" aria-label="{e(nombres[sid])}">' + "".join(f'<li><a href="s/{sid}.html#{e(a["id"])}">{e(a["id"])}</a><i>{e(r)}</i></li>' for a, r in por_sec[sid]) + "</ul>"
+                         for sid in orden)
+        secs_html = "".join(f'<i data-c="{sid}"></i>' for sid in orden)
+        nresp = sum(1 for _, _, r in por[sg] if r == "responsable")
+        filas += (f'<details class="ent" id="{e(sg)}" data-q="{e(sg.lower())}"><summary><b>{e(sg)}</b><span class="ent-sec" aria-hidden="true">{secs_html}</span>'
+                  f'<span>{len(por[sg])} acciones{f", responsable de {nresp}" if nresp else ""}</span></summary>{listas}</details>')
+    cuerpo = f"""{migas("", ("Entidades", ""))}<section class="s-head" data-c="tinta"><h1>Entidades</h1><p class="bajada">Qué le toca a cada entidad del Estado en esta agenda, para que se le pueda pedir cuentas.</p></section>
 <section class="bloque"><label class="buscar">Busca una entidad<input id="q-ent" type="search" placeholder="MINSA, MINEDU, gobiernos regionales…" autocomplete="off"></label>
-<p class="nota">{len(por)} entidades. El responsable es quien ejecuta; las demás participan con el rol indicado.</p><div id="ents">{filas}</div></section>"""
-    return shell("Entidades: Agenda País 2026–2056", "Qué le toca a cada entidad del Estado peruano en la Agenda País 2026–2056.", cuerpo, "", "entidades.html")
+<p class="nota">{len(por)} entidades. El responsable es quien ejecuta; las demás participan con el rol indicado. Los puntos de color son los sectores en que participa.</p><div id="ents">{filas}</div></section>"""
+    return shell("Entidades: Agenda País 2026–2056", "Qué le toca a cada entidad del Estado peruano en la Agenda País 2026–2056.", cuerpo, "", "entidades.html",
+                 head='<link rel="preload" href="data/indice.json" as="fetch" crossorigin>')
+
+
+def buscar(secs):
+    """Buscador global: filtra data/indice.json en el navegador por texto, sector, tipo, etapa, ley y responsable."""
+    resp = sorted({a.get("responsable") for s in secs for a in s.get("acciones", []) if a.get("responsable")})
+    opc_sec = "".join(f'<option value="{s["id"]}">{e(s["nombre"])}</option>' for s in secs)
+    opc_tipo = "".join(f'<option value="{t}">{e(n)}</option>' for t, n in TIPOS.items())
+    opc_et = "".join(f'<option value="{et}">{et.replace("-", "–")}</option>' for et in ETAPAS)
+    opc_resp = "".join(f'<option value="{e(r)}">' for r in resp)
+    total = sum(len(s.get("acciones", [])) for s in secs)
+    cuerpo = f"""{migas("", ("Buscar", ""))}<section class="s-head" data-c="tinta"><h1>Buscar</h1><p class="bajada">Las {total} acciones de la agenda, filtradas por texto, sector, tipo, etapa, necesidad de ley o responsable.</p></section>
+<section class="bloque"><form class="busca" id="busca" role="search" aria-label="Buscar acciones">
+<label class="buscar b-q">Texto<input id="b-q" name="q" type="search" placeholder="anemia, agua potable, trámites…" autocomplete="off"></label>
+<label class="buscar">Sector<select id="b-sector" name="sector"><option value="">Todos</option>{opc_sec}</select></label>
+<label class="buscar">Tipo<select id="b-tipo" name="tipo"><option value="">Todos</option>{opc_tipo}</select></label>
+<label class="buscar">Etapa<select id="b-etapa" name="etapa"><option value="">Todas</option>{opc_et}</select></label>
+<label class="buscar">¿Necesita ley?<select id="b-ley" name="ley"><option value="">Da igual</option><option value="no">No</option><option value="si">Sí</option><option value="parcial">En parte</option></select></label>
+<label class="buscar">Responsable<input id="b-resp" name="resp" list="b-resps" placeholder="MINSA, MEF…" autocomplete="off"><datalist id="b-resps">{opc_resp}</datalist></label>
+<p class="b-botones"><button class="chip on" type="submit">Buscar</button><button class="chip" type="reset">Limpiar</button></p>
+</form>
+<p class="nota" id="b-n" aria-live="polite">Escribe o elige un filtro. Sin JavaScript, usa el <a href="index.html#mapa">mapa</a> o las páginas de sector.</p>
+<ol class="resultados" id="b-res"></ol></section>"""
+    return shell("Buscar: Agenda País 2026–2056", f"Busca entre las {total} acciones de la Agenda País por texto, sector, tipo, etapa, ley o responsable.", cuerpo, "", "buscar.html",
+                 head='<link rel="preload" href="data/indice.json" as="fetch" crossorigin>')
 
 
 def metodo(secs):
-    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Método</h1><p class="bajada">Cómo se hizo y qué no es.</p></section>
+    cuerpo = f"""{migas("", ("Método", ""))}<section class="s-head" data-c="tinta"><h1>Método</h1><p class="bajada">Cómo se hizo y qué no es.</p></section>
 <section class="bloque prosa"><h2>Qué es</h2><p>Una propuesta ciudadana de hoja de ruta a 30 años. No es un plan oficial ni compromete a ninguna entidad. Se alinea al
 Plan Estratégico de Desarrollo Nacional al 2050 y responde a una crítica justa: más leyes no hacen un mejor país. Por eso cada acción dice si de verdad necesita
 una ley o si basta con presupuesto, gestión y decisiones que ya puede tomar el Ejecutivo.</p>
@@ -395,7 +480,7 @@ def peru2050(secs):
             oes += (f'<details class="oe" id="{e(oe["cod"])}"><summary><span class="aec">{e(oe["cod"])}</span><span class="oet">{e(oe["texto"])}</span>'
                     f'<span class="oen">{n_oe} de {t_oe}</span></summary><ul class="aes">{filas}</ul></details>')
         bloques += f'<section class="bloque"><h2>Objetivo nacional {on["n"]}</h2><p class="intro">{e(on["texto"])}</p>{oes}</section>'
-    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Perú 2050</h1>
+    cuerpo = f"""{migas("", ("Perú 2050", ""))}<section class="s-head" data-c="tinta"><h1>Perú 2050</h1>
 <p class="bajada">Cómo se conecta esta agenda con el Plan Estratégico de Desarrollo Nacional al 2050 de CEPLAN: qué acciones aportan a cada una
 de sus {len(aes)} acciones estratégicas y cuáles todavía no tienen ninguna.</p>
 <p class="s-n">{cub} de {len(aes)} acciones estratégicas tienen al menos una acción ({round(100*cub/len(aes))} %). Falta cubrir {len(aes)-cub}.</p></section>
@@ -437,7 +522,7 @@ def limpieza(secs):
     sec_der = "".join(f'<li><a href="s/{s_["id"]}.html#{e(a["id"])}">{e(a["id"])}</a> {e(x.get("norma"))}: {e(x.get("motivo"))}</li>'
                       for s_ in secs for a in s_.get("acciones", []) for x in a.get("deroga_o_simplifica") or [])
     resumen_cats = ", ".join(f"{v} {e(CAT.get(k, k)).lower()}" for k, v in sorted(cats.items(), key=lambda kv: -kv[1]))
-    cuerpo = f"""<section class="s-head" data-c="tinta"><h1>Limpieza normativa</h1>
+    cuerpo = f"""{migas("", ("Limpieza normativa", ""))}<section class="s-head" data-c="tinta"><h1>Limpieza normativa</h1>
 <p class="bajada">Menos leyes y mejores. Normas que se pueden derogar o consolidar porque no tienen efecto, están vencidas, se superponen o
 dan beneficios que nadie evalúa.</p><p class="s-n">{len(ver)} normas verificadas en {len(por_paq)} paquetes de depuración{(": " + resumen_cats) if ver else ""}.</p></section>
 {('<section class="bloque"><h2>Por qué importa</h2><ul class="prosa">' + ctx + '</ul></section>') if ctx else ''}
@@ -449,7 +534,7 @@ adquiridos; cada paquete prevé transición. Es una propuesta ciudadana a revisa
 
 
 def privacidad():
-    cuerpo = """<section class="s-head" data-c="tinta"><h1>Privacidad</h1></section><section class="bloque prosa">
+    cuerpo = migas("", ("Privacidad", "")) + """<section class="s-head" data-c="tinta"><h1>Privacidad</h1></section><section class="bloque prosa">
 <p>Este sitio no pide datos personales. Solo si aceptas, carga Google Analytics con IP anonimizada para saber qué sectores interesan más
 (Ley 29733). Puedes cambiar tu decisión borrando los datos del sitio en tu navegador.</p></section>"""
     return shell("Privacidad: Agenda País", "Política de privacidad de Agenda País.", cuerpo, "", "privacidad.html")
@@ -497,6 +582,7 @@ def main():
     for s in secs:
         (ROOT / f"s/{s['id']}.html").write_text(sector(s, secs))
     (ROOT / "entidades.html").write_text(entidades(secs))
+    (ROOT / "buscar.html").write_text(buscar(secs))
     (ROOT / "metodo.html").write_text(metodo(secs))
     (ROOT / "privacidad.html").write_text(privacidad())
     pg = peru2050(secs)
@@ -504,7 +590,8 @@ def main():
         (ROOT / "peru2050.html").write_text(pg)
     (ROOT / "limpieza.html").write_text(limpieza(secs))
     indice = [{"id": a["id"], "sector": s["id"], "titulo": a.get("titulo"), "tipo": a.get("tipo"), "etapa": a.get("etapa"),
-               "necesita_ley": a.get("necesita_ley"), "responsable": a.get("responsable"), "depende_de": a.get("depende_de", [])}
+               "necesita_ley": a.get("necesita_ley"), "responsable": a.get("responsable"), "depende_de": a.get("depende_de", []),
+               "ents": [x.get("sigla") for x in a.get("entidades") or [] if x.get("sigla")]}
               for s in secs for a in s.get("acciones", [])]
     (ROOT / "data/indice.json").write_text(json.dumps(indice, ensure_ascii=False, separators=(",", ":")))
     # Base del asistente (api.tunky.net/pais/chat la descarga y busca aquí; nada de datos personales)
@@ -522,7 +609,7 @@ def main():
                          for s in secs for a in s.get("acciones", [])],
             "paquetes": paqs}
     (ROOT / "data/chat.json").write_text(json.dumps(chat, ensure_ascii=False, separators=(",", ":")))
-    urls = ["", "peru2050.html", "limpieza.html", "entidades.html", "metodo.html"] + [f"s/{s['id']}.html" for s in secs]
+    urls = ["", "buscar.html", "peru2050.html", "limpieza.html", "entidades.html", "metodo.html"] + [f"s/{s['id']}.html" for s in secs]
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                                       + "".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "</urlset>\n")
     og = ROOT / "og.svg"
