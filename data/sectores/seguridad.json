@@ -86,14 +86,14 @@
         "url": "https://andina.pe/agencia/noticia-inei-52-mujeres-fue-alguna-vez-victima-violencia-parte-su-esposo-o-companero-1053109.aspx"
       }
     ],
-    "brechas": "La violencia se concentra en el territorio: Madre de Dios, Callao, Lima, Tumbes y Puno superan 20 homicidios por 100 000 habitantes según el INEI (2025), el doble del promedio nacional. Lima Metropolitana y Callao tienen más victimización (25,7 %) y más delitos con arma de fuego (14,3 %) que el promedio urbano (ENAPRES jul–dic 2025), y Lima concentró 11 192 denuncias de extorsión en 2025, seguida de La Libertad (4 400) y Piura (2 842) según el MININTER. Las zonas de minería ilegal (Pataz, Madre de Dios, Putumayo) y el VRAEM, que concentra cerca de un tercio de la coca (DEVIDA), tienen poca presencia estatal. Los jóvenes de 15 a 29 años son los más victimizados (INEI). La violencia contra la mujer es masiva: 52 de cada 100 mujeres de 15 a 49 años sufrieron alguna vez violencia de su pareja (ENDES 2024), y 99,5 % de las víctimas de trata registradas en 2024 fueron mujeres, niñas y adolescentes (Congreso, con datos del MININTER). La ENAPRES solo mide zonas urbanas: no hay medición regular de la victimización rural ni indígena.",
+    "brechas": "La violencia se concentra en el territorio: Madre de Dios, Callao, Lima, Tumbes y Puno superan 20 homicidios por 100 000 habitantes según el INEI (2025), el doble del promedio nacional. Lima Metropolitana y Callao tienen más victimización (25,7 %) y más delitos con arma de fuego (14,3 %) que el promedio urbano (ENAPRES jul–dic 2025), y Lima concentró 11 192 denuncias de extorsión en 2025, seguida de La Libertad (4 400) y Piura (2 842) según el MININTER. Las zonas de minería ilegal (Pataz, Madre de Dios, Putumayo) y el VRAEM, que concentra cerca de un tercio de la coca (DEVIDA), tienen poca presencia estatal. Los jóvenes de 15 a 29 años son los más victimizados (INEI). La violencia contra la mujer es masiva: 52 de cada 100 mujeres de 15 a 49 años sufrieron alguna vez violencia de su pareja (ENDES 2024), y 99,5 % de las víctimas de trata registradas en 2024 fueron mujeres, niñas y adolescentes (Congreso, con datos del MININTER). La ENAPRES solo mide zonas urbanas: no hay medición regular de la victimización rural ni indígena. Hay víctimas que las estadísticas casi no muestran: personas LGTBI, cuyas agresiones por prejuicio no tienen una categoría propia en la estadística policial (por verificar); personas con discapacidad; personas privadas de libertad (muertes y violencia en custodia), y dirigentes indígenas y ambientales asesinados en zonas de economías ilegales de Ucayali, Madre de Dios y Huánuco. El Mecanismo intersectorial para la protección de personas defensoras de derechos humanos (DS 004-2021-JUS) existe, pero su cobertura en campo no se mide públicamente.",
     "causas": [
       "Baja certeza de castigo: una condena por cada 76 denuncias de extorsión (2024–2026). La criminología muestra que la probabilidad de ser atrapado disuade mucho más que la severidad de la pena (Nagin, 2013), pero la respuesta normativa ha sido sobre todo subir penas.",
       "Policía con poca capacidad de investigación e inteligencia: déficit de unos 53 000 efectivos, parte de ellos en tareas administrativas, comisarías sin internet ni vehículos (Defensoría, Contraloría 2025) y falta de tecnología para extraer información de celulares incautados.",
       "Cárceles hacinadas y sin control que funcionan como centros de mando del crimen: 142 % de sobrepoblación y 39 de 69 penales sin bloqueadores (INPE 2025).",
       "Economías ilícitas muy rentables —oro con precios récord, coca, trata— que financian a organizaciones criminales y corrompen autoridades locales, con sucesivas prórrogas de la formalización minera.",
-      "Fragmentación institucional: PNP, Ministerio Público, Poder Judicial, INPE y municipios no comparten datos ni metas; la estadística criminal tiene cifras distintas según la fuente (PNP, Fiscalía, SINADEF, INEI).",
-      "Prevención débil: programas como Barrio Seguro no fueron evaluados con rigor y los jóvenes de barrios de alta violencia tienen poca escuela, empleo y salud mental."
+      "Fragmentación institucional: PNP, Ministerio Público, Poder Judicial, INPE y municipios no comparten datos ni metas; la estadística criminal tiene cifras distintas según la fuente (PNP, Fiscalía, SINADEF, INEI). Tampoco existe un registro público consolidado del uso de la fuerza (muertes y lesiones causadas por agentes del Estado), como recomendaron organismos internacionales de derechos humanos tras las protestas de 2022–2023; sin esa rendición de cuentas la política de seguridad pierde legitimidad.",
+      "Prevención débil: programas como Barrio Seguro no fueron evaluados con rigor y los jóvenes de barrios de alta violencia tienen poca escuela, empleo y salud mental. Además, el gasto no se asigna según cuánto delito evita cada sol: no se compara el costo-efectividad del patrullaje focalizado o de la prevención juvenil con el de construir cárceles."
     ]
   },
   "vision_2056": "En 2056 una persona puede caminar de noche, abrir un negocio o manejar una combi sin pagar cupo: la mayoría de homicidios y extorsiones se esclarecen y terminan en condena en meses, las cárceles no tienen hacinamiento ni celulares, y la Policía es una institución profesional, medida y confiable.",
@@ -115,7 +115,7 @@
       "2036": "17 %",
       "2046": "13 %",
       "2056": "10 %",
-      "referencia": "Meta indicativa propia; trayectoria a la mitad en 30 años",
+      "referencia": "Meta indicativa propia; trayectoria a la mitad en 30 años. Desde 2031 la ENAPRES incluye muestra rural e indígena y publica la victimización por sexo, área y lengua materna.",
       "fuente_linea_base": "INEI, ENAPRES"
     },
     {
@@ -141,11 +141,11 @@
     {
       "indicador": "Sobrepoblación penitenciaria (sobre la capacidad de albergue)",
       "linea_base": "142 % (mar-2025)",
-      "2031": "90 %",
-      "2036": "50 %",
+      "2031": "≤ 115 %",
+      "2036": "≤ 80 %",
       "2046": "15 %",
       "2056": "0 %",
-      "referencia": "Estándar: ocupación no mayor a 100 % de la capacidad (Reglas Nelson Mandela, ONU)",
+      "referencia": "Estándar: ocupación no mayor a 100 % de la capacidad (Reglas Nelson Mandela, ONU). Cuenta de la meta 2031: con 101 055 internos y 41 764 plazas, aun si SEG-18 saca a unas 10 000 personas y SEG-17 suma unos cientos de plazas, la sobrepoblación queda cerca de 115 % si la población penal no crece; bajar de ahí exige más plazas con fuente identificada (Invierte.pe o APP) o más alternativas a la prisión.",
       "fuente_linea_base": "INPE"
     },
     {
@@ -177,6 +177,16 @@
       "2056": "45 %",
       "referencia": "Meta indicativa propia",
       "fuente_linea_base": "INEI, ENAPRES"
+    },
+    {
+      "indicador": "Medidas de protección de alto riesgo (Ley 30364) con seguimiento policial verificado",
+      "linea_base": "por verificar (2026)",
+      "2031": "100 %",
+      "2036": "100 %",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "Ley 30364; acción SEG-23. Se reporta por sexo, área urbana o rural y lengua materna de la víctima",
+      "fuente_linea_base": "por verificar (PNP y Poder Judicial)"
     }
   ],
   "acciones": [
@@ -256,9 +266,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Estrategia operativa conjunta PNP–Ministerio Público con instrumentos ya existentes (Ley 32490 y su reglamento DS 009-2026-PCM; DL 1735). Los acuerdos interinstitucionales y protocolos no requieren ley. Se ejecuta respetando el reparto de funciones de la Ley 32130 (investigación policial con conducción jurídica del Ministerio Público) y la autonomía del Ministerio Público (art. 158 de la Constitución).",
       "etapa": "2026-2031",
-      "que": "En cada ciudad con más extorsión (Lima, Trujillo, Piura, Chiclayo, Huaura), un equipo PNP–Fiscalía identifica a los pocos grupos que concentran la violencia, les comunica directamente que el próximo atentado o asesinato provocará la persecución prioritaria de todos los delitos cometidos por los integrantes del grupo (investigación, pedidos de detención con orden judicial, decomiso e investigación financiera), siempre con imputación individual, y cumple esa promesa de manera visible. A la vez ofrece una salida a quienes quieran dejar el grupo (empleo, protección, tratamiento). Se coordina con las asociaciones de transportistas y comerciantes para canalizar denuncias protegidas. Se complementa con la oferta de prevención de SEG-22.",
+      "que": "En cada ciudad con más extorsión (Lima, Trujillo, Piura, Chiclayo, Huaura), un equipo PNP–Fiscalía identifica a los pocos grupos que concentran la violencia, les comunica directamente que el próximo atentado o asesinato provocará la persecución prioritaria de todos los delitos cometidos por los integrantes del grupo (investigación, pedidos de detención con orden judicial, decomiso e investigación financiera), siempre con imputación individual, y cumple esa promesa de manera visible. A la vez ofrece una salida a quienes quieran dejar el grupo (empleo, protección, tratamiento). Se coordina con las asociaciones de transportistas y comerciantes para canalizar denuncias protegidas. Se complementa con la oferta de prevención de SEG-22. La lista de grupos priorizados la aprueba el fiscal coordinador, se basa en investigaciones abiertas, excluye a adolescentes (que se derivan a la justicia penal juvenil del DL 1348 y a SEG-22), no se publica con nombres y se revisa cada seis meses. Toda persona incluida conserva su derecho a defensa y a conocer la imputación cuando se formalice.",
       "evidencia": "Los programas de disuasión focalizada (Boston, Oakland, Cincinnati) muestran reducciones moderadas pero consistentes de la violencia grupal en el metaanálisis de Braga, Weisburd y Turchan (2018). Funciona porque eleva la certeza del castigo para un grupo concreto, lo que según Nagin (2013) disuade más que subir las penas.",
-      "entrega": "Estrategia de disuasión focalizada operando en 5 ciudades al 2028 con lista de grupos priorizados, mensajes realizados y resultados auditados.",
+      "entrega": "Estrategia de disuasión focalizada operando en 5 ciudades al 2028, con número de grupos priorizados (sin nombres), mensajes realizados, ofertas de salida aceptadas y resultados auditados.",
       "responsable": "PNP",
       "entidades": [
         {
@@ -329,6 +339,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-02/SEG-22",
           "decision": "aplicado: SEG-22 pasa a texto como complemento; SEG-22 ya no depende de SEG-02"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Lista de grupos priorizados: presunción de inocencia y adolescentes",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Entrega sugería publicar nombres",
+          "decision": "aplicado"
         }
       ]
     },
@@ -408,10 +428,10 @@
       "id": "SEG-04",
       "titulo": "Construir un laboratorio nacional de criminalística digital, balística y ADN con sedes macrorregionales",
       "tipo": "obra",
-      "necesita_ley": "no",
-      "por_que_ley": "Inversión pública vía Invierte.pe en la PNP y el Instituto de Medicina Legal del Ministerio Público; la base de perfiles genéticos ya tiene base legal en la Ley 32595, que esta acción implementa. No requiere ley nueva.",
+      "necesita_ley": "parcial",
+      "por_que_ley": "Inversión pública vía Invierte.pe en la PNP y el Instituto de Medicina Legal del Ministerio Público; el Banco de Datos de Perfiles Genéticos ya tiene base legal en la Ley 32595, que esta acción implementa. La parte legal es puntual: la Ley 32595 registra perfiles de víctimas que consienten, investigados, procesados y privados de libertad, y su art. 13.2 hace permanente el registro salvo mandato judicial, sin plazos de eliminación. Fijar la eliminación al archivarse el caso o absolverse a la persona y limitar la toma a investigados por delitos graves exige modificar esa ley; no genera gasto.",
       "etapa": "2026-2031",
-      "que": "Se equipan cinco sedes macrorregionales (Lima, Trujillo, Arequipa, Chiclayo y una amazónica) con extracción forense de celulares, análisis de redes y criptoactivos, balística comparativa automatizada para vincular casquillos de distintos crímenes, y la implementación del Banco Nacional de Datos de Perfiles Genéticos creado por la Ley 32595, con protocolos de cadena de custodia, acceso auditado y control judicial para la toma de muestras a personas no condenadas. Las armas y casquillos incautados se registran y comparan de oficio; los celulares incautados a extorsionadores se analizan en días, no en meses. Se forman peritos con carrera propia.",
+      "que": "Se equipan cinco sedes macrorregionales (Lima, Trujillo, Arequipa, Chiclayo y una amazónica) con extracción forense de celulares, análisis de redes y criptoactivos, balística comparativa automatizada para vincular casquillos de distintos crímenes, y la implementación del Banco Nacional de Datos de Perfiles Genéticos creado por la Ley 32595, con protocolos de cadena de custodia, acceso auditado y control judicial para la toma de muestras a personas no condenadas. Las armas y casquillos incautados se registran y comparan de oficio; los celulares incautados a extorsionadores se analizan en días, no en meses. Se forman peritos con carrera propia. Se propone modificar la Ley 32595 y su reglamento para que: la toma de muestra a investigados proceda solo por delitos graves y con orden judicial; el perfil del investigado se cancele de oficio dentro de los 30 días de archivarse la investigación o de absolverse a la persona; las víctimas y los familiares de personas desaparecidas den consentimiento informado y puedan pedir la cancelación; se prohíban las búsquedas por parentesco y cualquier uso fuera de la investigación penal, y la Autoridad Nacional de Protección de Datos Personales audite el banco cada año con informe público. Antes de operar se hace la evaluación de impacto en protección de datos (DS 016-2024-JUS) y se registra el banco ante esa autoridad. Las bases de compra exigen formatos de evidencia abiertos o documentados, exportación completa de datos y cláusulas de salida (DIG-12). Esta obra es la capacidad forense en la que se apoya DIG-08 (delitos informáticos).",
       "evidencia": "Fiscales especializados han reportado que la PNP carece de tecnología para extraer información de celulares incautados (declaraciones recogidas por la prensa; por verificar fuente oficial). La identificación balística automatizada y las bases de ADN aumentan el esclarecimiento de delitos con arma de fuego y reincidentes en los países que las usan (por verificar evaluación aplicable a Perú).",
       "entrega": "Cinco laboratorios macrorregionales operativos al 2031 con tiempos de peritaje digital menores a 15 días.",
       "responsable": "PNP",
@@ -435,18 +455,32 @@
         {
           "sigla": "SUCAMEC",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Invierte.pe (presupuesto del sector Interior), endeudamiento con banca multilateral o cooperación internacional para equipamiento.",
       "costo_referencial": "no estimado",
-      "indicador": "Días promedio para entregar un peritaje de celular; porcentaje de casquillos incautados comparados en la base balística.",
+      "indicador": "Días promedio para entregar un peritaje de celular; porcentaje de casquillos incautados comparados en la base balística. Perfiles de investigados cancelados dentro de los 30 días del archivo o la absolución (meta 100 %).",
       "deroga_o_simplifica": [],
-      "depende_de": [],
+      "depende_de": [
+        "DIG-12"
+      ],
       "riesgo": "Que se compre equipo sin peritos ni mantenimiento, o que se licite sin estándares abiertos y quede cautivo de un proveedor.",
       "fuentes": [
         {
           "titulo": "LP Derecho – Ley 32595: crean el Banco Nacional de Datos de Perfiles Genéticos para investigaciones y procesos penales",
           "url": "https://lpderecho.pe/ley-32595-crean-banco-datos-perfiles-geneticos-investigaciones-procesos-penales/"
+        },
+        {
+          "titulo": "El Peruano – Ley 32595, Banco Nacional de Datos de Perfiles Genéticos (16-may-2026)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2516162-1"
+        },
+        {
+          "titulo": "LP Derecho – Reglamento de la Ley de Protección de Datos Personales (DS 016-2024-JUS)",
+          "url": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
         }
       ],
       "pedn": [
@@ -467,6 +501,26 @@
         {
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-04/SEG-05",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Ley 32595 sin plazos de eliminación ni límites",
+          "decision": "aplicado: como el art. 13.2 hace permanente el registro, se propone modificar la ley (necesita_ley pasa a parcial)"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador que mida las garantías",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Formatos abiertos y cláusulas de salida en la compra",
+          "decision": "aplicado: DIG-12 en depende_de; DIG-08 se menciona en el texto (DIG-08 ya depende de SEG-04)"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Evaluación de impacto y ANPD para datos genéticos",
           "decision": "aplicado"
         }
       ]
@@ -522,6 +576,10 @@
         {
           "titulo": "LP Derecho – TC declara infundada la demanda contra la Ley 32130",
           "url": "https://lpderecho.pe/tc-declara-infundada-demanda-contra-la-ley-32130-la-investigacion-preliminar-esta-a-cargo-de-la-pnp-con-la-conduccion-juridica-del-mp/"
+        },
+        {
+          "titulo": "TC – Sentencia 83/2026 (Exp. 00020-2024-PI y 00024-2024-PI, Ley 32130)",
+          "url": "https://www.tc.gob.pe/jurisprudencia/2026/00020-2024-AI.pdf"
         }
       ],
       "pedn": [
@@ -532,6 +590,11 @@
         {
           "rol": "seguridad",
           "hallazgo": "'Conducción fiscal' desactualizada tras la Ley 32130",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fuente de la sentencia del TC sobre la Ley 32130",
           "decision": "aplicado"
         }
       ]
@@ -570,7 +633,7 @@
         }
       ],
       "financiamiento": "Presupuesto del sector Interior; la escala remunerativa por especialidad requiere iniciativa del Ejecutivo y financiamiento en la ley de presupuesto.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Banda indicativa (cálculo propio, por validar con el MEF): una bonificación por especialidad de investigación de S/ 500 a 1 000 mensuales para 10 000 detectives, con 14 pagos al año, cuesta entre S/ 70 y 140 millones anuales. El ingreso lateral de civiles se financia con las plazas administrativas liberadas en SEG-09. Se evita un aumento general sin evaluación: con unos 138 000 efectivos, cada S/ 100 mensuales para todos costaría cerca de S/ 190 millones al año.",
       "indicador": "Porcentaje de ascensos decididos con evaluación de desempeño externa; número de detectives con especialidad y permanencia mayor a 5 años.",
       "deroga_o_simplifica": [
         {
@@ -615,6 +678,11 @@
           "rol": "spij",
           "hallazgo": "Citar TUO D.S. 006-2024-IN tras DL 1609",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Escala por especialidad sin banda de costo",
+          "decision": "aplicado"
         }
       ]
     },
@@ -625,7 +693,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "El régimen disciplinario policial está en la Ley 30714: acortar plazos y precisar la inhabilitación de destituidos requiere modificarla. Las cámaras corporales pueden implementarse por DS con protocolo de datos personales (Ley 29733). La auditoría patrimonial con datos de SUNAT, entidades financieras o UIF requiere autorización legal expresa o pedido fiscal o judicial (reserva tributaria y secreto bancario, art. 2.5 de la Constitución); mientras tanto se usa la información pública de SUNARP y de las declaraciones juradas, y los casos con indicios se derivan al Ministerio Público.",
       "etapa": "2026-2031",
-      "que": "Se modifica la Ley 30714 para que las faltas muy graves (vínculo con organizaciones criminales, cobro de cupos, filtración de operativos) se resuelvan en plazos máximos de seis meses y la destitución inhabilite de forma permanente para reingresar a la PNP y a cargos de seguridad pública. La Inspectoría General de la PNP y la oficina de integridad del MININTER cruzan las declaraciones juradas de ingresos, bienes y rentas con información pública de SUNARP y, cuando hay indicios de desbalance, derivan el caso al Ministerio Público para que pida al juez el levantamiento del secreto bancario y de la reserva tributaria (art. 2.5 de la Constitución); la UIF reporta operaciones sospechosas según su ley. Los policías de patrullaje y control en carreteras usan cámaras corporales, empezando por las unidades con más quejas, con un protocolo aprobado por DS que fije finalidad, plazos de retención, acceso de la defensa y de la víctima, y custodia fuera de la unidad, conforme a la Ley 29733 de protección de datos personales.",
+      "que": "Se modifica la Ley 30714 para que las faltas muy graves (vínculo con organizaciones criminales, cobro de cupos, filtración de operativos) se resuelvan en plazos máximos de seis meses y la destitución inhabilite de forma permanente para reingresar a la PNP y a cargos de seguridad pública. La Inspectoría General de la PNP y la oficina de integridad del MININTER cruzan las declaraciones juradas de ingresos, bienes y rentas con información pública de SUNARP y, cuando hay indicios de desbalance, derivan el caso al Ministerio Público para que pida al juez el levantamiento del secreto bancario y de la reserva tributaria (art. 2.5 de la Constitución); la UIF reporta operaciones sospechosas según su ley. Los policías de patrullaje y control en carreteras usan cámaras corporales, empezando por las unidades con más quejas, con un protocolo aprobado por DS que fije finalidad, plazos de retención, acceso de la defensa y de la víctima, y custodia fuera de la unidad, conforme a la Ley 29733 de protección de datos personales. Toda persona intervenida puede pedir copia de la grabación de su intervención en 10 días hábiles (derecho de acceso de la Ley 29733). Las quejas por abuso pueden presentarse también ante la Defensoría del Pueblo y la oficina de integridad del MININTER, que publican estadísticas trimestrales por unidad.",
       "evidencia": "La corrupción policial reduce la denuncia y la cooperación ciudadana: solo 19 % de las víctimas denuncia (ENAPRES 2025). Estudios de cámaras corporales muestran resultados mixtos en uso de la fuerza y quejas, por lo que se implementan con evaluación aleatorizada por unidades (por verificar efecto en contexto latinoamericano).",
       "entrega": "Procesos disciplinarios por faltas muy graves resueltos en menos de 6 meses al 2029 y 100 % de policías de carreteras y patrullaje en puntos calientes con cámaras corporales al 2031.",
       "responsable": "MININTER",
@@ -649,6 +717,10 @@
         {
           "sigla": "SUNARP",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto del sector Interior para cámaras y almacenamiento; reasignación de personal de inspectoría.",
@@ -700,6 +772,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-06/SEG-07",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Acceso de la persona grabada y queja externa",
+          "decision": "aplicado"
         }
       ]
     },
@@ -712,7 +789,7 @@
       "etapa": "2026-2031",
       "que": "Se reemplazan o rehabilitan por portafolio las comisarías básicas en peor estado, empezando por las de los 50 distritos con más delitos, con un diseño tipo (atención al público separada, sala para víctimas de violencia, carceletas seguras), agua, energía, internet de banda ancha y patrulleros con mantenimiento contratado por desempeño. La conectividad se coordina con el despliegue de DIG-17. Toda comisaría recibe denuncias en el sistema digital interoperable con la Fiscalía para que la víctima reciba constancia y número de seguimiento.",
       "evidencia": "La Defensoría encontró que 45,3 % de la flota de las comisarías está inoperativa y 26 % no tiene internet; la Contraloría (operativo 2025) halló más de 1 700 patrulleros inoperativos y comisarías con más de 30 años de antigüedad. Sin infraestructura ni conectividad, la denuncia digital y la gestión por datos son imposibles.",
-      "entrega": "300 comisarías básicas repuestas o rehabilitadas con diseño tipo al 2031 y 100 % de comisarías conectadas a internet al 2028.",
+      "entrega": "300 comisarías básicas repuestas o rehabilitadas con diseño tipo al 2031 y 100 % de comisarías conectadas a internet al 2028. La línea base es el último Censo Nacional de Comisarías del INEI (el de 2015 reportó cerca de 42 % con conexión propia y adecuada; dato por actualizar).",
       "responsable": "MININTER",
       "entidades": [
         {
@@ -736,13 +813,14 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Invierte.pe, Obras por Impuestos (Ley 29230) y APP de mantenimiento de flota; los gobiernos regionales pueden cofinanciar.",
+      "financiamiento": "Invierte.pe, Obras por Impuestos (Ley 29230) y APP de mantenimiento de flota; los gobiernos regionales pueden cofinanciar. El pago mensual del servicio de internet no lo cubre Invierte.pe: se paga con el presupuesto del pliego Interior y, en zonas sin oferta comercial, con proyectos del FITEL (DIG-03).",
       "costo_referencial": "no estimado",
       "indicador": "Porcentaje de comisarías con internet, servicios básicos y flota operativa mayor a 80 %.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "SEG-10",
-        "EST-07"
+        "EST-07",
+        "DIG-03"
       ],
       "riesgo": "Que se dispersen obras pequeñas por presión política sin priorizar por delitos, o que las obras se paralicen como otras inversiones del sector.",
       "fuentes": [
@@ -753,6 +831,10 @@
         {
           "titulo": "Caretas – Contraloría detecta crisis logística en comisarías: más de 1 700 patrulleros inoperativos",
           "url": "https://caretas.pe/?p=783681"
+        },
+        {
+          "titulo": "INEI – Censo Nacional de Comisarías, resultados",
+          "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/resultados_comisarias.pdf"
         }
       ],
       "pedn": [
@@ -763,6 +845,11 @@
           "rol": "jurista",
           "hallazgo": "Depende de DIG-26, de etapa posterior",
           "decision": "aplicado: se quita DIG-26; DIG-17 se menciona en el texto (es de escuelas y postas, no prerrequisito)"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Conectividad sin pago recurrente, dependencia ni línea base",
+          "decision": "aplicado: DIG-03 en depende_de; DIG-17 cubre escuelas y postas, no comisarías"
         }
       ]
     },
@@ -773,7 +860,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La asignación de personal y la contratación de civiles son decisiones de gestión del MININTER y la PNP (DS, resoluciones ministeriales y el régimen de la Ley del Servicio Civil). No requiere ley.",
       "etapa": "2026-2031",
-      "que": "Se hace un censo de funciones de todo el personal policial y se reemplaza progresivamente a los efectivos que hacen tareas administrativas, logísticas, de tránsito delegable o de custodia de instalaciones con personal civil o servicios contratados, más baratos que un policía formado. Se revisan las asignaciones de seguridad personal a autoridades y exautoridades con criterios de riesgo verificables. Los efectivos liberados pasan a comisarías e investigación.",
+      "que": "Se hace un censo de funciones de todo el personal policial y se reemplaza progresivamente a los efectivos que hacen tareas administrativas, logísticas, de tránsito delegable o de custodia de instalaciones con personal civil o servicios contratados, más baratos que un policía formado. Se revisan las asignaciones de seguridad personal a autoridades y exautoridades con criterios de riesgo verificables. Los efectivos liberados pasan a comisarías e investigación. Los servicios contratados para custodia se rigen por la Ley 28879 y la supervisión de la SUCAMEC, no portan armas largas ni ejercen funciones de control de personas, y registran sus incidentes de uso de la fuerza.",
       "evidencia": "El propio MININTER informó ante el Congreso que unos 5 000 efectivos cumplen funciones administrativas sin patrullar, y que solo 39 % del personal estaría destinado a comisarías (análisis de prensa con datos a junio de 2025; por verificar con documento oficial del MININTER). Liberar personal formado es más rápido que formar nuevos policías, que toma años.",
       "entrega": "Al menos 5 000 policías reasignados a comisarías e investigación al 2028, con censo de funciones publicado.",
       "responsable": "MININTER",
@@ -822,6 +909,11 @@
           "rol": "seguridad",
           "hallazgo": "Cifra de 39 % proviene de columna de opinión",
           "decision": "aplicado: marcada por verificar; no hallé documento oficial"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Reglas de uso de la fuerza para custodia privada",
+          "decision": "aplicado"
         }
       ]
     },
@@ -830,9 +922,9 @@
       "titulo": "Integrar en una central única de emergencias el 105, serenazgo y videovigilancia",
       "tipo": "servicio",
       "necesita_ley": "no",
-      "por_que_ley": "Se ordena por DS multisectorial refrendado por MININTER, MINSA y PCM, en el marco del DL 1218 (videovigilancia), la Ley 27933 y la Ley 29733 de protección de datos personales. La identificación biométrica remota en tiempo real no puede habilitarse por DS: requeriría ley con control judicial.",
+      "por_que_ley": "Se ordena por DS multisectorial refrendado por MININTER, MINSA y PCM, en el marco del DL 1218 (videovigilancia), la Ley 27933 y la Ley 29733 de protección de datos personales. El Reglamento de la Ley 31814 (DS 115-2025-PCM, art. 23.1) ya prohíbe la identificación biométrica en tiempo real para categorizar personas en espacios públicos, salvo excepciones tasadas (alcance exacto por verificar); esta acción no la usa, y cualquier excepción adicional requeriría ley con control judicial.",
       "etapa": "2026-2031",
-      "que": "Se crea una central única de emergencias por región con un número nacional, que recibe llamadas de policía, bomberos, ambulancias y serenazgo, despacha la unidad más cercana con geolocalización y registra tiempos de respuesta. Las cámaras municipales y privadas que voluntariamente se conecten envían video a la central bajo reglas de protección de datos, retención limitada y acceso auditado. Se empieza por Lima–Callao, La Libertad y Piura. No se usa identificación biométrica remota en tiempo real sin una ley que la autorice con control judicial; el video se conserva por un plazo máximo definido (p. ej., 30 días salvo requerimiento fiscal) y todo acceso queda registrado y es auditable por la Autoridad Nacional de Protección de Datos Personales (Ley 29733).",
+      "que": "Se crea una central única de emergencias por región con un número nacional, que recibe llamadas de policía, bomberos, ambulancias y serenazgo, despacha la unidad más cercana con geolocalización y registra tiempos de respuesta. Las cámaras municipales y privadas que voluntariamente se conecten envían video a la central bajo reglas de protección de datos, retención limitada y acceso auditado. Se empieza por Lima–Callao, La Libertad y Piura. No se usa identificación biométrica remota en tiempo real sin una ley que la autorice con control judicial; el video se conserva por un plazo máximo definido (p. ej., 30 días salvo requerimiento fiscal) y todo acceso queda registrado y es auditable por la Autoridad Nacional de Protección de Datos Personales (Ley 29733). La PCM-SGTD y el MININTER aprueban un estándar técnico abierto de interoperabilidad de cámaras y despacho (por ejemplo, ONVIF para video), y el software de la central se contrata con entrega de código y cláusulas de salida (DIG-12), para replicarlo en las regiones sin quedar atado a un proveedor.",
       "evidencia": "El PEDN (AE4.4.5) prioriza la conectividad integrada de centrales de emergencias. Hoy las centrales de PNP y serenazgo no comparten despacho ni datos, lo que duplica patrullaje y alarga tiempos de respuesta (diagnóstico del Plan Nacional de Seguridad Ciudadana; por verificar cifras de tiempos).",
       "entrega": "Centrales únicas de emergencia operativas en Lima–Callao y 5 regiones al 2031, con tiempos de respuesta publicados.",
       "responsable": "MININTER",
@@ -868,6 +960,10 @@
         {
           "sigla": "ANPD",
           "rol": "supervisora"
+        },
+        {
+          "sigla": "PCM-SGTD",
+          "rol": "rectora"
         }
       ],
       "financiamiento": "Invierte.pe y APP de servicios tecnológicos; cofinanciamiento municipal.",
@@ -877,13 +973,18 @@
       "depende_de": [
         "SEG-11",
         "DIG-02",
-        "DIG-01"
+        "DIG-01",
+        "DIG-12"
       ],
       "riesgo": "Que se compren cámaras y software de reconocimiento sin reglas de privacidad ni capacidad de respuesta, o que cada municipio compre sistemas incompatibles.",
       "fuentes": [
         {
           "titulo": "El Peruano – DL 1218, que regula el uso de las cámaras de videovigilancia",
           "url": "https://busquedas.elperuano.pe/dispositivo/NL/1291565-8"
+        },
+        {
+          "titulo": "El Peruano – DS 115-2025-PCM, Reglamento de la Ley 31814 (inteligencia artificial)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
         }
       ],
       "pedn": [
@@ -904,6 +1005,16 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar DS 115-2025-PCM sobre biometría remota en tiempo real",
+          "decision": "aplicado, sin comillas y con el alcance exacto por verificar"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Estándar abierto de interoperabilidad y código entregado",
+          "decision": "aplicado: DIG-12 en depende_de y PCM-SGTD en entidades"
         }
       ]
     },
@@ -914,7 +1025,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 31297, Ley del Servicio de Serenazgo Municipal, y su reglamento (DS 009-2022-IN, modificado por los DS 009-2024-IN y 015-2025-IN) ya fijan el marco; los estándares adicionales y el patrullaje integrado se aprueban modificando ese reglamento. El incentivo se da por el Programa de Incentivos a la Mejora de la Gestión Municipal (MEF). No requiere ley.",
       "etapa": "2026-2031",
-      "que": "Se actualizan y exigen los estándares de la Ley 31297 para el serenazgo (selección, capacitación, uso de medios de defensa, registro de intervenciones) y se condiciona parte de las transferencias del Plan de Incentivos a que las municipalidades patrullen en conjunto con la PNP en los puntos calientes definidos (SEG-01), compartan datos y midan resultados. Las municipalidades pequeñas pueden mancomunar el servicio.",
+      "que": "Se actualizan y exigen los estándares de la Ley 31297 para el serenazgo (selección, capacitación, uso de medios de defensa, registro de intervenciones) y se condiciona parte de las transferencias del Plan de Incentivos a que las municipalidades patrullen en conjunto con la PNP en los puntos calientes definidos (SEG-01), compartan datos y midan resultados. Las municipalidades pequeñas pueden mancomunar el servicio. Los estándares incluyen capacitación certificada en derechos humanos y en uso proporcional de los medios de defensa (con trato a personas con discapacidad, LGTBI y migrantes), la prohibición de retener o despojar de bienes a comerciantes ambulantes sin acta y sin presencia policial, y un canal de queja con respuesta en 15 días cuyo resultado se reporta a la Defensoría del Pueblo.",
       "evidencia": "La ENAPRES (jul–dic 2025) muestra que la población con vigilancia en su barrio bajó de 57,7 % a 53,3 % en un año. El patrullaje sin coordinación duplica recursos; la focalización conjunta concentra presencia donde el delito ocurre (Braga et al., 2019).",
       "entrega": "Estándares nacionales de serenazgo aprobados en 2027 y 200 municipalidades con patrullaje integrado medido al 2030.",
       "responsable": "MININTER",
@@ -975,6 +1086,11 @@
         {
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-01/SEG-11",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Capacitación en derechos humanos y canal de queja",
           "decision": "aplicado"
         }
       ]
@@ -1056,7 +1172,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La interdicción, el control de insumos y la presencia multisectorial se ejecutan con normas vigentes (DL 1100, DL 1103, DL 1107) y la Política Nacional Multisectorial de lucha contra la minería ilegal; los ajustes penales a la cadena delictiva ya están delegados por la Ley 32743 (num. 2.1.8.a). No requiere ley adicional.",
       "etapa": "2026-2031",
-      "que": "En Pataz, Madre de Dios (La Pampa y corredores), Putumayo, Puno (La Rinconada) y Condorcanqui se pasa de operativos esporádicos a presencia permanente: bases interinstitucionales con PNP, fiscalía ambiental y contra la criminalidad organizada, SUNAT y OEFA, control en los accesos y destrucción de maquinaria con registro judicial. El REINFO se cierra a su vencimiento sin nuevas prórrogas, con la transición de la Ley MAPE (MIN-04, MIN-05). El control de combustible, explosivos, insumos y maquinaria se ejecuta según MIN-07; esta acción aporta la ocupación territorial. Las Fuerzas Armadas participan en apoyo a la PNP solo en los supuestos del DL 1095, con plazo, control del Congreso y reglas de uso de la fuerza públicas; la conducción de la interdicción es policial y fiscal. En territorios de pueblos indígenas la instalación de bases se coordina con sus organizaciones representativas y, si implica medidas administrativas que afecten derechos colectivos, se consulta conforme al Convenio 169 de la OIT y la Ley 29785.",
+      "que": "En Pataz, Madre de Dios (La Pampa y corredores), Putumayo, Puno (La Rinconada) y Condorcanqui se pasa de operativos esporádicos a presencia permanente: bases interinstitucionales con PNP, fiscalía ambiental y contra la criminalidad organizada, SUNAT y OEFA, control en los accesos y destrucción de maquinaria con registro judicial. El REINFO se cierra a su vencimiento sin nuevas prórrogas, con la transición de la Ley MAPE (MIN-04, MIN-05). El control de combustible, explosivos, insumos y maquinaria se ejecuta según MIN-07; esta acción aporta la ocupación territorial. Las Fuerzas Armadas participan en apoyo a la PNP solo en los supuestos del DL 1095, con plazo, control del Congreso y reglas de uso de la fuerza públicas; la conducción de la interdicción es policial y fiscal. En territorios de pueblos indígenas la instalación de bases se coordina con sus organizaciones representativas y, si implica medidas administrativas que afecten derechos colectivos, se consulta conforme al Convenio 169 de la OIT y la Ley 29785. Cada base reporta cada mes a la Defensoría del Pueblo y al Ministerio Público las intervenciones con uso de la fuerza y las personas detenidas, heridas o fallecidas. La destrucción de maquinaria se hace con acta fiscal e inventario y distingue a mineros de subsistencia (como las pallaqueras) de las organizaciones criminales. Los operativos aplican el protocolo de identificación de víctimas de trata (SEG-15) con fiscales de familia para menores de edad, y los dirigentes amenazados se incorporan al Mecanismo intersectorial de protección de personas defensoras (DS 004-2021-JUS).",
       "evidencia": "Madre de Dios tiene la mayor tasa de homicidios del país (INEI, 2025). Las intervenciones episódicas (operativos de días) muestran retorno rápido de la actividad; la experiencia de la Operación Mercurio (2019) en La Pampa redujo la deforestación mientras hubo presencia sostenida, según monitoreo satelital de MAAP (por verificar efecto de largo plazo).",
       "entrega": "Bases interinstitucionales permanentes en 5 corredores de minería ilegal al 2028, con reporte semestral de deforestación, homicidios y oro incautado.",
       "responsable": "PCM",
@@ -1092,11 +1208,15 @@
         {
           "sigla": "MINAM",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto del PP de reducción de la minería ilegal y del sector Interior; parte de lo recaudado por decomisos.",
       "costo_referencial": "no estimado",
-      "indicador": "Hectáreas deforestadas por minería ilegal (monitoreo satelital); homicidios en las provincias intervenidas.",
+      "indicador": "Hectáreas deforestadas por minería ilegal (monitoreo satelital); homicidios en las provincias intervenidas. Denuncias por uso excesivo de la fuerza o detención arbitraria en los corredores intervenidos (registro de la Defensoría del Pueblo).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "MIN-04",
@@ -1147,6 +1267,16 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Registro de uso de la fuerza, trata y defensores",
+          "decision": "aplicado; SEG-15 se cita en el texto (SEG-15 ya depende de SEG-13)"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador que mida abusos",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1157,7 +1287,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Se ejecuta con la Estrategia Nacional de Lucha contra las Drogas, el PP de desarrollo alternativo (DEVIDA) y normas vigentes de insumos químicos (DL 1126). No requiere ley.",
       "etapa": "2026-2031",
-      "que": "En el VRAEM y el Putumayo se consolida el desarrollo alternativo integral con títulos de propiedad que respetan los derechos territoriales de comunidades nativas y campesinas, caminos, asistencia técnica y compras para cacao y café, condicionado a territorios libres de coca ilícita. Se controla el ingreso de insumos químicos con trazabilidad de SUNAT y se refuerza el control de contenedores en el Callao, Paita y Chancay, por donde sale la cocaína. La erradicación se concentra en zonas con alternativa económica ya instalada para que no rebrote.",
+      "que": "En el VRAEM y el Putumayo se consolida el desarrollo alternativo integral (caminos, asistencia técnica y compras para cacao y café) en los territorios que acuerden retirar la coca ilícita. La titulación individual y comunal se hace sin ese condicionamiento, respetando los derechos territoriales de las comunidades nativas y campesinas, y se respeta el uso tradicional de la hoja de coca registrado por ENACO. Se controla el ingreso de insumos químicos con trazabilidad de SUNAT y se refuerza el control de contenedores en el Callao, Paita y Chancay, por donde sale la cocaína. La erradicación se concentra en zonas con alternativa económica ya instalada para que no rebrote.",
       "evidencia": "El cultivo de coca cayó por tercer año seguido hasta 84 546 hectáreas en 2025 (DEVIDA–UNODC); en 2024 el VRAEM había bajado 1 908 ha. El caso de San Martín en los 2000 es la experiencia peruana más citada de desarrollo alternativo con reducción sostenida (UNODC); la erradicación sin alternativa tiende a desplazar el cultivo.",
       "entrega": "Reducción de la coca a 70 000 ha al 2031 y escáneres de contenedores con inspección de riesgo en los tres principales puertos al 2029.",
       "responsable": "DEVIDA",
@@ -1187,12 +1317,12 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "PP de desarrollo alternativo y PP de control de drogas; cooperación internacional (EE. UU., Unión Europea).",
+      "financiamiento": "PP 0072 de desarrollo alternativo (DEVIDA; PIM 2026 de S/ 233 millones); inversión de la SUNAT en escáneres de contenedores vía Invierte.pe y su programa de fiscalización aduanera (PP 0110); aportes de los terminales portuarios según sus contratos de concesión; cooperación internacional (EE. UU., Unión Europea).",
       "costo_referencial": "no estimado",
       "indicador": "Hectáreas de coca (DEVIDA); toneladas de cocaína incautadas en puertos.",
       "deroga_o_simplifica": [],
       "depende_de": [],
-      "riesgo": "Que la caída del precio del cacao o la retirada de la cooperación reactive la coca; corrupción en puertos.",
+      "riesgo": "Que la caída del precio del cacao o la retirada de la cooperación reactive la coca; corrupción en puertos. El PP 0074 de control de la oferta de drogas tenía un PIM 2026 de S/ 108 millones y solo 1,6 % devengado a la fecha de corte (MEF): no es una fuente creíble para los escáneres si no mejora su ejecución.",
       "fuentes": [
         {
           "titulo": "DEVIDA – Perú reduce en 5,8 % la superficie de cultivos de coca (monitoreo 2025)",
@@ -1201,6 +1331,10 @@
         {
           "titulo": "DEVIDA – Perú reduce por segundo año consecutivo los cultivos de coca (Monitoreo 2024)",
           "url": "https://www.gob.pe/institucion/devida/noticias/1195330-peru-reduce-por-segundo-ano-consecutivo-los-cultivos-de-coca"
+        },
+        {
+          "titulo": "MEF – Consulta Amigable (PP 0072, 0074 y 0110, PIM y devengado 2026)",
+          "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
         }
       ],
       "pedn": [
@@ -1226,6 +1360,16 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Titulación condicionada a territorios libres de coca",
+          "decision": "aplicado: el condicionamiento queda solo en el desarrollo alternativo"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0074 casi no ejecuta: fuente no creíble",
+          "decision": "aplicado: PP 0072, SUNAT y terminales; baja ejecución del PP 0074 en el riesgo"
         }
       ]
     },
@@ -1236,7 +1380,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 28950 y la Política Nacional frente a la Trata de Personas al 2030 ya dan el marco; se requiere presupuesto, personal especializado y protocolos, no una ley nueva.",
       "etapa": "2026-2031",
-      "que": "Se amplían las fiscalías especializadas en trata en las regiones con más casos (Lima, Madre de Dios, Loreto, Puno, Cusco, Tumbes) y se crea una red de albergues temporales y de reintegración gestionados con gobiernos regionales y organizaciones sociales. La PNP, MIGRACIONES, los inspectores de SUNAFIL y los fiscalizadores de minería usan un protocolo único para detectar víctimas en bares de zonas mineras, talleres y redes en línea, sin criminalizarlas ni deportarlas.",
+      "que": "Se amplían las fiscalías especializadas en trata en las regiones con más casos (Lima, Madre de Dios, Loreto, Puno, Cusco, Tumbes) y se crea una red de albergues temporales y de reintegración gestionados con gobiernos regionales y organizaciones sociales. La PNP, MIGRACIONES, los inspectores de SUNAFIL y los fiscalizadores de minería usan un protocolo único para detectar víctimas en bares de zonas mineras, talleres y redes en línea, sin criminalizarlas ni deportarlas. Las víctimas no son sancionadas por delitos cometidos como consecuencia de la trata y, si son extranjeras, reciben la calidad migratoria humanitaria del DL 1350. Las niñas, niños y adolescentes se atienden en albergues especializados con la Unidad de Protección Especial del MIMP, con entrevista única grabada y defensa pública gratuita.",
       "evidencia": "La República reportó unas 1 900 denuncias de trata en 2024 con muy pocas condenas; el Ministerio Público informó 218 condenas entre enero de 2025 y junio de 2026. 99,5 % de las víctimas registradas en 2024 fueron mujeres, niñas y adolescentes. La identificación temprana y la protección de las víctimas aumentan su disposición a declarar, lo que sostiene las condenas (UNODC, Informe Mundial sobre la Trata).",
       "entrega": "Fiscalías especializadas en trata en 6 regiones prioritarias y al menos un albergue por región prioritaria al 2030.",
       "responsable": "MP",
@@ -1268,7 +1412,7 @@
       ],
       "financiamiento": "Presupuesto institucional del Ministerio Público y del MIMP; cooperación internacional.",
       "costo_referencial": "no estimado",
-      "indicador": "Víctimas de trata identificadas y protegidas; condenas por trata por cada 100 denuncias.",
+      "indicador": "Víctimas de trata identificadas y protegidas; condenas por trata por cada 100 denuncias. Víctimas identificadas desagregadas por sexo, edad, nacionalidad y lengua.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "SEG-13",
@@ -1298,6 +1442,16 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "No sanción, calidad migratoria humanitaria y niñez",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador sin desagregación",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1308,7 +1462,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El marco ya existe (DL 1338 y DL 1688 sobre RENTESEG y bloqueo en penales) y la Ley 32743 (num. 2.1.2 y 2.1.8.d) delega su ajuste por decreto legislativo. Esta acción no duplica esa norma: se concentra en ejecutar, medir y auditar. Inversión vía Invierte.pe o contratos de servicio.",
       "etapa": "2026-2031",
-      "que": "Se instala bloqueo de señal en los 39 penales que no lo tienen y se reemplaza el equipo deficiente en los otros 30, con contratos pagados por resultado: el pago depende de que mediciones independientes muestren cero señal útil dentro del penal y ninguna afectación a los vecinos. Una entidad independiente —OSIPTEL, si el decreto legislativo de la Ley 32743 le asigna esa función— mide cada trimestre en campo y publica los resultados. Se combina con escáneres de ingreso, requisas inteligentes y sanción efectiva al personal que ingresa celulares.",
+      "que": "Se instala bloqueo de señal en los 39 penales que no lo tienen y se reemplaza el equipo deficiente en los otros 30, con contratos pagados por resultado: el pago depende de que mediciones independientes muestren cero señal útil dentro del penal y ninguna afectación a los vecinos. Una entidad independiente —OSIPTEL, si el decreto legislativo de la Ley 32743 le asigna esa función— mide cada trimestre en campo y publica los resultados. Se combina con escáneres de ingreso, requisas inteligentes y sanción efectiva al personal que ingresa celulares. Como medida complementaria contra las llamadas extorsivas con número falso, se apoya la regulación de la suplantación de identificadores telefónicos (CIB-06 de la Agenda Legislativa Tech). Cada penal con bloqueo amplía los teléfonos públicos supervisados (al menos uno por cada 50 internos) y las videollamadas con familiares y defensa, con tarifa regulada, para garantizar las reglas 58 y 61 de las Reglas Nelson Mandela.",
       "evidencia": "El INPE reconoció en octubre de 2025 que solo 30 de 69 penales tenían bloqueadores y que algunos no funcionaban en ciertos horarios. La extorsión con amenazas desde penales es un patrón reportado por la PNP; sin medición independiente, las compras de bloqueadores anteriores no garantizaron resultados.",
       "entrega": "Los 69 penales con bloqueo certificado por medición independiente al 2028 y reportes trimestrales públicos de medición.",
       "responsable": "INPE",
@@ -1338,9 +1492,7 @@
       "costo_referencial": "no estimado",
       "indicador": "Penales con medición trimestral de señal útil igual a cero; denuncias de extorsión con llamadas trazadas a penales.",
       "deroga_o_simplifica": [],
-      "depende_de": [
-        "CIB-06"
-      ],
+      "depende_de": [],
       "riesgo": "Que el bloqueo se desactive por corrupción interna o que los proveedores cobren sin resultados; que las operadoras amplíen cobertura y anulen el bloqueo.",
       "fuentes": [
         {
@@ -1366,6 +1518,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-16/SEG-17",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "CIB-06 no es prerrequisito del bloqueo",
+          "decision": "aplicado: se quita de depende_de y se menciona como complementaria"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Comunicación con familia y defensa (Reglas Mandela)",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1376,8 +1538,8 @@
       "necesita_ley": "no",
       "por_que_ley": "La infraestructura penitenciaria se ejecuta por Invierte.pe o APP (DL 1229). La Ley 32743 (num. 2.1.4 y 2.1.8.b) ya delega cambios en clasificación y tipologías; esta acción se enfoca en la obra y la gestión, no en normas.",
       "etapa": "2026-2031",
-      "que": "Se construyen establecimientos de máxima seguridad de pequeña escala (pocos cientos de plazas) para los cabecillas de organizaciones criminales y extorsión, con personal rotativo, visitas controladas y monitoreo, y se separa a los internos de baja peligrosidad para que no sean reclutados. Toda la población penal se clasifica con un instrumento de riesgo validado. Se priorizan las obras penitenciarias paralizadas o atrasadas antes de anunciar megacárceles.",
-      "evidencia": "Con 142 % de sobrepoblación (INPE 2025), los penales grandes y hacinados facilitan el control interno por bandas. Separar a los líderes reduce su capacidad de mando; concentrar a todos los presos en megacárceles sin clasificación puede fortalecer a las organizaciones (experiencias regionales documentadas por InSight Crime; por verificar evaluación formal). Desde 2010 se han construido muy pocos penales en el Perú.",
+      "que": "Se construyen establecimientos de máxima seguridad de pequeña escala (pocos cientos de plazas) para los cabecillas de organizaciones criminales y extorsión, con personal rotativo, visitas controladas y monitoreo, y se separa a los internos de baja peligrosidad para que no sean reclutados. Toda la población penal se clasifica con un instrumento de riesgo validado. Se priorizan las obras penitenciarias paralizadas o atrasadas antes de anunciar megacárceles. La clasificación se revisa al menos cada seis meses; la persona puede conocer su puntaje y recurrirlo. El instrumento se valida sin variables de nacionalidad, etnia ni situación migratoria y lo audita la Defensoría del Pueblo. El régimen de máxima seguridad garantiza visitas familiares, acceso a la defensa y al menos dos horas diarias fuera de la celda, y prohíbe el aislamiento de más de 15 días consecutivos (reglas 43 y 44 de las Reglas Nelson Mandela).",
+      "evidencia": "Con 142 % de sobrepoblación (INPE 2025), los penales grandes y hacinados facilitan el control interno por bandas. Separar a los líderes reduce su capacidad de mando; concentrar a todos los presos en megacárceles sin clasificación puede fortalecer a las organizaciones (experiencias regionales documentadas por InSight Crime; por verificar evaluación formal). Desde 2010 se han construido muy pocos penales en el Perú. Como cartera referencial, La Cámara reportó 19 proyectos de cárceles valorizados en S/ 1 682 millones (por verificar).",
       "entrega": "Al menos dos establecimientos de máxima seguridad de pequeña escala operativos al 2031 y 100 % de la población penal clasificada por riesgo al 2029.",
       "responsable": "INPE",
       "entidades": [
@@ -1396,9 +1558,13 @@
         {
           "sigla": "PROINVERSION",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
-      "financiamiento": "Invierte.pe, APP penitenciarias y endeudamiento; La Cámara reportó 19 proyectos de cárceles valorizados en S/ 1 682 millones.",
+      "financiamiento": "Invierte.pe, APP penitenciarias (DL 1229) y endeudamiento. Si se usa APP, la retribución anual por disponibilidad se registra como compromiso firme dentro del tope de 12 % del PBI de la Ley 32441 y se compara con el costo por plaza de la operación directa del INPE (entre S/ 20 y S/ 30 diarios por interno, según la fuente).",
       "costo_referencial": "no estimado",
       "indicador": "Internos de alta peligrosidad en establecimientos de máxima seguridad; sobrepoblación por establecimiento.",
       "deroga_o_simplifica": [],
@@ -1416,6 +1582,14 @@
         {
           "titulo": "La Cámara – Hay 19 proyectos para construir cárceles valorizados en S/ 1 682 millones",
           "url": "https://lacamara.pe/hay-19-proyectos-para-construir-carceles-valorizados-en-s-1-682-millones/"
+        },
+        {
+          "titulo": "La República – El precio de los presos: cuánto cuesta mantenerlos en las cárceles (16-abr-2026)",
+          "url": "https://larepublica.pe/politica/2026/04/16/el-precio-de-los-presos-cuanto-cuesta-mantenerlos-carceles-hnews-331056"
+        },
+        {
+          "titulo": "Panamericana – Hacinamiento en cárceles: cada interno cuesta S/ 20 diarios",
+          "url": "https://panamericana.pe/buenosdiasperu/locales/470977-hacinamiento-carceles-interno-cuesta-s-20-diarios-sistema-limite"
         }
       ],
       "pedn": [
@@ -1437,6 +1611,26 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Revisión de la clasificación y límites al aislamiento",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "APP penitenciaria como compromiso firme en el tope",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Nota de prensa no es fuente de financiamiento",
+          "decision": "aplicado: la cifra de La Cámara pasa a evidencia como cartera referencial"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Coherencia con la meta de sobrepoblación",
+          "decision": "aplicado: la meta 2031 se ajusta a ≤ 115 % con la cuenta de SEG-17 y SEG-18"
         }
       ]
     },
@@ -1447,7 +1641,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La vigilancia electrónica personal (DL 1322, modificado por el DL 1514), las penas limitativas de derechos y el Plan de Deshacinamiento Penitenciario 2026-2028 (RM 0203-2026-JUS) ya existen; falta financiamiento y aplicación judicial. No requiere ley.",
       "etapa": "2026-2031",
-      "que": "Se ejecuta y amplía el plan de deshacinamiento: evaluación caso por caso de internos por delitos no violentos (omisión de asistencia familiar, hurto simple, microcomercialización sin violencia) para conversión de penas, vigilancia electrónica o servicio comunitario, con decisión judicial. Se financian grilletes electrónicos a escala y la Defensa Pública revisa las prisiones preventivas que vencen o no se justifican. Se excluye a condenados por delitos graves, sicariato y extorsión. Los decretos legislativos que limiten la conversión de penas (Ley 32743, num. 2.1.8.a) deben circunscribirse a delitos violentos y de crimen organizado, preservando las alternativas para delitos no violentos previstas en el plan de deshacinamiento.",
+      "que": "Se ejecuta y amplía el plan de deshacinamiento: evaluación caso por caso de internos por delitos no violentos (omisión de asistencia familiar, hurto simple, microcomercialización sin violencia) para conversión de penas, vigilancia electrónica o servicio comunitario, con decisión judicial. Se financian grilletes electrónicos a escala y la Defensa Pública revisa las prisiones preventivas que vencen o no se justifican. Se excluye a condenados por delitos graves, sicariato y extorsión. Los decretos legislativos que limiten la conversión de penas (Ley 32743, num. 2.1.8.a) deben circunscribirse a delitos violentos y de crimen organizado, preservando las alternativas para delitos no violentos previstas en el plan de deshacinamiento. Se evalúa primero a mujeres gestantes o con hijos menores de 3 años en el penal (Reglas de Bangkok), a personas mayores de 65 años, con discapacidad o enfermedad terminal, y a personas indígenas, para quienes el Convenio 169 de la OIT (art. 10) pide preferir sanciones distintas del encarcelamiento. Los datos de ubicación de los grilletes son del INPE, se conservan solo durante la medida más el plazo legal, el proveedor no puede usarlos para otros fines y todo acceso queda registrado (Ley 29733).",
       "evidencia": "En Argentina, la vigilancia electrónica redujo la reincidencia frente a la prisión en condiciones comparables (Di Tella y Schargrodsky, 2013). En EE. UU., la prisión preventiva aumenta la probabilidad de condena y de reincidencia sin mejorar la seguridad (Dobbie, Goldin y Yang, 2018). Alrededor de 36 % a 38 % de los presos peruanos no tendría sentencia en 2025 según cifras del INPE citadas por la prensa (por verificar en el Informe Estadístico Penitenciario).",
       "entrega": "24 000 internos evaluados bajo el plan al 2028 y al menos 10 000 personas con vigilancia electrónica o pena alternativa supervisada al 2031.",
       "responsable": "INPE",
@@ -1469,8 +1663,8 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Presupuesto del INPE y del MINJUSDH; un día de vigilancia electrónica cuesta menos que un día de prisión (por verificar costos comparados).",
-      "costo_referencial": "no estimado",
+      "financiamiento": "Presupuesto del INPE y del MINJUSDH. La medida se justifica por descongestión y por la menor reincidencia, no por ahorro operativo: mantener a un interno cuesta entre S/ 20 y S/ 30 diarios según la fuente, y desde 2020 el INPE asume el costo íntegro del grillete, cuyo costo diario actual está por verificar. Lo que sí se evita es construir plazas nuevas (SEG-17) y el daño del hacinamiento.",
+      "costo_referencial": "no estimado: 10 000 personas × costo diario del grillete o de la supervisión de la pena alternativa según la licitación vigente del INPE (por verificar).",
       "indicador": "Sobrepoblación penitenciaria; reincidencia a 2 años de las personas con vigilancia electrónica frente a liberados de prisión.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -1489,6 +1683,18 @@
         {
           "titulo": "Dobbie, Goldin y Yang (2018) – The Effects of Pretrial Detention on Conviction, Future Crime, and Employment, AER",
           "url": "https://doi.org/10.1257/aer.20161503"
+        },
+        {
+          "titulo": "La República – El precio de los presos: cuánto cuesta mantenerlos en las cárceles (16-abr-2026)",
+          "url": "https://larepublica.pe/politica/2026/04/16/el-precio-de-los-presos-cuanto-cuesta-mantenerlos-carceles-hnews-331056"
+        },
+        {
+          "titulo": "Panamericana – Hacinamiento en cárceles: cada interno cuesta S/ 20 diarios",
+          "url": "https://panamericana.pe/buenosdiasperu/locales/470977-hacinamiento-carceles-interno-cuesta-s-20-diarios-sistema-limite"
+        },
+        {
+          "titulo": "El Peruano – INPE asume el costo de los grilletes electrónicos",
+          "url": "https://www.elperuano.pe/noticia/233230"
         }
       ],
       "pedn": [
@@ -1509,6 +1715,21 @@
           "rol": "jurista",
           "hallazgo": "Ciclo SEG-18/SEG-19",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Afirmación de ahorro del grillete sin respaldo",
+          "decision": "aplicado: se justifica por descongestión; el costo del grillete de S/ 22 no se afirma porque no está verificado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Retención y propiedad de los datos de ubicación",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Priorizar gestantes, mayores, discapacidad e indígenas",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1519,7 +1740,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El tratamiento penitenciario y el programa Cárceles Productivas (DL 1343 y su reglamento, DS 025-2017-JUS) se gestionan con normas vigentes del Código de Ejecución Penal y el presupuesto del INPE. La Ley 32743 (num. 2.1.4 y 2.1.6) delega ajustes de reinserción; esta acción es de ejecución.",
       "etapa": "2026-2031",
-      "que": "Cada establecimiento ofrece educación básica y técnica certificada, talleres productivos con empresas aliadas y tratamiento de adicciones. Al salir, la persona recibe acompañamiento por 12 meses (documentos, empleo, vivienda temporal, salud mental) en convenio con municipios y organizaciones sociales. Para adolescentes, se prioriza el medio abierto y la continuidad educativa; el internamiento en unidades dentro de penales para adultos, que habilita la Ley 32743, debe ser excepcional y evaluado.",
+      "que": "Cada establecimiento ofrece educación básica y técnica certificada, talleres productivos con empresas aliadas y tratamiento de adicciones. Al salir, la persona recibe acompañamiento por 12 meses (documentos, empleo, vivienda temporal, salud mental) en convenio con municipios y organizaciones sociales. Para adolescentes rige el Código de Responsabilidad Penal de Adolescentes (DL 1348): se prioriza el medio abierto y la continuidad educativa y se amplían los centros juveniles del PRONACEJ. Ningún menor de 18 años se interna en un establecimiento penitenciario de adultos ni en unidades dentro de él (art. 37.c de la Convención sobre los Derechos del Niño); el Tribunal Constitucional se pronunció sobre la Ley 32330 en la Sentencia 2/2026 (alcance exacto del fallo por verificar). La Ley 32743 (num. 2.1.6.a) permite que adolescentes con delitos graves cumplan la medida, al llegar a la mayoría de edad, en una unidad diferenciada dentro de un establecimiento penitenciario. Esta agenda propone que ese traslado solo proceda para quien cumple 18 años durante la medida, por decisión judicial motivada y cuando no sea posible continuar en el centro juvenil, y que la unidad garantice separación total de los adultos, continuidad del programa educativo y una evaluación anual publicada (Observación General 24 del Comité de los Derechos del Niño).",
       "evidencia": "La terapia cognitivo-conductual y la educación en prisión se asocian a menor reincidencia en revisiones sistemáticas (por ejemplo, RAND 2013 sobre educación penitenciaria). El Ministerio de Justicia reportó ante el Congreso (sep-2025) una reincidencia penitenciaria cercana a 13 % a cinco años (definición por verificar en el informe del INPE), pero sin medición de reinserción laboral.",
       "entrega": "50 % de la población penal en estudio o trabajo certificado al 2036 y programa postpenitenciario en las 10 regiones con más liberados al 2031.",
       "responsable": "INPE",
@@ -1543,11 +1764,15 @@
         {
           "sigla": "GL",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "PRONACEJ",
+          "rol": "ejecutora"
         }
       ],
       "financiamiento": "Presupuesto del INPE; ingresos de talleres productivos; cooperación internacional.",
       "costo_referencial": "no estimado",
-      "indicador": "Reincidencia a 3 años; porcentaje de liberados con empleo formal a 12 meses.",
+      "indicador": "Reincidencia a 3 años; porcentaje de liberados con empleo formal a 12 meses. Adolescentes en medio abierto como proporción del total con medida socioeducativa (meta creciente); cero menores de 18 años en establecimientos de adultos.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "SEG-18",
@@ -1562,6 +1787,10 @@
         {
           "titulo": "Ministerio de Justicia – Presentación ante la Comisión de Seguridad Ciudadana (16-sep-2025)",
           "url": "https://www3.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so-n°_53_presentacion_ministro_de_justicia-16-09-2025.pdf"
+        },
+        {
+          "titulo": "TC – Informativo de enero de 2026 (Sentencia 2/2026 sobre la Ley 32330)",
+          "url": "https://www.tc.gob.pe/wp-content/uploads/2026/01/Informativo-Enero-2026-2.pdf"
         }
       ],
       "pedn": [
@@ -1582,6 +1811,16 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Unidades en penales de adultos para adolescentes",
+          "decision": "aplicado: solo para quien cumple 18 durante la medida, con decisión judicial, separación total y continuidad educativa; nunca menores de 18 (CDN 37.c); fallo del TC por verificar"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador de población adolescente",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1590,9 +1829,9 @@
       "titulo": "Completar el expediente judicial y fiscal electrónico y extender las unidades de flagrancia",
       "tipo": "servicio",
       "necesita_ley": "no",
-      "por_que_ley": "El Expediente Judicial Electrónico se implementa por resoluciones administrativas del Consejo Ejecutivo del Poder Judicial y la carpeta fiscal electrónica por resoluciones de la Fiscalía de la Nación; el proceso inmediato en flagrancia ya está en el NCPP (DL 1194). No requiere ley.",
+      "por_que_ley": "El Expediente Judicial Electrónico se implementa por resoluciones administrativas del Consejo Ejecutivo del Poder Judicial y la carpeta fiscal electrónica por resoluciones de la Fiscalía de la Nación; el proceso inmediato en flagrancia ya está en el NCPP (DL 1194). No requiere ley. Las garantías mínimas de las audiencias virtuales y del acceso al expediente electrónico se fijan por ley (DER-01 de la Agenda Legislativa Tech); el despliegue sigue por resoluciones del Consejo Ejecutivo del Poder Judicial.",
       "etapa": "2026-2031",
-      "que": "Se lleva el Expediente Judicial Electrónico del 45 % de la carga actual al 100 % de los órganos jurisdiccionales, empezando por penal y familia, y se integra con la carpeta fiscal electrónica y el registro policial para que una denuncia viaje sin papel de la comisaría al juzgado. Las audiencias de trámite pueden ser virtuales con garantías. En las 20 ciudades con más delitos, se crean o refuerzan unidades de flagrancia (policía, fiscalía, defensa y juez en un mismo local) que resuelven en horas los casos con detenido en flagrancia.",
+      "que": "Se lleva el Expediente Judicial Electrónico del 45 % de la carga actual al 100 % de los órganos jurisdiccionales, empezando por penal y familia, y se integra con la carpeta fiscal electrónica y el registro policial para que una denuncia viaje sin papel de la comisaría al juzgado. Las audiencias de trámite pueden ser virtuales con garantías. En las 20 ciudades con más delitos, se crean o refuerzan unidades de flagrancia (policía, fiscalía, defensa y juez en un mismo local) que resuelven en horas los casos con detenido en flagrancia. Las unidades de flagrancia garantizan defensa pública presente desde la detención, un tiempo mínimo de entrevista reservada entre abogado e imputado, intérprete de lengua originaria o de lengua de señas cuando corresponda (Leyes 29735 y 29535) y la revisión de las prisiones preventivas dictadas en ellas. La Defensa Pública y la Defensoría del Pueblo publican cada año la tasa de condenas en flagrancia por tipo de delito y la proporción de casos con defensa privada. El identificador único de caso de SEG-26 se usa en el registro policial, la carpeta fiscal y el expediente judicial electrónico.",
       "evidencia": "El Poder Judicial reporta más de dos millones de expedientes electrónicos, cerca de 45 % de la carga, y una carga en trámite de unos 2,6 millones de expedientes (portal estadístico del PJ, nov-2025, citado por Gestión; por verificar). El proceso inmediato en flagrancia ha reducido tiempos de meses a días en los distritos que lo aplican (Poder Judicial; por verificar evaluación independiente).",
       "entrega": "Expediente electrónico en el 100 % de órganos jurisdiccionales penales al 2029 y 20 unidades de flagrancia operando con tiempos publicados al 2030.",
       "responsable": "PJ",
@@ -1625,7 +1864,8 @@
       "depende_de": [
         "SEG-03",
         "DIG-04",
-        "GOB-02"
+        "GOB-02",
+        "DER-01"
       ],
       "riesgo": "Sistemas que no se comunican entre PJ, Fiscalía y PNP; brecha de conectividad en provincias; flagrancia usada solo para delitos menores mientras los graves siguen lentos.",
       "fuentes": [
@@ -1642,6 +1882,21 @@
           "rol": "seguridad",
           "hallazgo": "Cifras de carga y flagrancia sin boletín oficial",
           "decision": "descartado: no hallé el boletín del PJ con fecha de corte; las cifras siguen marcadas por verificar"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Garantías de defensa, intérpretes y accesibilidad en flagrancia",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Falta DER-01 sobre audiencias virtuales",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Identificador único de caso compartido",
+          "decision": "aplicado: SEG-26 citado en el texto"
         }
       ]
     },
@@ -1650,7 +1905,7 @@
       "titulo": "Hacer públicos y evaluables los concursos y ratificaciones de jueces y fiscales",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Las reglas de selección, evaluación y ratificación están en la Ley Orgánica de la Junta Nacional de Justicia (Ley 30916). Es materia de ley orgánica: requiere votación calificada de más de la mitad del número legal de miembros (art. 106 de la Constitución). La reforma respeta la autonomía de la JNJ como organismo constitucional autónomo y no altera sus atribuciones del art. 154. Los cambios a las autoridades de control del PJ y del MP (Leyes 30943 y 30944) se coordinan con sus leyes orgánicas. No se propone reforma constitucional.",
+      "por_que_ley": "Las reglas de selección, evaluación y ratificación están en la Ley Orgánica de la Junta Nacional de Justicia (Ley 30916). Es materia de ley orgánica: requiere votación calificada de ley orgánica (art. 106 de la Constitución, texto de la Ley 31988). La reforma respeta la autonomía de la JNJ como organismo constitucional autónomo y no altera sus atribuciones del art. 154. Los cambios a las autoridades de control del PJ y del MP (Leyes 30943 y 30944) se coordinan con sus leyes orgánicas. No se propone reforma constitucional.",
       "etapa": "2026-2031",
       "que": "Se modifica la Ley 30916 para que, además de la transmisión de entrevistas que ya existe, se publiquen los puntajes individuales y motivados de cada miembro y el archivo audiovisual completo de cada proceso de concurso, evaluación parcial y ratificación, y que la evaluación de desempeño use indicadores objetivos del expediente electrónico (producción, plazos, revocatorias) ajustados por carga. Se refuerzan las autoridades nacionales de control del Poder Judicial (Ley 30943) y del Ministerio Público (Ley 30944) con plazos y publicación de resultados. Se mantiene la selección por concurso de méritos: no se propone que jueces o fiscales sean elegidos por órganos políticos.",
       "evidencia": "La JNJ sustentó presupuesto 2027 para nombrar 350 jueces y 60 fiscales (El Peruano, 2026), una oportunidad para reducir la provisionalidad. La transparencia de procesos de selección judicial es un estándar recomendado por la CIDH (Garantías para la independencia de las y los operadores de justicia, 2013). La provisionalidad debilita la independencia judicial.",
@@ -1725,6 +1980,11 @@
           "rol": "seguridad",
           "hallazgo": "Precisar qué es nuevo respecto a entrevistas transmitidas",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fórmula uniforme de votación de ley orgánica (hallazgo de ENE-08)",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1735,7 +1995,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Se ejecuta como programa social con presupuesto del MININTER (prevención), MTPE y municipios, por DS y convenios. No requiere ley.",
       "etapa": "2026-2031",
-      "que": "En los 50 distritos con más homicidios y extorsión, se ofrece a adolescentes y jóvenes de 14 a 24 años en riesgo (deserción escolar, detenciones previas, víctimas de violencia) un programa de 3 a 6 meses de terapia cognitivo-conductual grupal (control de impulsos, resolución de conflictos), mentoría y un empleo protegido o beca de capacitación. Se identifican por derivación de escuelas, servicios de salud, DEMUNA y fiscalías de familia, con consentimiento de la familia; los datos se usan solo para el programa y su evaluación, anonimizados (Ley 29733 y Código de los Niños y Adolescentes). Se evalúa con asignación aleatoria por sobredemanda.",
+      "que": "En los 50 distritos con más homicidios y extorsión, se ofrece a adolescentes y jóvenes de 14 a 24 años en riesgo (deserción escolar, detenciones previas, víctimas de violencia) un programa de 3 a 6 meses de terapia cognitivo-conductual grupal (control de impulsos, resolución de conflictos), mentoría y un empleo protegido o beca de capacitación. Se identifican por derivación de escuelas, servicios de salud, DEMUNA y fiscalías de familia, con consentimiento de la familia; los datos se usan solo para el programa y su evaluación, anonimizados (Ley 29733 y Código de los Niños y Adolescentes). Se evalúa con asignación aleatoria por sobredemanda. Al menos 40 % de los cupos son para mujeres jóvenes (meta indicativa), con componentes de prevención de la violencia de pareja. La participación es voluntaria, no se registra en antecedentes ni se comparte con la PNP, y la escuela no puede sancionar por participar.",
       "evidencia": "En Chicago, el programa Becoming a Man redujo los arrestos por delitos violentos entre 45 % y 50 % durante la intervención (Heller et al., 2017) y el empleo de verano One Summer Plus redujo 43 % los arrestos violentos (Heller, 2014). En Liberia, la terapia cognitivo-conductual con transferencia redujo delitos y violencia en hombres de alto riesgo (Blattman, Jamison y Sheridan, 2017). Barrio Seguro no tiene una evaluación de impacto experimental publicada (por verificar); por eso aquí la evaluación es parte del diseño.",
       "entrega": "20 000 jóvenes atendidos al año en 50 distritos al 2031, con evaluación de impacto publicada al 2030.",
       "responsable": "MININTER",
@@ -1808,6 +2068,11 @@
           "rol": "jurista",
           "hallazgo": "Etapa fuera de las cuatro válidas",
           "decision": "aplicado: etapa de inicio 2026-2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Selección sin estigma e inclusión de mujeres jóvenes",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1818,7 +2083,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 30364 y su reglamento ya obligan a la PNP a ejecutar las medidas de protección; el seguimiento policial se ordena por directiva de la PNP y protocolo con el Poder Judicial y el Ministerio Público. El servicio de los Centros Emergencia Mujer está en PRO-12 y el registro único en PRO-13. No requiere ley.",
       "etapa": "2026-2031",
-      "que": "Cada medida de protección dictada por el juez tiene un policía responsable de su ejecución y seguimiento, con visitas periódicas registradas y una ficha de valoración de riesgo validada que se aplica en la comisaría al recibir la denuncia. Los casos de alto riesgo reciben alerta georreferenciada y prioridad en la fiscalía. Las comisarías de los distritos con más denuncias cuentan con policías capacitados y coordinan con los Centros Emergencia Mujer que el MIMP amplía en comisarías (PRO-12); los datos se registran en el registro único de PRO-13.",
+      "que": "Cada medida de protección dictada por el juez tiene un policía responsable de su ejecución y seguimiento, con visitas periódicas registradas y una ficha de valoración de riesgo validada que se aplica en la comisaría al recibir la denuncia. Los casos de alto riesgo reciben alerta georreferenciada y prioridad en la fiscalía. Las comisarías de los distritos con más denuncias cuentan con policías capacitados y coordinan con los Centros Emergencia Mujer que el MIMP amplía en comisarías (PRO-12); los datos se registran en el registro único de PRO-13. La ficha de valoración de riesgo se aplica con intérprete en distritos con población indígena (Ley 29735) y en formatos accesibles para mujeres con discapacidad. Los policías responsables reciben formación en la Ley 30364, incluido el trato a personas LGTBI y migrantes, y las comisarías rurales coordinan con las rondas campesinas y la justicia comunal sin sustituir la medida judicial.",
       "evidencia": "La expansión escalonada de los Centros Emergencia Mujer en el Perú aumentó las denuncias de violencia de género y la probabilidad de procesamiento de los agresores (Sviatschi y Trako, Journal of Development Economics, 2024): la respuesta del sistema de justicia importa. 33,9 % de las mujeres de 15 a 49 años sufrió algún tipo de violencia (psicológica, física o sexual) de su esposo o compañero en los últimos 12 meses, y 52 % alguna vez (INEI, ENDES 2024).",
       "entrega": "100 % de las medidas de protección de alto riesgo con policía responsable y seguimiento registrado al 2030, y ficha de valoración de riesgo aplicada en todas las comisarías.",
       "responsable": "PNP",
@@ -1846,7 +2111,7 @@
       ],
       "financiamiento": "Presupuesto del sector Interior y del PP 1002 (violencia contra la mujer) en lo que corresponde a la PNP; sin crear entidades.",
       "costo_referencial": "no estimado",
-      "indicador": "Porcentaje de medidas de protección con seguimiento policial verificado; feminicidios y tentativas por año.",
+      "indicador": "Porcentaje de medidas de protección con seguimiento policial verificado; feminicidios y tentativas por año. Desagregado por área urbana o rural, lengua materna y discapacidad de la víctima.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "PRO-12",
@@ -1882,13 +2147,23 @@
           "rol": "seguridad",
           "hallazgo": "CEM en comisarías ya existen",
           "decision": "aplicado: se remite a la ampliación de PRO-12"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Pertinencia lingüística y accesibilidad de la ficha",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador sin desagregación",
+          "decision": "aplicado"
         }
       ]
     },
     {
       "id": "SEG-24",
       "titulo": "Simplificar el Sistema Nacional de Seguridad Ciudadana: menos comités y planes, más metas",
-      "tipo": "derogacion",
+      "tipo": "ley",
       "necesita_ley": "si",
       "por_que_ley": "La estructura de comités (CONASEC, CORESEC, COPROSEC, CODISEC) y la obligación de planes en cada nivel están en la Ley 27933 y su reglamento; reducir esas obligaciones requiere modificar la ley. Si se modifican funciones de las municipalidades distritales en la Ley 27972 (art. 85), se requiere ley orgánica. La reforma no elimina la competencia municipal en seguridad ciudadana (art. 197 de la Constitución): solo simplifica la planificación.",
       "etapa": "2026-2031",
@@ -1920,7 +2195,7 @@
       "deroga_o_simplifica": [
         {
           "norma": "Ley 27933 (Ley del Sistema Nacional de Seguridad Ciudadana)",
-          "motivo": "Se reduce la obligación de planes y comités distritales duplicados y se reemplaza por un plan provincial con metas y reporte a un tablero nacional."
+          "motivo": "Se modifica (no se deroga): se reduce la obligación de planes y comités distritales duplicados y se reemplaza por un plan provincial con metas y reporte a un tablero nacional."
         }
       ],
       "depende_de": [
@@ -1948,6 +2223,11 @@
           "rol": "seguridad",
           "hallazgo": "Enlace genérico a SPIJ",
           "decision": "aplicado: enlace a leyes.congreso.gob.pe; el informe de Contraloría sigue por verificar"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Tipo: modifica la Ley 27933, no la deroga",
+          "decision": "aplicado: tipo ley; la entrada de simplificación se mantiene con motivo «se modifica»"
         }
       ]
     },
@@ -1958,7 +2238,7 @@
       "necesita_ley": "si",
       "por_que_ley": "La definición de organización criminal está a la vez en el art. 317 del Código Penal y en el art. 2 de la Ley 30077, y el allanamiento y el levantamiento del secreto bancario en investigación preliminar en el art. 2 de la Ley 27379. La Ley 32743 permite modificar el art. 317 del Código Penal por decreto legislativo (num. 2.1.8.a), pero solo delegó la Ley 30077 para el registro de organizaciones con técnicas terroristas (num. 2.1.10) y no delegó la Ley 27379. Para que ambas definiciones coincidan se necesita una ley del Congreso; si un decreto legislativo modifica antes el art. 317, la ley debe armonizarse con él.",
       "etapa": "2026-2031",
-      "que": "Las Leyes 32108 (ago-2024) y 32138 (oct-2024) redefinieron la organización criminal en el art. 317 del Código Penal y el art. 2 de la Ley 30077. El texto vigente exige un grupo con \"compleja estructura desarrollada y mayor capacidad operativa\" y limita el tipo a delitos con pena mínima igual o mayor de cinco años, lo que deja fuera delitos que antes podían investigarse bajo esta figura. Además subsisten diferencias entre normas: el art. 4 de la Ley 30077 (texto de la Ley 32108) remite a delitos con pena \"mayor de seis años\", mientras el art. 317.2 usa \"igual o mayor de cinco años en su extremo mínimo\". El requisito de controlar la cadena de valor de un mercado ilegal (Ley 32108) ya fue eliminado por la Ley 32138 y no necesita revertirse. Se propone una ley que: (1) sustituya el umbral de pena mínima igual o mayor de cinco años por el de delito grave de la Convención de Palermo, referido a la pena máxima, y alinee la definición del art. 317.2 del Código Penal y del art. 2.1.a de la Ley 30077 con el art. 2 a) de la Convención (grupo estructurado de tres o más personas, que exista durante cierto tiempo y actúe concertadamente para cometer delitos graves con el fin de obtener un beneficio económico u otro de orden material), sustituyendo el requisito de \"compleja estructura desarrollada y mayor capacidad operativa\" y derogando el num. 2.2 del art. 2 de la Ley 30077; (2) restituya el verbo \"promover\" en el art. 317.1; (3) unifique el umbral de \"delito grave\" entre los arts. 2 y 4 de la Ley 30077 y el art. 317.2; (4) revise el num. 5 del art. 2 de la Ley 27379 para que el levantamiento del secreto bancario no excluya por categoría de titular los bienes de ninguna persona jurídica, sujeto siempre a orden judicial (por verificar antes la vigencia de la Ley 27379 frente al Código Procesal Penal de 2004; si está derogada, el ajuste se hace en el NCPP); y (5) mantenga la presencia de la defensa pública en allanamientos sin efecto suspensivo (régimen vigente de la Ley 32138). La ley no tendría efecto retroactivo desfavorable (art. 103 de la Constitución): solo rige para hechos posteriores.",
+      "que": "Las Leyes 32108 (ago-2024) y 32138 (oct-2024) redefinieron la organización criminal en el art. 317 del Código Penal y el art. 2 de la Ley 30077. El texto vigente exige un grupo con \"compleja estructura desarrollada y mayor capacidad operativa\" y limita el tipo a delitos con pena mínima igual o mayor de cinco años, lo que deja fuera delitos que antes podían investigarse bajo esta figura. Además subsisten diferencias entre normas: el art. 4 de la Ley 30077 (texto de la Ley 32108) remite a delitos con pena \"mayor de seis años\", mientras el art. 317.2 usa \"igual o mayor de cinco años en su extremo mínimo\". El requisito de controlar la cadena de valor de un mercado ilegal (Ley 32108) ya fue eliminado por la Ley 32138 y no necesita revertirse. Se propone una ley que: (1) sustituya el umbral de pena mínima igual o mayor de cinco años por el de delito grave de la Convención de Palermo, referido a la pena máxima, y alinee la definición del art. 317.2 del Código Penal y del art. 2.1.a de la Ley 30077 con el art. 2 a) de la Convención (grupo estructurado de tres o más personas, que exista durante cierto tiempo y actúe concertadamente para cometer delitos graves con el fin de obtener un beneficio económico u otro de orden material), sustituyendo el requisito de \"compleja estructura desarrollada y mayor capacidad operativa\" y derogando el num. 2.2 del art. 2 de la Ley 30077; (2) restituya el verbo \"promover\" en el art. 317.1; (3) unifique el umbral de \"delito grave\" entre los arts. 2 y 4 de la Ley 30077 y el art. 317.2; (4) revise el num. 5 del art. 2 de la Ley 27379 para que el levantamiento del secreto bancario no excluya por categoría de titular los bienes de ninguna persona jurídica, sujeto siempre a orden judicial (la Ley 27379 sigue formalmente vigente, pues la Ley 32108 modificó su art. 2 en 2024; pero en los distritos con Código Procesal Penal de 2004 el levantamiento del secreto bancario se rige por sus arts. 235 y 236, según la Corte Suprema en la Apelación 166-2025; la ley ajusta ambas normas en el mismo sentido); y (5) mantenga la presencia de la defensa pública en allanamientos sin efecto suspensivo (régimen vigente de la Ley 32138). La ley no tendría efecto retroactivo desfavorable (art. 103 de la Constitución): solo rige para hechos posteriores.",
       "evidencia": "Durante el trámite, el MINJUSDH y el MININTER opinaron que el proyecto no era viable. Tras su publicación, la Junta de Fiscales Supremos y gremios como el Colegio de Abogados de Lima y la Cámara de Comercio de Lima advirtieron que la nueva definición se aparta de la Convención de Palermo y deja fuera delitos graves. La Ley 32138 corrigió parte (incluyó extorsión, secuestro y sicariato y eliminó el requisito de controlar la cadena de valor de un mercado ilegal), pero mantuvo la exigencia de \"compleja estructura desarrollada y mayor capacidad operativa\" y fijó un umbral de pena mínima de cinco años. La Corte Suprema ha aplicado ambas leyes señalando que se apartan de Palermo, con absoluciones y rebajas de pena en casos de asociación ilícita, mientras algunos jueces las inaplicaron por control difuso: la jurisprudencia no es uniforme. No hay sentencia del Tribunal Constitucional sobre estas leyes ni estadística oficial de casos afectados; por eso la entrega incluye un informe del Ministerio Público y del Poder Judicial.",
       "entrega": "Ley de armonización aprobada al 2027, precedida de un informe del Ministerio Público y del Poder Judicial sobre investigaciones y procesos afectados por la definición vigente.",
       "responsable": "CONGRESO",
@@ -1994,7 +2274,7 @@
         },
         {
           "norma": "Ley 27379, art. 2 num. 5 (texto de la Ley 32108)",
-          "motivo": "Eliminar la exclusión por categoría de titular en el levantamiento del secreto bancario, con control judicial (por verificar vigencia de la Ley 27379)."
+          "motivo": "Eliminar la exclusión por categoría de titular en el levantamiento del secreto bancario, con control judicial (la Ley 27379 sigue vigente y la Ley 32108 la modificó; se ajusta también el NCPP)."
         }
       ],
       "depende_de": [
@@ -2034,6 +2314,10 @@
         {
           "titulo": "El Peruano – Ley 32743, delegación de facultades",
           "url": "https://busquedas.elperuano.pe/dispositivo/EX/2567343-1"
+        },
+        {
+          "titulo": "LP Derecho – Corte Suprema, Apelación 166-2025 (levantamiento del secreto bancario)",
+          "url": "https://lpderecho.pe/el-levantamiento-del-secreto-bancario-es-aplicable-en-investigaciones-preliminares-a-congresistas-apelacion-166-2025-corte-suprema-f-j-12/"
         }
       ],
       "pedn": [
@@ -2089,6 +2373,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Derogación no revierte efectos favorables ya producidos",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Vigencia de la Ley 27379 ya verificable",
+          "decision": "aplicado: vigente, modificada por la Ley 32108; se ajusta también el NCPP"
         }
       ]
     },
@@ -2099,7 +2388,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El Comité Estadístico Interinstitucional de la Criminalidad (CEIC) ya existe; el registro único, la apertura de datos y el análisis de impacto regulatorio (DL 1565) se ordenan por DS. El Congreso puede adoptar la misma regla de evaluación modificando su Reglamento, que tiene fuerza de ley (art. 94 de la Constitución).",
       "etapa": "2026-2031",
-      "que": "Se crea un registro nacional de hechos delictivos con un identificador común que siga cada caso desde la denuncia policial hasta la sentencia y la cárcel, publicado como datos abiertos por distrito y mes (sin datos personales). El INEI audita la calidad. Los decretos legislativos de la Ley 32743 aplican el análisis de impacto regulatorio del DL 1565 y su informe se publica junto con la norma. Todo decreto legislativo de la Ley 32743 y toda ley que aumente penas lleva una evaluación ex ante del costo penitenciario y de la capacidad de investigación, y una evaluación ex post a los tres años con estos datos; si no muestra efecto, se revisa.",
+      "que": "Se crea un registro nacional de hechos delictivos con un identificador común que siga cada caso desde la denuncia policial hasta la sentencia y la cárcel, publicado como datos abiertos por distrito y mes (sin datos personales). El INEI audita la calidad. Los decretos legislativos de la Ley 32743 aplican el análisis de impacto regulatorio del DL 1565 y su informe se publica junto con la norma. Todo decreto legislativo de la Ley 32743 y toda ley que aumente penas lleva una evaluación ex ante del costo penitenciario y de la capacidad de investigación, y una evaluación ex post a los tres años con estos datos; si no muestra efecto, se revisa. La evaluación ex post incluye un capítulo de impacto en derechos: variación de la prisión preventiva, hacinamiento, denuncias por uso excesivo de la fuerza y distribución por sexo, edad, nacionalidad y lengua de las personas procesadas, con participación de la Defensoría del Pueblo.",
       "evidencia": "Hoy PNP, Fiscalía, SINADEF e INEI reportan cifras distintas de homicidios (2 212 según SINADEF frente a otras cifras de la PNP en 2025). Las penas más altas sin mayor probabilidad de captura tienen poco efecto disuasivo (Nagin, 2013): sin datos de seguimiento no se puede saber qué funcionó.",
       "entrega": "Registro único de casos con datos abiertos al 2029 y primera evaluación ex post de los decretos legislativos de 2026 publicada en 2030.",
       "responsable": "INEI",
@@ -2127,6 +2416,10 @@
         {
           "sigla": "PCM",
           "rol": "rectora"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Presupuesto del INEI y de las entidades del sistema; cooperación técnica.",
@@ -2163,6 +2456,11 @@
           "rol": "seguridad",
           "hallazgo": "Precisar AIR del DL 1565 para los decretos",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Evaluación ex post con impacto en derechos",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2173,7 +2471,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 32743 (num. 2.1.1) ya delega cambios en el DL 1350 de Migraciones y en la nacionalidad; esta acción no los duplica. El registro biométrico se ejecuta por DS y resoluciones de MIGRACIONES con la Ley 29733 de protección de datos personales; los acuerdos de intercambio son convenios interinstitucionales o tratados según el art. 56 de la Constitución.",
       "etapa": "2026-2031",
-      "que": "Se completa el registro biométrico de la población extranjera para que pueda ser identificada y para separar a quienes delinquen de la gran mayoría que no lo hace. Se firman acuerdos de intercambio de antecedentes penales empezando por Colombia, Ecuador y Chile, y con Venezuela en el marco de la reanudación progresiva de relaciones acordada en 2026. La información de inteligencia migratoria se usa para perseguir a redes criminales transnacionales concretas, y las expulsiones se hacen con debido procedimiento. La regularización migratoria se trata en PRO-19.",
+      "que": "Se completa el registro biométrico de la población extranjera que MIGRACIONES ya usa en el carné de extranjería, sin crear otro, para que pueda ser identificada y para separar a quienes delinquen de la gran mayoría que no lo hace. Se firman acuerdos de intercambio de antecedentes penales empezando por Colombia, Ecuador y Chile, y con Venezuela en el marco de la reanudación progresiva de relaciones acordada en 2026. La información de inteligencia migratoria se usa para perseguir a redes criminales transnacionales concretas, y las expulsiones se hacen con debido procedimiento. La regularización migratoria se trata en PRO-19. El registro biométrico tiene como finalidad la identificación y el acceso a servicios; su uso en una investigación penal requiere orden fiscal o judicial caso por caso y queda registrado. Se aplica una evaluación de impacto en protección de datos (Ley 29733 y DS 016-2024-JUS), y la base no se comparte en bloque con otros Estados: los acuerdos de intercambio se limitan a antecedentes y exigen protección equivalente. Las expulsiones respetan el principio de no devolución (Ley 27891 y Convención de 1951 sobre el Estatuto de los Refugiados), no se aplican a solicitantes de refugio ni a niñas, niños y adolescentes no acompañados, consideran la unidad familiar y el interés superior del niño, y toda persona tiene derecho a defensa, intérprete y un recurso con efecto suspensivo (Corte IDH, Opinión Consultiva 21/14).",
       "evidencia": "El PEDN mide el porcentaje de extranjeros en situación migratoria regular (70,55 % en 2024, meta 90 % al 2050): un enfoque solo de control y sanción no mueve ese indicador, por eso esta acción se complementa con la regularización de PRO-19. Según cifras del INPE difundidas por la prensa, había 5 530 extranjeros en las cárceles en mayo de 2025, alrededor de 5 % de la población penal; la mayoría de migrantes no delinque, y la irregularidad los hace más vulnerables a la explotación y la trata.",
       "entrega": "Registro biométrico de 100 % de extranjeros con permiso al 2029 y acuerdos de intercambio de antecedentes con Colombia, Ecuador y Chile al 2028.",
       "responsable": "MIGRACIONES",
@@ -2197,6 +2495,10 @@
         {
           "sigla": "RENIEC",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Tasas migratorias y presupuesto de MIGRACIONES; cooperación internacional (OIM, ACNUR).",
@@ -2204,10 +2506,9 @@
       "indicador": "Porcentaje de extranjeros en situación regular (indicador PEDN AE4.4.6); solicitudes de antecedentes respondidas por otros países.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "PRO-19",
-        "CIB-08"
+        "PRO-19"
       ],
-      "riesgo": "Discurso que culpe a toda la población migrante, que empuja a la informalidad y dificulta identificar a los delincuentes reales.",
+      "riesgo": "Discurso que culpe a toda la población migrante, que empuja a la informalidad y dificulta identificar a los delincuentes reales. También, que la base biométrica se use para controles masivos por nacionalidad.",
       "fuentes": [
         {
           "titulo": "Trome – INPE: cuántos presos venezolanos hay en el Perú (datos a mayo 2025)",
@@ -2242,6 +2543,26 @@
           "rol": "seguridad",
           "hallazgo": "Trome como fuente de la cifra del INPE",
           "decision": "aplicado parcialmente: se precisa que es cifra del INPE difundida por la prensa; no hallé el informe oficial de mayo 2025"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Finalidad, no devolución, niñez y recurso en expulsiones",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Riesgo de perfilamiento por nacionalidad",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "CIB-08 no es pertinente al registro de extranjeros",
+          "decision": "aplicado: se quita de depende_de"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Evaluación de impacto y finalidad limitada del intercambio",
+          "decision": "aplicado; se precisa que completa el carné de extranjería"
         }
       ]
     },
@@ -2429,6 +2750,31 @@
       "rol": "cifras",
       "hallazgo": "33,9 % ENDES no está en la URL citada (indicador)",
       "decision": "aplicado"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Brechas omiten LGTBI, discapacidad, presos y defensores",
+      "decision": "aplicado, con «por verificar» donde no hay dato oficial"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Metas sin desagregación por sexo, área o lengua",
+      "decision": "aplicado: meta nueva de medidas de protección y desagregación de la ENAPRES en la meta de victimización"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Causa: falta registro público de uso de la fuerza",
+      "decision": "aplicado dentro de la causa de fragmentación institucional (se mantienen 6 causas)"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Meta de sobrepoblación 2031 no cierra con las acciones",
+      "decision": "aplicado: 2031 ≤ 115 % y 2036 ≤ 80 %, con la cuenta en la referencia"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Indicador de costo económico del crimen y costo-efectividad",
+      "decision": "aplicado en parte: se añade la falta de análisis de costo-efectividad a las causas; descartado el indicador nuevo porque no hay cifra verificada de gasto en orden público ni de costo de la extorsión"
     }
   ]
 }

@@ -119,7 +119,7 @@
       "fuente_linea_base": "INEI con asistencia técnica de la FAO"
     },
     {
-      "indicador": "Productores que reciben asistencia técnica",
+      "indicador": "Productores que reciben asistencia técnica (con reporte desagregado por sexo)",
       "linea_base": "3,1 % (2024)",
       "2031": "8 %",
       "2036": "15 %",
@@ -129,7 +129,7 @@
       "fuente_linea_base": "INEI, ENA 2024"
     },
     {
-      "indicador": "Productores que pertenecen a una organización",
+      "indicador": "Productores que pertenecen a una organización (con reporte desagregado por sexo)",
       "linea_base": "7,5 % (2024)",
       "2031": "15 %",
       "2036": "25 %",
@@ -139,7 +139,7 @@
       "fuente_linea_base": "INEI, ENA 2024"
     },
     {
-      "indicador": "Productores que solicitan algún tipo de crédito (ENA)",
+      "indicador": "Productores que solicitan algún tipo de crédito (ENA) (con reporte desagregado por sexo)",
       "linea_base": "9,1 % (2024)",
       "2031": "15 %",
       "2036": "22 %",
@@ -151,11 +151,11 @@
     {
       "indicador": "Títulos rurales individuales inscritos en departamentos del PTRT3 (acumulado)",
       "linea_base": "132 607 (2026)",
-      "2031": "283 000",
-      "2036": "cierre nacional de brecha",
-      "2046": "actualización continua",
+      "2031": "≈ 200 000",
+      "2036": "283 000 (cierre de la brecha estimada)",
+      "2046": "cierre nacional de brecha y actualización continua",
       "2056": "catastro rural completo y al día",
-      "referencia": "Brecha estimada de 283 000 títulos en 10 departamentos (MIDAGRI, 2022)",
+      "referencia": "Brecha estimada de 283 000 títulos en 10 departamentos (MIDAGRI, 2022); ritmo anual del PTRT3 del orden de miles de títulos por departamento (Agraria.pe, 2026)",
       "fuente_linea_base": "MIDAGRI – UEGPS"
     }
   ],
@@ -193,8 +193,8 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Reasignación dentro del presupuesto agrario (programas de AGRO RURAL y de la Dirección de Agricultura Familiar) y transferencias condicionadas a GORE.",
-      "costo_referencial": "no estimado",
+      "financiamiento": "Reasignación dentro del presupuesto agrario: programas de AGRO RURAL y de la Dirección de Agricultura Familiar con baja ejecución identificados en la revisión de gasto (EST-05), más transferencias condicionadas a GORE y un cofinanciamiento de 10-20 % de juntas de usuarios o cooperativas atendidas.",
+      "costo_referencial": "Banda indicativa: 2 000 extensionistas ≈ S/ 120-180 millones anuales y 5 000 ≈ S/ 300-450 millones anuales (supuestos: S/ 3 500-5 000 mensuales, 14 pagos, más 30 % de movilidad y parcelas demostrativas). Cálculo propio, por validar con el MIDAGRI y el MEF.",
       "indicador": "% de productores que reciben asistencia técnica en los últimos 12 meses (ENA, INEI).",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -225,6 +225,11 @@
           "rol": "cifras",
           "hallazgo": "meta de asistencia técnica 3,1 % a 15 % implausible",
           "decision": "aplicado: entrega alineada a la nueva meta de 8 % al 2031"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "costo recurrente de extensionistas sin cifra",
+          "decision": "aplicado: banda indicativa con supuestos y partida a reasignar"
         }
       ]
     },
@@ -258,7 +263,7 @@
         }
       ],
       "financiamiento": "Presupuesto de FONCODES y programa presupuestal de inclusión económica del MIDIS.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "No estimado en soles: se calcula como 300 000 hogares × costo por hogar de Haku Wiñay / Noa Jayatai según la ficha del programa presupuestal de FONCODES (por citar), repartido en 10 años, y se compara con el aumento de ingreso autónomo medido en las evaluaciones del programa.",
       "indicador": "Ingreso autónomo de hogares atendidos frente a grupo de comparación (evaluación de impacto cada 5 años).",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -279,6 +284,13 @@
       "pedn": [
         "AE1.5.8",
         "AE3.3.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "falta banda de costo por hogar",
+          "decision": "aplicado: método de cálculo explícito; costo unitario por citar, no se afirma cifra"
+        }
       ]
     },
     {
@@ -322,7 +334,7 @@
         "AGR-05",
         "AGR-04"
       ],
-      "riesgo": "Obras sin dueño local que se abandonan; captura por proyectos pequeños fraccionados sin estudio de agua disponible.",
+      "riesgo": "Obras sin dueño local que se abandonan; captura por proyectos pequeños fraccionados sin estudio de agua disponible. La restricción principal no es presupuesto sino ejecución: el PP 0042 (recursos hídricos para uso agrario) devengaba cerca de 34 % de su PIM 2026 a la fecha de corte del insumo de Consulta Amigable del MEF; se exige cartera priorizada y diseños tipo (EST-08).",
       "fuentes": [
         {
           "titulo": "GRADE – Escobal y Ponce (eds.) (2016): Combinando protección social con generación de oportunidades económicas. Evaluación de Haku Wiñay",
@@ -346,6 +358,11 @@
           "rol": "economia",
           "hallazgo": "evidencia repetía cita OCDE, no prueba riego",
           "decision": "aplicado: evidencia de Haku Wiñay y vacío de evaluación marcado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "baja ejecución del PP 0042",
+          "decision": "aplicado: añadido al riesgo"
         }
       ]
     },
@@ -356,7 +373,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Programa de mantenimiento con presupuesto del PSI y gobiernos regionales; la medición de pozos, las vedas y la retribución económica por uso de agua se regulan por la Ley 29338 de Recursos Hídricos, su reglamento y resoluciones de la ANA vigentes (la veda de Ica, Villacurí y Lanchas fue ratificada por la RJ 330-2011-ANA).",
       "etapa": "2026-2031",
-      "que": "La infraestructura de riego se pierde por falta de mantenimiento: canales sin revestir, bocatomas colapsadas por huaicos y drenes colmatados. Se crea un programa anual de mantenimiento por contrato con juntas de usuarios, que cofinancian con su tarifa y reciben fondos según cumplimiento, priorizando El Niño en la costa norte y la sierra. En los acuíferos en veda de Ica, Villacurí y Lanchas, donde la ANA estimó que la extracción supera la recarga, se exige medición telemétrica de todos los pozos, cobro por volumen extraído, cierre de pozos ilegales y prioridad a la recarga artificial y al agua superficial regulada.",
+      "que": "La infraestructura de riego se pierde por falta de mantenimiento: canales sin revestir, bocatomas colapsadas por huaicos y drenes colmatados. Se crea un programa anual de mantenimiento por contrato con juntas de usuarios, que cofinancian con su tarifa y reciben fondos según cumplimiento, priorizando El Niño en la costa norte y la sierra. En los acuíferos en veda de Ica, Villacurí y Lanchas, donde la ANA estimó que la extracción supera la recarga, se exige medición telemétrica de todos los pozos, cobro por volumen extraído, cierre de pozos ilegales y prioridad a la recarga artificial y al agua superficial regulada. Las juntas que reciben fondos acreditan representación de pequeños regantes y de mujeres titulares de derechos de agua; en acuíferos en veda, el uso poblacional tiene prioridad sobre el riego (Ley 29338, art. 35).",
       "evidencia": "Mantener cuesta menos que reconstruir: la reconstrucción tras El Niño costero 2017 obligó a rehacer defensas y canales que no tenían mantenimiento (Autoridad para la Reconstrucción con Cambios). Para el acuífero de Villacurí, un estudio de la ANA de 2017 estimó una extracción de 231,6 millones de m³ al año frente a una recarga de 179,4 millones (por verificar si hay actualización).",
       "entrega": "Plan multianual de mantenimiento con 100 % de los sistemas mayores y 50 % de los menores con contrato de mantenimiento al 2031.",
       "responsable": "PSI",
@@ -414,6 +431,11 @@
           "rol": "economia",
           "hallazgo": "falta palanca de acuíferos Ica, Villacurí y Lanchas",
           "decision": "aplicado: telemetría, cobro por volumen y recarga en AGR-04; condición de balance hídrico en AGR-06"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "representación de pequeños usuarios y mujeres en juntas",
+          "decision": "aplicado"
         }
       ]
     },
@@ -422,9 +444,9 @@
       "titulo": "Fusionar los programas de riego en un solo operador con cartera priorizada",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "La fusión de programas y unidades ejecutoras del Poder Ejecutivo se aprueba por decreto supremo según la Ley 29158 (LOPE) y las normas de modernización del Estado.",
+      "por_que_ley": "La fusión por decreto supremo (Ley 29158, LOPE) alcanza al PSI, al componente de riego de AGRO RURAL y a la unidad ejecutora que administra el Fondo Sierra Azul. El fondo en sí no lo extingue un decreto: nació en una ley de presupuesto (Ley 29951, como Fondo MI RIEGO) y su uso lo fijaron leyes posteriores, por lo que se mantiene como fuente de financiamiento del operador único o se reasigna por ley de iniciativa del Ejecutivo (art. 79 de la Constitución).",
       "etapa": "2026-2031",
-      "que": "Hoy invierten en riego el PSI, el Fondo Sierra Azul, AGRO RURAL, proyectos especiales hidráulicos, gobiernos regionales y municipios, con estándares distintos y obras duplicadas. Se crea un solo operador con una cartera única priorizada por agua disponible, beneficiarios por sol invertido y capacidad de operación: los programas nacionales (PSI, Sierra Azul y el riego de AGRO RURAL) se fusionan por decreto supremo, y los proyectos especiales a cargo de gobiernos regionales (Chavimochic, Majes Siguas, Olmos) firman convenios voluntarios de gestión por resultados a cambio de cofinanciamiento condicionado.",
+      "que": "Hoy invierten en riego el PSI, el Fondo Sierra Azul, AGRO RURAL, proyectos especiales hidráulicos, gobiernos regionales y municipios, con estándares distintos y obras duplicadas. Se crea un solo operador con una cartera única priorizada por agua disponible, beneficiarios por sol invertido y capacidad de operación: los programas nacionales (PSI, la unidad ejecutora de Sierra Azul y el riego de AGRO RURAL) se fusionan por decreto supremo, y el Fondo Sierra Azul pasa a financiar la cartera del operador único, y los proyectos especiales a cargo de gobiernos regionales (Chavimochic, Majes Siguas, Olmos) firman convenios voluntarios de gestión por resultados a cambio de cofinanciamiento condicionado.",
       "evidencia": "La fragmentación de programas con un mismo fin eleva costos y duplica obras (ver EST-01); la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %, por lo que cada sol en servicios debe rendir más.",
       "entrega": "Decreto supremo de fusión y cartera única pública de proyectos de riego con puntaje de priorización.",
       "responsable": "MIDAGRI",
@@ -459,6 +481,10 @@
         {
           "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
           "url": "https://www3.congreso.gob.pe/Docs/comisiones2024/Agraria/files/ca_sesiondescentralizada_arequipa_sm_27.03.2025_vf.pdf"
+        },
+        {
+          "titulo": "FAOLEX – Ley 29951, Ley de Presupuesto del Sector Público 2013 (Fondo MI RIEGO)",
+          "url": "https://faolex.fao.org/docs/pdf/per171803.pdf"
         }
       ],
       "pedn": [
@@ -470,6 +496,11 @@
           "rol": "economia",
           "hallazgo": "LOPE no permite imponer contratos a proyectos regionales",
           "decision": "aplicado: fusión por DS solo de programas nacionales; convenios voluntarios con proyectos regionales"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fondo Sierra Azul creado por ley; un DS no lo extingue",
+          "decision": "aplicado: DS fusiona unidades ejecutoras; el fondo se mantiene o se reasigna por ley"
         }
       ]
     },
@@ -478,9 +509,9 @@
       "titulo": "Concluir Chavimochic III y Majes Siguas II con cuotas de agua para pequeños productores",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "Son contratos de APP y proyectos especiales vigentes; su reestructuración se hace por adendas y acuerdos bajo el marco de APP (DL 1362) y Invierte.pe.",
+      "por_que_ley": "Son contratos de APP y proyectos especiales vigentes; su reestructuración, resolución o relicitación se hace bajo el marco de APP vigente (Ley 32441 y su reglamento, DS 316-2025-EF, que derogaron el DL 1362) e Invierte.pe, sin necesidad de una ley nueva.",
       "etapa": "2031-2036",
-      "que": "Los grandes proyectos de irrigación de la costa llevan años retrasados por controversias contractuales. Se propone cerrar las controversias con un panel técnico independiente, terminar las presas y canales troncales, y condicionar la venta de nuevas tierras a que una parte del agua (y de lotes medianos) se destine a pequeños y medianos productores organizados, con reglas transparentes de subasta. Antes de nuevas irrigaciones o ampliaciones agroexportadoras sobre acuíferos en veda (como Ica, Villacurí y Lanchas), se exige un balance hídrico público de la ANA y un análisis costo-beneficio con cambio climático.",
+      "que": "Los grandes proyectos de irrigación de la costa llevan años retrasados por controversias contractuales. Se propone cerrar las controversias con un panel técnico independiente y, si el contrato termina por caducidad o resolución, relicitar las obras pendientes (nueva APP o contrato de Gobierno a Gobierno) con PROINVERSIÓN como conductora, para terminar las presas y canales troncales, y condicionar la venta de nuevas tierras a que una parte del agua (y de lotes medianos) se destine a pequeños y medianos productores organizados, con reglas transparentes de subasta. Antes de nuevas irrigaciones o ampliaciones agroexportadoras sobre acuíferos en veda (como Ica, Villacurí y Lanchas), se exige un balance hídrico público de la ANA y un análisis costo-beneficio con cambio climático. Las obras que afecten tierras o aguas de comunidades campesinas pasan por consulta previa (Ley 29785) y los reasentamientos se rigen por la Ley 29869, con acuerdo de las familias.",
       "evidencia": "Majes Siguas II prevé irrigar 38 500 ha según la exposición ante la Comisión Agraria del Congreso; la experiencia de Olmos y Chavimochic I-II muestra que las irrigaciones generan empleo masivo pero concentran tierra si no hay reglas de acceso.",
       "entrega": "Presas y canales troncales de ambos proyectos concluidos y reglamento de acceso con al menos 20 % del área para pequeños y medianos productores.",
       "responsable": "GORE",
@@ -499,7 +530,7 @@
         },
         {
           "sigla": "PROINVERSION",
-          "rol": "consultiva"
+          "rol": "ejecutora"
         },
         {
           "sigla": "CONTRALORIA",
@@ -514,7 +545,7 @@
         "AGR-05",
         "ECP-09"
       ],
-      "riesgo": "Arbitrajes interminables y sobrecostos; que la tierra nueva se concentre en pocos grupos sin beneficio para la agricultura familiar.",
+      "riesgo": "Arbitrajes interminables y sobrecostos; caducidad o resolución del contrato de Chavimochic III (proceso iniciado por la concesionaria en 2026) que obligue a relicitar las obras; que Majes Siguas II no cumpla los plazos de su última adenda; que la tierra nueva se concentre en pocos grupos sin beneficio para la agricultura familiar.",
       "fuentes": [
         {
           "titulo": "Congreso – Comisión Agraria, sesión descentralizada Arequipa: cartera de riego del PSI (2025)",
@@ -523,6 +554,14 @@
         {
           "titulo": "ANA – Gestión de los acuíferos de Ica, Villacurí y Lanchas (presentación, balance hídrico y veda)",
           "url": "https://www.ana.gob.pe/sites/default/files/normatividad/files/4.-_presentacion_ica_0_2.pdf"
+        },
+        {
+          "titulo": "Congreso: Ley 32441, Ley que regula la promoción de la inversión privada mediante APP y proyectos en activos (deroga el DL 1362)",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+        },
+        {
+          "titulo": "Gestión – Chavimochic III: costos, plazos y obras complementarias (2026)",
+          "url": "https://gestion.pe/economia/chavimochic-iii-la-fecha-para-los-costos-reales-plazos-y-obras-complementarias-agricultura-irrigacion-noticia/"
         }
       ],
       "pedn": [
@@ -534,6 +573,21 @@
           "rol": "economia",
           "hallazgo": "ampliación agroexportadora sin balance hídrico de acuíferos",
           "decision": "aplicado: condición de balance hídrico público de la ANA"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "DL 1362 derogado por la Ley 32441",
+          "decision": "aplicado: se cita Ley 32441 y DS 316-2025-EF; fuente añadida"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "caducidad de Chavimochic III y plazos de Majes Siguas II",
+          "decision": "aplicado: vía de relicitación con PROINVERSIÓN ejecutora y riesgo actualizado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "consulta previa y reasentamiento en Majes Siguas II",
+          "decision": "aplicado: Ley 29785 y Ley 29869"
         }
       ]
     },
@@ -542,9 +596,9 @@
       "titulo": "Unificar AGROIDEAS y PROCOMPITE en una ventanilla única de cofinanciamiento",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "AGROIDEAS fue creado por el Decreto Legislativo 1077 y PROCOMPITE por la Ley 29337; fusionarlos y cambiar sus reglas exige una norma con rango de ley. Una ley de iniciativa congresal no puede crear gasto (art. 79 de la Constitución): debe ser neutra o de iniciativa del Ejecutivo.",
+      "por_que_ley": "AGROIDEAS fue creado por el Decreto Legislativo 1077 y PROCOMPITE por la Ley 29337; fusionar sus procedimientos exige una norma con rango de ley. La ley modifica, no deroga, la Ley 29337: se conserva la autorización de su art. 4 para que gobiernos regionales y locales destinen hasta el 10 % de sus recursos de inversión a cofinanciar planes de negocio, porque sin esa habilitación legal no pueden transferir recursos a productores. Una ley de iniciativa congresal no puede crear gasto (art. 79 de la Constitución): debe ser neutra o de iniciativa del Ejecutivo.",
       "etapa": "2026-2031",
-      "que": "Dos fondos con el mismo fin —cofinanciar planes de negocio de organizaciones de productores— funcionan con reglas, ventanillas y evaluaciones distintas, uno nacional (AGROIDEAS) y otro regional y municipal (PROCOMPITE). Se crea una sola ventanilla digital con un formulario, un banco de planes de negocio evaluados y reglas comunes de cofinanciamiento decreciente, La adhesión de gobiernos regionales y locales es voluntaria y por convenio: la ley no transfiere ni afecta la titularidad de sus fondos PROCOMPITE, que siguen aprobándose por sus propios órganos. Los planes se aprueban con evaluación independiente y se publican los resultados de ventas a tres años.",
+      "que": "Dos fondos con el mismo fin —cofinanciar planes de negocio de organizaciones de productores— funcionan con reglas, ventanillas y evaluaciones distintas, uno nacional (AGROIDEAS) y otro regional y municipal (PROCOMPITE). Se crea una sola ventanilla digital con un formulario, un banco de planes de negocio evaluados y reglas comunes de cofinanciamiento decreciente. La adhesión de gobiernos regionales y locales es voluntaria y por convenio: la ley no transfiere ni afecta la titularidad de sus fondos PROCOMPITE, que siguen aprobándose por sus propios órganos y con la misma autorización legal de hasta 10 % de sus recursos de inversión (Ley 29337, art. 4). Los planes se aprueban con evaluación independiente y se publican los resultados de ventas a tres años.",
       "evidencia": "La dispersión de fondos concursables con objetivos iguales eleva costos de transacción para las organizaciones pequeñas; la OCDE (2026) recomienda integrar mejor a los pequeños productores a los mercados locales, nacionales e internacionales.",
       "entrega": "Ley de unificación y plataforma única de cofinanciamiento con 100 % de planes de negocio y resultados publicados.",
       "responsable": "MIDAGRI",
@@ -579,8 +633,8 @@
           "motivo": "Se integra en un instrumento único de cofinanciamiento con reglas comunes."
         },
         {
-          "norma": "Ley 29337, Ley que establece disposiciones para apoyar la competitividad productiva (PROCOMPITE)",
-          "motivo": "Se sustituye su procedimiento propio por la ventanilla única; los fondos regionales y locales se aportan por convenio."
+          "norma": "Ley 29337, Ley que establece disposiciones para apoyar la competitividad productiva (PROCOMPITE), artículos de procedimiento",
+          "motivo": "Se modifica, no se deroga: se mantiene la autorización del art. 4 para que GORE y GL destinen hasta el 10 % de sus recursos de inversión, y su procedimiento propio se remite a la ventanilla única por adhesión voluntaria."
         }
       ],
       "depende_de": [
@@ -612,6 +666,11 @@
           "rol": "jurista",
           "hallazgo": "ciclo AGR-07 con AGR-08",
           "decision": "aplicado: se quita AGR-08"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "derogar la Ley 29337 elimina la habilitación del gasto",
+          "decision": "aplicado: se modifica y se conserva la autorización del art. 4"
         }
       ]
     },
@@ -718,7 +777,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El INIA es un organismo público ejecutor; su reorganización interna y los convenios de desempeño se aprueban por decreto supremo y resoluciones del sector.",
       "etapa": "2026-2031",
-      "que": "El INIA se organiza en programas por cadena (papa y tubérculos, granos andinos, café, cacao, pastos y ganadería, frutales) con agendas definidas junto con productores. Cada estación experimental firma un convenio de desempeño con metas de variedades liberadas, semilla certificada producida y adopción medida. Se forman consorcios con universidades y centros internacionales (como el Centro Internacional de la Papa) y se priorizan variedades tolerantes a sequía y heladas. Se complementa con la meta nacional de I+D (DIG-24) y alimenta la extensión agraria (AGR-01).",
+      "que": "El INIA se organiza en programas por cadena (papa y tubérculos, granos andinos, café, cacao, pastos y ganadería, frutales) con agendas definidas junto con productores. Cada estación experimental firma un convenio de desempeño con metas de variedades liberadas, semilla certificada producida y adopción medida. Se forman consorcios con universidades y centros internacionales (como el Centro Internacional de la Papa) y se priorizan variedades tolerantes a sequía y heladas. Se complementa con la meta nacional de I+D (DIG-24) y alimenta la extensión agraria (AGR-01). Se respeta el derecho de los agricultores a conservar, usar e intercambiar semilla nativa: el INIA registra y conserva variedades locales con las comunidades y reparte beneficios conforme a la Ley 27811.",
       "evidencia": "Embrapa (Brasil) muestra que la investigación agraria pública por cadenas, con autonomía y metas, transforma la productividad; la OCDE (2026) encuentra que el apoyo a servicios generales —investigación, extensión, infraestructura— equivale a 2,1 % del valor de la producción agraria, por debajo del promedio OCDE de 3,2 %.",
       "entrega": "Convenios de desempeño en todas las estaciones experimentales y variedades adaptadas al clima liberadas y difundidas con semilla certificada.",
       "responsable": "INIA",
@@ -760,6 +819,11 @@
           "rol": "jurista",
           "hallazgo": "dependencias hacia etapa posterior y ciclo con AGR-01",
           "decision": "aplicado: se quitan DIG-24 y AGR-01; se mencionan en el texto"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "semilla certificada no debe excluir variedades nativas",
+          "decision": "aplicado: Ley 27811 y derechos del agricultor"
         }
       ]
     },
@@ -918,8 +982,8 @@
       "indicador": "Productores de agricultura familiar con crédito formal (% ENA) y costo fiscal por sol colocado.",
       "deroga_o_simplifica": [
         {
-          "norma": "Ley 29064, Ley de relanzamiento del Banco Agropecuario – AGROBANCO",
-          "motivo": "Se modifica el objeto y el modelo de negocio si la evaluación indica banca de segundo piso."
+          "norma": "Ley 29064, Ley de relanzamiento del Banco Agropecuario – AGROBANCO, modificada por la Ley 30893",
+          "motivo": "Se modifica el objeto y el modelo de negocio si la evaluación indica banca de segundo piso. La modificación parte del texto vigente consolidado en el SPIJ."
         }
       ],
       "depende_de": [
@@ -953,6 +1017,11 @@
           "rol": "jurista",
           "hallazgo": "tipo ley, pero es evaluación condicional",
           "decision": "aplicado: accion_ejecutiva con necesita_ley parcial; se quita AGR-14 (ciclo)"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Ley 29064 ya modificada por la Ley 30893",
+          "decision": "aplicado"
         }
       ]
     },
@@ -989,9 +1058,9 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Fondo AgroPerú reorientado parcialmente a garantías.",
+      "financiamiento": "Fondo AgroPerú reorientado parcialmente a garantías, con un tope de apalancamiento fijado en su reglamento (p. ej. hasta 4 veces el patrimonio del fondo) y registro de los honramientos esperados como pasivo contingente en el reporte de contingencias del MEF.",
       "costo_referencial": "no estimado",
-      "indicador": "% de productores que solicitan y obtienen crédito formal (ENA).",
+      "indicador": "% de productores que solicitan y obtienen crédito formal (ENA). Ratio de honramientos sobre garantías vigentes.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "AGR-13",
@@ -1011,6 +1080,13 @@
       "pedn": [
         "AE3.4.1",
         "AE3.3.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "garantías AgroPerú sin tope; pasivo contingente",
+          "decision": "aplicado: tope de apalancamiento, registro como pasivo contingente e indicador de honramientos"
+        }
       ]
     },
     {
@@ -1149,9 +1225,9 @@
       "necesita_ley": "no",
       "por_que_ley": "La titulación es función transferida a los gobiernos regionales y se financia con proyectos de inversión (PTRT3, préstamo BID) y recursos regionales; rectoría del MIDAGRI.",
       "etapa": "2026-2031",
-      "que": "Desde 2019 el PTRT3 inscribió 132 607 títulos individuales y 261 comunidades, frente a una brecha estimada de 283 000 títulos en sus diez departamentos. Se propone terminar el PTRT3 y extenderlo al país con barridos por distrito, catastro georreferenciado interoperable con SUNARP y actualización de títulos ya emitidos. Salvaguarda: no se titulan predios con bosque talado después de la fecha de corte de AMB-03, verificada con imágenes satelitales, ni sin zonificación forestal (AMB-02); la titulación de comunidades nativas se coordina con AMB-04 y se prioriza en zonas de deforestación y conflicto.",
+      "que": "Desde 2019 el PTRT3 inscribió 132 607 títulos individuales y 261 comunidades, frente a una brecha estimada de 283 000 títulos en sus diez departamentos. Se propone terminar el PTRT3 y extenderlo al país con barridos por distrito, catastro georreferenciado interoperable con SUNARP y actualización de títulos ya emitidos. El catastro se publica en GeoPerú con el código único catastral del Sistema Nacional Integrado de Catastro (Ley 28294), como capa común para los catastros forestal (AMB-02), urbano (VIV-07) y minero. Salvaguardas: la fecha de corte de AMB-03 y la verificación satelital se aplican solo a la titulación de predios individuales. El reconocimiento y la titulación de comunidades nativas (Decreto Ley 22175) y campesinas (Ley 24656) protegen un derecho colectivo preexistente, no se condicionan al estado del bosque (art. 89 de la Constitución; Convenio 169 de la OIT, art. 14) y se priorizan en zonas de deforestación y conflicto (AMB-04). Donde exista solicitud o reclamo comunal, se titula primero a la comunidad y se suspende la titulación individual superpuesta. Los títulos individuales se otorgan a nombre de ambos cónyuges o convivientes y se registra el sexo del titular; las comunidades reciben asesoría legal gratuita para el saneamiento.",
       "evidencia": "La titulación con registro aumenta la inversión en la parcela y el acceso a crédito cuando existen mercados; las comunidades nativas tituladas reducen la deforestación en la Amazonía peruana (Blackman et al., PNAS 2017).",
-      "entrega": "Cierre de la brecha estimada de títulos en los departamentos del PTRT3 al 2031 y catastro rural nacional interoperable al 2036.",
+      "entrega": "Unos 67 000 títulos individuales adicionales al 2031 en los departamentos del PTRT3 (de 132 607 a cerca de 200 000, ritmo coherente con la capacidad del programa y de los GORE), cierre de la brecha estimada de 283 000 títulos al 2036 y catastro rural nacional interoperable al 2036.",
       "responsable": "GORE",
       "entidades": [
         {
@@ -1181,7 +1257,7 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "GOB-07",
-        "DIG-22",
+        "VIV-07",
         "AMB-02",
         "AMB-03",
         "AMB-04"
@@ -1199,6 +1275,10 @@
         {
           "titulo": "Blackman et al. (2017) – Titling indigenous communities protects forests in the Peruvian Amazon, PNAS",
           "url": "https://doi.org/10.1073/pnas.1603290114"
+        },
+        {
+          "titulo": "Agraria.pe – Titularán 4 310 predios rurales en Puno este año (PTRT3, 2026)",
+          "url": "https://agraria.pe/noticias/titularan-4-310-predios-rurales-en-puno-este-ano-y-alrededor-42018"
         }
       ],
       "pedn": [
@@ -1210,6 +1290,31 @@
           "rol": "jurista",
           "hallazgo": "titulación sin fecha de corte de deforestación (AMB-03)",
           "decision": "aplicado: salvaguarda AMB-03/AMB-02 y coordinación con AMB-04"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "titulación comunal no se condiciona al estado del bosque",
+          "decision": "aplicado: fecha de corte solo para predios individuales; DL 22175, Ley 24656, Convenio 169 art. 14"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "titular primero a la comunidad; cotitularidad de mujeres",
+          "decision": "aplicado: prioridad comunal, suspensión de titulación superpuesta, títulos a ambos convivientes"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "meta de 150 000 títulos al 2031 excede el ritmo del PTRT3",
+          "decision": "aplicado: ≈ 67 000 adicionales al 2031 y cierre de brecha al 2036; metas alineadas"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DIG-22 ya no cubre catastro",
+          "decision": "aplicado: se reemplaza DIG-22 por VIV-07"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "catastros en base común GeoPerú y SNCP",
+          "decision": "aplicado: capa común con código único catastral"
         }
       ]
     },
@@ -1381,7 +1486,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Los permisos y registros de pesca artesanal se regulan por la Ley General de Pesca (DL 25977) y su reglamento; la formalización y el registro son actos administrativos de PRODUCE y gobiernos regionales.",
       "etapa": "2026-2031",
-      "que": "Las cifras sobre cuántos pescadores artesanales hay difieren (56 559 en el litoral en el I Censo; estimaciones posteriores superiores) y el II Censo Nacional de la Pesca Artesanal estaba programado para 2025. Se publica el censo, se crea un registro digital único de pescadores y embarcaciones, se simplifican los permisos para embarcaciones menores, se afilia a los pescadores a salud y pensión con aportes simplificados (PRO-21) y se implementa la trazabilidad digital de la captura hasta el mercado. La acuicultura se impulsa por ECP-20.",
+      "que": "Las cifras sobre cuántos pescadores artesanales hay difieren (56 559 en el litoral en el I Censo; estimaciones posteriores superiores) y el II Censo Nacional de la Pesca Artesanal estaba programado para 2025. Se publica el censo, se integra en un solo registro digital el padrón de formalización pesquera artesanal de PRODUCE, la matrícula de embarcaciones de la DICAPI y el II Censo, interoperables por la PIDE (sin crear un registro nuevo), se simplifican los permisos para embarcaciones menores, se afilia a los pescadores a salud y pensión con aportes simplificados (PRO-21) y se implementa la trazabilidad digital de la captura hasta el mercado. La acuicultura se impulsa por ECP-20.",
       "evidencia": "La formalización con beneficios concretos (seguro, crédito, acceso a mercados) es más efectiva que la sanción; la trazabilidad permite combatir la pesca ilegal (FAO, Directrices voluntarias para la pesca en pequeña escala).",
       "entrega": "II Censo publicado y registro digital con 100 % de embarcaciones artesanales activas identificadas al 2031.",
       "responsable": "PRODUCE",
@@ -1438,6 +1543,11 @@
           "rol": "jurista",
           "hallazgo": "depende de ECP-20 de etapa posterior",
           "decision": "aplicado: se quita ECP-20; se mantiene PRO-21"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "evitar un tercer registro de pescadores",
+          "decision": "aplicado: integración PRODUCE + DICAPI + censo por la PIDE"
         }
       ]
     },
@@ -1448,7 +1558,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El mapeo, la trazabilidad y la certificación se hacen con programas de MIDAGRI, SERFOR y gobiernos regionales; la propuesta legislativa de economía digital rural (ECO-22) complementa.",
       "etapa": "2026-2031",
-      "que": "El Reglamento (UE) 2023/1115 exige probar que el café y el cacao no vienen de tierras deforestadas después de 2020; tras su aplazamiento, rige desde el 30 de diciembre de 2026 para medianas y grandes empresas y desde el 30 de junio de 2027 para micro y pequeñas. Se georreferencia gratuitamente cada parcela de pequeños productores, se cruza con mapas oficiales de bosque y deforestación, y se entrega a cooperativas y exportadores una plataforma pública de trazabilidad con datos que pertenecen al productor. Quien quede fuera por deforestación recibe un plan de reconversión agroforestal.",
+      "que": "El Reglamento (UE) 2023/1115 exige probar que el café y el cacao no vienen de tierras deforestadas después de 2020; tras su aplazamiento, rige desde el 30 de diciembre de 2026 para medianas y grandes empresas y desde el 30 de junio de 2027 para micro y pequeñas. Se georreferencia gratuitamente cada parcela de pequeños productores, se cruza con mapas oficiales de bosque y deforestación, y se entrega a cooperativas y exportadores una plataforma pública de trazabilidad. La plataforma del MIDAGRI custodia los polígonos; el productor autoriza con su identidad digital (ID GOB.PE) qué exportador o cooperativa accede y por cuánto tiempo; los mapas agregados sin identificación se publican abiertos, con evaluación de impacto ante la Autoridad Nacional de Protección de Datos Personales (Ley 29733). Se aceptan constancias de posesión o certificados comunales para georreferenciar a quien aún no tiene título. Quien quede fuera por deforestación recibe un plan de reconversión agroforestal. Esta acción es la única dueña de la georreferenciación de parcelas; DIG-21 remite a ella.",
       "evidencia": "El MIDAGRI reporta avances en talleres regionales de implementación de la EUDR; la trazabilidad pública reduce costos de cumplimiento frente a que cada importador mapee por su cuenta.",
       "entrega": "100 % de parcelas de café y cacao de pequeños productores georreferenciadas y en la plataforma de trazabilidad al 2027.",
       "responsable": "MIDAGRI",
@@ -1497,6 +1607,23 @@
       "pedn": [
         "AE3.3.14",
         "AE2.1.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "datos de parcela son datos personales (Ley 29733)",
+          "decision": "aplicado: consentimiento por ID GOB.PE, custodia MIDAGRI, datos agregados abiertos"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "productores sin título quedan fuera",
+          "decision": "aplicado: constancias de posesión o certificados comunales"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DIG-21 duplica la georreferenciación",
+          "decision": "aplicado: AGR-22 queda como dueña; se pide a digital que DIG-21 remita aquí"
+        }
       ]
     },
     {
@@ -1684,6 +1811,16 @@
       "rol": "cifras",
       "hallazgo": "URLs de www.congreso.gob.pe/Docs rotas",
       "decision": "aplicado: cambiadas a www3.congreso.gob.pe"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "metas[5]: 283 000 títulos al 2031 implausible",
+      "decision": "aplicado: ≈ 200 000 al 2031 y 283 000 al 2036, alineado con AGR-17"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "metas sin desagregación por sexo",
+      "decision": "aplicado parcialmente: metas de asistencia, organización y crédito se reportan por sexo; no se fija cuota de 40 % ni nueva meta comunal por falta de línea base verificada (AGR-17 ya mide % de comunidades tituladas)"
     }
   ]
 }

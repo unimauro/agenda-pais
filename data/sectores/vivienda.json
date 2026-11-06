@@ -141,6 +141,16 @@
       "2056": "80 %",
       "referencia": "Programas de reforzamiento sísmico de vivienda de Chile y Colombia (por verificar)",
       "fuente_linea_base": "Por construir con el inventario de VIV-11"
+    },
+    {
+      "indicador": "Nuevas adjudicaciones de subsidio, lote o vivienda con cotitularidad cuando hay pareja, o a nombre de mujeres jefas de hogar",
+      "linea_base": "por verificar (COFOPRI y Fondo MIVIVIENDA no publican el dato)",
+      "2031": "100 % de las nuevas adjudicaciones con pareja",
+      "2036": "100 %",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "Ley 28983 de igualdad de oportunidades entre mujeres y hombres",
+      "fuente_linea_base": "Por construir con los padrones de VIV-03"
     }
   ],
   "acciones": [
@@ -206,9 +216,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El Bono Familiar Habitacional (Ley 27829) ya tiene modalidades de construcción en sitio propio y mejoramiento; se reorienta por reglamento y presupuesto del PP 0146.",
       "etapa": "2026-2031",
-      "que": "Reorientar una parte creciente del Bono Familiar Habitacional hacia el déficit cualitativo: techos, muros, baños, ampliaciones y reforzamiento de viviendas existentes de familias de bajos ingresos con título o constancia de posesión fuera de zonas de riesgo no mitigable. Cada intervención incluye un diseño firmado por un profesional, supervisión de obra y uso de materiales certificados. Se prioriza a hogares con hacinamiento, adultos mayores o personas con discapacidad.",
+      "que": "Reorientar una parte creciente del Bono Familiar Habitacional hacia el déficit cualitativo: techos, muros, baños, ampliaciones y reforzamiento de viviendas existentes de familias de bajos ingresos con título o constancia de posesión fuera de zonas de riesgo no mitigable. Cada intervención incluye un diseño firmado por un profesional, supervisión de obra y uso de materiales certificados. Se prioriza a hogares con hacinamiento, adultos mayores o personas con discapacidad. Las mejoras siguen la Norma A.120 de accesibilidad cuando en el hogar vive una persona con discapacidad o adulta mayor, y el bono se otorga a nombre de ambos convivientes o de la jefa de hogar.",
       "evidencia": "El déficit cualitativo (12,9 % de hogares) duplica al cuantitativo (5,8 %) (MVCS, 2024). La evaluación del MVCS sobre el BFH en las modalidades de vivienda nueva y construcción en sitio propio encontró efectos positivos en el acceso al crédito formal y recomendó fortalecer el seguimiento de la calidad de las viviendas entregadas (MVCS, 2024).",
-      "entrega": "Viviendas mejoradas o ampliadas con diseño y supervisión técnica en distritos con mayor déficit cualitativo.",
+      "entrega": "Al 2031, al menos la mitad de los bonos del BFH de cada año se destina a mejorar, ampliar o reforzar viviendas existentes en los 100 distritos con mayor déficit cualitativo, todas con conformidad técnica; el número anual se fija con la línea base del BFH 2026 (por verificar).",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -259,6 +269,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclo VIV-02 con VIV-11",
           "decision": "aplicado: se quita VIV-11 de depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: proporción del BFH, 100 distritos y año 2031"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Falta accesibilidad y cotitularidad en mejoramiento",
+          "decision": "aplicado: Norma A.120 y bono a nombre de ambos convivientes"
         }
       ]
     },
@@ -269,7 +289,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Los montos, reglas y focalización del BFH y del Bono del Buen Pagador se fijan por decreto supremo y reglamentos; fusionar los bonos creados por ley (Ley 27829 y Ley 29033) en un solo esquema requiere ley de iniciativa del Ejecutivo.",
       "etapa": "2026-2031",
-      "que": "Integrar el Bono Familiar Habitacional, el Bono del Buen Pagador, el bono de vivienda sostenible y los bonos de arrendamiento en una escalera única de subsidios según ingreso del hogar, con montos decrecientes a mayor ingreso y un solo padrón interoperable con el SISFOH. Se premia la ubicación de la vivienda cerca del empleo y del transporte, y el subsidio se paga solo con conformidad técnica de la obra. Cada modalidad se evalúa con diseño experimental o cuasi experimental antes de ampliarse.",
+      "que": "Integrar el Bono Familiar Habitacional, el Bono del Buen Pagador, el bono de vivienda sostenible y los bonos de arrendamiento en una escalera única de subsidios según ingreso del hogar, con montos decrecientes a mayor ingreso y un solo padrón interoperable con el SISFOH. Se premia la ubicación de la vivienda cerca del empleo y del transporte, y el subsidio se paga solo con conformidad técnica de la obra. Cada modalidad se evalúa con diseño experimental o cuasi experimental antes de ampliarse. Regla común a toda la escalera: cada subsidio, lote o vivienda se adjudica a nombre de ambos convivientes o de la jefa de hogar (en línea con la Ley 28983 de igualdad de oportunidades); se prioriza a hogares con personas con discapacidad o adultas mayores, con diseño accesible según la Ley 29973 y la Norma A.120 del Reglamento Nacional de Edificaciones, y se propone reservar al menos 5 % de lotes y viviendas accesibles.",
       "evidencia": "La evaluación del MVCS (2024) muestra efectos del BFH en el acceso al crédito, pero también la necesidad de vigilar la calidad de las viviendas. La experiencia chilena muestra que subsidios masivos a vivienda nueva en la periferia generaron segregación y que la ubicación debe ser parte del diseño (Ministerio de Vivienda y Urbanismo de Chile, Política Nacional de Desarrollo Urbano, 2014).",
       "entrega": "Esquema único de subsidios habitacionales con padrón interoperable y evaluaciones publicadas por modalidad.",
       "responsable": "MVCS",
@@ -297,7 +317,7 @@
       ],
       "financiamiento": "Presupuestos existentes del BFH y del Fondo Mivivienda; sin gasto adicional.",
       "costo_referencial": "no estimado",
-      "indicador": "Proporción del subsidio que llega a los tres quintiles de menor ingreso; evaluaciones publicadas por modalidad.",
+      "indicador": "Proporción del subsidio que llega a los tres quintiles de menor ingreso; evaluaciones publicadas por modalidad; adjudicaciones con cotitularidad o a nombre de mujeres; viviendas y lotes accesibles adjudicados.",
       "deroga_o_simplifica": [
         {
           "norma": "Ley 29033, Ley de creación del Bono del Buen Pagador",
@@ -322,6 +342,13 @@
       "pedn": [
         "AE1.3.7",
         "AE3.6.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Regla transversal de accesibilidad y titulación conjunta",
+          "decision": "aplicado: cotitularidad, prioridad a discapacidad y adultos mayores, 5 % accesible propuesto"
+        }
       ]
     },
     {
@@ -331,9 +358,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El Bono de Arrendamiento para Vivienda (Ley 30952), el bono de arrendamiento para emergencias (Ley 31526) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se escalan con presupuesto y reglamento.",
       "etapa": "2031-2036",
-      "que": "Escalar el Bono de Arrendamiento para Vivienda para jóvenes, familias monoparentales y damnificados, y licitar edificios de vivienda en alquiler a precio limitado en suelo público bien ubicado de Lima, Arequipa, Trujillo y otras ciudades, operados por privados con contratos de largo plazo. Los contratos se registran con el formulario de desalojo notarial para dar seguridad a propietarios e inquilinos. El alquiler se ofrece como alternativa a la invasión para quien recién forma su hogar.",
+      "que": "Escalar el Bono de Arrendamiento para Vivienda para jóvenes, familias monoparentales y damnificados, y licitar edificios de vivienda en alquiler a precio limitado en suelo público bien ubicado de Lima, Arequipa, Trujillo y otras ciudades, operados por privados con contratos de largo plazo. Los contratos se registran con el formulario de desalojo notarial para dar seguridad a propietarios e inquilinos. El alquiler se ofrece como alternativa a la invasión para quien recién forma su hogar. El bono se amplía por tramos solo si la evaluación de Renta Joven, publicada antes de 2028, muestra que menos de la mitad del bono se traslada a alquileres más altos; mientras tanto se prioriza la oferta de edificios en alquiler social. Una parte de esas viviendas se reserva para personas que salen de albergues o de la situación de calle, con acompañamiento de los servicios de protección social.",
       "evidencia": "El Bono Renta Joven entrega S/ 500 mensuales, 70 % para el alquiler y 30 % a una cuenta de ahorro para la cuota inicial (Andina); sus convocatorias han sido pequeñas (miles de bonos). Chile mantiene desde 2013 un subsidio de arriendo como política permanente (MINVU). La evaluación de impacto de Renta Joven aún no se ha publicado (por verificar).",
-      "entrega": "Bonos de arrendamiento ampliados y primeros edificios de alquiler social en suelo público.",
+      "entrega": "Al 2036, bono de arrendamiento evaluado y ampliado por tramos, y al menos un edificio de alquiler social en suelo público operando en Lima, Arequipa y Trujillo; el número de bonos y viviendas se fija con la evaluación de Renta Joven.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -359,7 +386,7 @@
       ],
       "financiamiento": "PP 0146, suelo público aportado por la SBN y APP o contratos de largo plazo con operadores privados.",
       "costo_referencial": "no estimado",
-      "indicador": "Hogares con bono de arrendamiento vigente; viviendas en alquiler social operando.",
+      "indicador": "Hogares con bono de arrendamiento vigente; viviendas en alquiler social operando; variación del alquiler medio en las zonas con bono frente a zonas comparables.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "VIV-03",
@@ -379,6 +406,23 @@
       "pedn": [
         "AE1.3.7",
         "AE3.6.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Bono de alquiler sin medir traslado a precios",
+          "decision": "aplicado: ampliación por tramos condicionada a evaluación e indicador de alquiler medio"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: edificios en tres ciudades al 2036; bonos según evaluación"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Personas en situación de calle sin atención",
+          "decision": "aplicado: reserva de unidades de alquiler social; la acción de albergues corresponde a protección"
+        }
       ]
     },
     {
@@ -494,9 +538,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El catastro se rige por la Ley 28294 del Sistema Nacional Integrado de Catastro; los valores arancelarios se aprueban anualmente por el MVCS. No requiere ley; la propuesta digital está en GOB-07 y DIG-22.",
       "etapa": "2026-2031",
-      "que": "COFOPRI y las municipalidades provinciales levantan el catastro urbano de las ciudades con imágenes de dron y satélite, con un código único catastral enlazado a SUNARP, y lo usan para actualizar el padrón del impuesto predial. El MVCS actualiza los valores arancelarios con metodología técnica. Parte del mayor predial se destina por acuerdo municipal a mantenimiento de parques, pistas y veredas del propio distrito, para que el vecino vea el retorno.",
+      "que": "COFOPRI y las municipalidades provinciales levantan el catastro urbano de las ciudades con imágenes de dron y satélite, con un código único catastral enlazado a SUNARP, y lo usan para actualizar el padrón del impuesto predial. El MVCS actualiza los valores arancelarios con metodología técnica. Parte del mayor predial se destina por acuerdo municipal a mantenimiento de parques, pistas y veredas del propio distrito, para que el vecino vea el retorno. El catastro se publica en GeoPerú, la plataforma de la Infraestructura de Datos Espaciales del Perú, con el código único catastral del Sistema Nacional Integrado de Catastro (Ley 28294), y sirve de capa de referencia para los catastros rural (AGR-17), forestal (AMB-02) y minero (MIN-14).",
       "evidencia": "El Perú recauda 0,26 % del PIB en predial frente a 0,4 % en América Latina, brecha que el BID atribuye principalmente a la falta de catastro fiscal (BID). El catastro urbano nacional de COFOPRI apunta a cerrar una brecha de seis millones de predios (iuslatin, por verificar). Colombia elevó su recaudo predial con la actualización catastral multipropósito (BID, por verificar).",
-      "entrega": "Catastro urbano multipropósito en las ciudades de más de 20 000 habitantes y padrones prediales actualizados.",
+      "entrega": "Catastro urbano multipropósito en las ciudades de más de 20 000 habitantes y padrones prediales actualizados; al 2031, catastro publicado en GeoPerú en todas las capitales de provincia, con el número de predios fijado en el proyecto de inversión.",
       "responsable": "COFOPRI",
       "entidades": [
         {
@@ -520,7 +564,7 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "PP 0058 Acceso a la propiedad predial formalizada, Programa de Incentivos Municipales y préstamos del BID.",
+      "financiamiento": "Proyecto de inversión de catastro urbano de COFOPRI con endeudamiento externo (BID; monto por verificar) y Programa de Incentivos Municipales. El PP 0058 Acceso a la propiedad predial formalizada (PIM 2026: S/ 54 millones, MEF Consulta Amigable) solo alcanza para la formalización, no para el catastro.",
       "costo_referencial": "no estimado",
       "indicador": "Predios urbanos catastrados; recaudación del impuesto predial como % del PIB.",
       "deroga_o_simplifica": [],
@@ -552,6 +596,16 @@
           "rol": "jurista",
           "hallazgo": "Solapa con DIG-22: catastro queda en VIV-07",
           "decision": "aplicado: se quita DIG-22 de depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0058 no alcanza para catastro nacional",
+          "decision": "aplicado: fuente principal es proyecto de inversión con BID; PP 0058 (S/ 54 M) solo formalización"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Falta base común GeoPerú y código único SNCP",
+          "decision": "aplicado: catastro en GeoPerú con código único como capa común de AGR-17, AMB-02 y MIN-14"
         }
       ]
     },
@@ -562,9 +616,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Los Programas de Adjudicación de Lotes de COFOPRI (DL 803 modificado por el DL 1202 y su reglamento, DS 014-2016-VIVIENDA) ya permiten adjudicar terrenos del Estado con fines de vivienda.",
       "etapa": "2026-2031",
-      "que": "En las zonas de expansión que señala el plan urbano, el Estado habilita por etapas lotes de bajo costo con trazado de calles, reservas para parques y escuelas, agua y desagüe o soluciones transitorias, y los adjudica por sorteo a familias sin vivienda registradas, con pago en cuotas. La vivienda se construye progresivamente con planos tipo y asistencia técnica. Se empieza en las ciudades con más invasiones recientes de la costa y en ciudades intermedias de rápido crecimiento.",
+      "que": "En las zonas de expansión que señala el plan urbano, el Estado habilita por etapas lotes de bajo costo con trazado de calles, reservas para parques y escuelas, agua y desagüe o soluciones transitorias, y los adjudica por sorteo a familias sin vivienda registradas, con pago en cuotas. La vivienda se construye progresivamente con planos tipo y asistencia técnica. Se empieza en las ciudades con más invasiones recientes de la costa y en ciudades intermedias de rápido crecimiento. Los lotes se adjudican a nombre de ambos convivientes o de la jefa de hogar, y una parte se reserva con diseño accesible para hogares con personas con discapacidad o adultas mayores.",
       "evidencia": "El 93 % de la expansión urbana fue informal porque no hay oferta de suelo formal accesible (GRADE, 2020). El Banco Mundial ha documentado que los programas de lotes con servicios cuestan menos por hogar que llevar servicios a asentamientos informales ya consolidados, siempre que estén bien ubicados (Banco Mundial, revisión de sites and services, por verificar).",
-      "entrega": "Lotes habilitados con servicios adjudicados a familias sin vivienda en zonas de expansión planificadas.",
+      "entrega": "Al 2031, lotes habilitados con servicios adjudicados en las 20 ciudades con mayor presión de invasiones (medición satelital); la meta anual de lotes se fija en la programación multianual del MVCS según la demanda registrada.",
       "responsable": "COFOPRI",
       "entidades": [
         {
@@ -611,6 +665,18 @@
       "pedn": [
         "AE2.1.7",
         "AE1.3.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: 20 ciudades al 2031, meta anual en programación multianual"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Falta cotitularidad y accesibilidad en lotes",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -620,17 +686,17 @@
       "necesita_ley": "si",
       "por_que_ley": "Los delitos de usurpación (Código Penal, arts. 202 y 204) y los procedimientos de recuperación extrajudicial de predios estatales están en normas con rango de ley; endurecer agravantes por organización criminal y unificar la recuperación requiere ley.",
       "etapa": "2026-2031",
-      "que": "Modificar el Código Penal y las normas de defensa de predios estatales para tratar el tráfico de terrenos organizado como delito de organización criminal con decomiso de ganancias, sancionar al funcionario que emite constancias de posesión o factibilidades a invasores, y unificar para la SBN, gobiernos regionales y municipios el procedimiento de recuperación extrajudicial de la Ley 30230 para ocupaciones recientes (dentro del plazo legal), con apoyo policial oportuno; las posesiones antiguas se recuperan por vía judicial, con debido proceso. El Ministerio Público crea fiscalías especializadas en las ciudades con más invasiones.",
+      "que": "Modificar el Código Penal y las normas de defensa de predios estatales para tratar el tráfico de terrenos organizado como delito de organización criminal con decomiso de ganancias, sancionar al funcionario que emite constancias de posesión o factibilidades a invasores, y unificar para la SBN, gobiernos regionales y municipios el procedimiento de recuperación extrajudicial de la Ley 30230 para ocupaciones recientes (dentro del plazo legal), con apoyo policial oportuno; las posesiones antiguas se recuperan por vía judicial, con debido proceso. El Ministerio Público crea fiscalías especializadas en las ciudades con más invasiones. Toda recuperación extrajudicial se ejecuta con notificación previa, en horario diurno, con presencia del Ministerio Público y de la Defensoría del Pueblo cuando hay familias, sin fuerza desproporcionada, con registro de las personas afectadas y con albergue temporal para hogares con niñas, niños, personas adultas mayores o con discapacidad (Observación General 7 del Comité de Derechos Económicos, Sociales y Culturales de la ONU). La persecución penal se dirige a los organizadores y traficantes, no a los ocupantes de buena fe.",
       "evidencia": "Las invasiones y lotizaciones informales explican casi toda la expansión urbana reciente (GRADE, 2020). Las prórrogas sucesivas de formalización hasta posesiones de 2021 (Ley 32267) reducen el costo esperado de invadir. La delegación de 2026 incluyó la respuesta penal al crimen organizado, pero no específicamente el tráfico de terrenos (Ley 32743).",
       "entrega": "Ley sobre tráfico de terrenos y fiscalías especializadas operando en las principales ciudades.",
-      "responsable": "MPFN",
+      "responsable": "MP",
       "entidades": [
         {
           "sigla": "CONGRESO",
           "rol": "rectora"
         },
         {
-          "sigla": "MPFN",
+          "sigla": "MP",
           "rol": "ejecutora"
         },
         {
@@ -648,6 +714,10 @@
         {
           "sigla": "PJ",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto del Ministerio Público y la PNP; la creación de fiscalías corresponde al propio Ministerio Público.",
@@ -682,6 +752,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Recuperación en 48 horas y debido proceso",
           "decision": "aplicado: se limita a ocupaciones recientes bajo la Ley 30230; las antiguas por vía judicial"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Estándares de desalojo de la Observación General 7",
+          "decision": "aplicado: notificación, horario diurno, fiscal y Defensoría, albergue, persecución a organizadores"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla MPFN no normalizada",
+          "decision": "aplicado: MP"
         }
       ]
     },
@@ -800,7 +880,7 @@
         }
       ],
       "financiamiento": "PP 0068 Reducción de vulnerabilidad y atención de emergencias por desastres, PP 0146 y créditos de microfinanzas.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Banda por calcular: 100 000 viviendas × costo de reforzamiento tipo (bono BFH de reforzamiento más aporte familiar o microcrédito). El costo unitario del piloto se publica antes de 2028; hasta entonces, no estimado.",
       "indicador": "Viviendas evaluadas y reforzadas en zonas de alto peligro sísmico.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -824,6 +904,11 @@
           "rol": "jurista",
           "hallazgo": "Solapa con AMB-20 en reforzamiento de viviendas",
           "decision": "aplicado: el reforzamiento de viviendas queda en VIV-11 con la meta de AMB-20"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Meta de 100 000 viviendas sin costo unitario",
+          "decision": "aplicado: banda con fórmula y costo unitario del piloto antes de 2028"
         }
       ]
     },
@@ -834,9 +919,9 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 29869 de Reasentamiento Poblacional para Zonas de Muy Alto Riesgo No Mitigable y su reglamento ya regulan el procedimiento.",
       "etapa": "2026-2031",
-      "que": "Con los mapas de CENEPRED y los planes urbanos se identifican los asentamientos en cauces de quebradas, riberas inundables y laderas inestables donde el riesgo no se puede reducir. Las familias reciben una oferta concreta de reasentamiento cercano (lote con servicios o vivienda con bono), con participación en el diseño y apoyo para mantener empleo y escuela. El terreno liberado se declara intangible y se convierte en parque, área de amortiguamiento o defensa ribereña para evitar su reocupación. Las obras de mitigación donde el riesgo sí es reducible y el cierre de quebradas a nueva ocupación quedan en AMB-19.",
+      "que": "Con los mapas de CENEPRED y los planes urbanos se identifican los asentamientos en cauces de quebradas, riberas inundables y laderas inestables donde el riesgo no se puede reducir. Las familias reciben una oferta concreta de reasentamiento cercano (lote con servicios o vivienda con bono), con participación en el diseño y apoyo para mantener empleo y escuela. El terreno liberado se declara intangible y se convierte en parque, área de amortiguamiento o defensa ribereña para evitar su reocupación. Las obras de mitigación donde el riesgo sí es reducible y el cierre de quebradas a nueva ocupación quedan en AMB-19. El reasentamiento se rige por la Ley 29869 de reasentamiento poblacional para zonas de muy alto riesgo no mitigable: se acuerda con las familias, nadie se traslada antes de que el lote o la vivienda con servicios esté disponible, se compensan las mejoras, la nueva vivienda se titula a nombre de ambos convivientes y se mantienen la matrícula escolar y el acceso al establecimiento de salud. El traslado forzoso solo procede por decisión judicial ante peligro inminente.",
       "evidencia": "Las lluvias de El Niño costero de 2017 afectaron miles de viviendas en quebradas y riberas de la costa norte (catastro de daños de la reconstrucción, Andina). La Ley 29869 existe desde 2012, pero los reasentamientos ejecutados han sido pocos; el Banco Mundial recomienda reasentamiento voluntario, cercano y con medios de vida (Banco Mundial, Preventive Resettlement of Populations at Risk of Disaster, 2011).",
-      "entrega": "Planes de reasentamiento ejecutados en los asentamientos de muy alto riesgo no mitigable priorizados, con terreno liberado convertido en espacio público.",
+      "entrega": "Al 2027, inventario público de asentamientos de muy alto riesgo no mitigable priorizados con CENEPRED; al 2031, planes de reasentamiento ejecutados en ellos, con el número de familias fijado en ese inventario y el terreno liberado convertido en espacio público.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -893,6 +978,16 @@
           "rol": "jurista",
           "hallazgo": "Duplica AMB-19 (reasentamiento)",
           "decision": "aplicado: el reasentamiento queda en VIV-12, se adelanta a 2026-2031 y AMB-19 se remite a mitigación"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Faltan consentimiento, compensación y vivienda lista antes",
+          "decision": "aplicado: Ley 29869, acuerdo, compensación, nadie se traslada sin vivienda lista"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: inventario 2027 y ejecución al 2031"
         }
       ]
     },
@@ -905,7 +1000,7 @@
       "etapa": "2026-2031",
       "que": "En los asentamientos consolidados de las periferias se ejecutan paquetes integrales por barrio: redes de agua y desagüe, pistas y veredas, muros de contención, escaleras, alumbrado, pequeños parques y espacios comunales. El barrio elige prioridades en asambleas y vigila la obra; el municipio asume el mantenimiento con parte del predial que genera el catastro. Se empieza por los barrios con mayor déficit cualitativo y riesgo de deslizamientos.",
       "evidencia": "El programa Favela-Bairro de Río de Janeiro, financiado por el BID, mejoró ingresos y acceso a servicios en las favelas intervenidas según el BID, aunque evaluaciones independientes encontraron efectos claros sobre todo en alcantarillado y recojo de basura (Soares y Soares, 2005): la integralidad y el mantenimiento importan. El déficit cualitativo afecta al 12,9 % de hogares (MVCS, 2024).",
-      "entrega": "Barrios consolidados con paquete integral de servicios y espacio público ejecutado.",
+      "entrega": "Al 2031, paquete integral ejecutado en los 100 barrios consolidados con mayor déficit cualitativo y riesgo de deslizamiento (meta indicativa con PP 0146), con escaleras, veredas y espacios comunales accesibles según la Norma A.120.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -948,6 +1043,18 @@
       "pedn": [
         "AE1.3.7",
         "AE2.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: 100 barrios al 2031, meta indicativa"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Falta accesibilidad en obras de barrio",
+          "decision": "aplicado: Norma A.120 en la entrega"
+        }
       ]
     },
     {
@@ -959,7 +1066,7 @@
       "etapa": "2031-2036",
       "que": "Cada ciudad identifica en su plan urbano los distritos con menos área verde por habitante y construye parques de barrio a menos de diez minutos a pie de cada vivienda, recupera riberas y lomas como parques lineales y abre patios escolares a la comunidad los fines de semana. En la costa los parques se riegan con agua residual tratada (AGU-10) y se usan especies de bajo consumo. Los vecinos participan en el diseño y en el cuidado.",
       "evidencia": "Lima tiene unos 3,5 m² de área verde por habitante, lejos de los 9 m² citados como referencia (Municipalidad de Lima, vía La República). La Encuesta Lima Cómo Vamos 2025 registró que el 55,8 % de limeños está insatisfecho con calles y plazas (Actualidad Ambiental). Las áreas verdes urbanas se asocian a mejor salud física y mental (OMS Europa, Urban green spaces and health, 2016).",
-      "entrega": "Parques de barrio y parques lineales nuevos en los distritos con menor área verde por habitante.",
+      "entrega": "Al 2036, parques de barrio y parques lineales nuevos en los 30 distritos con menor área verde por habitante, en línea con la meta de 5 m² por habitante en Lima.",
       "responsable": "MUNICIPALIDADES",
       "entidades": [
         {
@@ -1008,6 +1115,13 @@
       ],
       "pedn": [
         "AE2.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: 30 distritos al 2036, enlazado a la meta de área verde"
+        }
       ]
     },
     {
@@ -1098,7 +1212,7 @@
       "etapa": "2031-2036",
       "que": "Un programa para las ciudades intermedias de más rápido crecimiento según el Censo 2025 (capitales regionales y ciudades de 50 000 a 500 000 habitantes) que entrega en un solo paquete: plan de desarrollo urbano, catastro, banco de suelo con lotes servidos, agua y desagüe para la expansión, y un equipo técnico municipal financiado por cinco años. Se usa la escala provincial o mancomunada cuando la ciudad abarca varios distritos.",
       "evidencia": "El crecimiento urbano reciente es mayor fuera de Lima y es casi todo informal (GRADE, 2020). Actuar antes de que la expansión ocurra es más barato que regularizar después (Banco Mundial, World Development Report 2009: Reshaping Economic Geography).",
-      "entrega": "Paquetes integrales de planificación, catastro, suelo y servicios en las ciudades intermedias de mayor crecimiento.",
+      "entrega": "Al 2036, paquetes integrales de planificación, catastro, suelo y servicios en las 15 ciudades intermedias de mayor crecimiento según el Censo 2025.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -1151,6 +1265,13 @@
       "pedn": [
         "AE2.1.7",
         "AE2.1.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Entrega sin cantidad ni año",
+          "decision": "aplicado: 15 ciudades al 2036"
+        }
       ]
     },
     {
@@ -1228,7 +1349,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Los parámetros urbanísticos se fijan en los planes de desarrollo urbano (Ley 31313); la coordinación con la ATU y el MTC se hace por convenio. Las decisiones sobre la red de transporte corresponden al sector transporte.",
       "etapa": "2031-2036",
-      "que": "En un radio de caminata alrededor de las estaciones del Metro de Lima, el Metropolitano, los corredores complementarios y los sistemas de transporte de otras ciudades, los planes urbanos permiten mayor altura y densidad a cambio de un porcentaje de vivienda de interés social y de espacio público. El suelo público cercano a las estaciones se reserva para vivienda en alquiler social (VIV-04). El enlace con el sector transporte se limita a coordinar la ubicación de estaciones y la información abierta de rutas (GOB-11, TAL-11).",
+      "que": "En un radio de caminata alrededor de las estaciones del Metro de Lima, el Metropolitano, los corredores complementarios y los sistemas de transporte de otras ciudades, los planes urbanos permiten mayor altura y densidad a cambio de un porcentaje de vivienda de interés social y de espacio público. El suelo público cercano a las estaciones se reserva para vivienda en alquiler social (VIV-04). El enlace con el sector transporte se limita a coordinar la ubicación de estaciones y la información abierta de rutas (GOB-11, TAL-11). Para evitar el desplazamiento, los residentes actuales de bajos ingresos tienen prioridad en la cuota de vivienda social del mismo proyecto y los planes incluyen alquiler social (VIV-04).",
       "evidencia": "El desarrollo orientado al transporte reduce tiempos de viaje y costos de servicios al concentrar población cerca de la oferta de transporte (Banco Mundial, Transforming Cities with Transit, 2013). En Lima el PIM 2026 del programa de transporte urbano supera los S/ 6 400 millones (MEF, PP 0148), inversión que se aprovecha mejor con densidad alrededor.",
       "entrega": "Parámetros de densificación con cuota de vivienda social aprobados en torno a las estaciones de transporte masivo.",
       "responsable": "MUNICIPALIDADES",
@@ -1278,6 +1399,13 @@
       "pedn": [
         "AE1.4.1",
         "AE2.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Densificación puede expulsar a residentes pobres",
+          "decision": "aplicado: prioridad a residentes en la cuota social y alquiler social"
+        }
       ]
     },
     {
@@ -1287,9 +1415,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Lo ejecuta el Programa Nacional de Vivienda Rural del MVCS con el PP 0111 y el Plan Multisectorial ante Heladas y Friaje; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Construir y mejorar viviendas rurales con diseño bioclimático (muros térmicos, ventanas con captación solar, cocinas mejoradas) en los distritos altoandinos con heladas y en la Amazonía con friaje e inundaciones, usando materiales locales y mano de obra comunal capacitada. Cada vivienda incluye refuerzo sísmico básico y conexión a agua y saneamiento rural cuando exista sistema (AGU-02). Se priorizan hogares con niños pequeños y adultos mayores, y el diseño se valida con cada comunidad.",
+      "que": "Construir y mejorar viviendas rurales con diseño bioclimático (muros térmicos, ventanas con captación solar, cocinas mejoradas) en los distritos altoandinos con heladas y en la Amazonía con friaje e inundaciones, usando materiales locales y mano de obra comunal capacitada. Cada vivienda incluye refuerzo sísmico básico y conexión a agua y saneamiento rural cuando exista sistema (AGU-02). Se priorizan hogares con niños pequeños y adultos mayores, y el diseño se valida con cada comunidad. Cuando en el hogar vive una persona con discapacidad o adulta mayor, la vivienda incluye acceso y baño adaptados.",
       "evidencia": "El Programa Nacional de Vivienda Rural interviene desde hace más de una década con viviendas térmicas en zonas de heladas (MVCS). Las heladas y el friaje afectan cada año la salud de niños y adultos mayores (Plan Multisectorial ante Heladas y Friaje, PCM).",
-      "entrega": "Viviendas rurales térmicas construidas o mejoradas en los distritos priorizados por heladas y friaje.",
+      "entrega": "Al 2031, al menos 35 000 viviendas rurales térmicas construidas o mejoradas en los distritos priorizados por heladas y friaje, manteniendo el ritmo histórico del programa de unas 7 000 por año (por verificar con el MVCS).",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -1313,7 +1441,7 @@
           "rol": "consultiva"
         }
       ],
-      "financiamiento": "Presupuesto del Programa Nacional de Vivienda Rural (PP 0111 Apoyo al hábitat rural) y canon.",
+      "financiamiento": "Proyectos de inversión del Programa Nacional de Vivienda Rural en Invierte.pe, dentro del Plan Multisectorial ante Heladas y Friaje, y canon. El PP 0111 Apoyo al hábitat rural es marginal (PIM 2026: S/ 26 millones, MEF Consulta Amigable) y no financia el grueso de la meta.",
       "costo_referencial": "no estimado",
       "indicador": "Viviendas rurales térmicas entregadas en distritos con heladas y friaje.",
       "deroga_o_simplifica": [],
@@ -1330,6 +1458,18 @@
       ],
       "pedn": [
         "AE1.3.7"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0111 solo S/ 26 M; falta meta",
+          "decision": "aplicado: fuente principal son proyectos del PNVR en Invierte.pe; meta de 35 000 al 2031 (ritmo por verificar)"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Falta accesibilidad en vivienda rural",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1339,9 +1479,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El desalojo con intervención notarial (Ley 30933) y el régimen de arrendamiento para vivienda (DL 1177) ya existen; se trata de difundirlos, abaratarlos y digitalizarlos.",
       "etapa": "2026-2031",
-      "que": "Crear un contrato modelo gratuito de alquiler de vivienda, firmable digitalmente y registrable en línea, que habilite el desalojo notarial o el régimen del DL 1177 sin costos altos. SUNAT simplifica la declaración del impuesto a la renta de primera categoría con pago desde el celular. Con propietarios más seguros, aumenta la oferta de cuartos y departamentos en alquiler formal, que es la puerta de entrada para jóvenes y migrantes.",
+      "que": "Relanzar el Registro Administrativo de Arrendamiento para Vivienda (RAV), creado por el DL 1177 y administrado por el Fondo MIVIVIENDA (DS 017-2015-VIVIENDA), que existe pero casi nadie usa: contrato modelo gratuito con el Formulario Único de Arrendamiento, firma digital gratuita con DNI electrónico o Firma Perú, costo cero para vivienda social y enlace opcional a SUNARP, para acceder sin costos altos al desalojo notarial. SUNAT permite declarar y pagar la renta de primera categoría desde el celular. El contrato fija al menos 30 días para desocupar desde la notificación y prohíbe el desalojo nocturno o por vías de hecho, como el corte de servicios; los desalojos se registran para seguimiento de la Defensoría. Así crece el alquiler formal para jóvenes y migrantes.",
       "evidencia": "La Ley 30933 (2019) creó el desalojo con intervención notarial y el DL 1177 (2015) un régimen especial de arrendamiento, pero su uso es limitado por desconocimiento y costo (por verificar estadísticas de uso). La falta de seguridad jurídica reduce la oferta de alquiler y empuja a la informalidad (BID, Un espacio para el desarrollo: los mercados de vivienda en América Latina, 2012).",
-      "entrega": "Contrato modelo digital y registro en línea de arrendamientos con acceso simplificado al desalojo notarial.",
+      "entrega": "RAV relanzado con contrato modelo digital gratuito y firma digital, enlazado a SUNARP y con acceso simplificado al desalojo notarial.",
       "responsable": "MVCS",
       "entidades": [
         {
@@ -1349,12 +1489,12 @@
           "rol": "rectora"
         },
         {
-          "sigla": "MINJUSDH",
-          "rol": "consultiva"
+          "sigla": "FMV",
+          "rol": "ejecutora"
         },
         {
-          "sigla": "SUNARP",
-          "rol": "ejecutora"
+          "sigla": "MINJUSDH",
+          "rol": "consultiva"
         },
         {
           "sigla": "SUNAT",
@@ -1363,14 +1503,23 @@
         {
           "sigla": "COLEGIO DE NOTARIOS",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "SUNARP",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
-      "financiamiento": "Presupuesto existente del MVCS, SUNARP y SUNAT.",
+      "financiamiento": "Presupuesto existente del Fondo MIVIVIENDA, MVCS, SUNARP y SUNAT.",
       "costo_referencial": "no estimado",
-      "indicador": "Contratos de alquiler registrados; declarantes de renta de primera categoría.",
+      "indicador": "Contratos inscritos en el RAV por año; declarantes de renta de primera categoría; desalojos registrados con su plazo de desocupación.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "GOB-01"
+        "GOB-01",
+        "CIB-09"
       ],
       "riesgo": "Desalojos rápidos sin protección a inquilinos vulnerables; baja adopción.",
       "fuentes": [
@@ -1382,6 +1531,18 @@
       "pedn": [
         "AE1.3.7",
         "AE3.6.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "El registro ya existe: RAV del DL 1177 a cargo del FMV",
+          "decision": "aplicado: se relanza el RAV; FMV ejecutora, SUNARP enlace opcional; CIB-09 (firma remota gratuita) en depende_de"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Desalojo notarial sin salvaguardas para inquilinos vulnerables",
+          "decision": "aplicado: plazo mínimo de 30 días, sin desalojo nocturno ni corte de servicios, registro para la Defensoría"
+        }
       ]
     },
     {
@@ -1626,6 +1787,31 @@
       "rol": "cifras",
       "hallazgo": "94,5 % de viviendas inscritas con universo restringido",
       "decision": "aplicado: se retira el indicador porque no se pudo confirmar su universo en la ficha de CEPLAN (por verificar)"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Sin accesibilidad, titulación conjunta ni situación de calle",
+      "decision": "aplicado: regla transversal en VIV-03 y en VIV-02, 08, 12, 13 y 19; situación de calle en VIV-04 y propuesta a protección"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Ninguna meta mide a mujeres ni discapacidad",
+      "decision": "aplicado: meta de cotitularidad con línea de base por verificar"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Ocho entregas sin número ni año",
+      "decision": "aplicado: VIV-02, 04, 08, 12, 13, 14, 16 y 19 con año y cantidad o regla de cálculo"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Siglas MPFN y colegios no normalizadas",
+      "decision": "aplicado: MPFN pasa a MP; el Colegio de Notarios queda solo consultivo"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Marco fiscal transversal y bandas de costo",
+      "decision": "descartado en este archivo: el bloque marco_fiscal cambia el esquema y corresponde a un archivo transversal que decide el líder; el predial (VIV-07, VIV-22) queda como fuente de ingreso permanente"
     }
   ]
 }

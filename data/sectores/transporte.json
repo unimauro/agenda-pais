@@ -76,16 +76,24 @@
         "anio": 2025,
         "fuente": "ComexPerú, citado por MundoMarítimo",
         "url": "https://mundomaritimo.cl/noticias/puerto-de-chancay-cierra-su-primer-ano-de-operaciones-con-286255-teus-y-fija-metas-operativas-y-fiscales-para-2026"
+      },
+      {
+        "nombre": "Laudos arbitrales del Metropolitano sin presupuesto asignado",
+        "valor": "800",
+        "unidad": "millones de soles (presupuesto de la ATU: S/ 1 252 millones)",
+        "anio": 2025,
+        "fuente": "ATU, citada por El Popular (11-sep-2025)",
+        "url": "https://elpopular.pe/actualidad/2025/09/11/atu-advierte-que-el-metropolitano-podria-dejar-de-operar-por-laudos-arbitrales-de-s800-millones-y-falta-de-presupuesto-367840"
       }
     ],
-    "brechas": "La brecha es sobre todo territorial. La red nacional está mayormente pavimentada, pero casi toda la red vecinal, la que conecta a los centros poblados rurales de la sierra y la selva con su capital de distrito, es de afirmado o trocha (SINAC-MTC, 2025). En la Amazonía, Loreto y Ucayali dependen del río y del avión: tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024, gob.pe), no hay un servicio permanente de navegabilidad. En Lima, el tiempo de viaje castiga a quienes viven en la periferia (Lima Norte, Este y Sur) y dependen de dos o tres transbordos. Los datos de la ATU y de encuestas de movilidad que desagreguen por quintil y sexo están por verificar. Las mujeres reportan acoso en el transporte público. Las cifras nacionales desagregadas por sexo del INEI están por verificar. Los siniestros afectan sobre todo a peatones y motociclistas. El desglose oficial por tipo de usuario del ONSV está por verificar.",
+    "brechas": "La brecha es sobre todo territorial. La red nacional está mayormente pavimentada, pero casi toda la red vecinal, la que conecta a los centros poblados rurales de la sierra y la selva con su capital de distrito, es de afirmado o trocha (SINAC-MTC, 2025). En la Amazonía, Loreto y Ucayali dependen del río y del avión: tras la caducidad de la concesión de la Hidrovía Amazónica (15-oct-2024, gob.pe), no hay un servicio permanente de navegabilidad. En Lima, el tiempo de viaje castiga a quienes viven en la periferia (Lima Norte, Este y Sur) y dependen de dos o tres transbordos. Los datos de la ATU y de encuestas de movilidad que desagreguen por quintil y sexo están por verificar. Las mujeres reportan acoso sexual en el transporte público, que la Ley 30314 obliga a prevenir y sancionar (la ATU aprobó un protocolo de atención con la Resolución 229-2022-ATU/PE). Las personas con discapacidad y las personas mayores encuentran buses y paraderos sin rampa ni información accesible, aunque la Ley 29973 exige transporte accesible. Las cifras nacionales desagregadas por sexo del INEI están por verificar. Los siniestros afectan sobre todo a peatones y motociclistas. El desglose oficial por tipo de usuario del ONSV está por verificar.",
     "causas": [
       "Inversión sin mantenimiento: el presupuesto premia obras nuevas y deja la conservación a campañas y transferencias puntuales. El MTC reportó 17 266 km con conservación por niveles de servicio en 2019 y 11 619 km en 2021 (evaluaciones del POI de Provías Nacional).",
       "Fragmentación de competencias: 26 gobiernos regionales y más de 1 800 municipalidades gestionan redes viales con poca capacidad técnica, y Lima tuvo dos autoridades de transporte hasta la creación de la ATU (Ley 30900), que aún no controla todas las rutas.",
       "Liberación de predios e interferencias como cuello de botella: la Contraloría alertó riesgo de sobrecostos en la Línea 2 por el retraso del MTC en entregar áreas de concesión.",
       "Modelo empresarial del transporte urbano basado en el 'comisionista-afiliador': rutas concesionadas a empresas que alquilan la ruta a dueños de vehículos que compiten por pasajeros ('guerra del centavo'), un patrón descrito en las reformas de Bogotá y Santiago (las evaluaciones específicas están por verificar).",
       "Priorización política antes que técnica: el Congreso aprueba con frecuencia leyes que solo 'declaran de necesidad pública' carreteras específicas (p. ej. Ley 31938, Ley 32488), sin asignar recursos.",
-      "Contratos APP con muchas adendas y riesgos mal asignados: la Línea 2 fue modificada por adendas y terminó en arbitraje CIADI con condena al Estado, según reportes de prensa y de la Contraloría."
+      "Contratos APP con muchas adendas y riesgos mal asignados, que ya generan pasivos: la Línea 2 fue modificada por adendas y terminó en un laudo del CIADI (caso ARB/17/3) que según la prensa supera los US$ 200 millones; el Perú pidió su anulación parcial por más de US$ 170 millones y el comité ad hoc mantiene suspendida la ejecución (Gestión, nov-2025). La ATU advirtió laudos del Metropolitano por S/ 800 millones frente a un presupuesto institucional de S/ 1 252 millones (2025). Los compromisos firmes y contingentes de las APP tienen un tope de 12 % del PBI en valor presente (art. 31 de la Ley 32441), que el MEF sigue en su Informe Anual de Deuda Pública."
     ]
   },
   "vision_2056": "En 2056 cualquier peruano llega a su capital de provincia por un camino transitable todo el año y una persona de Lima Norte cruza la ciudad en metro o bus integrado con un solo pasaje en menos de una hora. Los siniestros viales son raros y la carga sale del campo al puerto a costos de país OCDE.",
@@ -159,6 +167,26 @@
       "2056": "8",
       "referencia": "Promedio europeo cercano a 12 años (ACEA, por verificar)",
       "fuente_linea_base": "MTC (2024)"
+    },
+    {
+      "indicador": "Mujeres que reportan acoso sexual en el transporte público en los últimos 12 meses (Lima-Callao)",
+      "linea_base": "por verificar (no hay medición oficial periódica; se propone que el INEI o la ATU la levanten en 2027)",
+      "2031": "−30 % frente a la línea base",
+      "2036": "−50 %",
+      "2046": "−70 %",
+      "2056": "−80 %",
+      "referencia": "Ley 30314 y protocolo de la ATU (Resolución 229-2022-ATU/PE); meta indicativa propia",
+      "fuente_linea_base": "por verificar"
+    },
+    {
+      "indicador": "Unidades de buses contratados y transporte masivo que son accesibles (piso bajo o rampa, espacio para silla de ruedas, información sonora y visual)",
+      "linea_base": "por verificar (ATU)",
+      "2031": "100 % de las unidades nuevas",
+      "2036": "100 % de la flota contratada",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "Ley 29973, Ley General de la Persona con Discapacidad",
+      "fuente_linea_base": "por verificar"
     }
   ],
   "acciones": [
@@ -192,20 +220,36 @@
         }
       ],
       "financiamiento": "Presupuesto del pliego MTC (PP 0138, Reducción del costo, tiempo e inseguridad en el sistema de transporte) con compromisos multianuales.",
-      "costo_referencial": "no estimado",
-      "indicador": "% de la red nacional no concesionada en buen estado; km con contrato por niveles de servicio vigente.",
+      "costo_referencial": "no estimado. Se calcula como km de red nacional no concesionada × costo anual de conservación por niveles de servicio (S/ por km según los contratos vigentes de Provías Nacional), cifra que Provías Nacional debería publicar en 2027. Referencia: el PP 0138 tiene un PIM 2026 de S/ 14 329 millones para todo el sistema de transporte (MEF, Consulta Amigable).",
+      "indicador": "% de la red nacional no concesionada en buen estado; km con contrato por niveles de servicio vigente. Gasto anual en conservación por km frente a gasto en obra nueva.",
       "deroga_o_simplifica": [],
       "depende_de": [],
-      "riesgo": "Que el presupuesto multianual se recorte en años de ajuste fiscal y se vuelva a las campañas, o que se diseñen contratos con indicadores laxos.",
+      "riesgo": "Que el presupuesto multianual se recorte en años de ajuste fiscal y se vuelva a las campañas, o que se diseñen contratos con indicadores laxos. La ejecución del PP 0138 iba en 35 % del PIM 2026 a la fecha de corte de la Consulta Amigable del MEF, lo que pone en duda que se honren compromisos multianuales.",
       "fuentes": [
         {
           "titulo": "MTC – Provías Nacional, Ficha de implementación AEI.01.01 (II semestre 2024)",
           "url": "https://cdn.www.gob.pe/uploads/document/file/8121721/3600707-ficha-de-implementacion-aei01-01-pvn-con-memo-e-informe-de-aprobacion-2024-ii.pdf"
+        },
+        {
+          "titulo": "MEF – Consulta Amigable (PP 0138, PIM y devengado 2026)",
+          "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
         }
       ],
       "pedn": [
         "AE3.6.2",
         "AE3.6.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Sin banda de costo ni gasto en conservación por km",
+          "decision": "aplicado: fórmula de cálculo y PIM del PP 0138; la cifra por km no se inventa"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Baja ejecución del PP 0138 en el riesgo",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -337,7 +381,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Lo permite el reglamento del SINAC y basta con una resolución ministerial del MTC.",
       "etapa": "2026-2031",
-      "que": "El MTC completa y abre en datos abiertos el inventario de toda la red vial (nacional, departamental y vecinal): trazo, superficie, estado, puentes, puntos críticos de huaicos y tránsito medio diario. Lo actualiza cada año con imágenes satelitales, vehículos con sensores y reportes ciudadanos. Con ese inventario, cada nivel de gobierno debe sustentar sus inversiones en un plan de gestión de activos viales. Es la base para priorizar TRA-01 a TRA-03 y para que la contraloría ciudadana compare costos.",
+      "que": "El MTC completa y abre en datos abiertos el inventario de toda la red vial (nacional, departamental y vecinal): trazo, superficie, estado, puentes, puntos críticos de huaicos y tránsito medio diario. Lo actualiza cada año con imágenes satelitales, vehículos con sensores y reportes ciudadanos. Con ese inventario, cada nivel de gobierno debe sustentar sus inversiones en un plan de gestión de activos viales. Es la base para priorizar TRA-01 a TRA-03 y para que la contraloría ciudadana compare costos. El inventario se publica también en GeoPerú.",
       "evidencia": "La gestión de activos viales con inventarios actualizados es práctica estándar del Banco Mundial y de las agencias viales de la OCDE. El SINAC del MTC ya existe, pero con información desigual para la red vecinal.",
       "entrega": "Inventario vial nacional abierto y actualizado cada año; 100 % de las inversiones viales sustentadas con el plan de gestión de activos.",
       "responsable": "MTC",
@@ -368,7 +412,7 @@
       "indicador": "% de la red con inventario actualizado en los últimos 12 meses.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "DIG-22"
+        "DIG-13"
       ],
       "riesgo": "Datos desactualizados si no hay presupuesto recurrente para el levantamiento.",
       "fuentes": [
@@ -390,6 +434,11 @@
           "rol": "cifras",
           "hallazgo": "URL del Congreso rota, mover a www3",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DIG-22 no es prerrequisito del inventario vial",
+          "decision": "aplicado: se reemplaza por DIG-13 (datos abiertos) y se publica en GeoPerú"
         }
       ]
     },
@@ -552,9 +601,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El Reglamento Nacional del Sistema de Emisión de Licencias de Conducir es un decreto supremo; se modifica sin ley.",
       "etapa": "2026-2031",
-      "que": "El MTC rehace el examen de manejo: pistas y prueba en vía pública grabadas, simuladores certificados y examinadores rotativos que no conocen al postulante. El sistema de puntos se vuelve real: las papeletas de todas las municipalidades, la ATU, la SUTRAN y la PNP alimentan en línea un solo registro, y la licencia se suspende automáticamente al llegar al límite. Para licencias profesionales (buses y carga), la renovación exige un curso práctico y controles de salud y de fatiga. Los centros de evaluación con tasas de aprobación anómalas se auditan y cierran.",
+      "que": "El MTC rehace el examen de manejo: pistas y prueba en vía pública grabadas, simuladores certificados y examinadores rotativos que no conocen al postulante. El sistema de puntos se vuelve real: todas las municipalidades, la ATU, la SUTRAN y la PNP cargan sus papeletas en el Registro Nacional de Sanciones del MTC, que ya existe, dentro de 24 horas y por la Plataforma de Interoperabilidad del Estado (PIDE), y la licencia se suspende automáticamente en el Sistema Nacional de Conductores al llegar al límite. El reto no es crear un registro, sino que todas las entidades reporten a tiempo. Para licencias profesionales (buses y carga), la renovación exige un curso práctico y controles de salud y de fatiga. Los centros de evaluación con tasas de aprobación anómalas se auditan y cierran.",
       "evidencia": "La licencia por puntos redujo muertes en España tras su implantación en 2006 (DGT; evaluaciones publicadas, por verificar la cifra exacta). En el Perú las denuncias por brevetes irregulares son recurrentes.",
-      "entrega": "Registro único de infracciones en línea con el 100 % de las entidades fiscalizadoras; examen práctico grabado en todos los centros.",
+      "entrega": "100 % de las entidades fiscalizadoras reportando al Registro Nacional de Sanciones del MTC en 24 horas; examen práctico grabado en todos los centros.",
       "responsable": "MTC",
       "entidades": [
         {
@@ -603,16 +652,23 @@
       "pedn": [
         "AE1.4.2",
         "AE4.5.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Completar el Registro Nacional de Sanciones existente",
+          "decision": "aplicado"
+        }
       ]
     },
     {
       "id": "TRA-08",
       "titulo": "Fiscalizar con cámaras y cobrar papeletas en línea con SOAT y revisión técnica verificados",
       "tipo": "servicio",
-      "necesita_ley": "no",
-      "por_que_ley": "La fiscalización electrónica y la responsabilidad del propietario ya están en el marco vigente. Basta con reglamentación y convenios.",
+      "necesita_ley": "parcial",
+      "por_que_ley": "La fiscalización electrónica, la responsabilidad del propietario y la notificación digital ya están en el marco vigente y se despliegan por reglamento y convenios. En cambio, impedir la transferencia registral de un vehículo por multas firmes impagas limita la propiedad y la libertad de contratar (arts. 2.14, 2.16 y 70 de la Constitución) y requiere base en norma con rango de ley; como no se verificó que la Ley 27181 la contenga, se propone crearla por ley junto con la retención en la revisión técnica. El SOAT es un contrato privado obligatorio y no se condiciona al pago de multas. Las multas que cobran las municipalidades son renta municipal (art. 196 de la Constitución y Ley 27972): su destino lo acuerda cada concejo, o una ley puede fijar un porcentaje mínimo.",
       "etapa": "2026-2031",
-      "que": "Las municipalidades provinciales, la ATU y la SUTRAN instalan cámaras de velocidad y semáforo en los tramos más peligrosos. Las papeletas se notifican en una casilla electrónica y se integran con SUNARP, el SOAT y las revisiones técnicas. Ningún vehículo puede transferirse, renovar SOAT o pasar revisión técnica con multas graves impagas. La SUTRAN controla en carretera con pesaje dinámico y GPS obligatorio en buses interprovinciales y camiones. Los ingresos por multas se publican y se destinan a seguridad vial.",
+      "que": "Las municipalidades provinciales, la ATU y la SUTRAN instalan cámaras de velocidad y semáforo en los tramos más peligrosos. Las papeletas se notifican en la Casilla Única Electrónica del Estado (DIG-04), no en una casilla distinta por entidad, y se cruzan por la PIDE con SUNARP, el SOAT (APESEG) y las revisiones técnicas. Una ley crea el impedimento registral de transferencia y la retención en la revisión técnica para vehículos con multas graves firmes impagas; el cruce con el SOAT sirve para detectar vehículos sin seguro, no para cobrar multas. La SUTRAN controla en carretera con pesaje dinámico y GPS obligatorio en buses interprovinciales y camiones. Las imágenes de las cámaras y los datos GPS tienen un plazo máximo de conservación y acceso registrado (Ley 29733). Los ingresos por multas se publican; cada municipalidad acuerda destinar una parte a seguridad vial y publica su uso, y una ley puede fijar un porcentaje mínimo.",
       "evidencia": "La fiscalización automatizada de velocidad reduce siniestros según la revisión del ITF/OCDE sobre sistema seguro. En el Perú, la ATU retiró más de 2 000 vehículos informales en operativos, muchos con sanciones previas: hay reincidencia.",
       "entrega": "Cámaras en los 100 tramos más peligrosos; 100 % de las papeletas notificadas electrónicamente e integradas con SUNARP y el SOAT.",
       "responsable": "SUTRAN",
@@ -640,13 +696,19 @@
         {
           "sigla": "SBS",
           "rol": "reguladora"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Inversión municipal y de la SUTRAN recuperable con multas; posible APP de servicios.",
       "costo_referencial": "no estimado",
       "indicador": "% de vehículos con SOAT vigente; velocidad media en tramos con cámara.",
       "deroga_o_simplifica": [],
-      "depende_de": [],
+      "depende_de": [
+        "DIG-04"
+      ],
       "riesgo": "Que las cámaras se usen como recaudación y pierdan legitimidad; litigios por notificación.",
       "fuentes": [
         {
@@ -656,6 +718,10 @@
         {
           "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
           "url": "https://www.infobae.com/peru/2024/03/27/atu-rechaza-el-proyecto-de-ley-del-congreso-que-busca-formalizar-los-taxis-colectivos/"
+        },
+        {
+          "titulo": "El Peruano – DS 029-2021-PCM, reglamento del DL 1412 (Casilla Única Electrónica)",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3"
         }
       ],
       "pedn": [
@@ -667,6 +733,21 @@
           "rol": "jurista",
           "hallazgo": "Ciclo TRA-07 <-> TRA-08",
           "decision": "aplicado: se quita TRA-07 de TRA-08"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Impedir transferencia o SOAT por multas requiere ley",
+          "decision": "aplicado: necesita_ley parcial; la ley crea el impedimento registral y la retención en revisión técnica; el SOAT no se condiciona"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Destino de multas municipales no se fija por reglamento",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Casilla Única Electrónica y retención de datos de cámaras",
+          "decision": "aplicado: DIG-04 en depende_de y ANPD en entidades"
         }
       ]
     },
@@ -675,7 +756,7 @@
       "titulo": "Dar a la ATU control real de todas las rutas de Lima-Callao",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Cambiar las funciones de la ATU y de las municipalidades sobre rutas y tarifas modifica la Ley 30900 y la Ley Orgánica de Municipalidades: hay reserva de ley. Por el art. 79 de la Constitución, la parte que genera gasto debe ser de iniciativa del Ejecutivo. La modificación de la Ley 27972 es materia de ley orgánica y requiere el voto de más de la mitad del número legal de miembros del Congreso (art. 106); el régimen especial de Lima tiene base en el art. 198.",
+      "por_que_ley": "Cambiar las funciones de la ATU y de las municipalidades sobre rutas y tarifas modifica la Ley 30900 y la Ley Orgánica de Municipalidades: hay reserva de ley. Por el art. 79 de la Constitución, la parte que genera gasto debe ser de iniciativa del Ejecutivo. La modificación de la Ley 27972 es materia de ley orgánica y requiere votación calificada de ley orgánica (art. 106 de la Constitución, texto de la Ley 31988); el régimen especial de Lima tiene base en el art. 198.",
       "etapa": "2026-2031",
       "que": "Una ley precisa que la ATU es la única autoridad para planificar, concesionar, fiscalizar y fijar la tarifa de todo el transporte regular de Lima y Callao, incluidas las rutas interdistritales. Se cierran los vacíos que hoy permiten permisos municipales superpuestos. La ATU recibe un directorio técnico con mandato fijo, metas públicas de tiempo de viaje y una fuente estable de financiamiento definida por el Ejecutivo. Las autoridades metropolitanas de otras ciudades se tratan en TRA-26.",
       "evidencia": "Las ciudades que ordenaron su transporte, como Bogotá con TransMilenio y el SITP o Santiago con la Red, lo hicieron con una autoridad única con poder sobre rutas y tarifas. La ATU (Ley 30900, 2018) aún convive con rutas y permisos heredados.",
@@ -742,6 +823,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Responsable debe ser MTC, no PCM",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fórmula uniforme de votación de ley orgánica (hallazgo de ENE-08)",
+          "decision": "aplicado"
         }
       ]
     },
@@ -752,7 +838,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Con la Ley 30900 vigente, la ATU puede concesionar y reorganizar rutas por sus propios actos administrativos.",
       "etapa": "2026-2031",
-      "que": "La ATU licita las rutas de Lima-Callao por paquetes troncales y alimentadores. Los operadores son empresas con flota propia y conductores en planilla, y se les paga por kilómetro recorrido con calidad (frecuencia, puntualidad, limpieza), no por pasajero, lo que termina con la 'guerra del centavo'. Un sistema de recaudo único con tarjeta, QR y billetera móvil permite transbordos con tarifa integrada entre Metro, Metropolitano, corredores y alimentadores. Los datos de ubicación y frecuencia se publican en tiempo real.",
+      "que": "La ATU licita las rutas de Lima-Callao por paquetes troncales y alimentadores. Los operadores son empresas con flota propia y conductores en planilla, y se les paga por kilómetro recorrido con calidad (frecuencia, puntualidad, limpieza), no por pasajero, lo que termina con la 'guerra del centavo'. Un sistema de recaudo único con tarjeta, QR y billetera móvil permite transbordos con tarifa integrada entre Metro, Metropolitano, corredores y alimentadores. Los datos de ubicación y frecuencia se publican en tiempo real. Los contratos exigen flota 100 % accesible (piso bajo o rampa, espacio para silla de ruedas, información sonora y visual) y paraderos accesibles (Ley 29973). También exigen el protocolo contra el acoso sexual de la Ley 30314 y de la ATU (Resolución 229-2022-ATU/PE): botón de alerta, personal capacitado y registro de denuncias por ruta; la ATU publica cada trimestre las denuncias y cómo se resolvieron.",
       "evidencia": "El paso del modelo afiliador a contratos con flota propia redujo siniestros y mejoró la regularidad en Bogotá (TransMilenio) y en Santiago tras corregir el diseño inicial del Transantiago. Ambas experiencias tienen evaluaciones publicadas por el Banco Mundial y académicos (por verificar las cifras exactas).",
       "entrega": "100 % de los viajes en bus regular de Lima-Callao bajo contratos de pago por km al 2036; pasaje único integrado operativo al 2031.",
       "responsable": "ATU",
@@ -774,8 +860,8 @@
           "rol": "supervisora"
         }
       ],
-      "financiamiento": "Tarifas más subsidio operativo explícito y focalizado (estudiantes, adultos mayores), definido en el presupuesto.",
-      "costo_referencial": "no estimado",
+      "financiamiento": "Tarifa integrada más un subsidio operativo explícito con fuente propia y tope anual aprobado en la Ley de Presupuesto. Opciones a evaluar: cobro por congestión o por estacionamiento en Lima, o destinar una parte del ISC a los combustibles vendidos en Lima-Callao (esto último requiere ley). Las licitaciones se escalonan según lo que ese tope permita. Hoy la ATU no tiene esa fuente: su presupuesto 2025 fue de S/ 1 252 millones y enfrenta laudos del Metropolitano por S/ 800 millones sin presupuesto.",
+      "costo_referencial": "no estimado. Antes de licitar, la ATU publica el subsidio operativo como (km contratados × precio por km) menos el recaudo tarifario, con una banda mínima y máxima. Como orden de magnitud, el transporte público de Santiago de Chile recibe un subsidio estatal permanente (Ley 20.378) de varios cientos de millones de dólares al año (cifra exacta por verificar en DIPRES).",
       "indicador": "% de viajes con pasaje integrado; regularidad de frecuencias; fallecidos en siniestros con buses.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -784,7 +870,7 @@
         "GOB-11",
         "DIG-22"
       ],
-      "riesgo": "Paros de transportistas, subsidios no sostenibles o un diseño apresurado que repita el inicio del Transantiago.",
+      "riesgo": "Paros de transportistas, subsidios no sostenibles o un diseño apresurado que repita el inicio del Transantiago. También, un subsidio que crece sin control si el pago por km no tiene tope ni reglas claras de reajuste.",
       "fuentes": [
         {
           "titulo": "Infobae – ATU rechaza proyecto que busca formalizar taxis colectivos en Lima y Callao",
@@ -793,11 +879,39 @@
         {
           "titulo": "Bloomberg Línea – Trabajadores de Lima pierden más de ocho días al año en el tráfico (TomTom Traffic Index 2025)",
           "url": "https://www.bloomberglinea.com/latinoamerica/peru/trabajadores-de-lima-pierden-mas-de-ocho-dias-al-ano-atrapados-en-el-trafico/"
+        },
+        {
+          "titulo": "El Popular – ATU advierte por laudos arbitrales del Metropolitano de S/ 800 millones (11-sep-2025)",
+          "url": "https://elpopular.pe/actualidad/2025/09/11/atu-advierte-que-el-metropolitano-podria-dejar-de-operar-por-laudos-arbitrales-de-s800-millones-y-falta-de-presupuesto-367840"
+        },
+        {
+          "titulo": "Ley 30314, para prevenir y sancionar el acoso sexual en espacios públicos (texto consolidado)",
+          "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30314-TXM.pdf"
+        },
+        {
+          "titulo": "LP Derecho – Protocolo de atención de casos de acoso sexual en el transporte público (Resolución 229-2022-ATU/PE)",
+          "url": "https://lpderecho.pe/reglamento-regula-protocolo-atencion-casos-acoso-sexual-transporte-publico-resolucion-presidencia-ejecutiva-229-2022-atu-pe/"
+        },
+        {
+          "titulo": "DIPRES – Informe ejecutivo institucional (subsidio al transporte público, Ley 20.378)",
+          "url": "https://www.dipres.gob.cl/597/articles-205711_r_ejecutivo_institucional.pdf"
         }
       ],
       "pedn": [
         "AE1.4.1",
         "AE2.3.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Accesibilidad universal y protocolo contra el acoso sexual",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Subsidio del pasaje único sin fuente ni banda",
+          "decision": "aplicado: fuente con tope anual y fórmula; costo queda «no estimado» con referencia de Santiago por verificar"
+        }
       ]
     },
     {
@@ -807,7 +921,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Los programas de chatarreo y los fideicomisos se crean por decreto supremo y convenios. No requieren ley.",
       "etapa": "2031-2036",
-      "que": "Los operadores con contrato de la ATU (TRA-10) y de las ciudades con autoridad metropolitana acceden a buses eléctricos o a GNV mediante arriendo de flota: un fideicomiso o una empresa de leasing es dueño de los buses y el operador paga por su uso. A cambio, el operador entrega para chatarreo un vehículo antiguo. Se instalan electrolineras en los patios de buses. Las compras se coordinan con el sector energía para asegurar la potencia eléctrica. Esta acción es la única meta de renovación de flota urbana; se complementa con ENE-18, que se limita a la red de carga en carreteras, tarifas de carga y reglas de carga en edificios.",
+      "que": "Los operadores con contrato de la ATU (TRA-10) y de las ciudades con autoridad metropolitana acceden a buses eléctricos o a GNV mediante arriendo de flota: un fideicomiso o una empresa de leasing es dueño de los buses y el operador paga por su uso. A cambio, el operador entrega para chatarreo un vehículo antiguo. Se instalan electrolineras en los patios de buses. Las compras se coordinan con el sector energía para asegurar la potencia eléctrica. Esta acción es la única meta de renovación de flota urbana; se complementa con ENE-18, que se limita a la red de carga en carreteras, tarifas de carga y reglas de carga en edificios. Todo bus financiado con el arriendo cumple la norma de accesibilidad (piso bajo o rampa, espacio reservado y anuncios sonoros y visuales).",
       "evidencia": "Santiago y Bogotá incorporaron miles de buses eléctricos separando la propiedad de la flota de la operación, con financiamiento de empresas eléctricas y multilaterales (cifras por verificar). En el Perú, la flota tiene 14 años promedio (MTC, 2024) y el 52 % de los vehículos de carga y transporte supera los 10 años (IPE, 2025).",
       "entrega": "3 000 buses urbanos de cero o bajas emisiones en operación al 2036 (meta indicativa); antigüedad promedio de la flota urbana regular por debajo de 8 años.",
       "responsable": "ATU",
@@ -833,14 +947,14 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Leasing privado, garantías de COFIDE, financiamiento climático (BID, CAF, Fondo Verde para el Clima).",
+      "financiamiento": "Leasing privado, garantías de COFIDE limitadas a un porcentaje del leasing y registradas como pasivo contingente del Estado (ver ECP-22), financiamiento climático (BID, CAF, Fondo Verde para el Clima).",
       "costo_referencial": "no estimado",
       "indicador": "N.º de buses de cero o bajas emisiones en operación; antigüedad promedio de la flota urbana.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "TRA-10"
       ],
-      "riesgo": "Que no haya contratos estables (TRA-10) que respalden el pago del arriendo; restricciones de la red eléctrica.",
+      "riesgo": "Que no haya contratos estables (TRA-10) que respalden el pago del arriendo; restricciones de la red eléctrica. Si esos contratos fallan, se activan las garantías de COFIDE y el costo pasa al fisco.",
       "fuentes": [
         {
           "titulo": "MTC – Exposición ante la Comisión de Transportes (01-abr-2024): flota con 14 años promedio",
@@ -864,6 +978,16 @@
         {
           "rol": "cifras",
           "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Buses de la renovación deben ser accesibles",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Garantía de COFIDE sobre leasing es pasivo contingente",
           "decision": "aplicado"
         }
       ]
@@ -927,7 +1051,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "La obra se ejecuta bajo el contrato vigente. La simplificación de expropiaciones e interferencias puede hacerse con los decretos legislativos autorizados por la Ley 32743 (numerales 2.2.8 y 2.2.10, plazo hasta ≈20-ene-2027).",
       "etapa": "2026-2031",
-      "que": "El MTC y la ATU crean una unidad dedicada a liberar los predios e interferencias que faltan en la Línea 2 (incluidas las de la Estación Central y el tramo por la Ciudad Universitaria) y a coordinar con la Municipalidad de Lima los permisos de desvío. Usan los decretos legislativos de la Ley 32743 sobre adquisición y expropiación de predios y liberación de interferencias, sin tocar la consulta previa ni las obligaciones ambientales. Se publica cada mes un cronograma por estación con su porcentaje de avance. Se negocian las controversias con el concesionario en un mecanismo de solución temprana, para evitar nuevos arbitrajes.",
+      "que": "El MTC y la ATU crean una unidad dedicada a liberar los predios e interferencias que faltan en la Línea 2 (incluidas las de la Estación Central y el tramo por la Ciudad Universitaria) y a coordinar con la Municipalidad de Lima los permisos de desvío. Usan los decretos legislativos de la Ley 32743 sobre adquisición y expropiación de predios y liberación de interferencias, sin tocar la consulta previa ni las obligaciones ambientales. Toda liberación de predios respeta el DL 1192 (tasación comercial con daño emergente y lucro cesante) y ofrece a los hogares vulnerables una alternativa de vivienda, con la escalera de subsidios de VIV-03, antes del desalojo; los decretos legislativos no reducen el plazo de defensa de los propietarios. Se publica cada mes un cronograma por estación con su porcentaje de avance. El MEF registra el laudo del CIADI (caso ARB/17/3) como pasivo contingente y, mientras se resuelve el pedido de anulación, negocia con el concesionario en un mecanismo de solución temprana un acuerdo integral que cierre el laudo pendiente, el cronograma de entrega de áreas y las compensaciones futuras, para no repetir el ciclo adenda-arbitraje.",
       "evidencia": "Ositrán reporta avances de 96 % en la etapa 1B y 91 % en la etapa 2, pero la Estación Central va en 39 % en obras civiles y la fecha estimada es agosto de 2029. La Contraloría atribuye el riesgo de sobrecostos al retraso en la entrega de áreas de concesión.",
       "entrega": "Línea 2 completa (Ate–Callao) en operación comercial, con un cronograma público por estación.",
       "responsable": "MTC",
@@ -954,13 +1078,13 @@
         }
       ],
       "financiamiento": "Contrato de concesión vigente (cofinanciamiento del Estado ya comprometido).",
-      "costo_referencial": "no estimado (montos del contrato y las adendas varían entre fuentes)",
+      "costo_referencial": "no estimado el saldo del contrato (los montos del contrato y las adendas varían entre fuentes). Contingencia del laudo del CIADI: según la prensa supera los US$ 200 millones; el Perú pidió su anulación parcial por más de US$ 170 millones, más EUR 11 millones y S/ 27 millones, y la ejecución sigue suspendida por decisión del comité ad hoc (Gestión, nov-2025).",
       "indicador": "% de avance por estación; fecha de puesta en operación completa.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "TRA-22"
       ],
-      "riesgo": "Nuevos arbitrajes y adendas; conflictos con la universidad y el municipio por las áreas.",
+      "riesgo": "Nuevos arbitrajes y adendas; conflictos con la universidad y el municipio por las áreas. Que el laudo del CIADI deba pagarse sin provisión presupuestal; la prensa reportó un intento de embargo de activos en el exterior (por verificar).",
       "fuentes": [
         {
           "titulo": "Expreso – Culminación de la Línea 2 se postergaría hasta agosto de 2029 (estimación Ositrán)",
@@ -977,11 +1101,31 @@
         {
           "titulo": "Ley 32743 – Delegación de facultades en seguridad ciudadana y Fenómeno El Niño (El Peruano, 22-oct-2026)",
           "url": "https://busquedas.elperuano.pe/"
+        },
+        {
+          "titulo": "Energiminas – Laudo del CIADI sobre la Línea 2 y pedido de anulación (ago-2025)",
+          "url": "https://energiminas.com/?p=34944"
+        },
+        {
+          "titulo": "Gestión – CIADI mantiene suspensión del laudo de la Línea 2 del Metro de Lima",
+          "url": "https://gestion.pe/economia/ciadi-mantiene-suspension-del-laudo-de-la-linea-2-del-metro-de-lima-noticia/"
         }
       ],
       "pedn": [
         "AE1.4.1",
         "AE3.6.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Expropiaciones con DL 1192 y alternativa de vivienda",
+          "decision": "aplicado: texto en que; VIV-03 se cita en el texto, sin añadir dependencia"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Provisionar el laudo CIADI y acuerdo integral",
+          "decision": "aplicado: embargo solo como intento por verificar"
+        }
       ]
     },
     {
@@ -991,7 +1135,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La ampliación de la Línea 1 se hace por adenda del contrato vigente, y las nuevas líneas por APP o contrato de Estado a Estado bajo la Ley 32441. No requieren ley nueva.",
       "etapa": "2031-2036",
-      "que": "Se ejecuta la ampliación de capacidad de la Línea 1 (más trenes, patio y subestaciones) que Ositrán y ProInversión aprobaron para pasar de unos 600 000 a un millón de pasajeros diarios. En paralelo, la ATU y el MTC terminan los estudios de la Línea 3 (norte–sur) y del ramal completo de la Línea 4 con una oficina de gestión de proyectos especializada. Antes de licitar, la liberación de predios e interferencias debe estar avanzada (lección de la Línea 2).",
+      "que": "Se ejecuta la ampliación de capacidad de la Línea 1 (más trenes, patio y subestaciones) que Ositrán y ProInversión aprobaron para pasar de unos 600 000 a un millón de pasajeros diarios. En paralelo, la ATU y el MTC terminan los estudios de la Línea 3 (norte–sur) y del ramal completo de la Línea 4 con una oficina de gestión de proyectos especializada. Antes de licitar, la liberación de predios e interferencias debe estar avanzada (lección de la Línea 2). La adenda se aprueba solo con un análisis de valor por dinero publicado, la opinión de Ositrán y del MEF, una comparación con licitar por separado los nuevos trenes y el patio, y el registro del compromiso dentro del tope de 12 % del PBI de compromisos firmes y contingentes de APP (art. 31 de la Ley 32441). Las estaciones y trenes nuevos tienen accesibilidad universal certificada (ascensores, guías podotáctiles e información accesible, Ley 29973).",
       "evidencia": "La Línea 1 transporta unos 630 000 pasajeros diarios en condición de saturación (MTC, 2025). Ositrán autorizó la ampliación hasta un millón de pasajeros diarios, con obras desde 2027 según la prensa.",
       "entrega": "Línea 1 con capacidad de un millón de pasajeros diarios; Línea 3 con estudios definitivos aprobados y predios liberados antes de su adjudicación.",
       "responsable": "ATU",
@@ -1017,7 +1161,7 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Adenda del contrato de la Línea 1; APP cofinanciada o contrato de Estado a Estado para la Línea 3.",
+      "financiamiento": "Adenda cofinanciada del contrato de la Línea 1: compromiso firme que el MEF registra dentro del tope de la Ley 32441, con el costo final publicado antes de firmar. APP cofinanciada o contrato de Estado a Estado para la Línea 3.",
       "costo_referencial": "Ampliación de la Línea 1: el MTC ha citado cifras de entre US$ 2 600 y 3 887 millones según la fuente (por verificar).",
       "indicador": "Pasajeros diarios de la Línea 1; % de predios de la Línea 3 liberados antes de adjudicar.",
       "deroga_o_simplifica": [],
@@ -1025,7 +1169,7 @@
         "TRA-13",
         "TRA-22"
       ],
-      "riesgo": "Que la adenda traslade riesgos al Estado; que la Línea 3 se licite sin predios liberados y repita los retrasos.",
+      "riesgo": "Que la adenda traslade riesgos al Estado; que la Línea 3 se licite sin predios liberados y repita los retrasos. El rango de costos citado (US$ 2 600 a 3 887 millones) muestra una incertidumbre de cerca de 50 %, y la adenda se negocia sin competencia.",
       "fuentes": [
         {
           "titulo": "Expreso – Ositrán autoriza ampliación de la Línea 1 hasta un millón de pasajeros diarios",
@@ -1034,6 +1178,14 @@
         {
           "titulo": "MTC – Exposición ante la Comisión de Defensa del Consumidor (21-oct-2025), Línea 1",
           "url": "https://www3.congreso.gob.pe/Docs/comisiones2025/consumidor/files/so-07-exposicion-02-mtc-21-10-2025.pdf"
+        },
+        {
+          "titulo": "Ley 32441, promoción de la inversión privada mediante APP y proyectos en activos",
+          "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+        },
+        {
+          "titulo": "MEF – Informe Anual de Deuda Pública 2025 (seguimiento de compromisos de APP)",
+          "url": "https://www.mef.gob.pe/contenidos/deuda_publ/documentos/Informe_Deuda_Publica_2025.pdf"
         }
       ],
       "pedn": [
@@ -1043,6 +1195,16 @@
         {
           "rol": "cifras",
           "hallazgo": "URL del Congreso rota, mover a www3",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Accesibilidad universal en estaciones y trenes",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Adenda con valor por dinero y cómputo en tope de 12 %",
           "decision": "aplicado"
         }
       ]
@@ -1106,7 +1268,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Se ejecuta con APP o contrato de Estado a Estado bajo la Ley 32441, Invierte.pe y el Plan Maestro de Desarrollo Ferroviario al 2050 (RM 368-2026-MTC/01.02). No requiere ley.",
       "etapa": "2031-2036",
-      "que": "El MTC y ProInversión estructuran los trenes de cercanías por tramos, empezando por los de mayor demanda metropolitana: Lima Sur (Villa El Salvador–Lurín–Chilca) y Lima Norte (Callao–Ancón–Huaral). Cada tramo solo pasa a licitación si su estudio de demanda y su análisis costo-beneficio social son revisados por un panel independiente y si el cofinanciamiento cabe en el tope de compromisos fiscales de APP. Las extensiones a Ica y Barranca se deciden con la demanda observada en los primeros tramos. El derecho de vía se reserva desde ya en los planes urbanos para que no lo ocupen viviendas.",
+      "que": "El MTC y ProInversión estructuran los trenes de cercanías por tramos, empezando por los de mayor demanda metropolitana: Lima Sur (Villa El Salvador–Lurín–Chilca) y Lima Norte (Callao–Ancón–Huaral). Cada tramo solo pasa a licitación si su estudio de demanda y su análisis costo-beneficio social son revisados por un panel independiente y si el cofinanciamiento cabe en el tope de 12 % del PBI de compromisos firmes y contingentes de APP (art. 31 de la Ley 32441), cuyo stock el MEF publica cada año en su Informe Anual de Deuda Pública. Las extensiones a Ica y Barranca se deciden con la demanda observada en los primeros tramos. El derecho de vía se reserva desde ya en los planes urbanos para que no lo ocupen viviendas.",
       "evidencia": "ProInversión estima US$ 6 542 millones para Lima–Ica y US$ 4 393 millones para Lima–Barranca. Las fechas de inicio se han corrido varias veces. Hacer el proyecto por etapas limita el riesgo de demanda sobreestimada, frecuente en proyectos ferroviarios (Flyvbjerg, sobre megaproyectos de transporte).",
       "entrega": "Primer tramo de cercanías (Lima Sur o Lima Norte) adjudicado con revisión independiente; derecho de vía reservado en los planes urbanos.",
       "responsable": "MTC",
@@ -1133,7 +1295,7 @@
         }
       ],
       "financiamiento": "APP cofinanciada o contrato de Estado a Estado; endeudamiento multilateral.",
-      "costo_referencial": "Lima–Ica US$ 6 542 M y Lima–Barranca US$ 4 393 M (ProInversión, cartera ferroviaria).",
+      "costo_referencial": "Lima–Ica US$ 6 542 M y Lima–Barranca US$ 4 393 M (ProInversión, cartera ferroviaria). Los dos corredores suman US$ 10 935 millones, del orden de 3 % a 4 % del PBI (cálculo propio, por verificar con el PBI en dólares del año); por eso se licita un tramo a la vez.",
       "indicador": "Tramos con análisis costo-beneficio revisado de forma independiente; pasajeros por km de vía en operación.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -1153,11 +1315,26 @@
         {
           "titulo": "El Peruano – Plan Maestro Ferroviario al 2050: nueva estrategia de carga y pasajeros",
           "url": "https://www.elperuano.pe/noticia/299987-plan-maestro-ferroviario-al-2050-conoce-la-nueva-estrategia-para-el-transporte-de-carga-y-pasajeros"
+        },
+        {
+          "titulo": "Ley 32441, promoción de la inversión privada mediante APP y proyectos en activos",
+          "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+        },
+        {
+          "titulo": "MEF – Informe Anual de Deuda Pública 2025 (seguimiento de compromisos de APP)",
+          "url": "https://www.mef.gob.pe/contenidos/deuda_publ/documentos/Informe_Deuda_Publica_2025.pdf"
         }
       ],
       "pedn": [
         "AE1.4.2",
         "AE3.6.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Citar el tope de 12 % del PBI y su seguimiento",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1959,6 +2136,22 @@
     {
       "titulo": "El Búho / PerúCheck – Fallecidos por siniestros de tránsito 2024 y 2025 (ONSV-MTC)",
       "url": "https://elbuho.pe/?p=418281"
+    },
+    {
+      "titulo": "Ley 32441, promoción de la inversión privada mediante APP y proyectos en activos",
+      "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+    },
+    {
+      "titulo": "Gestión – CIADI mantiene suspensión del laudo de la Línea 2 del Metro de Lima",
+      "url": "https://gestion.pe/economia/ciadi-mantiene-suspension-del-laudo-de-la-linea-2-del-metro-de-lima-noticia/"
+    },
+    {
+      "titulo": "El Popular – ATU advierte por laudos arbitrales del Metropolitano de S/ 800 millones (11-sep-2025)",
+      "url": "https://elpopular.pe/actualidad/2025/09/11/atu-advierte-que-el-metropolitano-podria-dejar-de-operar-por-laudos-arbitrales-de-s800-millones-y-falta-de-presupuesto-367840"
+    },
+    {
+      "titulo": "Ley 30314, para prevenir y sancionar el acoso sexual en espacios públicos (texto consolidado)",
+      "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30314-TXM.pdf"
     }
   ],
   "revision_atendida": [
@@ -1971,6 +2164,16 @@
       "rol": "cifras",
       "hallazgo": "URLs del Congreso movidas a www3 (9 casos)",
       "decision": "aplicado en todo el archivo"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Acoso sexual y accesibilidad sin acciones ni metas",
+      "decision": "aplicado: brechas, dos metas nuevas y textos en TRA-10, TRA-11 y TRA-14"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Diagnóstico sin contingencias de laudos ni tope APP",
+      "decision": "aplicado: indicador de laudos del Metropolitano y causa con laudo CIADI y tope de 12 % del PBI; el embargo en Luxemburgo solo como intento por verificar en TRA-13"
     }
   ]
 }

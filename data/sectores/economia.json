@@ -135,17 +135,17 @@
       "2036": "58 %",
       "2046": "45 %",
       "2056": "35 %",
-      "referencia": "Plan Perú 2050: 30–40 %; economías de altos ingresos con informalidad de un dígito a ~15 % (OIT)",
+      "referencia": "Plan Perú 2050: 30–40 %; economías de altos ingresos con informalidad de un dígito a ~15 % (OIT) Se reporta también la informalidad de mujeres y del área rural, con la misma senda de reducción. Meta idéntica a la de protección social.",
       "fuente_linea_base": "INEI 2025"
     },
     {
       "indicador": "Gasto tributario como % del PBI, con evaluación ex post publicada",
       "linea_base": "2,16 % del PBI (2026, sin evaluación sistemática)",
-      "2031": "≤ 2,0 % y 100 % de beneficios con evaluación publicada",
-      "2036": "≤ 1,6 %",
-      "2046": "≤ 1,3 %",
-      "2056": "≤ 1,0 %",
-      "referencia": "Recomendaciones del Consejo Fiscal de contener beneficios que reducen ingresos permanentes",
+      "2031": "≤ 1,8 % y 100 % de beneficios con evaluación publicada",
+      "2036": "≤ 1,3 %",
+      "2046": "≤ 1,0 %",
+      "2056": "≤ 0,8 %",
+      "referencia": "Recomendaciones del Consejo Fiscal de contener beneficios que reducen ingresos permanentes. Senda coherente con ECP-12, ECP-25, ECP-26 y MIN-24. Desglose 2026 (MMM 2026-2029, vía prensa): total S/ 26 350 millones, 76,8 % en IGV; productos agrícolas S/ 4 645 millones y Amazonía S/ 3 709 millones.",
       "fuente_linea_base": "MEF, MMM 2026-2029"
     },
     {
@@ -167,6 +167,16 @@
       "2056": "—",
       "referencia": "Capacidad de diseño de Chancay ≈ 1 millón TEU (operador)",
       "fuente_linea_base": "Cechap–UP vía El Peruano"
+    },
+    {
+      "indicador": "Presión tributaria del gobierno central (% del PBI)",
+      "linea_base": "14,6 % (2025, cifra atribuida al MEF y la SUNAT, por verificar)",
+      "2031": "16 %",
+      "2036": "17,5 %",
+      "2046": "19 %",
+      "2056": "20 %",
+      "referencia": "Meta indicativa sin subir tasas: menos gasto tributario (ECP-03, ECP-12, ECP-25, ECP-26), predial y mejor cumplimiento. Promedio de América Latina y el Caribe con metodología OCDE en torno a 21–22 % (por verificar en OECD Revenue Statistics). Ingresos tributarios 2025: S/ 175 156 millones (SUNAT vía El Peruano).",
+      "fuente_linea_base": "SUNAT y MEF (MMM 2026-2029)"
     }
   ],
   "acciones": [
@@ -319,11 +329,11 @@
       "titulo": "Blindar la Norma VII: beneficios tributarios de 3 años, una prórroga evaluada",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Los beneficios tributarios tienen reserva de ley (art. 74 y 79). La Norma VII del Código Tributario (modificada por el DL 1521) ya fija 3 años y una sola prórroga de hasta 3 años con evaluación previa, pero tiene rango de ley ordinaria y leyes especiales posteriores la desplazan. Por eso se combina una ley que refuerza la Norma VII con una modificación del Reglamento del Congreso (resolución legislativa con fuerza de ley), que regula cómo se admiten y votan los proyectos. No crea gasto ni organismos: puede ser de iniciativa congresal.",
+      "por_que_ley": "Los beneficios tributarios tienen reserva de ley (art. 74 y 79). La Norma VII del Código Tributario (modificada por el DL 1521) ya fija 3 años y una sola prórroga de hasta 3 años con evaluación previa, pero tiene rango de ley ordinaria y leyes especiales posteriores la desplazan. Por eso se combina una ley que refuerza la Norma VII con una modificación del Reglamento de cada cámara (con la bicameralidad de la Ley 31988, cada cámara tiene el suyo), que regula cómo se admiten y votan los proyectos. No crea gasto ni organismos: puede ser de iniciativa congresal. El informe previo del MEF ya es exigencia constitucional (art. 79, segundo párrafo: las leyes sobre beneficios o exoneraciones tributarias requieren previo informe del MEF); el Reglamento de cada cámara solo lo vuelve condición de admisión y dictamen.",
       "etapa": "2026-2031",
-      "que": "Se mantiene la regla dura vigente: ningún beneficio tributario dura más de 3 años, con una sola prórroga de hasta 3 años y solo si antes del vencimiento hay una evaluación ex post publicada por el MEF y revisada por el Consejo Fiscal, con metas medibles fijadas al crearlo; sin evaluación favorable, caduca solo. La ley extiende estas reglas a los regímenes territoriales y a los beneficios dados por leyes especiales. El candado está en el Reglamento del Congreso: no se dictamina ni se vota un beneficio tributario sin informe previo del MEF con su costo anual y plazo de 3 años o menos; si no cumple la Norma VII, se tiene por no aprobado.",
+      "que": "Se mantiene la regla dura vigente: ningún beneficio tributario dura más de 3 años, con una sola prórroga de hasta 3 años y solo si antes del vencimiento hay una evaluación ex post publicada por el MEF y revisada por el Consejo Fiscal, con metas medibles fijadas al crearlo; sin evaluación favorable, caduca solo. La ley extiende estas reglas a los regímenes territoriales y a los beneficios dados por leyes especiales. El candado está en el Reglamento de cada cámara: no se dictamina ni se vota un beneficio tributario sin informe previo del MEF con su costo anual y plazo de 3 años o menos; si no cumple la Norma VII, se tiene por no aprobado. Los ingresos que se recuperen al caducar beneficios son la primera fuente de ingresos permanentes de la agenda (ver la meta de presión tributaria).",
       "evidencia": "El MEF estima un gasto tributario de 2,16 % del PBI en 2026 y advierte que muchos beneficios se prolongan sin evaluación rigurosa. La Norma VII ya limita la vigencia a 3 años, pero se incumple con leyes especiales posteriores: la Ley 32434 fija un régimen agrario de 2026 a 2035, la Ley 30446 extendió las ZED hasta 2042 y las leyes de devolución del IGV a la exploración (27623 y 27624) se prorrogaron hasta el 31-12-2027 (su salida se trata en MIN-24, que depende de esta acción). El Consejo Fiscal pidió en 2025 contener medidas que reducen ingresos permanentes en más de S/ 2 500 millones anuales.",
-      "entrega": "Ley que refuerza la Norma VII y Reglamento del Congreso modificado; informe anual del MEF de gasto tributario evaluado por beneficio.",
+      "entrega": "Ley que refuerza la Norma VII y Reglamentos de ambas cámaras modificados; informe anual del MEF de gasto tributario evaluado por beneficio.",
       "responsable": "MEF",
       "entidades": [
         {
@@ -350,7 +360,7 @@
       "depende_de": [
         "ECO-16"
       ],
-      "riesgo": "Una ley general no obliga a leyes posteriores: la regla solo es exigible si el Reglamento del Congreso exige el informe del MEF y del Consejo Fiscal para admitir a debate proyectos con beneficios tributarios. Persistirá la presión regional y gremial por leyes de prórroga.",
+      "riesgo": "Una ley general no obliga a leyes posteriores: la regla solo es exigible si el Reglamento de cada cámara exige el informe del MEF y del Consejo Fiscal para admitir a debate proyectos con beneficios tributarios. Persistirá la presión regional y gremial por leyes de prórroga.",
       "fuentes": [
         {
           "titulo": "Decreto Legislativo N.º 1521, que modifica la Norma VII del Título Preliminar del Código Tributario (El Peruano)",
@@ -407,6 +417,16 @@
           "rol": "economia",
           "hallazgo": "Citar DL 1521 en fuentes",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Art. 79 ya exige informe MEF; Reglamento de cada cámara",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Palanca de ingresos permanentes (ECP-29 propuesta)",
+          "decision": "aplicado en parte: ECP-03 se nombra como primera fuente; no se crea id nuevo en esta fase"
         }
       ]
     },
@@ -591,7 +611,7 @@
         "SOB-01",
         "ECP-04"
       ],
-      "riesgo": "Que el canon universitario se gaste en obras y no en investigación; fragmentación entre muchas universidades sin masa crítica.",
+      "riesgo": "Que el canon universitario se gaste en obras y no en investigación; fragmentación entre muchas universidades sin masa crítica. Baja ejecución de los fondos concursables de CTI: el PP 0137 llevaba 22,7 % de devengado sobre un PIM 2026 de S/ 170 millones a la fecha de corte del insumo (MEF, Consulta Amigable).",
       "fuentes": [
         {
           "titulo": "Export Finance Australia (2024) – El sector METS: US$ 114 000 M de ingresos y US$ 17 000 M exportados (Austmine 2020)",
@@ -611,6 +631,11 @@
         {
           "rol": "jurista",
           "hallazgo": "Dependencia de DIG-24, de etapa posterior",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Baja ejecución del PP 0137 en riesgo",
           "decision": "aplicado"
         }
       ]
@@ -683,7 +708,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "La evaluación la hacen el MEF, MIDAGRI y MTPE sin ley. Pero cualquier cambio de tasas, plazos o derechos laborales del régimen agrario requiere ley (reserva tributaria del art. 74 y régimen laboral especial creado por ley); la regla es no prorrogarlo más allá de 2035 sin evaluación favorable, conforme a la Norma VII (ECP-03).",
       "etapa": "2026-2031",
-      "que": "La Ley 32434 (2025) fijó un Impuesto a la Renta de 15 % para empresas agrarias entre 2026 y 2035, una deducción adicional de 25 % por compras a pequeños productores del Padrón y un régimen laboral especial; en 2036 se vuelve al régimen general. Son 10 años, muy por encima del plazo de 3 de la Norma VII. Se propone: (1) desde 2027 el MEF publica cada año su gasto tributario, separando tasa reducida y deducción; (2) evaluación independiente en 2028, con efectos posibles sobre la segunda mitad del periodo; (3) una ley de transición que lleve al régimen general con contratos de temporada modernos y aportes de salud y pensión portables, sin prórroga automática.",
+      "que": "La Ley 32434 (2025) fijó un Impuesto a la Renta de 15 % para empresas agrarias entre 2026 y 2035, una deducción adicional de 25 % por compras a pequeños productores del Padrón y un régimen laboral especial; en 2036 se vuelve al régimen general. Son 10 años, muy por encima del plazo de 3 de la Norma VII. Se propone: (1) desde 2027 el MEF publica cada año su gasto tributario, separando tasa reducida y deducción; (2) evaluación independiente en 2028, con efectos posibles sobre la segunda mitad del periodo; (3) una ley de transición que lleve al régimen general con contratos de temporada modernos y aportes de salud y pensión portables, sin prórroga automática. La ley de transición garantiza libertad sindical, remuneración no menor a la del régimen general, salud y seguridad ocupacional y protección a trabajadoras gestantes, con inspección de SUNAFIL en campo.",
       "evidencia": "El auge agroexportador coincidió con el régimen especial anterior, pero también con riego (Chavimochic, Olmos), protocolos sanitarios y TLC; no hay evaluación causal que aísle el efecto del beneficio. Una exposición de motivos del Congreso cita una estimación del MEF de S/ 1 888 millones anuales de menor recaudación, cifra disputada. El Consejo Fiscal recomendó contener este tipo de beneficios (2025).",
       "entrega": "Gasto tributario agrario publicado desde 2027, evaluación ex post al 2028 y ley de transición aprobada antes de 2034, sin prórroga automática.",
       "responsable": "MEF",
@@ -763,6 +788,11 @@
           "rol": "spij",
           "hallazgo": "Ley 32434 verificada",
           "decision": "aplicado: sin cambios"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Contratos de temporada sin derechos laborales explícitos",
+          "decision": "aplicado"
         }
       ]
     },
@@ -773,7 +803,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Programas existentes de MIDAGRI (PSI, AGROIDEAS, AGRORURAL) y Procompite de gobiernos regionales y locales; se reordenan por resolución y convenios.",
       "etapa": "2026-2031",
-      "que": "En valles de sierra y ceja de selva con potencial (palta, arándano de altura, café, cacao, quinua, frutas nativas), se combinan riego tecnificado, asistencia técnica por cadena, certificaciones y acuerdos de compra con empresas exportadoras ancla. Las organizaciones de productores reciben cofinanciamiento por planes de negocio con metas de ventas. La deducción adicional de 25 % de la Ley 32434 por compras a productores del Padrón se usa como palanca: la SUNAT cruza comprobantes con el Padrón y publica el monto deducido y los proveedores. En acuíferos en veda (Ica, Villacurí, Lanchas) no se amplía área sin balance hídrico público de la ANA y medición telemétrica de pozos (AGR-04).",
+      "que": "En valles de sierra y ceja de selva con potencial (palta, arándano de altura, café, cacao, quinua, frutas nativas), se combinan riego tecnificado, asistencia técnica por cadena, certificaciones y acuerdos de compra con empresas exportadoras ancla. Las organizaciones de productores reciben cofinanciamiento por planes de negocio con metas de ventas. La deducción adicional de 25 % de la Ley 32434 por compras a productores del Padrón se usa como palanca: la SUNAT cruza comprobantes con el Padrón y publica el monto deducido y los proveedores. En acuíferos en veda (Ica, Villacurí, Lanchas) no se amplía área sin balance hídrico público de la ANA y medición telemétrica de pozos (AGR-04). Los acuerdos de compra ancla incluyen cláusulas de trabajo decente y cero trabajo infantil verificadas (PRO-10) y precios de referencia publicados.",
       "evidencia": "La integración de pequeños productores con compradores ancla y asistencia técnica ha mostrado aumentos de ingresos en programas de alianzas productivas en América Latina (por ejemplo, Colombia, evaluado por el Banco Mundial); en Perú, AGROIDEAS y Procompite cofinancian planes de negocio pero sus evaluaciones son limitadas. Por verificar: no hay una evaluación causal reciente y pública de AGROIDEAS.",
       "entrega": "1 500 organizaciones de productores con contrato de venta y riego tecnificado en sierra y selva al 2031.",
       "responsable": "MIDAGRI",
@@ -844,6 +874,11 @@
           "rol": "economia",
           "hallazgo": "Acuíferos de Ica en veda: condicionar expansión",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Compras ancla sin cláusulas laborales ni trabajo infantil",
+          "decision": "aplicado"
         }
       ]
     },
@@ -852,7 +887,7 @@
       "titulo": "Habilitar parques industriales con agua, energía y tratamiento de efluentes mediante APP y OxI",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "El marco existe: Ley 30078 (parques industriales tecno-ecológicos), DL 1362 de APP y Ley de Obras por Impuestos; se ejecuta por Invierte.pe y PROINVERSIÓN.",
+      "por_que_ley": "El marco existe: Ley 30078 (parques industriales tecno-ecológicos), Ley 32441 de promoción de la inversión privada mediante APP y proyectos en activos (reglamento DS 316-2025-EF), que derogó el DL 1362, y Ley de Obras por Impuestos; se ejecuta por Invierte.pe y PROINVERSIÓN.",
       "etapa": "2026-2031",
       "que": "Se habilitan parques industriales con suelo saneado, accesos, energía, agua industrial y planta de tratamiento de efluentes compartida, empezando por el de Ancón en Lima Norte —próximo a Chancay y adjudicado por PROINVERSIÓN en diciembre de 2025— y luego en Arequipa, La Libertad, Piura e Ica según demanda verificada. Las empresas se reubican desde zonas residenciales y obtienen licencias en una ventanilla única del parque. Se cobra por lotes y servicios; el Estado aporta suelo y conexiones troncales, no subsidios a la producción.",
       "evidencia": "Los parques con infraestructura compartida reducen costos de cumplimiento ambiental y aprovechan economías de aglomeración; la experiencia internacional (Banco Mundial, guías de parques industriales) muestra que fracasan cuando se construyen sin demanda, sin conectividad o sin gestión profesional, y funcionan cuando un operador cobra por servicios.",
@@ -901,6 +936,10 @@
         {
           "titulo": "Energiminas – Parque Industrial de Ancón valuado en US$ 1 200 millones es adjudicado a consorcio",
           "url": "https://energiminas.com/?p=39839"
+        },
+        {
+          "titulo": "Ley 32441, APP y proyectos en activos (El Peruano, 16-sep-2025)",
+          "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
         }
       ],
       "pedn": [
@@ -912,6 +951,11 @@
           "rol": "economia",
           "hallazgo": "Costo no estimado: dar orden de magnitud",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "DL 1362 derogado: citar Ley 32441 y DS 316-2025-EF",
+          "decision": "aplicado"
         }
       ]
     },
@@ -922,7 +966,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 32449 y su reglamento (DS 005-2026-MINCETUR) ya están vigentes; las metas, la supervisión y la publicación de resultados se ordenan por resolución de MINCETUR y SUNAT. Los cambios a los criterios de valor agregado que proponga SOB-02 sí requerirían ley.",
       "etapa": "2026-2031",
-      "que": "Las Zonas Económicas Especiales Privadas (ZEEP), con Impuesto a la Renta de 0 % los primeros 5 años y 7,5 % del sexto al décimo según lo informado sobre el reglamento, se autorizan solo con un plan de inversión, empleo y exportación verificable y con la estimación previa del MEF de su gasto tributario: ninguna autorización sin ella; el operador privado reporta cada año, la SUNAT publica el gasto tributario por zona y el MINCETUR evalúa a los 5 años. Se priorizan ubicaciones conectadas a Chancay, Callao, Ica y Arequipa, identificadas por el estudio exploratorio MINCETUR–CEPLAN. Se vigila que no se usen solo para trasladar empresas existentes y pagar menos impuestos.",
+      "que": "Las Zonas Económicas Especiales Privadas (ZEEP), con Impuesto a la Renta de 0 % los primeros 5 años y 7,5 % del sexto al décimo según lo informado sobre el reglamento, se autorizan solo con un plan de inversión, empleo y exportación verificable y con la estimación previa del MEF de su gasto tributario: ninguna autorización sin ella; el operador privado reporta cada año, la SUNAT publica el gasto tributario por zona y el MINCETUR evalúa a los 5 años. Se priorizan ubicaciones conectadas a Chancay, Callao, Ica y Arequipa, identificadas por el estudio exploratorio MINCETUR–CEPLAN. Se vigila que no se usen solo para trasladar empresas existentes y pagar menos impuestos. La autorización exige que en la ZEEP rijan íntegramente los derechos laborales del régimen que corresponda, la libertad sindical y la inspección de SUNAFIL; ningún beneficio se condiciona a reducirlos.",
       "evidencia": "La evidencia internacional sobre zonas francas es mixta: funcionan cuando están bien conectadas, cerca de mercados y con regulación ágil, y fracasan cuando son enclaves con beneficios fiscales pero sin infraestructura. En Perú, la mitad de las ocho zonas especiales creadas por ley no funcionan (MINCETUR vía Gestión).",
       "entrega": "Registro público de ZEEP con plan, metas, gasto tributario y empleo reportado; evaluación independiente al 2031.",
       "responsable": "MINCETUR",
@@ -986,6 +1030,11 @@
           "rol": "economia",
           "hallazgo": "Exigir costo fiscal ex ante de ZEEP con IR 0 %",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "ZEEP: derechos laborales e inspección SUNAFIL",
+          "decision": "aplicado como condición de autorización (régimen laboral de la Ley 32449 por verificar)"
         }
       ]
     },
@@ -1098,9 +1147,9 @@
       "titulo": "Integrar el sistema logístico Chancay–Callao con zonas de actividades logísticas y accesos",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "Inversión pública por Invierte.pe, APP de accesos y ferrocarril, y ordenamiento territorial municipal; la ventanilla portuaria digital (Port Community System) puede implementarse por DS, aunque GOB-20 propone darle rango de ley.",
+      "por_que_ley": "Inversión pública por Invierte.pe, APP de accesos y ferrocarril, y ordenamiento territorial municipal; la ventanilla portuaria digital (Port Community System) es el componente portuario de la VUCE (Ley 30860) y puede implementarse por DS; su obligatoriedad para todos los terminales la fija la ley de DIG-07 (que recoge GOB-20).",
       "etapa": "2026-2031",
-      "que": "Se planifica Chancay y Callao como un solo sistema: vía de evitamiento y accesos a Chancay, Zonas de Actividades Logísticas (ZAL) públicas o en APP, un Port Community System que integre a navieras, aduanas, SENASA y transportistas, y el estudio del tren de carga Callao–Chancay–Lima Norte. Se protege el suelo alrededor del puerto contra invasiones y especulación con un plan urbano. El objetivo es que el puerto sea base de manufactura y servicios logísticos, no solo de transbordo. INDECOPI hace estudios de mercado de logística portuaria y transporte de carga y aplica el control previo de concentraciones (Ley 31112) a las integraciones verticales del puerto. Las obras viales de acceso y antepuertos se detallan en TRA-18.",
+      "que": "Se planifica Chancay y Callao como un solo sistema: vía de evitamiento y accesos a Chancay, Zonas de Actividades Logísticas (ZAL) públicas o en APP, un Port Community System que integre a navieras, aduanas, SENASA y transportistas, construido como componente portuario de la VUCE y no como plataforma aparte (un solo responsable de la plataforma: MINCETUR como administrador de la VUCE, con SUNAT; el MTC y la APN aportan la capa portuaria), y el estudio del tren de carga Callao–Chancay–Lima Norte. Se protege el suelo alrededor del puerto contra invasiones y especulación con un plan urbano. El objetivo es que el puerto sea base de manufactura y servicios logísticos, no solo de transbordo. INDECOPI hace estudios de mercado de logística portuaria y transporte de carga y aplica el control previo de concentraciones (Ley 31112) a las integraciones verticales del puerto. Las obras viales de acceso y antepuertos se detallan en TRA-18.",
       "evidencia": "Chancay movió 286 255 TEU en su primer año, por encima de su meta inicial de 200 000, y su operador prevé una segunda fase de unos US$ 2 500 millones al superar el millón de TEU. Sin accesos ni planificación urbana, los puertos generan congestión y asentamientos informales; los hubs exitosos (Panamá, Rotterdam) integran ZAL, ferrocarril y ventanilla digital.",
       "entrega": "ZAL Chancay operando, accesos viales terminados y Port Community System en Callao y Chancay al 2031.",
       "responsable": "MTC",
@@ -1132,6 +1181,10 @@
         {
           "sigla": "INDECOPI",
           "rol": "supervisora"
+        },
+        {
+          "sigla": "MINCETUR",
+          "rol": "ejecutora"
         }
       ],
       "financiamiento": "Inversión privada del operador portuario; APP para accesos y ZAL; presupuesto del MTC.",
@@ -1139,7 +1192,8 @@
       "indicador": "Tiempo y costo de despacho de contenedor; TEU movidos; hectáreas de ZAL ocupadas.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "GOB-20"
+        "GOB-20",
+        "DIG-07"
       ],
       "riesgo": "Ocupación informal del suelo cercano; enclave de transbordo sin valor agregado local; demoras en accesos por conflictos de expropiación.",
       "fuentes": [
@@ -1166,6 +1220,11 @@
           "rol": "economia",
           "hallazgo": "Falta política de competencia en logística portuaria",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "PCS duplicaba el componente portuario de la VUCE (DIG-07)",
+          "decision": "aplicado: PCS es componente de la VUCE a cargo de MINCETUR; DIG-07 en depende_de"
         }
       ]
     },
@@ -1319,7 +1378,7 @@
         }
       ],
       "financiamiento": "Presupuesto de MINCETUR y PROMPERÚ.",
-      "costo_referencial": "Por estimar.",
+      "costo_referencial": "Promoción con presupuesto de MINCETUR y PROMPERÚ. El costo financiero de la devolución acelerada del IGV se cuantifica en DIG-10 (banda indicativa de S/ 0,3–1,5 millones anuales). Si se adopta una presunción de exportación de servicios digitales, es un beneficio tributario: debe cumplir la Norma VII (DL 1521), con gasto tributario estimado por el MEF en su informe previo.",
       "indicador": "Exportaciones de servicios no turísticos (US$, balanza de pagos BCRP) y n.º de empresas exportadoras de servicios.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -1343,6 +1402,11 @@
           "rol": "jurista",
           "hallazgo": "DIG-15 ya no cubre la escuela (pasó a EDU-23)",
           "decision": "aplicado: se mantiene DIG-15 por formación de adultos y trabajadores; EDU-23 citado como complemento"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo por estimar: remitir a DIG-10 y Norma VII",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1353,7 +1417,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Inversión pública por Invierte.pe (Plan COPESCO), gestión de destinos por MINCETUR y gobiernos regionales, y concesiones de servicios en áreas naturales por SERNANP; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Se desarrollan 8–10 destinos con producto completo (acceso, señalización, saneamiento, guías certificados, reservas en línea): norte arqueológico y playas, Arequipa–Colca, Titicaca, Amazonía de Tambopata e Iquitos, Chachapoyas–Kuélap y Ayacucho. Se apuesta por segmentos de mayor gasto y estadía: naturaleza y aves, gastronomía, aventura, congresos y turismo comunitario. Se mejora la gestión del aforo y la venta de entradas en Machu Picchu y se amplía la conectividad aérea regional, incluido el nuevo aeropuerto de Chinchero.",
+      "que": "Se desarrollan 8–10 destinos con producto completo (acceso, señalización, saneamiento, guías certificados, reservas en línea): norte arqueológico y playas, Arequipa–Colca, Titicaca, Amazonía de Tambopata e Iquitos, Chachapoyas–Kuélap y Ayacucho. Se apuesta por segmentos de mayor gasto y estadía: naturaleza y aves, gastronomía, aventura, congresos y turismo comunitario. Se mejora la gestión del aforo y la venta de entradas en Machu Picchu y se amplía la conectividad aérea regional, incluido el nuevo aeropuerto de Chinchero. Los destinos en territorios o sitios sagrados de comunidades se gestionan con su acuerdo y con participación en los ingresos; los entes gestores incluyen representación comunal.",
       "evidencia": "En 2025 el turismo receptivo generó US$ 5 351 millones, pero los visitantes internacionales fueron 4,16 millones, de ellos 3,42 millones turistas (pernoctan), aún en 78 % del nivel de 2019; el turista extranjero gasta en promedio US$ 1 232 y se queda 10 noches (PromPerú). Concentrar la demanda en un solo destino eleva el riesgo de conflictos y saturación, como ha ocurrido con la venta de entradas a Machu Picchu.",
       "entrega": "8 destinos con gestión profesional (entes gestores) y producto completo; venta digital única de entradas a sitios del Estado.",
       "responsable": "MINCETUR",
@@ -1390,7 +1454,7 @@
       "depende_de": [
         "ECP-13"
       ],
-      "riesgo": "Conflictos locales por la gestión de sitios; inseguridad ciudadana que ahuyente visitantes; obras sin mantenimiento.",
+      "riesgo": "Conflictos locales por la gestión de sitios; inseguridad ciudadana que ahuyente visitantes; obras sin mantenimiento. Capacidad de ejecución de Plan COPESCO y gobiernos regionales: el PP 0127 llevaba 26,5 % de devengado sobre un PIM 2026 de S/ 619 millones a la fecha de corte del insumo (MEF, Consulta Amigable).",
       "fuentes": [
         {
           "titulo": "Infobae – Turismo receptivo generó US$ 5 351 millones en 2025 (BCRP)",
@@ -1413,6 +1477,16 @@
           "rol": "economia",
           "hallazgo": "Aclarar visitantes 4,16 M vs. turistas 3,42 M",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Turismo comunitario como derecho a decidir y participar",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Baja ejecución del PP 0127 en riesgo",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1423,7 +1497,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Programas de MIDAGRI, SERFOR, PRODUCE y PROMPERÚ, más CITE amazónicos; la trazabilidad se implementa por resolución y sistemas de información existentes.",
       "etapa": "2026-2031",
-      "que": "En Loreto, Ucayali, San Martín, Madre de Dios, Amazonas y la selva central se fortalecen cadenas de cacao fino, café, castaña, camu camu, aguaje, sacha inchi, peces amazónicos y productos forestales no maderables, con transformación local (chocolates, aceites, extractos, ingredientes naturales). Se implementa trazabilidad georreferenciada para cumplir el reglamento europeo contra la deforestación y otros estándares, y se apoya a cooperativas y comunidades con asistencia técnica, certificación y acceso a compradores.",
+      "que": "En Loreto, Ucayali, San Martín, Madre de Dios, Amazonas y la selva central se fortalecen cadenas de cacao fino, café, castaña, camu camu, aguaje, sacha inchi, peces amazónicos y productos forestales no maderables, con transformación local (chocolates, aceites, extractos, ingredientes naturales). Se implementa trazabilidad georreferenciada para cumplir el reglamento europeo contra la deforestación y otros estándares, y se apoya a cooperativas y comunidades con asistencia técnica, certificación y acceso a compradores. Las cadenas que usan conocimientos colectivos o recursos genéticos aplican la Ley 27811 (consentimiento informado previo y reparto de beneficios) y el Protocolo de Nagoya; las comunidades son socias y no solo proveedoras, con participación en la transformación local.",
       "evidencia": "El Harvard Growth Lab identificó en Loreto oportunidades de diversificación basadas en capacidades existentes (La riqueza escondida de Loreto, 2020). Mercados como la Unión Europea exigen pruebas de origen libre de deforestación: quien tenga trazabilidad gana acceso y precio; quien no, queda fuera.",
       "entrega": "Sistema de trazabilidad georreferenciada para cacao, café y castaña; 300 organizaciones amazónicas exportando con valor agregado al 2031.",
       "responsable": "MIDAGRI",
@@ -1476,6 +1550,13 @@
       "pedn": [
         "AE3.3.14",
         "AE2.4.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Ley 27811 y Nagoya: riesgo de biopiratería",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1485,9 +1566,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El marco es la Ley 29763, Ley Forestal y de Fauna Silvestre, y sus reglamentos; la simplificación de registros y títulos habilitantes se hace por decreto supremo y resoluciones de SERFOR.",
       "etapa": "2026-2031",
-      "que": "Se retoma la hoja de ruta de la Mesa Ejecutiva Forestal: registro de plantaciones en línea y automático, catastro forestal integrado con el agrario, transporte de madera de plantación sin trámites de bosque natural, y concesiones o cesiones en uso de tierras ya deforestadas para reforestación productiva. Se combina con fiscalización fuerte contra la tala ilegal para que la madera legal compita. El objetivo es pasar de importar madera y tableros a abastecer construcción y muebles con madera nacional certificada.",
+      "que": "Se retoma la hoja de ruta de la Mesa Ejecutiva Forestal: Registro Nacional de Plantaciones Forestales en un formulario único en línea (SNIFFS) para todas las regiones, catastro forestal integrado con el agrario, transporte de madera de plantación sin trámites de bosque natural, y concesiones o cesiones en uso de tierras ya deforestadas para reforestación productiva. Se combina con fiscalización fuerte contra la tala ilegal para que la madera legal compita. El objetivo es pasar de importar madera y tableros a abastecer construcción y muebles con madera nacional certificada. No se otorgan concesiones ni cesiones en uso sobre tierras con solicitud de titulación o ampliación comunal pendiente (AMB-04) ni en reservas para pueblos en aislamiento y contacto inicial (PIACI); las comunidades acceden a los mismos instrumentos para reforestar sus tierras.",
       "evidencia": "La Mesa Ejecutiva Forestal identificó decenas de barreras y el MEF aprobó en 2019 un paquete de medidas para el sector; países como Chile y Uruguay construyeron industrias forestales basadas en plantaciones con seguridad jurídica, aunque con debates socioambientales. Por verificar: superficie actual de plantaciones registradas en el Perú (SERFOR).",
-      "entrega": "Registro de plantaciones 100 % digital y automático; catastro forestal interoperable; cartera de tierras degradadas disponibles para reforestación.",
+      "entrega": "Registro Nacional de Plantaciones Forestales con formulario único en línea (SNIFFS) para todas las regiones, constancia inmediata y datos abiertos; catastro forestal interoperable; cartera de tierras degradadas disponibles para reforestación.",
       "responsable": "SERFOR",
       "entidades": [
         {
@@ -1524,11 +1605,27 @@
         {
           "titulo": "MEF – Ejecutivo aprobó medidas para impulsar el sector forestal (Mesa Ejecutiva Forestal, 2019)",
           "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6076-ejecutivo-aprobo-medidas-para-impulsar-el-desarrollo-del-sector-forestal"
+        },
+        {
+          "titulo": "Andina: Perú cuenta con 19 000 hectáreas de plantaciones forestales registradas por SERFOR",
+          "url": "https://andina.pe/agencia/noticia-peru-cuenta-19-000-hectareas-plantaciones-forestales-registradas-por-serfor-876305.aspx"
         }
       ],
       "pedn": [
         "AE2.4.1",
         "AE3.3.11"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Salvaguarda de tierras comunales y PIACI",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "El RNPF ya existe: formulario único nacional",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1655,7 +1752,7 @@
       "necesita_ley": "no",
       "por_que_ley": "COFIDE opera bajo su estatuto y FONAFE; el Fondo CRECER (DL 1399) y el Fondo de Capital para Emprendimientos Innovadores (DU 013-2020) ya existen. La continuidad y reglas del FCEI que propone ECO-02, y la inversión de AFP en capital de riesgo (ECO-19), sí requieren ley y se remiten a la Agenda Tech.",
       "etapa": "2026-2031",
-      "que": "COFIDE concentra su rol de banca de desarrollo de segundo piso en tres productos: garantías parciales de crédito del Fondo CRECER para MYPE y exportadores (hasta 75 % del crédito), financiamiento de factoring con factura negociable para que la MYPE cobre rápido, y el fondo de fondos FCEI para capital de riesgo. Cada producto publica metas de adicionalidad (empresas que acceden a crédito por primera vez, plazos y tasas vs. mercado), morosidad y costo fiscal. Se evita el crédito directo con tasas subsidiadas sin evaluación.",
+      "que": "COFIDE concentra su rol de banca de desarrollo de segundo piso en tres productos: garantías parciales de crédito del Fondo CRECER para MYPE y exportadores (hasta 75 % del crédito), financiamiento de factoring con factura negociable para que la MYPE cobre rápido, y el fondo de fondos FCEI para capital de riesgo. Cada producto publica metas de adicionalidad (empresas que acceden a crédito por primera vez, plazos y tasas vs. mercado), morosidad y costo fiscal. Se evita el crédito directo con tasas subsidiadas sin evaluación. Las garantías no son gratuitas: el Estado paga cuando el deudor no paga. Por eso se otorgan con prima calculada por riesgo, cobertura máxima de 75 % y un tope anual de stock aprobado en la Ley de Presupuesto, y los honramientos esperados se registran como pasivo contingente en el Informe Anual de Deuda Pública del MEF.",
       "evidencia": "Las garantías parciales bien diseñadas (por ejemplo, FOGAPE en Chile) aumentan el acceso al crédito pyme con costo fiscal acotado; los programas de crédito directo subsidiado y masivo (como algunos de emergencia en 2020) tuvieron problemas de focalización y morosidad. El FCEI empezó con S/ 70 millones y ha invertido en fondos como Salkantay Ventures y Alaya Capital.",
       "entrega": "Reporte anual público de adicionalidad, morosidad y costo fiscal de CRECER, factoring y FCEI.",
       "responsable": "COFIDE",
@@ -1681,16 +1778,16 @@
           "rol": "reguladora"
         }
       ],
-      "financiamiento": "Patrimonio de COFIDE, Fondo CRECER (≈ S/ 1 000 millones al crearse, según el MEF), FCEI y líneas de CAF/BID.",
+      "financiamiento": "Patrimonio de COFIDE, Fondo CRECER (≈ S/ 1 000 millones al crearse, según el MEF), FCEI y líneas de CAF/BID. Los honramientos de garantías son un pasivo contingente del Tesoro, no un costo cero.",
       "costo_referencial": "Recursos ya existentes: Fondo CRECER ≈ S/ 1 000 millones al crearse (MEF) y FCEI con S/ 70 millones iniciales; sin nuevo gasto del Tesoro.",
-      "indicador": "N.º de MYPE que obtienen su primer crédito formal con garantía; monto de factoring MYPE financiado; capital privado movilizado por cada sol del FCEI.",
+      "indicador": "N.º de MYPE que obtienen su primer crédito formal con garantía; monto de factoring MYPE financiado; capital privado movilizado por cada sol del FCEI. Honramientos pagados sobre garantías vigentes (%) y recuperaciones.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "ECO-02",
         "ECO-14",
         "ECO-19"
       ],
-      "riesgo": "Uso político de COFIDE para salvatajes o créditos dirigidos; garantías que cubren riesgos que la banca igual asumiría (cero adicionalidad).",
+      "riesgo": "Uso político de COFIDE para salvatajes o créditos dirigidos; garantías que cubren riesgos que la banca igual asumiría (cero adicionalidad). Lección de Reactiva Perú (programa de garantías de hasta S/ 60 000 millones): los créditos impagos los terminó honrando el Estado y las recuperaciones fueron lentas (monto total de honramientos por verificar en los informes de COFIDE y de la Contraloría). Sin prima, tope y registro del pasivo contingente, el costo fiscal aparece tarde.",
       "fuentes": [
         {
           "titulo": "Infomercado – PRODUCE y COFIDE lanzan el Fondo de Capital para Emprendimientos Innovadores (S/ 70 millones)",
@@ -1699,6 +1796,10 @@
         {
           "titulo": "MEF – Reglamento del Fondo CRECER para mipymes y exportadores (garantías hasta 75 %)",
           "url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/5864-mef-aprueba-reglamento-del-fondo-crecer-para-el-financiamiento-de-mipymes-y-empresas-exportadoras"
+        },
+        {
+          "titulo": "COFIDE: nota de prensa sobre Reactiva Perú (dic-2025)",
+          "url": "https://www.cofide.com.pe/wp-content/uploads/2025/12/NP-Reactiva-Peru-VF.pdf"
         }
       ],
       "pedn": [
@@ -1710,6 +1811,11 @@
           "rol": "economia",
           "hallazgo": "Costo no estimado: dar orden de magnitud",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Garantías CRECER son pasivo contingente; lección Reactiva",
+          "decision": "aplicado: prima, tope, cobertura 75 %, registro como pasivo contingente; cifras de recuperación por verificar"
         }
       ]
     },
@@ -1720,7 +1826,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Las tasas y umbrales de los regímenes tributarios (DL 1269, Nuevo RUS) y el régimen laboral MYPE (Ley 32353) están en normas con rango de ley; cambiarlos exige ley o decreto legislativo delegado. Como afecta ingresos, requiere informe previo del MEF y, preferentemente, iniciativa del Ejecutivo (art. 79). Si se hace por decreto legislativo, la delegación debe incluir expresamente la materia laboral (art. 104). La vigencia del régimen laboral de la Ley 32353 depende de su reglamento (por verificar su publicación).",
       "etapa": "2026-2031",
-      "que": "El RER (Capítulo XV de la Ley del Impuesto a la Renta) se deroga con vigencia diferida y sus contribuyentes pasan al RMT mediante la propuesta ECO-15 de la Agenda Legislativa Tech, que modifica el DL 1269; esta acción asegura que ocurra en la etapa y suma la declaración precompletada de DIG-10. El camino del Nuevo RUS al régimen general usa tasas marginales progresivas en vez de saltos y una salida gradual del RMT al superar 1 700 UIT. En lo laboral se evalúa la Ley 32353 (régimen MYPE permanente que, al entrar en vigencia con su reglamento, deja sin efecto el TUO del DS 013-2013-PRODUCE y permite conservarlo 3 años tras superar el límite) y el SIS semicontributivo frente a aportes a EsSalud desde el primer trabajador. Nada reduce derechos de contratos vigentes.",
+      "que": "El RER (Capítulo XV de la Ley del Impuesto a la Renta) se deroga con vigencia diferida y sus contribuyentes pasan al RMT mediante la propuesta ECO-15 de la Agenda Legislativa Tech, que modifica el DL 1269; esta acción asegura que ocurra en la etapa y suma la declaración precompletada de DIG-10. El camino del Nuevo RUS al régimen general usa tasas marginales progresivas en vez de saltos y una salida gradual del RMT al superar 1 700 UIT. En lo laboral se evalúa la Ley 32353 (régimen MYPE permanente que, cuando entre en vigencia con su reglamento, aún no publicado, dejaría sin efecto el TUO del DS 013-2013-PRODUCE y permitiría conservarlo 3 años tras superar el límite) y el SIS semicontributivo frente a aportes a EsSalud desde el primer trabajador. Nada reduce derechos de contratos vigentes. La escalera laboral se diseña con el estudio actuarial de la OIT para EsSalud: ningún tramo reduce el aporte efectivo promedio a salud por trabajador, y el subsidio del SIS semicontributivo se publica como gasto en la Ley de Presupuesto. EsSalud tuvo un déficit presupuestal de S/ 576 millones en 2025 y el MTPE proyecta un déficit de caja de S/ 1 957 millones en 2026 (Gestión): toda escalera que amplíe la población con aporte menor a 9 % traslada costo a EsSalud o al Tesoro.",
       "evidencia": "Un estudio de la Unión Europea presentado en la PUCP concluye que los regímenes RER y RMT generan 'enanismo empresarial' por sus costos de cumplimiento y que eliminar regímenes sin simplificar tiene impacto limitado; la literatura internacional (por ejemplo, evaluaciones de umbrales de tamaño en Francia e Italia) muestra que las empresas se quedan justo debajo de los umbrales que encarecen crecer.",
       "entrega": "Ley de escalera tributaria y laboral MYPE con tramos graduales y evaluación ex post a 5 años.",
       "responsable": "MEF",
@@ -1763,7 +1869,7 @@
         "ECO-15",
         "ECP-03"
       ],
-      "riesgo": "Pérdida de recaudación si los tramos se diseñan para complacer a todos; oposición sindical si se percibe recorte de derechos laborales.",
+      "riesgo": "Pérdida de recaudación si los tramos se diseñan para complacer a todos; oposición sindical si se percibe recorte de derechos laborales. Ampliar el déficit de EsSalud (déficit de caja de S/ 1 957 millones proyectado para 2026 según el MTPE) si los tramos reducen aportes a salud.",
       "fuentes": [
         {
           "titulo": "Delegación de la UE en el Perú – Simplificar los regímenes tributarios podría reducir la informalidad (estudio RER/RMT)",
@@ -1784,6 +1890,10 @@
         {
           "titulo": "Cámara de Comercio de Lima – Ley N.º 32353: nuevo marco para las MYPE",
           "url": "https://lacamara.pe/ley-n-32353-nuevo-marco-para-el-desarrollo-de-las-mypes-en-el-peru/"
+        },
+        {
+          "titulo": "Gestión: déficit de EsSalud llegaría a S/ 2 000 millones en 2026",
+          "url": "https://gestion.pe/economia/essalud-deficit-llegaria-a-s-2000-millones-en-2026-noticia/"
         }
       ],
       "pedn": [
@@ -1805,6 +1915,16 @@
           "rol": "jurista",
           "hallazgo": "RER sale de DIG-10: ECP-23 asume la derogación completa",
           "decision": "aplicado: deroga Cap. XV LIR y literal h) art. 2 DL 1269; efecto recaudatorio por estimar; se quita DIG-10 de depende_de"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Escalera MYPE agrava el déficit de EsSalud",
+          "decision": "aplicado: aporte efectivo a salud no baja; SIS semicontributivo como gasto visible"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Ley 32353 en condicional (reglamento no publicado)",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1851,7 +1971,7 @@
       "deroga_o_simplifica": [
         {
           "norma": "Ley N.º 28976, Ley Marco de Licencia de Funcionamiento",
-          "motivo": "Simplificar por vía reglamentaria y TUPA tipo: licencia automática con control posterior para giros de bajo riesgo en todos los municipios."
+          "motivo": "Se aplica y simplifica por reglamento y TUPA tipo (no se deroga): licencia automática con control posterior para giros de bajo riesgo, conforme a la Ley 28976 modificada por el DL 1271. Se coordina con EST-21, que propone el TUPA modelo para regiones y municipios."
         }
       ],
       "depende_de": [
@@ -1873,6 +1993,13 @@
       "pedn": [
         "AE3.4.2",
         "AE3.7.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Un TUPA tipo no deroga la Ley 28976",
+          "decision": "aplicado: se describe como aplicación y simplificación"
+        }
       ]
     },
     {
@@ -1882,8 +2009,8 @@
       "necesita_ley": "si",
       "por_que_ley": "Las exoneraciones y el crédito fiscal especial de la Ley 27037 tienen rango de ley (art. 74); su sustitución por transferencias de inversión crea gasto, por lo que la iniciativa debe ser del Ejecutivo o vía delegación de facultades (art. 79 y 104), con informe del MEF.",
       "etapa": "2031-2036",
-      "que": "Se propone, región por región y con consulta a los gobiernos regionales, reemplazar las exoneraciones del IGV y otros beneficios de la Ley 27037 por un fondo de inversión pública equivalente en la propia región (caminos, energía, agua, conectividad, CITE), con transición de 3 a 5 años. El fondo sustituto tiene una asignación anual decreciente fijada por fórmula, plazo máximo de 10 años, condicionada a la ejecución de la cartera y aprobada cada año en la Ley de Presupuesto; toda nueva exoneración en la zona debe cumplir la Norma VII (ECP-03). La medida no sube precios de golpe: el IGV se reintroduce gradualmente y los alimentos básicos siguen el régimen nacional.",
-      "evidencia": "Según información del MMM 2026-2029 citada por prensa, el IGV en la Amazonía representaría más de S/ 3 700 millones de gasto tributario en 2026, y el MEF señala que el 76,8 % del gasto tributario es IGV, sobre todo por exoneraciones agrarias y amazónicas. Tras más de 25 años, la Amazonía sigue con brechas de infraestructura y no hay una evaluación oficial pública que muestre un impacto favorable de la Ley 27037 en inversión o empleo (por verificar si el MEF la ha publicado); el propio MEF advierte que muchos gastos tributarios se prolongan sin evaluación rigurosa. El caso San Martín (Ley 28575) mostró que el canje es viable, pero fue revertido: la Ley 32317 (2025) le devolvió el crédito fiscal especial y la Ley 32582 (2026, El Peruano), en su disposición complementaria, derogó los artículos 3 y 4 de la Ley 28575. Sin candado legal, el canje se deshace.",
+      "que": "Se propone, región por región y con consulta a los gobiernos regionales, reemplazar las exoneraciones del IGV y otros beneficios de la Ley 27037 por un fondo de inversión pública equivalente en la propia región (caminos, energía, agua, conectividad, CITE), con transición de 3 a 5 años. El fondo sustituto tiene una asignación anual decreciente fijada por fórmula, plazo máximo de 10 años, condicionada a la ejecución de la cartera y aprobada cada año en la Ley de Presupuesto; toda nueva exoneración en la zona debe cumplir la Norma VII (ECP-03). La medida no sube precios de golpe: el IGV se reintroduce gradualmente y los alimentos básicos siguen el régimen nacional. En los primeros tres años, una parte del fondo (por ejemplo, 20 %) financia una transferencia compensatoria a hogares de los quintiles 1 y 2 de la región vía Juntos y Pensión 65, calibrada con el efecto medido en precios (IPC regional del INEI). Antes de presentar la ley, el MEF publica un estudio de incidencia que diga quién captura hoy la exoneración: comerciantes o consumidores.",
+      "evidencia": "Según información del MMM 2026-2029 citada por prensa, los beneficios de la Amazonía representan S/ 3 709 millones de gasto tributario en 2026, y el MEF señala que el 76,8 % del gasto tributario es IGV, sobre todo por exoneraciones agrarias y amazónicas. Tras más de 25 años, la Amazonía sigue con brechas de infraestructura y no hay una evaluación oficial pública que muestre un impacto favorable de la Ley 27037 en inversión o empleo (por verificar si el MEF la ha publicado); el propio MEF advierte que muchos gastos tributarios se prolongan sin evaluación rigurosa. El caso San Martín (Ley 28575) mostró que el canje es viable, pero fue revertido: la Ley 32317 (2025) le devolvió el crédito fiscal especial y la Ley 32582 (2026, El Peruano), en su disposición complementaria, derogó los artículos 3 y 4 de la Ley 28575. Sin candado legal, el canje se deshace.",
       "entrega": "Ley de sustitución con cronograma por región, fondo de inversión con cartera publicada y reporte anual de ejecución.",
       "responsable": "MEF",
       "entidades": [
@@ -1909,8 +2036,8 @@
         }
       ],
       "financiamiento": "Recursos liberados por el fin de la exoneración, trasladados a la región como inversión pública decreciente y con plazo máximo de 10 años, aprobada cada año en la Ley de Presupuesto.",
-      "costo_referencial": "Gasto tributario del IGV amazónico: más de S/ 3 700 millones en 2026 según el MMM 2026-2029 citado por prensa; no se ubicó el anexo de gasto tributario del MEF con el monto exacto (por verificar). El monto a transferir debe fijarse con esa estimación oficial.",
-      "indicador": "Gasto tributario amazónico (S/) vs. inversión ejecutada por el fondo en la región; brechas de infraestructura cerradas.",
+      "costo_referencial": "Gasto tributario de los beneficios de la Amazonía: S/ 3 709 millones en 2026 (MMM 2026-2029, vía prensa), dentro de un gasto tributario total de S/ 26 350 millones. El fondo sustituto parte de ese monto y decrece por fórmula; el primer tramo incluye la compensación a hogares de los quintiles 1 y 2.",
+      "indicador": "Gasto tributario amazónico (S/) vs. inversión ejecutada por el fondo en la región; brechas de infraestructura cerradas. Variación del IPC regional frente al nacional en el año de reintroducción.",
       "deroga_o_simplifica": [
         {
           "norma": "Ley N.º 27037, Ley de Promoción de la Inversión en la Amazonía (y modificatorias, incluida la Ley N.º 32582)",
@@ -1941,6 +2068,10 @@
         {
           "titulo": "El Peruano – Ley N.º 32582, que modifica la Ley 27037 y deroga los artículos 3 y 4 de la Ley 28575",
           "url": "https://busquedas.elperuano.pe/dispositivo/NL/2506231-2"
+        },
+        {
+          "titulo": "El Tiempo: Perú dejará de recaudar S/ 26 000 millones en 2026 por beneficios tributarios",
+          "url": "https://eltiempo.pe/economia/peru-dejara-de-recaudar-s-26-000-millones-en-2026-debido-a-beneficios-tributarios/"
         }
       ],
       "pedn": [
@@ -1967,6 +2098,16 @@
           "rol": "economia",
           "hallazgo": "Ley 32582 verificada en El Peruano",
           "decision": "aplicado: se quitó 'por verificar' y se cita El Peruano"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Cifra de S/ 3 709 millones del MMM vía prensa",
+          "decision": "aplicado; la evaluación de impacto de la Ley 27037 sigue por verificar"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Trade-off distributivo: compensar a hogares pobres",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2104,7 +2245,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Licenciamiento y diseño curricular de institutos (Ley 30512) y programas de MINEDU, MTPE y SENATI; la parte normativa de educación se desarrolla en EDU-19 y EDU-27.",
       "etapa": "2031-2036",
-      "que": "Cada cadena priorizada (minería y proveedores, agroindustria, acuicultura, forestal, logística, turismo, manufactura, servicios digitales) define con institutos tecnológicos y CETPRO los perfiles que necesita; se amplía la formación dual con prácticas pagadas en empresas, se certifican competencias de trabajadores con experiencia y se otorgan becas a jóvenes de regiones para carreras técnicas de alta empleabilidad. Se publica la empleabilidad y el salario de egresados por carrera e instituto.",
+      "que": "Cada cadena priorizada (minería y proveedores, agroindustria, acuicultura, forestal, logística, turismo, manufactura, servicios digitales) define con institutos tecnológicos y CETPRO los perfiles que necesita; se amplía la formación dual con prácticas pagadas en empresas, se certifican competencias de trabajadores con experiencia y se otorgan becas a jóvenes de regiones para carreras técnicas de alta empleabilidad. Se publica la empleabilidad y el salario de egresados por carrera e instituto. La formación dual paga al menos la remuneración mínima proporcional a la jornada, con seguro de salud y límite de horas; SUNAFIL fiscaliza el uso de practicantes.",
       "evidencia": "Los sistemas duales de Alemania y Suiza y la experiencia de SENATI en Perú muestran altas tasas de inserción cuando las empresas co-diseñan y co-financian la formación; la informalidad juvenil de 84,8 % (INEI) refleja la falta de rutas técnicas hacia empleos productivos.",
       "entrega": "Perfiles de competencias por cadena, 50 000 estudiantes al año en formación dual y portal de empleabilidad por carrera.",
       "responsable": "MINEDU",
@@ -2149,6 +2290,13 @@
       "pedn": [
         "AE3.2.10",
         "AE3.2.8"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Modalidades formativas sin protección suficiente",
+          "decision": "aplicado"
+        }
       ]
     }
   ],
@@ -2393,6 +2541,36 @@
       "rol": "cifras",
       "hallazgo": "URLs www.congreso.gob.pe y minerals.org.au rotas",
       "decision": "aplicado: www3 y Export Finance Australia"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Meta de informalidad sin desagregar por sexo y área",
+      "decision": "aplicado en referencia"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Meta de gasto tributario menos ambiciosa que las acciones",
+      "decision": "aplicado: 1,8 / 1,3 / 1,0 / 0,8 % del PBI"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Falta meta de presión tributaria",
+      "decision": "aplicado: meta nueva con línea base por verificar"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Acción nueva ECP-29 de ampliación de base tributaria",
+      "decision": "descartado: no se crean ids en esta fase; la palanca queda en la meta nueva y en ECP-03"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Marco fiscal transversal (techos por etapa, contingencias)",
+      "decision": "descartado en este archivo: añadir un bloque marco_fiscal cambia el esquema; lo decide el líder en un archivo transversal. Aquí se agregan meta de presión tributaria, bandas en ECP-16/22/25 y pasivos contingentes en ECP-22"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Igualar meta de informalidad con protección",
+      "decision": "aplicado: protección adopta 45 % (2046) y 35 % (2056)"
     }
   ]
 }

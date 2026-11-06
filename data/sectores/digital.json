@@ -86,7 +86,7 @@
         "url": "https://punku.osiptel.gob.pe/"
       }
     ],
-    "brechas": "Territorio: en el I trimestre de 2026 el 82,7 % de los hogares de Lima Metropolitana tenía internet frente al 25,0 % de los rurales (INEI); en el II trimestre la brecha fue 84,7 % frente a 27,1 %. Lengua: usa internet el 67,2 % de quienes aprendieron una lengua nativa frente al 87,6 % de castellanohablantes (INEI, II trim. 2026); más de 4,4 millones de personas tienen lengua materna originaria (MINCUL con Censo 2017). Edad y sexo: en el II trimestre de 2025 usó internet el 53,4 % de los hombres y el 43,7 % de las mujeres de 60 años a más (INEI, Situación de la Población Adulta Mayor). Equipamiento: solo el 8,9 % de los hogares rurales tiene computadora (INEI, II trim. 2026). Gobierno local: solo el 38,3 % de las 1 874 municipalidades tenía portal de transparencia estándar (INEI, RENAMU 2022). Trabajo: el 70,6 % de los ocupados es informal (INEI, EPEN 2024-2025), lo que deja fuera de la formación empresarial y de la protección laboral digital a la mayoría.",
+    "brechas": "Territorio: en el I trimestre de 2026 el 82,7 % de los hogares de Lima Metropolitana tenía internet frente al 25,0 % de los rurales (INEI); en el II trimestre la brecha fue 84,7 % frente a 27,1 %. Lengua: usa internet el 67,2 % de quienes aprendieron una lengua nativa frente al 87,6 % de castellanohablantes (INEI, II trim. 2026); más de 4,4 millones de personas tienen lengua materna originaria (MINCUL con Censo 2017). Edad y sexo: en el II trimestre de 2025 usó internet el 53,4 % de los hombres y el 43,7 % de las mujeres de 60 años a más (INEI, Situación de la Población Adulta Mayor). Equipamiento: solo el 8,9 % de los hogares rurales tiene computadora (INEI, II trim. 2026). Discapacidad: el uso de internet entre personas con alguna discapacidad es muy inferior al promedio (INEI, ENAHO, cifra por verificar) y muchos portales públicos aún no cumplen el lineamiento de accesibilidad de la PCM-SGTD, pese a la Ley 29973 (art. 22). Gobierno local: solo el 38,3 % de las 1 874 municipalidades tenía portal de transparencia estándar (INEI, RENAMU 2022). Trabajo: el 70,6 % de los ocupados es informal (INEI, EPEN 2024-2025), lo que deja fuera de la formación empresarial y de la protección laboral digital a la mayoría.",
     "causas": [
       "Inversión sin operación: las redes regionales financiadas con FITEL no tienen fuente para operar y mantenerse, y la Red Dorsal está subutilizada por falta de última milla (Agenda Legislativa Tech, análisis de CON-02 y CON-03).",
       "Leyes que no se ejecutan ni se reglamentan: la Ley 30024 de historia clínica electrónica existe desde 2013, la Ley 29973 exige accesibilidad desde 2012 y el DL 1412 ordena datos abiertos desde 2018, sin cumplimiento generalizado por falta de presupuesto y capacidad (análisis de articulación de TAL-06, TAL-13 e IA-04).",
@@ -160,13 +160,23 @@
     },
     {
       "indicador": "Procedimientos del Poder Ejecutivo que no piden documentos que el Estado ya tiene",
-      "linea_base": "Sin medición oficial (2026)",
+      "linea_base": "Sin medición publicada (2026); medición base en 2027",
       "2031": "100 % (Ejecutivo) y 70 % (GORE y provinciales)",
       "2036": "100 % de todos los niveles",
       "2046": "100 % y trámites proactivos sin solicitud",
       "2056": "100 %",
       "referencia": "Principio 'solo una vez' de la Declaración de Tallin sobre administración electrónica (UE, 2017)",
-      "fuente_linea_base": "Propuesta GOB-01, Agenda Legislativa Tech"
+      "fuente_linea_base": "PCM-SGTD: inventario de procedimientos en GOB.PE y servicios consumidos en la PIDE (primera medición en 2027 como entregable de DIG-04)"
+    },
+    {
+      "indicador": "Portales y servicios digitales que cumplen el lineamiento de accesibilidad (WCAG 2.2 AA) y ofrecen atención en lengua originaria",
+      "linea_base": "Sin medición publicada (2026)",
+      "2031": "100 % del Poder Ejecutivo",
+      "2036": "100 % de GORE y municipalidades provinciales",
+      "2046": "100 % de todas las entidades",
+      "2056": "100 %",
+      "referencia": "Lineamiento de accesibilidad de la PCM-SGTD (RSGTD 001-2025-PCM/SGTD) y Ley 29735",
+      "fuente_linea_base": "PCM-SGTD, Sello de Accesibilidad Digital (primera medición a cargo de DIG-11)"
     }
   ],
   "acciones": [
@@ -177,7 +187,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Modificar la Ley 29733 (portabilidad, flujos transfronterizos, derecho al olvido, datos genéticos), crear una excepción al secreto estadístico del DL 604 y garantizar mandato fijo e inamovilidad del titular de la ANPD exige norma con rango de ley. Al ser de iniciativa congresal no puede crear pliego ni gasto (art. 79 de la Constitución): la ANPD sigue dentro del MINJUSDH con meta presupuestal diferenciada.",
       "etapa": "2026-2031",
-      "que": "Una única reforma de la Ley 29733 en lugar de seis leyes sueltas. Da a la Autoridad Nacional de Protección de Datos Personales autonomía técnica y funcional, titular elegido por concurso con mandato fijo y un equipo de auditoría de tratamientos automatizados; eleva a ley la portabilidad gratuita con interfaces seguras; ordena los flujos internacionales (cláusulas modelo, normas corporativas, decisiones de adecuación) para pedir a la Unión Europea el reconocimiento de nivel adecuado; habilita laboratorios seguros del INEI para investigadores; regula desindexación y herencia digital; y declara sensibles los datos genómicos con un registro de biobancos en el INS.",
+      "que": "Una única reforma de la Ley 29733 en lugar de seis leyes sueltas. Da a la Autoridad Nacional de Protección de Datos Personales autonomía técnica y funcional, titular elegido por concurso con mandato fijo y un equipo de auditoría de tratamientos automatizados; eleva a ley la portabilidad gratuita con interfaces seguras; ordena los flujos internacionales (cláusulas modelo, normas corporativas, decisiones de adecuación) para pedir a la Unión Europea el reconocimiento de nivel adecuado; habilita laboratorios seguros del INEI para investigadores; regula desindexación y herencia digital; y declara sensibles los datos genómicos con un registro de biobancos en el INS. El DS 016-2024-JUS ya desarrolla portabilidad, flujos transfronterizos, notificación de brechas y evaluación de impacto: la ley eleva a rango legal solo la portabilidad gratuita, los mecanismos de transferencia internacional y la autonomía de la ANPD, y deja el resto al reglamento. Tipifica la reidentificación indebida y fija las reglas de acceso a los entornos seguros de datos (origen: IA-10), para que los laboratorios del INEI no choquen con el secreto estadístico del DL 604.",
       "evidencia": "La Comisión Europea reconoce nivel adecuado a países cuya autoridad es independiente y sanciona (Argentina y Uruguay lo obtuvieron; Reglamento UE 2016/679, art. 45). Los centros de datos seguros para investigación (Five Safes, ONS del Reino Unido) permiten usar registros administrativos sin exponer datos personales. El análisis de articulación identifica que las seis propuestas tocan la misma ley y son fusionables.",
       "entrega": "ANPD con titular por concurso y meta presupuestal propia; laboratorio de microdatos del INEI y 4 entornos sectoriales; estándar técnico de portabilidad; Registro Nacional de Biobancos; expediente de adecuación presentado a la Comisión Europea.",
       "responsable": "MINJUSDH",
@@ -232,7 +242,9 @@
           "motivo": "La propuesta dispone adecuar el régimen reglamentario de flujo transfronterizo; las comunicaciones repetidas y la cláusula abierta quedarían sin sustento. (origen: IA-16)"
         }
       ],
-      "depende_de": [],
+      "depende_de": [
+        "IA-10"
+      ],
       "pedn": [
         "AE4.3.1",
         "AE3.5.1"
@@ -281,6 +293,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Funciones nuevas sin fuente chocan con el art. 79",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Deslindar qué sube a ley y qué queda en DS 016-2024-JUS",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar IA-10: entornos seguros y reidentificación",
+          "decision": "aplicado"
         }
       ]
     },
@@ -291,7 +313,7 @@
       "necesita_ley": "si",
       "por_que_ley": "La potestad sancionadora requiere habilitación legal expresa (principio de legalidad, art. 248 del TUO de la Ley 27444) y hoy el marco descansa en el DU 007-2020 y el DS 126-2025-PCM. El deber de auditar sus sistemas se incorpora en las leyes orgánicas de ONPE, JNE y RENIEC (votación calificada, art. 106), respetando su autonomía: la autoridad de la PCM no los supervisa ni sanciona. No crea organismo ni pliego: la autoridad es la PCM vía SGTD y el Centro Nacional de Seguridad Digital.",
       "etapa": "2026-2031",
-      "que": "Una sola ley marco que reemplaza diez iniciativas: reconoce a la PCM (SGTD-CNSD) como autoridad de ciberseguridad civil con potestad sancionadora; fija obligaciones mínimas verificables para operadores de servicios esenciales (energía, agua, salud, telecom, transporte) supervisadas por sus reguladores; crea una ventanilla única de notificación de incidentes; incorpora cables submarinos, IXP y elementos críticos de telecomunicaciones al régimen de activos críticos con continuidad ante desastres; ordena que ONPE, JNE y RENIEC contraten auditorías independientes de sus sistemas con informes públicos, con apoyo técnico del CNSD solo a pedido y sin potestad sancionadora de la PCM sobre ellos (autonomía, arts. 177 y 178); habilita requisitos para dispositivos IoT por reglamento técnico; y encarga la hoja de ruta de criptografía poscuántica y un programa de ciberresiliencia mipyme.",
+      "que": "Una sola ley marco que reemplaza diez iniciativas: reconoce a la PCM (SGTD-CNSD) como autoridad de ciberseguridad civil con potestad sancionadora; fija obligaciones mínimas verificables para operadores de servicios esenciales (energía, agua, salud, telecom, transporte) supervisadas por sus reguladores; crea una ventanilla única de notificación de incidentes; incorpora cables submarinos, IXP y elementos críticos de telecomunicaciones al régimen de activos críticos con continuidad ante desastres; ordena que ONPE, JNE y RENIEC contraten auditorías independientes de sus sistemas con informes públicos, con apoyo técnico del CNSD solo a pedido y sin potestad sancionadora de la PCM sobre ellos (autonomía, arts. 177 y 178); habilita requisitos para dispositivos IoT por reglamento técnico (origen: CIB-07); encarga la hoja de ruta de criptografía poscuántica (origen: SOB-06) y un programa de ciberresiliencia mipyme; e incorpora la subfamilia de puestos de ciberseguridad en el servicio civil y hace obligatorio el oficial de seguridad y confianza digital en cada entidad (origen: CIB-12), para que la autoridad y los CSIRT puedan retener especialistas.",
       "evidencia": "La Directiva NIS2 de la UE (2022/2555) y la Ley 21.663 de Chile (2024) muestran el modelo de autoridad única, obligaciones por sector y notificación de incidentes. El Ministerio Público registró 29 118 denuncias por delitos informáticos entre enero y julio de 2026 (El Peruano, 2026). El análisis halló duplicidad entre la notificación a la ANPD y al CNSD que esta ley elimina.",
       "entrega": "CSIRT Nacional con unidad de supervisión de 15–25 especialistas; al menos 10 CSIRT sectoriales y regionales integrados; ventanilla única de incidentes interoperable con ANPD, SBS, BCRP y OSIPTEL; auditorías bienales de operadores esenciales; informes de auditoría electoral publicados 60 días antes de cada elección.",
       "responsable": "PCM-SGTD",
@@ -331,6 +353,10 @@
         {
           "sigla": "Municipalidades",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "SERVIR",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Presupuesto del pliego PCM; aporte por regulación de OSIPTEL, OSINERGMIN, SUNASS y OSITRAN (Ley 27332), cuyo uso para supervisar ciberseguridad la ley habilita expresamente; SUSALUD con su presupuesto institucional; costo de auditorías a cargo de los operadores; presupuesto electoral de ONPE, JNE y RENIEC. Proyecto de iniciativa del Poder Ejecutivo o con cláusula de no demandar recursos adicionales al Tesoro (art. 79).",
@@ -342,12 +368,13 @@
           "motivo": "La notificación separada a la ANPD quedaría sustituida por la ventanilla única; el artículo debería reducirse a remisión. (origen: CIB-03)"
         },
         {
-          "norma": "Decreto Supremo 126-2025-PCM, arts. 29 a 34",
-          "motivo": "Los plazos y contenidos de notificación al CNSD se reemplazan por los armonizados. (origen: CIB-03)"
+          "norma": "Decreto Supremo 126-2025-PCM, Reglamento del Decreto de Urgencia 007-2020 (marco de confianza digital), disposiciones sobre gestión y notificación de incidentes (artículos por verificar)",
+          "motivo": "Los plazos y contenidos de notificación al CNSD se reemplazan por los armonizados. (origen: CIB-03) El DS 126-2025-PCM se publicó el 04-nov-2025; los artículos exactos se confirman en el texto oficial antes de redactar la derogación."
         }
       ],
       "depende_de": [
-        "DIG-04"
+        "DIG-04",
+        "CIB-12"
       ],
       "pedn": [
         "AE2.8.3"
@@ -377,6 +404,10 @@
         {
           "titulo": "El Peruano (27-03-2026): Incidente de seguridad digital o de datos personales — doble régimen de notificación",
           "url": "https://elperuano.pe/noticia/292188-incidente-de-seguridad-digital-o-de-datos-personales"
+        },
+        {
+          "titulo": "LP Derecho: Decreto Supremo 126-2025-PCM, Reglamento del DU 007-2020 (marco de confianza digital)",
+          "url": "https://lpderecho.pe/reglamento-marco-confianza-digital-decreto-supremo-126-2025-pcm/"
         }
       ],
       "agrupa": [
@@ -406,6 +437,21 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "SUSALUD no cobra aporte por regulación; art. 79",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DS 126-2025-PCM: título y artículos por confirmar",
+          "decision": "aplicado: se identifica como reglamento del DU 007-2020 y se marcan los artículos por verificar"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar CIB-12: puestos de ciberseguridad en SERVIR",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Trazabilidad de origen SOB-06 y CIB-07",
+          "decision": "aplicado"
         }
       ]
     },
@@ -416,7 +462,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Requiere modificar normas con rango de ley: Ley 28900 (destino del FITEL a operación y mantenimiento), Ley 29904 (red mayorista y ductos), Ley 29022 y Ley 31456 (permanencia del régimen de antenas y silencio positivo) y el TUO de la Ley de Telecomunicaciones (espectro y concesión comunitaria). El Plan Nacional de Conectividad y la medición pueden ir por DS y resolución de OSIPTEL.",
       "etapa": "2026-2031",
-      "que": "Una reforma única de la Ley 29904, la Ley 28900 y la Ley 29022 en vez de ocho proyectos. Permite que el FITEL pague la operación y el mantenimiento de las redes regionales ya construidas; integra la Red Dorsal y las redes regionales en una red mayorista de acceso abierto con operador neutro; obliga a dejar ductos en obras viales y de saneamiento subnacionales; vuelve permanente el régimen de antenas con silencio positivo y ventanilla digital; canjea parte del precio del espectro por cobertura rural verificable; crea la concesión comunitaria para comunidades campesinas y nativas; y obliga a OSIPTEL a publicar un mapa de cobertura verificada por distrito. El capítulo de concesión comunitaria para comunidades campesinas y nativas se somete a consulta previa antes de aprobarse (Ley 29785).",
+      "que": "Una reforma única de la Ley 29904, la Ley 28900 y la Ley 29022 en vez de ocho proyectos. Permite que el FITEL pague la operación y el mantenimiento de las redes regionales ya construidas; integra la Red Dorsal y las redes regionales en una red mayorista de acceso abierto con operador neutro; obliga a dejar ductos en obras viales y de saneamiento subnacionales; vuelve permanente el régimen de antenas con silencio positivo y ventanilla digital; canjea parte del precio del espectro por cobertura rural verificable; crea la concesión comunitaria para comunidades campesinas y nativas; y obliga a OSIPTEL a complementar su mapa de cobertura declarada por los operadores (PUNKU) con mediciones independientes por distrito, publicadas en datos abiertos. El capítulo de concesión comunitaria para comunidades campesinas y nativas se somete a consulta previa antes de aprobarse (Ley 29785).",
       "evidencia": "Las redes regionales financiadas por FITEL se han apagado o subutilizado por falta de contratos de operación (el propio análisis lo identifica como cuello de botella). Las obligaciones de cobertura asociadas al espectro se usaron en Chile (concurso 5G 2021) y México reconoce desde 2014 concesiones de uso social comunitario e indígena. Según el INEI, solo el 27,1 % de hogares rurales tenía internet en el II trimestre de 2026, frente a 84,7 % en Lima Metropolitana.",
       "entrega": "100 % de redes FITEL con contrato de operación y mantenimiento (2028); contrato con operador neutro de la red mayorista; Registro Nacional de Infraestructura Pasiva; ventanilla única de permisos con plazo medio menor a 15 días hábiles; al menos un concurso de espectro con cobertura rural; 100 operadores comunitarios habilitados.",
       "responsable": "MTC",
@@ -458,13 +504,13 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "FITEL (Ley 28900) y presupuesto del pliego MTC; Proyectos en Activos (DL 1362) para el operador neutro; inversión privada a cuenta del precio del espectro (menor ingreso al Tesoro); Obras por Impuestos con GORE. El mayor costo de los ductos en obras subnacionales se reconoce como componente elegible en Invierte.pe y se recupera con el alquiler a operadores (Ley 29904).",
-      "costo_referencial": "No estimado en conjunto. Trade-off explícito: canjear precio de espectro por cobertura reduce ingresos del Tesoro a cambio de despliegue rural verificable.",
+      "financiamiento": "FITEL (Ley 28900) y presupuesto del pliego MTC; Proyectos en Activos (Ley 32441 y DS 316-2025-EF) para el operador neutro; inversión privada a cuenta del precio del espectro (menor ingreso al Tesoro); Obras por Impuestos con GORE. El mayor costo de los ductos en obras subnacionales se reconoce como componente elegible en Invierte.pe y se recupera con el alquiler a operadores (Ley 29904).",
+      "costo_referencial": "Dos partidas que el MTC estima antes de la ley: (1) ingresos del Tesoro que se dejan de percibir por el canje de espectro por cobertura, con tope anual explícito en la ley; (2) costo anual de operación y mantenimiento de las redes regionales a cargo del FITEL (S/ por año, según los contratos de operación vigentes y vencidos), que se compara con el ingreso por alquiler de la red mayorista. Trade-off explícito: canjear precio de espectro por cobertura reduce ingresos del Tesoro a cambio de despliegue rural verificable.",
       "indicador": "Hogares rurales con internet (INEI-ENAHO): de 27,1 % (II trim. 2026) a ≥ 50 % en 2031; ocupación de la red mayorista ≥ 50 % (2031); permisos de infraestructura con plazo medio < 15 días hábiles.",
       "deroga_o_simplifica": [
         {
           "norma": "Decreto Legislativo 1560 (régimen de operación provisional de la Red Dorsal Nacional de Fibra Óptica)",
-          "motivo": "Su régimen transitorio quedaría sin objeto una vez suscrito el contrato con el operador neutro seleccionado por PROINVERSIÓN. (origen: CON-03)"
+          "motivo": "Su régimen transitorio quedaría sin objeto una vez suscrito el contrato con el operador neutro seleccionado por PROINVERSIÓN. (origen: CON-03) Derogación con vigencia diferida hasta la firma del contrato con el operador neutro; mientras tanto se prorroga el régimen provisional, que vence en enero de 2028 según el MTC."
         },
         {
           "norma": "Ley 29904, artículo 16 (reportes de infraestructura)",
@@ -509,6 +555,10 @@
         {
           "titulo": "Unión Europea: Comunicación de la Comisión: Directrices sobre ayudas estatales a las redes de banda ancha (2023/C 36/01), que exigen acceso mayorista abierto a las redes subvencionadas",
           "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:52023XC0131(01)"
+        },
+        {
+          "titulo": "Congreso: Ley 32441, Ley que regula la promoción de la inversión privada mediante APP y proyectos en activos (deroga el DL 1362)",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
         }
       ],
       "agrupa": [
@@ -535,6 +585,26 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Ductos subnacionales imponen gasto sin fuente",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "DL 1362 derogado por la Ley 32441",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Cuantificar canje de espectro y O&M del FITEL",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Derogar el DL 1560 con vigencia diferida (enero 2028)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "OSIPTEL ya publica cobertura declarada (PUNKU)",
+          "decision": "aplicado"
         }
       ]
     },
@@ -545,9 +615,9 @@
       "necesita_ley": "si",
       "por_que_ley": "Modifica el TUO de la Ley 27444 (validez del acto, notificación, derechos del administrado), la Ley Orgánica del Poder Ejecutivo (plazo supletorio de reglamentación, votación de ley orgánica), la ley orgánica del RENIEC (DNI digital), la Ley 27269 (firma remota), la Ley 26300 (adhesión digital) y los códigos procesales (audiencias virtuales). Todas son materias con reserva de ley. Las obligaciones al Poder Judicial y al Ministerio Público se aprueban como modificación de sus leyes orgánicas (art. 106) o como regla que cada órgano autónomo desarrolla en su propio reglamento (arts. 138, 143 y 158).",
       "etapa": "2026-2031",
-      "que": "Doce propuestas en una ley que cambia cómo el Estado trata a las personas. Prohíbe pedir documentos que el Estado ya tiene, con bitácora para que cada ciudadano vea quién consultó sus datos; unifica las notificaciones en una casilla electrónica nacional; da rango legal al DNI digital, la billetera de identidad y la firma digital remota gratuita; exige registrar los algoritmos públicos de riesgo alto y garantiza explicación y revisión humana de decisiones automatizadas, también en el Poder Judicial y la Fiscalía; fija garantías en audiencias virtuales; permite respaldar iniciativas ciudadanas con firma digital; obliga a reglamentar leyes en 90 días hábiles y emite constancias automáticas de silencio positivo.",
+      "que": "Doce propuestas en una ley que cambia cómo el Estado trata a las personas. El DL 1246 (2016) ya prohíbe pedir DNI, RUC, antecedentes y otros documentos que el Estado tiene, pero no se cumple porque los registros maestros no exponen servicios web estables y no hay sanción: la ley (origen: GOB-01) añade sanción por incumplimiento, eleva a ley y hace obligatoria la Plataforma de Interoperabilidad del Estado (PIDE, DS 083-2011-PCM) como catálogo nacional de datos interoperables, obliga a RENIEC, SUNARP, SUNAT, MINEDU y MINSA a exponer sus registros maestros por la PIDE con niveles de servicio, y da al ciudadano una bitácora de consultas visible en Carpeta Ciudadana; da rango legal a la Casilla Única Electrónica (DS 029-2021-PCM) como canal único de notificación (origen: GOB-02), sin crear casillas paralelas; da rango legal al DNI digital autenticado por ID GOB.PE, a la billetera de identidad y a la firma digital remota gratuita; exige registrar los algoritmos públicos de riesgo alto y garantiza explicación y revisión humana de decisiones automatizadas, también en el Poder Judicial y la Fiscalía; fija garantías en audiencias virtuales; permite respaldar iniciativas ciudadanas con firma digital; obliga a reglamentar leyes en 90 días hábiles y emite constancias automáticas de silencio positivo. Ningún servicio ni plazo se condiciona a tener DNI digital, celular o casilla: se garantiza un canal presencial o telefónico asistido con los mismos efectos, accesible y en lengua originaria (Leyes 29735, 29535 y 29973), y la notificación electrónica solo rige para quien la acepta expresamente. La identificación biométrica remota masiva en espacios públicos solo procede por ley específica y con control judicial.",
       "evidencia": "Estonia y Dinamarca aplican el principio 'solo una vez' con registros interoperables y bitácora ciudadana (X-Road; eesti.ee). El Reglamento de IA de la UE (2024/1689) y la Ley 31814 del Perú exigen transparencia en sistemas de riesgo alto. El análisis destaca GOB-15 y GOB-18 como las que mejor responden a la crítica de leyes que no se cumplen. El Perú ocupa el puesto 58 de 193 en el Índice de Gobierno Electrónico de la ONU (2024).",
-      "entrega": "Catálogo Nacional de Datos Interoperables con bitácora en GOB.PE; Casilla Única Perú; Registro de Algoritmos Públicos; canal de revisión humana; 10 millones de DNI digitales activos; firma remota gratuita; plataforma ONPE-RENIEC de adhesión digital; Registro Público de Reglamentación de Leyes.",
+      "entrega": "PIDE con rango de ley como catálogo nacional de datos interoperables, con bitácora en Carpeta Ciudadana; Casilla Única Electrónica con rango de ley; Registro de Algoritmos Públicos; canal de revisión humana; 10 millones de DNI digitales activos (meta fijada como incremento sobre la línea base de DNIe y de usuarios de la app de identidad digital de RENIEC, cifra por verificar); firma remota gratuita; plataforma ONPE-RENIEC de adhesión digital; Registro Público de Reglamentación de Leyes; primera medición pública en 2027 de los procedimientos que aún piden documentos que el Estado ya tiene (inventario de GOB.PE y consumo de la PIDE).",
       "responsable": "PCM-SGTD",
       "entidades": [
         {
@@ -593,7 +663,7 @@
       "deroga_o_simplifica": [
         {
           "norma": "Decreto Supremo 082-2024-PCM (medidas temporales de firma digital en el sector público, art. 2) y disposiciones conexas del DS 098-2025-PCM",
-          "motivo": "Al darse rango legal y carácter permanente a la firma remota, la autorización temporal quedaría superada. (origen: CIB-09) Plazo de la autorización temporal por confirmar en El Peruano (por verificar)."
+          "motivo": "Al darse rango legal y carácter permanente a la firma remota, la autorización temporal del DS 082-2024-PCM (06-ago-2024) queda superada; el plazo exacto de las medidas temporales se confirma en el texto oficial antes de redactar la derogación. (origen: CIB-09)"
         }
       ],
       "depende_de": [
@@ -668,6 +738,36 @@
           "rol": "spij",
           "hallazgo": "Precisar DS 082-2024-PCM y DS 098-2025-PCM",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "DS 082-2024-PCM existe; quitar por verificar del número",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Garantizar canal presencial y notificación electrónica voluntaria",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "PIDE, Casilla Única e ID GOB.PE ya existen: no duplicar",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Explicar por qué el DL 1246 no se cumple (GOB-01)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Línea base de DNIe para la meta de 10 millones",
+          "decision": "aplicado: meta como incremento; cifra RENIEC por verificar"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Primera medición de solo una vez en 2027",
+          "decision": "aplicado"
         }
       ]
     },
@@ -676,7 +776,7 @@
       "titulo": "Aprobar la ley de finanzas abiertas, pagos seguros y consumidor digital",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Requiere ley la excepción al secreto bancario por consentimiento (art. 2.5 de la Constitución), la ampliación por ley orgánica de la potestad de la SBS sobre terceros y proveedores de activos virtuales, la segregación patrimonial con excepción al régimen concursal, la responsabilidad solidaria ante fraude y el derecho de desistimiento en el Código de Consumo. Pagos interoperables y llamadas fraudulentas pueden avanzar por circulares del BCRP y resoluciones de OSIPTEL.",
+      "por_que_ley": "Requiere ley la excepción al secreto bancario por consentimiento (art. 2.5 de la Constitución), la ampliación, mediante ley que modifique la Ley 26702 (art. 87 de la Constitución), de la potestad de la SBS sobre terceros y proveedores de activos virtuales, la segregación patrimonial con excepción al régimen concursal, la responsabilidad solidaria ante fraude y el derecho de desistimiento en el Código de Consumo. Pagos interoperables y llamadas fraudulentas pueden avanzar por circulares del BCRP y resoluciones de OSIPTEL.",
       "etapa": "2026-2031",
       "que": "Una ley de confianza en los mercados digitales que fusiona ocho propuestas: derecho a compartir los datos financieros propios mediante API estandarizadas; estándares del BCRP para iniciación de pagos y confirmación del beneficiario; registro habilitante de proveedores de activos virtuales en la SBS con custodia segregada; deberes antifraude y reembolso en plazos máximos para bancos, billeteras y operadores móviles; autenticación de llamadas y registro de remitentes de SMS; prohibición de interfaces manipuladoras y cancelación sencilla de suscripciones; resolución de disputas de consumo en línea del INDECOPI; e información de reparabilidad y repuestos en electrónicos.",
       "evidencia": "Brasil (Open Finance, Resolución Conjunta 1/2020 y Pix del Banco Central) y el Reino Unido (Open Banking, CMA 2017) muestran que estándares obligatorios con cronograma generan competencia; el Reino Unido exige reembolso por fraude de pago autorizado desde 2024 (Payment Systems Regulator). Las denuncias por fraude informático sumaron 19 602 entre enero y julio de 2026 (Ministerio Público vía El Peruano).",
@@ -772,7 +872,14 @@
       "necesita_ley_origen": {
         "si": 4,
         "parcial": 4
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "La Ley 26702 no es ley orgánica (art. 106)",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-06",
@@ -908,7 +1015,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Restringir temporalmente inversiones por seguridad nacional solo puede hacerse por ley (art. 72 de la Constitución, con respeto del art. 63); el régimen de licencias de exportación de doble uso, las obligaciones a terminales portuarios privados, las condiciones de la Ley 32449 (ZEEP) y las reglas de información digital de secuencias sobre recursos genéticos crean obligaciones con reserva de ley. La lista de minerales críticos no necesita ley (va en DIG-21).",
       "etapa": "2026-2031",
-      "que": "Una ley que ordena la relación entre apertura económica y seguridad. Crea un procedimiento reglado, no discriminatorio y de plazos cortos para evaluar adquisiciones de control sobre activos críticos nacionales y tecnologías sensibles; establece el control de exportaciones de bienes, software y tecnologías de doble uso con licencias en la VUCE y exclusión del código abierto; obliga a todos los terminales de uso público a transmitir sus eventos logísticos por la VUCE en el corredor Chancay–Lima; fija procesos mínimos para la manufactura electrónica en ZEEP; y da reglas sobre información digital de secuencias de recursos genéticos con reparto de beneficios. El capítulo de recursos genéticos e información digital de secuencias se consulta con los pueblos indígenas (Ley 29785) y se coordina con el régimen de conocimientos colectivos de la Ley 27811.",
+      "que": "Una ley que ordena la relación entre apertura económica y seguridad. Crea un procedimiento reglado, no discriminatorio y de plazos cortos para evaluar adquisiciones de control sobre activos críticos nacionales y tecnologías sensibles; establece el control de exportaciones de bienes, software y tecnologías de doble uso con licencias en la VUCE y exclusión del código abierto; obliga a todos los terminales de uso público a transmitir sus eventos logísticos por la VUCE en el corredor Chancay–Lima (el componente portuario de la VUCE es el Port Community System que opera ECP-13: esta ley solo lo hace obligatorio para los terminales, no crea otra plataforma); fija procesos mínimos para la manufactura electrónica en ZEEP; y da reglas sobre información digital de secuencias de recursos genéticos con reparto de beneficios. El capítulo de recursos genéticos e información digital de secuencias se consulta con los pueblos indígenas (Ley 29785) y se coordina con el régimen de conocimientos colectivos de la Ley 27811.",
       "evidencia": "La Recomendación de la OCDE de 2009 sobre inversión y seguridad nacional (no discriminación, previsibilidad, proporcionalidad) es el estándar que el Perú debe cumplir en su adhesión. Los regímenes de Wassenaar y la práctica de Chile y México en control de doble uso permiten acceso a tecnología sensible. La decisión 16/2 de la COP16 (Cali, 2024) creó el Fondo Cali para la DSI.",
       "entrega": "Reglamento y lista de tecnologías sensibles con unidad evaluadora en el MEF; Lista Nacional de Control y módulo de licencias en la VUCE; componente portuario de la VUCE con todos los terminales; matriz de procesos ZEEP; ventanilla de acceso a recursos genéticos con resolución en 30 días.",
       "responsable": "MEF",
@@ -1008,6 +1115,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Riesgo de arbitraje por tratados de inversión",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "PCS de ECP-13 y componente portuario VUCE son uno",
+          "decision": "aplicado: DIG-07 solo obliga; ECP-13 opera la plataforma de la VUCE"
         }
       ]
     },
@@ -1016,20 +1128,24 @@
       "titulo": "Actualizar delitos informáticos y proteger en línea a niñas, niños y mujeres",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Tipificar delitos y eximir de pena exige ley (principio de legalidad penal, art. 2.24.d de la Constitución); también lo requieren las medidas de protección digitales en la Ley 30364, el deber de diligencia de plataformas con potestad sancionadora del INDECOPI y las infracciones electorales por contenido sintético. La parte electoral modifica la Ley 26859, Ley Orgánica de Elecciones, y se aprueba con votación calificada (art. 106).",
+      "por_que_ley": "Tipificar delitos y eximir de pena exige ley (principio de legalidad penal, art. 2.24.d de la Constitución); también lo requieren las medidas de protección digitales en la Ley 30364, el deber de diligencia de plataformas con potestad sancionadora del INDECOPI y las infracciones electorales por contenido sintético. La parte electoral modifica la Ley 26859, Ley Orgánica de Elecciones, y se aprueba con votación calificada (art. 106). El proyecto lo presenta el Poder Ejecutivo (MINJUSDH) con opinión previa del Ministerio Público, el JNE y el MIMP: el Ministerio Público solo tiene iniciativa legislativa en las materias que le son propias (art. 107) y esta ley modifica la Ley 30364, la Ley Orgánica de Elecciones y el régimen sancionador del INDECOPI.",
       "etapa": "2026-2031",
-      "que": "Una reforma de la Ley 30096 y normas conexas que reúne seis propuestas: tipifica la extorsión informática (ransomware) y el fraude con duplicados de chip; exime de pena a quien reporta vulnerabilidades de buena fe; incorpora medidas de protección digitales en la Ley 30364 (retiro de contenido íntimo o sintético, cese de acceso a cuentas, prohibición de software espía); impone a las plataformas usadas por menores un deber de diligencia con configuración segura por defecto; obliga a las grandes plataformas a explicar sus decisiones de moderación e identificar la publicidad; y sanciona los deepfakes que suplanten a candidatos con retiro célere ante el JNE. Para respetar la prohibición de censura previa (art. 2.4), el retiro procede solo después de publicado el contenido, por decisión motivada del JNE o del juez, con plazo para defenderse y apelar.",
+      "que": "Una reforma de la Ley 30096 y normas conexas que reúne seis propuestas: tipifica la extorsión informática (ransomware) y el fraude con duplicados de chip; exime de pena a quien reporta vulnerabilidades de buena fe; incorpora medidas de protección digitales en la Ley 30364 (retiro de contenido íntimo o sintético, cese de acceso a cuentas, prohibición de software espía); impone a las plataformas usadas por menores un deber de diligencia con configuración segura por defecto, que se cumple con configuraciones por defecto, límites de contacto y publicidad y evaluación de riesgos auditada, sin obligar a verificar la edad con biometría ni documentos (para no crear nuevas bases de datos sensibles de niñas y niños, Ley 29733, art. 2.5), y toda medida de retiro de contenido es recurrible ante un juez; obliga a las grandes plataformas a explicar sus decisiones de moderación e identificar la publicidad; y sanciona los deepfakes que suplanten a candidatos con retiro célere ante el JNE. Para respetar la prohibición de censura previa (art. 2.4), el retiro procede solo después de publicado el contenido, por decisión motivada del JNE o del juez, con plazo para defenderse y apelar.",
       "evidencia": "El Convenio de Budapest, al que el Perú se adhirió en 2019, exige tipos penales y cooperación 24/7. La Online Safety Act del Reino Unido (2023) y la Ley de Servicios Digitales de la UE (2022/2065) fijan deberes de diligencia y transparencia. El Ministerio Público registró 29 118 denuncias por delitos informáticos entre enero y julio de 2026. El análisis advierte que el cuello de botella es la falta de peritos, no el tipo penal.",
-      "entrega": "Laboratorios forenses digitales y fiscalías de ciberdelincuencia con punto de contacto 24/7; política de divulgación coordinada en todos los ministerios; protocolo de medidas de protección digitales con custodia cifrada de evidencia; unidad de supervisión de plataformas en el INDECOPI; canal JNE de retiro en 72 horas.",
-      "responsable": "MP",
+      "entrega": "Fiscalías de ciberdelincuencia con punto de contacto 24/7, que usan los laboratorios forenses digitales que construye SEG-04 (obra en SEG-04, no se duplica aquí); política de divulgación coordinada en todos los ministerios; protocolo de medidas de protección digitales con custodia cifrada de evidencia; unidad de supervisión de plataformas en el INDECOPI; canal JNE de retiro en 72 horas.",
+      "responsable": "MINJUSDH",
       "entidades": [
         {
+          "sigla": "MINJUSDH",
+          "rol": "rectora"
+        },
+        {
           "sigla": "MP",
-          "rol": "ejecutora"
+          "rol": "consultiva"
         },
         {
           "sigla": "MIMP",
-          "rol": "rectora"
+          "rol": "ejecutora"
         },
         {
           "sigla": "PNP",
@@ -1049,11 +1165,11 @@
         },
         {
           "sigla": "INDECOPI",
-          "rol": "supervisora"
+          "rol": "ejecutora"
         },
         {
           "sigla": "JNE",
-          "rol": "supervisora"
+          "rol": "consultiva"
         },
         {
           "sigla": "PCM-SGTD",
@@ -1065,7 +1181,8 @@
       "indicador": "Proporción de denuncias por ciberdelito que llegan a acusación (boletín del Ministerio Público) creciente cada año; 90 % de denuncias por deepfakes electorales resueltas en ≤ 72 horas.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "DIG-02"
+        "DIG-02",
+        "SEG-04"
       ],
       "pedn": [
         "AE4.4.1",
@@ -1119,6 +1236,21 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Retiro célere no debe ser censura previa",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "El MP no tiene iniciativa en estas materias (art. 107)",
+          "decision": "aplicado: responsable MINJUSDH; MP y JNE consultivos"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Deber de diligencia sin verificación biométrica de edad",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Laboratorios forenses son la obra de SEG-04",
+          "decision": "aplicado: SEG-04 en depende_de; DIG-08 ya no promete laboratorios"
         }
       ]
     },
@@ -1339,11 +1471,11 @@
       "titulo": "Llevar el Estado digital a municipios, lenguas originarias y personas con discapacidad",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "parcial",
-      "por_que_ley": "El núcleo va por resolución de la PCM-SGTD (catálogo de servicios compartidos, índice de madurez), adecuación del reglamento de la Ley 29029 (DS 021-2020-PCM), del reglamento de la Ley 29735 (DS 004-2016-MC) y DS PCM-MIMP que fije WCAG 2.2 AA. Solo extender la accesibilidad obligatoria a servicios privados de interés general y la exigibilidad de lenguas en canales digitales requieren ley (partes 'parciales' de TAL-13 y GOB-23).",
+      "por_que_ley": "El núcleo va por resolución de la PCM-SGTD (catálogo de servicios compartidos, índice de madurez), adecuación del reglamento de la Ley 29029 (DS 021-2020-PCM), del reglamento de la Ley 29735 (DS 004-2016-MC) y una resolución de la PCM-SGTD que haga exigible, con auditoría anual publicada y plazo de corrección, el lineamiento de accesibilidad ya vigente (Resolución de Secretaría 001-2025-PCM/SGTD, cuyo anexo técnico se basa en WCAG 2.2, con el Sello de Accesibilidad Digital). Solo extender la accesibilidad obligatoria a servicios privados de interés general y la exigibilidad de lenguas en canales digitales requieren ley (partes 'parciales' de TAL-13 y GOB-23).",
       "etapa": "2026-2031",
-      "que": "Un paquete ejecutivo para que el gobierno digital no se quede en Lima. La PCM ofrece a las más de 1 800 municipalidades, sin costo de licencia, sistemas en nube de mesa de partes, trámite documentario, casilla y pagos; promueve mancomunidades digitales que comparten unidad de TI, líder digital y oficial de seguridad; adapta los 50 servicios más usados al celular y 20 de ellos a SMS, USSD o voz para teléfonos básicos; ofrece contenidos en quechua, aimara y lenguas amazónicas con interpretación remota de la Línea 1812; corrige la accesibilidad de portales públicos; y publica cada año un informe de brechas digitales por área, sexo, lengua y discapacidad.",
+      "que": "Un paquete ejecutivo para que el gobierno digital no se quede en Lima. La PCM pone a disposición de las más de 1 800 municipalidades, sin costo, los bloques básicos que ya existen (Mesa de Partes Digital, Sistema de Gestión Documental, Facilita Perú, Casilla Única Electrónica, Págalo.pe, Firma Perú e ID GOB.PE) como servicio compartido, y solo completa lo que falta (origen: GOB-08, GOB-19); promueve mancomunidades digitales que comparten unidad de TI, líder digital y oficial de seguridad; adapta los 50 servicios más usados al celular y 20 de ellos a SMS, USSD o voz para teléfonos básicos, con salvaguardas (origen: GOB-09); ofrece contenidos en quechua, aimara y lenguas amazónicas con interpretación remota de la Línea 1812; corrige la accesibilidad de portales públicos según el lineamiento de la PCM-SGTD; ofrece en esos 50 servicios atención por videollamada con intérprete de lengua de señas peruana (Ley 29535) y un canal de reclamo por inaccesibilidad con respuesta en 15 días, cuyo informe anual reciben el CONADIS y la Defensoría del Pueblo; y publica cada año un informe de brechas digitales por área, sexo, lengua y discapacidad.",
       "evidencia": "Solo el 38,3 % de las 1 874 municipalidades tenía portal de transparencia estándar y el 43,9 % de las que no lo tenían declaró no saber implementarlo (INEI, RENAMU 2022). El uso de internet es 67,2 % entre quienes aprendieron una lengua nativa frente a 87,6 % entre castellanohablantes (INEI, II trim. 2026). Colombia (Gobierno Digital territorial) y España (servicios compartidos de la AGE para entidades locales) muestran ahorro por servicios comunes.",
-      "entrega": "Catálogo de Servicios Digitales Compartidos; 300 municipalidades de baja capacidad adheridas y 20 mancomunidades digitales; 50 servicios móviles y 20 por SMS/USSD/voz en quechua y aimara; plantillas accesibles WCAG 2.2 AA en GOB.PE; informe anual de brechas digitales.",
+      "entrega": "Catálogo de Servicios Digitales Compartidos; 300 municipalidades de baja capacidad adheridas y 20 mancomunidades digitales; 50 servicios móviles y 20 por SMS/USSD/voz en quechua y aimara; 100 % de portales del Ejecutivo auditados con el lineamiento de accesibilidad y con Sello de Accesibilidad Digital; atención con intérprete de lengua de señas en los 50 servicios; informe anual de brechas digitales.",
       "responsable": "PCM-SGTD",
       "entidades": [
         {
@@ -1389,7 +1521,8 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "DIG-17",
-        "DIG-04"
+        "DIG-04",
+        "GOB-09"
       ],
       "pedn": [
         "AE4.6.1",
@@ -1433,18 +1566,40 @@
       "necesita_ley_origen": {
         "no": 4,
         "parcial": 2
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Nombrar bloques básicos existentes, no desarrollarlos de nuevo",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "WCAG 2.2 ya está en lineamiento de la SGTD",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar GOB-09 para canales SMS, USSD y voz",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Lengua de señas peruana y canal de reclamo por inaccesibilidad",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-12",
       "titulo": "Comprar tecnología pública con código abierto, retos GovTech, nube con salida y IA auditable",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "parcial",
-      "por_que_ley": "Casi todo se hace modificando el Reglamento de la Ley 32069 (DS 009-2025-EF), el DS 029-2021-PCM, bases estándar del OECE y acuerdos marco de PERÚ COMPRAS. Solo requieren ley la regla de que dividir en lotes no es fraccionamiento (art. 50 de la Ley 32069), la consulta abierta al mercado en el art. 47 y las fases de compra pública de innovación con reglas de propiedad intelectual.",
+      "por_que_ley": "Casi todo se hace modificando el Reglamento de la Ley 32069 (DS 009-2025-EF), el DS 029-2021-PCM, bases estándar del OECE y acuerdos marco de PERÚ COMPRAS. Solo requieren ley la regla de que dividir en lotes no es fraccionamiento (art. 50 de la Ley 32069), la consulta abierta al mercado en el art. 47 y las fases de compra pública de innovación con reglas de propiedad intelectual. Las cláusulas de IA se incorporan como anexo obligatorio de las bases estándar del OECE conforme a la clasificación de riesgo de la Ley 31814 y su reglamento (DS 115-2025-PCM).",
       "etapa": "2026-2031",
-      "que": "Un paquete de reglas de compra para que el Estado deje de pagar dos veces por el mismo software y no quede atado a un proveedor. Publica como código abierto el software a medida financiado con fondos públicos y exige verificar reutilización antes de contratar; lanza retos GovTech con pilotos de al menos dos proveedores; consolida centros de datos del Ejecutivo y fija cláusulas de portabilidad, salida y cifrado con claves del Estado en contratos de nube; incluye cláusulas de auditoría y datos en todo contrato de IA que decida sobre derechos; y publica la demanda tecnológica multianual para abrir competencia a proveedores nacionales.",
+      "que": "Un paquete de reglas de compra para que el Estado deje de pagar dos veces por el mismo software y no quede atado a un proveedor. Publica como código abierto el software a medida financiado con fondos públicos en la Plataforma Nacional de Software Público que ya existe, y exige verificar reutilización antes de contratar; lanza retos GovTech con pilotos de al menos dos proveedores; consolida centros de datos del Ejecutivo y fija cláusulas de portabilidad, salida y cifrado con claves del Estado en contratos de nube; incluye cláusulas de auditoría y datos en todo contrato de IA que decida sobre derechos (origen: GOB-03, GOB-13, IA-14, SOB-08); y publica la demanda tecnológica multianual para abrir competencia a proveedores nacionales.",
       "evidencia": "La política 'public money, public code' y los catálogos de software reutilizable de Francia (code.gouv.fr) e Italia (Developers Italia) reducen duplicación. El programa GovTech de Colombia y la compra precomercial de la UE (COM(2007) 799) muestran resultados en pilotos escalables. El análisis advierte que el control posterior que castiga el piloto fallido es la barrera real.",
-      "entrega": "Plataforma Nacional de Software Público con sistemas municipales reutilizables; 100 retos o compras de innovación publicados en el SEACE; inventario público de centros de datos y acuerdo marco de nube; bases estándar y cláusulas modelo para IA; programación tecnológica multianual publicada.",
+      "entrega": "la Plataforma Nacional de Software Público existente pasa a ser obligatoria: todo software a medida se publica en ella y el OECE verifica reutilización antes de aprobar un nuevo contrato; 100 retos o compras de innovación publicados en el SEACE; inventario público de centros de datos y acuerdo marco de nube; bases estándar y cláusulas modelo para IA; programación tecnológica multianual publicada.",
       "responsable": "OECE",
       "entidades": [
         {
@@ -1489,7 +1644,8 @@
       "indicador": "80 % de contratos de software a medida en el SEACE con entrega de código (2031); 500 entidades reutilizando software de la Plataforma; 100 % de contratos de nube del Ejecutivo con cláusulas de salida; menos procedimientos TIC con postor único.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "DIG-04"
+        "DIG-04",
+        "DIG-02"
       ],
       "pedn": [
         "AE4.5.3",
@@ -1531,7 +1687,24 @@
       ],
       "necesita_ley_origen": {
         "parcial": 5
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Software público existe: lo nuevo es la obligación",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Anclar cláusulas de IA en Ley 31814 y DS 115-2025-PCM",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Agregar DIG-02 a depende_de por requisitos de nube",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-13",
@@ -1540,9 +1713,9 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Va por DS que modifique el reglamento del DL 1412 y el de la Ley 27806 (DS 007-2024-JUS), directivas del OECE y del MEF, DS de metas digitales con voto del Consejo de Ministros, resoluciones de la DGPP y de SERVIR. Solo tipificar la reidentificación y la publicación diaria con excepciones requieren ley (partes 'parciales' de IA-04, GOB-05, GOB-21 y GOB-22).",
       "etapa": "2026-2031",
-      "que": "Un paquete para que la información pública sea abierta y para que alguien responda por las metas. Publica por API los datos de alto valor (gasto diario, todas las contrataciones en estándar OCDS, planillas por cargo, recorrido del canon y regalías hasta la obra en INFOBRAS); registra los acuerdos de consulta previa y compromisos de mesas de diálogo; crea el repositorio nacional de preservación digital del AGN; instala en la PCM una unidad de cumplimiento con hasta 15 metas digitales y tablero público; diseña un programa presupuestal por resultados de transformación digital; y selecciona por mérito a los líderes digitales de cada ministerio.",
+      "que": "Un paquete para que la información pública sea abierta y para que alguien responda por las metas (origen: GOB-17, ECO-21, GOB-14, GOB-10). Publica por API, a través de la PIDE y datosabiertos.gob.pe, los datos de alto valor (gasto diario, todas las contrataciones en estándar OCDS, planillas por cargo, recorrido del canon y regalías hasta la obra en INFOBRAS); registra los acuerdos de consulta previa y compromisos de mesas de diálogo; crea el repositorio nacional de preservación digital del AGN; instala en la PCM una unidad de cumplimiento con hasta 15 metas digitales y tablero público; diseña un programa presupuestal por resultados de transformación digital; y selecciona por mérito a los líderes digitales de cada ministerio.",
       "evidencia": "Las unidades de cumplimiento (Prime Minister's Delivery Unit del Reino Unido, 2001) mejoran el seguimiento de metas cuando tienen respaldo del jefe de gobierno. El Open Contracting Partnership documenta ahorros y más competencia tras publicar contrataciones en OCDS (Ucrania, ProZorro). El análisis registra que buena parte de estos datos ya existe en Consulta Amigable y SEACE pero se registra tarde.",
-      "entrega": "Pasarela nacional de API con 50 entidades clave; contrataciones del SEACE (incluidas las de hasta 8 UIT) en OCDS diario; tablero territorial de canon y regalías; Registro Público de Acuerdos de consulta previa; Repositorio Nacional de Preservación Digital; tablero público de metas digitales; concursos de líderes digitales.",
+      "entrega": "La PIDE y datosabiertos.gob.pe se convierten en la pasarela nacional de API, sin plataforma nueva: 50 entidades clave exponen por ellas sus datos de alto valor con estándar abierto (OCDS, DCAT); contrataciones del SEACE (incluidas las de hasta 8 UIT) en OCDS diario; tablero territorial de canon y regalías; Registro Público de Acuerdos de consulta previa; Repositorio Nacional de Preservación Digital; tablero público de metas digitales; concursos de líderes digitales.",
       "responsable": "PCM-SGTD",
       "entidades": [
         {
@@ -1582,7 +1755,7 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Presupuesto de PCM, MEF, OECE, MINCUL, AGN y SERVIR; Invierte.pe para la pasarela de API y el repositorio del AGN.",
+      "financiamiento": "Presupuesto de PCM, MEF, OECE, MINCUL, AGN y SERVIR; Invierte.pe para ampliar la PIDE como pasarela de API y para el repositorio del AGN.",
       "costo_referencial": "Estimaciones de las propuestas (confianza baja): pasarela de API S/ 1–2,6 millones/año (2027-2030); unidad de cumplimiento S/ 0,5–1,5 millones/año. Resto no estimado.",
       "indicador": "100 % de contrataciones del SEACE en OCDS diario (2028); 70 % de metas digitales en su valor anual esperado (2031); 100 % de ministerios con líder digital que cumple el perfil de SERVIR y permanencia media > 3 años.",
       "deroga_o_simplifica": [],
@@ -1631,7 +1804,19 @@
       "necesita_ley_origen": {
         "parcial": 4,
         "no": 4
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Pasarela de API es la PIDE más datosabiertos.gob.pe",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar origen GOB-17, ECO-21, GOB-14, GOB-10",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-14",
@@ -1818,7 +2003,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Va por autorización de subvenciones en la Ley anual de Presupuesto y bases de ProInnóvate, resolución ejecutiva del ITP, DS de estrategia de IED, DS de lineamientos de negociación digital (MINCETUR-RREE), DS de PRODUCE para registro y parques, y DS que conforma el comité de evaluación. Elevar a ley el Consejo Nacional de Competitividad y la cesión de inmuebles a parques (partes 'parciales' de ECO-16 y ECO-13) es opcional.",
       "etapa": "2026-2031",
-      "que": "Un paquete de productividad. Ofrece autodiagnóstico digital gratuito y bonos cofinanciados pagados al proveedor contra entregable para que las MIPYME adopten tecnología y gestión; instala celdas demostrativas de automatización y robótica en al menos cuatro CITE; organiza la búsqueda activa de inversión extranjera de eficiencia con gestor único; lleva técnicos peruanos a las mesas de normas de economía digital (ISO/IEC JTC 1); reconoce parques científicos vinculados a universidades fuera de Lima; y encarga a un comité independiente evaluar los incentivos productivos antes de prorrogarlos.",
+      "que": "Un paquete de productividad. Ofrece autodiagnóstico digital gratuito en GOB.PE, con autenticación ID GOB.PE y enlazado al RUC (sin crear otro registro de empresas), y bonos cofinanciados al menos 30 % por la empresa, pagados al proveedor contra entregable, cuyos resultados por empresa se publican en datos abiertos sin datos personales, para que las MIPYME adopten tecnología y gestión; instala celdas demostrativas de automatización y robótica en al menos cuatro CITE; organiza la búsqueda activa de inversión extranjera de eficiencia con gestor único; lleva técnicos peruanos a las mesas de normas de economía digital (ISO/IEC JTC 1); reconoce parques científicos vinculados a universidades fuera de Lima; y encarga a un comité independiente evaluar los incentivos productivos antes de prorrogarlos.",
       "evidencia": "Los vouchers de innovación evaluados con grupo de control (Países Bajos, Irlanda) y el programa Kit Digital de España muestran aumentos de adopción; la OCDE recomienda al Perú evaluar sistemáticamente sus instrumentos productivos (Economic Survey 2023). CzechInvest e IDA Ireland son referentes de agencias que buscan IED de eficiencia con servicio posinstalación.",
       "entrega": "100 000 MIPYME con diagnóstico digital y evaluación de impacto; 4 CITE con celdas de manufactura avanzada y 5 000 autodiagnósticos; 40 proyectos de IED de eficiencia atendidos; Perú como miembro participante en 3 subcomités del JTC 1; un parque reconocido fuera de Lima; 8 instrumentos evaluados con respuesta pública.",
       "responsable": "PRODUCE",
@@ -1862,7 +2047,7 @@
       ],
       "financiamiento": "Presupuesto de PRODUCE, ProInnóvate e ITP (sujeto a disponibilidad); ProInversión, MINCETUR, RREE e INACAL; Obras por Impuestos, APP o canon universitario para parques.",
       "costo_referencial": "Estimaciones de las propuestas (confianza baja): celdas CITE S/ 4–12 millones (2027-2031); IED S/ 2–5 millones/año; normas JTC 1 S/ 0,5–1,5 millones/año; evaluaciones S/ 0–1,2 millones/año. Bonos: no estimado. Bonos: monto anual por definir en la Ley de Presupuesto según metas de cobertura (número de empresas × bono promedio); sin esa autorización expresa de subvenciones no hay bonos.",
-      "indicador": "≥ 100 000 MIPYME con diagnóstico digital y evaluación con grupo de comparación publicada (2031); mayor peso de manufactura y servicios de conocimiento en el saldo de IED.",
+      "indicador": "≥ 100 000 MIPYME con diagnóstico digital y evaluación con grupo de comparación publicada (2031); mayor peso de manufactura y servicios de conocimiento en el saldo de IED. Adicionalidad estimada (inversión inducida por cada sol de bono) con umbral mínimo de 1 para renovar la partida.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "DIG-03",
@@ -1916,6 +2101,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Bonos sin monto ni autorización presupuestal",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Cofinanciamiento mínimo y umbral de adicionalidad para renovar",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Autodiagnóstico en GOB.PE con ID GOB.PE y datos abiertos",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1932,12 +2127,12 @@
       "responsable": "PRONATEL",
       "entidades": [
         {
-          "sigla": "PRONATEL",
-          "rol": "ejecutora"
+          "sigla": "MTC",
+          "rol": "rectora"
         },
         {
-          "sigla": "MINEM",
-          "rol": "rectora"
+          "sigla": "PRONATEL",
+          "rol": "ejecutora"
         },
         {
           "sigla": "GORE",
@@ -1962,10 +2157,14 @@
         {
           "sigla": "PCM-SGTD",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "MINEM",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Partidas de conectividad de MINEDU, MINSA y GORE; FITEL/PRONATEL en zonas no atendidas; Invierte.pe y Obras por Impuestos.",
-      "costo_referencial": "No estimado en inversión; es la acción de mayor gasto recurrente del sector. El costo de electrificación se estima en ENE-14.",
+      "costo_referencial": "Banda indicativa: ≈ 66 000 locales educativos (Censo Educativo 2022) y ≈ 8 500 establecimientos de salud del primer nivel × S/ 300-800 mensuales por local ≈ S/ 240-640 millones anuales de gasto recurrente (cálculo propio de la revisión; validar con los precios de los contratos de PRONATEL y de las redes regionales), más red interna y soporte. Se propone crear la partida como gasto permanente en los pliegos MINEDU y MINSA desde 2027. El costo de electrificación se estima en ENE-14.",
       "indicador": "≥ 90 % de IIEE y EESS públicos con suministro eléctrico conectados con el estándar mínimo (2031), verificado en el inventario abierto (misma meta que EDU-11); disponibilidad mensual ≥ 95 % en sitios atendidos.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -1976,7 +2175,7 @@
         "AE1.3.10",
         "AE1.3.8"
       ],
-      "riesgo": "Financiamiento: si el MEF no asigna el gasto recurrente de conectividad, los sitios se desconectan a los pocos años; sin electricidad (ENE-14) no hay conexión.",
+      "riesgo": "Financiamiento: si el MEF no asigna el gasto recurrente de conectividad, los sitios se desconectan a los pocos años; sin electricidad (ENE-14) no hay conexión. Además, baja ejecución del programa presupuestal 0047 de telecomunicaciones: 29,9 % del PIM 2026 devengado a la fecha de corte (MEF, Consulta Amigable).",
       "fuentes": [
         {
           "titulo": "MINEDU, Edudatos 46: servicios básicos en locales educativos (Censo Educativo 2022)",
@@ -2017,6 +2216,16 @@
           "rol": "pais-energia-mineria",
           "hallazgo": "Alinear meta de electricidad con ENE-14",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Rector de conectividad es el MTC, no el MINEM",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Banda de costo recurrente de conectividad por local",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2027,7 +2236,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "El clúster y la red de nodos no necesitan ley: Resolución de Presidencia del CONCYTEC, convenios de adhesión y proyecto de inversión en Invierte.pe. Solo la protección legal de las voces y la prohibición de apropiación exclusiva de corpus indígenas (IA-06) requiere ley y consulta previa; los corpus pueden empezar ya con consentimiento individual.",
       "etapa": "2031-2036",
-      "que": "Infraestructura pública para hacer ciencia e IA desde el Perú. Se construye un primer clúster nacional de 32 a 64 aceleradores en un nodo público y se conectan nodos universitarios en al menos tres macrorregiones, con convocatorias anuales de tiempo de cómputo por mérito abiertas a universidades de todo el país. Sobre esa base, MINCUL, CONCYTEC y universidades construyen corpus abiertos y modelos de traducción y reconocimiento de voz en quechua, aimara y lenguas amazónicas, con consentimiento de cada hablante y evaluación por hablantes nativos, integrados luego a los canales de atención del Estado.",
+      "que": "Infraestructura pública para hacer ciencia e IA desde el Perú. Se construye un primer clúster nacional de 32 a 64 aceleradores en un nodo público y se conectan nodos universitarios en al menos tres macrorregiones, con convocatorias anuales de tiempo de cómputo por mérito abiertas a universidades de todo el país. Sobre esa base, MINCUL, CONCYTEC y universidades construyen corpus abiertos y modelos de traducción y reconocimiento de voz en quechua, aimara y lenguas amazónicas, con consentimiento de cada hablante y con acuerdo de las organizaciones representativas de cada pueblo (Ley 29735 y Ley 29785), que deciden la licencia (abierta o restringida), participan en la gobernanza de los datos y reciben los beneficios de cualquier uso comercial (origen: IA-06, GOB-23); se evalúan con hablantes nativos, se entregan también a las comunidades y a las escuelas EIB y se integran a los canales de atención del Estado. El nodo central se ubica donde haya energía renovable firme (DIG-23).",
       "evidencia": "Chile (NLHPC) y Brasil (SINAPAD) operan redes nacionales de cómputo de alto rendimiento para universidades. El 13,9 % de la población de 5 años a más aprendió a hablar en quechua y el 1,7 % en aimara (INEI, Censos 2017). El gasto en I+D del Perú es 0,19 % del PBI (CONCYTEC, 2024).",
       "entrega": "Clúster nacional de 32–64 aceleradores operativo; nodos en 3 macrorregiones; cómputo asignado a proyectos de universidades de al menos 15 regiones; corpus y herramientas evaluadas para quechua, aimara y cinco lenguas amazónicas.",
       "responsable": "CONCYTEC",
@@ -2062,7 +2271,7 @@
         }
       ],
       "financiamiento": "Invierte.pe; fondos concursables de PROCIENCIA; canon y sobrecanon de universidades públicas; presupuesto del MINCUL; cooperación internacional.",
-      "costo_referencial": "S/ 8–35 millones de inversión y S/ 1,5–7 millones/año de operación para el clúster (estimación referencial de la propuesta, confianza baja); corpus no estimado.",
+      "costo_referencial": "S/ 8–35 millones de inversión y S/ 1,5–7 millones/año de operación para el clúster, incluida energía y refrigeración (estimación referencial de la propuesta, confianza baja); corpus no estimado.",
       "indicador": "Nodos operativos en 3 macrorregiones y proyectos de ≥ 15 regiones con cómputo asignado (2031); herramientas de lenguas originarias en uso en canales del Estado.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -2104,6 +2313,21 @@
           "rol": "jurista",
           "hallazgo": "Depende de DIG-24, etapa posterior; ciclo",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Lengua como derecho colectivo: acuerdo con organizaciones de pueblos",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Licencia y gobernanza compartida de corpus (IA-06)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Costo de operación incluye energía; ubicación con DIG-23",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2112,9 +2336,9 @@
       "titulo": "Montar la infraestructura de salud digital: interoperabilidad, recetas sin conexión e IA clínica",
       "tipo": "servicio",
       "necesita_ley": "parcial",
-      "por_que_ley": "Va por DS del MINSA que modifique el reglamento de la Ley 30024 (estándar FHIR y acceso del paciente), el DS 014-2011-SA (receta electrónica) y el DS 016-2011-SA (software médico con IA), y directiva de DIGEMID. Solo tipificar infracciones nuevas supervisadas por SUSALUD y DIGEMID requiere ley.",
+      "por_que_ley": "Va por DS del MINSA que modifique el reglamento de la Ley 30024 (estándar FHIR y acceso del paciente), actualización de la directiva de DIGEMID sobre el estándar de transacción de la receta electrónica (RM 079-2022/MINSA) y del Reglamento de Establecimientos Farmacéuticos (DS 014-2011-SA) para la dispensación, y del DS 016-2011-SA para software médico con IA, coordinado con la clasificación de riesgo de la Ley 31814 y su reglamento (DS 115-2025-PCM). Solo tipificar infracciones nuevas supervisadas por SUSALUD y DIGEMID requiere ley.",
       "etapa": "2026-2031",
-      "que": "La infraestructura digital común sobre la que corre la historia clínica electrónica, que despliega SAL-24 en todo el primer nivel. Esta acción publica y mantiene el estándar de interoperabilidad HL7 FHIR, el bus de intercambio con el registro nacional de historias clínicas y el acceso seguro del paciente con autenticación reforzada; crea un servicio nacional gratuito de validación de recetas electrónicas que funciona también sin conexión mediante código QR firmado, con aceptación gradual en farmacias y boticas; y DIGEMID crea una unidad que evalúa y registra en un padrón público el software clínico con IA usado en establecimientos públicos.",
+      "que": "La infraestructura digital común sobre la que corre la historia clínica electrónica, que despliega SAL-24 en todo el primer nivel. Esta acción publica y mantiene el estándar de interoperabilidad HL7 FHIR, el bus de intercambio con el registro nacional de historias clínicas y el acceso del paciente a su historia y recetas por Carpeta Ciudadana con ID GOB.PE (DNI digital), sin credenciales propias del MINSA; crea un servicio nacional gratuito de validación de recetas electrónicas que funciona también sin conexión mediante código QR firmado, con aceptación gradual en farmacias y boticas; y DIGEMID crea una unidad que evalúa y registra en un padrón público el software clínico con IA usado en establecimientos públicos (origen: IA-08). El registro exige evaluación de desempeño desagregada por sexo, edad y origen étnico; el paciente es informado de que se usa IA y tiene derecho a que un profesional humano revise la decisión.",
       "evidencia": "Uruguay (Salud.uy) y Estonia generalizaron la historia clínica interoperable con estándares abiertos; la OPS recomienda HL7 FHIR para la región. La Ley 30024 existe desde 2013 y la historia clínica electrónica no se generalizó por falta de equipos, conectividad y presupuesto (análisis de articulación).",
       "entrega": "Estándar HL7 FHIR y servicio de intercambio interoperable listos para que SAL-24 conecte el 100 % del primer nivel al 2031; servicio nacional de validación de recetas en línea y sin conexión; unidad de evaluación de software médico con IA en DIGEMID y registro público.",
       "responsable": "MINSA",
@@ -2159,7 +2383,8 @@
       "depende_de": [
         "SAL-24",
         "DIG-01",
-        "DIG-02"
+        "DIG-02",
+        "DIG-12"
       ],
       "pedn": [
         "AE1.2.3",
@@ -2206,6 +2431,26 @@
           "rol": "pais-salud",
           "hallazgo": "Cubrir solo infraestructura y depender de SAL-24",
           "decision": "aplicado: etapa 2026-2031, metas sin chocar con el 100 % de SAL-24"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Acceso del paciente con ID GOB.PE y Carpeta Ciudadana",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DS 014-2011-SA no es la norma de receta electrónica",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Coordinar con Ley 31814, IA-08 y DIG-12",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Sesgo desagregado, información al paciente y revisión humana",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2214,9 +2459,9 @@
       "titulo": "Completar la alerta temprana multiamenaza y abrir las imágenes satelitales del Estado",
       "tipo": "servicio",
       "necesita_ley": "parcial",
-      "por_que_ley": "La red de alerta temprana va por DS que modifique el reglamento de la Ley 29664 y el DS 019-2016-MTC (SISMATE). El catálogo satelital va por DS de PCM y MINDEF bajo el DL 1412. Solo la publicación por defecto en 90 días con excepciones tasadas (CON-09) requiere ley.",
+      "por_que_ley": "La red de alerta temprana va por DS que modifique el reglamento de la Ley 29664 y la Ley 30472 con su reglamento (DS 019-2016-MTC) que rigen el SISMATE; el anexo técnico del SISMATE, aprobado por resolución ministerial del MTC (número vigente por verificar), se actualiza al Protocolo Común de Alerta. El catálogo satelital va por DS de PCM y MINDEF bajo el DL 1412. Solo la publicación por defecto en 90 días con excepciones tasadas (CON-09) requiere ley.",
       "etapa": "2026-2031",
-      "que": "Un servicio que salva vidas. La Red Nacional de Alerta Temprana integra los datos de IGP, SENAMHI, DHN, INGEMMET y ANA y emite de forma automática alertas de sismo y tsunami de campo cercano por SISMATE en formato de Protocolo Común de Alerta, con doble validación; en zonas sin cobertura móvil instala sistemas comunitarios (radio, sirenas, brigadas). En paralelo, la CONIDA publica en un catálogo nacional las imágenes de observación de la Tierra que compran o generan las entidades, con descarga gratuita y productos rápidos para INDECI y CENEPRED.",
+      "que": "Un servicio que salva vidas. La Red Nacional de Alerta Temprana integra los datos de IGP, SENAMHI, DHN, INGEMMET y ANA y emite de forma automática alertas de sismo y tsunami de campo cercano por SISMATE en formato de Protocolo Común de Alerta, con doble validación; en zonas sin cobertura móvil instala sistemas comunitarios (radio, sirenas, brigadas). Los mensajes CAP se emiten en castellano y en las lenguas originarias predominantes de cada distrito (Ley 29735), en formatos accesibles (texto, voz, vibración y señal visual en espacios públicos), con pruebas anuales y un protocolo de evacuación asistida para personas con discapacidad y adultas mayores elaborado con sus organizaciones. En paralelo, la CONIDA publica en un catálogo nacional las imágenes de observación de la Tierra que compran o generan las entidades, con descarga gratuita y productos rápidos para INDECI y CENEPRED.",
       "evidencia": "Los sistemas de alerta sísmica de México (SASMEX) y Japón dan segundos de aviso que permiten evacuar; la OMM y la ONU promueven 'Alertas Tempranas para Todos' al 2027. El análisis clasifica TAL-10 como 'no necesita ley' y con entidad ejecutora existente (ola 1).",
       "entrega": "Consola de emisión CAP autenticada; alerta sísmica y de tsunami automática integrada al SISMATE; nodos redundantes; sistemas comunitarios en zonas sin cobertura; Catálogo Nacional de Datos de Observación de la Tierra.",
       "responsable": "INDECI",
@@ -2256,6 +2501,14 @@
         {
           "sigla": "ANA",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "consultiva"
+        },
+        {
+          "sigla": "CONADIS",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Programa presupuestal 0068 (reducción de vulnerabilidad y atención de emergencias por desastres); presupuestos de IGP, SENAMHI, DHN, GORE y municipalidades; presupuesto de CONIDA sobre la infraestructura del CNOIS.",
@@ -2305,6 +2558,21 @@
           "rol": "jurista",
           "hallazgo": "Depende de DIG-25, etapa posterior; ciclo",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Citar Ley 30472 y anexo técnico del SISMATE",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Alertas en lengua originaria y formatos accesibles",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Alertas accesibles y evacuación asistida",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2315,9 +2583,9 @@
       "necesita_ley": "parcial",
       "por_que_ley": "La mayor parte va por DS MIDAGRI-MINAM (datos agroclimáticos), DS MINAM-MINEM y resolución del OEFA (monitoreo minero), DS del MINEM (lista de minerales críticos) y programas del MIDAGRI. La medición telemétrica obligatoria de captaciones de agua requiere modificar la Ley 29338 (SOB-10, 'sí').",
       "etapa": "2026-2031",
-      "que": "Un servicio de datos para gestionar los recursos naturales con evidencia. La ANA instala telemetría en los grandes usos no agrarios y en las captaciones de las juntas, y publica derechos, volúmenes y balances de cuenca; la mediana y gran minería transmite en tiempo real al OEFA su monitoreo de agua, aire y efluentes, que se publica con alertas, junto con un sistema de trazabilidad del oro; SENAMHI, INIA, ANA y SENASA abren sus datos por API con alertas por SMS a pequeños productores; el MIDAGRI georreferencia gratis parcelas de café y cacao con constancia de no deforestación; y el MINEM aprueba la lista de minerales críticos con datos geocientíficos abiertos.",
+      "que": "Un servicio de datos para gestionar los recursos naturales con evidencia. La ANA instala telemetría en los grandes usos no agrarios y en las captaciones de las juntas, y publica derechos, volúmenes y balances de cuenca; la transmisión en tiempo real del monitoreo de agua, aire y efluentes de la mediana y gran minería usa la plataforma de monitoreo en línea del OEFA, que se construye en AMB-24 (dueña única para todos los sectores fiscalizables); esta acción añade el sistema de trazabilidad del oro; SENAMHI, INIA, ANA y SENASA abren sus datos por API con alertas por SMS a pequeños productores; la georreferenciación de parcelas de café y cacao con constancia de no deforestación se ejecuta en AGR-22, que es su dueña (consentimiento del productor con ID GOB.PE y custodia de datos en el MIDAGRI); y el MINEM aprueba la lista de minerales críticos con datos geocientíficos abiertos.",
       "evidencia": "El Reglamento (UE) 2023/1115 exige desde 2025-2026 demostrar que el café y el cacao importados no provienen de deforestación, con geolocalización de parcelas. La OCDE (Gobernanza del agua en Perú, 2021) recomienda mejorar la medición y la información de usos del agua. Chile publica en línea el monitoreo de grandes extracciones (DGA, Resolución 1238 de 2019).",
-      "entrega": "Telemetría en > 70 % del volumen no agrario y balances públicos en cuencas en veda; plataforma OEFA en tiempo real con 100 % de gran minería; API agroclimática y alertas por SMS; ≥ 80 % de parcelas de café y cacao de cooperativas georreferenciadas; lista de minerales críticos y caracterización en GEOCATMIN.",
+      "entrega": "Telemetría en > 70 % del volumen no agrario y balances públicos en cuencas en veda; trazabilidad del oro operando; API agroclimática y alertas por SMS; lista de minerales críticos y caracterización en GEOCATMIN.",
       "responsable": "ANA",
       "entidades": [
         {
@@ -2358,11 +2626,12 @@
         }
       ],
       "financiamiento": "Retribuciones económicas por uso del agua (pliego ANA); equipos de monitoreo pagados por los titulares mineros; presupuesto de OEFA, MINEM, MIDAGRI, SENAMHI, INIA, SENASA e INGEMMET; cooperación internacional.",
-      "costo_referencial": "Estimaciones de las propuestas (confianza baja): telemetría S/ 4–10 millones/año; plataformas mineras S/ 4–10 millones (2027-2029); datos agroclimáticos S/ 1–3 millones únicos; minerales críticos S/ 1–2,5 millones/año.",
-      "indicador": "> 70 % del volumen no agrario con telemetría (2031); ≥ 80 % de parcelas de café y cacao de cooperativas georreferenciadas (2028); 100 % de unidades de gran minería transmitiendo datos publicados.",
+      "costo_referencial": "Estimaciones de las propuestas (confianza baja): telemetría S/ 4–10 millones/año; plataforma de monitoreo del OEFA: se costea en AMB-24; datos agroclimáticos S/ 1–3 millones únicos; minerales críticos S/ 1–2,5 millones/año.",
+      "indicador": "> 70 % del volumen no agrario con telemetría (2031); API agroclimática con alertas por SMS operando; lista de minerales críticos aprobada con datos abiertos. La meta de monitoreo minero en línea se mide en AMB-24 y la de parcelas georreferenciadas en AGR-22.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "DIG-13"
+        "DIG-13",
+        "AMB-24"
       ],
       "pedn": [
         "AE2.5.1",
@@ -2406,7 +2675,19 @@
         "si": 1,
         "parcial": 3,
         "no": 1
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Plataforma OEFA única en AMB-24",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Georreferenciación de café y cacao es de AGR-22",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-22",
@@ -2453,7 +2734,7 @@
           "rol": "consultiva"
         }
       ],
-      "financiamiento": "Presupuesto de la ATU y municipalidades provinciales; mecanismos contractuales del recaudo (APP, DL 1362); equipos GPS a cargo de operadores.",
+      "financiamiento": "Presupuesto de la ATU y municipalidades provinciales; mecanismos contractuales del recaudo (APP, Ley 32441 y su reglamento, DS 316-2025-EF); equipos GPS a cargo de operadores.",
       "costo_referencial": "No estimado.",
       "indicador": "80 % de la flota regular en GTFS en tiempo real (2031); recaudo único abierto operando en Lima y Callao; retención de datos identificables ≤ 12 meses.",
       "deroga_o_simplifica": [],
@@ -2506,6 +2787,11 @@
           "rol": "jurista",
           "hallazgo": "Solapa VIV-07 y TRA-10; responsable MVCS incorrecto",
           "decision": "aplicado: catastro en VIV-07, responsable ATU y VIV-07 en depende_de (VIV-07 ya no depende de DIG-22)"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "DL 1362 derogado por la Ley 32441",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2514,11 +2800,11 @@
       "titulo": "Asegurar energía limpia firme para centros de datos y carga eléctrica interoperable",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "parcial",
-      "por_que_ley": "Va por DS del MINEM (reglamentos del mercado eléctrico, DS 036-2023-EM), procedimientos técnicos del COES aprobados por OSINERGMIN, resolución de la ANA sobre agua y modificación del Reglamento Nacional de Edificaciones. Solo reconocer el almacenamiento como actividad del mercado (Ley 28832), crear el registro de centros de datos con infracción tipificada y el derecho a instalar cargadores requieren ley.",
+      "por_que_ley": "Va por DS del MINEM (reglamentos del mercado eléctrico de la Ley 28832 y normas del MINEM), procedimientos técnicos del COES aprobados por OSINERGMIN, resolución de la ANA sobre agua y modificación del Reglamento Nacional de Edificaciones. Solo reconocer el almacenamiento como actividad del mercado (Ley 28832), crear el registro de centros de datos con infracción tipificada y el derecho a instalar cargadores requieren ley.",
       "etapa": "2031-2036",
-      "que": "La economía digital necesita electricidad firme y limpia. El COES lleva un registro horario de garantías de origen renovable y se aprueba una metodología de potencia firme para centrales renovables, híbridas y con almacenamiento, junto con un plan de transmisión hacia zonas renovables y grandes cargas; el MTC (o el MINEM) lleva un registro informativo de centros de datos de 500 kW o más que reportan eficiencia energética, energía renovable y uso de agua, y las restricciones por agua las impone la ANA al otorgar derechos de uso en cuencas declaradas agotadas (Ley 29338); y OSINERGMIN publica en datos abiertos los puntos de carga de vehículos eléctricos con precio por kWh y pago sin suscripción.",
+      "que": "La economía digital necesita electricidad firme y limpia. El COES lleva un registro horario de garantías de origen renovable y se aprueba una metodología de potencia firme para centrales renovables, híbridas y con almacenamiento, junto con un plan de transmisión hacia zonas renovables y grandes cargas; el MTC (o el MINEM) lleva un registro informativo de centros de datos de 500 kW o más que reportan eficiencia energética, energía renovable y uso de agua, y las restricciones por agua las impone la ANA al otorgar derechos de uso en cuencas declaradas agotadas (Ley 29338); y el registro abierto de puntos de carga de vehículos eléctricos con precio por kWh lo lleva ENE-18, que es su dueña; esta acción solo lo usa para planificar demanda.",
       "evidencia": "Chile reconoció el almacenamiento en su mercado eléctrico (Ley 21.505 de 2022) y la UE exige reporte de eficiencia a centros de datos de 500 kW o más (Reglamento Delegado 2024/1364). La Agencia Internacional de Energía proyecta que el consumo eléctrico de centros de datos se duplicará hacia 2030 (Energy and AI, 2025).",
-      "entrega": "Registro horario de garantías de origen en el COES; metodología de potencia firme renovable; plan de transmisión con zonas renovables; Registro Nacional de Centros de Datos con reporte público; Registro Nacional de Puntos de Carga en datos abiertos.",
+      "entrega": "Registro horario de garantías de origen en el COES; metodología de potencia firme renovable; plan de transmisión con zonas renovables; Registro Nacional de Centros de Datos con reporte público.",
       "responsable": "MINEM",
       "entidades": [
         {
@@ -2559,12 +2845,13 @@
         }
       ],
       "financiamiento": "Recursos del COES y cobros por recuperación de costos; presupuesto de MINEM, OSINERGMIN (aporte por regulación) y MTC.",
-      "costo_referencial": "Registro de puntos de carga S/ 0,5–1,5 millones únicos y S/ 0,2–0,5 millones/año (estimación de la propuesta); resto no estimado.",
-      "indicador": "Registro de garantías de origen operando con emisiones horarias; 100 % de centros de datos sobre el umbral con reporte público; 100 % de puntos de carga públicos con precio y ubicación en datos abiertos.",
+      "costo_referencial": "El registro de puntos de carga se costea en ENE-18; garantías de origen, potencia firme y registro de centros de datos: no estimado.",
+      "indicador": "Registro de garantías de origen operando con emisiones horarias; 100 % de centros de datos sobre el umbral con reporte público.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "DIG-03",
-        "ENE-02"
+        "ENE-02",
+        "ENE-18"
       ],
       "pedn": [
         "AE2.6.5",
@@ -2615,6 +2902,16 @@
           "rol": "jurista",
           "hallazgo": "Agregar ENE-02 como precondición",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Registro de puntos de carga es de ENE-18",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "DS 036-2023-EM no verificado: citar Ley 28832",
+          "decision": "aplicado"
         }
       ]
     },
@@ -2625,7 +2922,7 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley: senda indicativa en la Política Nacional de CTI (DS del CONCYTEC), anexo informativo del Marco Macroeconómico Multianual, marcador presupuestal por Resolución Directoral de la DGPP-MEF y encuesta bienal de I+D en el Plan Estadístico Nacional del INEI. Los aumentos de gasto se deciden en cada Ley de Presupuesto (iniciativa del Ejecutivo).",
       "etapa": "2036-2046",
-      "que": "Una meta de largo plazo con medición creíble. El INEI levanta cada dos años la Encuesta Nacional de I+D conforme al Manual de Frascati; el MEF distingue en el presupuesto el gasto en I+D del resto de actividades de CTI; y el Marco Macroeconómico Multianual publica una senda escalonada de inversión total en I+D (pública y privada) que pase de 0,19 % del PBI en 2024 a 0,35 % en 2031, 0,5 % en 2036 y alrededor de 1 % hacia 2046. El aumento combina presupuesto por resultados de los fondos (PROCIENCIA, ProInnóvate), canon universitario mejor ejecutado e incentivo tributario evaluado.",
+      "que": "Una meta de largo plazo con medición creíble. El INEI levanta cada dos años la Encuesta Nacional de I+D conforme al Manual de Frascati; el MEF distingue en el presupuesto el gasto en I+D del resto de actividades de CTI; y el Marco Macroeconómico Multianual publica una senda escalonada de inversión total en I+D (pública y privada) que pase de 0,19 % del PBI en 2024 a 0,35 % en 2031, 0,5 % en 2036 y alrededor de 1 % hacia 2046. El aumento combina presupuesto por resultados de los fondos (PROCIENCIA, ProInnóvate), canon universitario mejor ejecutado e incentivo tributario evaluado (Norma VII del Código Tributario). Meta intermedia: que las empresas financien al menos 40 % del gasto en I+D al 2036; los países que llegaron a 1 % lo hicieron con más de la mitad de la I+D pagada por empresas.",
       "evidencia": "El gasto en I+D del Perú subió de 0,12 % del PBI en 2015 a 0,19 % en 2024 (CONCYTEC), frente a 1,28 % en Brasil, 0,52 % en Argentina y 0,43 % en Chile según la misma fuente. Corea del Sur e Israel muestran que sendas sostenidas por décadas, con fuerte participación empresarial, son las que funcionan; la meta histórica peruana sin asignación se incumplió.",
       "entrega": "Encuesta Nacional de I+D bienal publicada; marcador presupuestal de I+D trimestral; senda de inversión en I+D en cada Marco Macroeconómico Multianual.",
       "responsable": "CONCYTEC",
@@ -2648,7 +2945,7 @@
         }
       ],
       "financiamiento": "Presupuesto de INEI, CONCYTEC y MEF para la medición; el aumento de I+D depende de leyes anuales de presupuesto, canon universitario y gasto privado.",
-      "costo_referencial": "S/ 1–2,5 millones por edición de la encuesta (estimación de la propuesta). Llevar la I+D a 1 % del PBI supone multiplicar por cinco el gasto actual: costo no estimado.",
+      "costo_referencial": "S/ 1–2,5 millones por edición de la encuesta (estimación de la propuesta). Orden de magnitud: la I+D total de 0,19 % del PBI equivale a ≈ S/ 2 300 millones (2024) y 1 % del PBI a ≈ S/ 12 000 millones a precios de 2025 (cálculo propio de la revisión). La senda supone que al menos la mitad del aumento es privado; el componente público se fija en cada Marco Macroeconómico Multianual.",
       "indicador": "Gasto total en I+D como % del PBI medido por encuesta oficial: 0,35 % (2031), 0,5 % (2036), ~1 % (2046).",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -2675,7 +2972,14 @@
       ],
       "necesita_ley_origen": {
         "no": 1
-      }
+      },
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Orden de magnitud de 1 % del PBI y peso privado",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "DIG-25",
@@ -2747,7 +3051,7 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley adicional una vez aprobada DIG-03: es una cartera de proyectos de última milla en Invierte.pe, contratos de PRONATEL y obligaciones de cobertura del espectro, programada en el Plan Nacional de Conectividad (DS del MTC).",
       "etapa": "2036-2046",
-      "que": "La meta de largo plazo que da sentido a la reforma de banda ancha: que todo centro poblado tenga conectividad significativa, es decir, velocidad suficiente, dispositivo adecuado, uso diario y habilidades, y no solo cobertura nominal. La cartera combina fibra hasta los distritos y centros poblados mayores, 4G/5G mediante obligaciones de espectro, satélite de baja órbita en la Amazonía y redes comunitarias, con subsidio a la demanda focalizado en hogares pobres, y se mide cada año con el módulo TIC de la ENAHO.",
+      "que": "La meta de largo plazo que da sentido a la reforma de banda ancha: que todo centro poblado tenga conectividad significativa, es decir, velocidad suficiente, dispositivo adecuado, uso diario y habilidades, y no solo cobertura nominal. La cartera combina fibra hasta los distritos y centros poblados mayores, 4G/5G mediante obligaciones de espectro, satélite de baja órbita en la Amazonía y redes comunitarias, con subsidio a la demanda focalizado en hogares pobres con el registro social de PRO-01 y pagado por Cuenta DNI del Banco de la Nación, sin padrón nuevo, y se mide cada año con el módulo TIC de la ENAHO.",
       "evidencia": "El 64,5 % de hogares tenía internet en el II trimestre de 2026, pero solo el 27,1 % de los rurales y el 8,9 % de hogares rurales tenía computadora (INEI). La UIT y la Comisión de Banda Ancha definen metas de conectividad universal y significativa al 2030; Uruguay (Antel, fibra al hogar) muestra que la universalización es alcanzable en la región.",
       "entrega": "Cobertura de banda ancha en el 100 % de centros poblados priorizados; hogares rurales con internet ≥ 75 % al 2046.",
       "responsable": "PRONATEL",
@@ -2783,7 +3087,7 @@
       ],
       "financiamiento": "FITEL, inversión privada por obligaciones de espectro, Obras por Impuestos, APP y subsidio focalizado a la demanda con presupuesto del MTC y MIDIS.",
       "costo_referencial": "No estimado.",
-      "indicador": "Hogares rurales con internet (INEI-ENAHO): 27,1 % (2026) → ≥ 50 % (2031) → ≥ 75 % (2046) → ≥ 90 % (2056).",
+      "indicador": "Hogares rurales con internet (INEI-ENAHO): 27,1 % (2026) → ≥ 50 % (2031) → ≥ 75 % (2046) → ≥ 90 % (2056). Segundo indicador: % de la población de 6 años a más que usa internet a diario desde un dispositivo propio (INEI, ENAHO-TIC), con meta por etapa que fija el INEI con la primera medición.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "DIG-03",
@@ -2793,7 +3097,7 @@
         "AE3.6.1",
         "AE1.3.10"
       ],
-      "riesgo": "Sostenibilidad: sin financiamiento de operación y mantenimiento y sin asequibilidad del servicio, las redes rurales se construyen y luego se apagan.",
+      "riesgo": "Sostenibilidad: sin financiamiento de operación y mantenimiento y sin asequibilidad del servicio, las redes rurales se construyen y luego se apagan. Baja ejecución histórica de PRONATEL: el programa presupuestal 0047 tenía un PIM 2026 de S/ 758 millones y 29,9 % devengado a la fecha de corte (MEF, Consulta Amigable).",
       "fuentes": [
         {
           "titulo": "INEI: Estadísticas de las TIC en los hogares, II trimestre 2026",
@@ -2805,7 +3109,24 @@
         }
       ],
       "agrupa": [],
-      "necesita_ley_origen": {}
+      "necesita_ley_origen": {},
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Baja ejecución del PP 0047 en el riesgo",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Indicador de conectividad significativa con ENAHO-TIC",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Subsidio focalizado con PRO-01 y Cuenta DNI",
+          "decision": "aplicado"
+        }
+      ]
     }
   ],
   "articulacion": [
@@ -3017,7 +3338,7 @@
         "accion": "DIG-02"
       },
       {
-        "norma": "Decreto Supremo 126-2025-PCM, arts. 29 a 34",
+        "norma": "Decreto Supremo 126-2025-PCM, Reglamento del Decreto de Urgencia 007-2020 (marco de confianza digital), disposiciones sobre gestión y notificación de incidentes (artículos por verificar)",
         "accion": "DIG-02"
       },
       {
@@ -3111,6 +3432,26 @@
       "rol": "jurista",
       "hallazgo": "Dependencias hacia DIG-24 y DIG-26 no son precondiciones",
       "decision": "aplicado: quitadas en DIG-06 y DIG-18; las de otros sectores (AGR-10, AGR-11, ECP-06, SEG-08, AMB-01, ENE-02, ECP-27) las quitan sus dueños"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Brecha digital de personas con discapacidad",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Meta de accesibilidad y lengua originaria",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-gobtech",
+      "hallazgo": "Línea base de solo una vez con PIDE y GOB.PE",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-gobtech",
+      "hallazgo": "conexion_tech con 128 ids en bloque",
+      "decision": "descartado: las 128 ids están citadas como origen en alguna acción DIG, así que la lista es exacta; cambiarla por una nota exige cambiar la plantilla (decisión del líder)"
     }
   ]
 }

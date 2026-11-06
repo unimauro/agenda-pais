@@ -78,14 +78,15 @@
         "url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_CC.EST?format=json&source=3&date=2019:2024"
       }
     ],
-    "brechas": "La brecha más grande es territorial y de nivel de gobierno. Los gobiernos locales concentran el 71,8 % de las obras paralizadas (CGR, marzo de 2025) y ejecutan menos inversión (74,8 % del PIM en 2025, frente a más de 90 % en el nivel nacional y regional, MEF). La CGR estimó en 2023 pérdidas por corrupción de S/ 11 992 millones en el Gobierno Nacional, S/ 7615 millones en los gobiernos regionales y S/ 4660 millones en los locales, con incidencias regionales tan altas como 17,9 % del gasto ejecutado en el Callao. En 2025 el Tesoro transfirió S/ 17 551 millones por canon, sobrecanon, regalías y otros recursos determinados, de los cuales S/ 11 828 millones fueron a municipios (DIP del Congreso, reporte 206/2025-2026, con datos del MEF): los distritos productores reciben mucho y los vecinos casi nada, y la capacidad para gastar bien no sigue al dinero. En el servicio civil, las municipalidades pequeñas dependen casi por completo de personal CAS y de confianza, sin carrera ni concurso. Los planes regionales son los más desarticulados del PEDN (91 % de objetivos con problemas de articulación en la matriz de 2026).",
+    "brechas": "La brecha más grande es territorial y de nivel de gobierno. Los gobiernos locales concentran el 71,8 % de las obras paralizadas (CGR, marzo de 2025) y ejecutan menos inversión (74,8 % del PIM en 2025, frente a más de 90 % en el nivel nacional y regional, MEF). La CGR estimó en 2023 pérdidas por corrupción de S/ 11 992 millones en el Gobierno Nacional, S/ 7615 millones en los gobiernos regionales y S/ 4660 millones en los locales, con incidencias regionales tan altas como 17,9 % del gasto ejecutado en el Callao. En 2025 el Tesoro transfirió S/ 17 551 millones por canon, sobrecanon, regalías y otros recursos determinados, de los cuales S/ 11 828 millones fueron a municipios (DIP del Congreso, reporte 206/2025-2026, con datos del MEF): los distritos productores reciben mucho y los vecinos casi nada, y la capacidad para gastar bien no sigue al dinero. En el servicio civil, las municipalidades pequeñas dependen casi por completo de personal CAS y de confianza, sin carrera ni concurso. Los planes regionales son los más desarticulados del PEDN (91 % de objetivos con problemas de articulación en la matriz de 2026). Las personas enfrentan además un Estado que no siempre las entiende ni las recibe: muchas entidades no atienden en lenguas originarias (Ley 29735) ni cumplen la accesibilidad física y digital (Ley 29973), las entidades públicas tienen pendiente la cuota de empleo de 5 % de personas con discapacidad (Ley 29973, art. 49.1; grado de incumplimiento por verificar con el CONADIS) y no existe una medición oficial publicada de reclamos ciudadanos atendidos en plazo (Libro de Reclamaciones, DS 007-2020-PCM).",
     "causas": [
       "Creación de entidades, programas y fondos por capas, sin evaluación ex ante ni cláusula de cierre: el Estado agrega y casi nunca resta; las evaluaciones independientes del MEF (EDEP) mejoran diseños pero rara vez se usan para reasignar o cerrar (MEF, balance EDEP 2016).",
       "Presupuesto inercial: más de la mitad del PIM 2026 está en Acciones centrales y APNOP, fuera de la lógica de resultados (MEF, Consulta Amigable).",
       "Expedientes técnicos deficientes, contratistas débiles y controversias arbitrales: son las causas principales de paralización que identifica la CGR en su plan de control preventivo de obras (2025).",
       "Servicio civil fragmentado y sin mérito generalizado: la Ley 30057 (2013) preveía un tránsito en seis años que no se completó; el CAS se volvió permanente (SERVIR).",
       "Control posterior centrado en el procedimiento y no en el resultado, que lleva a funcionarios a no decidir por miedo a sanciones (la llamada «parálisis por miedo»); y descentralización de funciones sin capacidades acreditadas (Defensoría del Pueblo, Informe 141).",
-      "Planeamiento desconectado del presupuesto: CEPLAN aprueba planes y el MEF asigna recursos con lógicas distintas, sin un vínculo obligatorio entre objetivos del PEDN y programas presupuestales."
+      "Planeamiento desconectado del presupuesto: CEPLAN aprueba planes y el MEF asigna recursos con lógicas distintas, sin un vínculo obligatorio entre objetivos del PEDN y programas presupuestales.",
+      "Falta de un marco fiscal para las reformas: el MMM 2026-2029 reduce el déficit de 2,2 % a 1,0 % del PBI hacia 2028 por el lado del gasto corriente y sin subir la presión tributaria, mientras el Consejo Fiscal advierte que las leyes con impacto fiscal aprobadas, en su mayoría fuera de los marcos presupuestales, reducen considerablemente el espacio fiscal (Comunicado 03-2026-CF). Las reformas se aprueban sin techo de gasto ni fuente de ingreso permanente identificada, y los pasivos contingentes (laudos, garantías, APP cofinanciadas con tope de 12 % del PBI en la Ley 32441) no se consolidan en un registro público único."
     ]
   },
   "vision_2056": "En 2056 cada peruano sabe qué entidad le responde por cada servicio, ve en un tablero público si se cumplió la meta y hace sus trámites una sola vez; las obras se terminan, los servidores entran por mérito y la corrupción dejó de ser el principal problema del país.",
@@ -111,14 +112,14 @@
       "fuente_linea_base": "MEF, balance de cierre de la inversión pública 2025"
     },
     {
-      "indicador": "Presupuesto en Acciones centrales + APNOP (% del PIM)",
-      "linea_base": "51,8 % (2026)",
-      "2031": "≤ 42 %",
-      "2036": "≤ 32 %",
-      "2046": "≤ 22 %",
-      "2056": "≤ 15 %",
-      "referencia": "Meta indicativa propia: llevar el gasto a programas con resultados medibles",
-      "fuente_linea_base": "MEF, Consulta Amigable, PIM 2026 por categoría presupuestal"
+      "indicador": "APNOP migrable (excluidos deuda, pensiones y transferencias financieras) como % de su base de 2026",
+      "linea_base": "Por calcular por la DGPP con la clasificación de EST-04 (referencia: Acciones centrales + APNOP = 51,8 % del PIM en 2026)",
+      "2031": "≤ 60 % de la base",
+      "2036": "≤ 35 % de la base",
+      "2046": "≤ 15 % de la base",
+      "2056": "≤ 10 % de la base",
+      "referencia": "Meta indicativa propia: solo deuda, pensiones y transferencias quedan fuera de programas con resultados",
+      "fuente_linea_base": "MEF, Consulta Amigable, PIM 2026 por categoría presupuestal; clasificación estructural/migrable de la DGPP"
     },
     {
       "indicador": "Perjuicio por corrupción e inconducta funcional (% del presupuesto ejecutado)",
@@ -159,6 +160,16 @@
       "2056": "≤ 10 %",
       "referencia": "Meta indicativa propia; CEPLAN valida la articulación de cada instrumento",
       "fuente_linea_base": "Matriz de (des)articulación SINAPLAN sobre el PEDN 2050 (2026, por validar)"
+    },
+    {
+      "indicador": "Entidades públicas que cumplen la cuota de 5 % de empleo de personas con discapacidad",
+      "linea_base": "Por verificar (CONADIS, 2026)",
+      "2031": "50 %",
+      "2036": "80 %",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "Ley 29973, art. 49.1",
+      "fuente_linea_base": "CONADIS, fiscalización de la cuota de empleo"
     }
   ],
   "acciones": [
@@ -169,7 +180,7 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley: la PCM (Secretaría de Gestión Pública), el MEF (DGPP) y CEPLAN pueden hacerlo con sus funciones rectoras de modernización, presupuesto y planeamiento; basta una resolución ministerial conjunta.",
       "etapa": "2026-2031",
-      "que": "Levantar en un solo inventario público todas las entidades, programas nacionales, proyectos especiales, fondos y programas presupuestales del Poder Ejecutivo, con su base legal, población objetivo, presupuesto, productos y resultados. Cruzar ese inventario con las evaluaciones independientes del MEF (EDEP), los informes de servicios de control de la CGR y la matriz de articulación con el PEDN para marcar superposiciones: dos o más intervenciones que atienden a la misma población con el mismo producto. El resultado es una lista priorizada de candidatos a fusión, cierre o reasignación, con análisis de costo y riesgo, publicada en datos abiertos y actualizada cada año.",
+      "que": "Ampliar el Registro Unificado de Entidades del Estado Peruano (RUEEP) que ya administra la PCM-SGP, enlazado al clasificador de pliegos y programas del MEF, para que sea un solo inventario público de todas las entidades, programas nacionales, proyectos especiales, fondos y programas presupuestales del Poder Ejecutivo, con su base legal, población objetivo, presupuesto, productos y resultados. Cruzar ese inventario con las evaluaciones independientes del MEF (EDEP), los informes de servicios de control de la CGR y la matriz de articulación con el PEDN para marcar superposiciones: dos o más intervenciones que atienden a la misma población con el mismo producto. El resultado es una lista priorizada de candidatos a fusión, cierre o reasignación, con análisis de costo y riesgo, publicada en datosabiertos.gob.pe y actualizada cada año, sin crear un registro paralelo.",
       "evidencia": "Desde 2008 el MEF realiza evaluaciones independientes (EDEP) con compromisos de mejora; a 2014 se habían culminado 49 de 58 programadas, pero el propio MEF reconoce que se usan para mejorar diseños y no para reasignar o cerrar (MEF, informes 2014 y 2016). Hay precedentes de consolidación: el FONIPREL se reestructuró como FIDT y se liquidó el FONIE (DL 1435, 2018); Qali Warma fue sustituido por Wasi Mikuna tras problemas identificados (DS 010-2024-MIDIS).",
       "entrega": "Inventario abierto de intervenciones del Ejecutivo y primera lista priorizada de al menos 30 superposiciones con recomendación (fusionar, cerrar, reasignar o mantener), publicada antes del proyecto de presupuesto 2028.",
       "responsable": "PCM-SGP",
@@ -220,7 +231,14 @@
         "AE4.5.3",
         "AE4.5.1"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Partir del RUEEP de la PCM-SGP, no de cero",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-02",
@@ -229,7 +247,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "La fusión de dependencias, programas y organismos de la administración central y su cambio de adscripción se hacen por decreto supremo con voto aprobatorio del Consejo de Ministros (Ley 27658, art. 13; LOPE). Crear o disolver organismos públicos exige ley a iniciativa del Poder Ejecutivo (LOPE, Ley 29158, arts. 28, 31 y 32): el Congreso no puede crear ni suprimir organismos por iniciativa propia, ni crear gasto (art. 79 de la Constitución).",
       "etapa": "2026-2031",
-      "que": "Con la lista de EST-01, ejecutar cada año un paquete de fusiones y cierres: programas nacionales que atienden a la misma población, proyectos especiales que se volvieron permanentes y fondos concursables con fines parecidos. Cada decisión incluye un plan de transferencia de personal, activos, acervo documentario y obligaciones; un periodo de transición máximo de 12 meses; y la garantía de que el servicio al ciudadano no se interrumpe. Las disoluciones de organismos públicos se envían al Congreso como proyecto de ley del Ejecutivo, con análisis costo-beneficio. El ahorro administrativo se reasigna al producto final, no a gasto corriente nuevo.",
+      "que": "Con la lista de EST-01, ejecutar cada año un paquete de fusiones y cierres: programas nacionales que atienden a la misma población, proyectos especiales que se volvieron permanentes y fondos concursables con fines parecidos. Cada decisión incluye un plan de transferencia de personal, activos, acervo documentario y obligaciones; un periodo de transición máximo de 12 meses; y la garantía de que el servicio al ciudadano no se interrumpe. Las disoluciones de organismos públicos se envían al Congreso como proyecto de ley del Ejecutivo, con análisis costo-beneficio. El ahorro administrativo se reasigna al producto final, no a gasto corriente nuevo. Ninguna fusión o cierre reduce la cobertura, el monto ni la calidad de una prestación social para sus usuarios actuales; el informe de continuidad compara la cobertura por sexo, área y discapacidad antes y después, y se publica.",
       "evidencia": "La consolidación FONIPREL-FONIE en el FIDT (DL 1435) muestra que es posible unir fondos con fines parecidos sin perder el financiamiento territorial. En 2024 el sector Vivienda declaró en reorganización al OTASS, a los programas nacionales de saneamiento urbano y rural y a Agua Segura para Lima y Callao (DS 006-2024-VIVIENDA), un caso típico de superposición a resolver con evaluación (resultado de la reorganización por verificar).",
       "entrega": "Paquetes anuales de fusión y cierre aprobados por DS; al menos 15 intervenciones fusionadas o cerradas hacia 2031 con su informe de ahorro y continuidad del servicio.",
       "responsable": "PCM",
@@ -275,14 +293,21 @@
       "pedn": [
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Sin regresividad en prestaciones sociales al fusionar",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-03",
       "titulo": "Exigir evaluación previa y cláusula de caducidad a toda entidad o programa nuevo",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Requiere modificar la LOPE (Ley 29158, ley orgánica) y el DL 1440 del Sistema Nacional de Presupuesto Público para que toda norma que cree un organismo, programa o fondo incluya un análisis ex ante y una fecha de caducidad salvo renovación tras evaluación. Por tratarse de organización del Ejecutivo y gasto, la iniciativa conveniente es del Ejecutivo (art. 79 de la Constitución).",
+      "por_que_ley": "Requiere modificar la LOPE (Ley 29158, ley orgánica) y el DL 1440 del Sistema Nacional de Presupuesto Público para que toda norma que cree un organismo, programa o fondo incluya un análisis ex ante y una fecha de caducidad salvo renovación tras evaluación. Por tratarse de organización del Ejecutivo y gasto, la iniciativa conveniente es del Ejecutivo (art. 79 de la Constitución). La parte que modifica la Ley 29158 se aprueba con votación calificada de ley orgánica (art. 106 de la Constitución, texto de la Ley 31988).",
       "etapa": "2026-2031",
       "que": "Una regla simple: ningún organismo, programa nacional o fondo nuevo nace sin (1) un problema público definido con datos, (2) una comprobación de que no existe otra intervención que ya lo atienda, (3) un dictamen favorable del MEF sobre su costo y de la PCM sobre su diseño organizacional, y (4) una cláusula de caducidad de 5 a 8 años. Al vencer, continúa solo si una evaluación independiente muestra resultados. Para el stock actual, se fija un calendario de evaluación de todos los programas nacionales en 10 años. Se aplica también a los programas creados por decreto de urgencia.",
       "evidencia": "Las cláusulas de caducidad (sunset) y la evaluación ex ante son recomendaciones reiteradas de la OCDE en gobernanza regulatoria y presupuestaria; en el Perú, el DL 1565 de Mejora de la Calidad Regulatoria ya exige AIR ex ante a proyectos normativos del Ejecutivo, con reglamento aprobado por DS 023-2025-PCM, pero no alcanza a la creación de entidades y programas.",
@@ -333,6 +358,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Una ley general no obliga a leyes futuras",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Votación de ley orgánica para modificar la LOPE",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fórmula uniforme del art. 106 tras la Ley 31988",
+          "decision": "aplicado"
         }
       ]
     },
@@ -367,7 +402,7 @@
       ],
       "financiamiento": "Presupuesto del MEF; reorganiza gasto existente, no crea gasto nuevo.",
       "costo_referencial": "no estimado",
-      "indicador": "% del PIM en APNOP + Acciones centrales (línea de base 51,8 % en 2026).",
+      "indicador": "APNOP migrable (excluidos deuda, pensiones y transferencias financieras) como % del PIM, con línea base calculada por la DGPP en la clasificación pública; referencia: Acciones centrales + APNOP = 51,8 % del PIM en 2026.",
       "depende_de": [
         "EST-01"
       ],
@@ -381,7 +416,14 @@
       "pedn": [
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Medir solo el APNOP migrable",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-05",
@@ -390,7 +432,7 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley: la DGPP puede reformular, fusionar o dar de baja programas presupuestales por directiva (DL 1440) y reasignar en el proyecto de presupuesto anual.",
       "etapa": "2026-2031",
-      "que": "Aplicar una revisión anual a los 91 programas presupuestales. Al corte de 2026 hay programas con avances muy bajos: remediación de pasivos ambientales mineros (0,7 % del PIM devengado), control de la oferta de drogas (1,6 %), promoción de la inversión privada (17,7 %), ciencia y tecnología (22,7 %) y alimentación escolar (25,0 %). Los cortes intraanuales deben leerse con cuidado, pero si un programa repite baja ejecución dos años seguidos y no tiene evidencia de efecto, se reformula su modelo operativo, se fusiona con otro que atienda la misma población o se cierra y su dinero pasa a programas que sí entregan.",
+      "que": "Aplicar una revisión anual a los 91 programas presupuestales. Al corte de 2026 hay programas con avances muy bajos: remediación de pasivos ambientales mineros (0,7 % del PIM devengado), control de la oferta de drogas (1,6 %), promoción de la inversión privada (17,7 %), ciencia y tecnología (22,7 %) y alimentación escolar (25,0 %). Los cortes intraanuales deben leerse con cuidado, pero si un programa repite baja ejecución dos años seguidos y no tiene evidencia de efecto, se reformula su modelo operativo, se fusiona con otro que atienda la misma población o se cierra y su dinero pasa a programas que sí entregan. Para programas que ejecutan obligaciones de derechos humanos (atención a víctimas, salud ambiental de personas expuestas a metales, protección de la niñez), el semáforo rojo obliga a un plan de rescate con responsable, no al cierre.",
       "evidencia": "Cálculo propio sobre el PIM y devengado 2026 de los 91 programas presupuestales (MEF, Consulta Amigable; corte intraanual). La DGPP ya firma compromisos de mejora tras cada evaluación independiente, pero el MEF reconoce que no se usan para la ejecución (balance EDEP 2016).",
       "entrega": "Semáforo anual público de los 91 programas (ejecución, evidencia, resultados); al menos 10 programas reformulados, fusionados o cerrados hacia 2031.",
       "responsable": "MEF-DGPP",
@@ -428,18 +470,25 @@
       "pedn": [
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Programas de derechos: plan de rescate, no cierre",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-06",
-      "titulo": "Hacer revisiones de gasto anuales que separen gasto corriente útil de gasto inercial",
+      "titulo": "Hacer revisiones de gasto anuales y un marco fiscal con techos y contingencias",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "No necesita ley: el MEF puede institucionalizar revisiones de gasto (spending reviews) por resolución ministerial, como parte de la programación multianual del DL 1440.",
-      "etapa": "2031-2036",
-      "que": "Cada año el MEF elige tres a cinco áreas grandes de gasto (por ejemplo, planillas por régimen, bienes y servicios de oficinas administrativas, mantenimiento de infraestructura, programas sociales) y hace una revisión de gasto con datos de la Consulta Amigable, el aplicativo de recursos humanos (AIRHSP) y las compras públicas. La revisión identifica ahorros (alquileres, consultorías recurrentes, duplicidad de sistemas) y gastos que faltan (mantenimiento de obras ya construidas). Los resultados se publican y entran al proyecto de ley de presupuesto, con metas de reasignación hacia inversión y mantenimiento.",
+      "por_que_ley": "No necesita ley: el MEF puede institucionalizar las revisiones de gasto (spending reviews) y el anexo de marco fiscal por resolución ministerial, dentro de la programación multianual del DL 1440 y del Marco Macroeconómico Multianual (MMM). El registro de contingencias amplía reportes que el MEF ya elabora (Informe Anual de Deuda Pública y seguimiento del tope de compromisos de APP de la Ley 32441). La regla de que ninguna ley con gasto permanente se aprueba sin fuente ya tiene base en el art. 79 de la Constitución.",
+      "etapa": "2026-2031",
+      "que": "Esta agenda tiene un costo que no cabe solo con buena voluntad. El MMM 2026-2029 baja el déficit de 2,2 % del PBI (2025) a 1,8 % (2026), 1,4 % (2027) y 1,0 % (2028-2029) por el lado del gasto corriente, y el Consejo Fiscal advierte que las leyes con impacto fiscal reducen considerablemente el espacio disponible (Comunicado 03-2026-CF). Por eso esta acción hace dos cosas. (1) Revisiones de gasto: cada año el MEF revisa tres a cinco áreas grandes (planillas por régimen, consultorías recurrentes, alquileres, duplicidad de sistemas, mantenimiento de obras ya construidas) con la Consulta Amigable, el AIRHSP y las compras públicas, y publica los ahorros y su reasignación en el proyecto de presupuesto. (2) Un marco fiscal de la agenda, publicado como anexo del MMM: (a) un techo indicativo de gasto permanente nuevo, neto de ahorros, por etapa; para 2026-2031 la revisión propone no más de 0,3 a 0,5 puntos del PBI salvo que se identifiquen ingresos permanentes, y para las etapas siguientes el techo se fija en cada MMM según el crecimiento de esos ingresos; (b) una regla de prelación: ninguna acción con gasto permanente entra a la ley de presupuesto sin fuente identificada y sin informe previo del MEF; (c) las fuentes de ingreso permanente con su rendimiento esperado: menor gasto tributario (S/ 26 350 millones en 2026, 76,8 % por IGV, según el MMM), impuesto predial, revisiones de gasto y migración del APNOP (EST-04), y una senda indicativa de presión tributaria (la meta de presión tributaria del sector economía: ≈ 14,6 % del PBI en 2025, por verificar, hacia 16 % en 2031, 17,5 % en 2036, 19 % en 2046 y 20 % en 2056). El gasto grande queda condicionado a esas fuentes: la senda de EDU-16 hacia 6 % del PBI en educación costaría unos S/ 19 000-20 000 millones anuales al completarse (cálculo propio de la revisión) y solo avanza al ritmo de lo que rindan el menor gasto tributario (ECP-03, ECP-25, ECP-26, MIN-24), las revisiones de gasto de esta acción y la mayor presión tributaria; (d) un registro público de pasivos contingentes: laudos y arbitrajes (por ejemplo, el laudo CIADI de la Línea 2 del Metro de Lima, de más de US$ 200 millones según la prensa, y los laudos del Metropolitano por S/ 800 millones), garantías y compromisos contingentes (como los de hasta US$ 2 000 millones del DU 003-2026 para Petroperú y las garantías parciales que proponen ECP-22 con COFIDE, AGR-14 para el crédito agrario y TRA-11 para la renovación de flota), APP cofinanciadas que cuentan contra el tope de 12 % del PBI de compromisos firmes y contingentes (art. 31 de la Ley 32441) y empresas públicas.",
       "evidencia": "Las revisiones de gasto son práctica habitual en países de la OCDE para reasignar dentro de techos fiscales; en el Perú, el gasto corriente presiona el techo de la regla fiscal y el mantenimiento de la infraestructura suele quedar sin financiar (por verificar con cifras de la DGPP).",
-      "entrega": "Informe público anual de revisión de gasto con ahorros identificados y su reasignación en la ley de presupuesto.",
+      "entrega": "Primera revisión de gasto (planillas por régimen y consultorías recurrentes) publicada con el proyecto de presupuesto 2028; anexo anual de marco fiscal de la agenda en cada MMM con techo de gasto permanente nuevo por etapa, fuentes de ingreso permanente y senda de presión tributaria; registro público de pasivos contingentes (laudos, garantías, APP y empresas públicas) actualizado cada año.",
       "responsable": "MEF",
       "entidades": [
         {
@@ -457,36 +506,70 @@
         {
           "sigla": "Consejo Fiscal",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "CGR",
+          "rol": "supervisora"
         }
       ],
-      "financiamiento": "Presupuesto del MEF.",
-      "costo_referencial": "no estimado",
-      "indicador": "Ahorro identificado y reasignado por año (S/); % del gasto de capital destinado a mantenimiento.",
+      "financiamiento": "Presupuesto del MEF; no crea gasto nuevo significativo. Sus ahorros financian el tránsito al servicio civil (EST-10).",
+      "costo_referencial": "no estimado (equipos existentes del MEF)",
+      "indicador": "Ahorro identificado y reasignado por año (S/); gasto permanente nuevo aprobado sin fuente identificada (meta: 0); valor de pasivos contingentes registrados y % del tope de 12 % del PBI usado en APP; % del gasto de capital destinado a mantenimiento.",
       "depende_de": [
         "EST-04"
       ],
-      "riesgo": "Que la revisión se use solo para recortar en crisis, o que los ahorros se pierdan en gasto corriente nuevo.",
+      "riesgo": "Que la revisión se use solo para recortar en crisis, que los ahorros se pierdan en gasto corriente nuevo, o que el Congreso siga aprobando leyes con costo permanente sin fuente: el Consejo Fiscal las suma en más de S/ 23 000 millones anuales desde 2025 (según la prensa, con base en su informe sobre el MMM 2026-2029).",
       "fuentes": [
         {
           "titulo": "MEF – Consulta Amigable",
           "url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx"
+        },
+        {
+          "titulo": "Consejo Fiscal, Comunicado 03-2026-CF (mayo de 2026)",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2026/05/Comunicado-03-2026-CF-LP-Derecho.pdf"
+        },
+        {
+          "titulo": "Ley 32441, promoción de la inversión privada mediante APP y proyectos en activos",
+          "url": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
         }
       ],
       "pedn": [
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Revisión de gasto debe empezar en 2026-2031",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Marco fiscal transversal: techos, ingresos permanentes y contingencias",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Meta de presión tributaria ausente",
+          "decision": "aplicado como senda indicativa en el marco fiscal; la meta formal corresponde a economia.json"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "EDU-16 condicionado a fuentes y garantías como contingencias",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-07",
       "titulo": "Terminar las obras paralizadas con un plan nacional priorizado y fondo de culminación",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "No necesita ley nueva: la Ley 31589 y su TUO (DS 206-2024-EF), con el procedimiento especial del DL 1636, ya permiten inventariar, priorizar y contratar saldos de obra; el fondo se arma por ley anual de presupuesto y reasignación del FIDT.",
+      "por_que_ley": "No necesita ley nueva: la Ley 31589 y su TUO (DS 206-2024-EF), con el procedimiento especial del DL 1636, ya permiten inventariar, priorizar y contratar saldos de obra; el fondo se arma con una ventana de saldos de obra en las bases del concurso anual del FIDT (DS del MEF, DL 1435), más reasignaciones de la ley anual de presupuesto.",
       "etapa": "2026-2031",
-      "que": "A marzo de 2025 la CGR registraba 2572 obras paralizadas por más de S/ 43 163 millones, 71,8 % de gobiernos locales. Se propone un plan nacional que (1) clasifique cada obra en terminable, reformulable o inviable, con dictamen técnico; (2) priorice las de mayor avance y servicio crítico (agua, salud, escuelas); (3) financie saldos con un fondo concursable de culminación administrado por el MEF dentro del FIDT, con contratos de saldo de obra y supervisión independiente; y (4) cierre formalmente y registre en Invierte.pe las inviables, con deslinde de responsabilidades. Es el marco nacional: las acciones sectoriales de obras paralizadas (salud SAL-04, agua AGU-17) se ejecutan dentro de este plan; se complementa con el control concurrente por riesgo (EST-15).",
+      "que": "A marzo de 2025 la CGR registraba 2572 obras paralizadas por más de S/ 43 163 millones, 71,8 % de gobiernos locales. Se propone un plan nacional que (1) clasifique cada obra en terminable, reformulable o inviable, con dictamen técnico; (2) priorice las de mayor avance y servicio crítico (agua, salud, escuelas); (3) financie saldos con una ventana de saldos de obra dentro del concurso del FIDT (que hoy premia sobre todo proyectos nuevos) con puntaje para culminar obras con 40 % o más de avance, con contratos de saldo de obra y supervisión independiente; y (4) cierre formalmente y registre en Invierte.pe las inviables, con deslinde de responsabilidades. Es el marco nacional: las acciones sectoriales de obras paralizadas (salud SAL-04, agua AGU-17) se ejecutan dentro de este plan; se complementa con el control concurrente por riesgo (EST-15).",
       "evidencia": "Entre enero y marzo de 2025 se reactivaron 76 obras por más de S/ 1538 millones con seguimiento de INFObras y los OCI (CGR); la Ley 31589 concentra el esfuerzo en obras con 40 % o más de avance, donde el saldo es menor. La CGR identificó como causas principales el incumplimiento del contrato y la falta de recursos (plan de control preventivo, 2025).",
-      "entrega": "Inventario clasificado de todas las obras paralizadas en INFObras; al menos 1000 obras culminadas y en servicio hacia 2031; las inviables cerradas con informe público.",
+      "entrega": "Inventario clasificado de todas las obras paralizadas en INFObras, con saldo de obra estimado para cada obra terminable publicado en 2027 (el fondo se dimensiona con ese saldo); al menos 1000 obras culminadas y en servicio hacia 2031; las inviables cerradas con informe público.",
       "responsable": "MEF-DGPMI",
       "entidades": [
         {
@@ -510,8 +593,8 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "FIDT, reasignaciones de la ley anual de presupuesto, recursos de los pliegos titulares y Obras por Impuestos (Ley 29230) para saldos.",
-      "costo_referencial": "no estimado (el valor total de las obras, S/ 43 163 millones, no equivale al saldo por ejecutar, que debe calcularse obra por obra)",
+      "financiamiento": "Ventana de saldos de obra en las bases del concurso FIDT (DS del MEF, DL 1435, art. 3) con puntaje a la culminación de obras con 40 % o más de avance; reasignaciones de la ley anual de presupuesto; recursos de los pliegos titulares y Obras por Impuestos (Ley 29230) para saldos.",
+      "costo_referencial": "Saldo agregado por calcular en 2027 con INFObras: no hay cifra oficial del saldo (el valor total de las obras, S/ 43 163 millones, no equivale al saldo por ejecutar). Regla: el fondo financia solo saldos con expediente revisado y cubre como máximo el saldo contractual más 15 % de contingencia; el resto lo aporta el pliego titular.",
       "indicador": "N.º de obras paralizadas en INFObras (línea de base 2572, marzo de 2025); obras culminadas y en servicio por año.",
       "depende_de": [
         "EST-13"
@@ -549,6 +632,16 @@
           "rol": "jurista",
           "hallazgo": "Dependencia invertida con SAL-04 y ciclo con EST-15",
           "decision": "aplicado: queda solo EST-13; SAL-04 y AGU-17 dependen de EST-07"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "FIDT es concursable: ventana de saldos de obra",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Saldo de obra en 2027 y tope de contingencia",
+          "decision": "aplicado"
         }
       ]
     },
@@ -665,9 +758,9 @@
       "titulo": "Completar el tránsito de las entidades a la Ley del Servicio Civil con calendario",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "parcial",
-      "por_que_ley": "El tránsito ya está mandado por la Ley 30057 y su reglamento; SERVIR puede fijar etapas por resolución. Es parcial porque financiar la nueva escala y fijar un plazo final obligatorio con consecuencias requiere ley de presupuesto o una modificación de la Ley 30057, de iniciativa del Ejecutivo (art. 79 de la Constitución).",
+      "por_que_ley": "El tránsito ya está mandado por la Ley 30057 y su reglamento, y el DL 1602 (diciembre de 2023) obligó a las entidades del Poder Ejecutivo (entre 174 y 176) a transitar en un plazo de hasta 270 días desde enero de 2024, con cuadro de puestos aprobado por SERVIR y el MEF; SERVIR publica el estado por entidad. Lo que falta no es la norma sino cumplimiento y financiamiento. Es parcial porque financiar la nueva escala y fijar consecuencias por incumplir requiere ley de presupuesto o una modificación de la Ley 30057, de iniciativa del Ejecutivo (art. 79 de la Constitución).",
       "etapa": "2026-2031",
-      "que": "La Ley 30057 (2013) previó que las entidades pasaran al nuevo régimen en seis años; el proceso avanzó muy poco. Se propone un calendario por grupos (primero ministerios y organismos rectores, luego gobiernos regionales y municipalidades provinciales), con financiamiento asegurado por el MEF, apoyo técnico de SERVIR para los mapeos de puestos y concursos, y publicación del avance por entidad. Los servidores de los regímenes 276 y 728 pueden pasar voluntariamente por concurso; los nuevos ingresos ya solo se hacen por el régimen de la Ley 30057 en las entidades que completen el tránsito. El cierre posterior de los regímenes antiguos se trata en EST-11.",
+      "que": "La Ley 30057 (2013) previó que las entidades pasaran al nuevo régimen en seis años; el proceso avanzó muy poco. El DL 1602 ya fijó plazo para el Ejecutivo; la acción consiste en financiar los cuadros de puestos y concursar plazas, con un calendario por grupos (primero ministerios y organismos rectores, luego gobiernos regionales y municipalidades provinciales), con financiamiento asegurado por el MEF, apoyo técnico de SERVIR para los mapeos de puestos y concursos, y publicación del avance por entidad. Los servidores de los regímenes 276 y 728 pueden pasar voluntariamente por concurso; los nuevos ingresos ya solo se hacen por el régimen de la Ley 30057 en las entidades que completen el tránsito. El cierre posterior de los regímenes antiguos se trata en EST-11.",
       "evidencia": "SERVIR aprobó en 2017 los lineamientos de tránsito en cuatro etapas; la segunda disposición complementaria transitoria del DL 1057 mantiene el CAS hasta que cada entidad implemente la Ley 30057. El CAS concentra cerca del 40 % de los servidores de regímenes generales (SERVIR). Chile profesionalizó su alta dirección con el Sistema de Alta Dirección Pública (Servicio Civil de Chile).",
       "entrega": "Calendario oficial de tránsito por entidad; al menos 60 % de los servidores del Gobierno Nacional en el régimen de la Ley 30057 hacia 2036.",
       "responsable": "SERVIR",
@@ -693,11 +786,13 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Presupuesto de los pliegos con transferencias del MEF por ley anual de presupuesto; costo creciente por la nueva escala que debe proyectarse en el Marco Macroeconómico Multianual.",
-      "costo_referencial": "no estimado (depende de la escala salarial y de cuántos servidores pasen; debe calcularlo el MEF con el AIRHSP)",
+      "financiamiento": "Presupuesto de los pliegos con transferencias del MEF por ley anual de presupuesto, financiadas con lo que liberen las revisiones de gasto (EST-06) y el cierre de plazas CAS y consultorías.",
+      "costo_referencial": "Banda a calcular por el MEF con el AIRHSP antes del calendario: (servidores que transitan por grupo) × (diferencia entre su remuneración actual y la banda de la Ley 30057). No hay estimación oficial pública reciente. Como referencia de escala, el MEF costeó en S/ 405 millones anuales un incremento mensual para directivos y funcionarios en 2022. Regla: el costo anual incremental no supera lo liberado por las revisiones de gasto (EST-06) y por el cierre de plazas CAS y de consultorías; la meta de 60 % al 2036 se escalona según esa restricción.",
       "indicador": "% de servidores en el régimen de la Ley 30057; n.º de entidades con tránsito culminado.",
-      "depende_de": [],
-      "riesgo": "Costo fiscal y oposición sindical; tránsito formal sin concursos reales de mérito.",
+      "depende_de": [
+        "EST-06"
+      ],
+      "riesgo": "Costo fiscal y oposición sindical; tránsito formal sin concursos reales de mérito. Si se financia con déficit, choca con la senda del Marco Macroeconómico Multianual. Hay proyectos de ley que buscan derogar el DL 1602 y devolverían el tránsito a voluntario.",
       "fuentes": [
         {
           "titulo": "SERVIR – Lineamientos para el tránsito al régimen de la Ley 30057",
@@ -721,6 +816,16 @@
         {
           "rol": "jurista",
           "hallazgo": "Depende de EST-11, de etapa posterior (ciclo)",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Citar el DL 1602 y su plazo de tránsito",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Banda de costo y regla de financiamiento neto",
           "decision": "aplicado"
         }
       ]
@@ -754,7 +859,7 @@
           "rol": "reguladora"
         }
       ],
-      "financiamiento": "Presupuesto de personal de cada pliego; el costo se programa en el Marco Macroeconómico Multianual.",
+      "financiamiento": "Presupuesto de personal de cada pliego. La ley incluye la cláusula de que todo ingreso nuevo por la Ley 30057 se financia con la plaza CAS o 276 que se extingue (costo neto cero por plaza), y el informe previo del MEF (art. 79 de la Constitución) cuantifica el costo de la escala por quinquenio. El Consejo Fiscal advierte que las leyes con costo permanente aprobadas desde 2025 ya superan S/ 23 000 millones anuales (según la prensa, con base en su informe sobre el MMM 2026-2029).",
       "costo_referencial": "no estimado",
       "indicador": "% de ingresos nuevos al Estado por concurso en el régimen de la Ley 30057; % de servidores en CAS.",
       "deroga_o_simplifica": [
@@ -812,6 +917,11 @@
           "rol": "deroga-B",
           "hallazgo": "Según el fallo del TC, el art. 4 de la Ley 31131 no subsiste",
           "decision": "aplicado: la norma a modificar es el DL 1057 en lo modificado por la Ley 31131 que subsiste"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Regla de costo neto cero por plaza",
+          "decision": "aplicado"
         }
       ]
     },
@@ -822,9 +932,9 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley: el Cuerpo de Gerentes Públicos existe (DL 1024) y la Ley 30057 regula el grupo directivo; SERVIR puede convocar y asignar con el presupuesto de los pliegos. Los requisitos mínimos para cargos de confianza ya están en la Ley 31419.",
       "etapa": "2026-2031",
-      "que": "Duplicar en cinco años el número de gerentes públicos asignados y priorizar puestos críticos: directores de hospitales y redes de salud, unidades de gestión educativa, oficinas de abastecimiento, de presupuesto y de inversiones de gobiernos regionales y municipalidades provinciales. Cada gerente firma un convenio con metas públicas y se evalúa por resultados. En paralelo, que al menos la mitad de los directivos de cada ministerio se elija por concurso en el régimen de la Ley 30057, con perfiles publicados y verificación previa de requisitos.",
+      "que": "Pasar de alrededor de 113 gerentes públicos asignados (de 409 en el Cuerpo, según SERVIR; fecha del dato por verificar) a 400 hacia 2031, con unas 100 nuevas convocatorias por año y cofinanciamiento SERVIR-pliego de la remuneración, que hoy es la barrera, y priorizar puestos críticos: directores de hospitales y redes de salud, unidades de gestión educativa, oficinas de abastecimiento, de presupuesto y de inversiones de gobiernos regionales y municipalidades provinciales. Cada gerente firma un convenio con metas públicas y se evalúa por resultados. En paralelo, que al menos la mitad de los directivos de cada ministerio se elija por concurso en el régimen de la Ley 30057, con perfiles publicados y verificación previa de requisitos.",
       "evidencia": "SERVIR reportó un banco de alrededor de 400 gerentes públicos listos para ser asignados (Andina; año por verificar). Chile, con su Sistema de Alta Dirección Pública, selecciona por concurso a la mayoría de los directivos de servicios públicos (Servicio Civil de Chile).",
-      "entrega": "Al menos 800 gerentes públicos asignados con convenio de metas hacia 2031; 50 % de directivos de ministerios seleccionados por concurso.",
+      "entrega": "400 gerentes públicos asignados con convenio de metas hacia 2031 (línea base ≈ 113 asignados de 409 en el Cuerpo); 50 % de directivos de ministerios seleccionados por concurso.",
       "responsable": "SERVIR",
       "entidades": [
         {
@@ -844,7 +954,7 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Presupuesto de SERVIR (selección) y de los pliegos que reciben gerentes (remuneración), con cofinanciamiento previsto por ley anual de presupuesto.",
+      "financiamiento": "Presupuesto de SERVIR (selección) y de los pliegos que reciben gerentes (remuneración), con un monto anual de cofinanciamiento SERVIR-pliego aprobado en la Ley Anual de Presupuesto.",
       "costo_referencial": "no estimado",
       "indicador": "N.º de gerentes públicos asignados y con convenio vigente; % de directivos seleccionados por concurso; cumplimiento de metas de los convenios.",
       "depende_de": [
@@ -865,7 +975,14 @@
         "AE4.5.3",
         "AE4.5.6"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Meta de 800 gerentes reducida a 400 con línea base",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-13",
@@ -985,9 +1102,9 @@
       "titulo": "Enfocar el control concurrente en riesgos y proteger la decisión técnica razonable",
       "tipo": "ley",
       "necesita_ley": "si",
-      "por_que_ley": "Modifica la Ley 27785, Ley Orgánica del Sistema Nacional de Control (ley orgánica), y la Ley 31358 de control concurrente; las reglas de responsabilidad administrativa funcional tienen reserva de ley.",
+      "por_que_ley": "Modifica la Ley 27785, Ley Orgánica del Sistema Nacional de Control (ley orgánica), y la Ley 31358 de control concurrente; las reglas de responsabilidad administrativa funcional tienen reserva de ley. Las infracciones de responsabilidad administrativa funcional están tipificadas en el art. 46 de la Ley 27785 según la Ley 31288, tras las sentencias del Tribunal Constitucional en los Exps. 0020-2015-PI/TC y 00026-2021-PI/TC, que expulsaron infracciones por falta de tipicidad. La regla de decisión técnica razonable se incorpora ahí como causal expresa de exclusión de responsabilidad, con tipicidad suficiente (principios de legalidad y tipicidad del art. 248 del TUO de la Ley 27444).",
       "etapa": "2026-2031",
-      "que": "El control concurrente se aplica hoy a toda inversión pública de más de S/ 5 millones y se financia con hasta 2 % de su valor (Ley 31358, modificada por la Ley 31640); además es vinculante (Ley 31500). Se propone: (1) asignarlo por nivel de riesgo y no solo por monto, (2) fijar plazos máximos para que la CGR emita sus informes de hito y publicarlos, (3) medir su efecto en plazos y costos de las obras controladas, y (4) una regla de decisión técnica razonable: no hay responsabilidad administrativa cuando el funcionario decidió dentro de sus competencias, con informe técnico y procedimiento documentado, aunque el resultado no sea el esperado. Sin impunidad para el dolo ni la negligencia grave. Se complementa con el plan de obras paralizadas (EST-07).",
+      "que": "El control concurrente se aplica hoy a toda inversión pública de más de S/ 5 millones y se financia con hasta 2 % de su valor (Ley 31358, modificada por la Ley 31640); además es vinculante (Ley 31500). Se propone: (1) asignarlo por nivel de riesgo y no solo por monto, (2) fijar plazos máximos para que la CGR emita sus informes de hito y publicarlos, (3) medir su efecto en plazos y costos de las obras controladas y su relación beneficio-costo, y (4) una regla de decisión técnica razonable: no hay responsabilidad administrativa cuando el funcionario decidió dentro de sus competencias, con informe técnico y procedimiento documentado, aunque el resultado no sea el esperado. Sin impunidad para el dolo ni la negligencia grave. Se complementa con el plan de obras paralizadas (EST-07).",
       "evidencia": "La CGR reconoció límites operativos para cubrir las obras paralizadas (Gestión). El control concurrente permite corregir durante la ejecución, pero su efecto en plazos no se ha evaluado de forma independiente (por verificar). La protección de la decisión técnica razonable sigue el criterio de la regla de juicio empresarial aplicada a la gestión pública.",
       "entrega": "Ley modificatoria aprobada; matriz pública de riesgo para asignar el control concurrente; evaluación independiente de su efecto publicada cada dos años.",
       "responsable": "CGR",
@@ -1011,7 +1128,7 @@
       ],
       "financiamiento": "Rubro de control concurrente ya previsto en el costo de las inversiones (hasta 2 % del valor, Ley 31358).",
       "costo_referencial": "no estimado",
-      "indicador": "Plazo promedio de los informes de hito; variación de plazos y costos en obras con control concurrente frente a obras similares sin él; n.º de funcionarios sancionados por decisiones técnicas documentadas.",
+      "indicador": "Plazo promedio de los informes de hito; variación de plazos y costos en obras con control concurrente frente a obras similares sin él; n.º de funcionarios sancionados por decisiones técnicas documentadas.; costo anual del control concurrente (S/) frente a sobrecostos y adicionales evitados en las obras controladas, publicado por la CGR.",
       "depende_de": [],
       "riesgo": "Que la regla de protección se use para encubrir decisiones arbitrarias, o que el control por riesgo se perciba como debilitamiento de la CGR.",
       "fuentes": [
@@ -1022,18 +1139,37 @@
         {
           "titulo": "La CGR ve reducida su capacidad operativa (Gestión)",
           "url": "https://gestion.pe/economia/contraloria-ve-reducida-su-capacidad-operativa-a-mas-de-la-mitad-y-problemas-para-controlar-obras-paralizadas-noticia/"
+        },
+        {
+          "titulo": "Tribunal Constitucional, Exp. 00026-2021-PI/TC, Caso potestad sancionadora de la Contraloría II",
+          "url": "https://www.tc.gob.pe/jurisprudencia/2024/00026-2021-AI.pdf"
         }
       ],
       "pedn": [
         "AE4.5.6",
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": [],
+      "deroga_o_simplifica": [
+        {
+          "norma": "Ley 31288, que tipifica las conductas infractoras en materia de responsabilidad administrativa funcional (art. 46 de la Ley 27785)",
+          "motivo": "Modificarla para incorporar la decisión técnica razonable como causal expresa de exclusión de responsabilidad, con tipicidad suficiente."
+        }
+      ],
       "revision_atendida": [
         {
           "rol": "jurista",
           "hallazgo": "Ciclo EST-07 <-> EST-15",
           "decision": "aplicado: se quita la dependencia; queda como complemento en el texto"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Ley 31288 y tipicidad según STC 00026-2021-PI/TC",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Comparar costo del control con sobrecostos evitados",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1100,7 +1236,7 @@
       "necesita_ley": "no",
       "por_que_ley": "No necesita ley: la Ley 27806 de transparencia y la apertura por defecto de datos del Estado permiten publicar estos datos; la interoperabilidad la conduce la PCM (remite a DIG-13). Los datos personales sensibles se protegen según la Ley 29733.",
       "etapa": "2026-2031",
-      "que": "Una plataforma pública que une en un solo lugar, con identificadores comunes (RUC, DNI de funcionarios en cargos públicos), los datos de planillas (AIRHSP), contrataciones (OCDS), obras (INFObras), sanciones administrativas y penales, declaraciones juradas de intereses y aportes de campaña. Permite ver, por ejemplo, si un proveedor tiene como socio a un funcionario de la entidad que le compra, o si un sancionado sigue contratando. Se publica con metodología abierta y vías de corrección.",
+      "que": "Una plataforma pública que une en un solo lugar, con identificadores comunes que se cruzan solo internamente (RUC y DNI), los datos de planillas (AIRHSP), contrataciones (OCDS), obras (INFObras), sanciones administrativas y penales, declaraciones juradas de intereses y aportes de campaña. Permite ver, por ejemplo, si un proveedor tiene como socio a un funcionario de la entidad que le compra, o si un sancionado sigue contratando. La publicación muestra nombre, cargo y entidad, nunca el número de DNI, y solo de funcionarios en ejercicio y proveedores del Estado, no de familiares. Cada alerta se califica como indicio, no como hallazgo, y se valida antes de publicarse; hay un procedimiento de rectificación con respuesta en 10 días (Ley 29733) y una bitácora pública de correcciones; las sanciones prescritas o anuladas se eliminan. Si usa puntuación automatizada de riesgo, se inscribe en el Registro de Algoritmos Públicos (DIG-04). Se publica con metodología abierta.",
       "evidencia": "Brasil, con el Portal da Transparência de la CGU, integra gasto, contratos y sanciones; en el Perú ya existen las piezas por separado (MEF, OECE, CGR, SERVIR, JNE). El 58,7 % de la población considera la corrupción el principal problema del país (INEI, 2026).",
       "entrega": "Plataforma abierta con al menos seis fuentes integradas y descarga masiva; informe semestral de hallazgos derivados a los OCI.",
       "responsable": "PCM-SGTD",
@@ -1148,7 +1284,19 @@
         "AE4.5.5",
         "AE4.5.6"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "No publicar el DNI de funcionarios",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Sin familiares, indicios y rectificación en 10 días",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-18",
@@ -1157,7 +1305,7 @@
       "necesita_ley": "si",
       "por_que_ley": "La distribución de competencias está en leyes orgánicas (Ley 27783 de Bases de la Descentralización, Ley 27867 de Gobiernos Regionales, Ley 27972 de Municipalidades) y la acreditación en la Ley 28273; cambiarlas exige ley, y en el caso de leyes orgánicas votación calificada.",
       "etapa": "2031-2036",
-      "que": "Para cada función compartida (salud, educación, agua, transporte, ambiente) elaborar una matriz que diga qué decide el nivel nacional, qué ejecuta el regional y qué presta el municipio, con sus recursos. Las Leyes de Organización y Funciones de cada ministerio se ajustan a esa matriz. La acreditación de la Ley 28273, que vinculó la transferencia a requisitos formales y se flexibilizó en la práctica, se reemplaza por un sistema de certificación de capacidades por función, con acompañamiento y posibilidad de devolución temporal de funciones cuando un gobierno no puede prestarlas.",
+      "que": "Para cada función compartida (salud, educación, agua, transporte, ambiente) elaborar una matriz que diga qué decide el nivel nacional, qué ejecuta el regional y qué presta el municipio, con sus recursos. Las Leyes de Organización y Funciones de cada ministerio se ajustan a esa matriz. La acreditación de la Ley 28273, que vinculó la transferencia a requisitos formales y se flexibilizó en la práctica, se reemplaza por un sistema de certificación de capacidades por función, con acompañamiento y, solo de forma excepcional, delegación temporal de la función al nivel regional o nacional a pedido o con acuerdo del gobierno que no puede prestarla, con causales tasadas, plazo máximo y plan de recuperación de capacidades, regulada en la propia ley orgánica. La descentralización es política permanente y obligatoria (art. 188 de la Constitución; Ley 27783, art. 4): no se recentraliza. Toda delegación garantiza la continuidad del servicio, y las matrices que redistribuyan funciones de educación intercultural bilingüe, salud intercultural o titulación de comunidades se consultan con las organizaciones indígenas (Ley 29785).",
       "evidencia": "La Defensoría del Pueblo advirtió que las transferencias se hicieron con un sistema de acreditación flexibilizado y sin recursos ni capacidades suficientes (Informe 141). Los gobiernos locales concentran el 71,8 % de las obras paralizadas (CGR, 2025).",
       "entrega": "Matrices de competencias aprobadas para cinco funciones prioritarias; ley que sustituye la Ley 28273 por la certificación de capacidades.",
       "responsable": "PCM-SD",
@@ -1193,7 +1341,7 @@
       "deroga_o_simplifica": [
         {
           "norma": "Ley 28273, Ley del Sistema de Acreditación de los Gobiernos Regionales y Locales",
-          "motivo": "Sustituirla por un sistema de certificación de capacidades por función, con acompañamiento y devolución temporal de funciones."
+          "motivo": "Sustituirla por un sistema de certificación de capacidades por función, con acompañamiento y delegación temporal excepcional y consentida de funciones."
         }
       ],
       "depende_de": [
@@ -1218,6 +1366,16 @@
           "rol": "cifras",
           "hallazgo": "URLs del Congreso rotas (404)",
           "decision": "aplicado: subdominio www3"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Sin recentralizar: delegación excepcional por ley orgánica",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Continuidad del servicio y consulta previa en matrices",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1228,7 +1386,7 @@
       "necesita_ley": "si",
       "por_que_ley": "La distribución del canon está en la Ley 27506 (Ley de Canon) y en leyes específicas; cambiar porcentajes, crear un fondo de estabilización o permitir su uso en mantenimiento exige ley. Por su efecto fiscal, la iniciativa debe ser del Ejecutivo (art. 79 de la Constitución).",
       "etapa": "2031-2036",
-      "que": "En 2025 el Tesoro transfirió S/ 17 551 millones por canon, sobrecanon, regalías y otros recursos, S/ 11 828 millones a municipios (DIP del Congreso con datos del MEF). Los ingresos suben y bajan con los precios de los minerales y se concentran en pocos distritos. Se propone: un fondo regional de estabilización que ahorre en años de precios altos y complete en años bajos, registrado en subcuentas a nombre de cada gobierno regional y local beneficiario, que conservan la titularidad (art. 77 de la Constitución); una porción redistribuida a distritos vecinos pobres del mismo departamento; ampliar y hacer permanente el uso de una parte en operación y mantenimiento de la infraestructura ya construida (la Ley 27506 y las leyes de presupuesto ya lo permiten en parte; porcentaje vigente por verificar); y trazabilidad pública del sol transferido hasta la obra (GOB-22).",
+      "que": "En 2025 el Tesoro transfirió S/ 17 551 millones por canon, sobrecanon, regalías y otros recursos, S/ 11 828 millones a municipios (DIP del Congreso con datos del MEF). Los ingresos suben y bajan con los precios de los minerales y se concentran en pocos distritos. Se propone: un fondo regional de estabilización que ahorre en años de precios altos y complete en años bajos, registrado en subcuentas a nombre de cada gobierno regional y local beneficiario, que conservan la titularidad (art. 77 de la Constitución), con una regla fija: se ahorra el exceso de la transferencia anual sobre el promedio móvil de los últimos cinco años (precio de referencia del MEF) y se retira hasta cerrar la mitad de la caída cuando la transferencia baja de ese promedio; el saldo se invierte en instrumentos del Tesoro y se publica cada trimestre (el Fondo de Estabilización Fiscal nacional se agotó en 2020-2021 por falta de reglas así); una porción redistribuida a distritos vecinos pobres del mismo departamento; ampliar y hacer permanente el uso de una parte en operación y mantenimiento de la infraestructura ya construida (las leyes anuales de presupuesto, incluida la Ley 32513 para 2026, autorizan hasta 20 % del canon, sobrecanon y regalía minera en mantenimiento de infraestructura y equipos, y la de 2026 lo extiende a seguridad ciudadana; se propone llevarlo a la Ley 27506 de forma permanente y elevarlo a 30 % para distritos con obras concluidas sin operar); y trazabilidad pública del sol transferido hasta la obra (GOB-22).",
       "evidencia": "Chile y otros países mineros usan fondos de estabilización para suavizar ingresos volátiles. En el Perú, los distritos con más canon suelen tener carteras grandes y obras paralizadas, porque la capacidad no sigue al dinero (CGR, MEF).",
       "entrega": "Ley aprobada; fondo regional de estabilización operando; tablero de trazabilidad del canon por distrito.",
       "responsable": "MEF",
@@ -1287,6 +1445,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Uso en mantenimiento quizá ya permitido",
           "decision": "aplicado: redactado como ampliar y hacer permanente, por verificar"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "El 20 % para mantenimiento ya está en Ley 32513",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Regla de ahorro y retiro del fondo",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1674,11 +1842,11 @@
       "titulo": "Integrar los sistemas administrativos del Estado en una sola columna de datos",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "No necesita ley: los rectores (MEF, OECE, SERVIR, CGR, PCM) pueden interoperar sus sistemas por convenio y directiva en el marco del Sistema Nacional de Transformación Digital; las reglas de procedimiento digital y solo una vez se tramitan en DIG-04.",
-      "etapa": "2036-2046",
-      "que": "Hoy una misma obra o contrato se registra por separado en Invierte.pe, el SIAF, el SEACE, INFObras y los sistemas de personal. Se propone un identificador único por inversión, contrato, proveedor y servidor, compartido por todos los sistemas, para que el dato se cargue una vez y fluya. Se aplica primero a las municipalidades con menos capacidad mediante servicios digitales compartidos (DIG-11, GOB-08). Este sector no duplica la agenda digital: remite a DIG-04 (procedimiento digital), DIG-11 (Estado digital municipal) y DIG-13 (datos abiertos y cumplimiento).",
+      "por_que_ley": "No necesita ley: los rectores (MEF, OECE, SERVIR, CGR, PCM) pueden fijar por directiva conjunta el uso obligatorio de identificadores que ya existen e interoperar sus sistemas en el marco del Sistema Nacional de Transformación Digital; la norma habilitante de interoperabilidad y solo una vez es GOB-01, que se tramita en DIG-04.",
+      "etapa": "2031-2036",
+      "que": "Hoy una misma obra o contrato se registra por separado en Invierte.pe, el SIAF, el SEACE, INFObras y los sistemas de personal. Los identificadores ya existen: el CUI de Invierte.pe para cada inversión, el RUC para cada proveedor y el DNI para cada servidor, y el SIAF y el SEACE ya intercambian datos. Fase 1 (2031-2036): una directiva conjunta de los rectores hace obligatorios el CUI, el RUC y el DNI como claves en Invierte.pe, SIAF, SEACE, INFObras y AIRHSP, con un código común de contrato. Fase 2 (hacia 2040): carga única de datos para todas las municipalidades, para que el dato se cargue una vez y fluya. Se aplica primero a las municipalidades con menos capacidad mediante servicios digitales compartidos (DIG-11, GOB-08). Este sector no duplica la agenda digital: remite a DIG-04 (procedimiento digital), DIG-11 (Estado digital municipal) y DIG-13 (datos abiertos y cumplimiento).",
       "evidencia": "La interoperabilidad con registro único reduce carga administrativa y errores, como muestran X-Road en Estonia y el principio de solo una vez recogido en DIG-04. Las piezas peruanas ya existen pero no comparten identificadores.",
-      "entrega": "Identificador único compartido por Invierte.pe, SIAF, SEACE, INFObras y AIRHSP; carga única de datos para el 100 % de municipalidades hacia 2040.",
+      "entrega": "Fase 1: CUI, RUC y DNI como claves obligatorias en Invierte.pe, SIAF, SEACE, INFObras y AIRHSP por directiva conjunta (2031-2036); fase 2: carga única de datos para el 100 % de municipalidades hacia 2040.",
       "responsable": "PCM-SGTD",
       "entidades": [
         {
@@ -1727,7 +1895,14 @@
         "AE4.5.4",
         "AE4.5.3"
       ],
-      "deroga_o_simplifica": []
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Adelantar a 2031-2036 con CUI, RUC y DNI existentes",
+          "decision": "aplicado"
+        }
+      ]
     },
     {
       "id": "EST-27",
@@ -1762,9 +1937,9 @@
           "rol": "beneficiaria"
         }
       ],
-      "financiamiento": "Incentivos con cargo a recursos adicionales del FIDT o del Tesoro aprobados en la Ley de Presupuesto a propuesta del Ejecutivo; si se usa el FONCOMUN, solo mediante un ajuste de índices por DS del MEF que se publica con su efecto en cada municipio. Monto por identificar.",
+      "financiamiento": "Incentivos con cargo a recursos adicionales del FIDT o del Tesoro aprobados en la Ley de Presupuesto a propuesta del Ejecutivo; si se usa el FONCOMUN, solo mediante un ajuste de índices por DS del MEF que se publica con su efecto en cada municipio. El incentivo tiene un tope equivalente a tres años del ahorro administrativo estimado por el MEF, para no repetir incentivos mayores que el ahorro.",
       "costo_referencial": "no estimado",
-      "indicador": "N.º de fusiones municipales voluntarias; % de municipalidades con escala mínima para prestar servicios básicos.",
+      "indicador": "N.º de fusiones municipales voluntarias; % de municipalidades con escala mínima para prestar servicios básicos.; ahorro administrativo anual de los municipios fusionados frente al incentivo pagado (relación ≥ 1 en cinco años).",
       "depende_de": [
         "EST-20",
         "EST-18"
@@ -1799,6 +1974,11 @@
           "rol": "cifras",
           "hallazgo": "URL del Congreso rota (404)",
           "decision": "aplicado: subdominio www3"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Tope del incentivo según ahorro administrativo",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1811,7 +1991,7 @@
       "etapa": "2046-2056",
       "que": "Hacia 2056, todo el gasto que produce bienes y servicios está en programas presupuestales con metas públicas, evaluados cada cinco años de forma independiente, y solo la deuda, las pensiones y algunas transferencias quedan fuera. Ninguna entidad o programa existe sin evaluación vigente, y el informe anual de desempeño del Estado se discute en el Congreso junto con la ley de presupuesto. El ciudadano puede ver cuánto cuesta y qué logra cada servicio.",
       "evidencia": "Es la meta lógica del presupuesto por resultados que el Perú aplica desde 2007; hoy el 51,8 % del PIM está en Acciones centrales y APNOP (MEF, 2026).",
-      "entrega": "Presupuesto con ≤ 15 % del PIM fuera de programas por resultados; 100 % de programas con evaluación independiente vigente.",
+      "entrega": "APNOP migrable reducido a ≤ 10 % de su base de 2026 (excluidos deuda, pensiones y transferencias financieras); 100 % de programas con evaluación independiente vigente.",
       "responsable": "MEF-DGPP",
       "entidades": [
         {
@@ -1833,11 +2013,12 @@
       ],
       "financiamiento": "Presupuesto del MEF.",
       "costo_referencial": "no estimado",
-      "indicador": "% del PIM en Acciones centrales + APNOP; % de programas con evaluación independiente vigente.",
+      "indicador": "APNOP migrable como % de su base de 2026 (clasificación de EST-04); % de programas con evaluación independiente vigente.",
       "depende_de": [
         "EST-04",
         "EST-05",
-        "EST-24"
+        "EST-24",
+        "EST-06"
       ],
       "riesgo": "Que los indicadores se vuelvan un fin en sí mismos y se manipulen.",
       "fuentes": [
@@ -1859,6 +2040,86 @@
           "rol": "jurista",
           "hallazgo": "EST-28 es meta final, no precondición (PRO-22)",
           "decision": "aplicado: aclarado en el texto; PRO-22 debe quitar la dependencia"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Alinear con meta de APNOP migrable",
+          "decision": "aplicado"
+        }
+      ]
+    },
+    {
+      "id": "EST-29",
+      "titulo": "Atender en lengua originaria y con accesibilidad en toda entidad, con canal de queja único",
+      "tipo": "servicio",
+      "necesita_ley": "no",
+      "por_que_ley": "No necesita ley: las obligaciones ya existen en la Ley 29735 (lenguas originarias), la Ley 29973 (accesibilidad y cuota de empleo de personas con discapacidad) y el DS 007-2020-PCM (Libro de Reclamaciones). Se ejecuta con normas de la PCM-SGP, el MINCUL y el CONADIS, y con metas en el Programa de Incentivos a la Mejora de la Gestión Municipal.",
+      "etapa": "2026-2031",
+      "que": "Que el Estado entienda y reciba a todas las personas. Cada ministerio, gobierno regional y municipalidad provincial cumple la Ley 29735 con intérpretes o personal bilingüe certificado en los distritos con población indígena u originaria, y la Ley 29973 con accesibilidad física y digital, atención en lengua de señas peruana (presencial o por video) y la cuota de empleo de 5 % de personas con discapacidad. Cada entidad publica su nivel de cumplimiento. El Libro de Reclamaciones de todas las entidades se conecta a una plataforma única en GOB.PE, con respuesta en 30 días, seguimiento por el ciudadano y auditoría de la Defensoría del Pueblo. La atención digital accesible y en lenguas se ejecuta en DIG-11.",
+      "evidencia": "La Ley 29735 y la Ley 29973 ya fijan estos derechos, pero su cumplimiento no se mide ni se publica de forma sistemática; el registro de intérpretes y traductores del MINCUL y el Sello de Accesibilidad Digital de la PCM-SGTD muestran que la oferta se puede certificar. Medir y publicar el cumplimiento por entidad es lo que permite exigirlo (cifras de cumplimiento por verificar).",
+      "entrega": "Reporte público anual de cumplimiento por entidad (lengua originaria, accesibilidad y cuota de empleo); plataforma única de reclamos en GOB.PE conectada al Libro de Reclamaciones de todas las entidades del Ejecutivo y de los gobiernos regionales al 2031.",
+      "responsable": "PCM-SGP",
+      "entidades": [
+        {
+          "sigla": "PCM-SGP",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "CONADIS",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "Defensoría del Pueblo",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "PCM-SGTD",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "Ministerios",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "GORE",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "Municipalidades",
+          "rol": "ejecutora"
+        }
+      ],
+      "financiamiento": "Presupuesto de cada entidad para intérpretes y adecuaciones; presupuesto de la PCM para la plataforma de reclamos; metas en el Programa de Incentivos a la Mejora de la Gestión Municipal (MEF).",
+      "costo_referencial": "no estimado",
+      "indicador": "% de entidades con atención en lengua originaria donde corresponde y con accesibilidad certificada; % de reclamos resueltos en plazo; % de entidades que cumplen la cuota de 5 % de empleo de personas con discapacidad.",
+      "depende_de": [
+        "DIG-11"
+      ],
+      "riesgo": "Que se cumpla en papel, con intérpretes nominales y sin presupuesto; que la plataforma de reclamos se use solo para registrar y no para corregir.",
+      "fuentes": [
+        {
+          "titulo": "Ley 29973, Ley General de la Persona con Discapacidad",
+          "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29973.pdf"
+        },
+        {
+          "titulo": "Ley 29735, Ley de lenguas originarias",
+          "url": "https://www.leyes.congreso.gob.pe/Documentos/Leyes/29735.pdf"
+        }
+      ],
+      "pedn": [
+        "AE1.5.11",
+        "AE4.5.1"
+      ],
+      "deroga_o_simplifica": [],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Ninguna acción asegura lengua, accesibilidad y queja",
+          "decision": "aplicado: nueva acción EST-29"
         }
       ]
     }
@@ -2000,6 +2261,36 @@
       "rol": "cifras",
       "hallazgo": "URLs del Congreso rotas, mover a www3",
       "decision": "aplicado"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Brecha de lengua, accesibilidad, cuota y reclamos",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Acción de atención accesible y en lengua originaria",
+      "decision": "aplicado: EST-29"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Meta de cuota de empleo de discapacidad",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "APNOP migrable en lugar de todo el bloque",
+      "decision": "aplicado"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Marco fiscal transversal (techos, presión tributaria, contingencias)",
+      "decision": "aplicado: causa en diagnóstico y acción EST-06"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Catálogo único de siglas de entidades",
+      "decision": "descartado: es transversal a 14 sectores y corresponde al líder; estado.json ya usa CGR, GORE y PCM-SGTD"
     }
   ]
 }

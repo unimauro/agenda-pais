@@ -78,7 +78,7 @@
         "url": "https://www.actualidadambiental.pe/en-dos-anos-la-mineria-aurifera-deforesto-mas-de-18-mil-hectareas-en-madre-de-dios/"
       }
     ],
-    "brechas": "Territoriales: la producción y el canon se concentran en pocas regiones; en 2025 Áncash recibió S/ 1 780 millones, el 17,9 % de las transferencias mineras, seguida de Arequipa, Moquegua y Tacna (MINEM), mientras regiones vecinas sin minas reciben poco. La minería ilegal se concentra en Madre de Dios, Puno (La Rinconada), La Libertad (Pataz), Amazonas, Loreto y Huánuco, con delitos conexos como extorsión, trata de personas y sicariato documentados por la Policía, el Ministerio Público y la Defensoría. Los pueblos indígenas amazónicos y las comunidades campesinas sufren de manera desproporcionada la contaminación por mercurio y metales pesados y la pérdida de bosques y ríos (MAAP; MINAM). Hay pocas cifras desagregadas por sexo sobre empleo y exposición; las mujeres trabajan sobre todo en la minería artesanal informal (pallaqueo) sin protección social (por verificar con el MTPE).",
+    "brechas": "Territoriales: la producción y el canon se concentran en pocas regiones; en 2025 Áncash recibió S/ 1 780 millones, el 17,9 % de las transferencias mineras, seguida de Arequipa, Moquegua y Tacna (MINEM), mientras regiones vecinas sin minas reciben poco. La minería ilegal se concentra en Madre de Dios, Puno (La Rinconada), La Libertad (Pataz), Amazonas, Loreto y Huánuco, con delitos conexos como extorsión, trata de personas y sicariato documentados por la Policía, el Ministerio Público y la Defensoría. Los pueblos indígenas amazónicos y las comunidades campesinas sufren de manera desproporcionada la contaminación por mercurio y metales pesados y la pérdida de bosques y ríos (MAAP; MINAM). Hay pocas cifras desagregadas por sexo sobre empleo y exposición; las mujeres trabajan sobre todo en la minería artesanal informal (pallaqueo) sin protección social (por verificar con el MTPE). En zonas de minería informal se documentan trabajo infantil peligroso y trata con fines de explotación sexual (Defensoría del Pueblo; Ministerio Público; magnitud por verificar).",
     "causas": [
       "Un Estado con poca presencia en las zonas mineras remotas y una formalización basada en registros prorrogables (REINFO) en lugar de control del comercio del oro y de los insumos (IPE; Contraloría).",
       "Precios internacionales del oro muy altos que hacen rentable la minería ilegal y financian a organizaciones criminales (IPE; GAFI sobre el oro como vehículo de lavado).",
@@ -101,7 +101,7 @@
       "fuente_linea_base": "Instituto Peruano de Economía"
     },
     {
-      "indicador": "Conflictos socioambientales activos vinculados a la minería",
+      "indicador": "Conflictos socioambientales activos vinculados a la minería (se reporta junto con el porcentaje de conflictos resueltos por diálogo con acuerdos cumplidos, según la Defensoría, para no premiar la sola contención)",
       "linea_base": "70 casos (julio de 2024)",
       "2031": "≤ 50",
       "2036": "≤ 35",
@@ -153,12 +153,22 @@
     {
       "indicador": "Mineros de pequeña escala formalizados (con título, permiso ambiental y autorización)",
       "linea_base": "≈ 2 295 acumulados 2014-2025 (por verificar)",
-      "2031": "15 000",
-      "2036": "25 000",
+      "2031": "8 000 (15 000 si la Ley de Presupuesto financia las DREM, MIN-05)",
+      "2036": "20 000",
       "2046": "universal en el régimen MAPE",
       "2056": "universal",
       "referencia": "PEDN 2050, AE3.3.18",
       "fuente_linea_base": "Cifras citadas en prensa con base en el MINEM"
+    },
+    {
+      "indicador": "Personas expuestas a metales pesados identificadas y con atención especializada (Ley 31189; Plan Especial Multisectorial, DS 037-2021-MINAM; sentencia Habitantes de La Oroya vs. Perú)",
+      "linea_base": "por verificar (MINSA)",
+      "2031": "60 %",
+      "2036": "100 %",
+      "2046": "100 %",
+      "2056": "100 %",
+      "referencia": "Corte IDH, Habitantes de La Oroya vs. Perú (2024): atención médica especializada, remediación y monitoreo",
+      "fuente_linea_base": "MINSA (por verificar)"
     }
   ],
   "acciones": [
@@ -316,7 +326,7 @@
           "rol": "consultiva"
         },
         {
-          "sigla": "SEGDI",
+          "sigla": "PCM-SGTD",
           "rol": "ejecutora"
         }
       ],
@@ -338,6 +348,13 @@
       "pedn": [
         "AE4.4.9",
         "AE4.5.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Sigla 'SEGDI' frente a 'PCM-SGTD'",
+          "decision": "aplicado: PCM-SGTD"
+        }
       ]
     },
     {
@@ -347,7 +364,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "El REINFO vence el 31 de diciembre de 2026 según la Ley 32537; dejarlo vencer no necesita ley y la depuración se hace por resolución del MINEM. El régimen puente para quienes ya cumplen, si la Ley MAPE no está vigente a esa fecha, sí requiere norma con rango de ley.",
       "etapa": "2026-2031",
-      "que": "El MINEM depura el registro, suspende a los inscritos sin actividad real o con actividad en zonas prohibidas (áreas naturales protegidas, cauces de ríos, zonas de amortiguamiento) y publica el padrón con coordenadas. Quienes cumplen los pasos de formalización pasan al régimen de la nueva Ley MAPE; quienes no, dejan de tener protección frente a la persecución penal. Se coordina con la SUNAT y la UIF para que el registro deje de servir como fachada para vender oro ilegal. Plan para el vacío: si la Ley MAPE no está vigente al 31 de diciembre de 2026, solo pasan a un régimen puente los inscritos que ya tengan instrumento ambiental aprobado y operen fuera de zonas prohibidas, verificado con coordenadas; el resto queda fuera. No hay prórroga general.",
+      "que": "El MINEM depura el registro, suspende a los inscritos sin actividad real o con actividad en zonas prohibidas (áreas naturales protegidas, cauces de ríos, zonas de amortiguamiento) y publica el padrón con coordenadas. Quienes cumplen los pasos de formalización pasan al régimen de la nueva Ley MAPE; quienes no, pierden la protección del registro. La suspensión y la exclusión se notifican de forma individual, con 15 días para descargos y derecho a recurso (Ley 27444). El padrón distingue a titulares comunales y a personas naturales de subsistencia, para quienes se priorizan la formalización y la reconversión; la persecución penal (art. 307-A del Código Penal) se concentra en quienes operan en zonas prohibidas, con maquinaria pesada o vinculados a organizaciones criminales. Se coordina con la SUNAT y la UIF para que el registro deje de servir como fachada para vender oro ilegal. Plan para el vacío: si la Ley MAPE no está vigente al 31 de diciembre de 2026, solo pasan a un régimen puente los inscritos que ya tengan instrumento ambiental aprobado y operen fuera de zonas prohibidas, verificado con coordenadas; el resto queda fuera. No hay prórroga general.",
       "evidencia": "El REINFO nació como registro temporal en 2016-2017 y se prorrogó varias veces; la Ley 32537 lo extendió hasta el 31 de diciembre de 2026. Según una columna con datos oficiales, al 20 de abril de 2026 había más de 31 mil inscritos vigentes y entre 2014 y 2025 apenas 2 295 culminaron su formalización (por verificar con el MINEM). El IPE y la Contraloría advierten que el registro protege a mineros ilegales.",
       "entrega": "REINFO cerrado el 31 de diciembre de 2026, padrón depurado y publicado; inscritos que cumplen trasladados al régimen MAPE.",
       "responsable": "MINEM",
@@ -369,7 +386,7 @@
           "rol": "supervisora"
         },
         {
-          "sigla": "MINISTERIO PUBLICO",
+          "sigla": "MP",
           "rol": "supervisora"
         }
       ],
@@ -415,6 +432,16 @@
           "rol": "spij",
           "hallazgo": "Citar la Ley 32537 como prórroga vigente",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla 'MINISTERIO PUBLICO' frente a 'MP'",
+          "decision": "aplicado: MP"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Exclusión sin debido procedimiento; criminaliza la subsistencia",
+          "decision": "aplicado: notificación individual, descargos y recurso; prioridad de formalización para subsistencia y persecución penal focalizada"
         }
       ]
     },
@@ -425,7 +452,7 @@
       "necesita_ley": "si",
       "por_que_ley": "La pequeña minería y la minería artesanal se regulan por la Ley 27651 y normas con rango de ley; un régimen nuevo con requisitos, sanciones y fin de la protección penal requiere ley. El Ejecutivo presentó su proyecto a la Cámara de Diputados el 19 de octubre de 2026. El proyecto se somete a consulta previa en lo que afecte directamente a comunidades campesinas y nativas (Ley 29785, art. 2), y las disposiciones que cambien las condiciones de otorgamiento de concesiones se aprueban con votación de ley orgánica (arts. 66 y 106).",
       "etapa": "2026-2031",
-      "que": "Se aprueba una ley que reemplaza el régimen actual: define la pequeña minería y la minería artesanal por capacidad real, exige título o contrato con el concesionario, instrumento ambiental, uso de agua y pago de tributos, y fija plazos máximos y no prorrogables para formalizarse. Prohíbe la minería en ríos, áreas naturales protegidas y sus zonas de amortiguamiento. Obliga a vender el oro solo a compradores registrados con trazabilidad. Quien no se formaliza en plazo queda fuera. Antes del dictamen, el Ministerio de Cultura opina sobre la afectación directa a pueblos indígenas y, si la hay, se consultan las disposiciones pertinentes.",
+      "que": "Se aprueba una ley que reemplaza el régimen actual: define la pequeña minería y la minería artesanal por capacidad real, exige título o contrato con el concesionario, instrumento ambiental, uso de agua y pago de tributos, y fija plazos máximos y no prorrogables para formalizarse. Prohíbe la minería en ríos, áreas naturales protegidas y sus zonas de amortiguamiento. Obliga a vender el oro solo a compradores registrados con trazabilidad. Quien no se formaliza en plazo queda fuera. Antes del dictamen, el Ministerio de Cultura opina sobre la afectación directa a pueblos indígenas y, si la hay, se consultan las disposiciones pertinentes. La ley reconoce a las pallaqueras y seleccionadoras de mineral como actividad de subsistencia con formalización simplificada y acceso a salud y pensión (PRO-21), reafirma la prohibición del trabajo de menores de 18 años en la minería, que es trabajo peligroso, y da a la SUNAFIL competencia para inspeccionar la pequeña minería formal.",
       "evidencia": "El proyecto del Ejecutivo propone un régimen ordinario y uno de consolidación, y crea un órgano adscrito al MINEM (El Peruano, octubre de 2026). Colombia y Ecuador muestran que la formalización funciona cuando se combina con control del comercio y de los insumos, no solo con registros (OCDE, Due Diligence Guidance for Responsible Supply Chains of Minerals). Hay que evitar que la ley sea otra amnistía.",
       "entrega": "Ley MAPE publicada al 2027 con reglamento y plazos firmes; régimen único que sustituye a la Ley 27651.",
       "responsable": "CONGRESO",
@@ -449,10 +476,14 @@
         {
           "sigla": "SUNAT",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "SUNAFIL",
+          "rol": "supervisora"
         }
       ],
-      "financiamiento": "La ley no crea gasto del Tesoro; su aplicación exige reforzar las direcciones regionales de energía y minas con transferencias del MINEM aprobadas en la Ley de Presupuesto (no estimado).",
-      "costo_referencial": "no estimado",
+      "financiamiento": "La ley no crea gasto del Tesoro. Su aplicación exige reforzar las direcciones regionales de energía y minas con transferencias del MINEM aprobadas cada año, con monto explícito, en la Ley de Presupuesto, y con tasas por trámite de formalización. Hoy el PP 0126 (formalización de la pequeña minería y la minería artesanal) tiene un PIM 2026 de ≈ S/ 15 millones para todo el país y había devengado ≈ 31 % a la fecha de corte del dato (MEF, Consulta Amigable).",
+      "costo_referencial": "Por estimar con base en los expedientes por evaluar. Orden de magnitud indicativo: equipos de evaluación y fiscalización en 10 direcciones regionales, de 15 a 25 profesionales cada una, ≈ S/ 40-80 millones anuales (cálculo propio, por validar con el MEF), frente a ≈ S/ 15 millones del PP 0126 en 2026.",
       "indicador": "Producción de oro de pequeña escala con trazabilidad formal (toneladas) frente a la estimación de oro ilegal.",
       "deroga_o_simplifica": [
         {
@@ -506,6 +537,21 @@
           "rol": "jurista",
           "hallazgo": "Ciclos con MIN-04 y MIN-11",
           "decision": "aplicado: se quitan ambos"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0126 de S/ 15 millones no alcanza para las DREM",
+          "decision": "aplicado: monto del PP 0126 y transferencia anual explícita en la Ley de Presupuesto"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo sin banda",
+          "decision": "aplicado: banda indicativa de S/ 40-80 millones anuales como cálculo propio por validar"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Pallaqueras, trabajo infantil e inspección laboral",
+          "decision": "aplicado: pallaqueras como subsistencia con protección social, prohibición del trabajo infantil y SUNAFIL; no se cita número de decreto de la lista de trabajos peligrosos por no estar verificado"
         }
       ]
     },
@@ -516,9 +562,9 @@
       "necesita_ley": "parcial",
       "por_que_ley": "Esta es la acción única de trazabilidad del oro. El registro de compradores y el control aduanero se ordenan por decreto supremo y resoluciones de la SUNAT; la obligación legal de declarar el origen del oro, la bancarización obligatoria de las compras y las sanciones penales nuevas requieren ley (remite a TAL-09 de Agenda Tech). Antes de aprobar la ley, el Ministerio de Cultura evalúa si la declaración de origen afecta directamente a comunidades campesinas o nativas que hacen minería artesanal; si las afecta, esa parte se somete a consulta previa (Ley 29785).",
       "etapa": "2026-2031",
-      "que": "Se implementa un sistema digital de trazabilidad del oro: cada productor formal declara su producción con ubicación, cada planta de beneficio y cada comprador registra lo que recibe, y la SUNAT cruza esa información con las exportaciones. Las exportaciones de oro sin origen acreditado se retienen. Se fija un límite de compras en efectivo y se exige debida diligencia a refinadores y exportadores, alineada con la guía de la OCDE. Los datos agregados se publican abiertos. Una ley establece la declaración de origen obligatoria y la bancarización de toda compra de oro; AMB-05 y SEG-12 dependen de esta acción y no repiten la trazabilidad.",
+      "que": "Se implementa la trazabilidad digital del oro sin crear un registro paralelo: el sistema integra el Registro Especial de Comercializadores y Procesadores de Oro (RECPO) que ya administra el MINEM con la factura y la guía de remisión electrónicas de la SUNAT y con las declaraciones de producción (DAC y ESTAMIN), de modo que cada lote tenga origen, planta y comprador. Cada productor formal declara su producción con ubicación, cada planta de beneficio y cada comprador registra lo que recibe, y la SUNAT cruza esa información con las exportaciones. Las exportaciones de oro sin origen acreditado se retienen. Se fija un límite de compras en efectivo y se exige debida diligencia a refinadores y exportadores, alineada con la guía de la OCDE. El dato individual de ubicación y producción es reservado (Ley 29733 y reserva tributaria) y solo se publican datos agregados por distrito. Una ley establece la declaración de origen obligatoria y la bancarización de toda compra de oro; AMB-05 y SEG-12 dependen de esta acción y no repiten la trazabilidad.",
       "evidencia": "El IPE estima que el Perú exportó unas 92 toneladas de oro ilegal en 2024, por más de US$ 6 800 millones según una de sus estimaciones y unos US$ 7 400 millones según otra (Gestión; Energiminas). El ministro de Economía dijo en 2025 que la minería ilegal equivale a cerca del 2,7 % del PBI. Sin trazabilidad, el oro ilegal se mezcla con el formal en la exportación.",
-      "entrega": "Sistema de trazabilidad operativo para el 100 % de las exportaciones de oro al 2029.",
+      "entrega": "Sistema de trazabilidad que integra el RECPO, operativo para el 100 % de las exportaciones de oro al 2029.",
       "responsable": "SUNAT",
       "entidades": [
         {
@@ -584,6 +630,16 @@
           "rol": "seguridad",
           "hallazgo": "MIN-06 absorbe ley de origen y bancarización de SEG-12",
           "decision": "aplicado: se añade la evaluación de afectación directa y, si corresponde, la consulta previa"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Ya existe el RECPO: integrarlo, no crear un registro paralelo",
+          "decision": "aplicado: el sistema integra RECPO, comprobantes y guías electrónicas de SUNAT y declaraciones DAC/ESTAMIN"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Reserva del dato individual de mineros",
+          "decision": "aplicado: dato individual reservado, solo agregados por distrito"
         }
       ]
     },
@@ -594,7 +650,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El control de insumos químicos y bienes fiscalizados ya tiene base legal (Decreto Legislativo 1126 y normas de SUCAMEC); se ejecuta con presupuesto y coordinación interinstitucional.",
       "etapa": "2026-2031",
-      "que": "La SUNAT, la SUCAMEC y el MINEM controlan las cantidades de combustible, explosivos, mercurio y químicos que se venden en las zonas de minería ilegal (Madre de Dios, Puno, Pataz, Amazonas, Loreto) con cupos por usuario formal y registros electrónicos. Se crea un registro obligatorio de dragas y maquinaria pesada con geolocalización, y la que opera sin registro en ríos o zonas prohibidas se decomisa. Las alertas satelitales de deforestación orientan los controles. La ocupación territorial sostenida con fuerza pública y fiscalía es SEG-13, que se apoya en esta acción.",
+      "que": "La SUNAT, la SUCAMEC y el MINEM controlan las cantidades de combustible, explosivos, mercurio y químicos que se venden en las zonas de minería ilegal (Madre de Dios, Puno, Pataz, Amazonas, Loreto) con cupos por usuario formal y registros electrónicos. Se crea un registro obligatorio de dragas y maquinaria pesada con geolocalización, y la que opera sin registro en ríos o zonas prohibidas se decomisa. Todo decomiso o destrucción se hace con presencia fiscal, acta con inventario fotográfico y notificación al titular, que puede impugnar; los equipos menores de personas naturales en proceso de formalización se inmovilizan y no se destruyen hasta que se resuelva su situación. Las alertas satelitales de deforestación orientan los controles. La ocupación territorial sostenida con fuerza pública y fiscalía es SEG-13, que se apoya en esta acción.",
       "evidencia": "La Operación Mercurio en La Pampa (Madre de Dios) redujo la deforestación de esa zona en 92 % en 2019, pero la minería se desplazó a otras áreas (MAAP, vía Actualidad Ambiental). La lección es que la interdicción funciona solo si es sostenida y se acompaña de control de insumos y comercio.",
       "entrega": "Registro de dragas y maquinaria operativo y cupos electrónicos de insumos en los cinco corredores priorizados al 2029.",
       "responsable": "SUNAT",
@@ -618,6 +674,10 @@
         {
           "sigla": "MINAM",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "MP",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto de la SUNAT y la SUCAMEC; bienes decomisados.",
@@ -653,6 +713,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo MIN-07 y MIN-08",
           "decision": "aplicado: se quita MIN-08"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Decomiso sin acta fiscal ni recurso",
+          "decision": "aplicado: presencia fiscal, acta, notificación, impugnación e inmovilización de equipos menores en formalización"
         }
       ]
     },
@@ -677,7 +742,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "MINISTERIO PUBLICO",
+          "sigla": "MP",
           "rol": "ejecutora"
         },
         {
@@ -685,7 +750,7 @@
           "rol": "ejecutora"
         },
         {
-          "sigla": "PODER JUDICIAL",
+          "sigla": "PJ",
           "rol": "ejecutora"
         }
       ],
@@ -716,6 +781,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclos con MIN-06 y MIN-07; solapa SEG-12",
           "decision": "aplicado: depende solo de MIN-06; SEG-12 remite aquí"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla 'MINISTERIO PUBLICO' frente a 'MP'",
+          "decision": "aplicado: MP"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla 'PODER JUDICIAL' frente a 'PJ'",
+          "decision": "aplicado: PJ"
         }
       ]
     },
@@ -793,7 +868,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Se ejecuta con proyectos de Invierte.pe del MINAM, el SERFOR y los gobiernos regionales, y con recursos de cooperación climática.",
       "etapa": "2031-2036",
-      "que": "Se recuperan, por etapas, las áreas degradadas por la minería aurífera en Madre de Dios y en los ríos amazónicos afectados: se rellenan pozas, se reforesta con especies nativas y se monitorea la calidad del agua y de los peces. Se prioriza la zona de La Pampa y las cabeceras de cuenca que abastecen a comunidades. Las comunidades locales y los mineros reconvertidos trabajan en la restauración con pago por resultados.",
+      "que": "Se recuperan, por etapas, las áreas degradadas por la minería aurífera en Madre de Dios y en los ríos amazónicos afectados: se rellenan pozas, se reforesta con especies nativas y se monitorea la calidad del agua y de los peces. Se prioriza la zona de La Pampa y las cabeceras de cuenca que abastecen a comunidades. Las comunidades locales y los mineros reconvertidos trabajan en la restauración con pago por resultados. En tierras comunales la restauración se hace por convenio con la comunidad titular, que decide especies y usos según su plan de vida y recibe directamente el pago por resultados.",
       "evidencia": "El MAAP atribuye a la minería aurífera la pérdida de 23 881 hectáreas de bosque en Madre de Dios entre 2021 y noviembre de 2023, de las cuales unas 5 700 estaban fuera del corredor minero (Actualidad Ambiental). Experiencias de restauración del CINCIA en La Pampa muestran que es técnicamente posible, aunque lenta y costosa.",
       "entrega": "Hectáreas degradadas en restauración activa con monitoreo público; meta indicativa de 10 000 ha al 2036.",
       "responsable": "MINAM",
@@ -852,6 +927,11 @@
           "rol": "jurista",
           "hallazgo": "Agregar AMB-06 (monitoreo de mercurio) como requisito",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Restauración en tierras comunales sin acuerdo con la comunidad",
+          "decision": "aplicado: convenio con la comunidad titular y pago por resultados directo"
         }
       ]
     },
@@ -919,9 +999,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Los procedimientos, plazos y opiniones técnicas se ordenan por decreto supremo (reglamentos del SEIA y de procedimientos mineros); no se necesita ley para integrar y publicar.",
       "etapa": "2026-2031",
-      "que": "Todos los permisos de un proyecto minero (certificación ambiental, uso de agua, arqueología, inicio de actividades, servidumbres) se tramitan en una sola plataforma digital con expediente compartido, en la que las entidades opinan en paralelo. Cada entidad publica sus plazos reales promedio frente al plazo legal. Se eliminan requisitos duplicados y se exige que las observaciones se hagan de una sola vez. No se recortan estándares ambientales ni de participación.",
+      "que": "No se crea una plataforma nueva: se amplía la ventanilla única de certificación ambiental EVA del SENACE, que ya tramita el expediente con casilla electrónica y opiniones técnicas por la PIDE, para que sea la ventanilla única del proyecto minero. A ella se suman el uso de agua (ANA), la arqueología (CIRA del Ministerio de Cultura), el inicio de actividades (MINEM) y las servidumbres, y las entidades, incluido el SERNANP, opinan en paralelo en el mismo expediente. Cada entidad publica sus plazos reales promedio frente al plazo legal. Se eliminan requisitos duplicados y se exige que las observaciones se hagan de una sola vez. No se recortan estándares ambientales ni de participación.",
       "evidencia": "La OCDE recomendó al Perú simplificar y coordinar los permisos y medir la carga regulatoria (Regulatory Policy in Peru, 2016). El plazo legal de evaluación de un EIA detallado minero es de 156 días hábiles y el SENACE informó en 2025 una reducción de 24 % de sus plazos promedio; su meta para 2026 es de 150-160 días (ProActivo). Faltan cifras públicas consolidadas del tiempo total de todos los permisos.",
-      "entrega": "Plataforma única operativa para proyectos mineros y reporte público semestral de plazos reales por entidad.",
+      "entrega": "Plataforma EVA del SENACE ampliada como ventanilla única para proyectos mineros y reporte público semestral de plazos reales por entidad.",
       "responsable": "MINEM",
       "entidades": [
         {
@@ -945,8 +1025,12 @@
           "rol": "supervisora"
         },
         {
-          "sigla": "SEGDI",
+          "sigla": "PCM-SGTD",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "SERNANP",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Presupuesto del MINEM, SENACE y la PCM (Gobierno Digital).",
@@ -975,11 +1059,27 @@
         {
           "titulo": "gob.pe – Solicitar la evaluación de un Estudio de Impacto Ambiental detallado (EIA-d)",
           "url": "https://www.gob.pe/11011-solicitar-la-evaluacion-de-un-estudio-de-impacto-ambiental-detallado-eia-d-para-el-subsector-electricidad"
+        },
+        {
+          "titulo": "gob.pe: Ventanilla Única de Certificación Ambiental (EVA) del SENACE",
+          "url": "https://www.gob.pe/9201-acceder-aventanilla-unica-de-certificacion-ambiental-eva"
         }
       ],
       "pedn": [
         "AE3.3.16",
         "AE4.5.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla 'SEGDI' frente a 'PCM-SGTD'",
+          "decision": "aplicado: PCM-SGTD"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "La plataforma EVA del SENACE ya existe",
+          "decision": "aplicado: se amplía EVA con ANA, CIRA, MINEM y SERNANP en lugar de crear otra plataforma"
+        }
       ]
     },
     {
@@ -1052,7 +1152,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "La zonificación ecológica-económica y el catastro se hacen con normas vigentes; dar carácter vinculante al ordenamiento territorial frente a las concesiones requiere ley (no existe una ley de ordenamiento territorial).",
       "etapa": "2031-2036",
-      "que": "Se cruza en una plataforma pública el catastro minero de INGEMMET con las cabeceras de cuenca, los glaciares, las áreas naturales protegidas, las tierras de comunidades campesinas y nativas, las zonas agrícolas y los peligros naturales. Los gobiernos regionales completan su zonificación ecológica-económica con apoyo técnico y se identifican zonas donde la minería no es compatible. Antes de otorgar nuevas concesiones en zonas sensibles, se exige consulta con el gobierno regional. La ley de ordenamiento territorial y las zonificaciones que comprendan tierras de comunidades campesinas y nativas se someten a consulta previa (Ley 29785).",
+      "que": "Se cruza en una plataforma pública, publicada en GeoPerú (la Infraestructura de Datos Espaciales del Perú) con el código único catastral del Sistema Nacional Integrado de Catastro (Ley 28294), el catastro minero de INGEMMET con las cabeceras de cuenca, los glaciares, las áreas naturales protegidas, las tierras de comunidades campesinas y nativas, las zonas agrícolas y los peligros naturales. Los gobiernos regionales completan su zonificación ecológica-económica con apoyo técnico y se identifican zonas donde la minería no es compatible. Antes de otorgar nuevas concesiones en zonas sensibles, se exige consulta con el gobierno regional. La ley de ordenamiento territorial y las zonificaciones que comprendan tierras de comunidades campesinas y nativas se someten a consulta previa (Ley 29785). Esa base común la construye VIV-07 (catastro multipropósito en GeoPerú con código único del SNCP), y la usan también los catastros rural (AGR-17) y forestal (AMB-02), para no tener cuatro visores distintos.",
       "evidencia": "El PEDN 2050 plantea compatibilizar el uso del territorio para evitar conflictos (AE2.1.4) y alertas sobre superposiciones (AE2.1.2). En el Perú una concesión minera se otorga sin evaluar el uso del suelo, lo que genera superposiciones con comunidades y fuentes de agua, señaladas por la Defensoría como causa de conflictos.",
       "entrega": "Plataforma pública de superposiciones operativa y zonificación ecológica-económica aprobada en todas las regiones al 2036.",
       "responsable": "MINAM",
@@ -1088,7 +1188,9 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "DIG-21",
-        "MIN-15"
+        "MIN-15",
+        "GOB-07",
+        "VIV-07"
       ],
       "riesgo": "Que el ordenamiento se use para prohibir de manera generalizada o, al revés, que se ignore; conflictos de competencias.",
       "fuentes": [
@@ -1114,6 +1216,16 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "Ordenamiento vinculante requiere consulta previa",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Catastros sin base común (GeoPerú, código único catastral)",
+          "decision": "aplicado: GeoPerú con código único catastral del SNCP como capa común; se añade GOB-07 de Agenda Tech"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Base catastral común en VIV-07 (coordinación con vivienda)",
+          "decision": "aplicado: se cita VIV-07 como dueña de la capa común y se añade a depende_de (VIV-07 es 2026-2031, anterior a MIN-14; sin ciclo)"
         }
       ]
     },
@@ -1122,9 +1234,9 @@
       "titulo": "Hacer la consulta previa a tiempo, con información clara y acuerdos cumplidos",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "La Ley 29785 está vigente; los cambios de oportunidad y seguimiento se hacen modificando su reglamento (DS 001-2012-MC) y las normas sectoriales del MINEM.",
+      "por_que_ley": "La Ley 29785 está vigente; los cambios de oportunidad y seguimiento se hacen modificando su reglamento (DS 001-2012-MC) y las normas sectoriales del MINEM. Esa modificación es una medida administrativa que afecta directamente derechos colectivos, por lo que se somete a consulta previa con las organizaciones representativas nacionales de los pueblos indígenas antes de aprobarse (Ley 29785, arts. 2 y 9; Convenio 169 de la OIT, art. 6), como ocurrió con el reglamento original en 2012. El Ministerio de Cultura conduce ese proceso.",
       "etapa": "2026-2031",
-      "que": "La consulta previa se realiza en una etapa temprana, cuando aún se pueden cambiar las decisiones del proyecto, y no al final como un trámite. El Ministerio de Cultura mantiene actualizada la base de datos de pueblos indígenas, se usan intérpretes y materiales en la lengua de cada pueblo, y los acuerdos tienen presupuesto, responsable y verificación pública. Las comunidades cuentan con asesoría técnica independiente financiada por un fondo común, no por la empresa.",
+      "que": "La consulta previa se realiza antes del otorgamiento de la concesión o autorización y, a más tardar, antes de la exploración, cuando aún se pueden cambiar las decisiones del proyecto, según los estándares de la Corte IDH (casos Saramaka y Sarayaku), y no al final como un trámite. El nuevo reglamento se consulta primero con las organizaciones indígenas nacionales. El Ministerio de Cultura mantiene actualizada la base de datos de pueblos indígenas, se usan intérpretes y materiales en la lengua de cada pueblo, y los acuerdos tienen presupuesto, responsable y verificación pública. Las comunidades cuentan con asesoría técnica independiente financiada por un fondo común, no por la empresa. Las organizaciones de mujeres indígenas participan en el proceso. Hay un canal de queja ante el Ministerio de Cultura con respuesta en 30 días y reporte anual a la Defensoría. En territorios de pueblos en aislamiento o contacto inicial no se otorgan derechos mineros (Ley 28736).",
       "evidencia": "Desde 2011 se han hecho decenas de procesos de consulta y el Ministerio de Cultura reporta más de 1 600 acuerdos, con seguimiento a cargo de una comisión multisectorial; el MINEM registró al menos 24 procesos para proyectos mineros (ProActivo; fecha de corte por verificar). Comunidades y la Defensoría han cuestionado que la consulta llegue tarde y que los acuerdos no se cumplan.",
       "entrega": "Reglamento modificado; registro público del cumplimiento de acuerdos de consulta; fondo de asesoría técnica operando.",
       "responsable": "MINCUL",
@@ -1144,6 +1256,10 @@
         {
           "sigla": "GORE",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "Organizaciones indígenas nacionales",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Presupuesto del Ministerio de Cultura y del MINEM; aportes a un fondo común de asesoría.",
@@ -1152,7 +1268,7 @@
       "deroga_o_simplifica": [
         {
           "norma": "Decreto Supremo N.º 001-2012-MC, Reglamento de la Ley 29785 de consulta previa",
-          "motivo": "Modificarlo para adelantar la oportunidad de la consulta y exigir presupuesto y seguimiento público de los acuerdos."
+          "motivo": "Modificarlo, previa consulta con las organizaciones indígenas nacionales, para que la consulta ocurra antes de la concesión o autorización y para exigir presupuesto y seguimiento público de los acuerdos."
         }
       ],
       "depende_de": [
@@ -1173,6 +1289,18 @@
       "pedn": [
         "AE1.5.11",
         "AE4.4.9"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Modificar el DS 001-2012-MC exige consultarlo con organizaciones nacionales",
+          "decision": "aplicado: consulta previa del reglamento con las organizaciones representativas nacionales, conducida por el MINCUL; organizaciones como consultivas"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "'Etapa temprana' indefinida; mujeres, queja y PIACI",
+          "decision": "aplicado: consulta antes de la concesión o autorización (Corte IDH), participación de mujeres indígenas, canal de queja y exclusión por Ley 28736"
+        }
       ]
     },
     {
@@ -1180,9 +1308,9 @@
       "titulo": "Adelantar obras sociales en zonas mineras antes de que llegue el canon",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "El Fondo de Adelanto Social fue creado por el Decreto Legislativo 1334; se reactiva con presupuesto y lineamientos del MEF. El uso del canon y su trazabilidad se tratan en EST-19 y en GOB-22 de Agenda Tech.",
+      "por_que_ley": "El Fondo de Adelanto Social fue creado por el Decreto Legislativo 1334; ya tiene reglamento (DS 146-2019-PCM) y manual de operaciones; se reactiva con asignación presupuestal y, de ser necesario, modificando ese reglamento. El uso del canon y su trazabilidad se tratan en EST-19 y en GOB-22 de Agenda Tech.",
       "etapa": "2026-2031",
-      "que": "En las zonas de influencia de proyectos en exploración avanzada o construcción, el Estado adelanta inversiones en agua, saneamiento, salud, educación y caminos antes de que el proyecto produzca y genere canon, con cargo a un fondo que se repone luego con parte del canon o con Obras por Impuestos de las empresas. Las obras se eligen en las mesas territoriales (MIN-02) y se ejecutan con unidades especializadas para evitar obras paralizadas. Se complementa después con la estabilización del canon (EST-19).",
+      "que": "En las zonas de influencia de proyectos en exploración avanzada o construcción, el Estado adelanta inversiones en agua, saneamiento, salud, educación y caminos antes de que el proyecto produzca y genere canon, con cargo a un fondo que se repone luego con parte del canon o con Obras por Impuestos de las empresas. Las obras se eligen en las mesas territoriales (MIN-02) y se ejecutan con unidades especializadas para evitar obras paralizadas. Se complementa después con la estabilización del canon (EST-19). La cartera prioriza agua segura y salud según las brechas del distrito y se decide con al menos un tercio de representantes mujeres de las comunidades.",
       "evidencia": "Las transferencias por minería a los departamentos sumaron unos S/ 9 936 millones en 2025, de los cuales S/ 6 992 millones fueron canon (MINEM, Boletín Estadístico Minero). Pero el canon llega años después de iniciado el proyecto y muchas veces se gasta mal; la población de las zonas de influencia no ve beneficios cuando más se discute el proyecto. El Fondo de Adelanto Social de 2017 se usó poco.",
       "entrega": "Fondo de Adelanto Social reactivado con cartera de obras en los principales corredores mineros al 2028.",
       "responsable": "MEF",
@@ -1208,7 +1336,7 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Fondo de Adelanto Social, Obras por Impuestos y canon futuro.",
+      "financiamiento": "Fondo de Adelanto Social con dotación anual fijada en la Ley de Presupuesto, Obras por Impuestos y canon futuro. Regla: solo se adelanta en proyectos con certificación ambiental aprobada y decisión de inversión anunciada; la parte que el canon no reponga se registra como gasto.",
       "costo_referencial": "no estimado",
       "indicador": "Obras de adelanto social terminadas y en operación en zonas de influencia minera.",
       "deroga_o_simplifica": [],
@@ -1216,7 +1344,7 @@
         "GOB-22",
         "EST-07"
       ],
-      "riesgo": "Obras de mala calidad o paralizadas; uso clientelar del fondo.",
+      "riesgo": "Obras de mala calidad o paralizadas; uso clientelar del fondo. Adelantar obras para proyectos que nunca se construyen, que se vuelven gasto definitivo del Tesoro.",
       "fuentes": [
         {
           "titulo": "Minería y Energía – MINEM: más de S/ 9 936 millones recibieron los departamentos al cierre de 2025 por la actividad minera",
@@ -1225,6 +1353,10 @@
         {
           "titulo": "Decreto Legislativo 1334, que crea el Fondo de Adelanto Social (Congreso)",
           "url": "https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01334.pdf"
+        },
+        {
+          "titulo": "LP Derecho: aprueban reglamento del Fondo de Adelanto Social (DS 146-2019-PCM)",
+          "url": "https://lpderecho.pe/aprueban-reglamento-d-l-crea-fondo-adelanto-social-prioriza-zonas-intervencion-d-s-146-2019-pcm/"
         }
       ],
       "pedn": [
@@ -1236,6 +1368,21 @@
           "rol": "jurista",
           "hallazgo": "Depende de EST-19 (etapa posterior) y ciclo con MIN-02",
           "decision": "aplicado: se quitan EST-19 y MIN-02"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "'Lineamientos del MEF' no es el instrumento del FAS",
+          "decision": "aplicado: DS 146-2019-PCM y su manual; el número del decreto del manual no se cita por no estar verificado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Adelanto sin monto ni regla si el proyecto no se ejecuta",
+          "decision": "aplicado: dotación anual en la Ley de Presupuesto, regla de elegibilidad y registro como gasto"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Participación de mujeres y prioridad de agua y salud",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1329,7 +1476,7 @@
       "etapa": "2026-2031",
       "que": "Activos Mineros remedia por portafolios regionales los pasivos de alto y muy alto riesgo sin responsable identificado, con diseños tipo, contratos que incluyen el mantenimiento posterior y supervisión independiente. Se identifica y obliga a pagar a los responsables que existen. Se priorizan los pasivos que contaminan fuentes de agua para consumo humano. El avance de cada pasivo se publica en un mapa abierto.",
       "evidencia": "El inventario oficial tenía 6 001 pasivos ambientales mineros en setiembre de 2024 (RM 351-2024-MINEM/DM), con actualizaciones posteriores. La Defensoría del Pueblo señaló que Activos Mineros tenía a su cargo 1 187 pasivos, 1 153 de alto riesgo, y que en más de la mitad no había iniciado obras; su presupuesto de 2024 fue de unos S/ 145 millones (Energiminas).",
-      "entrega": "Todos los pasivos de alto y muy alto riesgo encargados a Activos Mineros remediados al 2036; mapa público de avance.",
+      "entrega": "Senda de financiamiento aprobada en 2027 (presupuesto del MINEM, Obras por Impuestos, cobro a responsables) que cubra el costo total al 2036: con ella, todos los pasivos de alto y muy alto riesgo encargados a Activos Mineros remediados al 2036; sin ella, la meta se ajusta a 60 % al 2036 y 100 % al 2046. Mapa público de avance.",
       "responsable": "AMSAC",
       "entidades": [
         {
@@ -1354,13 +1501,13 @@
         }
       ],
       "financiamiento": "Presupuesto del MINEM transferido a fideicomisos de Activos Mineros, Obras por Impuestos y cobro a responsables.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Costo total de remediar los pasivos de alto y muy alto riesgo encargados a Activos Mineros: a publicar por AMSAC en 2027 con costos tipo por categoría. Referencias: presupuesto de AMSAC de ≈ S/ 145 millones en 2024 (Energiminas); el PP 0120 (remediación de pasivos ambientales mineros) tiene un PIM 2026 de ≈ S/ 35 millones (MEF, Consulta Amigable).",
       "indicador": "N.º de pasivos de alto y muy alto riesgo remediados por año.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "MIN-19"
       ],
-      "riesgo": "Lentitud de obras y estudios; presupuesto insuficiente frente al tamaño del inventario.",
+      "riesgo": "Lentitud de obras y estudios; presupuesto insuficiente frente al tamaño del inventario. Ejecución casi nula: el PP 0120 había devengado ≈ 0,7 % de su PIM 2026 a la fecha de corte del dato (MEF, Consulta Amigable); al ritmo actual hay que al menos triplicar el gasto anual.",
       "fuentes": [
         {
           "titulo": "El Peruano – RM 351-2024-MINEM/DM: actualización del inventario de pasivos ambientales mineros (6 001 PAM)",
@@ -1382,6 +1529,18 @@
       "pedn": [
         "AE2.6.1",
         "AE3.3.17"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Sin costo total; con el presupuesto actual no se cumple 2036",
+          "decision": "aplicado: costo a publicar en 2027 y entrega condicionada a la senda de financiamiento"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0120 ejecuta 0,7 %; hay que triplicar el gasto",
+          "decision": "aplicado en entrega y riesgo; no se fija un monto anual S/ X por no tener costo total verificado"
+        }
       ]
     },
     {
@@ -1445,9 +1604,9 @@
       "necesita_ley": "no",
       "por_que_ley": "El OEFA (Ley 29325) y OSINERGMIN (seguridad de infraestructura minera) pueden exigir monitoreo en línea por resolución de consejo directivo; la obligación legal general se propone en TAL-09 de Agenda Tech.",
       "etapa": "2026-2031",
-      "que": "La mediana y gran minería transmite en tiempo real al OEFA sus mediciones de agua, aire y efluentes; los datos se publican con alertas. El OEFA planifica sus inspecciones según el riesgo (cercanía a fuentes de agua, historial de incumplimientos) en lugar de por calendario. OSINERGMIN supervisa la estabilidad de los depósitos de relaves con sensores y auditorías independientes. Las comunidades pueden participar en monitoreos conjuntos con equipos certificados.",
+      "que": "La mediana y gran minería transmite en tiempo real sus mediciones de agua, aire y efluentes a la plataforma de monitoreo en línea del OEFA, que se construye en AMB-24 para todos los sectores; esta acción no crea otra. Lo propio de la minería es lo que sigue. El OEFA planifica sus inspecciones según el riesgo (cercanía a fuentes de agua, historial de incumplimientos) en lugar de por calendario. OSINERGMIN supervisa la estabilidad de los depósitos de relaves con sensores y auditorías independientes. Las comunidades pueden participar en monitoreos conjuntos con equipos certificados. Los sensores los certifican y auditan terceros acreditados por INACAL y los datos llegan firmados a la plataforma del OEFA.",
       "evidencia": "La OCDE evaluó al OEFA y recomendó planificar la fiscalización según el riesgo (Regulatory Enforcement and Inspections in the Environmental Sector of Peru). Tras los colapsos de relaves de Mariana y Brumadinho en Brasil se creó el Estándar Global de Gestión de Relaves (ICMM, PNUMA y PRI, 2020). La desconfianza sobre la calidad del agua es un factor central de los conflictos (Defensoría).",
-      "entrega": "Monitoreo en línea obligatorio en todas las unidades de mediana y gran minería y portal público de datos al 2029.",
+      "entrega": "Todas las unidades de mediana y gran minería conectadas a la plataforma del OEFA (AMB-24), inspección por riesgo y monitoreo de relaves de OSINERGMIN operando al 2029.",
       "responsable": "OEFA",
       "entidades": [
         {
@@ -1473,7 +1632,8 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "TAL-09",
-        "DIG-21"
+        "DIG-21",
+        "AMB-24"
       ],
       "riesgo": "Datos manipulables por las empresas si no hay auditoría; reducción del aporte por regulación.",
       "fuentes": [
@@ -1485,6 +1645,13 @@
       "pedn": [
         "AE2.6.6",
         "AE3.3.17"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Plataforma OEFA triplicada con AMB-24 y DIG-21",
+          "decision": "aplicado: usa la plataforma de AMB-24 (misma etapa 2026-2031, sin ciclo) y se queda con inspección por riesgo, relaves y monitoreo participativo"
+        }
       ]
     },
     {
@@ -1492,9 +1659,9 @@
       "titulo": "Vigilar la salud de las poblaciones expuestas a metales pesados y atenderlas",
       "tipo": "servicio",
       "necesita_ley": "no",
-      "por_que_ley": "Se ejecuta con presupuesto del MINSA y los gobiernos regionales y con las normas sanitarias vigentes sobre metales pesados.",
+      "por_que_ley": "Se ejecuta con la Ley 31189, el DS 037-2021-MINAM y las normas sanitarias vigentes, con presupuesto del MINSA y de los gobiernos regionales; cumplir la sentencia de la Corte IDH no requiere ley nueva.",
       "etapa": "2026-2031",
-      "que": "El MINSA identifica a las poblaciones expuestas a plomo, arsénico, cadmio y mercurio en zonas de minería formal, informal y de pasivos, mide sus niveles en sangre u orina con laboratorios acreditados y garantiza atención especializada. Los resultados agregados se publican. Si la fuente de contaminación tiene responsable, se le exige remediar y pagar. Se protege especialmente a niñas, niños y gestantes.",
+      "que": "En cumplimiento de la Ley 31189 (atención integral a personas expuestas a metales pesados), del Plan Especial Multisectorial aprobado por el DS 037-2021-MINAM, que se renueva con presupuesto, y de la sentencia de la Corte IDH en el caso Habitantes de La Oroya vs. Perú (2024), el MINSA identifica a las poblaciones expuestas a plomo, arsénico, cadmio y mercurio en zonas de minería formal, informal y de pasivos, mide sus niveles en sangre u orina con laboratorios acreditados y garantiza atención especializada. Los resultados agregados se publican. Si la fuente de contaminación tiene responsable, se le exige remediar y pagar. Se protege especialmente a niñas, niños y gestantes. Se crea un registro nominal de personas afectadas con atención gratuita de por vida, se repara a las víctimas reconocidas en la sentencia y se publica un informe anual de su cumplimiento; las organizaciones de afectados participan en la comisión de seguimiento.",
       "evidencia": "Casos como los de La Oroya, Cerro de Pasco y Espinar muestran exposición prolongada a metales sin atención adecuada, según la Defensoría del Pueblo y la Comisión Interamericana de Derechos Humanos. La OMS considera que no hay nivel seguro de plomo en sangre para niñas y niños.",
       "entrega": "Censo de poblaciones expuestas y atención especializada en las regiones mineras priorizadas al 2030.",
       "responsable": "MINSA",
@@ -1522,7 +1689,7 @@
       ],
       "financiamiento": "Presupuesto del MINSA y gobiernos regionales; cobro a responsables identificados.",
       "costo_referencial": "no estimado",
-      "indicador": "N.º de personas expuestas evaluadas y en tratamiento; niños con plomo en sangre por encima del valor de referencia.",
+      "indicador": "N.º de personas expuestas evaluadas y en tratamiento; niños con plomo en sangre por encima del valor de referencia. Desagregado por sexo, edad (menores de 12 años), gestantes y pertenencia a un pueblo indígena.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "MIN-18",
@@ -1537,11 +1704,27 @@
         {
           "titulo": "Defensoría del Pueblo – Informes sobre metales pesados",
           "url": "https://www.defensoria.gob.pe/"
+        },
+        {
+          "titulo": "Corte IDH: supervisión de cumplimiento, caso Habitantes de La Oroya vs. Perú",
+          "url": "https://www.corteidh.or.cr/docs/supervisiones/SCS/peru/habitantes_oroya/habitantes_oroyap.pdf"
         }
       ],
       "pedn": [
         "AE2.6.9",
         "AE3.3.17"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Omite Ley 31189, DS 037-2021-MINAM y sentencia La Oroya",
+          "decision": "aplicado: marco vigente, registro nominal, reparación e informe anual; no se cita el reglamento de la Ley 31189 por no estar verificado su número"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador sin desagregación",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1750,6 +1933,11 @@
           "rol": "jurista",
           "hallazgo": "Duplicado con ENE-24",
           "decision": "aplicado: MIN-24 queda como acción única y deroga ambas; ENE-24 depende de ella"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "MIN-24 como fuente de reducción del gasto tributario",
+          "decision": "descartado: sin cambio; la acción ya cumple la Norma VII (DL 1521) y fija el vencimiento al 31-12-2027"
         }
       ]
     },
@@ -1821,7 +2009,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Se ejecuta con Obras por Impuestos, APP o inversión pública por Invierte.pe, y con la planificación de la ANA en consejos de cuenca; no requiere ley.",
       "etapa": "2031-2036",
-      "que": "En las cuencas con proyectos mineros y escasez de agua, se financian reservorios, siembra y cosecha de agua, plantas de tratamiento y reúso, y desalinización en la costa sur, diseñados para servir a la vez a la minería, la agricultura y las ciudades. La gestión queda en manos de operadores con participación de los usuarios y la ANA publica los balances de agua. Las mineras pagan una parte proporcional a su uso y priorizan el agua de mar o reciclada.",
+      "que": "En las cuencas con proyectos mineros y escasez de agua, se financian reservorios, siembra y cosecha de agua, plantas de tratamiento y reúso, y desalinización en la costa sur, diseñados para servir a la vez a la minería, la agricultura y las ciudades. La gestión queda en manos de operadores con participación de los usuarios y la ANA publica los balances de agua. Las mineras pagan una parte proporcional a su uso y priorizan el agua de mar o reciclada. En toda obra compartida se garantiza primero el consumo humano y los usos ancestrales de las comunidades (art. 7-A de la Constitución; Ley 29338, arts. 35 y 64). Las comunidades participan en el operador y, si la obra afecta sus tierras o aguas, se hace consulta previa (Ley 29785).",
       "evidencia": "En Chile, la minería usa cada vez más agua de mar desalada (Cochilco, Consumo de agua en la minería del cobre). La competencia por el agua es una de las principales causas de conflictos socioambientales en el Perú (Defensoría). El PEDN 2050 prioriza la gestión integrada de los recursos hídricos (AE2.5.1).",
       "entrega": "Al menos cinco proyectos hídricos compartidos operando en cuencas mineras al 2036.",
       "responsable": "ANA",
@@ -1869,6 +2057,13 @@
       "pedn": [
         "AE2.5.1",
         "AE3.3.17"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Obra compartida sin prioridad del uso poblacional",
+          "decision": "aplicado: prioridad del consumo humano y usos comunales, participación y consulta previa"
+        }
       ]
     }
   ],
@@ -2000,6 +2195,10 @@
     {
       "titulo": "MINEM – Boletín Estadístico Minero (serie de publicaciones)",
       "url": "https://www.gob.pe/institucion/minem/informes-publicaciones/7289341-boletin-estadistico-minero-agosto-2025"
+    },
+    {
+      "titulo": "Corte IDH: supervisión de cumplimiento, caso Habitantes de La Oroya vs. Perú",
+      "url": "https://www.corteidh.or.cr/docs/supervisiones/SCS/peru/habitantes_oroya/habitantes_oroyap.pdf"
     }
   ],
   "revision_atendida": [
@@ -2017,6 +2216,26 @@
       "rol": "cifras",
       "hallazgo": "Línea base de conflictos de julio de 2024 atrasada",
       "decision": "aplicado parcialmente: se añade el total de mayo de 2026 (195); no se halló desagregado minero 2026, se mantiene julio de 2024"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Sin meta de expuestos a metales; meta de conflictos premia contención",
+      "decision": "aplicado: nueva meta de expuestos atendidos; la meta de conflictos se reporta con los resueltos por diálogo (se conserva la línea base de 70 casos)"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Brechas: trabajo infantil y trata en minería informal",
+      "decision": "aplicado, con magnitud por verificar; las pallaqueras ya figuraban"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Meta de 15 000 formalizados sin financiamiento de las DREM",
+      "decision": "aplicado: 8 000 al 2031 (15 000 si se financian las DREM) y 20 000 al 2036"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Siglas no normalizadas (MP, PJ, PCM-SGTD, CGR)",
+      "decision": "aplicado"
     }
   ]
 }

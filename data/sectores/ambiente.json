@@ -157,6 +157,16 @@
       "2056": "Toda vivienda en riesgo muy alto atendida",
       "referencia": "Programas de reforzamiento de Chile y Colombia (por verificar)",
       "fuente_linea_base": "INDECI / CENEPRED"
+    },
+    {
+      "indicador": "Población de las cuencas del Pastaza, Tigre, Corrientes y Marañón con evaluación de exposición a metales e hidrocarburos y atención especializada (AMB-25)",
+      "linea_base": "No publicada (por verificar en el registro de la Ley 31189)",
+      "2031": "100 % de la población priorizada evaluada",
+      "2036": "100 % con atención especializada según su resultado",
+      "2046": "Vigilancia sanitaria permanente",
+      "2056": "Sin población con exposición sobre los valores de referencia",
+      "referencia": "Ley 31189 y Plan Especial Multisectorial (DS 037-2021-MINAM)",
+      "fuente_linea_base": "MINSA, registro de personas afectadas (Ley 31189)"
     }
   ],
   "acciones": [
@@ -167,7 +177,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: decreto supremo que aprueba un protocolo interinstitucional y convenios MINAM–SERFOR–gobiernos regionales–Ministerio Público–PNP; se financia con el programa presupuestal de conservación de bosques.",
       "etapa": "2026-2031",
-      "que": "Se crea un circuito único que convierte las alertas tempranas de Geobosques (semanales) en acción: una mesa de control por región amazónica clasifica cada alerta por causa probable (minería, agricultura, coca, vía ilegal), la cruza con catastro de derechos (concesiones, comunidades, predios, ANP) y despacha en 72 horas una brigada mixta (SERFOR/ARFFS, OEFA o fiscalía ambiental y policía). Cada caso queda en un expediente digital público con su resultado: archivo, sanción administrativa, denuncia penal o recuperación del bosque. Empieza en Ucayali, Madre de Dios, Huánuco, San Martín y Loreto.",
+      "que": "Se crea un circuito único que convierte las alertas tempranas de Geobosques (semanales) en acción: una mesa de control por región amazónica clasifica cada alerta por causa probable (minería, agricultura, coca, vía ilegal), la cruza con catastro de derechos (concesiones, comunidades, predios, ANP) y despacha en 72 horas una brigada mixta (SERFOR/ARFFS, OEFA o fiscalía ambiental y policía). Cada alerta aparece en un tablero público (ubicación, causa, estado y resultado: archivo, sanción administrativa, denuncia penal o recuperación del bosque) sin datos personales; el expediente completo se comparte solo entre las entidades del circuito, porque las investigaciones penales son reservadas. En tierras de comunidades nativas la brigada entra con la comunidad y sus comités de vigilancia (AMB-04), salvo flagrancia de minería ilegal o narcotráfico. Las alertas en predios de agricultura familiar de menos de 10 ha se atienden primero con la ruta de asistencia (AMB-07); la denuncia penal se reserva para la tala comercial u organizada. Cada intervención queda en acta con derecho de descargo. Empieza en Ucayali, Madre de Dios, Huánuco, San Martín y Loreto.",
       "evidencia": "Brasil redujo su deforestación amazónica en más de 70 % entre 2004 y 2012 combinando alertas satelitales DETER con operaciones de control y restricciones de crédito (evaluaciones de Climate Policy Initiative); el Perú ya produce alertas en Geobosques, pero la Defensoría del Pueblo advierte que no se traducen en intervenciones sistemáticas.",
       "entrega": "Cinco salas de control regional operando y un tablero público con el 100 % de alertas mayores a 5 ha atendidas y su resultado.",
       "responsable": "MINAM",
@@ -229,6 +239,16 @@
           "rol": "jurista",
           "hallazgo": "Dependía de DIG-25, de etapa posterior",
           "decision": "aplicado: se quita DIG-25"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "brigadas criminalizan chacras y entran sin la comunidad",
+          "decision": "aplicado: ingreso con comités comunales, ruta de asistencia para predios < 10 ha y acta con descargo"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "expediente público expone datos personales",
+          "decision": "aplicado: tablero público sin datos personales; expediente reservado"
         }
       ]
     },
@@ -239,7 +259,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 29763 ya manda la zonificación forestal; basta resolución del SERFOR y aprobación regional por ordenanza. No requiere ley nueva.",
       "etapa": "2026-2031",
-      "que": "Se termina la zonificación forestal de las regiones con bosques (Loreto, Ucayali, Madre de Dios, San Martín, Amazonas, Huánuco, Junín, Pasco, Cusco, Puno, Cajamarca) y se integra en un catastro forestal digital interoperable con el catastro rural, el de comunidades nativas y el minero. La zonificación dice qué tierra es para producción forestal, para protección y para uso agropecuario, y se vuelve la capa de referencia para titular, otorgar concesiones y aprobar proyectos. Se publica en datos abiertos.",
+      "que": "Se termina la zonificación forestal de las regiones con bosques (Loreto, Ucayali, Madre de Dios, San Martín, Amazonas, Huánuco, Junín, Pasco, Cusco, Puno, Cajamarca) y se integra en un catastro forestal digital interoperable con el catastro rural, el de comunidades nativas y el minero. La zonificación dice qué tierra es para producción forestal, para protección y para uso agropecuario, y se vuelve la capa de referencia para titular, otorgar concesiones y aprobar proyectos. Se publica en datos abiertos en GeoPerú, con el código único catastral del Sistema Nacional Integrado de Catastro (Ley 28294), sobre la misma capa común que usan el catastro rural (AGR-17), el urbano (VIV-07) y el minero, para que no sean cuatro visores distintos.",
       "evidencia": "La zonificación forestal es el instrumento que la Ley 29763 prevé para ordenar el uso del bosque; su ausencia fue uno de los argumentos para la Ley 31973. Sin una capa oficial, cada entidad titula u otorga derechos sobre información distinta (SERFOR; SPDA).",
       "entrega": "Zonificación forestal aprobada en 11 regiones y catastro forestal único en línea.",
       "responsable": "SERFOR",
@@ -270,7 +290,8 @@
       "indicador": "N.º de regiones con zonificación forestal aprobada; % de títulos rurales en Amazonía otorgados con consulta a la capa de zonificación.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "GOB-07"
+        "GOB-07",
+        "VIV-07"
       ],
       "riesgo": "Presión de gremios agrarios y de traficantes de tierras para clasificar bosque como apto agrícola; lentitud de los gobiernos regionales.",
       "fuentes": [
@@ -286,16 +307,28 @@
       "pedn": [
         "AE2.1.5",
         "AE2.1.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "catastros sin base común",
+          "decision": "aplicado: GeoPerú y código único catastral del SNCP como capa común"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "coordinación con vivienda: VIV-07 como capa catastral común",
+          "decision": "aplicado: AMB-02 depende de VIV-07 (misma etapa 2026-2031)"
+        }
       ]
     },
     {
       "id": "AMB-03",
       "titulo": "Restituir en la Ley Forestal el ordenamiento previo a titular tierras con bosque",
-      "tipo": "derogacion",
+      "tipo": "ley",
       "necesita_ley": "si",
       "por_que_ley": "Modificar la Ley 29763 requiere ley. No crea gasto, por lo que es admisible por iniciativa congresal. Debe pasar por consulta previa (Ley 29785) porque incide en territorios de comunidades nativas.",
       "etapa": "2026-2031",
-      "que": "La Ley 31973 es modificatoria: su texto ya está incorporado en la Ley 29763, y derogarla no revive el texto anterior. Por eso se modifican los artículos de la Ley 29763 que cambió la Ley 31973 y se restablece expresamente la clasificación de tierras por capacidad de uso mayor y la zonificación forestal (AMB-02) como requisito para titular o reconocer predios en zonas con bosque. Se fija una sola fecha de corte, la misma que usa la titulación rural de AGR-17 y verificable con la serie histórica de Geobosques: los predios con uso agropecuario anterior a esa fecha se regularizan; el bosque talado después no se titula y debe restaurarse. La fecha concreta se define en la consulta previa; una opción es el 22-jul-2011, publicación de la Ley 29763 (por verificar).",
+      "que": "La Ley 31973 es modificatoria: su texto ya está incorporado en la Ley 29763, y derogarla no revive el texto anterior. Por eso se modifican los artículos de la Ley 29763 que cambió la Ley 31973 y se restablece expresamente la clasificación de tierras por capacidad de uso mayor y la zonificación forestal (AMB-02) como requisito para titular o reconocer predios en zonas con bosque. Se fija una sola fecha de corte, la misma que usa la titulación rural de AGR-17 y verificable con la serie histórica de Geobosques: los predios con uso agropecuario anterior a esa fecha se regularizan; el bosque talado después no se titula y debe restaurarse. La fecha concreta se define en la consulta previa; una opción es el 22-jul-2011, publicación de la Ley 29763 (por verificar). Los títulos ya inscritos al amparo de la Ley 31973 no se revocan por esta ley (arts. 70 y 103 de la Constitución: garantía de la propiedad e irretroactividad); solo se revisan caso por caso, por nulidad administrativa o judicial, los obtenidos con información falsa o sobre tierras que ya estaban excluidas por otra norma. La obligación de restaurar alcanza al bosque talado después de la nueva fecha de corte.",
       "evidencia": "La Ley 31973 (enero de 2024) fue cuestionada ante el Tribunal Constitucional; en la sentencia de los expedientes acumulados 00002, 00003 y 00005-2024-PI/TC (2025) el TC declaró inconstitucionales sus disposiciones complementarias transitorias primera y segunda y desestimó el resto. Varios proyectos de ley de derogación siguen pendientes y estudios académicos (2025) concluyen que debilitó la gestión forestal.",
       "entrega": "Una ley modificatoria con fecha de corte verificable por satélite y un registro público de predios regularizados.",
       "responsable": "CONGRESO",
@@ -367,6 +400,16 @@
           "rol": "jurista",
           "hallazgo": "Fecha de corte compatible con AGR-17",
           "decision": "aplicado: fecha única compartida; AGR-17 debe agregar AMB-02 y AMB-03 a depende_de (decide agro)"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "títulos inscritos bajo Ley 31973: irretroactividad",
+          "decision": "aplicado: no se revocan por ley; nulidad caso por caso"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "tipo derogacion cuando es modificación",
+          "decision": "aplicado: tipo ley; derogaciones quedan en deroga_o_simplifica"
         }
       ]
     },
@@ -377,7 +420,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: el Programa Nacional de Conservación de Bosques (MINAM) ya opera transferencias directas condicionadas; la titulación es función regional con apoyo de MIDAGRI. Basta presupuesto y metas.",
       "etapa": "2026-2031",
-      "que": "Se completa la titulación y georreferenciación de las comunidades nativas pendientes, empezando por las que tienen frentes de deforestación, minería o coca. A las comunidades tituladas se les ofrece un convenio de conservación: reciben una transferencia anual por hectárea conservada, verificada con Geobosques, que invierten en planes de vida (vigilancia comunal, negocios sostenibles, salud, educación). Se financian también comités de vigilancia indígena conectados a la sala de control de AMB-01.",
+      "que": "Se completa la titulación y georreferenciación de las comunidades nativas pendientes, empezando por las que tienen frentes de deforestación, minería o coca. A las comunidades tituladas se les ofrece un convenio de conservación: reciben una transferencia anual por hectárea conservada, verificada con Geobosques, que invierten en planes de vida (vigilancia comunal, negocios sostenibles, salud, educación). Se financian también comités de vigilancia indígena conectados a la sala de control de AMB-01. El monto por hectárea se diferencia por nivel de amenaza (mayor donde hay frentes de minería o coca).",
       "evidencia": "Las tierras indígenas tituladas en la Amazonía peruana tienen menor deforestación que tierras comparables (Blackman et al., 2017, PNAS); el Programa Bosques del MINAM opera transferencias directas condicionadas desde hace más de una década (evaluación de impacto por verificar).",
       "entrega": "Todas las comunidades nativas con solicitud pendiente tituladas y georreferenciadas; convenios de conservación cubriendo el bosque comunal en riesgo alto.",
       "responsable": "MINAM",
@@ -404,7 +447,7 @@
         }
       ],
       "financiamiento": "Presupuesto del MINAM (Programa Bosques); pagos por resultados REDD+ y mercado de carbono (AMB-17).",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "No estimado en soles: se calcula como hectáreas bajo convenio en riesgo alto × transferencia anual por hectárea vigente del Programa Bosques (monto por citar), y se publica el costo por hectárea de deforestación evitada frente al ingreso de la alternativa ilegal.",
       "indicador": "N.º de comunidades tituladas; hectáreas bajo convenio de conservación; deforestación dentro de comunidades con convenio vs. sin convenio.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -425,6 +468,13 @@
       "pedn": [
         "AE2.4.1",
         "AE2.1.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "monto por hectárea sin comparar con la alternativa ilegal",
+          "decision": "aplicado: método de cálculo y diferenciación por amenaza; no se afirma monto no verificado"
+        }
       ]
     },
     {
@@ -432,13 +482,41 @@
       "titulo": "Destruir dragas en ríos y áreas protegidas y frenar la deforestación por minería",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "Las interdicciones y la destrucción de maquinaria ya están permitidas por el marco de interdicción de la minería ilegal; la fiscalización ambiental es función del OEFA y del SERNANP. Las sanciones nuevas a compradores de oro, que sí requieren ley, quedan en MIN-06.",
+      "por_que_ley": "Las interdicciones y la destrucción de maquinaria ya están permitidas por el marco de interdicción de la minería ilegal (DL 1100 y DL 1105): las ejecuta la PNP, con apoyo de las Fuerzas Armadas en los supuestos legales, con participación del Ministerio Público y coordinación de la PCM. La fiscalización ambiental es función del OEFA y del SERNANP. Las sanciones nuevas a compradores de oro, que sí requieren ley, quedan en MIN-06.",
       "etapa": "2026-2031",
-      "que": "Esta acción cubre el componente ambiental de la lucha contra la minería ilegal. La alerta satelital de deforestación (AMB-01) marca cada nuevo frente minero en ríos, áreas naturales protegidas y sus zonas de amortiguamiento (Madre de Dios, Puno, Amazonas, Loreto, Huánuco). En días, una fuerza conjunta interviene y destruye dragas y maquinaria en el lugar, y el SERNANP y el OEFA levantan el acta del daño ambiental para cobrar la reparación. La trazabilidad del oro está en MIN-06, el control de combustible e insumos en MIN-07 y la restauración en MIN-10.",
+      "que": "Esta acción cubre el componente ambiental de la lucha contra la minería ilegal. La alerta satelital de deforestación (AMB-01) marca cada nuevo frente minero en ríos, áreas naturales protegidas y sus zonas de amortiguamiento (Madre de Dios, Puno, Amazonas, Loreto, Huánuco). En días, una fuerza conjunta conducida por el MININTER (PNP, Marina y Fuerzas Armadas de apoyo) interviene y destruye dragas y maquinaria en el lugar, y el SERNANP y el OEFA levantan el acta del daño ambiental para cobrar la reparación. La trazabilidad del oro está en MIN-06, el control de combustible e insumos en MIN-07 y la restauración en MIN-10. La intervención se ejecuta con fiscal, acta con inventario e identificación de titulares, y coordinación previa con las comunidades nativas de la zona; la maquinaria menor de personas con formalización vigente se inmoviliza, no se destruye; se publica el registro de intervenciones con personas afectadas y denuncias recibidas.",
       "evidencia": "La minería aurífera deforestó 30 846 ha de bosque primario en el sur amazónico peruano entre enero de 2021 y marzo de 2024, buena parte fuera del corredor minero (MAAP #208). Operaciones de interdicción sostenidas en La Pampa (2019) redujeron temporalmente la deforestación (MAAP), pero sin control del oro la actividad se desplaza.",
       "entrega": "100 % de los frentes mineros detectados en ríos y ANP intervenidos en menos de 15 días; deforestación por minería en Madre de Dios reducida de forma medible.",
-      "responsable": "MINAM",
+      "responsable": "MININTER",
       "entidades": [
+        {
+          "sigla": "MININTER",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PNP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINDEF",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MGP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "PCM",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "SUNAT",
+          "rol": "ejecutora"
+        },
         {
           "sigla": "MINAM",
           "rol": "rectora"
@@ -452,19 +530,15 @@
           "rol": "ejecutora"
         },
         {
-          "sigla": "PNP",
-          "rol": "ejecutora"
-        },
-        {
-          "sigla": "MGP",
-          "rol": "ejecutora"
+          "sigla": "MINEM",
+          "rol": "consultiva"
         },
         {
           "sigla": "GORE",
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Presupuesto de MININTER, MINDEF, SUNAT y MINEM; recuperación de bienes por extinción de dominio.",
+      "financiamiento": "PP 0128 Reducción de la minería ilegal (PIM 2026 de alrededor de S/ 179 millones, con devengado cercano a 27,5 % a la fecha de corte del insumo de Consulta Amigable del MEF) y presupuestos de la PNP, la Marina y la SUNAT; recuperación de bienes por extinción de dominio.",
       "costo_referencial": "no estimado",
       "indicador": "Hectáreas deforestadas por minería al año (MAAP / Geobosques); kg de oro exportado sin origen verificable.",
       "deroga_o_simplifica": [],
@@ -498,6 +572,16 @@
           "rol": "jurista",
           "hallazgo": "Ciclo AMB-05 <-> AMB-06",
           "decision": "aplicado: se quita AMB-06"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "responsable MINAM no conduce interdicciones; entidades incoherentes",
+          "decision": "aplicado: responsable MININTER, PCM supervisora, MINDEF, SUNAT, MP y MINEM en entidades; financiamiento PP 0128"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "destrucción sin acta ni coordinación con comunidades",
+          "decision": "aplicado: fiscal, acta con inventario, coordinación comunal e inmovilización para formalizados"
         }
       ]
     },
@@ -635,7 +719,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: Estrategia Nacional y programas presupuestales de DEVIDA; erradicación por CORAH; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Se prioriza erradicar y no permitir resiembra de coca ilícita dentro de áreas naturales protegidas, zonas de amortiguamiento y comunidades nativas que lo pidan, y se acompaña con desarrollo alternativo de largo plazo (cinco a diez años): cacao y café con asociatividad, títulos, caminos vecinales, mercados y servicios. La erradicación sin alternativa no se ejecuta; la alternativa sin erradicación tampoco. El seguimiento se hace con el monitoreo satelital anual de DEVIDA y UNODC.",
+      "que": "Se prioriza erradicar y no permitir resiembra de coca ilícita dentro de áreas naturales protegidas, zonas de amortiguamiento y comunidades nativas que lo pidan, y se acompaña con desarrollo alternativo de largo plazo (cinco a diez años): cacao y café con asociatividad, títulos, caminos vecinales, mercados y servicios. La erradicación sin alternativa no se ejecuta; la alternativa sin erradicación tampoco. El seguimiento se hace con el monitoreo satelital anual de DEVIDA y UNODC. La erradicación es manual, no química ni aérea, respeta el uso tradicional de la hoja de coca registrado por ENACO y, en comunidades nativas, se acuerda en asamblea comunal con acta.",
       "evidencia": "DEVIDA reportó tres años consecutivos de reducción de la coca (84 546 ha en 2025); el caso San Martín muestra que el desarrollo alternativo sostenido redujo la coca y la violencia, aunque su reproducibilidad es debatida (UNODC; estudios por verificar).",
       "entrega": "Cero hectáreas de coca dentro de ANP y reducción de 50 % de la coca en comunidades nativas.",
       "responsable": "DEVIDA",
@@ -686,6 +770,13 @@
       "pedn": [
         "AE2.4.1",
         "AE3.3.19"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "descartar erradicación química o aérea; uso tradicional",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -695,7 +786,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: presupuesto del SERNANP y fondos fiduciarios existentes (PROFONANPE); no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Cada área natural protegida nacional tiene jefatura, guardaparques suficientes, puestos de control, plan maestro vigente y monitoreo biológico. Se consolida un fondo de financiamiento permanente (modelo 'financiamiento para la permanencia') que combina presupuesto público creciente con aportes de cooperación y donantes, administrado por PROFONANPE con metas de efectividad de gestión. Las áreas de conservación regional y privadas reciben asistencia técnica y acceso a pagos por servicios ecosistémicos.",
+      "que": "Cada área natural protegida nacional tiene jefatura, guardaparques suficientes, puestos de control, plan maestro vigente y monitoreo biológico. Se consolida un fondo de financiamiento permanente (modelo 'financiamiento para la permanencia') que combina presupuesto público creciente con aportes de cooperación y donantes, administrado por PROFONANPE con metas de efectividad de gestión. Las áreas de conservación regional y privadas reciben asistencia técnica y acceso a pagos por servicios ecosistémicos. Las reservas comunales se gestionan con sus ejecutores de contrato de administración indígenas; en las áreas superpuestas con comunidades se reconocen sus usos tradicionales y se contratan guardaparques comunales; las reservas indígenas para pueblos en aislamiento y contacto inicial son intangibles (Ley 28736).",
       "evidencia": "El Perú tiene alrededor de 22,5 millones de hectáreas en ANP (≈ 17 % del territorio, SERNANP). El esquema 'Patrimonio Natural del Perú' (2019) aplica el modelo de financiamiento para la permanencia usado en Brasil (ARPA) y Costa Rica; sus resultados deben evaluarse (por verificar).",
       "entrega": "100 % de ANP nacionales con plan maestro vigente y dotación mínima de guardaparques; brecha de financiamiento cerrada.",
       "responsable": "SERNANP",
@@ -738,6 +829,13 @@
       ],
       "pedn": [
         "AE2.4.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "cogestión con comunidades e intangibilidad PIACI",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -805,7 +903,7 @@
       "etapa": "2026-2031",
       "que": "Se construye una red de rellenos sanitarios provinciales o mancomunados (un relleno sirve a varios distritos) con plantas de valorización de orgánicos, y se clausuran y recuperan los botaderos con un plan de cierre fiscalizado por el OEFA. Se prioriza por población servida y riesgo (botaderos junto a ríos, playas o centros poblados). Las municipalidades firman contratos de servicio con tarifa que cubre la operación; el Gobierno nacional cofinancia la inversión inicial.",
       "evidencia": "Solo alrededor de 53 % de los residuos urbanos van a rellenos sanitarios (MINAM); el OEFA registra miles de áreas degradadas por residuos, más de 90 % bajo responsabilidad de gobiernos locales. Proyectos de rellenos con BID/JICA en 31 ciudades priorizadas muestran que el modelo provincial funciona cuando hay operador y tarifa.",
-      "entrega": "Rellenos sanitarios operando en todas las capitales de provincia y 100 % de los botaderos priorizados clausurados.",
+      "entrega": "De unos 52 rellenos sanitarios (línea base citada por el MINAM, año por verificar) a rellenos operando en todas las capitales de provincia con más de 50 000 habitantes al 2031 y en el resto al 2036, con 100 % de los botaderos priorizados clausurados.",
       "responsable": "MINAM",
       "entidades": [
         {
@@ -836,7 +934,7 @@
       "depende_de": [
         "EST-07"
       ],
-      "riesgo": "Oposición vecinal a la ubicación de rellenos; municipios que no cobran arbitrios y no sostienen la operación.",
+      "riesgo": "Oposición vecinal a la ubicación de rellenos; terrenos sin saneamiento físico-legal; municipios que no cobran arbitrios y no sostienen la operación (AMB-12); baja ejecución del PP 0036 (alrededor de 43 % de devengado del PIM 2026 a la fecha de corte del insumo de Consulta Amigable del MEF).",
       "fuentes": [
         {
           "titulo": "Andina – Minam impulsa proyectos integrales de rellenos sanitarios mediante obras por impuestos",
@@ -864,6 +962,11 @@
           "rol": "coherencia",
           "hallazgo": "Etapa 2026-2036 fuera de las etapas válidas",
           "decision": "aplicado: 2026-2031, con metas posteriores en el texto"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "rellenos en 196 capitales sin línea base",
+          "decision": "aplicado: línea base de ≈ 52 (por verificar), meta escalonada y riesgo de saneamiento y ejecución"
         }
       ]
     },
@@ -969,16 +1072,20 @@
         {
           "sigla": "RECICLADORES",
           "rol": "beneficiaria"
+        },
+        {
+          "sigla": "INDECOPI",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Financiado por los productores (costo internalizado); presupuesto de fiscalización de OEFA y PRODUCE.",
       "costo_referencial": "no estimado",
-      "indicador": "Tasa de valorización por flujo de residuo; N.º de recicladores formalizados.",
+      "indicador": "Tasa de valorización por flujo de residuo; N.º de recicladores formalizados. Costo REP por tonelada valorizada publicado y precio pagado a recicladores.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "TAL-12"
       ],
-      "riesgo": "Captura por la industria en la fijación de metas; competencia desleal de importadores informales.",
+      "riesgo": "Captura por la industria en la fijación de metas; competencia desleal de importadores informales. Traslado del costo REP a los precios de la canasta y poder de compra de los sistemas colectivos frente a los recicladores.",
       "fuentes": [
         {
           "titulo": "Expreso – La informalidad en el reciclaje de residuos sólidos en el Perú",
@@ -994,6 +1101,11 @@
           "rol": "coherencia",
           "hallazgo": "Etapa 2026-2036 fuera de las etapas válidas",
           "decision": "aplicado: 2026-2031, con metas posteriores en el texto"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "traslado de costos REP y poder de compra frente a recicladores",
+          "decision": "aplicado: riesgo, indicador e INDECOPI supervisora"
         }
       ]
     },
@@ -1034,12 +1146,12 @@
           "rol": "supervisora"
         }
       ],
-      "financiamiento": "Presupuesto de MINAM, SENAMHI y gobiernos locales.",
+      "financiamiento": "Proyecto de inversión del SENAMHI en Invierte.pe para las nuevas estaciones (costo unitario por estimar) y presupuesto de operación del PP 0096 Gestión de la calidad del aire ampliado (hoy de alrededor de S/ 9 millones de PIM 2026, insuficiente para operar una red); Programa de Incentivos a la Mejora de la Gestión Municipal para los planes municipales.",
       "costo_referencial": "no estimado",
       "indicador": "PM2,5 y PM10 medio anual por ciudad (SENAMHI); N.º de ciudades con monitoreo continuo.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "GOB-11"
+        "IA-04"
       ],
       "riesgo": "Resistencia de transportistas e importadores de vehículos usados; mala calidad de datos si las estaciones no tienen mantenimiento.",
       "fuentes": [
@@ -1065,6 +1177,16 @@
           "rol": "coherencia",
           "hallazgo": "Etapa 2026-2036 fuera de las etapas válidas",
           "decision": "aplicado: 2026-2031, con metas posteriores en el texto"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "GOB-11 (transporte) no es prerrequisito de la red de aire",
+          "decision": "aplicado: se reemplaza por IA-04 (datos públicos por defecto)"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0096 no alcanza para una red de monitoreo",
+          "decision": "aplicado: proyecto de inversión del SENAMHI y PP 0096 ampliado"
         }
       ]
     },
@@ -1359,10 +1481,10 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: Invierte.pe, el PP 0068 y el control urbano municipal; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "Con mapas de CENEPRED e INGEMMET se clasifican las quebradas, riberas y laderas urbanas (Lima, Arequipa, Piura, Áncash, Cusco) entre riesgo mitigable y no mitigable. Donde el riesgo sí es reducible se ejecutan obras de mitigación: diques, disipadores de energía, mallas dinámicas, canalizaciones y reforestación de cabeceras. Las municipalidades declaran intangibles los cauces y prohíben nuevas ocupaciones con control urbano y vigilancia satelital. El reasentamiento de familias en riesgo no mitigable no está en esta acción: queda en VIV-12.",
+      "que": "Con mapas de CENEPRED e INGEMMET se clasifican las quebradas, riberas y laderas urbanas (Lima, Arequipa, Piura, Áncash, Cusco) entre riesgo mitigable y no mitigable. Donde el riesgo sí es reducible se ejecutan obras de mitigación, a cargo de la Autoridad Nacional de Infraestructura (ANIN, Ley 31841) en las quebradas de mayor riesgo, que ya ejecuta soluciones integrales en quebradas de Lima Este, y de gobiernos regionales y locales en las demás: diques, disipadores de energía, mallas dinámicas, canalizaciones y reforestación de cabeceras. Las municipalidades declaran intangibles los cauces y prohíben nuevas ocupaciones con control urbano y vigilancia satelital. El reasentamiento de familias en riesgo no mitigable no está en esta acción: queda en VIV-12.",
       "evidencia": "Los huaicos de 2017 afectaron sobre todo a viviendas en cauces de quebradas; la Ley 29869 existe desde 2012 pero su aplicación ha sido mínima por falta de vivienda alternativa y financiamiento (CENEPRED; Defensoría, por verificar).",
       "entrega": "Inventario de quebradas urbanas clasificado por tipo de riesgo y obras de mitigación en las 50 quebradas de mayor riesgo al 2031 (meta indicativa).",
-      "responsable": "MVCS",
+      "responsable": "ANIN",
       "entidades": [
         {
           "sigla": "MVCS",
@@ -1383,11 +1505,15 @@
         {
           "sigla": "INGEMMET",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "ANIN",
+          "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Bono Familiar Habitacional, PP 0068, Invierte.pe y Obras por Impuestos (numeral 2.2.11 de la Ley 32743).",
+      "financiamiento": "PP 0068, presupuesto de la ANIN, Invierte.pe y Obras por Impuestos (numeral 2.2.11 de la Ley 32743).",
       "costo_referencial": "no estimado",
-      "indicador": "Familias en zonas de riesgo no mitigable reasentadas; nuevas ocupaciones en quebradas (detección satelital).",
+      "indicador": "Quebradas priorizadas con obras de mitigación concluidas y con convenio de mantenimiento; nuevas ocupaciones en quebradas (detección satelital).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "AMB-15",
@@ -1398,6 +1524,10 @@
         {
           "titulo": "Gobierno del Perú – Estudio de vulnerabilidad y riesgo sísmico en Lima–Callao",
           "url": "https://cdn.www.gob.pe/uploads/document/file/5183107/Estudio%20de%20vulnerabilidad%20y%20Riesgo%20S%C3%ADsmico%20en%20Lima%20%E2%80%93%20Callao.pdf"
+        },
+        {
+          "titulo": "Municipalidad de Lurigancho-Chosica – ANIN realizará intervención en 10 quebradas priorizadas",
+          "url": "https://www.gob.pe/institucion/munilurigancho/noticias/1421374-anin-realizara-intervencion-en-10-quebradas-priorizadas-de-lurigancho-chosica"
         }
       ],
       "pedn": [
@@ -1419,6 +1549,11 @@
           "rol": "jurista",
           "hallazgo": "VIV-12 adelantada a 2026-2031",
           "decision": "aplicado: VIV-12 se agrega a depende_de"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "falta la ANIN; MVCS no ejecuta obras de quebradas",
+          "decision": "aplicado: ANIN responsable y ejecutora; MVCS rectora del suelo; indicador de reasentamiento movido a VIV-12, financiamiento sin bono habitacional"
         }
       ]
     },
@@ -1427,16 +1562,36 @@
       "titulo": "Reforzar las escuelas y hospitales más vulnerables ante un gran sismo en Lima",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "Instrumento: programa del MVCS de reforzamiento de vivienda con bono, inversión sectorial de MINEDU y MINSA vía Invierte.pe; no requiere ley.",
+      "por_que_ley": "Instrumento: inversión sectorial de MINEDU (PRONIED) y MINSA (PRONIS) vía Invierte.pe, coordinada por la PCM con la Norma E.030 de diseño sismorresistente como estándar; no requiere ley.",
       "etapa": "2026-2031",
       "que": "Se levanta un catastro de vulnerabilidad sísmica de escuelas, hospitales y edificios públicos esenciales de Lima y Callao, y se refuerzan o reponen por cartera los más críticos. Se ensaya cada año la continuidad de agua, electricidad, telecomunicaciones y hospitales con el escenario oficial de sismo 8,8 y tsunami. El reforzamiento de viviendas autoconstruidas, con su meta de 100 000 viviendas, queda en VIV-11.",
       "evidencia": "El escenario de sismo 8,8 usado en el simulacro del INDECI estima 110 310 fallecidos, más de 2 millones de heridos, 353 495 viviendas destruidas y 623 882 inhabitables en Lima y Callao (Andina). Chile, con normas sísmicas y control de construcción efectivos, tuvo baja mortalidad en el sismo de 8,8 de 2010 en relación con su magnitud.",
       "entrega": "Catastro de vulnerabilidad de edificios públicos esenciales completo al 2031 y simulacro anual de continuidad de servicios.",
-      "responsable": "MVCS",
+      "responsable": "PCM",
       "entidades": [
         {
-          "sigla": "MVCS",
+          "sigla": "PCM",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MINEDU",
           "rol": "rectora"
+        },
+        {
+          "sigla": "PRONIED",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINSA",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "PRONIS",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MVCS",
+          "rol": "consultiva"
         },
         {
           "sigla": "INDECI",
@@ -1447,21 +1602,13 @@
           "rol": "consultiva"
         },
         {
-          "sigla": "MINEDU",
-          "rol": "ejecutora"
-        },
-        {
-          "sigla": "MINSA",
-          "rol": "ejecutora"
-        },
-        {
           "sigla": "GL",
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Presupuesto del MVCS (bono de reforzamiento), MINEDU, MINSA; seguros y banca multilateral.",
+      "financiamiento": "Presupuesto de inversión de MINEDU-PRONIED y MINSA-PRONIS, gobiernos regionales y locales; seguros y banca multilateral.",
       "costo_referencial": "no estimado",
-      "indicador": "Viviendas reforzadas; % de escuelas y hospitales de Lima con evaluación estructural aprobada.",
+      "indicador": "% de escuelas y hospitales de Lima y Callao con evaluación estructural aprobada; N.º de locales críticos reforzados o repuestos.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-09",
@@ -1494,6 +1641,11 @@
           "rol": "jurista",
           "hallazgo": "Solapa VIV-11 en reforzamiento de viviendas",
           "decision": "aplicado: viviendas y meta de 100 000 pasan a VIV-11"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "MVCS sin competencia en escuelas y hospitales",
+          "decision": "aplicado: responsable PCM; PRONIED y PRONIS ejecutoras; MVCS consultiva (E.030)"
         }
       ]
     },
@@ -1571,7 +1723,7 @@
       "titulo": "Tener listo un modelo permanente de reconstrucción con diseños tipo y contratos estandarizados",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "Instrumento: la ANIN ya tiene facultades de ejecución; basta directivas, catálogo de diseños tipo y contratos marco aprobados antes del desastre.",
+      "por_que_ley": "Instrumento: la ANIN (Ley 31841, adscrita a la PCM) ya tiene facultades de ejecución; basta directivas, catálogo de diseños tipo y contratos marco aprobados antes del desastre.",
       "etapa": "2026-2031",
       "que": "Antes del próximo desastre grande se aprueban diseños tipo de vivienda, aulas, postas, puentes modulares y defensas ribereñas; contratos marco con proveedores precalificados que se activan en días; un padrón de damnificados interoperable (RENIEC, SISFOH, catastro) y reglas para que la reconstrucción no vuelva a construir en el mismo lugar de riesgo. Las lecciones de la reconstrucción de 2017 y de los convenios de gobierno a gobierno se documentan y se convierten en procedimiento estándar. Incluye una evaluación independiente de la Reconstrucción con Cambios (Ley 30556), cuyos resultados alimentan el procedimiento estándar. Esta es la acción única sobre el modelo de reconstrucción (VIV-17 debería remitir a ella).",
       "evidencia": "La reconstrucción del Niño costero 2017 transfirió cerca de 9 900 millones de soles a 13 regiones, pero tuvo baja ejecución inicial y dejó cerca del 30 % de obras sin concluir (Contraloría; Norte Sostenible). Nueva Zelanda y Chile reconstruyen con contratos y diseños preaprobados.",
@@ -1631,6 +1783,11 @@
           "rol": "jurista",
           "hallazgo": "Duplica VIV-17; AMB-22 queda como acción integral",
           "decision": "aplicado: incorpora la evaluación de la Ley 30556; vivienda convierte VIV-17 en remisión"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "citar la Ley 31841 de la ANIN",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1706,9 +1863,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Instrumento: el OEFA ya tiene potestad sancionadora y de monitoreo (Ley 29325); basta reglamentos de monitoreo en línea y convenios de datos.",
       "etapa": "2026-2031",
-      "que": "El OEFA exige monitoreo continuo en línea (efluentes, emisiones, caudales) a las grandes unidades mineras, petroleras, pesqueras e industriales, con datos publicados; usa imágenes satelitales para detectar derrames, relaves y deforestación; mejora la cobranza de multas firmes y publica un ranking de cumplimiento. Asume asistencia técnica y supervisión de las Entidades de Fiscalización Ambiental regionales y municipales, que hoy casi no fiscalizan.",
+      "que": "El OEFA construye y opera la única plataforma nacional de monitoreo ambiental en tiempo real: exige monitoreo continuo en línea (efluentes, emisiones, caudales) a las grandes unidades mineras, petroleras, pesqueras e industriales, con datos publicados en formato abierto. La minería (MIN-20) y la medición con datos abiertos (DIG-21) usan esta misma plataforma y no crean otra. Los sensores se certifican y auditan por terceros acreditados por INACAL y los datos se transmiten firmados digitalmente para asegurar su integridad. Además usa imágenes satelitales para detectar derrames, relaves y deforestación; mejora la cobranza de multas firmes y publica un ranking de cumplimiento. Asume asistencia técnica y supervisión de las Entidades de Fiscalización Ambiental regionales y municipales, que hoy casi no fiscalizan.",
       "evidencia": "La Ley 29325 creó el Sistema Nacional de Evaluación y Fiscalización Ambiental con el OEFA como rector; el monitoreo en tiempo real de efluentes es estándar en Chile (SMA) y la Unión Europea. El inventario de áreas degradadas por residuos del OEFA muestra que la fiscalización municipal es el eslabón débil.",
-      "entrega": "Monitoreo en línea en 100 % de las grandes unidades fiscalizables y tablero público de cumplimiento.",
+      "entrega": "Plataforma única de monitoreo en línea del OEFA operando, con 100 % de las grandes unidades fiscalizables conectadas, sensores auditados y tablero público de cumplimiento.",
       "responsable": "OEFA",
       "entidades": [
         {
@@ -1726,6 +1883,10 @@
         {
           "sigla": "GL",
           "rol": "supervisora"
+        },
+        {
+          "sigla": "INACAL",
+          "rol": "consultiva"
         }
       ],
       "financiamiento": "Aporte por regulación del OEFA y presupuesto del MINAM.",
@@ -1733,7 +1894,7 @@
       "indicador": "% de multas firmes cobradas; N.º de unidades con monitoreo en línea; tiempo de detección de incidentes.",
       "deroga_o_simplifica": [],
       "depende_de": [
-        "DIG-21"
+        "TAL-09"
       ],
       "riesgo": "Litigios contra multas; recortes del aporte por regulación; debilidad de las fiscalizadoras regionales.",
       "fuentes": [
@@ -1745,6 +1906,13 @@
       "pedn": [
         "AE2.6.6",
         "AE2.6.11"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "tres acciones para una misma plataforma OEFA",
+          "decision": "aplicado: AMB-24 es la dueña; MIN-20 y DIG-21 deben citarla; sensores auditados (INACAL) y datos firmados; TAL-09 como origen y se quita DIG-21 para evitar ciclo"
+        }
       ]
     },
     {
@@ -1752,9 +1920,9 @@
       "titulo": "Atender la salud de expuestos a hidrocarburos y financiar la vigilancia indígena amazónica",
       "tipo": "obra",
       "necesita_ley": "no",
-      "por_que_ley": "Instrumento: presupuesto del MINSA y del OEFA, actas de acuerdos ya suscritas y el Fondo de Contingencia de la Ley 30321 para la parte ambiental; no requiere ley.",
+      "por_que_ley": "Instrumento: la Ley 31189 (prevención, mitigación y atención de la salud afectada por metales pesados y otras sustancias químicas) y su reglamento (DS 007-2023-SA) ya obligan al MINSA; el Plan Especial Multisectorial (DS 037-2021-MINAM) ordena la intervención; actas de acuerdos ya suscritas con las federaciones; no requiere ley.",
       "etapa": "2026-2031",
-      "que": "En las cuencas del Pastaza, Tigre, Corrientes y Marañón el MINSA identifica a la población expuesta a metales e hidrocarburos, mide su exposición con laboratorios acreditados, publica los resultados agregados y garantiza atención especializada. Los programas de monitoreo y vigilancia ambiental indígena se financian de forma estable y reportan directamente al OEFA, que debe responder cada reporte en un plazo fijo. La remediación de los sitios contaminados y su plazo están en ENE-25, y la decisión sobre el futuro del Oleoducto Norperuano en ENE-07.",
+      "que": "En las cuencas del Pastaza, Tigre, Corrientes y Marañón el MINSA identifica a la población expuesta a metales e hidrocarburos, mide su exposición con laboratorios acreditados, publica los resultados agregados y garantiza atención especializada, en cumplimiento de la Ley 31189, del Plan Especial Multisectorial (DS 037-2021-MINAM) y de los acuerdos vigentes con las federaciones indígenas de las cuatro cuencas, con registro nominal de afectados y reparación. El mismo modelo se aplica a La Oroya, donde la Corte IDH (caso Habitantes de La Oroya vs. Perú, sentencia notificada en 2024) ordenó al Estado atención médica y medidas de reparación. Los programas de monitoreo y vigilancia ambiental indígena se financian de forma estable y reportan directamente al OEFA, que debe responder cada reporte en un plazo fijo. La remediación de los sitios contaminados y su plazo están en ENE-25, y la decisión sobre el futuro del Oleoducto Norperuano en ENE-07.",
       "evidencia": "La Ley 30321 (2015) creó el fondo para remediar las cuencas de Loreto; la remediación efectiva empezó recién en 2025 en 38 sitios, con un fondo de alrededor de S/ 390–450 millones según fuentes oficiales y de prensa. PROFONANPE reporta 146 sitios impactados en el lote 192.",
       "entrega": "Línea de base de salud de la población expuesta publicada y programas de vigilancia indígena financiados en las cuatro cuencas.",
       "responsable": "MINSA",
@@ -1780,9 +1948,9 @@
           "rol": "beneficiaria"
         }
       ],
-      "financiamiento": "Fondo de Contingencia para Remediación Ambiental (Ley 30321), presupuesto de Petroperú, cobro a responsables identificados.",
-      "costo_referencial": "Fondo de remediación de S/ 390–450 millones para la primera etapa (MINEM y Andina, 2025); el costo total no está estimado.",
-      "indicador": "N.º de sitios remediados con conformidad del OEFA; derrames por año en el Oleoducto Norperuano.",
+      "financiamiento": "Presupuesto del MINSA y de las DIRESA para la Ley 31189 y el Plan Especial Multisectorial; presupuesto del OEFA para la vigilancia indígena; cobro a responsables identificados. La remediación (Fondo de Contingencia, Ley 30321) se financia en ENE-25.",
+      "costo_referencial": "No estimado para la parte de salud y vigilancia. El fondo de remediación de S/ 390–450 millones (MINEM y Andina, 2025) se contabiliza en ENE-25 y no se suma aquí.",
+      "indicador": "Personas de las cuatro cuencas con evaluación de exposición y atención especializada (Ley 31189); reportes de vigilancia indígena respondidos por el OEFA en plazo; acuerdos con federaciones cumplidos (%).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "ENE-25",
@@ -1802,6 +1970,18 @@
         {
           "titulo": "SINIA – Aprueban actualización del Inventario de Pasivos Ambientales del Subsector Hidrocarburos",
           "url": "https://sinia.minam.gob.pe/normas/aprueban-septima-actualizacion-inventario-pasivos-ambientales-subsector"
+        },
+        {
+          "titulo": "El Peruano – Ley 31189, para fortalecer la prevención, mitigación y atención de la salud afectada por la contaminación con metales pesados",
+          "url": "https://busquedas.elperuano.pe/normaslegales/ley-para-fortalecer-la-prevencion-mitigacion-y-atencion-de-ley-n-31189-1949664-1"
+        },
+        {
+          "titulo": "El Peruano – DS que aprueba el Plan Especial Multisectorial para la población expuesta a metales pesados",
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2024511-8"
+        },
+        {
+          "titulo": "Mongabay – Corte internacional condena a Perú por contaminación ambiental en La Oroya (2024)",
+          "url": "https://es.mongabay.com/2024/03/corte-internacional-condena-a-peru-por-contaminacion-ambiental-oroya/"
         }
       ],
       "pedn": [
@@ -1823,6 +2003,16 @@
           "rol": "coordinación",
           "hallazgo": "Acuerdo con energía sobre ENE-25 y ENE-07",
           "decision": "aplicado: metas de remediación 2031/2036 y decisión del Oleoducto solo en energía"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "indicador mide remediación, no salud",
+          "decision": "aplicado: indicador de exposición y atención, respuesta del OEFA y acuerdos cumplidos; costo de remediación queda en ENE-25"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "falta Ley 31189 y reparación a víctimas",
+          "decision": "aplicado: Ley 31189, DS 007-2023-SA, DS 037-2021-MINAM, acuerdos con federaciones y La Oroya"
         }
       ]
     },
@@ -1959,6 +2149,77 @@
       ],
       "pedn": [
         "AE3.3.11"
+      ]
+    },
+    {
+      "id": "AMB-28",
+      "titulo": "Proteger a defensores ambientales e indígenas con un mecanismo financiado y presente en territorio",
+      "tipo": "accion_ejecutiva",
+      "necesita_ley": "no",
+      "por_que_ley": "Instrumento: el Mecanismo intersectorial para la protección de las personas defensoras de derechos humanos ya existe (DS 004-2021-JUS); basta asignarle presupuesto en la ley anual, aprobar protocolos por resolución ministerial y firmar convenios con el Ministerio Público. No requiere ley.",
+      "etapa": "2026-2031",
+      "que": "En los últimos años dirigentes indígenas y defensores ambientales de Ucayali, Junín, Loreto, Madre de Dios y Huánuco han sido asesinados o amenazados (Global Witness ubicó al Perú entre los países más peligrosos para defensores en 2024) por enfrentar la tala, la minería ilegal y el narcotráfico, y las acciones de este sector (AMB-01, AMB-04, AMB-05, AMB-08) dependen de comités de vigilancia comunal que quedan expuestos. Se financia y despliega el Mecanismo intersectorial del DS 004-2021-JUS con: alerta temprana que recibe avisos de las organizaciones y de la sala de control de AMB-01; medidas de protección urgentes acordadas con la persona y su organización (protección policial, comunicación satelital, reubicación temporal); fiscalías que investiguen con diligencia y prioridad los ataques; y un registro público de casos sin datos que expongan a las víctimas. Empieza en las cinco regiones de AMB-01.",
+      "evidencia": "La Corte IDH (Defensor de Derechos Humanos y otros vs. Guatemala, 2014) estableció que el Estado debe prevenir, proteger e investigar con diligencia los ataques contra defensores. La experiencia regional muestra que los mecanismos sin presupuesto propio, presencia territorial ni investigación penal se limitan a responder tarde.",
+      "entrega": "Mecanismo con presupuesto propio y equipos de atención en Ucayali, Madre de Dios, Huánuco, San Martín y Loreto al 2028; protocolo de alerta con respuesta en 72 horas; registro público anual de casos.",
+      "responsable": "MINJUSDH",
+      "entidades": [
+        {
+          "sigla": "MINJUSDH",
+          "rol": "rectora"
+        },
+        {
+          "sigla": "MININTER",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINAM",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MINCUL",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "MP",
+          "rol": "ejecutora"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
+        },
+        {
+          "sigla": "MEF",
+          "rol": "financiadora"
+        }
+      ],
+      "financiamiento": "Presupuesto del MINJUSDH (dirección a cargo de derechos humanos) y del MININTER, con partida identificada para el Mecanismo en la ley anual de presupuesto; cooperación internacional para equipos de comunicación. No se asume gasto nuevo sin informe del MEF.",
+      "costo_referencial": "no estimado",
+      "indicador": "Días entre una alerta de riesgo y la medida de protección; % de alertas atendidas en 72 horas; ataques y asesinatos de defensores por año; % de casos con investigación fiscal formalizada y con sentencia.",
+      "deroga_o_simplifica": [],
+      "depende_de": [
+        "AMB-01"
+      ],
+      "riesgo": "Que el Mecanismo siga sin presupuesto ni personal en regiones; filtración de información a las economías ilegales por corrupción local; desconfianza de las organizaciones indígenas si las medidas no se acuerdan con ellas.",
+      "fuentes": [
+        {
+          "titulo": "El Peruano – DS 004-2021-JUS, que crea el Mecanismo intersectorial para la protección de las personas defensoras de derechos humanos",
+          "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-crea-el-mecanismo-intersectorial-para-la-decreto-supremo-n-004-2021-jus-1946184-4/"
+        },
+        {
+          "titulo": "Actualidad Ambiental – Perú entre los países más peligrosos para defensores ambientales en 2024, según Global Witness",
+          "url": "https://www.actualidadambiental.pe/peru-defensores-ambientales-en-2024-global-witness/"
+        }
+      ],
+      "pedn": [
+        "AE4.3.1",
+        "AE1.5.11"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "omisión: protección de defensores ambientales e indígenas",
+          "decision": "aplicado: acción nueva AMB-28 sobre el Mecanismo del DS 004-2021-JUS"
+        }
       ]
     }
   ],
@@ -2236,6 +2497,16 @@
       "rol": "cifras",
       "hallazgo": "Fuente REINFO de prensa sectorial",
       "decision": "descartado: AMB-06 ya no trata el REINFO (queda en MIN-04)"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "meta de hidrocarburos no mide salud de expuestos",
+      "decision": "aplicado: nueva meta de evaluación y atención de expuestos (AMB-25)"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "falta acción de protección de defensores",
+      "decision": "aplicado: nueva AMB-28"
     }
   ]
 }

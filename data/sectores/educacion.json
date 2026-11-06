@@ -105,7 +105,7 @@
       "2036": "55 %",
       "2046": "70 %",
       "2056": "80 %",
-      "referencia": "Proyecto Educativo Nacional al 2036 (aprendizajes para todos); en la OCDE ~74 % de estudiantes de 15 años alcanza el nivel básico de lectura en PISA 2022 (OCDE)",
+      "referencia": "Proyecto Educativo Nacional al 2036 (aprendizajes para todos); en la OCDE ~74 % de estudiantes de 15 años alcanza el nivel básico de lectura en PISA 2022 (OCDE); meta complementaria: brecha rural-urbana reducida a la mitad al 2036",
       "fuente_linea_base": "Minedu, ENLA 2024"
     },
     {
@@ -115,7 +115,7 @@
       "2036": "50 %",
       "2046": "65 %",
       "2056": "75 %",
-      "referencia": "ODS 4.1.1 (proporción con nivel mínimo de competencia en matemática); promedio OCDE de nivel básico en PISA matemática: 69 % (OCDE 2022)",
+      "referencia": "ODS 4.1.1 (proporción con nivel mínimo de competencia en matemática); promedio OCDE de nivel básico en PISA matemática: 69 % (OCDE 2022); meta complementaria: brecha rural-urbana reducida a la mitad al 2036",
       "fuente_linea_base": "Minedu, resultados ENLA 2024 (reportado por El Peruano)"
     },
     {
@@ -131,11 +131,11 @@
     {
       "indicador": "Locales escolares públicos con agua, desagüe y electricidad por red pública (o solución técnica equivalente certificada)",
       "linea_base": "40 % (2022)",
-      "2031": "60 %",
+      "2031": "50 %",
       "2036": "75 %",
       "2046": "95 %",
       "2056": "100 %",
-      "referencia": "ODS 4.a.1 (escuelas con servicios básicos)",
+      "referencia": "ODS 4.a.1 (escuelas con servicios básicos); la meta 2031 se bajó de 60 % a 50 %: 60 % suponía unos 2 100 locales por año, muy por encima del ritmo histórico, y EDU-10 fija 75 % al 2036",
       "fuente_linea_base": "Minedu, Censo Educativo 2022 – EduDatos 46"
     },
     {
@@ -155,7 +155,7 @@
       "2036": "5,5 %",
       "2046": "6,0 %",
       "2056": "6,0 %",
-      "referencia": "Art. 16 de la Constitución, reformado por la Ley 31097: no menos de 6 % del PBI; Acuerdo Nacional, 12.ª política de Estado",
+      "referencia": "Art. 16 de la Constitución, reformado por la Ley 31097: no menos de 6 % del PBI; Acuerdo Nacional, 12.ª política de Estado. Cálculo propio sin fuente oficial: cada 0,1 punto del PBI son unos S/ 1 200 millones anuales a precios de 2025, así que llegar a 5 % en 2031 cuesta unos S/ 7 700 millones anuales adicionales y a 6 %, S/ 19 000-20 000 millones. La senda solo avanza con fuentes identificadas (presión tributaria y menos gasto tributario, ver economía y EDU-16), no con déficit",
       "fuente_linea_base": "Banco Mundial, WDI"
     },
     {
@@ -205,12 +205,12 @@
           "rol": "financiadora"
         },
         {
-          "sigla": "Gobiernos locales",
+          "sigla": "GL",
           "rol": "beneficiaria"
         }
       ],
       "financiamiento": "Presupuesto del pliego MIDIS (programa presupuestal orientado a resultados de desarrollo infantil temprano) y Fondo de Estímulo al Desempeño (FED) con gobiernos regionales",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "No estimado. Banda: (familias con niñas y niños de 0 a 36 meses y gestantes en centros poblados rurales de distritos de quintil 1 y 2 con anemia sobre el promedio, según el padrón nominal) × (costo anual por familia del Servicio de Acompañamiento a Familias, MIDIS); se publica en 2027.",
       "indicador": "% de niñas y niños de 0–36 meses de centros poblados rurales priorizados con al menos 3 visitas al mes; resultado: desarrollo infantil (EDI) y anemia",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -233,6 +233,13 @@
       "pedn": [
         "AE1.5.7",
         "AE1.5.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Acompañamiento familiar sin banda de costo",
+          "decision": "aplicado como fórmula; costo por familia no verificado"
+        }
       ]
     },
     {
@@ -252,7 +259,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -264,13 +271,14 @@
           "rol": "financiadora"
         }
       ],
-      "financiamiento": "Programa presupuestal 0090 (logros de aprendizaje), Invierte.pe, Obras por Impuestos",
+      "financiamiento": "Programa presupuestal 0090 (logros de aprendizaje), Invierte.pe, Obras por Impuestos; plazas docentes nuevas aprobadas en la Ley Anual de Presupuesto (costo por plaza según la escala vigente)",
       "costo_referencial": "no estimado",
       "indicador": "% de matrícula de 3–5 años atendida por docente titulado; resultados de evaluación de desarrollo infantil al ingreso a primaria",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-01",
-        "EDU-09"
+        "EDU-09",
+        "EDU-07"
       ],
       "riesgo": "Crear aulas sin plazas docentes financiadas; conversión que cierre PRONOEI en zonas donde no llega la escuela.",
       "fuentes": [
@@ -286,6 +294,13 @@
       "pedn": [
         "AE1.5.7",
         "AE1.1.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Aulas sin plazas docentes: depender de EDU-07",
+          "decision": "aplicado: sin ciclo (EDU-07 no tiene dependencias)"
+        }
       ]
     },
     {
@@ -305,7 +320,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -357,7 +372,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -406,7 +421,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -441,7 +456,7 @@
       "titulo": "Elevar la formación inicial docente con escuelas pedagógicas licenciadas y becas de vocación",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "parcial",
-      "por_que_ley": "El licenciamiento de Escuelas de Educación Superior Pedagógica ya está en la Ley 30512 y su reglamento; los cambios en requisitos de egreso o la fusión de escuelas públicas que exijan modificar la ley necesitan norma con rango de ley de iniciativa del Ejecutivo.",
+      "por_que_ley": "La fusión de escuelas pedagógicas públicas se aprueba por resolución del MINEDU y norma regional, en el marco de la Ley 30512 y su reglamento (artículo aplicable por verificar en SPIJ); no es materia reservada a ley. Solo cambiar requisitos de egreso fijados en la Ley 30512 exige ley, de iniciativa del Ejecutivo si implica gasto (art. 79).",
       "etapa": "2026-2031",
       "que": "Concentrar la formación de docentes en escuelas pedagógicas y facultades de educación licenciadas, con práctica en aula desde el primer año en escuelas asociadas. Fusionar escuelas públicas pequeñas en sedes regionales mejor equipadas. Ofrecer becas completas (PRONABEC) a los mejores egresados de secundaria que elijan docencia, con compromiso de servir en zonas rurales o EIB. Los planes incluyen lectura inicial, matemática, EIB, educación inclusiva y competencias digitales.",
       "evidencia": "Los sistemas de alto desempeño seleccionan a sus docentes entre los mejores egresados de secundaria y forman en práctica (OCDE, Teachers Matter / informes TALIS). En el Perú, solo 20,5 % de postulantes aprobó el concurso de nombramiento 2024, indicio de una formación inicial débil (Minedu, vía Expreso).",
@@ -457,7 +472,7 @@
           "rol": "financiadora"
         },
         {
-          "sigla": "Gobiernos regionales",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -486,6 +501,13 @@
       "pedn": [
         "AE1.1.1",
         "AE1.1.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Fusión de escuelas no requiere ley",
+          "decision": "aplicado: necesita_ley se mantiene parcial por los requisitos de egreso"
+        }
       ]
     },
     {
@@ -509,7 +531,7 @@
           "rol": "financiadora"
         },
         {
-          "sigla": "Gobiernos regionales (UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -562,7 +584,7 @@
         }
       ],
       "financiamiento": "Recursos ordinarios; requiere espacio fiscal dentro de la meta de gasto educativo (ver EDU-16)",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Referencia: el aumento docente de 2025 costó S/ 1 622 millones para más de 426 000 maestros (Minedu). Con esa planilla, cada S/ 100 adicionales de remuneración íntegra mensual cuestan unos S/ 600-650 millones anuales permanentes (cálculo propio indicativo). La senda plurianual se dimensiona en múltiplos de esa unidad y prioriza las asignaciones rurales y EIB sobre el aumento general.",
       "indicador": "Remuneración de entrada docente vs. promedio de profesionales (ENAHO); % de plazas rurales vacantes al inicio del año escolar",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -574,10 +596,21 @@
         {
           "titulo": "Andina – Minedu reafirma compromiso con la Educación Intercultural Bilingüe",
           "url": "https://andina.pe/ingles/noticia-minedu-reafirma-compromiso-con-educacion-intercultural-bilingüe-916229.aspx"
+        },
+        {
+          "titulo": "Minedu – Revalorización docente con mejoras salariales para más de 426 000 maestros",
+          "url": "https://www.gob.pe/institucion/minedu/noticias/1162164-minedu-impulsa-la-revalorizacion-docente-con-mejoras-salariales-y-beneficios-para-mas-de-426-000-maestros"
         }
       ],
       "pedn": [
         "AE1.1.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Salario docente sin costo",
+          "decision": "aplicado: unidad de S/ 100 de RIM ≈ S/ 600-650 millones anuales"
+        }
       ]
     },
     {
@@ -589,7 +622,7 @@
       "etapa": "2026-2031",
       "que": "Un nuevo Plan Nacional de Infraestructura Educativa 2026–2036 que agrupe los locales en riesgo en paquetes regionales con diseños estandarizados y modulares (por clima y zona sísmica), contratados como portafolio y no obra por obra. Prioriza locales con estructura vulnerable donde estudian más alumnos y zonas de alto riesgo sísmico o de inundación. Cada paquete incluye equipamiento, mobiliario y plan de mantenimiento de 20 años. Se publican avances en un tablero abierto por local.",
       "evidencia": "La evaluación del PNIE al 2025 concluyó que la brecha no se redujo porque la ejecución no sostuvo el ritmo (Minedu; El Comercio estima la brecha en S/ 172 000 millones). El proyecto Escuelas Bicentenario, que contrata en paquetes con asistencia técnica especializada, amplió su cartera a 92 colegios (Andina); su costo por local debe evaluarse antes de replicarlo.",
-      "entrega": "Locales escolares reemplazados o reforzados en paquetes regionales, con meta inicial de cerrar el 30 % de los locales en riesgo al 2031",
+      "entrega": "Locales escolares reemplazados o reforzados en paquetes regionales, con costo objetivo por m² publicado y meta inicial de 15 % de los locales en riesgo al 2031 y 30 % al 2036. Línea base: número de locales en riesgo de colapso según el Plan Nacional de Infraestructura Educativa y el Censo Educativo 2025 (por verificar), que se publica con la cifra absoluta de locales a intervenir.",
       "responsable": "PRONIED",
       "entidades": [
         {
@@ -601,7 +634,7 @@
           "rol": "ejecutora"
         },
         {
-          "sigla": "Gobiernos regionales",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -614,13 +647,13 @@
         }
       ],
       "financiamiento": "Invierte.pe (recursos ordinarios), Obras por Impuestos, canon y endeudamiento externo para paquetes Gobierno a Gobierno",
-      "costo_referencial": "La brecha total se estima en ~S/ 172 000 millones (evaluación del PNIE reportada por El Comercio); el costo del tramo 2026–2031 no está estimado",
+      "costo_referencial": "La brecha total se estima en ~S/ 172 000 millones (evaluación del PNIE reportada por El Comercio). El tramo 2026-2031 (15 % de la brecha) sería del orden de S/ 25 000-30 000 millones, compatible con una inversión del sector de unos S/ 5 000-6 000 millones anuales (por verificar con el PIM de PRONIED y los gobiernos subnacionales). Referencia de costo unitario: la primera etapa de Escuelas Bicentenario costó más de S/ 5 900 millones por 75 colegios, unos S/ 79 millones por colegio (cálculo propio); la escala exige diseños modulares mucho más baratos.",
       "indicador": "N.º de locales en riesgo atendidos; % de estudiantes que estudian en locales con estructura segura",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-12"
       ],
-      "riesgo": "Obras paralizadas por expedientes débiles y corrupción; costos por local muy altos que limitan la escala.",
+      "riesgo": "Obras paralizadas por expedientes débiles y corrupción; costos por local muy altos que limitan la escala. Locales sin saneamiento físico-legal (SUNARP) que impiden invertir: el saneamiento con COFOPRI y la SBN es paso previo.",
       "fuentes": [
         {
           "titulo": "Minedu – Resultados de la evaluación del Plan Nacional de Infraestructura Educativa al 2025 (informe final)",
@@ -638,6 +671,23 @@
       "pedn": [
         "AE1.1.3",
         "AE1.1.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "30 % de S/ 172 000 millones al 2031 no cabe",
+          "decision": "aplicado: 15 % al 2031 y 30 % al 2036, con costo objetivo por m²"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Meta de locales sin número absoluto",
+          "decision": "aplicado: línea base por verificar"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Riesgo: saneamiento físico-legal de locales",
+          "decision": "aplicado (sin citar GOB-07, que no existe)"
+        }
       ]
     },
     {
@@ -669,7 +719,7 @@
           "rol": "ejecutora"
         },
         {
-          "sigla": "Gobiernos locales",
+          "sigla": "GL",
           "rol": "ejecutora"
         }
       ],
@@ -823,7 +873,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Los modelos de servicio educativo rural (secundaria con residencia estudiantil, en alternancia y tutorial) ya están normados por el Minedu; su expansión es presupuestal y de inversión.",
       "etapa": "2026-2031",
-      "que": "Garantizar que todo adolescente rural tenga una secundaria a una distancia razonable: residencias estudiantiles seguras y supervisadas en capitales de distrito, centros en alternancia que combinan semanas en la escuela y en la chacra familiar con proyectos productivos, y secundaria tutorial para comunidades muy dispersas. Con protocolos estrictos de protección contra violencia sexual y personal capacitado.",
+      "que": "Garantizar que todo adolescente rural tenga una secundaria a una distancia razonable: residencias estudiantiles seguras y supervisadas en capitales de distrito, centros en alternancia que combinan semanas en la escuela y en la chacra familiar con proyectos productivos, y secundaria tutorial para comunidades muy dispersas. Con protocolos de protección contra la violencia sexual: el personal de residencias acredita no tener antecedentes por violencia ni deudas alimentarias (REDAM), hay personal de ambos sexos, un canal de denuncia confidencial para estudiantes vinculado a la DEMUNA y la UGEL, visitas no anunciadas de la Defensoría del Pueblo y participación de las familias y comunidades indígenas en la gestión. Toda denuncia activa en 24 horas el protocolo de los lineamientos de convivencia escolar (DS 004-2018-MINEDU).",
       "evidencia": "La conclusión de secundaria en zonas rurales ha sido históricamente mucho menor que en las urbanas (ESCALE, 2018: 60,2 % rural vs. 83,9 % urbano, 17–19 años); la distancia y el trabajo infantil son causas centrales del abandono (GRADE).",
       "entrega": "Oferta de secundaria accesible (≤ 1 hora de traslado o con residencia) para 100 % de los centros poblados rurales con egresados de primaria",
       "responsable": "MINEDU",
@@ -833,7 +883,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -841,8 +891,12 @@
           "rol": "supervisora"
         },
         {
-          "sigla": "Gobiernos locales",
+          "sigla": "GL",
           "rol": "beneficiaria"
+        },
+        {
+          "sigla": "DEFENSORIA",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "PP 0090, Invierte.pe para residencias, Obras por Impuestos",
@@ -866,6 +920,13 @@
       ],
       "pedn": [
         "AE1.1.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Protocolos de residencias sin detalle",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -875,7 +936,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El SIAGIE es el sistema oficial de matrícula y notas del Minedu; un módulo de alerta y protocolo de respuesta se aprueban por resolución.",
       "etapa": "2026-2031",
-      "que": "Un módulo que marque, con asistencia, notas, edad y matrícula del SIAGIE, a cada estudiante con riesgo de abandonar (inasistencia, repitencia, extraedad, embarazo, trabajo) y que active un protocolo: tutor que llama a la familia, visita, derivación a programas sociales (Juntos, becas) y plan de reincorporación. Las UGEL siguen a quienes no se matricularon el año siguiente hasta su retorno o certificación por otra vía (EBA).",
+      "que": "Un módulo que marque, con asistencia, notas, edad y matrícula del SIAGIE, a cada estudiante con riesgo de abandonar (inasistencia, repitencia, extraedad, embarazo, trabajo) y que active un protocolo: tutor que llama a la familia, visita, derivación a programas sociales (Juntos, becas) y plan de reincorporación. Las UGEL siguen a quienes no se matricularon el año siguiente hasta su retorno o certificación por otra vía (EBA). Los datos de embarazo, trabajo o salud se tratan como sensibles (Ley 29733): solo los ve el tutor designado y la UGEL, no se registran en el certificado de estudios, no se comparten fuera del sistema educativo y no se usan para condicionar la matrícula. La alerta nunca deriva a sanción ni a retiro de la estudiante (Ley 29600); las estudiantes gestantes o madres reciben flexibilidad horaria y cuidado infantil (EDU-26). La familia es informada. El módulo se inscribe en el registro de algoritmos públicos (DIG-04) con evaluación de impacto en protección de datos (DS 016-2024-JUS).",
       "evidencia": "La deserción interanual de secundaria en 2024 fue 0,8 % y en primaria 1,2 % (ESCALE, vía Correo), pero el abandono acumulado es mayor: más del 30 % de mayores de 15 años no completó secundaria (ENAHO, vía Correo). GRADE advierte que la deserción interanual no siempre es abandono definitivo, por lo que el seguimiento nominal estudiante por estudiante es clave. La evidencia internacional sobre alertas tempranas es prometedora pero depende de que exista capacidad de respuesta.",
       "entrega": "Alerta temprana operativa en 100 % de secundarias públicas, con protocolo de respuesta de la UGEL",
       "responsable": "MINEDU",
@@ -885,7 +946,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -895,6 +956,10 @@
         {
           "sigla": "MIMP",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto MINEDU (sistemas de información) y PP 0090",
@@ -903,7 +968,8 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-24",
-        "EDU-26"
+        "EDU-26",
+        "DIG-04"
       ],
       "riesgo": "Alertas sin capacidad de respuesta en la UGEL; protección insuficiente de datos personales de menores.",
       "fuentes": [
@@ -919,6 +985,18 @@
       "pedn": [
         "AE1.1.3",
         "AE1.1.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Alerta expone a gestantes y trabajadoras",
+          "decision": "aplicado: datos sensibles, sin sanción ni retiro (Ley 29600)"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Perfilamiento de menores sin reglas de datos",
+          "decision": "aplicado: registro de algoritmos (DIG-04, sin ciclo), evaluación de impacto, acceso restringido; ANPD en entidades"
+        }
       ]
     },
     {
@@ -938,7 +1016,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -952,7 +1030,7 @@
       ],
       "financiamiento": "PP 0090 (componente EIB) y PRONABEC (becas de formación inicial EIB)",
       "costo_referencial": "no estimado",
-      "indicador": "% de aulas EIB con docente que domina la lengua (certificado); ENLA EIB en lengua originaria y castellano",
+      "indicador": "% de aulas EIB con docente que domina la lengua (certificado); ENLA EIB en lengua originaria y castellano Estudiantes de 4.º de primaria EIB con nivel satisfactorio en lectura en lengua originaria (ENLA EIB; línea base por verificar; meta: paridad con castellano al 2046).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-06",
@@ -972,6 +1050,13 @@
       "pedn": [
         "AE1.5.11",
         "AE1.1.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Meta de lectura en lengua originaria",
+          "decision": "aplicado como indicador (el bloque de metas ya tiene 8)"
+        }
       ]
     },
     {
@@ -981,7 +1066,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Modifica el capítulo de financiamiento de la Ley 28044 (Ley General de Educación) y las reglas de asignación plurianual del DL 1440. La fórmula de asignación por estudiante puede empezar por decreto supremo del MEF y el MINEDU; la ley sirve para darle estabilidad y publicidad, sin poder obligar a futuras leyes anuales de presupuesto más allá del mandato del art. 16 de la Constitución. Por crear gasto, debe ser de iniciativa del Poder Ejecutivo (art. 79).",
       "etapa": "2026-2031",
-      "que": "Una ley que establezca: (1) un monto base por estudiante para cada nivel y modalidad; (2) ajustes por ruralidad, dispersión, lengua originaria, discapacidad y pobreza del distrito; (3) una senda verificable para cumplir el mandato del art. 16 de la Constitución (no menos de 6 % del PBI, reforma de la Ley 31097) y la Ley 28044, con metas anuales publicadas por el MEF en el Marco Macroeconómico Multianual; y (4) publicación anual del gasto por estudiante por escuela. Reemplaza la asignación inercial por historia del gasto.",
+      "que": "Una ley que establezca: (1) un monto base por estudiante para cada nivel y modalidad; (2) ajustes por ruralidad, dispersión, lengua originaria, discapacidad y pobreza del distrito; (3) una senda verificable para cumplir el mandato del art. 16 de la Constitución (no menos de 6 % del PBI, reforma de la Ley 31097) y la Ley 28044, con metas anuales publicadas por el MEF en el Marco Macroeconómico Multianual, cada una atada a una fuente identificada de ingresos o ahorro: (a) reducción del gasto tributario (ECP-03, ECP-25, ECP-26, MIN-24), (b) aumento de la presión tributaria según las metas de economía, (c) reasignación desde revisiones de gasto (EST-06). Si en un año no hay fuente, la meta de ese año se posterga y no se financia con deuda; y (4) publicación anual del gasto por estudiante por escuela. Reemplaza la asignación inercial por historia del gasto.",
       "evidencia": "El gasto público en educación llegó a 4,36 % del PBI en 2024 (Banco Mundial, WDI), por debajo del mínimo de 6 % que la Constitución exige desde 2020 (Ley 31097): el mandato existe pero no tiene senda ni reglas de asignación. Chile asigna recursos adicionales por estudiante vulnerable mediante la Subvención Escolar Preferencial (Ley 20.248), referente de financiamiento con ajuste por necesidad cuyo impacto debe revisarse en sus evaluaciones (por verificar).",
       "entrega": "Ley de financiamiento por estudiante; reporte anual público de gasto por estudiante por escuela y región",
       "responsable": "MEF",
@@ -995,11 +1080,11 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Congreso",
+          "sigla": "CONGRESO",
           "rol": "reguladora"
         },
         {
-          "sigla": "Gobiernos regionales",
+          "sigla": "GORE",
           "rol": "beneficiaria"
         },
         {
@@ -1007,12 +1092,12 @@
           "rol": "supervisora"
         }
       ],
-      "financiamiento": "Recursos ordinarios; la senda exige espacio fiscal (recaudación, reasignación) y es el principal trade-off frente a otras prioridades",
-      "costo_referencial": "Pasar de 4,36 % a 6 % del PBI equivale a ~1,6 puntos; cada punto del PBI son aproximadamente S/ 10 000–11 000 millones, asumiendo un PBI nominal cercano a S/ 1,05 billones (BCRP, orden de magnitud, por verificar con el MMM vigente)",
+      "financiamiento": "Recursos ordinarios. Senda condicionada a ingresos: el aumento anual máximo del gasto educativo es igual a la suma de las fuentes identificadas ese año en el MMM (menos gasto tributario, más recaudación, reasignación). Sin esa condición la ley no cumpliría el art. 79 de la Constitución ni la regla fiscal, que prevé bajar el déficit a 1,0 % del PBI hacia 2028; el Consejo Fiscal ya advierte poco espacio fiscal por leyes con costo permanente.",
+      "costo_referencial": "Pasar de 4,36 % a 6 % del PBI equivale a unos 1,6 puntos. Con un PBI 2025 de alrededor de S/ 1,2 billones, cada punto son unos S/ 12 000 millones, es decir S/ 19 000-20 000 millones anuales permanentes al completar la senda, y unos S/ 7 700 millones anuales adicionales en 2031 para llegar a 5,0 %. Es un cálculo propio sin fuente oficial que lo respalde: el PBI se deduce de la recaudación tributaria de 2025 (S/ 175 156 millones, SUNAT) y de una presión tributaria de 14,6 % del PBI atribuida al MMM 2026-2029 (por verificar). Ninguna entidad pública ha costeado esta senda.",
       "indicador": "Gasto público en educación como % del PBI frente al mínimo constitucional; razón entre gasto por estudiante del quintil 1 y del quintil 5 de distritos",
       "deroga_o_simplifica": [],
       "depende_de": [],
-      "riesgo": "Que el aumento vaya solo a planillas sin cambios en aprendizajes; reglas fiscales que congelen la senda en crisis.",
+      "riesgo": "Que el aumento vaya solo a planillas sin cambios en aprendizajes; reglas fiscales que congelen la senda en crisis. Que la senda se cumpla subiendo planillas sin reforma de carrera ni resultados (EDU-07, EDU-08).",
       "fuentes": [
         {
           "titulo": "Congreso – Aprobado 6 % del PBI para el sector educación (Ley 31097)",
@@ -1021,6 +1106,14 @@
         {
           "titulo": "Banco Mundial – Gasto público en educación (% del PBI), Perú",
           "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=PE"
+        },
+        {
+          "titulo": "El Peruano – SUNAT: ingresos tributarios 2025 crecieron 10,8 % y alcanzaron S/ 175 156 millones",
+          "url": "https://elperuano.pe/noticia/287024--sunat-ingresos-tributarios-en-el-2025-crecieron-108-alcanzando-los-s-175-156-millones"
+        },
+        {
+          "titulo": "Consejo Fiscal – Comunicado 03-2026-CF",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2026/05/Comunicado-03-2026-CF-LP-Derecho.pdf"
         }
       ],
       "pedn": [
@@ -1047,6 +1140,16 @@
           "rol": "cifras",
           "hallazgo": "URL de datos del Banco Mundial devolvía 502",
           "decision": "aplicado: se usa data.worldbank.org con locations=PE"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo con PBI 2024; recostear con PBI 2025",
+          "decision": "aplicado: ≈ S/ 12 000 millones por punto, S/ 19 000-20 000 millones al completar la senda; se declara cálculo propio sin fuente oficial y 14,6 % por verificar"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Senda hacia 6 % sin fuente de financiamiento",
+          "decision": "aplicado: senda condicionada a ingresos identificados en el MMM; si no hay fuente se posterga, sin deuda"
         }
       ]
     },
@@ -1067,11 +1170,11 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
-          "sigla": "PCM (Secretaría de Gestión Pública)",
+          "sigla": "PCM-SGP",
           "rol": "consultiva"
         }
       ],
@@ -1113,11 +1216,11 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
-          "sigla": "PCM (Secretaría de Descentralización)",
+          "sigla": "PCM-SD",
           "rol": "consultiva"
         },
         {
@@ -1162,7 +1265,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -1218,17 +1321,17 @@
     {
       "id": "EDU-20",
       "titulo": "Restablecer la independencia del consejo directivo de la SUNEDU frente a las universidades",
-      "tipo": "derogacion",
+      "tipo": "ley",
       "necesita_ley": "si",
       "por_que_ley": "La composición del consejo directivo de la SUNEDU está fijada en la Ley Universitaria 30220, modificada por la Ley 31520; cambiarla exige otra ley.",
       "etapa": "2026-2031",
       "que": "Modificar los artículos de la Ley 30220 que la Ley 31520 cambió, para que el consejo directivo de la SUNEDU se elija por concurso público de méritos entre profesionales sin vínculo laboral ni de propiedad con universidades supervisadas, con períodos escalonados y causales tasadas de remoción. Se mantiene la representación de las universidades en un consejo consultivo sin voto. El objetivo es separar al regulador de los regulados, sin tocar la autonomía académica de las universidades.",
-      "evidencia": "El licenciamiento institucional cerró con 94 universidades licenciadas y 51 universidades y escuelas de posgrado con licencia denegada en proceso de cese (SUNEDU, Informe 1527-2025). La Ley 31520 llevó a siete miembros el consejo, incluidos representantes de universidades públicas y privadas; el TC declaró infundada su inconstitucionalidad, de modo que el cambio es de conveniencia regulatoria, no de constitucionalidad. La buena práctica OCDE en reguladores recomienda independencia de los regulados.",
+      "evidencia": "El licenciamiento institucional cerró con 94 universidades licenciadas y 51 universidades y escuelas de posgrado con licencia denegada en proceso de cese (SUNEDU, Informe 1527-2025). La Ley 31520 llevó a siete miembros el consejo, incluidos representantes de universidades públicas y privadas; el TC declaró infundada su inconstitucionalidad, de modo que el cambio es de conveniencia regulatoria, no de constitucionalidad. La buena práctica OCDE en reguladores recomienda independencia de los regulados. El TC ya confirmó en 2015 la constitucionalidad de la SUNEDU y de la Ley 30220 frente a la autonomía universitaria (Exps. 0014-2014-PI/TC y acumulados).",
       "entrega": "Ley que modifica la conformación del consejo directivo de la SUNEDU y el método de selección por concurso",
       "responsable": "Congreso",
       "entidades": [
         {
-          "sigla": "Congreso",
+          "sigla": "CONGRESO",
           "rol": "reguladora"
         },
         {
@@ -1263,6 +1366,10 @@
         {
           "titulo": "Gestión – TC declara infundada demanda contra ley que modifica el consejo directivo de la SUNEDU",
           "url": "https://gestion.pe/peru/politica/ley-universitaria-tribunal-constitucional-declara-infundada-demanda-de-inconstitucionalidad-contra-ley-que-modifica-el-consejo-directivo-del-sunedu-noticia/"
+        },
+        {
+          "titulo": "TC – Sentencia Exps. 0014-2014-PI/TC y acumulados (Ley 30220), copia de LP Derecho",
+          "url": "https://img.lpderecho.pe/wp-content/uploads/2025/06/Exp.-00014-2014-acums-TC-LPDerecho.pdf"
         }
       ],
       "pedn": [
@@ -1273,6 +1380,11 @@
           "rol": "jurista",
           "hallazgo": "Ciclo EDU-20 ↔ EDU-21; reformas independientes",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Modifica la Ley 30220, no deroga: tipo ley",
+          "decision": "aplicado: tipo ley y cita de la sentencia del TC de 2015"
         }
       ]
     },
@@ -1297,7 +1409,7 @@
           "rol": "supervisora"
         },
         {
-          "sigla": "Congreso",
+          "sigla": "CONGRESO",
           "rol": "reguladora"
         },
         {
@@ -1360,7 +1472,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Los convenios de gestión con universidades públicas y las becas de PRONABEC (Ley 29837) se aprueban por resolución y en la Ley de Presupuesto.",
       "etapa": "2026-2031",
-      "que": "Asignar una parte creciente del presupuesto de las universidades públicas mediante convenios plurianuales con metas verificables: graduación oportuna, empleabilidad, investigación indexada, ejecución de inversiones y reducción de deserción en primer año. Ampliar Beca 18 y becas de permanencia para estudiantes de bajos ingresos con buen rendimiento, en universidades e institutos licenciados, con tutoría para evitar el abandono.",
+      "que": "Asignar una parte creciente del presupuesto de las universidades públicas mediante convenios plurianuales con metas verificables: graduación oportuna, empleabilidad, investigación indexada, ejecución de inversiones y reducción de deserción en primer año. Ampliar Beca 18 y becas de permanencia para estudiantes de bajos ingresos con buen rendimiento, en universidades e institutos licenciados, con tutoría para evitar el abandono. La parte condicionada se asigna sobre el presupuesto ordinario de cada universidad y los convenios se suscriben por decisión de sus órganos de gobierno (art. 18 de la Constitución).",
       "evidencia": "Los convenios de desempeño en Chile y otros países de la OCDE han ordenado la gestión de universidades públicas cuando las metas son pocas y medibles (OCDE, Funding of higher education). PRONABEC tiene trayectoria en becas a estudiantes vulnerables.",
       "entrega": "Convenios de desempeño con todas las universidades públicas licenciadas; becas de pregrado y permanencia ampliadas",
       "responsable": "MINEDU",
@@ -1382,9 +1494,9 @@
           "rol": "beneficiaria"
         }
       ],
-      "financiamiento": "Presupuesto MINEDU/PRONABEC; canon que reciben universidades públicas en regiones extractivas",
+      "financiamiento": "Presupuesto MINEDU/PRONABEC para becas (gasto recurrente); el canon universitario se destina a inversión e investigación según su ley, con metas de ejecución en el convenio.",
       "costo_referencial": "no estimado",
-      "indicador": "Tasa de graduación oportuna en universidades públicas; % de becarios que se gradúan",
+      "indicador": "Tasa de graduación oportuna en universidades públicas; % de becarios que se gradúan; % de ejecución del canon universitario",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-21"
@@ -1399,6 +1511,18 @@
       "pedn": [
         "AE1.1.5",
         "AE1.1.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Convenios deben respetar autonomía universitaria",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Canon volátil no financia becas recurrentes",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1408,7 +1532,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El Minedu puede incorporar estas competencias en el Currículo Nacional por resolución ministerial; las leyes TAL-01 y TAL-14 de Agenda Tech darían estabilidad, pero la acción no depende de ellas.",
       "etapa": "2026-2031",
-      "que": "Incorporar en el currículo de primaria y secundaria pensamiento computacional (incluso sin computadora en escuelas desconectadas), programación básica, alfabetización en inteligencia artificial (cómo funciona, sesgos, verificación de información, uso ético y para aprender) y bienestar digital. Formar a los docentes en usos pedagógicos de IA como apoyo a tutoría y retroalimentación, con reglas de protección de datos de menores. Cualquier compra de equipos va atada a un modelo pedagógico, contenidos y soporte.",
+      "que": "Incorporar en el currículo de primaria y secundaria pensamiento computacional (incluso sin computadora en escuelas desconectadas), programación básica, alfabetización en inteligencia artificial (cómo funciona, sesgos, verificación de información, uso ético y para aprender) y bienestar digital. Formar a los docentes en usos pedagógicos de IA como apoyo a tutoría y retroalimentación, con reglas de protección de datos de menores. Cualquier compra de equipos va atada a un modelo pedagógico, contenidos y soporte. El MINEDU aprueba condiciones mínimas para plataformas educativas que traten datos de estudiantes: evaluación de impacto, prohibición de publicidad y de uso secundario o comercial de datos de menores, datos bajo control del Estado, salida y portabilidad; se prefiere software público (DIG-12).",
       "evidencia": "La evaluación aleatoria de Una Laptop por Niño en Perú no encontró efectos en matemática ni lenguaje, aunque sí indicios en habilidades cognitivas generales (Cristia et al., IZA/BID); el GEEAP 2023 califica la compra de hardware sin cambio pedagógico como \"Bad Buy\" y el software adaptativo bien usado como prometedor.",
       "entrega": "Competencias digitales y de IA en el Currículo Nacional; 100 % de docentes de secundaria con formación certificada en uso pedagógico de IA al 2036",
       "responsable": "MINEDU",
@@ -1418,12 +1542,16 @@
           "rol": "rectora"
         },
         {
-          "sigla": "PCM (Secretaría de Gobierno y Transformación Digital)",
+          "sigla": "PCM-SGTD",
           "rol": "consultiva"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "PP 0090; cooperación internacional para contenidos abiertos",
@@ -1433,7 +1561,9 @@
       "depende_de": [
         "TAL-01",
         "TAL-14",
-        "EDU-11"
+        "EDU-11",
+        "CIB-10",
+        "DIG-12"
       ],
       "riesgo": "Repetir compras masivas de equipos sin uso pedagógico; dependencia de plataformas privadas sin resguardo de datos de menores.",
       "fuentes": [
@@ -1454,6 +1584,11 @@
           "rol": "jurista",
           "hallazgo": "Duplicado con DIG-15 (componente curricular)",
           "decision": "aplicado: el componente escolar queda en EDU-23; DIG-15 debe reformularse en digital.json"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Plataformas sin reglas de datos de menores",
+          "decision": "aplicado: CIB-10 (Agenda Tech) y DIG-12 en depende_de, sin ciclo; ANPD en entidades"
         }
       ]
     },
@@ -1478,7 +1613,7 @@
           "rol": "consultiva"
         },
         {
-          "sigla": "PCM (Secretaría de Gobierno y Transformación Digital)",
+          "sigla": "PCM-SGTD",
           "rol": "consultiva"
         }
       ],
@@ -1513,7 +1648,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 30797 que promueve la educación inclusiva y la Ley 29973 de la persona con discapacidad ya obligan; los servicios de apoyo (SAANEE, CEBE, PRITE) se norman por resolución viceministerial del Minedu.",
       "etapa": "2026-2031",
-      "que": "Cada UGEL contará con equipos de apoyo (psicólogo, terapeuta de lenguaje, docente especializado, intérprete de lengua de señas) que visitan escuelas regulares con estudiantes con discapacidad, elaboran planes de ajustes razonables y forman a los docentes. Se amplían los PRITE para atención temprana (0–3 años) y los CEBE para casos severos. Se cruzan registros de discapacidad (CONADIS) y SIAGIE para encontrar a niñas y niños fuera de la escuela.",
+      "que": "Cada UGEL contará con equipos de apoyo (psicólogo, terapeuta de lenguaje, docente especializado, intérprete de lengua de señas) que visitan escuelas regulares con estudiantes con discapacidad, elaboran planes de ajustes razonables y forman a los docentes. Se amplían los PRITE para atención temprana (0–3 años) y los CEBE se transforman progresivamente en centros de recursos que dan apoyo intensivo y un plan de transición a la escuela regular, como pide la Convención sobre los Derechos de las Personas con Discapacidad (art. 24). Se cruzan registros de discapacidad (CONADIS) y SIAGIE para encontrar a niñas y niños fuera de la escuela. Las y los estudiantes sordos reciben educación bilingüe en lengua de señas peruana y castellano escrito (Ley 29535), y los estudiantes ciegos, materiales en braille y formatos accesibles.",
       "evidencia": "El Minedu reportó más de 80 000 estudiantes con discapacidad matriculados en educación básica, la mayoría en escuelas regulares (Andina); documentos regionales del Minedu muestran miles de personas con discapacidad de 0 a 20 años sin acceso educativo (DRE Piura, 2024).",
       "entrega": "Equipo de apoyo a la inclusión operativo en el 100 % de UGEL y PRITE en todas las provincias",
       "responsable": "MINEDU",
@@ -1523,7 +1658,7 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
@@ -1537,7 +1672,7 @@
       ],
       "financiamiento": "Programa presupuestal de inclusión de niños, niñas y jóvenes con discapacidad en la educación básica y técnico-productiva (MINEDU)",
       "costo_referencial": "no estimado",
-      "indicador": "% de estudiantes con discapacidad en escuelas regulares con plan de ajustes razonables; N.º de niños con discapacidad identificados fuera de la escuela y reincorporados",
+      "indicador": "% de estudiantes con discapacidad en escuelas regulares con plan de ajustes razonables; N.º de niños con discapacidad identificados fuera de la escuela y reincorporados; matrícula y culminación de estudiantes con discapacidad por tipo de discapacidad y área",
       "deroga_o_simplifica": [],
       "depende_de": [
         "EDU-14",
@@ -1558,6 +1693,13 @@
       "pedn": [
         "AE1.1.2",
         "AE1.5.1"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "CEBE segregados; falta lengua de señas y braille",
+          "decision": "aplicado: CEBE como centros de recursos (CDPD art. 24), educación bilingüe en LSP y braille"
+        }
       ]
     },
     {
@@ -1577,11 +1719,11 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DRE/UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
-          "sigla": "Gobiernos locales",
+          "sigla": "GL",
           "rol": "ejecutora"
         },
         {
@@ -1644,7 +1786,7 @@
           "rol": "supervisora"
         },
         {
-          "sigla": "Congreso",
+          "sigla": "CONGRESO",
           "rol": "reguladora"
         }
       ],
@@ -1683,7 +1825,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La alimentación escolar es un programa del MIDIS creado por decreto supremo; la vacunación, el tamizaje y la salud mental escolar se ejecutan con normas técnicas del MINSA y convenios MINSA-MINEDU. No requiere ley nueva.",
       "etapa": "2026-2031",
-      "que": "Un paquete anual en cada escuela pública, coordinado entre el centro de salud asignado y la dirección: (1) alimentación escolar del programa del MIDIS que reemplazó a Wasi Mikuna (extinguido por el DS 006-2025-MIDIS), con compras a productores locales, control de inocuidad y menú adecuado a cada región; (2) vacunación en el aula según el calendario, en especial VPH de una dosis para niñas y niños de 9 a 13 años; (3) tamizaje de agudeza visual con lentes gratuitos y de hemoglobina con derivación al tratamiento; (4) tutoría y detección temprana de problemas de salud mental, con derivación a los centros de salud mental comunitarios. Los resultados se registran en el padrón nominal compartido salud-educación. La vacunación contra el VPH se complementa con la detección temprana de cáncer (SAL-20).",
+      "que": "Un paquete anual en cada escuela pública, coordinado entre el centro de salud asignado y la dirección: (1) alimentación escolar del programa del MIDIS que reemplazó a Wasi Mikuna (extinguido por el DS 006-2025-MIDIS), con compras a productores locales, control de inocuidad y menú adecuado a cada región; (2) vacunación en el aula según el calendario, en especial VPH de una dosis para niñas y niños de 9 a 13 años; (3) tamizaje de agudeza visual con lentes gratuitos y de hemoglobina con derivación al tratamiento; (4) tutoría y detección temprana de problemas de salud mental, con derivación a los centros de salud mental comunitarios. Los resultados de vacunación y tamizaje físico se registran en el padrón nominal compartido salud-educación. La vacunación contra el VPH se complementa con la detección temprana de cáncer (SAL-20). La vacunación y los tamizajes se hacen con información previa y consentimiento de madres, padres o tutores y asentimiento del estudiante; los resultados de salud mental se registran solo en la historia clínica, no en el padrón escolar. (5) Educación sexual integral según el Currículo Nacional y prevención de la violencia escolar con el protocolo del DS 004-2018-MINEDU, sanción efectiva y registro público anonimizado. La matrícula no exige documento peruano a niñez migrante (RM 447-2020-MINEDU).",
       "evidencia": "Una evaluación aleatoria en 165 escuelas rurales de China encontró que dar lentes a estudiantes con mala visión elevó sus puntajes entre 0,16 y 0,22 desviaciones estándar en un año (Glewwe, Park y Zhao, Journal of Development Economics 2016; J-PAL). En 2025 el MINSA vacunó contra el VPH a 923 645 niñas, niños y adolescentes, con estrategia centrada en colegios y apoyo del Minedu (Andina), lo que muestra que la escuela es un buen punto de entrega. La evidencia sobre alimentación escolar en el Perú es mixta: un estudio con ENDES 2014–2017 no halló efectos de Qali Warma sobre anemia ni desnutrición en niños de 3 a 5 años (Francke y Acosta, PUCP; referencia por verificar), por lo que la alimentación debe ir junto con tamizaje y tratamiento de anemia, no en lugar de ellos.",
       "entrega": "Paquete escuela saludable (alimentación inocua, vacunación, tamizaje visual y de anemia, ruta de salud mental) en 100 % de escuelas públicas de inicial y primaria al 2031 y de secundaria al 2036",
       "responsable": "MIDIS",
@@ -1701,17 +1843,17 @@
           "rol": "rectora"
         },
         {
-          "sigla": "Gobiernos regionales (DIRESA y UGEL)",
+          "sigla": "GORE",
           "rol": "ejecutora"
         },
         {
-          "sigla": "Gobiernos locales",
+          "sigla": "GL",
           "rol": "beneficiaria"
         }
       ],
-      "financiamiento": "Presupuesto del programa de alimentación escolar del MIDIS; programas presupuestales de salud materno neonatal, articulado nutricional y salud mental del MINSA; PP 0090 para tutoría",
+      "financiamiento": "Presupuesto del programa de alimentación escolar del MIDIS; programas presupuestales de salud materno neonatal, PPoR 1001 Desarrollo Infantil Temprano y salud mental del MINSA; PP 0090 para tutoría",
       "costo_referencial": "no estimado",
-      "indicador": "% de escuelas con paquete completo; cobertura de VPH en 5.º de primaria; % de estudiantes con mala visión que reciben lentes; casos de intoxicación alimentaria escolar por año",
+      "indicador": "% de escuelas con paquete completo; cobertura de VPH en 5.º de primaria; % de estudiantes con mala visión que reciben lentes; casos de intoxicación alimentaria escolar por año; % de casos de violencia sexual reportados en SíseVe con denuncia y medida de protección en 72 horas",
       "deroga_o_simplifica": [],
       "depende_de": [
         "SAL-19",
@@ -1719,7 +1861,7 @@
         "SAL-17",
         "EDU-01"
       ],
-      "riesgo": "Cambios repetidos de diseño del programa de alimentación con intoxicaciones y pérdida de confianza; centros de salud sin personal para atender a las escuelas.",
+      "riesgo": "Cambios repetidos de diseño del programa de alimentación con intoxicaciones y pérdida de confianza; centros de salud sin personal para atender a las escuelas. Baja ejecución del programa de alimentación escolar (PP 0115: 25 % del PIM 2026 a la fecha de corte, MEF) por cambios del modelo de compra.",
       "fuentes": [
         {
           "titulo": "Panamericana – Gobierno extingue el programa Wasi Mikuna y declara emergencia alimentaria escolar (DS 006-2025-MIDIS)",
@@ -1747,6 +1889,21 @@
           "rol": "jurista",
           "hallazgo": "Quitar SAL-20 (etapa posterior, ciclo)",
           "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0001 no existe y PP 0115 con baja ejecución",
+          "decision": "aplicado: PPoR 1001 y riesgo de ejecución"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Consentimiento y datos de salud mental",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Omisión: educación sexual, violencia escolar, migrantes",
+          "decision": "aplicado dentro de EDU-28 sin crear acción nueva; cifra de SíseVe no se cita por no verificada"
         }
       ]
     }
@@ -1927,6 +2084,26 @@
       "rol": "cifras",
       "hallazgo": "Fuente matemática ENLA 2024: quitar columna de Lampadia",
       "decision": "aplicado: se cita El Peruano (no se halló informe UMC 2024 en línea)"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Meta de gasto 6 % sin costo ni fuente",
+      "decision": "aplicado en la referencia de la meta, como cálculo propio y condicionada a ingresos"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Meta de servicios básicos 60 % al 2031 inalcanzable",
+      "decision": "aplicado: 50 % al 2031, coherente con EDU-10"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Metas de aprendizaje sin brecha rural ni EIB",
+      "decision": "aplicado en parte: brecha rural-urbana en metas de lectura y matemática; la meta EIB nueva va como indicador de EDU-15 para no pasar de 8 metas"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Siglas de entidades distintas a otros sectores",
+      "decision": "aplicado: CONGRESO, GORE, GL, PCM-SGTD, PCM-SGP y PCM-SD"
     }
   ]
 }

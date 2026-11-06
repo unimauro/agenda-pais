@@ -3,7 +3,7 @@
   "nombre": "Protección social",
   "lema": "Que nadie caiga y que quien cae pueda levantarse",
   "diagnostico": {
-    "resumen": "La pobreza monetaria bajó a 25,7 % en 2025 y la extrema a 4,7 %, pero sigue más de cinco puntos por encima del 20,2 % de 2019, y 32,8 % de la población es vulnerable: puede caer en pobreza ante una enfermedad, un desastre o la pérdida del trabajo (INEI). La pobreza rural (35,5 %) supera ampliamente a la urbana (23,4 %). La medición oficial multidimensional, aprobada en 2024, no se publica con regularidad. La causa estructural es la informalidad: 70,7 % de los ocupados tenía empleo informal en 2025 (INEI), por lo que la mayoría no aporta a pensiones ni a EsSalud. Siete de cada diez adultos mayores están fuera del sistema de pensiones (EPEN, citada en prensa) y Pensión 65 atiende a unos 824 000 en pobreza extrema con S/ 350 bimestrales. La reforma de la Ley 32123 está en implementación, mientras ocho retiros extraordinarios de AFP desde 2020 —el último por hasta 4 UIT con la Ley 32445— han reducido el ahorro previsional. Juntos llega a cerca de 795 000 hogares. La violencia es masiva: 52 % de las mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja (ENDES 2024) y hubo 154 feminicidios en 2024 (INEI). No existe un sistema nacional de cuidados aprobado. El Padrón General de Hogares tiene errores de clasificación señalados por la Contraloría y en la pandemia mostró su desactualización. El Perú alberga además alrededor de 1,6 millones de personas venezolanas, muchas sin papeles.",
+    "resumen": "La pobreza monetaria bajó a 25,7 % en 2025 y la extrema a 4,7 %, pero sigue más de cinco puntos por encima del 20,2 % de 2019, y 32,8 % de la población es vulnerable: puede caer en pobreza ante una enfermedad, un desastre o la pérdida del trabajo (INEI). La pobreza rural (35,5 %) supera ampliamente a la urbana (23,4 %). La medición oficial multidimensional, aprobada en 2024, no se publica con regularidad. La causa estructural es la informalidad: 70,7 % de los ocupados tenía empleo informal en 2025 (INEI), por lo que la mayoría no aporta a pensiones ni a EsSalud. Siete de cada diez adultos mayores están fuera del sistema de pensiones (EPEN, citada en prensa) y Pensión 65 atiende a unos 824 000 en pobreza extrema con S/ 350 bimestrales. La reforma de la Ley 32123 está en implementación, mientras ocho retiros extraordinarios de AFP desde 2020 —el último por hasta 4 UIT con la Ley 32445— han reducido el ahorro previsional. Juntos llega a cerca de 795 000 hogares. La violencia es masiva: 52 % de las mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja (ENDES 2024) y hubo 154 feminicidios en 2024 (INEI). No existe un sistema nacional de cuidados aprobado. El Padrón General de Hogares tiene errores de clasificación señalados por la Contraloría y en la pandemia mostró su desactualización. El Perú alberga además alrededor de 1,6 millones de personas venezolanas, muchas sin papeles. Pensión 65 cuesta ≈ S/ 1 810 millones en 2026 y Juntos ≈ S/ 1 047 millones (presupuesto MIDIS); universalizar la pensión no contributiva al monto actual costaría ≈ S/ 4 285 millones anuales más (Videnza, vía prensa).",
     "indicadores": [
       {
         "nombre": "Pobreza monetaria",
@@ -86,7 +86,7 @@
         "url": "https://elperuano.pe/noticia/254087-atencion-mas-de-496000-personas-con-discapacidad-estan-registradas-en-el-peru"
       }
     ],
-    "brechas": "Pobreza rural de 35,5 % frente a 23,4 % urbana en 2025 (INEI). La informalidad laboral es mayor entre mujeres (alrededor de 72 %) que entre hombres (alrededor de 68 %) y llega a 84,8 % entre jóvenes de 14 a 24 años (INEI, 2025, citado en prensa). La inseguridad alimentaria alcanza a 42,0 % de la población pobre (INEI, 2025). Solo una fracción de las más de 3 millones de personas con discapacidad del Censo 2017 está inscrita en el registro del CONADIS. Los pueblos indígenas y afroperuanos —cerca de 9 millones según los Censos 2025— enfrentan servicios sin pertinencia lingüística. El trabajo infantil se concentra en zonas rurales (por verificar con el informe oficial del INEI).",
+    "brechas": "Pobreza rural de 35,5 % frente a 23,4 % urbana en 2025 (INEI). La informalidad laboral es mayor entre mujeres (alrededor de 72 %) que entre hombres (alrededor de 68 %) y llega a 84,8 % entre jóvenes de 14 a 24 años (INEI, 2025, citado en prensa). La inseguridad alimentaria alcanza a 42,0 % de la población pobre (INEI, 2025). Solo una fracción de las más de 3 millones de personas con discapacidad del Censo 2017 está inscrita en el registro del CONADIS. Los pueblos indígenas y afroperuanos —cerca de 9 millones según los Censos 2025— enfrentan servicios sin pertinencia lingüística. El trabajo infantil se concentra en zonas rurales (por verificar con el informe oficial del INEI). Las personas LGTBI no tienen protección específica frente a la violencia ni reconocimiento legal de sus familias (INEI, Primera Encuesta Virtual 2017: 63 % reportó discriminación o violencia). Miles de niñas y niños viven en centros de acogida residencial (más de 5 000 según el INABIF, cifra por verificar) y no existe un censo oficial de personas en situación de calle.",
     "causas": [
       "Informalidad laboral estructural (70,7 %, INEI 2025) que deja a la mayoría fuera de la seguridad social contributiva.",
       "Focalización basada en un padrón desactualizado y con errores de clasificación (Contraloría; GRADE–UNICEF 2022).",
@@ -123,9 +123,9 @@
       "linea_base": "70,7 % (2025)",
       "2031": "65 %",
       "2036": "58 %",
-      "2046": "48 %",
-      "2056": "38 %",
-      "referencia": "Promedio de América Latina cercano a 50 % según la OIT (por verificar)",
+      "2046": "45 %",
+      "2056": "35 %",
+      "referencia": "Promedio de América Latina cercano a 50 % según la OIT (por verificar) Meta idéntica a la de economía productiva.",
       "fuente_linea_base": "INEI, 2025"
     },
     {
@@ -145,7 +145,7 @@
       "2036": "75 %",
       "2046": "90 %",
       "2056": "100 %",
-      "referencia": "Chile y Bolivia con cobertura cercana a universal por pilares no contributivos (por verificar, OIT)",
+      "referencia": "Chile y Bolivia con cobertura cercana a universal por pilares no contributivos (por verificar, OIT) Costo: universalizar la pensión no contributiva al monto actual costaría ≈ S/ 4 285 millones anuales adicionales a los ≈ S/ 1 810 millones de Pensión 65 en 2026 (ver PRO-05).",
       "fuente_linea_base": "INEI, EPEN (por verificar)"
     },
     {
@@ -157,6 +157,26 @@
       "2056": "< 25",
       "referencia": "Meta indicativa propia alineada al ODS 5.2",
       "fuente_linea_base": "INEI"
+    },
+    {
+      "indicador": "Personas con discapacidad con certificado e inscritas en el registro del CONADIS",
+      "linea_base": "496 778 inscritas (27-09-2024)",
+      "2031": "1,5 millones",
+      "2036": "2,5 millones",
+      "2046": "universal",
+      "2056": "universal",
+      "referencia": "Más de 3 millones de personas con discapacidad según el Censo 2017 (INEI); meta indicativa ligada a PRO-14",
+      "fuente_linea_base": "CONADIS"
+    },
+    {
+      "indicador": "Tasa de trabajo infantil peligroso",
+      "linea_base": "por verificar (INEI)",
+      "2031": "−30 % sobre línea base",
+      "2036": "−50 %",
+      "2046": "−80 %",
+      "2056": "≈ 0",
+      "referencia": "ODS 8.7: poner fin al trabajo infantil; meta indicativa ligada a PRO-10",
+      "fuente_linea_base": "INEI (por verificar)"
     }
   ],
   "acciones": [
@@ -165,9 +185,9 @@
       "titulo": "Convertir el Padrón General de Hogares en un registro social actualizado con datos administrativos",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "El SISFOH y el Padrón General de Hogares se regulan por directivas del MIDIS (Directiva 006-2024-MIDIS); la interoperabilidad con RENIEC, SUNAT, SIS y planillas se hace por convenios y el marco de gobierno digital vigente.",
+      "por_que_ley": "El SISFOH es parte del Sistema Nacional de Focalización creado por la Ley 30435 (TUO aprobado por DS 005-2022-MIDIS; número del reglamento vigente por verificar), que habilita a las entidades públicas a entregar información al MIDIS para la clasificación socioeconómica; la interoperabilidad se apoya en el DL 1246. Esa es la base legal explícita del cruce de datos, que debe cumplir la Ley 29733 y su reglamento (DS 016-2024-JUS), incluida la evaluación de impacto. La operación se regula por directivas del MIDIS (Directiva 006-2024-MIDIS). Si se quisiera usar datos fuera de esa habilitación, haría falta ley.",
       "etapa": "2026-2031",
-      "que": "La clasificación socioeconómica depende todavía de fichas aplicadas por municipios, que envejecen y fallan: la Contraloría encontró hogares clasificados como pobres sin corresponderles, y en la pandemia el padrón urbano estaba desactualizado. Se pasa a un registro social de hogares que se actualiza de forma continua con datos de RENIEC, SUNAT, planillas, SIS, consumo eléctrico y propiedad vehicular, con verificación de campo solo donde los datos no alcanzan. Cada persona puede ver en línea su clasificación y pedir revisión.",
+      "que": "La clasificación socioeconómica depende todavía de fichas aplicadas por municipios, que envejecen y fallan: la Contraloría encontró hogares clasificados como pobres sin corresponderles, y en la pandemia el padrón urbano estaba desactualizado. Se pasa a un registro social de hogares que se actualiza de forma continua con datos de RENIEC, SUNAT, planillas, SIS, consumo eléctrico y propiedad vehicular, con verificación de campo solo donde los datos no alcanzan. Salvaguardas obligatorias: (1) evaluación de impacto en datos personales (DS 016-2024-JUS) aprobada con la ANPD antes de operar; (2) clasificación explicable, con variables y pesos públicos, inscrita en el registro de algoritmos públicos (DIG-04, IA-01), con su tasa de error publicada por área y sexo de la jefatura del hogar y auditoría cada dos años; (3) el consumo eléctrico y la propiedad vehicular se usan solo como indicadores y con minimización de datos; (4) acceso a los datos del registro por rol y finalidad, con bitácora de consultas; (5) ningún hogar pierde una prestación por un cambio automático: recibe notificación previa, tiene 30 días para descargos y una persona de la ULE revisa el caso en 15 días hábiles; en distritos rurales e indígenas prevalece la verificación de campo; (6) cada persona consulta su clasificación y reclama en Carpeta Ciudadana (ID GOB.PE), en la ULE de su municipio o por SMS.",
       "evidencia": "Chile (Registro Social de Hogares, 2016) y Colombia (SISBÉN IV) pasaron a registros alimentados con datos administrativos y reclasificación continua. En el Perú, la Contraloría detectó errores de clasificación en el padrón (Gestión) y GRADE–UNICEF (2022) documentó su desactualización urbana en 2020.",
       "entrega": "Registro social interoperable con actualización mensual automática y consulta ciudadana en línea al 2028.",
       "responsable": "MIDIS",
@@ -191,11 +211,15 @@
         {
           "sigla": "GL",
           "rol": "ejecutora"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto del MIDIS (DGFIS) y de la Secretaría de Gobierno y Transformación Digital.",
       "costo_referencial": "no estimado",
-      "indicador": "% de hogares del registro con información actualizada en los últimos 12 meses y tasas de filtración y subcobertura medidas con ENAHO.",
+      "indicador": "% de hogares del registro con información actualizada en los últimos 12 meses y tasas de filtración y subcobertura medidas con ENAHO; % de reclamos resueltos en plazo y tasa de error de la clasificación por área y sexo.",
       "deroga_o_simplifica": [
         {
           "norma": "Directiva 006-2024-MIDIS, que regula la operatividad del SISFOH",
@@ -204,9 +228,11 @@
       ],
       "depende_de": [
         "DIG-04",
-        "GOB-01"
+        "GOB-01",
+        "DIG-01",
+        "IA-01"
       ],
-      "riesgo": "Protección de datos personales y sesgos de los algoritmos de clasificación; municipios que pierden un rol y no colaboran.",
+      "riesgo": "Protección de datos personales y sesgos de los algoritmos de clasificación; municipios que pierden un rol y no colaboran. Sin evaluación de impacto ni revisión humana, la clasificación sería impugnable y excluiría por error a hogares rurales o con familiares migrantes.",
       "fuentes": [
         {
           "titulo": "Gestión – Contraloría: hogares clasificados como pobres sin corresponderles en el Padrón General de Hogares",
@@ -215,11 +241,41 @@
         {
           "titulo": "GRADE–UNICEF (2022) – Lecciones de la pandemia para una mejor protección social de la niñez y adolescencia en el Perú",
           "url": "https://www.unicef.org/peru/sites/unicef.org.peru/files/2022-10/Lecciones%20pandemia%20mejor%20proteccion%20social%20ninez%20adolescencia%20Peru%20Grade-UNICEF%20Set2022%20Presentacion.pdf"
+        },
+        {
+          "titulo": "Reglamento de la Ley de Protección de Datos Personales, DS 016-2024-JUS",
+          "url": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
+        },
+        {
+          "titulo": "Ley 30435, Sistema Nacional de Focalización",
+          "url": "https://leap.unep.org/en/countries/pe/national-legislation/ley-no-30435-ley-que-crea-el-sistema-nacional-de-focalizacion"
         }
       ],
       "pedn": [
         "AE1.5.8",
         "AE4.5.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Clasificación automatizada sin base legal, EIPD ni revisión humana",
+          "decision": "aplicado: Ley 30435 y DL 1246, EIPD DS 016-2024-JUS con ANPD, revisión humana, registro del algoritmo, acceso por rol"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "No exclusión automática y vía de reclamo",
+          "decision": "aplicado: notificación, 30 días de descargos y revisión por la ULE"
+        },
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Base legal: SINAFO (Ley 30435) y no solo directiva",
+          "decision": "aplicado; número del reglamento vigente por verificar (fuentes contradictorias)"
+        },
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Consulta por Carpeta Ciudadana, ULE o SMS",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -276,7 +332,7 @@
       "necesita_ley": "no",
       "por_que_ley": "Juntos se rige por su decreto de creación y normas del MIDIS; el monto, las corresponsabilidades y los medios de pago se modifican por decreto supremo y resoluciones.",
       "etapa": "2026-2031",
-      "que": "Juntos llega a cerca de 795 000 hogares (2025) con un monto plano por hogar. Se propone un monto base más un componente por cada niña o niño menor de 3 años (controles y anemia) y un incentivo por cada adolescente que pase de año y termine la secundaria, con pago a cuentas digitales a nombre de la madre. Se agrega acompañamiento familiar y vínculo con Haku Wiñay para generar ingresos y una ruta de salida gradual cuando el hogar supera la pobreza.",
+      "que": "Juntos llega a cerca de 795 000 hogares (2025) con un monto plano por hogar. Se propone un monto base más un componente por cada niña o niño menor de 3 años (controles y anemia) y un incentivo por cada adolescente que pase de año y termine la secundaria, con pago a cuentas digitales a nombre de la persona cuidadora principal (la madre por defecto, u otra persona acreditada); en distritos sin cobertura se mantienen agentes y pago presencial. Se agrega acompañamiento familiar y vínculo con Haku Wiñay para generar ingresos y una ruta de salida gradual cuando el hogar supera la pobreza. El incumplimiento de corresponsabilidades activa primero acompañamiento familiar y la verificación de que el servicio exista a distancia razonable; la suspensión es excepcional, nunca automática ni por más de un periodo.",
       "evidencia": "Las evaluaciones de Juntos (Perova y Vakis, 2010 y 2012) encontraron efectos en consumo, uso de servicios de salud y matrícula en años de transición, pero no en nutrición a dos años; por eso se refuerza el foco en primera infancia y en la secundaria, como hizo Prospera en México.",
       "entrega": "Nuevo esquema de transferencias de Juntos aprobado y 100 % de pagos por cuenta digital al 2028.",
       "responsable": "MIDIS",
@@ -303,7 +359,7 @@
         }
       ],
       "financiamiento": "Presupuesto del programa Juntos; el componente por adolescente se financia con ahorro por reglas de salida.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Base: presupuesto de Juntos de S/ 1 047 millones (presupuesto MIDIS 2026). El componente por adolescente se dimensiona para costar lo mismo que el ahorro por egreso de hogares que superan la pobreza, con meta de egreso anual publicada; sin esa meta, la neutralidad no está demostrada.",
       "indicador": "Culminación oportuna de secundaria y anemia en menores de 3 años en hogares Juntos frente a hogares comparables.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -329,6 +385,18 @@
       "pedn": [
         "AE1.5.8",
         "AE1.5.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Suspensión automática y pago solo a la madre",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Neutralidad fiscal sin base presupuestal",
+          "decision": "aplicado: base S/ 1 047 millones y regla de egreso"
+        }
       ]
     },
     {
@@ -361,7 +429,7 @@
         }
       ],
       "financiamiento": "Presupuestos actuales de Pensión 65 y Contigo. La indexación del monto a la inflación es gasto adicional: se aprueba cada año en la Ley de Presupuesto según el espacio fiscal; costo no estimado.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Indexación a la inflación: ≈ 2–3 % del presupuesto conjunto (Pensión 65 ≈ S/ 1 810 millones en 2026, más Contigo), es decir ≈ S/ 40–60 millones adicionales por año (cálculo indicativo), aprobados en la Ley de Presupuesto. La integración administrativa no tiene costo relevante.",
       "indicador": "Costo administrativo por usuario y % de adultos mayores y personas con discapacidad severa en pobreza cubiertos.",
       "deroga_o_simplifica": [
         {
@@ -403,6 +471,11 @@
           "rol": "jurista",
           "hallazgo": "depende de PRO-05 de etapa posterior",
           "decision": "aplicado: se quita PRO-05"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo de la indexación cuantificable",
+          "decision": "aplicado"
         }
       ]
     },
@@ -435,15 +508,15 @@
           "rol": "consultiva"
         }
       ],
-      "financiamiento": "Recursos ordinarios con regla fiscal; requiere espacio fiscal explícito (trade-off con otras prioridades).",
-      "costo_referencial": "no estimado",
+      "financiamiento": "Recursos ordinarios con regla fiscal. La ampliación entra por tramos de edad (75 años o más, luego 70 o más) solo cuando el Marco Macroeconómico Multianual registre la fuente (ver la meta de presión tributaria en economía); la indexación es a la inflación con regla fija, nunca por decisión discrecional.",
+      "costo_referencial": "Banda indicativa (cálculo propio, por validar con el MEF): en 2026 hay 2 040 736 adultos mayores sin pensión y universalizar la pensión no contributiva al monto actual (S/ 350 bimestrales) costaría ≈ S/ 4 285 millones anuales adicionales (Videnza, vía prensa). Empezar por los de 75 años o más, si son cerca de un tercio de ese grupo (proporción por verificar con el INEI), costaría ≈ S/ 1 200–1 600 millones anuales; el doble si el monto se duplica. Se suma al presupuesto 2026 de Pensión 65 (≈ S/ 1 810 millones).",
       "indicador": "% de personas de 65 años o más con alguna pensión (contributiva o no contributiva).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "PRO-04",
         "PRO-06"
       ],
-      "riesgo": "Aumentos de monto por decisión política sin financiamiento que pongan en riesgo la sostenibilidad; incentivos a no aportar.",
+      "riesgo": "Aumentos de monto por decisión política sin financiamiento que pongan en riesgo la sostenibilidad; incentivos a no aportar. Desincentivo a aportar si la pensión no contributiva se acerca a la pensión mínima contributiva de la Ley 32123.",
       "fuentes": [
         {
           "titulo": "La República – El Perú tendrá más adultos mayores que niños (siete de cada diez adultos mayores fuera del sistema de pensiones, EPEN)",
@@ -461,6 +534,13 @@
       "pedn": [
         "AE1.5.9",
         "AE3.2.2"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Pensión no contributiva sin banda de costo",
+          "decision": "aplicado: banda con cifras verificadas (2 040 736 sin pensión; S/ 4 285 millones; Pensión 65 S/ 1 810 millones)"
+        }
       ]
     },
     {
@@ -471,7 +551,7 @@
       "por_que_ley": "La Ley 32123 de Modernización del Sistema Previsional ya está vigente y su reglamento fue aprobado (DS 189-2025-EF, modificado por DS 061-2026-EF); la tarea es implementar y medir.",
       "etapa": "2026-2031",
       "que": "La Ley 32123 (2024) introdujo, entre otros elementos, la pensión mínima con complemento estatal, el aporte por consumo y nuevos mecanismos de ahorro voluntario, y la SBS avanza en el cambio hacia la comisión sobre el saldo. Se propone un calendario público de implementación, un tablero trimestral con afiliados, aportantes activos, densidad de aportes, comisiones y costo fiscal de los complementos, y una evaluación independiente cada dos años que proponga ajustes basados en evidencia y no en coyunturas.",
-      "evidencia": "Las reformas previsionales que se sostienen en el tiempo (Suecia, Chile con ajustes sucesivos) tienen reglas de revisión periódica y datos abiertos; la OIT señala que las reformas peruanas previas no lograron los resultados esperados en cobertura.",
+      "evidencia": "Las reformas previsionales que se sostienen en el tiempo (Suecia, Chile con ajustes sucesivos) tienen reglas de revisión periódica y datos abiertos; la OIT señala que las reformas peruanas previas no lograron los resultados esperados en cobertura. El aporte por consumo no tiene evaluación de impacto en cobertura: se mide su adicionalidad en la evaluación de 2027.",
       "entrega": "Tablero público trimestral de pensiones y primera evaluación independiente de la Ley 32123 en 2027.",
       "responsable": "MEF",
       "entidades": [
@@ -493,7 +573,7 @@
         }
       ],
       "financiamiento": "Presupuesto del MEF y la SBS; costo de complementos según la ley.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Costo fiscal de los complementos de pensión mínima de la Ley 32123: las estimaciones citadas en prensa van de ≈ 0,2 % a 1,1 % del PBI (Macroconsult y Consejo Fiscal; el MEF manejó un rango preliminar mayor), todas por verificar en los documentos originales. El MMM debe publicar la proyección oficial a 2070 y el tablero la actualiza.",
       "indicador": "Aportantes activos como % de la PEA ocupada y densidad de aportes.",
       "deroga_o_simplifica": [],
       "depende_de": [],
@@ -521,6 +601,11 @@
           "rol": "jurista",
           "hallazgo": "ciclos PRO-06 con PRO-21 y PRO-07",
           "decision": "aplicado: se quitan PRO-21 y PRO-07"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Costo de la pensión mínima no estimado",
+          "decision": "aplicado como banda por verificar"
         }
       ]
     },
@@ -531,7 +616,7 @@
       "necesita_ley": "si",
       "por_que_ley": "El uso de los fondos previsionales y la creación de un seguro de desempleo financiado con aportes están reservados a la ley. Una ley congresal no puede crear gasto público (art. 79); el diseño debe financiarse con aportes y no puede afectar la CTS devengada, que es beneficio del trabajador (arts. 24 y 26 de la Constitución); o ser de iniciativa del Ejecutivo.",
       "etapa": "2026-2031",
-      "que": "Desde 2020 se aprobaron ocho retiros extraordinarios de fondos de AFP; el octavo (Ley 32445, 2025) permitió retirar hasta 4 UIT (S/ 21 400). Los retiros alivian emergencias, pero dejan a millones sin ahorro para la vejez y trasladan el costo a la pensión mínima futura. Se propone un seguro de desempleo cuyo primer tramo es la CTS que el propio trabajador mantiene en su cuenta individual, más un fondo solidario financiado con un aporte nuevo de empleadores, sin trasladar CTS ya devengada a un fondo común, y anticipos reembolsables del fondo solo ante desempleo prolongado o enfermedad grave, con reposición obligatoria. Se publica el efecto de cada retiro en la pensión esperada.",
+      "que": "Desde 2020 se aprobaron ocho retiros extraordinarios de fondos de AFP; el octavo (Ley 32445, 2025) permitió retirar hasta 4 UIT (S/ 21 400). Los retiros alivian emergencias, pero dejan a millones sin ahorro para la vejez y trasladan el costo a la pensión mínima futura. Se propone un seguro de desempleo cuyo primer tramo es la CTS que el propio trabajador mantiene en su cuenta individual, más un fondo solidario financiado con un aporte de empleadores no mayor a 0,5 % de la planilla, compensado con una reducción equivalente de la CTS futura (no devengada) o del aporte que decida el estudio actuarial, de modo que el costo laboral total no suba (en Chile, la Ley 19.728 combina 0,6 % del trabajador, 2,4 % del empleador y un aporte fiscal), sin trasladar CTS ya devengada a un fondo común, y anticipos reembolsables del fondo solo ante desempleo prolongado o enfermedad grave, con reposición obligatoria. Se publica el efecto de cada retiro en la pensión esperada.",
       "evidencia": "Chile combina cuentas individuales de cesantía y un fondo solidario (Seguro de Cesantía, Ley 19728) que paga beneficios sin vaciar el ahorro previsional. Los retiros masivos reducen el saldo previsional de forma difícil de reponer (OIT; SBS).",
       "entrega": "Ley del seguro de desempleo aprobada y retiros extraordinarios reemplazados por anticipos reembolsables con reglas.",
       "responsable": "MTPE",
@@ -554,13 +639,13 @@
         }
       ],
       "financiamiento": "CTS en la cuenta individual del trabajador y aporte solidario nuevo de empleadores; sin recursos del Tesoro salvo decisión del Ejecutivo.",
-      "costo_referencial": "no estimado",
+      "costo_referencial": "Para el Tesoro, cero salvo un aporte inicial al fondo solidario. El rendimiento de un aporte de 0,5 % sobre la planilla formal privada lo estima la SBS con la planilla electrónica (no estimado aquí).",
       "indicador": "Saldo promedio de las cuentas individuales y trabajadores formales con seguro de desempleo.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "PRO-06"
       ],
-      "riesgo": "Presión política por nuevos retiros (alta popularidad) y desconfianza en las AFP.",
+      "riesgo": "Presión política por nuevos retiros (alta popularidad) y desconfianza en las AFP. Mayor costo laboral formal que empuje a la informalidad si el aporte no es neutro: la CTS ya equivale a un sueldo al año.",
       "fuentes": [
         {
           "titulo": "Expreso – Octavo retiro AFP 2025 hasta 4 UIT (Ley 32445): cronograma oficial",
@@ -583,6 +668,11 @@
           "rol": "constitucional-fiscal",
           "hallazgo": "fondo solidario con CTS afectaría derecho irrenunciable",
           "decision": "aplicado: CTS sigue en cuenta individual; fondo con aporte nuevo de empleadores"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Aporte patronal nuevo encarece el empleo formal",
+          "decision": "aplicado: tope 0,5 % compensado con CTS futura"
         }
       ]
     },
@@ -593,7 +683,7 @@
       "necesita_ley": "si",
       "por_que_ley": "Los sistemas funcionales del Poder Ejecutivo se crean por ley (Ley 29158, art. 45). Varios proyectos fueron archivados y el PL 11659 sigue en trámite; si es de iniciativa congresal no puede crear gasto, por lo que su implementación depende del presupuesto que asigne el Ejecutivo.",
       "etapa": "2026-2031",
-      "que": "El trabajo de cuidado de niñas y niños, personas con discapacidad y adultos mayores dependientes recae casi siempre en mujeres y no se reconoce. La ley reconoce el derecho al cuidado, define a la población prioritaria (dependencia severa y primera infancia), crea un registro de personas cuidadoras y de servicios, y ordena cómo se coordinan MIMP, MIDIS, MINSA, MINEDU y municipios. No crea entidades nuevas: articula Cuna Más, CIAM, Contigo y servicios municipales bajo metas comunes.",
+      "que": "El trabajo de cuidado de niñas y niños, personas con discapacidad y adultos mayores dependientes recae casi siempre en mujeres y no se reconoce. La ley reconoce el derecho al cuidado, define a la población prioritaria (dependencia severa y primera infancia), crea un registro de personas cuidadoras y de servicios, y ordena cómo se coordinan MIMP, MIDIS, MINSA, MINEDU y municipios. No crea entidades nuevas: articula Cuna Más, CIAM, Contigo y servicios municipales bajo metas comunes. El sistema garantiza a las cuidadoras remuneradas contrato, remuneración mínima y seguridad social (Ley 31047 y Convenio 189 de la OIT), reconoce la autonomía y la vida independiente de las personas con discapacidad (Convención sobre los Derechos de las Personas con Discapacidad, art. 19) y se diseña con sus organizaciones y las de personas adultas mayores. La fuente de financiamiento de largo plazo de los cuidados (aporte, copago según clasificación socioeconómica o presupuesto) se define en esta ley.",
       "evidencia": "Uruguay creó su Sistema Nacional Integrado de Cuidados por Ley 19353 (2015) con servicios progresivos; el PNUD acompaña al MIMP en el diseño de redes locales de cuidado en Lima y Callao.",
       "entrega": "Ley del Sistema Nacional de Cuidados y su reglamento aprobados, con registro nacional de cuidadoras y servicios.",
       "responsable": "MIMP",
@@ -650,6 +740,11 @@
           "rol": "jurista",
           "hallazgo": "depende de PRO-09 de etapa posterior",
           "decision": "aplicado: se quita PRO-09"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Derechos de cuidadoras remuneradas y participación",
+          "decision": "aplicado"
         }
       ]
     },
@@ -776,7 +871,7 @@
       "necesita_ley": "no",
       "por_que_ley": "El Decreto Legislativo 1297 para la protección de niñas, niños y adolescentes sin cuidados parentales ya prioriza el acogimiento familiar; se implementa con Unidades de Protección Especial (UPE) del MIMP y DEMUNA municipales.",
       "etapa": "2026-2031",
-      "que": "Se amplían las Unidades de Protección Especial a todas las regiones, se fortalece a las Defensorías Municipales del Niño y del Adolescente (DEMUNA) con personal permanente y se paga y acompaña a familias acogedoras (extensas y ajenas) para que la institucionalización en centros de acogida residencial sea el último recurso y por el menor tiempo. Se publica cuántos niños viven en centros residenciales y cuánto tiempo permanecen.",
+      "que": "Se amplían las Unidades de Protección Especial a todas las regiones, se fortalece a las Defensorías Municipales del Niño y del Adolescente (DEMUNA) con personal permanente y se paga y acompaña a familias acogedoras (extensas y ajenas) para que la institucionalización en centros de acogida residencial sea el último recurso y por el menor tiempo. Se publica cuántos niños viven en centros residenciales y cuánto tiempo permanecen. Toda decisión de acogimiento escucha a la niña o niño, mantiene juntos a los hermanos y prioriza a la niñez con discapacidad con apoyo adicional a la familia acogedora; se publica la permanencia promedio por tipo de discapacidad.",
       "evidencia": "La evidencia de los estudios de Bucarest (Bucharest Early Intervention Project) muestra que el acogimiento familiar produce mejores resultados de desarrollo que la institucionalización; el DL 1297 recoge ese principio.",
       "entrega": "UPE en las 25 regiones y número de niños en acogimiento familiar mayor que en acogimiento residencial al 2031.",
       "responsable": "MIMP",
@@ -819,6 +914,13 @@
       "pedn": [
         "AE1.5.2",
         "AE1.5.5"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Opinión del niño y niñez con discapacidad en acogida",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -828,7 +930,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 30364 y su reglamento ya definen el sistema; los Centros Emergencia Mujer (programa Warmi Ñan, antes Aurora), la Línea 100 y los hogares de refugio se amplían con presupuesto del MIMP y convenios con PNP y municipios.",
       "etapa": "2026-2031",
-      "que": "El 52 % de mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja y 33,9 % en los últimos 12 meses (ENDES 2024); en 2024 hubo 154 feminicidios (INEI). Se asegura un CEM con atención 24 horas en cada comisaría de alta demanda, patrocinio legal gratuito, hogares de refugio temporal en cada región y, sobre todo, seguimiento activo de cada medida de protección otorgada por los juzgados: visita policial, botón de pánico y aviso ante incumplimiento. Se priorizan zonas rurales con servicios itinerantes en lenguas originarias. La parte policial (responsable por medida, valoración de riesgo) se complementa con SEG-23.",
+      "que": "El 52 % de mujeres de 15 a 49 años sufrió alguna vez violencia de su pareja y 33,9 % en los últimos 12 meses (ENDES 2024); en 2024 hubo 154 feminicidios (INEI). Se asegura un CEM con atención 24 horas en cada comisaría de alta demanda, patrocinio legal gratuito, hogares de refugio temporal en cada región y, sobre todo, seguimiento activo de cada medida de protección otorgada por los juzgados: visita policial, botón de pánico y aviso ante incumplimiento. Se priorizan zonas rurales con servicios itinerantes en lenguas originarias. La parte policial (responsable por medida, valoración de riesgo) se complementa con SEG-23. Los CEM y hogares de refugio atienden sin exigir documento de identidad ni situación migratoria regular, con intérpretes de lengua originaria y de lengua de señas, accesibilidad física y protocolos para mujeres LGTBI; los hogares de refugio admiten a hijas e hijos sin límite de edad y a mujeres con discapacidad.",
       "evidencia": "El seguimiento de medidas de protección y la evaluación de riesgo son los factores que más reducen la revictimización según la OMS (RESPECT, marco de prevención de la violencia contra las mujeres); la mayoría de feminicidios ocurre tras denuncias previas.",
       "entrega": "CEM 24 horas en todas las comisarías priorizadas y 100 % de medidas de protección con seguimiento registrado al 2031.",
       "responsable": "MIMP",
@@ -854,9 +956,9 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Programa presupuestal de lucha contra la violencia familiar del MIMP.",
+      "financiamiento": "PPoR 1002, Productos específicos para la reducción de la violencia contra la mujer (MIMP, PNP, MP, PJ; PIM 2026 de S/ 592 millones, con 46,8 % de devengado a la fecha de corte del insumo, MEF Consulta Amigable), y presupuesto del programa Warmi Ñan. El antiguo PP 0080 ya no figura en la estructura programática 2026.",
       "costo_referencial": "no estimado",
-      "indicador": "Mujeres que sufrieron violencia de su pareja en los últimos 12 meses (ENDES) y feminicidios con denuncia previa.",
+      "indicador": "Mujeres que sufrieron violencia de su pareja en los últimos 12 meses (ENDES) y feminicidios con denuncia previa, desagregados por área, lengua materna, discapacidad y quintil (ENDES).",
       "deroga_o_simplifica": [],
       "depende_de": [
         "PRO-13",
@@ -889,6 +991,21 @@
           "rol": "jurista",
           "hallazgo": "duplica SEG-23 (CEM 24 horas)",
           "decision": "aplicado: el servicio CEM y su meta quedan en PRO-12; SEG-23 asume la parte policial (acordado con el dueño de seguridad)"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Acceso de mujeres con discapacidad, LGTBI y migrantes",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Indicador sin desagregación",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "PP 0080 ya no existe: PPoR 1002",
+          "decision": "aplicado"
         }
       ]
     },
@@ -899,7 +1016,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La Ley 30364 ya prevé el Registro Único de Víctimas y Personas Agresoras; su implementación interoperable entre PNP, Ministerio Público, Poder Judicial y MIMP se hace por convenios y normas reglamentarias.",
       "etapa": "2026-2031",
-      "que": "Hoy cada institución registra la violencia en su propio sistema y una mujer puede tener varias denuncias sin que nadie vea el patrón. Se implementa el registro único interoperable con alertas automáticas de reincidencia y riesgo alto, acceso protegido y auditado para policías, fiscales, jueces y personal de los CEM, y estadísticas abiertas anonimizadas por distrito. Así, quien atiende un nuevo caso sabe si la persona agresora ya tenía denuncias o medidas incumplidas y puede pedir protección reforzada de inmediato.",
+      "que": "Hoy cada institución registra la violencia en su propio sistema y una mujer puede tener varias denuncias sin que nadie vea el patrón. Se implementa el registro único interoperable con alertas automáticas de reincidencia y riesgo alto, acceso por rol y por caso (no por entidad) para policías, fiscales, jueces y personal de los CEM, con bitácora de cada consulta auditada por el MIMP y visible para la víctima, sin descarga masiva, con domicilio y ubicación de refugio cifrados y visibles solo para el juez y el responsable de la medida, y con bloqueo del acceso al personal denunciado, y estadísticas abiertas anonimizadas por distrito. Así, quien atiende un nuevo caso sabe si la persona agresora ya tenía denuncias o medidas incumplidas y puede pedir protección reforzada de inmediato. Antes de operar, el registro tiene evaluación de impacto en datos personales y se inscribe ante la ANPD; interopera por la PIDE con identificación por DNI; la víctima puede pedir rectificación y la supresión de datos de terceros. Las medidas de protección frente a la violencia digital siguen DER-07.",
       "evidencia": "Los sistemas integrados de gestión de casos (por ejemplo VioGén en España) permiten valorar el riesgo y coordinar la protección entre policía y justicia.",
       "entrega": "Registro único operativo e interoperable en PNP, Ministerio Público, Poder Judicial y CEM al 2028.",
       "responsable": "MIMP",
@@ -923,6 +1040,10 @@
         {
           "sigla": "PCM",
           "rol": "consultiva"
+        },
+        {
+          "sigla": "ANPD",
+          "rol": "supervisora"
         }
       ],
       "financiamiento": "Presupuesto del MIMP y de las entidades del sistema de justicia.",
@@ -931,7 +1052,8 @@
       "deroga_o_simplifica": [],
       "depende_de": [
         "GOB-01",
-        "DIG-01"
+        "DIG-01",
+        "DER-07"
       ],
       "riesgo": "Filtración de datos sensibles de víctimas; falta de interoperabilidad real.",
       "fuentes": [
@@ -947,6 +1069,18 @@
       "pedn": [
         "AE1.5.2",
         "AE4.5.4"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-gobtech",
+          "hallazgo": "Datos de víctimas: EIPD, acceso por rol, sin descarga masiva",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Riesgo de filtración al agresor: acceso por caso y bitácora",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -954,7 +1088,7 @@
       "titulo": "Certificar la discapacidad en el primer nivel e inscribir de oficio en el registro",
       "tipo": "accion_ejecutiva",
       "necesita_ley": "no",
-      "por_que_ley": "La certificación es competencia del MINSA y el registro es del CONADIS bajo la Ley 29973; la inscripción automática se aprueba por decreto supremo y convenio de interoperabilidad. La Ley 32367 (2025) ya eliminó la renovación periódica para la discapacidad permanente.",
+      "por_que_ley": "La certificación es competencia del MINSA y el registro es del CONADIS bajo la Ley 29973; la inscripción automática se aprueba por decreto supremo y convenio de interoperabilidad. La Ley 32367 (2025) ya eliminó la renovación periódica para la discapacidad permanente. El art. 78.2 de la Ley 29973 remite los requisitos y el procedimiento de inscripción al reglamento del CONADIS, por lo que la inscripción de oficio no exige cambiar la ley.",
       "etapa": "2026-2031",
       "que": "El Censo 2017 contó más de 3 millones de personas con discapacidad, pero el registro del CONADIS tiene alrededor de 496 000 inscritos, porque certificar exige trámites en pocos establecimientos. Se habilita a equipos del primer nivel y a brigadas móviles para certificar, el certificado inscribe automáticamente en el registro y da acceso a Contigo, cuota laboral, educación inclusiva y rehabilitación. Se prioriza la Amazonía y la sierra rural.",
       "evidencia": "La brecha entre población con discapacidad y población certificada está documentada por el propio CONADIS ante el Congreso; la inscripción de oficio elimina un paso que no agrega valor.",
@@ -983,7 +1117,7 @@
       "indicador": "Personas con certificado e inscritas en el registro frente a la población con discapacidad del Censo 2025.",
       "deroga_o_simplifica": [
         {
-          "norma": "Ley 29973, Ley General de la Persona con Discapacidad – trámite de inscripción en el Registro Nacional de la Persona con Discapacidad",
+          "norma": "Reglamento del Registro Nacional de la Persona con Discapacidad (aprobado por resolución de presidencia del CONADIS, conforme al art. 78.2 de la Ley 29973)",
           "motivo": "Se simplifica: la inscripción se hace de oficio al emitirse el certificado, sin solicitud adicional."
         }
       ],
@@ -1005,18 +1139,25 @@
       "pedn": [
         "AE1.5.1",
         "AE1.5.3"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-constitucional",
+          "hallazgo": "Un DS no puede cambiar la Ley 29973",
+          "decision": "aplicado: art. 78.2 remite el procedimiento al reglamento del CONADIS; se cita el reglamento y necesita_ley sigue en no"
+        }
       ]
     },
     {
       "id": "PRO-15",
-      "titulo": "Proteger a las personas adultas mayores del abandono y el abuso económico",
+      "titulo": "Atender el abandono de adultos mayores y personas en situación de calle",
       "tipo": "servicio",
       "necesita_ley": "no",
       "por_que_ley": "La Ley 30490 de la Persona Adulta Mayor ya establece derechos y los CIAM; se implementa con el MIMP, municipios y el sistema financiero.",
       "etapa": "2031-2036",
-      "que": "El Perú envejece rápido y muchos adultos mayores viven solos o dependen de familiares. Se crea una línea de atención y equipos municipales que visitan a adultos mayores solos, se identifican situaciones de abandono y maltrato, y se coordina con la SBS para alertas de abuso financiero (préstamos y retiros no consentidos, fraudes digitales). Los CIAM ofrecen actividades, alfabetización digital y orientación legal.",
+      "que": "El Perú envejece rápido y muchos adultos mayores viven solos o dependen de familiares. Se crea una línea de atención y equipos municipales que visitan a adultos mayores solos, se identifican situaciones de abandono y maltrato, y se coordina con la SBS para alertas de abuso financiero (préstamos y retiros no consentidos, fraudes digitales). Los CIAM ofrecen actividades, alfabetización digital y orientación legal. Las situaciones de abuso se atienden con medidas de protección de la Ley 30490 y, cuando la persona lo requiere, con designación de apoyos y salvaguardias del DL 1384, nunca con interdicción; los CIAM informan sobre estos mecanismos. Los mismos equipos municipales atienden a personas de cualquier edad en situación de calle: primero se hace un conteo nacional periódico en las ciudades principales, porque hoy no existe un censo oficial. Luego se ofrece albergue de baja exigencia, sin condiciones previas de abstinencia ni documento, como puerta de entrada. La salida sigue el enfoque de \"vivienda primero\": vivienda estable sin condiciones previas, con acompañamiento de salud mental, adicciones, empleo y documentación (DNI). Las viviendas salen de las unidades que VIV-04 reserva para personas que dejan albergues o la calle.",
       "evidencia": "La OMS estima que alrededor de uno de cada seis adultos mayores sufre algún tipo de maltrato en entornos comunitarios; la detección temprana y la visita domiciliaria son intervenciones recomendadas.",
-      "entrega": "CIAM activo en cada distrito urbano y servicio de visitas domiciliarias en las 50 provincias con más adultos mayores solos.",
+      "entrega": "CIAM activo en cada distrito urbano y servicio de visitas domiciliarias en las 50 provincias con más adultos mayores solos; primer conteo nacional de personas en situación de calle y albergues de baja exigencia con ruta a vivienda estable en las ciudades principales.",
       "responsable": "MIMP",
       "entidades": [
         {
@@ -1038,11 +1179,12 @@
       ],
       "financiamiento": "Presupuesto del MIMP y municipios.",
       "costo_referencial": "no estimado",
-      "indicador": "Adultos mayores que viven solos con visita periódica registrada.",
+      "indicador": "Adultos mayores que viven solos con visita periódica registrada; personas en situación de calle contadas y % que sigue en vivienda estable 12 meses después de entrar.",
       "deroga_o_simplifica": [],
       "depende_de": [
         "PRO-09",
-        "TAL-02"
+        "TAL-02",
+        "VIV-04"
       ],
       "riesgo": "Servicios municipales que dependen de la voluntad de cada alcalde.",
       "fuentes": [
@@ -1058,6 +1200,18 @@
       "pedn": [
         "AE1.5.2",
         "AE1.5.9"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Apoyos y salvaguardias en vez de interdicción",
+          "decision": "aplicado"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Personas en situación de calle: albergues y vivienda primero",
+          "decision": "aplicado: conteo nacional, albergue de baja exigencia y salida a vivienda con las unidades reservadas en VIV-04 (depende_de); no se crea id nuevo"
+        }
       ]
     },
     {
@@ -1093,7 +1247,7 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Reserva de contingencia y estrategia de gestión del riesgo fiscal ante desastres del MEF.",
+      "financiamiento": "Orden de activación preacordado: (1) reserva de contingencia, (2) líneas de crédito contingente del MEF con la banca multilateral, (3) seguros o bonos catastróficos, (4) Fondo de Estabilización Fiscal. El MEF publica cada año el monto disponible de cada instrumento (saldos actuales por verificar).",
       "costo_referencial": "no estimado",
       "indicador": "Días entre el evento y el primer pago y % de hogares afectados que reciben el pago.",
       "deroga_o_simplifica": [],
@@ -1120,6 +1274,13 @@
       "pedn": [
         "AE2.2.5",
         "AE2.2.6"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Fijar orden de uso de instrumentos financieros",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1129,9 +1290,9 @@
       "necesita_ley": "no",
       "por_que_ley": "Se apoya en la Ley 29735 de lenguas originarias, el Registro Nacional de Intérpretes y Traductores del Ministerio de Cultura y las plataformas itinerantes existentes (PIAS, Tambos); se financia con presupuestos sectoriales.",
       "etapa": "2026-2031",
-      "que": "Cerca de 9 millones de peruanos se identifican como indígenas o afroperuanos según los Censos 2025 (Ministerio de Cultura). Se garantiza que los programas sociales, los CEM, el registro civil y las ventanillas del Estado en distritos con población indígena atiendan en la lengua local con intérpretes certificados y contratados, se amplían las Plataformas Itinerantes de Acción Social en ríos amazónicos y lago Titicaca, y se consulta a las organizaciones indígenas el diseño de los servicios.",
+      "que": "Cerca de 9 millones de peruanos se identifican como indígenas o afroperuanos según los Censos 2025 (Ministerio de Cultura); la pertinencia lingüística se refiere a quienes tienen lengua materna originaria, más de 4,4 millones según el Censo 2017 (cifra 2025 por verificar). La población afroperuana se atiende en PRO-18. Se garantiza que los programas sociales, los CEM, el registro civil y las ventanillas del Estado en distritos con población indígena atiendan en la lengua local con intérpretes certificados y contratados, se amplían las Plataformas Itinerantes de Acción Social en ríos amazónicos y lago Titicaca, y se consulta a las organizaciones indígenas el diseño de los servicios.",
       "evidencia": "La atención en lengua materna mejora el uso de servicios y la confianza; las PIAS han llevado DNI, salud y programas sociales a comunidades ribereñas aisladas.",
-      "entrega": "Intérpretes contratados en los servicios de los distritos con mayoría indígena y PIAS ampliadas en cuencas priorizadas.",
+      "entrega": "Intérpretes contratados en los servicios de los distritos con mayoría indígena y PIAS ampliadas en cuencas priorizadas; intérpretes de lengua de señas peruana disponibles de forma remota en todos los servicios (Ley 29535) y diseño consultado con organizaciones indígenas registrado en acta.",
       "responsable": "MINCUL",
       "entidades": [
         {
@@ -1178,6 +1339,13 @@
       "pedn": [
         "AE1.5.11",
         "AE1.5.10"
+      ],
+      "revision_atendida": [
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Separar lengua originaria de afroperuanos; lengua de señas",
+          "decision": "aplicado"
+        }
       ]
     },
     {
@@ -1239,7 +1407,7 @@
       "necesita_ley": "no",
       "por_que_ley": "La regularización migratoria (carné de permiso temporal de permanencia) y la afiliación al SIS se regulan por decreto supremo y normas de MIGRACIONES y el MINSA bajo la Ley de Migraciones (DL 1350).",
       "etapa": "2026-2031",
-      "que": "El Perú alberga alrededor de 1,6 millones de personas venezolanas (proyección R4V a 2023) y una parte importante no tiene permiso de permanencia vigente. Se abre un proceso de regularización permanente con verificación de antecedentes, se permite la afiliación al SIS de niñas, niños, gestantes y personas con enfermedades transmisibles independientemente de su estatus, y se reconoce de forma ágil títulos y competencias para que trabajen formalmente y aporten. El registro biométrico, el intercambio de antecedentes y la expulsión con debido procedimiento se complementan con SEG-27.",
+      "que": "El Perú alberga alrededor de 1,6 millones de personas venezolanas (proyección R4V a 2023) y una parte importante no tiene permiso de permanencia vigente. Se abre un proceso de regularización permanente con verificación de antecedentes, se permite la afiliación al SIS de niñas, niños, gestantes y personas con enfermedades transmisibles independientemente de su estatus, y se reconoce de forma ágil títulos y competencias para que trabajen formalmente y aporten. El registro biométrico, el intercambio de antecedentes y la expulsión con debido procedimiento se complementan con SEG-27. La regularización es compatible con el procedimiento de refugio de la Ley 27891 y no lo sustituye; la exclusión por antecedentes se limita a condenas firmes por delitos graves, con evaluación individual y proporcional; toda persona accede a atención de emergencia y vacunación sin importar su estatus; las niñas, niños y adolescentes migrantes se matriculan en la escuela y se afilian al SIS con cualquier documento, y los no acompañados pasan a la Unidad de Protección Especial del MIMP.",
       "evidencia": "Colombia otorgó el Estatuto Temporal de Protección a venezolanos (2021) y estudios del Banco Mundial y el BID encontraron efectos positivos en empleo formal e ingresos fiscales; la irregularidad empuja a la informalidad y al riesgo de explotación.",
       "entrega": "Proceso de regularización abierto y permanente con verificación de antecedentes y afiliación al SIS de grupos prioritarios.",
       "responsable": "MIGRACIONES",
@@ -1297,6 +1465,11 @@
           "rol": "cifras",
           "hallazgo": "URL WDR 2023 en español rota",
           "decision": "aplicado: versión en inglés"
+        },
+        {
+          "rol": "r2-ddhh",
+          "hallazgo": "Refugio, niñez no acompañada y criterio de antecedentes",
+          "decision": "aplicado"
         }
       ]
     },
@@ -1364,7 +1537,7 @@
       "necesita_ley": "parcial",
       "por_que_ley": "El aporte por consumo y el ahorro voluntario ya están en la Ley 32123 y su reglamento; el piso de protección para trabajadores de plataformas requiere ley (propuesta ECO-11). Los aportes obligatorios nuevos están reservados a la ley.",
       "etapa": "2026-2031",
-      "que": "Con 70,7 % de empleo informal en 2025 (INEI), la protección social atada al contrato deja fuera a la mayoría. Se facilita la afiliación de independientes al SIS contributivo y a pensiones mediante aportes por consumo con boleta electrónica, débitos pequeños desde billeteras digitales y aportes de contrapartida estatal para los de menores ingresos, y se aplica un piso de protección para quienes trabajan por plataformas digitales, cuyo seguro y retención de aportes se fijan en DIG-09 (ver también ECO-11). Se integra la afiliación al trámite de RUC y a la escalera MYPE (ECP-23).",
+      "que": "Con 70,7 % de empleo informal en 2025 (INEI), la protección social atada al contrato deja fuera a la mayoría. Se facilita la afiliación de independientes al SIS contributivo y a pensiones mediante aportes por consumo con boleta electrónica, débitos pequeños desde billeteras digitales y una contrapartida estatal con tope anual por persona (por ejemplo, hasta S/ 300) solo para independientes de los quintiles 1 a 3 del registro social, pilotada con asignación aleatoria en 2027-2028 y escalada solo si eleva la densidad de aportes, y se aplica un piso de protección para quienes trabajan por plataformas digitales, cuyo seguro y retención de aportes se fijan en DIG-09 (ver también ECO-11). Se integra la afiliación al trámite de RUC y a la escalera MYPE (ECP-23).",
       "evidencia": "El aporte por consumo y los esquemas de contrapartida (México, Colombia con BEPS) elevan el ahorro de independientes de bajos ingresos; la evidencia de economía del comportamiento muestra que la afiliación automática aumenta la participación (Madrian y Shea, 2001).",
       "entrega": "Independientes afiliados a salud y pensión con aporte digital simple y piso de protección para trabajadores de plataformas.",
       "responsable": "MEF",
@@ -1390,8 +1563,8 @@
           "rol": "ejecutora"
         }
       ],
-      "financiamiento": "Aportes de los trabajadores; contrapartida estatal según disponibilidad fiscal.",
-      "costo_referencial": "no estimado",
+      "financiamiento": "Aportes de los trabajadores; contrapartida aprobada en la Ley de Presupuesto con monto máximo anual.",
+      "costo_referencial": "Contrapartida: banda de S/ 100–300 millones anuales según cobertura (cálculo indicativo, por validar con el MEF).",
       "indicador": "% de trabajadores independientes que aportan a pensiones y salud al menos 6 meses al año.",
       "deroga_o_simplifica": [],
       "depende_de": [
@@ -1424,6 +1597,11 @@
           "rol": "jurista",
           "hallazgo": "dos fuentes para la obligación de plataformas",
           "decision": "aplicado: se remite a DIG-09"
+        },
+        {
+          "rol": "r2-economia",
+          "hallazgo": "Contrapartida sin tope ni fuente",
+          "decision": "aplicado: tope, focalización, piloto aleatorio y banda"
         }
       ]
     },
@@ -1452,7 +1630,7 @@
           "rol": "consultiva"
         },
         {
-          "sigla": "CONTRALORIA",
+          "sigla": "CGR",
           "rol": "supervisora"
         }
       ],
@@ -1483,6 +1661,11 @@
           "rol": "jurista",
           "hallazgo": "depende de EST-28 de etapa posterior",
           "decision": "aplicado: se quita EST-28"
+        },
+        {
+          "rol": "r2-gestion",
+          "hallazgo": "Sigla CONTRALORIA en PRO-22",
+          "decision": "aplicado: CGR"
         }
       ]
     }
@@ -1645,6 +1828,31 @@
       "rol": "cifras",
       "hallazgo": "URLs de www.congreso.gob.pe/Docs rotas",
       "decision": "aplicado: cambiadas a www3.congreso.gob.pe"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Metas de informalidad distintas entre economía y protección",
+      "decision": "aplicado: 65 / 58 / 45 / 35 % en ambos sectores"
+    },
+    {
+      "rol": "r2-economia",
+      "hallazgo": "Costo de la meta de pensión universal ausente",
+      "decision": "aplicado en diagnóstico y referencia de la meta (sin la duplicación anunciada, no verificada)"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Brechas: LGTBI, acogida residencial, situación de calle",
+      "decision": "aplicado; cifra del INABIF por verificar"
+    },
+    {
+      "rol": "r2-ddhh",
+      "hallazgo": "Sin metas de discapacidad ni trabajo infantil",
+      "decision": "aplicado: dos metas nuevas (línea base de trabajo infantil por verificar)"
+    },
+    {
+      "rol": "r2-gestion",
+      "hallazgo": "Sigla CONTRALORIA en PRO-22",
+      "decision": "aplicado: CGR"
     }
   ]
 }
