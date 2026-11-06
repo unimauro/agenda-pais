@@ -1,0 +1,864 @@
+[
+ {
+  "id": "AGR-06",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Cita como marco vigente de las APP al DL 1362, derogado por la Ley 32441 en 2025.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "El Decreto Legislativo 1362 fue derogado por la Ley 32441 (El Peruano, 16-sep-2025), que regula la promoción de la inversión privada mediante APP y proyectos en activos; su reglamento es el DS 316-2025-EF (24-dic-2025). La propia acción TRA-22 ya lo reconoce. Citar como vigente una norma derogada es hallazgo alto según el protocolo.",
+    "correccion": "Reemplazar '(DL 1362)' por '(Ley 32441 y su reglamento, DS 316-2025-EF)'. Agregar la Ley 32441 a fuentes.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+   }
+  ]
+ },
+ {
+  "id": "DIG-03",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El campo financiamiento cita el DL 1362 para los proyectos en activos, norma derogada por la Ley 32441.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "financiamiento",
+    "problema": "El Decreto Legislativo 1362 fue derogado por la Ley 32441 (El Peruano, 16-sep-2025), que regula la promoción de la inversión privada mediante APP y proyectos en activos; su reglamento es el DS 316-2025-EF (24-dic-2025). La propia acción TRA-22 ya lo reconoce. Citar como vigente una norma derogada es hallazgo alto según el protocolo. Los proyectos en activos están regulados ahora por la Ley 32441.",
+    "correccion": "Reemplazar 'Proyectos en Activos (DL 1362)' por 'Proyectos en Activos (Ley 32441 y DS 316-2025-EF)'.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+   }
+  ]
+ },
+ {
+  "id": "DIG-22",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "El campo financiamiento cita el DL 1362, norma derogada por la Ley 32441.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "financiamiento",
+    "problema": "El Decreto Legislativo 1362 fue derogado por la Ley 32441 (El Peruano, 16-sep-2025), que regula la promoción de la inversión privada mediante APP y proyectos en activos; su reglamento es el DS 316-2025-EF (24-dic-2025). La propia acción TRA-22 ya lo reconoce. Citar como vigente una norma derogada es hallazgo alto según el protocolo.",
+    "correccion": "Reemplazar 'mecanismos contractuales del recaudo (APP, DL 1362)' por 'mecanismos contractuales del recaudo (APP, Ley 32441 y DS 316-2025-EF)'.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-10",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "Cita como marco vigente de las APP al DL 1362, derogado por la Ley 32441.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "El Decreto Legislativo 1362 fue derogado por la Ley 32441 (El Peruano, 16-sep-2025), que regula la promoción de la inversión privada mediante APP y proyectos en activos; su reglamento es el DS 316-2025-EF (24-dic-2025). La propia acción TRA-22 ya lo reconoce. Citar como vigente una norma derogada es hallazgo alto según el protocolo.",
+    "correccion": "Reemplazar 'DL 1362 de APP' por 'Ley 32441 de APP y proyectos en activos (reglamento DS 316-2025-EF)'. Agregar la Ley 32441 a fuentes.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32441.pdf"
+   }
+  ]
+ },
+ {
+  "id": "MIN-15",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones_graves",
+  "resumen": "La acción quiere modificar el reglamento de la Ley de Consulta Previa sin someter esa modificación a consulta, siendo una medida que afecta directamente el derecho colectivo a la consulta.",
+  "hallazgos": [
+   {
+    "severidad": "alta",
+    "campo": "por_que_ley",
+    "problema": "El DS 001-2012-MC se aprobó tras un proceso de consulta con las organizaciones indígenas nacionales en 2011-2012. Modificar la oportunidad de la consulta, el financiamiento de la asesoría y el seguimiento de los acuerdos es una medida administrativa que afecta directamente derechos colectivos (Ley 29785, arts. 2 y 9; Convenio 169, art. 6), por lo que la modificación del reglamento debe consultarse con las organizaciones representativas nacionales antes de aprobarse. La acción no lo dice, y es precisamente la acción que pide hacer la consulta 'a tiempo'.",
+    "correccion": "Agregar a por_que_ley y a que: 'La modificación del DS 001-2012-MC se somete a consulta previa con las organizaciones representativas nacionales de los pueblos indígenas (Ley 29785, arts. 2 y 9) antes de su aprobación, como ocurrió con el reglamento original en 2012.' Agregar MINCUL como conductor del proceso y a las organizaciones nacionales en entidades con rol consultivo.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-05",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La fusión por decreto supremo alcanza a programas y unidades ejecutoras, pero el Fondo Sierra Azul es un fondo creado por ley de presupuesto, que un DS no puede extinguir.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "El Fondo Sierra Azul no es un programa creado por DS: nació como Fondo MI RIEGO en la Quincuagésima Disposición Complementaria Final de la Ley 29951 (presupuesto 2013), fue renombrado Sierra Azul y la Décima Tercera DCF de la Ley 30518 (modificada por la Ley 30596) fijó su uso. Lo que se fusiona por DS es la unidad ejecutora que lo administra; el fondo como tal solo se extingue o reasigna por ley (y, por implicar gasto, de iniciativa del Ejecutivo, art. 79).",
+    "correccion": "Reemplazar en por_que_ley: 'La fusión por decreto supremo alcanza al PSI, al componente de riego de AGRO RURAL y a la unidad ejecutora Fondo Sierra Azul (Ley 29158, art. 38). El Fondo Sierra Azul, creado por la Ley 29951 (50.ª DCF, como Fondo MI RIEGO) y regulado por la Ley 30518 (13.ª DCF) y el DS 002-2017-MINAGRI, se mantiene como fuente de financiamiento del operador único o se reasigna por ley de iniciativa del Ejecutivo.'",
+    "fuente": "https://faolex.fao.org/docs/pdf/per171803.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Derogar íntegramente la Ley 29337 deja sin base legal el aporte regional y municipal al cofinanciamiento, que la propia acción quiere canalizar por convenio.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "deroga_o_simplifica",
+    "problema": "La Ley 29337 (art. 4) es la norma que autoriza a los gobiernos regionales y locales a destinar hasta el 10 % de sus recursos de inversión a cofinanciar planes de negocio privados; sin ella, las leyes orgánicas 27867 y 27972 y las normas presupuestales no permiten transferir recursos públicos a productores privados. Derogarla y a la vez decir que 'los fondos regionales y locales se aportan por convenio' deja un vacío: el convenio no sustituye la habilitación legal del gasto.",
+    "correccion": "Cambiar la entrada de la Ley 29337 a: 'norma: Ley 29337 (PROCOMPITE), arts. 2, 3 y 5 a 7 (procedimiento propio); motivo: se modifica, no se deroga: se mantiene la autorización del art. 4 para que GORE y GL destinen hasta el 10 % de sus recursos de inversión, y se remite el procedimiento a la ventanilla única por adhesión voluntaria.' Ajustar 'que' y 'por_que_ley' en el mismo sentido.",
+    "fuente": "https://cdn.www.gob.pe/uploads/document/file/7129151/6122086-rer-510-2024-gob.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Base legal correcta; falta citar la modificatoria vigente de la Ley 29064.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "La Ley 29064 fue modificada por la Ley 30893 (2018), que ya cambió el objeto y el gobierno de Agrobanco; cualquier reforma debe partir del texto vigente y no del original de 2007.",
+    "correccion": "Escribir: 'Ley 29064, Ley de relanzamiento del Banco Agropecuario – AGROBANCO, modificada por la Ley 30893'. Verificar en SPIJ el texto consolidado antes de redactar la modificación.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-17",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La salvaguarda de 'no titular bosque talado después de la fecha de corte' es correcta para predios individuales, pero tal como está redactada podría aplicarse a la titulación de comunidades nativas, cuyo derecho al territorio no depende del estado del bosque.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El reconocimiento y la titulación de comunidades nativas se rigen por el Decreto Ley 22175 y la Ley 24656 y protegen un derecho colectivo preexistente (art. 89 de la Constitución; Convenio 169, art. 14): no es una regularización de posesión individual y no puede condicionarse a que no haya deforestación posterior a una fecha de corte. La frase 'no se titulan predios con bosque talado después de la fecha de corte' no distingue ambos casos y la titulación comunal solo se 'coordina' con AMB-04.",
+    "correccion": "Reemplazar la salvaguarda por: 'Salvaguarda: la fecha de corte de AMB-03 y la verificación satelital se aplican a la titulación de predios individuales. El reconocimiento y la titulación de comunidades nativas y campesinas se rigen por el Decreto Ley 22175 y la Ley 24656, no se condicionan al estado del bosque (art. 89 de la Constitución; Convenio 169, art. 14) y se priorizan en zonas de deforestación y conflicto (AMB-04).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-05",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Fusión por DS correcta. La lista de derogaciones omite el decreto que creó el tercer programa que se fusiona.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "El Programa Agua Segura para Lima y Callao fue creado por el DS 008-2017-VIVIENDA (El Peruano, 14-abr-2017). Si la acción fusiona los tres programas, el decreto de fusión también debe derogar o modificar ese DS; hoy solo figura el DS 002-2012-VIVIENDA.",
+    "correccion": "Agregar: {'norma': 'DS 008-2017-VIVIENDA, que crea el Programa Agua Segura para Lima y Callao', 'motivo': 'Se integra en el programa único de inversiones en saneamiento.'}",
+    "fuente": "https://faolex.fao.org/docs/pdf/per171921.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AMB-03",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La técnica de modificar la Ley 29763 es correcta. Falta la regla de irretroactividad para los títulos ya emitidos bajo la Ley 31973 y el tipo no refleja que es una modificación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La frase 'el bosque talado después no se titula y debe restaurarse' no dice qué pasa con los títulos ya otorgados al amparo de la Ley 31973 entre 2024 y la nueva ley. Una ley no puede dejar sin efecto por sí misma títulos de propiedad ya inscritos (arts. 70 y 103 de la Constitución: irretroactividad y garantía de la propiedad); solo cabe la nulidad caso por caso en sede administrativa o judicial cuando el título se obtuvo con fraude o contra norma vigente al otorgarse.",
+    "correccion": "Agregar al final de 'que': 'Los títulos ya inscritos al amparo de la Ley 31973 no se revocan por esta ley (arts. 70 y 103 de la Constitución); solo se revisan caso por caso, por nulidad administrativa o judicial, los obtenidos con información falsa o sobre tierras que ya estaban excluidas por otra norma. La obligación de restaurar alcanza al bosque talado después de la nueva fecha de corte.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "La acción modifica artículos de la Ley 29763 y solo deroga disposiciones complementarias de la Ley 31973; el tipo 'derogacion' induce a error (mismo criterio aplicado en la ronda 1 a AGR-07 y VIV-10).",
+    "correccion": "Cambiar tipo a 'ley'; mantener las derogaciones en deroga_o_simplifica.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-04",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Análisis correcto de reservas de ley y de autonomías. Una entrada de deroga_o_simplifica queda marcada 'por verificar' cuando la norma sí existe.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "El DS 082-2024-PCM existe: se publicó el 06-ago-2024 y dispone medidas temporales para promover la firma digital en el sector público, además de modificar los arts. 27 y 46 del reglamento de la Ley 27269. Lo que no se verificó es el plazo de vigencia de las medidas temporales, no la norma.",
+    "correccion": "Reescribir el motivo: 'Al darse rango legal y carácter permanente a la firma remota, la autorización temporal del DS 082-2024-PCM (06-ago-2024) queda superada; el plazo exacto de las medidas temporales se confirma en el texto oficial antes de redactar la derogación.' Quitar '(por verificar)' del número de la norma.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2312893-1/"
+   }
+  ]
+ },
+ {
+  "id": "DIG-05",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Reservas de ley bien identificadas (art. 2.5, régimen concursal, Código de Consumo). Un error de categoría: la ley de la SBS no es ley orgánica.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La Ley 26702 (Ley General del Sistema Financiero y de Seguros y Orgánica de la SBS) no es ley orgánica en el sentido del art. 106: el art. 87 de la Constitución remite a 'la ley' para la organización y autonomía de la SBS, y la materia no está en la lista del art. 106. Decir 'ampliación por ley orgánica' exige una votación calificada que no corresponde.",
+    "correccion": "Reemplazar 'la ampliación por ley orgánica de la potestad de la SBS sobre terceros y proveedores de activos virtuales' por 'la ampliación, mediante ley que modifique la Ley 26702 (art. 87 de la Constitución), de la potestad de la SBS sobre terceros y proveedores de activos virtuales'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-08",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "El contenido respeta legalidad penal, prohibición de censura previa y ley orgánica electoral. El responsable no es coherente con el alcance de la ley.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "responsable",
+    "problema": "El Ministerio Público solo tiene iniciativa legislativa 'en las materias que le son propias' (art. 107 de la Constitución). Una ley que modifica la Ley 30364, impone deberes a plataformas con potestad sancionadora del INDECOPI y modifica la Ley Orgánica de Elecciones excede esa competencia; el proyecto debe presentarlo el Poder Ejecutivo (MINJUSDH) o un grupo parlamentario, con opinión del MP, del JNE y del MIMP.",
+    "correccion": "Cambiar responsable a 'MINJUSDH' y mantener MP, JNE, MIMP e INDECOPI en entidades con rol consultivo o ejecutor según corresponda.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Diseño correcto (ley más candado en el Reglamento parlamentario). Puede apoyarse en un mandato constitucional que ya existe y debe nombrar bien el instrumento bicameral.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El segundo párrafo del art. 79 de la Constitución ya ordena que 'las leyes de índole tributaria referidas a beneficios o exoneraciones requieren previo informe del Ministerio de Economía y Finanzas'. El candado reglamentario no crea un requisito nuevo: hace exigible uno constitucional, lo que fortalece la propuesta frente a quien alegue que el Reglamento limita la iniciativa legislativa. Además, con la Ley 31988 el candado va en el Reglamento de cada cámara (como ya dice EST-22), no en 'el Reglamento del Congreso'.",
+    "correccion": "Agregar a por_que_ley: 'El informe previo del MEF ya es exigencia constitucional (art. 79, segundo párrafo); el Reglamento de cada cámara solo lo vuelve condición de admisión y dictamen.' Reemplazar 'Reglamento del Congreso' por 'Reglamento de cada cámara' en por_que_ley y que.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-24",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento correcto. La entrada de deroga_o_simplifica atribuye a la vía reglamentaria algo que un reglamento no puede hacer.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "deroga_o_simplifica",
+    "problema": "Un reglamento o un TUPA tipo no deroga ni modifica la Ley 28976; solo la aplica. Si la licencia automática con control posterior para giros de bajo riesgo ya está en la Ley 28976 (modificada por el DL 1271), la entrada debe describirse como aplicación y simplificación, no como derogación. Si se necesita algo que la ley no permite, la acción pasaría a 'parcial'.",
+    "correccion": "Reescribir el motivo: 'Se aplica y simplifica por reglamento y TUPA tipo (no se deroga): licencia automática con control posterior para giros de bajo riesgo, conforme a la Ley 28976 modificada por el DL 1271.' Coordinar con EST-21, que propone lo mismo.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-06",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La fusión de escuelas pedagógicas públicas no parece requerir ley.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La creación, fusión y cierre de institutos y escuelas de educación superior públicos es un acto del MINEDU y de los gobiernos regionales bajo la Ley 30512 y su reglamento, no materia reservada a ley; solo cambiar requisitos de egreso fijados en la ley exige modificarla. Decir que la fusión 'necesita norma con rango de ley' encarece una medida que es ejecutiva.",
+    "correccion": "Reemplazar por: 'La fusión de escuelas pedagógicas públicas se aprueba por resolución del MINEDU y ordenanza regional (Ley 30512 y reglamento); solo cambiar requisitos de egreso fijados en la Ley 30512 exige ley, de iniciativa del Ejecutivo si implica gasto (art. 79).' Verificar en SPIJ el artículo de la Ley 30512 sobre creación y cierre de instituciones públicas.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-20",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Constitucionalmente sólida: el TC ya validó que un regulador adscrito al Ejecutivo supervise universidades sin violar la autonomía del art. 18. Solo el tipo es impreciso.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "La acción modifica artículos de la Ley 30220 (texto de la Ley 31520); no deroga una ley completa. Mismo criterio que la ronda 1 aplicó a AGR-07 y VIV-10. Como respaldo de constitucionalidad puede citarse la sentencia del TC sobre la Ley 30220 (Exps. 0014-2014-PI/TC y acumulados, 10-nov-2015), verificada en copia publicada por LP Derecho, no en tc.gob.pe.",
+    "correccion": "Cambiar tipo a 'ley'. Opcional: agregar a evidencia 'El TC confirmó en 2015 la constitucionalidad de la SUNEDU y de la Ley 30220 frente a la autonomía universitaria (Exps. 0014-2014-PI/TC y acumulados).'",
+    "fuente": "https://img.lpderecho.pe/wp-content/uploads/2025/06/Exp.-00014-2014-acums-TC-LPDerecho.pdf"
+   }
+  ]
+ },
+ {
+  "id": "EDU-22",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Los convenios de desempeño son compatibles con la autonomía universitaria si son voluntarios y no condicionan el presupuesto básico.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El art. 18 de la Constitución garantiza la autonomía normativa, de gobierno, académica, administrativa y económica de las universidades. Condicionar una parte del presupuesto a metas es admisible (ya ocurre con Beca 18 y el canon), pero debe quedar claro que la parte condicionada es adicional al presupuesto ordinario y que el convenio lo suscribe la universidad por decisión de su gobierno.",
+    "correccion": "Agregar a 'que': 'La parte condicionada se asigna sobre el presupuesto ordinario de cada universidad y los convenios se suscriben por decisión de sus órganos de gobierno (art. 18 de la Constitución).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-06",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La exclusión de reservas indígenas y ANP es correcta. La consulta previa queda como condicional ('donde corresponda') cuando para contratos en territorios indígenas es obligatoria antes del decreto supremo de aprobación, como ya dice ENE-07.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La aprobación de cada contrato de licencia por decreto supremo es la medida administrativa que afecta directamente a los pueblos indígenas y se consulta antes de aprobarse (Ley 29785, art. 2; reglamento DS 001-2012-MC); 'se hace consulta previa donde corresponda' deja la obligación en condicional, incoherente con ENE-07. Además, la exclusión de reservas territoriales e indígenas debe citar la Ley 28736 (PIACI), que declara intangibles esas reservas, y precisar que la acción renuncia a la excepción de 'necesidad pública' de su art. 5.",
+    "correccion": "Reemplazar 'Se hace consulta previa donde corresponda' por 'Antes de aprobar por decreto supremo cada contrato en lotes superpuestos con pueblos indígenas, Perupetro y el MINEM hacen la consulta previa (Ley 29785) y sus acuerdos forman parte del contrato. Las reservas indígenas y territoriales de la Ley 28736 quedan excluidas sin invocar la excepción de necesidad pública de su art. 5.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Correcta la identificación como ley orgánica (arts. 66 y 106) y el respeto a los contratos-ley (art. 62). La fórmula de votación tras la reforma bicameral no está verificada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La Ley 31988 modificó el art. 106, pero no se verificó si el texto vigente dice 'más de la mitad del número legal de miembros de cada cámara' o del Congreso; otras acciones (TRA-09, SEG-21) usan 'del Congreso'. Conviene una fórmula uniforme y neutra hasta verificar el texto oficial.",
+    "correccion": "Escribir en todas las acciones de ley orgánica: 'votación calificada de ley orgánica (art. 106 de la Constitución, texto de la Ley 31988)'. Verificar el texto del art. 106 en El Peruano (Ley 31988, 20-mar-2024).",
+    "fuente": "https://lpderecho.pe/ley-31988-reforma-constitucional-bicameralidad-reeleccion-parlamentaria/"
+   }
+  ]
+ },
+ {
+  "id": "EST-03",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La LOPE es ley orgánica: su modificación exige votación calificada, lo que no se dice.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "La Ley 29158 regula la estructura y funcionamiento del Poder Ejecutivo, materia del art. 106; su modificación requiere votación calificada de ley orgánica. La acción lo identifica como ley orgánica pero no extrae la consecuencia, que sí se explicita en EST-18, EST-27 y TRA-26.",
+    "correccion": "Agregar: 'La parte que modifica la Ley 29158 se aprueba con votación calificada de ley orgánica (art. 106).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-15",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Falta la pieza central del régimen de responsabilidad administrativa funcional: la Ley 31288 y la jurisprudencia del TC sobre tipicidad, que condicionan cómo redactar la 'regla de decisión técnica razonable'.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "El TC declaró inconstitucional en 2019 el art. 46 de la Ley 27785 por falta de tipicidad de las infracciones (Exp. 0020-2015-PI/TC, citado en la sentencia posterior del TC, Exp. 00026-2021-PI/TC, 'Caso potestad sancionadora de la Contraloría II', que a su vez declaró inconstitucionales varias infracciones de la Ley 31288). Hoy las conductas infractoras están en la Ley 31288, no en la Ley 27785 original ni en la Ley 31358. La 'regla de decisión técnica razonable' debe incorporarse como causal de exclusión de responsabilidad en el art. 46 vigente (texto de la Ley 31288) y respetar los principios de legalidad y tipicidad (TUO de la Ley 27444, art. 248), o el TC volverá a expulsarla.",
+    "correccion": "Agregar a por_que_ley: 'Las infracciones de responsabilidad administrativa funcional están tipificadas en el art. 46 de la Ley 27785 según la Ley 31288, tras las sentencias del TC en los Exps. 0020-2015-PI/TC y 00026-2021-PI/TC; la regla de decisión técnica razonable se incorpora ahí como causal expresa de exclusión de responsabilidad, con tipicidad suficiente.' Agregar la Ley 31288 a deroga_o_simplifica como norma a modificar y la sentencia 00026-2021-PI/TC a fuentes.",
+    "fuente": "https://www.tc.gob.pe/jurisprudencia/2024/00026-2021-AI.pdf"
+   }
+  ]
+ },
+ {
+  "id": "EST-18",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Correcta la exigencia de ley orgánica. La 'devolución temporal de funciones' al nivel nacional roza el carácter permanente y obligatorio de la descentralización (art. 188) y necesita reglas tasadas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El art. 188 de la Constitución define la descentralización como 'política permanente de Estado, de carácter obligatorio', y la Ley 27783 (art. 4.a) la califica de permanente y obligatoria; la doctrina y el TC la leen como irreversible. Una 'devolución temporal de funciones' decidida por el nivel nacional sería recentralización. Es admisible solo si es excepcional, a pedido o con acuerdo del gobierno regional o local, con causales tasadas (incapacidad verificada de prestar el servicio), plazo máximo, plan de recuperación de capacidades y regulada en la propia ley orgánica.",
+    "correccion": "Reemplazar 'posibilidad de devolución temporal de funciones cuando un gobierno no puede prestarlas' por 'y, de forma excepcional, delegación temporal de la función al nivel regional o nacional a pedido o con acuerdo del gobierno que no puede prestarla, con causales tasadas, plazo máximo y plan de recuperación de capacidades, regulada en la ley orgánica (art. 188 de la Constitución; Ley 27783, art. 4)'.",
+    "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/descentralizacion/27783.pdf"
+   }
+  ]
+ },
+ {
+  "id": "PRO-01",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "El uso de datos administrativos para clasificar hogares tiene base legal en la ley del SINAFO, que la acción no cita; sin ella, el cruce masivo de datos personales quedaría solo en una directiva.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El SISFOH forma parte del Sistema Nacional de Focalización creado por la Ley 30435 (TUO aprobado por DS 005-2022-MIDIS; reglamento DS 003-2023-MIDIS), que habilita a las entidades a entregar información al MIDIS para la clasificación socioeconómica. Esa habilitación legal es la que permite el cruce de datos de RENIEC, SUNAT, planillas, SIS y consumo eléctrico conforme a la Ley 29733 (tratamiento por entidades públicas en ejercicio de sus funciones). La directiva 006-2024-MIDIS solo lo operativiza.",
+    "correccion": "Reemplazar el inicio de por_que_ley por: 'El SISFOH es parte del Sistema Nacional de Focalización (Ley 30435, TUO por DS 005-2022-MIDIS, reglamento DS 003-2023-MIDIS), que habilita el intercambio de datos administrativos para la clasificación socioeconómica; su operación se regula por directivas del MIDIS (Directiva 006-2024-MIDIS). El cruce de datos cumple la Ley 29733 con una evaluación de impacto publicada.'",
+    "fuente": "https://leap.unep.org/en/countries/pe/national-legislation/ley-no-30435-ley-que-crea-el-sistema-nacional-de-focalizacion"
+   }
+  ]
+ },
+ {
+  "id": "PRO-14",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "La inscripción de oficio puede exigir tocar la Ley 29973 si el trámite 'a solicitud' está en la ley; la acción dice 'no' necesita ley y a la vez deroga parte de la ley.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "necesita_ley",
+    "problema": "deroga_o_simplifica cita como norma a modificar la 'Ley 29973 – trámite de inscripción en el Registro Nacional' mientras necesita_ley es 'no' y por_que_ley dice que basta decreto supremo. Un DS no puede cambiar la ley. Si el carácter rogado de la inscripción está en el art. 78 de la Ley 29973, la acción es 'parcial'; si solo está en el reglamento (DS 002-2014-MIMP), debe citarse el reglamento y no la ley.",
+    "correccion": "Verificar en SPIJ el art. 78 de la Ley 29973. Si la ley exige solicitud: necesita_ley 'parcial' y por_que_ley 'la inscripción de oficio exige modificar el art. 78 de la Ley 29973; el resto por DS'. Si no: cambiar la entrada de deroga_o_simplifica a 'DS 002-2014-MIMP, Reglamento de la Ley 29973, procedimiento de inscripción en el Registro Nacional'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-05",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Correcto. La afirmación de que el TC confirmó la Ley 32130 ya tiene respaldo en una fuente que la propia agenda cita en SEG-25; conviene traerla aquí.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "fuentes",
+    "problema": "SEG-05 afirma que el reparto de la Ley 32130 fue 'confirmado por el Tribunal Constitucional' sin fuente; SEG-25 cita la Sentencia 83/2026 del TC (Exps. 00020-2024-PI y 00024-2024-PI). Debe citarse en SEG-05 para que la afirmación sea verificable.",
+    "correccion": "Agregar a fuentes de SEG-05 la misma entrada de SEG-25: 'TC – Sentencia 83/2026 (Exp. 00020-2024-PI y 00024-2024-PI, Ley 32130)' con su URL de tc.gob.pe.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-24",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Análisis correcto sobre ley orgánica y art. 197. Solo el tipo es impreciso.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "tipo",
+    "problema": "La acción modifica la Ley 27933 (plan provincial, menos comités), no la deroga. Mismo criterio que la ronda 1 aplicó a AGR-07 y VIV-10.",
+    "correccion": "Cambiar tipo a 'ley'; mantener la entrada en deroga_o_simplifica con motivo 'se modifica'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-25",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Trabajo jurídico cuidadoso. El 'por verificar' sobre la vigencia de la Ley 27379 puede cerrarse con un dato ya disponible.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La Ley 32108 (09-ago-2024) modificó expresamente el art. 2 de la Ley 27379, lo que confirma que el Congreso la trata como vigente; sin embargo, la Corte Suprema (Apelación 166-2025) señala que, en los distritos donde rige el Código Procesal Penal de 2004, el levantamiento del secreto bancario se tramita por ese código y la Ley 27379 ya no se aplica plenamente. El punto (4) debe redactarse para ambos supuestos.",
+    "correccion": "Reemplazar el paréntesis del punto (4) por: '(la Ley 27379 sigue formalmente vigente, pues la Ley 32108 modificó su art. 2 en 2024, pero en los distritos con Código Procesal Penal de 2004 el levantamiento del secreto bancario se rige por sus arts. 235 y 236; la ley ajusta ambas normas en el mismo sentido)'.",
+    "fuente": "https://lpderecho.pe/el-levantamiento-del-secreto-bancario-es-aplicable-en-investigaciones-preliminares-a-congresistas-apelacion-166-2025-corte-suprema-f-j-12/"
+   }
+  ]
+ },
+ {
+  "id": "TRA-08",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-constitucional",
+  "veredicto": "observaciones",
+  "resumen": "Dos medidas que limitan la propiedad y afectan ingresos municipales se presentan como puramente reglamentarias.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "necesita_ley",
+    "problema": "Impedir la transferencia de un vehículo (inscripción en SUNARP) por multas impagas es una restricción al derecho de propiedad y a la libertad contractual (arts. 2.14, 2.16 y 70 de la Constitución) que requiere base en norma con rango de ley; un reglamento no basta por sí solo. Si esa base ya existe en la Ley 27181 o en la ley registral, la acción debe citarla; si no, es 'parcial'. Condicionar la renovación del SOAT (contrato privado) a multas impagas tiene el mismo problema.",
+    "correccion": "Verificar en SPIJ si la Ley 27181 contiene el impedimento de transferencia por papeletas impagas. Si existe: citarla en por_que_ley ('el impedimento de transferencia por multas firmes impagas tiene base en el art. X de la Ley 27181'). Si no: necesita_ley 'parcial' y agregar 'crear por ley el impedimento registral de transferencia por multas firmes impagas y la condición para la revisión técnica; la condición sobre el SOAT se sustituye por retención en la revisión técnica'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las multas de tránsito que cobran las municipalidades son rentas municipales (art. 196.3 de la Constitución; Ley 27972, art. 69). 'Se destinan a seguridad vial' no puede imponerse por reglamento del MTC: solo por ley o por acuerdo de cada concejo.",
+    "correccion": "Reemplazar 'se destinan a seguridad vial' por 'y cada municipalidad acuerda destinar una parte a seguridad vial, con publicación del uso; una ley puede fijar un porcentaje mínimo'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-06",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley bien delimitada (DL 1280), votación orgánica solo si toca la LOM y art. 79 para incentivos; respeta la competencia municipal del art. 195.8.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-16",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Separa bien lo que exige ley (retribuciones, arts. 90-94 de la Ley 29338) de lo administrativo, y somete a consulta previa lo que afecta a comunidades.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-20",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "La Ley 32065 (acceso universal al agua potable) existe y prevé soluciones no convencionales con reglamento del MVCS; el instrumento (reglamento y supervisión) es correcto.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-12",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "La estructura es constitucionalmente correcta: reserva de ley para la metodología (art. 74), ordenanza municipal para los arbitrios (art. 195.4) y rebajas a cargo del municipio conforme a la jurisprudencia del TC sobre arbitrios que ya cita.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-17",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley por afectar propiedad y recursos naturales, consulta previa conducida por MINCUL y retribución no tributaria bien calificada.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-21",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Identifica correctamente la iniciativa del Ejecutivo para reorganizar organismos (art. 79, LOPE) y la votación orgánica si altera competencias subnacionales.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-26",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Base legal correcta (Ley 28611, art. 144) y advertencia adecuada sobre la Ley 26221 como ley orgánica (art. 66).",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-01",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reservas de ley correctas; la ANPD se mantiene en el MINJUSDH para no crear pliego ni gasto por iniciativa congresal (art. 79).",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-02",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Potestad sancionadora con habilitación legal expresa y respeto a la autonomía de ONPE, JNE y RENIEC (arts. 177 y 178); no crea organismo.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-07",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Restricciones a inversiones solo por ley y por seguridad nacional (art. 72) con igualdad de trato (art. 63); consulta previa en recursos genéticos y conocimientos colectivos.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Correcto: dos tercios del número legal para tratamiento tributario especial por zona (art. 79), Norma VII, respeto a convenios de estabilidad (art. 62) y derechos adquiridos.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-23",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley tributaria y laboral bien identificada; advierte que la delegación debe incluir la materia laboral (art. 104) y protege contratos vigentes.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-25",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Derogación de beneficios con rango de ley (art. 74) y gasto sustituto de iniciativa del Ejecutivo (arts. 79 y 104); fondo con plazo y aprobación anual.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-26",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "La tasa del drawback se fija por decreto supremo bajo la Ley General de Aduanas; no hay reserva de ley para reducirla.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Correcto: iniciativa del Ejecutivo por crear gasto, mandato del art. 16 (Ley 31097) y límite de una ley ordinaria frente a leyes anuales de presupuesto.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-21",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Crear un organismo técnico especializado exige ley de iniciativa del Ejecutivo (LOPE art. 28; art. 79) y las tasas de acreditación base legal (art. 74); bien señalado.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-27",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley correcta (Leyes 30220 y 30512); la cuenta de aprendizaje sin aporte público evita el art. 79.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Modificación de la Ley 28840 sin gasto; empresa estatal regulada por ley expresa (art. 60); apertura de capital ya autorizada por la Ley 30130.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-13",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "El FEPC (DU 010-2004) solo se cierra por norma con rango de ley; el vale focalizado va por DS; la prórroga del DU 012-2019 por la Ley 32540 está bien citada.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-23",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "El FOSE (Ley 27510) se reordena por ley; la transparencia tarifaria por OSINERGMIN; no hay gasto público por iniciativa congresal.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-02",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Distingue bien fusión por DS (Ley 27658 art. 13; LOPE art. 38) de creación o disolución de organismos por ley de iniciativa del Ejecutivo (LOPE arts. 28-32; art. 79).",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-11",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "La cita de la STC 00013-2021-PI/TC es correcta: el TC declaró inconstitucional en parte la Ley 31131 (arts. 1, 2, 3, 5 y DCF) y la lectura de la ronda 1 sobre lo que subsiste es acertada.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-19",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley para el canon (Ley 27506), iniciativa del Ejecutivo por efecto fiscal y respeto a la titularidad de cada circunscripción (art. 77).",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-22",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Depuración por ley, requisitos de admisión en el Reglamento de cada cámara (art. 94) y excepción para leyes que sustentan expropiaciones en curso (art. 70, DL 1192).",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-27",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Demarcación (Ley 27795), referéndum regional (Ley 28274), ley orgánica para gobiernos municipales asociados (art. 106) e iniciativa del Ejecutivo para incentivos con gasto.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Consulta previa de las disposiciones que afecten a comunidades, votación orgánica para condiciones de concesión (art. 66) y costo de los GORE reconocido.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-17",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley tributaria (art. 74), respeto a convenios de estabilidad y participación de las circunscripciones (art. 77).",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Dejar vencer leyes temporales no exige ley; incorporar la exploración al DL 973 sí, con Norma VII (plazo 3 años, prórroga única con evaluación).",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-07",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley para fondos previsionales y aportes nuevos (arts. 12 y 74); CTS devengada intangible (arts. 24 y 26); sin gasto público por iniciativa congresal.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Los sistemas funcionales se crean por ley (LOPE art. 45); advierte bien que una ley congresal no puede asignar gasto.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-08",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Intangibilidad de fondos de la seguridad social (art. 12) y gasto nuevo de iniciativa del Ejecutivo (art. 79) correctamente señalados.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-10",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Modifica la Ley 27056 conservando la representación tripartita exigida por el Convenio 102 de la OIT y la intangibilidad de aportes.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-13",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Carrera especial por ley propia (art. 40; exclusión de la Ley 30057), tránsito voluntario y costeo del MEF; coherente con EST-11.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-26",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Crear un organismo exige ley de iniciativa del Ejecutivo (art. 79, LOPE); decisiones impugnables sin limitar el amparo (art. 200).",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-06",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley del art. 168 para carrera y organización policial; cambios remunerativos de iniciativa del Ejecutivo (art. 79).",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Levantamiento del secreto bancario y reserva tributaria solo por juez a pedido fiscal (art. 2.5); cámaras corporales con protocolo de datos personales por DS.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-10",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Correcto: la identificación biométrica remota en tiempo real exige ley con control judicial; videovigilancia bajo DL 1218 y Ley 29733.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-13",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "FFAA solo en los supuestos del DL 1095 con conducción policial y fiscal; consulta previa cuando las bases afecten derechos colectivos.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Ley orgánica de la JNJ con votación calificada (art. 106), sin tocar atribuciones del art. 154 ni proponer reforma constitucional.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-05",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Depuración por ley sin gasto; excepción correcta para extremos que sustentan expropiaciones en curso (art. 70, DL 1192), alineada con EST-22.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-09",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Modificar la Ley 30900 y la LOM exige ley y votación orgánica (art. 106); régimen especial de Lima (art. 198); gasto de iniciativa del Ejecutivo.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-26",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Transferir competencias municipales a una autoridad común modifica la LOM (ley orgánica); el cofinanciamiento nacional solo por Ley de Presupuesto.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-09",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Legalidad penal (art. 2.24.d), recuperación extrajudicial limitada a ocupaciones recientes bajo la Ley 30230 y debido proceso para las antiguas.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-10",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Cierre del régimen extraordinario y prohibición de titular en zonas de riesgo exigen ley (Leyes 28687, 31056, 32267); tipo corregido en la ronda 1.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-15",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Opción por convenio respeta la autonomía del Callao y de Lima (arts. 191 y 198); identifica bien que la opción vinculante exigiría reforma constitucional (art. 206) y leyes orgánicas.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-22",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-constitucional",
+  "veredicto": "conforme",
+  "resumen": "Reserva de ley tributaria (art. 74), exclusión de inafectaciones con base constitucional (art. 19) o en tratado, y valores arancelarios por resolución.",
+  "hallazgos": []
+ }
+]

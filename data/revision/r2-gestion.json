@@ -1,0 +1,3611 @@
+[
+ {
+  "id": "SAL-01",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Acción ejecutable por RM y directivas; el financiamiento cita un programa presupuestal que ya no figura en la estructura 2026.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El texto y por_que_ley citan el PP 0001 (Articulado Nutricional). En la estructura presupuestal 2026 de 91 programas (MEF) no figura el PP 0001: el gasto nutricional e infantil se ejecuta en el PPoR 1001 'Productos específicos para desarrollo infantil temprano' (PIM 2026 S/ 3 843 millones).",
+    "correccion": "Reemplazar 'PP 0001' por 'PPoR 1001 Desarrollo Infantil Temprano' en financiamiento y por_que_ley (mantener PP 0002, 0018 y 0068).",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "SAL-02",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-03",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra bien instrumentada (Invierte.pe, OxI, endeudamiento) pero la entrega no fija el número de establecimientos y omite el riesgo de ejecución más frecuente en salud.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'30 % de la brecha al 2031' no tiene número absoluto: sin la línea base (cuántos distritos de quintil 1 y 2 carecen de oferta I-3/I-4) no es verificable ni programable en el PMI.",
+    "correccion": "Añadir a entrega: 'línea base: N distritos de quintil 1 y 2 sin establecimiento I-3/I-4 según el diagnóstico de brechas del MINSA (año); meta 2031: 30 % de esos distritos (N establecimientos)'. Si el MINSA no publica el número, decirlo ('por verificar').",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "No menciona el saneamiento físico-legal de los terrenos ni la falta de expedientes técnicos, causas principales de retraso y paralización de obras de salud (PRONIS reportó 57 obras paralizadas por S/ 5 000 millones al asumir la gestión 2025).",
+    "correccion": "Agregar al riesgo: 'terrenos sin saneamiento físico-legal y expedientes técnicos deficientes que paralizan obras; exigir terreno saneado e inscrito en SUNARP como requisito de priorización en el PMI'.",
+    "fuente": "https://caretas.pe/politica/ministro-de-salud-sustento-presupuesto-ante-el-congreso"
+   }
+  ]
+ },
+ {
+  "id": "SAL-04",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta como acción ejecutiva; conviene fijar la línea base de obras paralizadas de salud para que la meta sea verificable.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "'Todas las obras de salud paralizadas al 2026' no tiene número. El MINSA declaró ante el Congreso haber encontrado 57 obras paralizadas por unos S/ 5 000 millones (2025); INFObras de la Contraloría permite el corte por función salud.",
+    "correccion": "Añadir: 'línea base: N obras de salud paralizadas según INFObras (corte 2026; el MINSA citó 57 obras por ≈ S/ 5 000 millones en 2025, por verificar)'.",
+    "fuente": "https://caretas.pe/politica/ministro-de-salud-sustento-presupuesto-ante-el-congreso"
+   }
+  ]
+ },
+ {
+  "id": "SAL-05",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-06",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-07",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-08",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-09",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-10",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-11",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-12",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-13",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-14",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-15",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-16",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-17",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Servicio ejecutable con instrumentos vigentes; actualizar el programa presupuestal citado.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "Cita 'PP 0001 Articulado Nutricional'. En la estructura 2026 (91 PP, MEF) ese programa no figura; el paquete nutricional se financia en el PPoR 1001 (PIM 2026 S/ 3 843 millones, devengado 47,6 % a la fecha de corte).",
+    "correccion": "Reemplazar por 'PPoR 1001 Productos específicos para desarrollo infantil temprano, FED y Programa de Incentivos a la Mejora de la Gestión Municipal'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "SAL-18",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Meta alcanzable; falta la línea base oficial para dimensionar la brecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "No da línea base. Según la ficha técnica estándar del MEF para CSMC, al cierre de 2025 había 305 centros en funcionamiento en 131 de las 196 provincias (70,9 %) y 232 distritos.",
+    "correccion": "Añadir a entrega: 'línea base 2025: 305 CSMC en 131 de 196 provincias (MEF, ficha técnica estándar); brecha: 65 provincias'.",
+    "fuente": "https://www.mef.gob.pe/contenidos/inv_publica/docs/ficha_tecnica/salud/02_INSTRUCTIVO_FTE_Centro_Salud_Comunitaria.pdf"
+   }
+  ]
+ },
+ {
+  "id": "SAL-19",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-20",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-21",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Diseño razonable; el financiamiento de cuidados de largo plazo queda abierto.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "'Por identificar un financiamiento de largo plazo para cuidados' en etapa 2031-2036; debe al menos nombrar las opciones y remitir a PRO-08 (Sistema Nacional de Cuidados), que es donde se decide la fuente.",
+    "correccion": "Reemplazar por: 'presupuesto de MINSA, EsSalud y MIMP; la fuente de largo plazo (aporte, copago por SISFOH o presupuesto) se define en la ley del Sistema Nacional de Cuidados (PRO-08)' y añadir PRO-08 a depende_de.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-22",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Buena acción; el responsable debe ser el pliego, no un órgano interno.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "responsable",
+    "problema": "CDC-MINSA (Centro Nacional de Epidemiología) es un órgano del MINSA, no un pliego ni unidad ejecutora que pueda ser 'responsable' presupuestal.",
+    "correccion": "responsable: 'MINSA'; en entidades mantener CDC-MINSA e INS como ejecutoras.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-23",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-24",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Acción central del sector; faltan dos dependencias físicas sin las cuales no hay HCE ni telesalud en el primer nivel.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "El riesgo reconoce 'establecimientos sin internet ni electricidad', pero depende_de no incluye DIG-17 (contrato único de conectividad de escuelas y postas) ni ENE-14 (electrificación de establecimientos de salud). Sin esas obras la meta de 100 % al 2031 es inalcanzable.",
+    "correccion": "Añadir 'DIG-17' y 'ENE-14' a depende_de (no crea ciclo: DIG-17 depende de DIG-03 y ENE-14; ENE-14 de CON-15).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-25",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; actualizar programa presupuestal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "Cita 'PP 0002 y PP 0001'. El PP 0001 no figura en la estructura 2026 (MEF); el gasto está en el PPoR 1001.",
+    "correccion": "Reemplazar 'PP 0001' por 'PPoR 1001'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "SAL-26",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "La agencia es viable por ley; el financiamiento propuesto mezcla fondos de distinta naturaleza.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "'Fusión de presupuestos existentes de IETSI e INS': el IETSI pertenece a EsSalud y se paga con aportes de la seguridad social, intangibles según el art. 12 de la Constitución; no pueden transferirse a una agencia del Tesoro por fusión presupuestal.",
+    "correccion": "Reemplazar por: 'presupuesto del INS reasignado, tasas por evaluación pagadas por las IAFAS y laboratorios solicitantes, y convenio de cooperación técnica con el IETSI de EsSalud (sin transferir fondos de la seguridad social)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:salud",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Metas coherentes salvo la de infraestructura del primer nivel, que supera la capacidad de inversión del sector.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas[5]",
+    "problema": "Pasar de ≈ 3 % a 20 % de establecimientos de primer nivel conformes al 2031 implica intervenir del orden de 1 300–1 500 establecimientos en 5 años (≈ 300 por año), cuando PRONIS y los GORE ejecutan unas decenas de proyectos grandes por año y arrastran obras paralizadas. Las acciones SAL-03/SAL-04 no dimensionan ese volumen.",
+    "correccion": "Bajar la meta 2031 a '10 %' y 2036 a '25 %', o mantener 20 % explicitando la inversión anual requerida y la fuente (endeudamiento multilateral) en SAL-03.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-01",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-02",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra bien instrumentada; el riesgo que ella misma señala exige una dependencia explícita.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "El riesgo es 'crear aulas sin plazas docentes financiadas', pero no depende de EDU-07 (concursos y plazas) ni de EDU-08 (financiamiento de plazas rurales). Sin plazas nuevas en la Ley de Presupuesto las aulas quedan con promotoras.",
+    "correccion": "Añadir 'EDU-07' a depende_de y en financiamiento: 'plazas docentes nuevas aprobadas en la Ley Anual de Presupuesto (costo por plaza según escala vigente)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-03",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-04",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-05",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-06",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-07",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-08",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-09",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta en instrumentos; la meta carece de número y omite el riesgo del suelo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'Cerrar el 30 % de los locales en riesgo al 2031' sin número absoluto ni fuente del inventario (PNIE o Censo Educativo): no es programable ni auditable.",
+    "correccion": "Añadir 'línea base: N locales en riesgo de colapso según el Plan Nacional de Infraestructura Educativa/Censo Educativo 2025 (por verificar); meta 2031: 30 % = N locales'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "No menciona el saneamiento físico-legal de los locales (gran parte de las IIEE no tiene título inscrito a favor del MINEDU), requisito para que PRONIED o el GORE puedan invertir.",
+    "correccion": "Agregar al riesgo: 'locales sin saneamiento físico-legal (SUNARP) que impiden la inversión; priorizar el saneamiento con COFOPRI/SBN como paso previo (ver GOB-07)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-10",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-11",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-12",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-13",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-14",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-15",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-17",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-18",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-19",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-20",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-21",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-22",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-23",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-24",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-25",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-26",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-27",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-28",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Paquete integral correcto; el programa de alimentación escolar muestra baja ejecución y el PP citado para nutrición ya no existe con ese nombre.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El PP 0115 (Programa Nacional de Alimentación Escolar) registra devengado de 25,0 % sobre un PIM 2026 de S/ 2 516 millones a la fecha de corte, el más bajo entre los programas sociales grandes; además 'articulado nutricional' (PP 0001) no figura en la estructura 2026 (es el PPoR 1001).",
+    "correccion": "Reemplazar 'articulado nutricional' por 'PPoR 1001' y añadir al riesgo: 'baja ejecución del programa de alimentación escolar (25 % del PIM 2026 a la fecha de corte, MEF) por cambios de modelo de compra'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "sector:educacion",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Metas ambiciosas en infraestructura; siglas de entidades no normalizadas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas[3]",
+    "problema": "Pasar de 40 % a 60 % de locales con agua, desagüe y electricidad al 2031 son ≈ 10 600 locales en 5 años (≈ 2 100 por año) sobre ≈ 53 000 locales públicos; el ritmo histórico de PRONIED, MVCS y MINEM en servicios básicos escolares es muy inferior y EDU-10 fija 75 % recién al 2036.",
+    "correccion": "Ajustar metas[3] 2031 a '50 %' (coherente con EDU-10) o detallar en EDU-10 la cartera anual (N locales por año y fuente).",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "Las siglas difieren de los demás sectores: 'Congreso' (en otros 'CONGRESO'), 'Gobiernos regionales (DRE/UGEL)' (en otros 'GORE'), 'Gobiernos locales' ('GL'), 'PCM (Secretaría de Gobierno y Transformación Digital)' ('PCM-SGTD').",
+    "correccion": "Normalizar a CONGRESO, GORE, GL y PCM-SGTD para que el sitio pueda cruzar entidades entre sectores.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-01",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-02",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-03",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-04",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-05",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-06",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-07",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Plan correcto; el uso del FIDT como fondo de culminación necesita una regla propia.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El FIDT (DL 1435) es un fondo concursable que financia estudios e inversiones de gobiernos regionales, locales y mancomunidades por concurso anual; 'reasignación del FIDT' a saldos de obra no es automática y, sin una ventana específica en las bases, el fondo sigue premiando proyectos nuevos.",
+    "correccion": "Reemplazar por: 'ventana de saldos de obra en las bases del concurso FIDT (DS del MEF, DL 1435 art. 3) con puntaje a culminación de obras con ≥ 40 % de avance, más reasignaciones de la ley anual de presupuesto y recursos de los pliegos'.",
+    "fuente": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/6288-fondo-invierte-para-el-desarrollo-territorial-fidt-financiara-96-propuestas-de-inversion-de-gobiernos-regionales-y-locales-por-s-152-millones"
+   }
+  ]
+ },
+ {
+  "id": "EST-08",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-09",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-10",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Falta el instrumento que ya ordena el tránsito del Ejecutivo y su riesgo de derogación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "por_que_ley",
+    "problema": "No cita el DL 1602 (21-12-2023), que modificó la Ley 30057 y obligó a 174–176 entidades del Poder Ejecutivo a transitar en un plazo de hasta 270 días desde enero de 2024, con CPE aprobado por SERVIR y MEF. El 'calendario oficial' ya existe parcialmente; lo que falta es cumplimiento y financiamiento.",
+    "correccion": "Añadir: 'El DL 1602 ya obliga a las entidades del Ejecutivo (174–176) a transitar con plazo; SERVIR publica el estado por entidad. La acción consiste en financiar el CPE y concursar plazas'. En riesgo: 'proyectos de ley que derogan el DL 1602 (PL 7172/2023-CR) devolverían el tránsito a voluntario'.",
+    "fuente": "https://andina.pe/agencia/noticia-servir-las-174-entidades-del-ejecutivo-pasaran-al-regimen-del-servicio-civil-270-dias-968706.aspx"
+   }
+  ]
+ },
+ {
+  "id": "EST-11",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-12",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento vigente; la meta multiplica por siete la escala actual sin fuente que lo sustente.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'Al menos 800 gerentes públicos asignados hacia 2031': SERVIR reporta 409 gerentes en el Cuerpo, de los cuales 113 asignados (El Peruano, fecha no verificable). Pasar de ≈ 113 a 800 asignados exige nuevas convocatorias (≈ 100 por año) y que los pliegos financien la remuneración, que hoy es la barrera.",
+    "correccion": "Reducir a '400 gerentes asignados con convenio hacia 2031 (línea base ≈ 113 asignados de 409 en el Cuerpo)' o mantener 800 explicando el financiamiento: cofinanciamiento SERVIR–pliego aprobado en la Ley Anual de Presupuesto con monto anual.",
+    "fuente": "https://elperuano.pe/noticia/304048-cuando-puede-excluirse-a-un-gerente-publico-servir-aprueba-nueva-directiva-para-regular-el-procedimiento"
+   }
+  ]
+ },
+ {
+  "id": "EST-13",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-14",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-15",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-16",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-17",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-18",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-19",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-20",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-21",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-22",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-23",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-24",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-25",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-26",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-27",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-28",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:estado",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Sector sólido en instrumentos; conviene unificar siglas usadas en los 14 archivos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "En los 14 sectores conviven variantes para la misma entidad: CGR/CONTRALORIA; MP/MPFN/MINISTERIO PUBLICO; PJ/PODER JUDICIAL; PCM-SGTD/SEGDI; GORE/'Gobiernos regionales'; GL/MUNICIPALIDADES/'Gobiernos locales'; CONGRESO/Congreso.",
+    "correccion": "Adoptar un catálogo único de siglas (p. ej. CGR, MP, PJ, PCM-SGTD, GORE, GL, CONGRESO) y aplicarlo en todos los sectores; el dueño de estado.json puede publicar el catálogo como referencia.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-01",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-02",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-03",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-04",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-05",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-06",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-08",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; la meta de conectividad no tiene fuente recurrente ni dependencia.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'100 % de comisarías conectadas a internet al 2028' no tiene financiamiento recurrente del servicio (Invierte.pe paga instalación, no la mensualidad) ni dependencia: DIG-17 cubre solo escuelas y postas, no comisarías. Último dato público hallado: 42 % de comisarías con conexión propia y adecuada (INEI, Censo de Comisarías 2015).",
+    "correccion": "En financiamiento añadir 'pago recurrente del servicio con presupuesto del pliego Interior y FITEL en zonas sin oferta'; en depende_de añadir 'DIG-03'; en entrega indicar la línea base del último Censo Nacional de Comisarías disponible.",
+    "fuente": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/resultados_comisarias.pdf"
+   }
+  ]
+ },
+ {
+  "id": "SEG-09",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-10",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-11",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-12",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-13",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-14",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Estrategia vigente; el programa presupuestal citado para escáneres prácticamente no ejecuta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El 'PP de control de drogas' (PP 0074, Gestión integrada y efectiva del control de oferta de drogas) tiene PIM 2026 de S/ 108 millones y devengado de 1,6 % a la fecha de corte: no es fuente creíble para escáneres portuarios al 2029. Los escáneres de contenedores son inversión de la SUNAT (su PMI y PP 0110 Fiscalización aduanera, PIM S/ 66 millones).",
+    "correccion": "Reemplazar por: 'PP 0072 (desarrollo alternativo), inversión de la SUNAT en escáneres vía Invierte.pe y aporte de los terminales portuarios (contratos de concesión), cooperación internacional' y añadir al riesgo la baja ejecución histórica del PP 0074.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "SEG-15",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-16",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-17",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; una nota de prensa no es fuente de financiamiento.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "financiamiento",
+    "problema": "'La Cámara reportó 19 proyectos de cárceles valorizados en S/ 1 682 millones' describe una cartera, no una fuente de fondos.",
+    "correccion": "Mover esa cifra a 'evidencia' o 'que' como cartera referencial (por verificar) y dejar en financiamiento solo 'Invierte.pe, APP penitenciarias (DL 1229) y endeudamiento'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-18",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-19",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-20",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-22",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-23",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-24",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-25",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-26",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-27",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-28",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:seguridad",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "La meta penitenciaria de 2031 no cierra con las acciones previstas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas[4]",
+    "problema": "Con 101 055 internos y 41 764 plazas (INPE, marzo 2025: 142 %), llegar a 90 % de sobrepoblación al 2031 exige bajar a ≈ 79 000 internos con la misma capacidad o sumar ≈ 11 000 plazas. SEG-17 solo prevé dos penales pequeños y SEG-18 unas 10 000 personas con vigilancia electrónica o pena alternativa: aun cumpliéndose, la sobrepoblación quedaría en ≈ 110–120 %.",
+    "correccion": "Ajustar metas[4] 2031 a '≤ 115 %' y 2036 a '≤ 80 %', o añadir en SEG-17 una meta de plazas nuevas (N) con fuente (APP, Invierte.pe) coherente con el 90 %.",
+    "fuente": "https://www.congreso.gob.pe/Docs/comisiones2021/cem-seguridad-ciudadana/files/so_047-exposicion_inpe_18-03-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ECP-01",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-02",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-04",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-05",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-06",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Diseño razonable; conviene advertir la capacidad de ejecución del gasto en CTI.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "El PP 0137 (Desarrollo de la CTI) registra devengado de 22,7 % sobre un PIM de S/ 170 millones a la fecha de corte 2026, el más bajo de los programas productivos; los consorcios dependen de fondos concursables que históricamente ejecutan tarde.",
+    "correccion": "Añadir al riesgo: 'baja ejecución de los fondos concursables de CTI (PP 0137: 22,7 % del PIM 2026 a la fecha de corte, MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "ECP-07",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-08",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-09",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-10",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-11",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-13",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-14",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-15",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-16",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-17",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; el ejecutor principal tiene baja ejecución.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "El PP 0127 (competitividad de destinos turísticos, donde ejecuta Plan COPESCO) registra devengado de 26,5 % sobre PIM 2026 de S/ 619 millones a la fecha de corte.",
+    "correccion": "Añadir al riesgo: 'capacidad de ejecución de Plan COPESCO y gobiernos regionales (PP 0127: 26,5 % del PIM 2026 a la fecha de corte, MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "ECP-18",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-19",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-20",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-21",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-22",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-23",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-24",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-25",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-26",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-27",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-28",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:economia",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Entidades con competencia, entregas cuantificadas y financiamiento nombrado en todas las acciones; sin hallazgos de gestión adicionales.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-01",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. Hay línea base pública: 3,1 % de hogares rurales con cloro residual adecuado (ENAPRES, jul-2025 a jun-2026).",
+    "correccion": "Redactar: 'N sistemas rurales (DATASS) con cloro ≥ 0,5 mg/l verificado al 2031 (línea base: X sistemas en 2026) y reporte trimestral público'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-02",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; sin meta numérica y con el programa ejecutor más rezagado del sector.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. El PP 0083 (Saneamiento Rural) registra devengado de 33,4 % sobre PIM 2026 de S/ 2 824 millones a la fecha de corte, frente a 75,3 % del PP 0146 (vivienda) en el mismo corte: la capacidad de ejecución del PNSR y los GORE es el cuello de botella.",
+    "correccion": "Redactar: 'N sistemas nuevos o rehabilitados con operador y cloración al 2031 (DATASS), empezando por los departamentos con menor cobertura (por verificar N con el PMI del MVCS)'; añadir al riesgo: 'ejecución del PP 0083 de 33 % del PIM a la fecha de corte 2026 (MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "AGU-03",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'N conexiones nuevas de agua y N de alcantarillado activas y facturadas al 2031 en las 10 ciudades con menor cobertura (SUNASS)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-04",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'agua no facturada ≤ 34 % y micromedición ≥ 85 % en todas las EPS al 2031 (Benchmarking SUNASS), con reporte por sector'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-05",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-06",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-07",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-08",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Añadir año: 'estructuras tarifarias con subsidio focalizado por SISFOH en el 100 % de las EPS al 2029'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-09",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; falta la dependencia que asegura la operación y una meta con número.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "depende_de",
+    "problema": "El riesgo es 'plantas sin presupuesto de operación', pero no depende de AGU-08 (tarifas que cubran costos) ni de AGU-06 (EPS con escala). Sin tarifa que cubra O&M la PTAR deja de funcionar.",
+    "correccion": "Añadir 'AGU-08' y 'AGU-06' a depende_de (no crea ciclo).",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable.",
+    "correccion": "Redactar: 'TEAR ≥ 75 % al 2036 (línea base 51,4 % en 2025, SUNASS) y N PTAR nuevas o rehabilitadas en ciudades > 20 000 habitantes'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-10",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'N hm³/año de agua residual tratada reusada al 2031 (línea base SUNASS) y contratos de reúso en al menos 5 EPS de la costa'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-11",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'ATM operativa en el 100 % de distritos rurales al 2029 (línea base: % de distritos con ATM según DATASS) y N operadores mancomunados'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-12",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: '≥ 80 % de los fondos MERESE recaudados ejecutados al 2031 (línea base SUNASS) y N hectáreas con medición hidrológica'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-13",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Añadir año a la entrega: 'balances hídricos y carteras aprobadas al 2033 para las 7 ciudades'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-14",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-15",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'N consejos de cuenca con plan y secretaría técnica al 2031 (línea base: N consejos creados, ANA)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-16",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-17",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Añadir línea base: 'N obras de saneamiento paralizadas en INFObras (corte 2026)' y meta '≥ 70 % culminadas o cerradas al 2031'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-18",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-19",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: 'kits y acompañamiento en N hogares del padrón nominal sin agua clorada al 2029 (padrón nominal MIDIS-MINSA)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-20",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-21",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: '100 % de EPS con plan de riesgo aprobado al 2028 y obras de redundancia en SEDAPAL y las 6 EPS de costa norte al 2031'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-22",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad, cobertura ni año; no es verificable ni programable. ",
+    "correccion": "Redactar: '≥ 60 % del personal operativo de EPS y ATM certificado al 2036'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:agua",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "El sector tiene el instrumento correcto en casi todas las acciones, pero 18 de 22 entregas carecen de cantidad y fecha, y el programa ejecutor principal es el más rezagado.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "Salvo AGU-05, AGU-06, AGU-07, AGU-14, AGU-16, AGU-18 y AGU-20, las entregas describen productos sin número, cobertura ni año ('sistemas rurales operativos', 'conexiones nuevas', 'planes de riesgo aprobados'). No se pueden programar en el PMI ni auditar.",
+    "correccion": "Reescribir cada entrega con la fórmula 'N unidades (línea base, fuente) al año X' usando DATASS, Benchmarking SUNASS y ENAPRES; ver hallazgos por acción.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "metas",
+    "problema": "La capacidad de ejecución no se refleja en el diagnóstico de riesgos: el PP 0083 (saneamiento rural) registra devengado de 33,4 % y el PP 0082 (urbano) 43,8 % sobre sus PIM 2026 a la fecha de corte, frente a 75,3 % del PP 0146 (vivienda) en el mismo corte.",
+    "correccion": "Añadir en diagnóstico/causas una línea sobre ejecución de PNSR/PNSU y GORE (MEF) y en AGU-05 fijar como indicador la ejecución del PIM del programa único.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "TRA-01",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento correcto; añadir el dato de ejecución del programa que la financia.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "El PP 0138 (sistema de transporte) tiene PIM 2026 de S/ 14 329 millones y devengado de 35,1 % a la fecha de corte; los contratos plurianuales por niveles de servicio dependen de que Provías Nacional y el MEF honren compromisos multianuales que ese ritmo de ejecución pone en duda.",
+    "correccion": "Añadir al riesgo: 'ejecución del PP 0138 de 35 % del PIM a la fecha de corte 2026 (MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "TRA-02",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-03",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-04",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-05",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-06",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-07",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-08",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-09",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-10",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-11",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-12",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-13",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-14",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-15",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-16",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-17",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-18",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-19",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-20",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-21",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-22",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-23",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-24",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-25",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-26",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:transporte",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsables (Provías, ATU, PROINVERSIÓN, GORE, GL) con competencia; entregas cuantificadas y fechadas; sin hallazgos de gestión adicionales a los por acción.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-01",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-02",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N viviendas mejoradas o ampliadas con conformidad técnica al 2031 en los 100 distritos con mayor déficit cualitativo (línea base BFH mejoramiento por año)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-03",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-04",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N bonos de arrendamiento vigentes y N viviendas en alquiler social operando al 2036'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-05",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-06",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-07",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta en competencias; el programa presupuestal citado no alcanza para la meta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El PP 0058 (propiedad predial formalizada) tiene PIM 2026 de S/ 54 millones (devengado 41,6 % a la fecha de corte). Un catastro multipropósito en todas las ciudades > 20 000 habitantes cuesta un orden de magnitud más; la fuente real debe ser un proyecto de inversión con endeudamiento (BID) y el Programa de Incentivos.",
+    "correccion": "Precisar: 'proyecto de inversión de catastro urbano de COFOPRI con endeudamiento BID (monto por verificar) y Programa de Incentivos; el PP 0058 (S/ 54 millones en 2026) solo cubre la formalización'. Añadir entrega con N predios catastrados al 2031.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "VIV-08",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N lotes habilitados con servicios adjudicados al 2031 en las 20 ciudades con mayor presión de invasiones (medición satelital)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-09",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-10",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-11",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-12",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N familias reasentadas de zonas de muy alto riesgo no mitigable al 2031 (línea base: asentamientos priorizados por CENEPRED)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-13",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N barrios con paquete integral ejecutado al 2031 (PP 0146, mejoramiento integral de barrios)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-14",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'N hectáreas de parques nuevos al 2036 en los 30 distritos con menor área verde por habitante'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-15",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-16",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Instrumento y responsable correctos; falta una entrega cuantificada con fecha.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "La entrega no fija cantidad ni año; no es verificable ni programable en el PMI.",
+    "correccion": "Redactar: 'paquetes integrales en las 15 ciudades intermedias de mayor crecimiento al 2036'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-17",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-18",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-19",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Programa vigente (PNVR); el programa presupuestal citado es marginal frente al costo y falta la meta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El PP 0111 'Apoyo al hábitat rural' tiene PIM 2026 de solo S/ 26 millones (MEF). El PNVR construyó 84 897 viviendas entre 2013 y 2025 (≈ 7 000 por año) con proyectos de inversión del Plan Multisectorial ante Heladas y Friaje, no con el PP 0111.",
+    "correccion": "Reemplazar por: 'proyectos de inversión del PNVR en Invierte.pe bajo el Plan Multisectorial ante Heladas y Friaje 2025-2027 (≈ S/ 400 millones por cada 15 000 viviendas según el MVCS, por verificar) y canon'; entrega: 'N viviendas térmicas al 2031 (línea base ≈ 7 000 por año)'.",
+    "fuente": "https://proactivo.com.pe/ministerio-de-vivienda-construira-mas-de-6900-viviendas-rurales-wasiymi-para-proteger-a-familias-del-friaje-y-las-heladas/"
+   }
+  ]
+ },
+ {
+  "id": "VIV-20",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-21",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-22",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:vivienda",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Buen diseño institucional; 8 entregas sin cantidad ni fecha y siglas no normalizadas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "VIV-02, VIV-04, VIV-08, VIV-12, VIV-13, VIV-14, VIV-16 y VIV-19 describen productos sin número ni año.",
+    "correccion": "Reescribir con 'N unidades al año X (línea base)'; ver hallazgos por acción.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'MPFN' (VIV-09) y 'COLEGIO DE NOTARIOS'/'COLEGIOS PROFESIONALES' como entidades ejecutoras/consultivas; en otros sectores el Ministerio Público es 'MP'.",
+    "correccion": "Usar 'MP' y mantener a los colegios solo como consultivos.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-01",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-02",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-03",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-04",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-05",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-06",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-07",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-09",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-10",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-11",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-13",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-14",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Falta el ejecutor real de la electrificación rural; ADINELSA solo recibe las obras.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entidades",
+    "problema": "Según la Ley 28749 y el PNER, el MINEM ejecuta los proyectos de electrificación rural a través de la Dirección General de Electrificación Rural (DGER); ADINELSA recibe los bienes por transferencia gratuita para operarlos, junto con las distribuidoras de FONAFE (p. ej. Electro Oriente). La acción pone a ADINELSA como única ejecutora.",
+    "correccion": "entidades: añadir {'sigla':'MINEM-DGER','rol':'ejecutora'} y {'sigla':'Distribuidoras FONAFE','rol':'ejecutora'}; cambiar ADINELSA a rol 'operadora' (o 'ejecutora' solo de O&M). Añadir al riesgo: 'ejecución del PP 0046 de 40 % del PIM 2026 a la fecha de corte (MEF)'.",
+    "fuente": "https://andina.pe/agencia/noticia-minem-llevo-electricidad-a-mas-169000-peruanos-rurales-2025-1057653.aspx"
+   }
+  ]
+ },
+ {
+  "id": "ENE-15",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-16",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-17",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-18",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-19",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-20",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-21",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-22",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-23",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-24",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-25",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:energia",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Sector coherente; una sigla a normalizar.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'CONTRALORIA' (ENE-10, ENE-11) frente a 'CGR' en los demás sectores.",
+    "correccion": "Usar 'CGR'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-01",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-02",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-03",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; añadir el dato de ejecución del gasto en riego.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "El PP 0042 (recursos hídricos para uso agrario) tiene PIM 2026 de S/ 2 874 millones y devengado de 34,4 % a la fecha de corte: la restricción no es presupuesto sino capacidad de ejecución de PSI, Sierra Azul y GORE.",
+    "correccion": "Añadir al riesgo: 'baja ejecución del PP 0042 (34 % del PIM 2026 a la fecha de corte, MEF); exigir cartera priorizada y diseños tipo (EST-08)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "AGR-04",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-05",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-06",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "La etapa 2031-2036 es defendible, pero el estado contractual de 2026 cambia el camino crítico.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "riesgo",
+    "problema": "En 2026 la concesionaria de Chavimochic III inició un proceso de caducidad del contrato por 'falta de respuesta' del Estado (Gestión), y en Majes Siguas II el plazo de la adenda 13 (obras concluidas a julio de 2026) no se cumplió. La acción asume 'adendas' cuando el escenario probable es resolución del contrato y nueva licitación o G2G.",
+    "correccion": "Añadir al riesgo: 'caducidad o resolución del contrato de Chavimochic III (proceso iniciado en 2026) y relicitación de obras; incumplimiento de plazos de la adenda 13 de Majes Siguas II'. En 'que' prever la vía de relicitación (APP o Gobierno a Gobierno) con PROINVERSIÓN como ejecutora, no solo adendas.",
+    "fuente": "https://gestion.pe/economia/chavimochic-iii-la-fecha-para-los-costos-reales-plazos-y-obras-complementarias-agricultura-irrigacion-noticia/"
+   }
+  ]
+ },
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-08",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-09",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-10",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-11",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-12",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-14",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-15",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-16",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-17",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Fuente de financiamiento vigente (PTRT3 continúa en 2026); la meta de 2031 exige quintuplicar el ritmo de titulación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'Cierre de la brecha de 283 000 títulos al 2031' implica ≈ 150 000 títulos en 5 años (30 000 por año) partiendo de 132 607 acumulados en 2026. El PTRT3 sigue activo (convenio de continuidad 2026), pero sus metas publicadas son del orden de miles por año por departamento (4 310 predios en Puno en 2026 y ≈ 10 900 en 2027).",
+    "correccion": "Reformular: 'N títulos adicionales al 2031 (meta coherente con la capacidad del PTRT3 y de los GORE, p. ej. 60 000–80 000) y cierre de la brecha al 2036'; alinear metas[5] del sector.",
+    "fuente": "https://agraria.pe/noticias/titularan-4-310-predios-rurales-en-puno-este-ano-y-alrededor-42018"
+   }
+  ]
+ },
+ {
+  "id": "AGR-18",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-19",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-20",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-21",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-22",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-23",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:agro",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "La meta de titulación de 2031 no es coherente con el ritmo del PTRT3.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas[5]",
+    "problema": "De 132 607 (2026) a 283 000 títulos al 2031 son ≈ 150 000 en 5 años (30 000 por año); las metas publicadas del PTRT3 son del orden de miles por año por departamento (Puno: 4 310 en 2026, ≈ 10 900 en 2027).",
+    "correccion": "Fijar 2031 en un valor coherente (p. ej. 200 000) y 2036 en 283 000, alineando AGR-17.",
+    "fuente": "https://agraria.pe/noticias/titularan-4-310-predios-rurales-en-puno-este-ano-y-alrededor-42018"
+   }
+  ]
+ },
+ {
+  "id": "MIN-01",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-02",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-03",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; sigla desactualizada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'SEGDI' ya no existe con ese nombre: la Secretaría de Gobierno Digital de la PCM pasó a denominarse Secretaría de Gobierno y Transformación Digital (PCM-SGTD), sigla usada en los demás sectores.",
+    "correccion": "Reemplazar 'SEGDI' por 'PCM-SGTD'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2509034-1"
+   }
+  ]
+ },
+ {
+  "id": "MIN-04",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Ley bien planteada; la implementación descansa en direcciones regionales con presupuesto mínimo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El PP 0126 (formalización minera de la pequeña minería y minería artesanal) tiene PIM 2026 de S/ 15 millones para todo el país (devengado 31,5 % a la fecha de corte). Con ese monto las DREM no pueden evaluar decenas de miles de expedientes; la meta sectorial de 15 000 mineros formalizados al 2031 (metas[6]) no es ejecutable sin un aumento explícito.",
+    "correccion": "Precisar: 'transferencias del MINEM a las DREM aprobadas en la Ley de Presupuesto con monto anual (el PP 0126 tiene S/ 15 millones en 2026, MEF) y tasas por trámite de formalización'; mover el costo a 'por estimar con base en expedientes por evaluar'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "MIN-06",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-07",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-08",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-09",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-10",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-11",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-12",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; sigla desactualizada.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'SEGDI' debe ser 'PCM-SGTD' (Secretaría de Gobierno y Transformación Digital).",
+    "correccion": "Reemplazar 'SEGDI' por 'PCM-SGTD'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2509034-1"
+   }
+  ]
+ },
+ {
+  "id": "MIN-13",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-14",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-15",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-16",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; falta citar el reglamento vigente del fondo.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "El Fondo de Adelanto Social ya tiene reglamento (DS 146-2019-PCM) y manual de operaciones (DS 150-2019-PCM); 'lineamientos del MEF' no es el instrumento.",
+    "correccion": "Reemplazar por: 'se reactiva con asignación presupuestal y, de ser necesario, modificación del reglamento DS 146-2019-PCM y del manual DS 150-2019-PCM'.",
+    "fuente": "https://lpderecho.pe/aprueban-reglamento-d-l-crea-fondo-adelanto-social-prioriza-zonas-intervencion-d-s-146-2019-pcm/"
+   }
+  ]
+ },
+ {
+  "id": "MIN-17",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-18",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Ejecutor correcto (AMSAC); la meta de 2036 supera la escala de inversión actual y el PP citado no ejecuta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "AMSAC tiene a su cargo ≈ 1 200 pasivos (de un inventario de ≈ 6 000) con presupuesto de ≈ S/ 140 millones en 2025 y un plan multianual de ≈ S/ 500 millones al 2028; el PP 0120 (remediación de PAM, MINEM) tiene PIM 2026 de S/ 35 millones y devengado de 0,7 % a la fecha de corte. 'Todos los pasivos de alto y muy alto riesgo encargados remediados al 2036' requiere al menos triplicar el gasto anual.",
+    "correccion": "Fijar: 'N pasivos de alto y muy alto riesgo remediados al 2031 y 100 % de los encargados al 2036 con presupuesto anual de S/ X millones (línea base: ≈ S/ 140 millones en 2025, AMSAC)'; añadir al riesgo la nula ejecución del PP 0120 en 2026 (MEF).",
+    "fuente": "https://energiminas.com/2025/01/08/presupuesto-de-s-140-millones-alista-amsac-para-la-remediacion-de-1200-pasivos-mineros/"
+   }
+  ]
+ },
+ {
+  "id": "MIN-19",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-20",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-21",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-22",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-23",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-25",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-26",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:mineria",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Meta de formalización sin presupuesto que la sostenga; siglas no normalizadas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas[6]",
+    "problema": "15 000 mineros formalizados al 2031 (desde ≈ 2 295 acumulados en 2014-2025) con un PP 0126 de S/ 15 millones de PIM en 2026 (MEF) y DREM sin personal: la meta depende de MIN-05 y de una transferencia explícita que ninguna acción cuantifica.",
+    "correccion": "Mantener la meta solo si MIN-05 incorpora el financiamiento anual de las DREM; de lo contrario, 2031: 8 000 y 2036: 20 000.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'MINISTERIO PUBLICO', 'PODER JUDICIAL', 'SEGDI' y 'CONTRALORIA' frente a MP, PJ, PCM-SGTD y CGR en otros sectores.",
+    "correccion": "Normalizar siglas.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-01",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-02",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-03",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-04",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-05",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "El financiamiento y el responsable no coinciden con quien ejecuta la interdicción.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El financiamiento cita 'presupuesto de MININTER, MINDEF, SUNAT y MINEM', pero ninguna de esas entidades está en 'entidades' y el responsable es el MINAM, que no conduce interdicciones (DL 1100 y DL 1105: la interdicción la ejecutan la PNP, con apoyo de las FFAA en los supuestos del DL 1095, bajo coordinación de la PCM y el Ministerio Público). Incoherencia que deja la acción sin dueño presupuestal.",
+    "correccion": "responsable: 'PCM' (o 'MININTER'); entidades: añadir MININTER (ejecutora), MINDEF/MGP (ejecutora), SUNAT (ejecutora), MINEM (consultiva) y dejar MINAM como rectora ambiental con SERNANP y OEFA ejecutoras de la fiscalización; financiamiento: 'PP 0128 Reducción de la minería ilegal (PIM 2026 S/ 179 millones, devengado 27,5 % a la fecha de corte) y presupuestos de PNP, Marina y SUNAT'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "AMB-06",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-07",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-08",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-09",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-10",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-11",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Obra correcta; sin línea base ni los riesgos típicos de rellenos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "'Rellenos sanitarios en todas las capitales de provincia' (196) sin línea base: el MINAM ha citado 52 rellenos sanitarios en el país (Andina, fecha por verificar) y el PP 0036 tiene PIM 2026 de S/ 2 956 millones con devengado de 42,8 % a la fecha de corte. Faltan en el riesgo el saneamiento físico-legal del terreno y la licencia social, que paralizan la mayoría de rellenos.",
+    "correccion": "Entrega: 'de ≈ 52 rellenos (línea base MINAM, por verificar) a N al 2031, priorizando capitales de provincia > 50 000 habitantes'; riesgo: añadir 'terrenos sin saneamiento físico-legal y rechazo vecinal; municipios sin arbitrios para operar (AMB-12)'.",
+    "fuente": "https://andina.pe/ingles/noticia-rellenos-sanitarios-minam-trabaja-31-ciudades-priorizadas-para-gestionar-residuos-725627.aspx"
+   }
+  ]
+ },
+ {
+  "id": "AMB-12",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-13",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-14",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta en instrumentos; el presupuesto existente es marginal frente a la meta.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "El PP 0096 (gestión de la calidad del aire) tiene PIM 2026 de S/ 9 millones y devengado de 19,5 % a la fecha de corte. Una red de monitoreo continuo en 20 ciudades con operación y mantenimiento no cabe en ese programa.",
+    "correccion": "Precisar: 'proyecto de inversión del SENAMHI en Invierte.pe para N estaciones (costo unitario por estimar) y presupuesto de operación del PP 0096 ampliado; Programa de Incentivos para los planes municipales'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "AMB-15",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-16",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-17",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-18",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-19",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Falta el actor que hoy ejecuta las obras de quebradas en Lima.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entidades",
+    "problema": "La Autoridad Nacional de Infraestructura (ANIN, Ley 31841) ejecuta las 'soluciones integrales' en quebradas de Lima Este (Huaycoloro con 98 % de avance y convenio de mantenimiento con Lurigancho-Chosica; 10 quebradas priorizadas en 2026). La acción no la incluye y pone al MVCS como responsable, que no ejecuta obras de mitigación de quebradas.",
+    "correccion": "entidades: añadir {'sigla':'ANIN','rol':'ejecutora'}; responsable: 'ANIN' para las 50 quebradas de mayor riesgo (o 'PCM'), con MVCS como rectora de la reserva de suelo y los GL como ejecutores del control urbano.",
+    "fuente": "https://www.gob.pe/institucion/munilurigancho/noticias/1421374-anin-realizara-intervencion-en-10-quebradas-priorizadas-de-lurigancho-chosica"
+   }
+  ]
+ },
+ {
+  "id": "AMB-20",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "El responsable no tiene competencia sobre escuelas ni hospitales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "responsable",
+    "problema": "El MVCS no es rector ni ejecutor de infraestructura educativa (MINEDU-PRONIED) ni sanitaria (MINSA-PRONIS); tras mover el reforzamiento de viviendas a VIV-11, el MVCS queda como responsable de una acción cuyo objeto ya no es suyo.",
+    "correccion": "responsable: 'PCM' (coordinación multisectorial) o dividir: MINEDU/PRONIED para escuelas y MINSA/PRONIS para hospitales; en entidades añadir PRONIED y PRONIS como ejecutoras y dejar MVCS como consultiva (norma E.030).",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-21",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-22",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; citar la norma de creación de la ejecutora.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "por_que_ley",
+    "problema": "No cita la Ley 31841 (21-07-2023) que creó la ANIN como organismo ejecutor adscrito a la PCM y habilitó la absorción de la ARCC; conviene citarla porque la 'facultad de ejecución' viene de ahí.",
+    "correccion": "Añadir: 'la ANIN (Ley 31841, adscrita a la PCM) ya tiene facultades de ejecución'.",
+    "fuente": "https://blog.prcp.com.pe/wp-content/uploads/2023/07/publican-ley-de-creacion-de-la-autoridad-nacional-de-infraestructura-5.pdf"
+   }
+  ]
+ },
+ {
+  "id": "AMB-23",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-24",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-25",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-26",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-27",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:ambiente",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Metas coherentes con las acciones; los hallazgos de gestión están en AMB-05, AMB-11, AMB-14, AMB-19, AMB-20 y AMB-22.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-01",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-02",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-03",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-04",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-05",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-06",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-07",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-08",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-09",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-10",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-11",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-12",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-13",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-14",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-15",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-16",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-17",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Rectoría mal asignada: el MINEM no es rector de telecomunicaciones.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entidades",
+    "problema": "La lista pone a 'MINEM' como rectora y no incluye al MTC. La rectoría de conectividad y del FITEL/PRONATEL es del MTC (TUO de la Ley de Telecomunicaciones y Ley 28900); el MINEM solo es rector de la electrificación (ENE-14).",
+    "correccion": "entidades: {'sigla':'MTC','rol':'rectora'} y pasar MINEM a 'consultiva' (electrificación vía ENE-14); añadir al riesgo: 'ejecución del PP 0047 (telecomunicaciones) de 29,9 % del PIM 2026 a la fecha de corte (MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "DIG-18",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-19",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-20",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-21",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-22",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-23",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-24",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-25",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-26",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Correcta; advertir la capacidad de ejecución del programa de telecomunicaciones.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "El PP 0047 (servicios públicos de telecomunicaciones) tiene PIM 2026 de S/ 758 millones y devengado de 29,9 % a la fecha de corte.",
+    "correccion": "Añadir al riesgo: 'baja ejecución histórica de PRONATEL (PP 0047: 29,9 % del PIM 2026 a la fecha de corte, MEF)'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "sector:digital",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Metas coherentes; los hallazgos de gestión están en DIG-17 y DIG-26.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-01",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-02",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-03",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-04",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-05",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-06",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-07",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-09",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-10",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-11",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-12",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Servicio correcto; el programa presupuestal citado no figura en la estructura 2026.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "financiamiento",
+    "problema": "'Programa presupuestal de lucha contra la violencia familiar' (PP 0080) no figura en la estructura 2026 de 91 programas (MEF); el gasto está en el PPoR 1002 'Productos específicos para reducción de la violencia contra la mujer' (PIM 2026 S/ 592 millones, devengado 46,8 % a la fecha de corte).",
+    "correccion": "Reemplazar por 'PPoR 1002 Reducción de la violencia contra la mujer (MIMP, PNP, MP, PJ) y presupuesto del programa Warmi Ñan'.",
+    "fuente": "MEF, Consulta Amigable 2026 (insumo plan-peru-2050/data/programas_presupuestales.json, 91 PP, PIM y devengado a la fecha de corte del insumo)"
+   }
+  ]
+ },
+ {
+  "id": "PRO-13",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-14",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-15",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-16",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-17",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-18",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-19",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-20",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-21",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-22",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "conforme",
+  "resumen": "Responsable con competencia, instrumento adecuado al tipo de acción, financiamiento nombrado y entrega verificable; sin hallazgos de gestión.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:proteccion",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-gestion",
+  "veredicto": "observaciones",
+  "resumen": "Sector coherente; una sigla a normalizar.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "entidades",
+    "problema": "'CONTRALORIA' (PRO-22) frente a 'CGR'.",
+    "correccion": "Usar 'CGR'.",
+    "fuente": "no verificable"
+   }
+  ]
+ }
+]

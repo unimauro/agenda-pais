@@ -1,0 +1,3492 @@
+[
+  {
+    "id": "AGR-01",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-08: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-02",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-03",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-04",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-05",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-06",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-07",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Ventanilla única de cofinanciamiento: puede montarse sobre Facilita Perú y GOB.PE sin plataforma propia; no es hallazgo que valga corregir en el texto. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-08",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Cooperativas: la constitución en línea ya existe (SID-SUNARP) y la facturación electrónica es de SUNAT; ECO-22 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-09",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-10",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-11",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Alertas por SMS, radio y lenguas originarias: diseño correcto para baja conectividad; TAL-08 y DIG-21 pertinentes; datos abiertos previstos. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-12",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-13",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-14",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-15",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Seguro por índices con pago a cuentas digitales: Cuenta DNI y Padrón de Productores existentes; riesgo de base reconocido. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-16",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-17",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Catastro y titulación rural: la dependencia DIG-22 quedó obsoleta tras la revisión 1 (el catastro salió de DIG-22) y falta la base geoespacial común.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "Depende de DIG-22, que tras la revisión 1 solo cubre datos de transporte y recaudo; el catastro multipropósito quedó en VIV-07 (urbano) y en GOB-07 (ley). AGR-17 cita una dependencia que ya no entrega lo que necesita.",
+        "correccion": "Reemplazar 'DIG-22' por 'VIV-07' en depende_de (catastro multipropósito con código único enlazado a SUNARP) y mantener GOB-07.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Catastro georreferenciado interoperable con SUNARP' debe publicarse en la Infraestructura de Datos Espaciales (GeoPerú/IDEP) y usar el código único catastral del SNCP (Ley 28294) para que AMB-02 (catastro forestal), VIV-07 (urbano) y MIN-14 (minero) se superpongan sobre la misma base y no en cuatro visores distintos.",
+        "correccion": "Añadir: 'publicado en GeoPerú con el código único catastral del SNCP, como capa común para los catastros forestal, urbano y minero'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AGR-18",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-19",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-20",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGR-21",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Formalización pesquera con registro digital: PRODUCE ya tiene el sistema de formalización pesquera artesanal; el 'registro digital único' debe partir de él.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "Se crea 'un registro digital único de pescadores y embarcaciones' sin mencionar el sistema de formalización pesquera artesanal de PRODUCE ni la matrícula de DICAPI; el riesgo es un tercer registro.",
+        "correccion": "Redactar: 'se integra en un solo registro el padrón de PRODUCE (formalización pesquera artesanal), la matrícula de embarcaciones de DICAPI y el II Censo, interoperables por la PIDE'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AGR-22",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Georreferenciación de parcelas para la norma europea: urgente y bien planteada. Los polígonos de parcelas ligados a un productor son datos personales y la acción debe fijar su gobernanza; DIG-21 repite la meta.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Las coordenadas de la parcela unidas al nombre o DNI del productor son datos personales (Ley 29733) y, en manos de exportadores o intermediarios, dan poder de negociación sobre el pequeño productor (riesgo que la acción reconoce: 'datos en manos de intermediarios'). Decir que 'los datos pertenecen al productor' no basta sin reglas de consentimiento y acceso.",
+        "correccion": "Añadir: 'la plataforma del MIDAGRI custodia los polígonos; el productor autoriza por ID GOB.PE qué exportador o cooperativa accede y por cuánto tiempo; los mapas agregados sin identificación se publican abiertos; evaluación de impacto ante la ANPD'.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "DIG-21 promete la misma georreferenciación con meta distinta (80 % de cooperativas al 2028). AGR-22 debe ser la única dueña.",
+        "correccion": "Pedir al dueño de digital.json que DIG-21 remita a AGR-22; mantener en AGR-22 la meta de 100 % al 2027.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AGR-23",
+    "archivo": "data/sectores/agro.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-01",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-02",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-03",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-04",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-05",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-06",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-07",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-08",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-09",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-10",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-11",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-12",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-13",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-14",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-15",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Consejos de cuenca con gestión digital remitida a SOB-10 y DIG-21: pertinente y sin duplicar plataformas. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-16",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Modificación de la Ley 29338: medición y registro digital coordinados con SOB-10. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-17",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-18",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-19",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-20",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-21",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Planes de riesgo de EPS activados por la Red Nacional de Alerta Temprana: TAL-10 y DIG-20 pertinentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AGU-22",
+    "archivo": "data/sectores/agua.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-01",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Respuesta a alertas de Geobosques: el circuito es correcto y usa el sistema existente. El 'expediente digital público' por caso necesita regla de publicidad cuando hay denuncia penal o datos de personas.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Cada caso queda en un expediente digital público con su resultado' puede exponer nombres de denunciados o de comuneros (datos personales; investigaciones penales reservadas, art. 324 del NCPP). Publicar el tablero sí; el expediente completo, no.",
+        "correccion": "Redactar: 'tablero público por alerta (ubicación, causa, estado, resultado) sin datos personales; el expediente completo se comparte solo entre las entidades del circuito'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AMB-02",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Zonificación y catastro forestal en datos abiertos e interoperable con el rural y el minero: correcto; GOB-07 pertinente. Ver en AGR-17 la recomendación de usar GeoPerú y el código único catastral como base común.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-03",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-04",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-21, SOB-11: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-05",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Dragas y deforestación minera: usa la alerta de AMB-01 y remite trazabilidad a MIN-06; DIG-21 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-06",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-07",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-08",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-09",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-10",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Incendios con focos de calor satelitales y brigadas: DIG-20 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-11",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-12",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-13",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-12: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-14",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Monitoreo de aire con datos abiertos: correcto. La dependencia GOB-11 no es pertinente.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "GOB-11 obliga a publicar datos abiertos en tiempo real del transporte público; no es prerrequisito de la red de monitoreo de aire del SENAMHI. La dependencia tech pertinente es IA-04 (datos públicos por defecto y API) o ninguna.",
+        "correccion": "Reemplazar 'GOB-11' por 'IA-04' en depende_de, o quitarlo y mencionar GOB-11 en el texto solo para el componente de transporte limpio.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AMB-15",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-16",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "NDC con tablero abierto e inventario: correcto; sin plataforma duplicada (usa el INGEI). Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-17",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Mercado de carbono con RENAMI como registro único: usa el registro existente (DS 023-2025-MINAM citado) y GOB-21 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-18",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10, CON-14: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-19",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-20",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech CON-14: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-21",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10, CON-14: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-22",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-23",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10, SOB-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-24",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Fiscalización con sensores en línea: la mejor candidata a ser la acción única del monitoreo en tiempo real del OEFA, que hoy se promete también en MIN-20 y DIG-21.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Monitoreo continuo en línea a las grandes unidades mineras, petroleras, pesqueras e industriales' es la misma plataforma que MIN-20 (OEFA, minería, 2029) y que DIG-21 (OEFA, gran minería). Tres acciones, un sistema; ninguna dice cuál lo construye ni la base legal del dato manipulable (auditoría de sensores).",
+        "correccion": "Declarar a AMB-24 dueña de la plataforma de monitoreo en línea del OEFA; que MIN-20 y DIG-21 la citen en depende_de. Añadir: 'los sensores se certifican y auditan por terceros acreditados por INACAL y los datos se transmiten firmados (integridad) a la plataforma del OEFA, publicada en datos abiertos'; TAL-09 como origen.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "AMB-25",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-26",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "AMB-27",
+    "archivo": "data/sectores/ambiente.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-12: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "sector:digital",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "El sector es la síntesis de la Agenda Legislativa Tech y cita bien el marco (DL 1412, DS 029-2021-PCM, Ley 29733, Ley 27269, Ley 30096). Dos mejoras transversales: nombrar las plataformas que ya existen antes de prometer nuevas y acotar conexion_tech.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "conexion_tech",
+        "problema": "conexion_tech lista los 129 ids de la Agenda Tech en bloque, lo que no dice nada al lector ni permite verificar pertinencia; los demás sectores listan 6 a 11 ids relevantes.",
+        "correccion": "Dejar en conexion_tech solo los ids que las acciones DIG- declaran absorber o depender (ya están en por_que_ley/deroga de cada acción), o reemplazar el bloque por una nota: 'este sector agrupa las 128 propuestas de la Agenda Tech; cada acción indica sus ids de origen'.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "media",
+        "campo": "metas[5]",
+        "problema": "La meta 'Procedimientos que no piden documentos que el Estado ya tiene' tiene línea base 'sin medición' pero la PIDE (DS 083-2011-PCM) y la Plataforma Nacional de Gobierno Digital llevan desde 2011 conteos de servicios web consumidos; la meta debería medirse sobre el inventario de procedimientos del TUPA en GOB.PE y el consumo de servicios PIDE.",
+        "correccion": "Cambiar fuente_linea_base a 'PCM-SGTD: inventario de procedimientos en GOB.PE y servicios consumidos en la PIDE (2026)' y pedir a la SGTD la primera medición en 2027 como entregable de DIG-04.",
+        "fuente": "https://www.gob.pe/gobiernodigital"
+      }
+    ]
+  },
+  {
+    "id": "DIG-01",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Correcta la lógica de reforma única de la Ley 29733. Faltan dos precisiones técnicas: el nuevo reglamento (DS 016-2024-JUS) ya trae evaluación de impacto y notificación de incidentes, y los laboratorios seguros del INEI necesitan una regla de reidentificación.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "La acción no menciona que el DS 016-2024-JUS (vigente desde marzo de 2025) ya regula flujo transfronterizo, notificación de incidentes y portabilidad en vía reglamentaria; conviene decir qué sube a rango de ley y qué se deja al reglamento para no duplicar.",
+        "correccion": "Añadir en que: 'El DS 016-2024-JUS ya desarrolla portabilidad, flujos transfronterizos, notificación de brechas y evaluación de impacto; la ley eleva a rango legal solo la portabilidad gratuita, los mecanismos de transferencia internacional y la autonomía de la ANPD, y deja el resto al reglamento.'",
+        "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+      },
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "Los 'laboratorios seguros del INEI' y los '4 entornos sectoriales' tratan microdatos sensibles; la Agenda Tech tiene una propuesta específica (IA-10: entornos seguros, datos sintéticos y reidentificación) que no aparece citada, y sin regla de reidentificación el laboratorio choca con el secreto estadístico del DL 604.",
+        "correccion": "Agregar 'IA-10' a depende_de y en que: 'tipifica la reidentificación indebida y fija las reglas de acceso a entornos seguros (origen: IA-10)'.",
+        "fuente": "https://www.gob.pe/anpd"
+      }
+    ]
+  },
+  {
+    "id": "DIG-02",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Ley marco de ciberseguridad bien construida sobre DU 007-2020 y el CNSD. Faltan la pieza de talento (CIB-12) y la cita correcta del reglamento vigente de incidentes.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "deroga_o_simplifica[1]",
+        "problema": "Se deroga 'DS 126-2025-PCM, arts. 29 a 34' por plazos de notificación al CNSD. Existe un DS 126-2025-PCM (PDF publicado por LP Derecho en noviembre de 2025), pero no pude verificar su título ni que los arts. 29-34 traten la notificación de incidentes.",
+        "correccion": "Confirmar en El Peruano el título del DS 126-2025-PCM y los artículos citados; si no coinciden, escribir 'reglamento vigente sobre gestión de incidentes de seguridad digital (artículos por verificar)'.",
+        "fuente": "https://img.lpderecho.pe/wp-content/uploads/2025/11/Decreto-Supremo-126-2025-PCM-LPDerecho.pdf"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "La acción crea 'unidad de supervisión de 15 a 25 especialistas' y 10 CSIRT, pero su propio riesgo reconoce que la PCM 'sin escala salarial competitiva' no retiene talento. La Agenda Tech tiene la solución (CIB-12: subfamilia de puestos de ciberseguridad en SERVIR y oficial de seguridad digital obligatorio) y no se cita.",
+        "correccion": "Agregar 'CIB-12' a depende_de o al texto: 'la ley incorpora la subfamilia de puestos de ciberseguridad del servicio civil y hace obligatorio el oficial de seguridad y confianza digital (origen: CIB-12)'; añadir SERVIR a entidades.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "El programa de criptografía poscuántica (SOB-06) y los requisitos IoT (CIB-07) están absorbidos pero no se citan como origen, a diferencia de otras acciones del sector.",
+        "correccion": "Añadir '(origen: SOB-06)' y '(origen: CIB-07)' en el texto para trazabilidad.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-03",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Reforma de banda ancha coherente y con derogaciones verificadas (DL 1560 existe y regula la operación provisional de la RDNFO). Dos ajustes menores: el plazo del DL 1560 y el mapa de cobertura que OSIPTEL ya publica.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "deroga_o_simplifica[0]",
+        "problema": "El DL 1560 (El Peruano, 25-05-2023) sí regula la operación provisional de la RDNFO, con operador provisional hasta enero de 2028 según el MTC. La derogación es correcta pero debe coordinarse con ese plazo: si el contrato con el operador neutro llega después de 2028, derogarlo antes deja la red sin régimen.",
+        "correccion": "Añadir al motivo: 'derogación con vigencia diferida hasta la firma del contrato con el operador neutro; mientras tanto se prorroga el régimen provisional (vence en enero de 2028 según el MTC)'.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2181044-2"
+      },
+      {
+        "severidad": "baja",
+        "campo": "entrega",
+        "problema": "'Obliga a OSIPTEL a publicar un mapa de cobertura verificada por distrito': OSIPTEL ya publica cobertura móvil declarada por operador en PUNKU y el 'Señal OSIPTEL'; lo nuevo es la verificación independiente, no el mapa.",
+        "correccion": "Redactar: 'OSIPTEL complementa su mapa de cobertura declarada (PUNKU) con mediciones independientes por distrito, en datos abiertos'.",
+        "fuente": "https://punku.osiptel.gob.pe/"
+      }
+    ]
+  },
+  {
+    "id": "DIG-04",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Es la ley central del Estado digital y está bien fundada. Su debilidad técnica es prometer plataformas nuevas (Catálogo con bitácora, 'Casilla Única Perú') sin decir que se construyen sobre la PIDE, la Casilla Única Electrónica, ID GOB.PE y Carpeta Ciudadana que ya existen por DS 029-2021-PCM.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se propone 'Catálogo Nacional de Datos Interoperables con bitácora' y 'Casilla Única Perú' como si fueran nuevos. La Plataforma de Interoperabilidad del Estado (PIDE, DS 083-2011-PCM), la Casilla Única Electrónica, ID GOB.PE y Carpeta Ciudadana ya existen y están definidas en el reglamento del DL 1412 (DS 029-2021-PCM). Crear catálogos y casillas paralelos es el riesgo de duplicación que el propio sector critica.",
+        "correccion": "Redactar en que: 'eleva a ley y hace obligatoria la PIDE como catálogo nacional de datos interoperables, con bitácora de consultas visible en Carpeta Ciudadana; da rango legal a la Casilla Única Electrónica (DS 029-2021-PCM) como canal único de notificación (origen: GOB-02); el DNI digital se autentica por ID GOB.PE'. En entrega sustituir 'Casilla Única Perú' por 'Casilla Única Electrónica con rango de ley'.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "La prohibición de pedir documentos que el Estado ya tiene existe desde el DL 1246 (2016) y el DS 029-2021-PCM; la acción debería explicar por qué no se cumple (registros maestros sin servicio web estable, sin sanción) y qué cambia, no solo reiterar la prohibición. GOB-01, que sí la modifica, no se cita como origen.",
+        "correccion": "Añadir: 'El DL 1246 ya prohíbe pedir DNI, RUC, antecedentes y otros documentos; la ley (origen: GOB-01) añade sanción por incumplimiento, obliga a RENIEC, SUNARP, SUNAT, MINEDU y MINSA a exponer sus registros maestros por la PIDE con niveles de servicio, y faculta al ciudadano a ver la bitácora'.",
+        "fuente": "https://www.gob.pe/gobiernodigital"
+      },
+      {
+        "severidad": "baja",
+        "campo": "entrega",
+        "problema": "'10 millones de DNI digitales activos' sin línea base: RENIEC ya emite DNI electrónico y una app de identidad digital; conviene dar la cifra actual para que la meta sea verificable.",
+        "correccion": "Añadir línea base de DNIe y de usuarios de la app de identidad digital de RENIEC (fuente RENIEC, por verificar) y fijar la meta como incremento.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-05",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Finanzas abiertas y pagos: correcto que la interoperabilidad de pagos avance por circular del BCRP (ya rige desde 2022) y que el resto requiera ley. ANPD incluida. Sin hallazgos que valga corregir.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-06",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Ley de innovación: fusión razonable; la revisión 1 ya corrigió Norma VII y FCEI. Desde lo digital no hay duplicación de plataformas (registro de startups en PRODUCE, registro de objetos espaciales en CONIDA).",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-07",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Seguridad económica: bien delimitado. El componente portuario de la VUCE se superpone con el Port Community System de ECP-13 y nadie lo dice.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "La obligación de que 'todos los terminales de uso público transmitan sus eventos logísticos por la VUCE' (origen GOB-20) es el mismo producto que el 'Port Community System' que ECP-13 promete implementar por DS. Dos acciones, dos responsables (MEF y MTC), un solo sistema.",
+        "correccion": "Añadir en que: 'El componente portuario de la VUCE es el Port Community System que ECP-13 opera; esta ley solo lo hace obligatorio para los terminales'. Pedir al dueño de economia.json que ECP-13 cite a DIG-07/GOB-20 como la norma habilitante y a MINCETUR-VUCE como plataforma, no una nueva.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-08",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Reforma penal digital correcta (Ley 30096, Ley 30364, censura previa resuelta). Falta la dependencia con la capacidad forense que SEG-04 construye.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "La entrega 'laboratorios forenses digitales y fiscalías de ciberdelincuencia 24/7' es la misma obra que SEG-04 (laboratorio nacional de criminalística digital con cinco sedes). DIG-08 no cita a SEG-04 y su riesgo ('más tipos penales sin peritos') es precisamente lo que SEG-04 resuelve.",
+        "correccion": "Agregar 'SEG-04' a depende_de y en entrega: 'laboratorios forenses digitales (obra en SEG-04)'; quitar de DIG-08 la promesa de laboratorios para no duplicar.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-09",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Trabajo y economía digital: coherente con DER-05, IA-13, ECO-11 y TAL-16; PRO-21 ya depende de esta acción. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-10",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Precompletada y factura conforme: usa la facturación electrónica y los sistemas de la SUNAT ya existentes; el RER quedó en ECP-23. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-11",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Es la acción de inclusión digital más importante del sector y su enfoque (celular, SMS/USSD/voz, lenguas, WCAG) es correcto. Debe nombrar los servicios compartidos que la PCM ya ofrece para no prometer sistemas nuevos.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se ofrecen 'sistemas en nube de mesa de partes, trámite documentario, casilla y pagos' sin nombrar los que ya existen y que el DS 029-2021-PCM define como bloques básicos: Mesa de Partes Digital, Facilita Perú, Casilla Única Electrónica, Págalo.pe (Banco de la Nación), Firma Perú, ID GOB.PE y el Sistema de Gestión Documental (SGD) que la PCM cede a entidades. Sin nombrarlos, el lector entiende que se desarrollan de nuevo.",
+        "correccion": "Redactar: 'La PCM pone a disposición de las municipalidades, sin costo, los bloques básicos ya existentes (Mesa de Partes Digital, SGD, Facilita Perú, Casilla Única Electrónica, Págalo.pe, Firma Perú, ID GOB.PE) en modalidad de servicio compartido (origen: GOB-08, GOB-19), y completa lo que falta'.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3"
+      },
+      {
+        "severidad": "media",
+        "campo": "por_que_ley",
+        "problema": "Se propone un 'DS PCM-MIMP que fije WCAG 2.2 AA' como si no existiera norma. La PCM-SGTD ya aprobó el 'Lineamiento para el diseño y desarrollo de servicios o plataformas digitales accesibles' basado en WCAG 2.2 y versiones posteriores (RM 269-2024-PCM; versión 2025 por RSGTD 001-2025-PCM/SGTD según gob.pe) y un Sello de Accesibilidad Digital. Lo que falta no es la norma sino la exigibilidad, la auditoría y la extensión a servicios privados de interés general (TAL-13).",
+        "correccion": "Redactar: 'hace exigible el lineamiento de accesibilidad de la PCM-SGTD (WCAG 2.2 AA, RM 269-2024-PCM) con auditoría anual publicada y plazo de corrección; la extensión a servicios privados de interés general requiere ley (TAL-13)'. Sustituir en entrega 'plantillas accesibles WCAG 2.2 AA' por '100 % de portales del Ejecutivo auditados con el lineamiento y Sello de Accesibilidad Digital'.",
+        "fuente": "https://www.gob.pe/96953-lineamiento-para-el-diseno-y-desarrollo-de-servicios-o-plataformas-digitales-accesibles"
+      },
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "Los canales SMS/USSD/voz tienen su propia propuesta en la Agenda Tech (GOB-09: servicios por canales móviles y mensajería con salvaguardas) y no se cita.",
+        "correccion": "Añadir '(origen: GOB-09)' en el texto o GOB-09 a depende_de.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-12",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Compra pública de tecnología: correcta (OECE, PERÚ COMPRAS, software público, nube con salida). Dos precisiones: la Plataforma Nacional de Software Público ya existe y el reglamento de la Ley 31814 ya exige condiciones para IA pública.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "entrega",
+        "problema": "'Plataforma Nacional de Software Público con sistemas municipales reutilizables' se presenta como entregable nuevo; softwarepublico.gob.pe existe desde 2021 (DS 029-2021-PCM). Lo nuevo es la obligación de publicar y de verificar reutilización antes de contratar.",
+        "correccion": "Redactar: 'La Plataforma Nacional de Software Público existente pasa a ser obligatoria: todo software a medida se publica en ella y el OECE verifica reutilización antes de aprobar un nuevo contrato'.",
+        "fuente": "https://www.softwarepublico.gob.pe/"
+      },
+      {
+        "severidad": "media",
+        "campo": "por_que_ley",
+        "problema": "Las 'cláusulas de auditoría y datos en todo contrato de IA que decida sobre derechos' (origen IA-14) deberían anclarse en la Ley 31814 y su reglamento (DS 115-2025-PCM, El Peruano 09-09-2025, enfoque por riesgos, vigente desde enero de 2026); sin esa referencia parece que la obligación nace de cero. El reglamento de contrataciones (DS 009-2025-EF) sí está bien citado.",
+        "correccion": "Añadir en por_que_ley: 'las cláusulas de IA se incorporan como anexo obligatorio de las bases estándar del OECE conforme a la clasificación de riesgo de la Ley 31814 y su reglamento (DS 115-2025-PCM)'; añadir 'GOB-03, GOB-13, IA-14, SOB-08' como origen en el texto.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+      },
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "Depende solo de DIG-04. La consolidación de centros de datos y las cláusulas de nube dependen de la ley marco de ciberseguridad (DIG-02) para los requisitos de los proveedores.",
+        "correccion": "Agregar 'DIG-02' a depende_de.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-13",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Datos abiertos y unidad de cumplimiento: bien alineada con GOB-05, GOB-17 e IA-04, y el reglamento de transparencia citado (DS 007-2024-JUS, 16-05-2024) es el vigente. La 'pasarela nacional de API' debe ser la PIDE.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "entrega",
+        "problema": "'Pasarela nacional de API con 50 entidades clave' es, funcionalmente, la PIDE (que ya conecta a cientos de entidades) más el Portal Nacional de Datos Abiertos (datosabiertos.gob.pe). Crear una pasarela aparte duplica infraestructura y gobernanza.",
+        "correccion": "Redactar: 'La PIDE y datosabiertos.gob.pe se convierten en la pasarela nacional de API: 50 entidades clave exponen sus datos de alto valor por ella con estándar abierto (OCDS, DCAT), sin plataforma nueva'.",
+        "fuente": "https://www.datosabiertos.gob.pe"
+      },
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "La unidad de cumplimiento y el programa presupuestal de transformación digital tienen propuestas de origen (GOB-17, ECO-21, GOB-14 para líderes digitales, GOB-10 para preservación) que no se citan; EST-25 sí cita GOB-17.",
+        "correccion": "Añadir en el texto '(origen: GOB-17, ECO-21, GOB-14, GOB-10)' para trazabilidad.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-14",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Congreso abierto: instrumento correcto (resolución legislativa, art. 94). El portal de datos abiertos legislativos puede reutilizar el SPLEY existente, ya citado en fuentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-15",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Formación digital fuera de la escuela: correcta la división con EDU-23 y el uso de bases de PRONABEC, CONCYTEC y SINEACE. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-16",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Digitalización MIPYME: bien anclada en ECO-17 y SOB-07. Falta decir dónde vive el autodiagnóstico y cómo se mide la adopción.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "El 'autodiagnóstico digital gratuito' para 100 000 MIPYME es una herramienta en línea; conviene decir que se ofrece desde GOB.PE con ID GOB.PE (para no crear otro registro de empresas) y que los bonos se pagan contra entregables verificables en datos abiertos, como ya hace ProInnóvate.",
+        "correccion": "Añadir en que: 'el autodiagnóstico se ofrece en GOB.PE con autenticación ID GOB.PE y se enlaza al RUC; los bonos y sus resultados se publican en datos abiertos por empresa (sin datos personales)'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-17",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Contrato único de conectividad: correcto el instrumento (DS + contratación agregada bajo la Ley 32069), la meta compartida con EDU-11 y la dependencia de ENE-14. El inventario abierto trimestral es la práctica de la iniciativa Giga. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-18",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Red de cómputo e IA en lenguas originarias: bien fundada (IA-05, IA-06). Faltan la regla de licencias abiertas de los modelos y corpus y el costo de energía del clúster.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Los corpus y modelos en quechua, aimara y lenguas amazónicas se construyen con fondos públicos y consentimiento de hablantes, pero no se dice bajo qué licencia se publican ni quién gobierna los datos lingüísticos. Sin regla, los corpus pueden quedar cerrados en una universidad o apropiarse por un proveedor (riesgo que IA-06 regula).",
+        "correccion": "Añadir en que: 'los corpus, modelos y herramientas se publican con licencia abierta y gobernanza compartida con las organizaciones de los pueblos hablantes (origen: IA-06, GOB-23); el Estado conserva los derechos de uso'. Agregar 'IA-06' en depende_de o texto.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "costo_referencial",
+        "problema": "La operación de 32 a 64 aceleradores implica consumo eléctrico y refrigeración significativos; el costo de operación (S/ 1,5–7 millones/año) debería indicar si incluye energía, y la ubicación del nodo debería elegirse por energía renovable firme (DIG-23).",
+        "correccion": "Añadir 'incluye energía y refrigeración' o separar ese rubro; agregar 'DIG-23' como dependencia blanda en el texto.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-19",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Infraestructura de salud digital: correcta la división con SAL-24 y el estándar HL7 FHIR. Hay que anclar el acceso del paciente en ID GOB.PE y verificar las normas de receta electrónica citadas.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Acceso seguro del paciente con autenticación reforzada' debe usar ID GOB.PE (DS 029-2021-PCM) y Carpeta Ciudadana, no un autenticador propio del MINSA; es el error que produjo sistemas de salud con credenciales distintas en cada región.",
+        "correccion": "Redactar: 'el paciente accede a su historia y recetas por Carpeta Ciudadana con ID GOB.PE (DNI digital), sin credenciales propias del MINSA'.",
+        "fuente": "https://www.gob.pe/carpetaciudadana"
+      },
+      {
+        "severidad": "media",
+        "campo": "por_que_ley",
+        "problema": "Se cita 'DS 014-2011-SA (receta electrónica)'. El DS 014-2011-SA es el Reglamento de Establecimientos Farmacéuticos; la receta electrónica tiene regulación propia posterior del MINSA que no pude verificar. La atribución debe ser exacta.",
+        "correccion": "Verificar en gob.pe/minsa la norma vigente de receta electrónica (ley o DS 2023-2026) y citarla; si no, escribir 'reglamento de receta electrónica del MINSA (norma por verificar)'.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "La unidad de DIGEMID que evalúa 'software clínico con IA' debe coordinarse con la Ley 31814 y su reglamento (clasificación de riesgo) y con IA-08 (validación clínica), que ya se cita en conexion_tech de salud pero no en esta acción.",
+        "correccion": "Agregar 'IA-08' al texto como origen, citar el DS 115-2025-PCM en por_que_ley y 'DIG-12' en depende_de (cláusulas de IA en contratos públicos).",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+      }
+    ]
+  },
+  {
+    "id": "DIG-20",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Alerta temprana y catálogo satelital: correcto (CAP, SISMATE con Ley 30472 y DS 019-2016-MTC, PP 0068, CONIDA). Falta accesibilidad e idiomas en las alertas.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "por_que_ley",
+        "problema": "El DS 019-2016-MTC es el reglamento de la Ley 30472, que creó el SISMATE; la cita es correcta pero omite la ley y el anexo técnico (RM 049-2018-MTC/01.03, modificado por RM 896-2021-MTC/01.03), que es donde se definen los tipos de mensaje y debería cambiarse para el formato CAP.",
+        "correccion": "Citar 'Ley 30472 y su reglamento (DS 019-2016-MTC); el anexo técnico del SISMATE (RM 049-2018-MTC/01.03) se actualiza al Protocolo Común de Alerta'.",
+        "fuente": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ds_019-2016-mtc.pdf"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Las alertas automáticas por SISMATE no dicen nada de idioma ni accesibilidad: en zonas quechua, aimara y amazónicas y para personas sordas o ciegas, un SMS en castellano no salva vidas. TAL-10 y GOB-23 lo prevén.",
+        "correccion": "Añadir: 'los mensajes CAP se emiten en castellano y en la lengua predominante del distrito (Ley 29735) y en formatos accesibles (texto, voz, vibración), con pruebas anuales'. Agregar MINCUL y CONADIS a entidades.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-21",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Datos abiertos de agua, minería y agro: pertinente (SOB-10, TAL-08, TAL-09, SOB-01). El monitoreo minero en tiempo real está prometido tres veces (DIG-21, MIN-20, AMB-24) y la georreferenciación de parcelas dos veces (DIG-21, AGR-22).",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'La mediana y gran minería transmite en tiempo real al OEFA su monitoreo' se repite en MIN-20 (OEFA, 2029) y en AMB-24 (OEFA, 100 % de grandes unidades). Tres acciones con la misma plataforma y el mismo responsable sin que ninguna diga cuál es la dueña.",
+        "correccion": "Dejar la plataforma OEFA en una sola acción (sugiero AMB-24, que cubre todos los sectores fiscalizables) y que DIG-21 y MIN-20 digan 'la plataforma de monitoreo en línea del OEFA se construye en AMB-24' y la citen en depende_de.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "La georreferenciación de parcelas de café y cacao con constancia de no deforestación es la entrega de AGR-22 (100 % al 2027); DIG-21 la repite con otra meta (80 % de cooperativas al 2028).",
+        "correccion": "Quitar de DIG-21 la meta de parcelas y remitir: 'la georreferenciación se ejecuta en AGR-22'; dejar en DIG-21 solo la API agroclimática y la lista de minerales críticos.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-22",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Datos de transporte y recaudo abierto: correcto (GTFS, TAL-11, GOB-11, Ley 30900, retención ≤ 12 meses). Catastro ya remitido a VIV-07. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-23",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Energía para centros de datos y carga: bien anclada en SOB-09, CON-10 y SOB-04. Duplica con ENE-18 el registro abierto de puntos de carga y cita un DS no verificable.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "El 'Registro Nacional de Puntos de Carga en datos abiertos' con precio por kWh se promete también en ENE-18 ('mapa abierto de puntos de carga y su precio', misma etapa 2031-2036, mismo OSINERGMIN). Dos acciones, un registro.",
+        "correccion": "Dejar el registro de puntos de carga en una sola acción (ENE-18, que lleva la red de carga) y que DIG-23 lo cite en depende_de; DIG-23 se queda con garantías de origen, potencia firme y registro de centros de datos.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "por_que_ley",
+        "problema": "Se cita 'DS 036-2023-EM' como reglamento del mercado eléctrico; no pude verificar su existencia ni objeto.",
+        "correccion": "Verificar en gob.pe/minem; si no se confirma, citar 'reglamentos del mercado eléctrico (Ley 28832 y normas del MINEM)'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "DIG-24",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Meta de I+D con medición Frascati: instrumentos correctos (DS CONCYTEC, MMM, DGPP, INEI). Sin componente digital que observar.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-25",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "PerúSAT-2: proyecto de inversión en Invierte.pe, depende de DIG-06 (CON-08) y DIG-20 (catálogo). Costo 'no estimado' es honesto. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "DIG-26",
+    "archivo": "data/sectores/digital.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Conectividad significativa: correcta como cartera de largo plazo. Le falta la métrica de 'significativa' y el subsidio a la demanda necesita un canal concreto.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "indicador",
+        "problema": "El indicador mide solo hogares con internet; 'conectividad significativa' (CON-01) exige velocidad, dispositivo, uso diario y habilidades. El módulo TIC de la ENAHO ya mide uso diario, dispositivo y frecuencia.",
+        "correccion": "Añadir un segundo indicador: '% de población de 6+ años que usa internet a diario desde un dispositivo propio (ENAHO-TIC)' con meta por etapa.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "financiamiento",
+        "problema": "El 'subsidio a la demanda focalizado en hogares pobres' no dice por qué canal se paga; el registro social (PRO-01) y Cuenta DNI del Banco de la Nación ya permiten pagarlo sin crear padrón nuevo.",
+        "correccion": "Añadir: 'el subsidio se focaliza con el registro social de PRO-01 y se paga por Cuenta DNI'; agregar 'PRO-01' en el texto.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "ECP-01",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech ECO-16: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-02",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Atlas de complejidad en datos abiertos: correcto; DIG-13 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-03",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech ECO-16: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-04",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-09: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-05",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-01: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-06",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-01: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-07",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-08",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-09",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-10",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-11",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-02: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-12",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-13",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Sistema logístico Chancay-Callao: el Port Community System debe ser el componente portuario de la VUCE (DIG-07, GOB-20), no una plataforma nueva del MTC.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se promete 'un Port Community System que integre a navieras, aduanas, SENASA y transportistas' por DS; DIG-07 obliga a los terminales a transmitir sus eventos por la VUCE (Ley 30860, componente portuario) y GOB-20 lo hace obligatorio por ley. Si el MTC construye un PCS aparte, habrá dos ventanillas para el mismo evento logístico.",
+        "correccion": "Redactar: 'el Port Community System es el componente portuario de la VUCE (MINCETUR-SUNAT), cuya obligatoriedad fija DIG-07; el MTC y la APN aportan la capa portuaria'; añadir MINCETUR a entidades y 'DIG-07' a depende_de.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "ECP-14",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-15",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-16",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Exportación de servicios digitales: la ventanilla de acreditación va en la VUCE/SUNAT existentes; ECO-12 y DIG-15 pertinentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-17",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-18",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Trazabilidad georreferenciada de bioeconomía: debe usar la misma plataforma que AGR-22 (ya depende de DIG-21 y ECP-21). Sin hallazgos adicionales; ver AGR-22 sobre datos del productor.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-19",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Plantaciones forestales con registro en línea: el Registro Nacional de Plantaciones Forestales ya existe (Ley 29763) y se inscribe ante las autoridades regionales con aprobación automática; lo nuevo es hacerlo nacional y en línea.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "entrega",
+        "problema": "'Registro de plantaciones 100 % digital y automático' se presenta como nuevo; el RNPF existe, la inscripción ya es de aprobación automática y sus datos se publican en el SNIFFS. Lo que falta es un único formulario en línea nacional en vez de 25 ventanillas regionales.",
+        "correccion": "Redactar: 'el Registro Nacional de Plantaciones Forestales pasa a un formulario único en línea (SNIFFS) para todas las regiones, con constancia inmediata y datos abiertos'.",
+        "fuente": "https://andina.pe/agencia/noticia-peru-cuenta-19-000-hectareas-plantaciones-forestales-registradas-por-serfor-876305.aspx"
+      }
+    ]
+  },
+  {
+    "id": "ECP-20",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-21",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-07: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-22",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech ECO-02, ECO-14, ECO-19: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-23",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech ECO-15: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-24",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Formalizar en un día: usa SID-SUNARP, RUC y planilla electrónica existentes; DIG-04 y GOB-15 pertinentes; licencia automática por Ley 28976. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-25",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-26",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-27",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ECP-28",
+    "archivo": "data/sectores/economia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-01",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-06: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-02",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-03",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-04",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-05",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-06",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-07",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-08",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-09",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-10",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech CON-15: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-11",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Conectividad escolar como uso pedagógico del contrato DIG-17: meta única alineada; CON-13 y CON-15 pertinentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-12",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Fondo de mantenimiento con rendición por app: PRONIED ya opera un aplicativo de mantenimiento; la acción solo lo simplifica. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-13",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-14",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Alerta temprana de deserción con SIAGIE: útil y sobre el sistema existente. Perfila a menores con un algoritmo y la protección de datos queda solo como riesgo.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Marcar a cada estudiante con riesgo de abandono (incluido embarazo y trabajo) es un perfilamiento de menores con datos sensibles. La Ley 29733 y el DS 016-2024-JUS exigen evaluación de impacto y la Agenda Tech (IA-01) exige registrar el algoritmo. La acción debe fijar quién ve la alerta, que no se use para sancionar y que la familia pueda conocerla.",
+        "correccion": "Añadir: 'el módulo se inscribe en el Registro de Algoritmos Públicos (DIG-04) con evaluación de impacto ante la ANPD; la alerta la ve solo el tutor y la UGEL, no se comparte fuera del sistema educativo ni se usa para condicionar matrícula; la familia es informada'. Agregar ANPD a entidades.",
+        "fuente": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
+      }
+    ]
+  },
+  {
+    "id": "EDU-15",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-16",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-17",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Directores con menos reportes: el inventario de reportes y su sustitución por SIAGIE y Censo Educativo es la aplicación del principio 'solo una vez'. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-18",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Plataforma nacional de trámites docentes: debe usar Casilla Única Electrónica y Mesa de Partes Digital; no es un hallazgo que exija cambiar el texto. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-19",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-20",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-21",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-22",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-23",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Pensamiento computacional e IA en la escuela: bien planteado (incluso sin computadora). Falta la regla de datos de menores en plataformas educativas, que el propio riesgo señala.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Dependencia de plataformas privadas sin resguardo de datos de menores' es el riesgo declarado, pero la acción no fija la regla: toda plataforma educativa que trate datos de estudiantes debe tener evaluación de impacto, contrato con prohibición de uso comercial de datos y portabilidad (IA-14, CIB-10, TAL-14).",
+        "correccion": "Añadir: 'el MINEDU aprueba condiciones mínimas para plataformas educativas (prohibición de publicidad y de uso secundario de datos de menores, datos alojados bajo control del Estado, salida y portabilidad) y prefiere software público (DIG-12)'. Agregar 'CIB-10' y 'DIG-12' a depende_de y ANPD a entidades.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "EDU-24",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Evaluaciones y datos abiertos por escuela: ESCALE y SICRECE existentes; bases anonimizadas previstas. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-25",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-13: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-26",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "EBA modular 'por celular': correcta la mezcla semipresencial; TAL-02 y TAL-16 pertinentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-27",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-16: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EDU-28",
+    "archivo": "data/sectores/educacion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-01",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-02",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-09: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-03",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-04",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-05",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-06",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Rondas con datos geológicos abiertos: correcto. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-07",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-08",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-09",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-10",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-11",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-12",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Gobierno corporativo de Petroperú: sin componente digital. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-13",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-14",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech CON-15: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-15",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-16",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-17",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-18",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Red de carga: debe ser la dueña del registro abierto de puntos de carga y citar SOB-04, que es la propuesta tech que lo regula.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "DIG-23 promete el mismo 'Registro Nacional de Puntos de Carga en datos abiertos' con precio por kWh (misma etapa, mismo OSINERGMIN). La propuesta tech que regula interoperabilidad de pagos y conectores y acceso abierto a la carga es SOB-04, no citada.",
+        "correccion": "Agregar 'SOB-04' a depende_de y en que: 'ENE-18 es la dueña del registro abierto de puntos de carga; DIG-23 lo cita'. Pedir al dueño de digital.json ajustar DIG-23.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "ENE-19",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-20",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-01: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-21",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-22",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Medición inteligente: un millón de medidores inteligentes es un sistema de datos personales y un activo crítico; la acción no dice nada de datos ni de ciberseguridad.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Los datos de consumo horario revelan hábitos del hogar (datos personales, Ley 29733) y los medidores conectados son parte de un servicio esencial que DIG-02 obliga a proteger. Sin reglas, cada distribuidora comprará medidores con protocolos cerrados y datos en manos del proveedor.",
+        "correccion": "Añadir: 'OSINERGMIN fija el estándar abierto de medición inteligente, la propiedad de los datos por el usuario con acceso por Carpeta Ciudadana, retención máxima y requisitos de ciberseguridad (DIG-02, CIB-07)'. Agregar 'DIG-02' a depende_de y ANPD a entidades.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "ENE-23",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-24",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "ENE-25",
+    "archivo": "data/sectores/energia.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-01",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Mapa de duplicidades: buen diseño. El inventario de entidades ya existe parcialmente en el Registro Unificado de Entidades del Estado (RUEEP) de la PCM-SGP y debería ser la base.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "El 'inventario público de todas las entidades' se construye desde cero; la PCM-SGP administra el Registro Unificado de Entidades del Estado Peruano (RUEEP) y el MEF el clasificador de pliegos y programas presupuestales. Partir de ellos evita otro registro paralelo.",
+        "correccion": "Redactar: 'se amplía el RUEEP de la PCM-SGP con los campos de programa, fondo, población objetivo y resultados, enlazado al clasificador del MEF, y se publica en datosabiertos.gob.pe'.",
+        "fuente": "https://www.datosabiertos.gob.pe"
+      }
+    ]
+  },
+  {
+    "id": "EST-02",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-03",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-04",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-05",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-06",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-07",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-08",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-09",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-10",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-11",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-12",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-13",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-14",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Contrataciones abiertas: usa el estándar OCDS y el portal de contrataciones abiertas del OECE que ya existen; GOB-05 y DIG-13 citados correctamente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-15",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-16",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Integridad: se apoya en la Plataforma Digital Única de Denuncias existente y en GOB-12. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-17",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Plataforma anticorrupción: útil, pero cruza datos personales de funcionarios (DNI, sanciones, aportes) y debe decir su base legal y cómo evita falsos positivos públicos.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se publica una plataforma que une planillas, sanciones y declaraciones 'con DNI de funcionarios'. El DNI es dato personal (Ley 29733); la Ley 27806 habilita publicar nombre, cargo y remuneración, no el número de DNI, y las sanciones penales tienen reglas propias de publicidad. El riesgo 'errores de cruce que dañen a personas inocentes' se reconoce pero no se mitiga.",
+        "correccion": "Redactar: 'los cruces se hacen internamente con DNI y RUC; la publicación muestra nombre, cargo y entidad, nunca el número de DNI; los hallazgos se validan antes de publicarse y hay vía de rectificación en 10 días (Ley 29733, art. 20)'. Mantener ANPD en entidades y añadir que la plataforma se registra en el Registro de Algoritmos (DIG-04) si usa puntuación automatizada de riesgo.",
+        "fuente": "https://www.gob.pe/anpd"
+      }
+    ]
+  },
+  {
+    "id": "EST-18",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-19",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-22: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-20",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Mancomunidades: el expediente digital puede ir por Mesa de Partes Digital; GOB-19 pertinente. Sin hallazgos que valga corregir.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-21",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Calidad regulatoria subnacional: constancia de silencio positivo en GOB.PE vía DIG-04; GOB-15 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-22",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-18: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-23",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-24",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-25",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Tablero de metas por entidad: usa SIAF, INFObras y OECE existentes; GOB-17 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-26",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Integración de sistemas administrativos: es la acción correcta, pero llega tarde (2036-2046) y parte de identificadores que ya existen.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "etapa",
+        "problema": "El identificador único por inversión ya existe (CUI de Invierte.pe) y por proveedor (RUC) y servidor (DNI); el SIAF-RP y el SEACE ya intercambian datos. Lo que falta es obligar a los rectores a usar esos identificadores en todos los sistemas, y eso no requiere esperar a 2036.",
+        "correccion": "Adelantar a 2031-2036 al menos la fase 1 (CUI, RUC y DNI como claves obligatorias en Invierte.pe, SIAF, SEACE, INFObras y AIRHSP, por directiva conjunta de los rectores) y dejar para 2036-2046 la carga única municipal; citar GOB-01 como norma habilitante en por_que_ley.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "EST-27",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "EST-28",
+    "archivo": "data/sectores/estado.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-01",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-02",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-03",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Registro de compromisos sociales: útil y coherente con GOB-21 y DIG-13. Usa una sigla desactualizada.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "entidades",
+        "problema": "Figura 'SEGDI' (Secretaría de Gobierno Digital), denominación reemplazada por 'Secretaría de Gobierno y Transformación Digital' (PCM-SGTD), sigla que usan los demás sectores.",
+        "correccion": "Reemplazar 'SEGDI' por 'PCM-SGTD' en entidades.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "MIN-04",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-05",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-06",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Trazabilidad del oro: la acción única correcta. Debe construirse sobre el RECPO del MINEM y la factura electrónica, no sobre un registro nuevo, y fijar la base legal del dato de ubicación del productor.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Ya existe el Registro Especial de Comercializadores y Procesadores de Oro (RECPO, RM 249-2012-MEM/DM y DS 012-2012-EM; administrado por la DGFM del MINEM, con reporte mensual obligatorio de compras desde el DS 018-2018-EM). La acción crea 'un sistema digital de trazabilidad' sin nombrarlo; el sistema nuevo debe absorber al RECPO y cruzarlo con comprobantes electrónicos de SUNAT y guías de remisión electrónicas, que ya existen.",
+        "correccion": "Redactar: 'el sistema integra el RECPO (MINEM) con la factura y guía de remisión electrónicas (SUNAT) y las declaraciones de producción (DAC/ESTAMIN), de modo que cada lote tenga origen, planta y comprador; no se crea un registro paralelo'. Añadir 'RECPO' en entrega.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1672838-8"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Cada productor formal declara su producción con ubicación' trata datos personales de mineros artesanales (persona natural, geolocalización); los 'datos agregados abiertos' están bien, pero falta la regla de reserva del dato individual.",
+        "correccion": "Añadir: 'el dato individual de ubicación y producción es reservado (Ley 29733, reserva tributaria) y solo se publican agregados por distrito'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "MIN-07",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Control de insumos y registro de dragas con geolocalización: usa registros de bienes fiscalizados (DL 1126) y SUCAMEC existentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-08",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-09",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-10",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-11",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-12",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Ventanilla digital única minera: el SENACE ya opera la plataforma EVA (Ventanilla Única de Certificación Ambiental, DS 008-2018-MINAM, interoperable por la PIDE); la acción debe ampliarla, no reemplazarla. Usa la sigla 'SEGDI'.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Todos los permisos se tramitan en una sola plataforma digital con expediente compartido' se presenta como nueva. La plataforma EVA del SENACE ya tramita la certificación ambiental con casilla electrónica y opiniones de ANA, SERNANP y otros por la PIDE. Lo que falta es incorporar agua (ANA), arqueología (CIRA del MINCUL) e inicio de actividades (MINEM) a esa misma ventanilla.",
+        "correccion": "Redactar: 'se amplía la plataforma EVA del SENACE a ventanilla única del proyecto minero: ANA, MINCUL (CIRA), MINEM y SERNANP opinan en paralelo en el mismo expediente por la PIDE; cada entidad publica sus plazos reales'.",
+        "fuente": "https://www.gob.pe/9201-acceder-aventanilla-unica-de-certificacion-ambiental-eva"
+      },
+      {
+        "severidad": "baja",
+        "campo": "entidades",
+        "problema": "Figura 'SEGDI', denominación reemplazada por PCM-SGTD.",
+        "correccion": "Reemplazar 'SEGDI' por 'PCM-SGTD'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "MIN-13",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "SENACE con líneas de base y EIA en datos abiertos y en lenguas: correcto; DIG-21 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-14",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Plataforma de superposiciones sobre GEOCATMIN: usa el visor existente del INGEMMET. Ver AGR-17 sobre GeoPerú como base común. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-15",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-16",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-22: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-17",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-22: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-18",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-19",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-20",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Fiscalización con datos en tiempo real: duplica la plataforma del OEFA prometida en AMB-24 y DIG-21.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'La mediana y gran minería transmite en tiempo real al OEFA' con 'portal público de datos al 2029' es la misma entrega de AMB-24 (todos los sectores) y de DIG-21. MIN-20 debería quedarse con lo específico de minería (inspección por riesgo, relaves con sensores de OSINERGMIN, monitoreo participativo) y usar la plataforma de AMB-24.",
+        "correccion": "Agregar 'AMB-24' a depende_de y redactar: 'usa la plataforma de monitoreo en línea del OEFA (AMB-24); esta acción añade el monitoreo de relaves por OSINERGMIN y la inspección por riesgo'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "MIN-21",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-22",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-01: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-23",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Mapa geológico en datos abiertos vía GEOCATMIN: correcto. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-24",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-25",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "MIN-26",
+    "archivo": "data/sectores/mineria.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech SOB-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-01",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Registro social con datos administrativos: es la acción digital más sensible del sector (cruza RENIEC, SUNAT, planillas, SIS, consumo eléctrico, vehículos de todos los hogares) y su protección de datos está solo en el riesgo, no en el diseño.",
+    "hallazgos": [
+      {
+        "severidad": "alta",
+        "campo": "que",
+        "problema": "Clasificar de oficio a millones de hogares cruzando consumo eléctrico, propiedad vehicular, planillas y SIS es un tratamiento masivo con decisiones automatizadas que afectan derechos (acceso a programas). La Ley 29733 exige base legal, finalidad y derecho a no ser objeto de decisiones solo automatizadas; el DS 016-2024-JUS exige evaluación de impacto. La acción no dice la base legal del cruce (la Ley 30435 del SINAFO y el DL 1246 la dan parcialmente), ni cómo se explica y revisa la clasificación, ni registra el algoritmo (IA-01/DIG-04). Sin eso, el registro es impugnable y repite el riesgo de 2020.",
+        "correccion": "Añadir en que: 'El cruce se sustenta en la Ley 30435 (SINAFO) y el DL 1246, con evaluación de impacto aprobada por la ANPD antes de operar; la clasificación automatizada es explicable (variables y pesos públicos), revisable por una persona en 15 días hábiles y se inscribe en el Registro de Algoritmos Públicos (DIG-04); los datos de consumo eléctrico y vehículos se usan solo como indicadores agregados y se minimizan'. Agregar ANPD a entidades y 'DIG-01' a depende_de.",
+        "fuente": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Cada persona puede ver en línea su clasificación': ese acceso debe ir por Carpeta Ciudadana con ID GOB.PE, no por un portal propio del MIDIS, y con canal presencial o por SMS para hogares sin internet (27 % rural).",
+        "correccion": "Redactar: 'consulta su clasificación en Carpeta Ciudadana (ID GOB.PE), en la ULE de su municipio o por SMS'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "PRO-02",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "ULE con tabletas y georreferencia: complementa a PRO-01 donde no hay datos administrativos; pago por calidad. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-03",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Juntos con pago digital: el canal natural es Cuenta DNI del Banco de la Nación (Ley 31120), ya masivo; BN está en entidades. Sin hallazgos que valga corregir.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-04",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Padrón único de pensiones no contributivas con pago digital: fusión administrativa correcta; usar Cuenta DNI. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-05",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-06",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-07",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-08",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-09",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-10",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-11",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-12",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech DER-07: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-13",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Registro único de violencia: necesario y con base en la Ley 30364. Trata datos sensibles de víctimas y falta la ANPD, la regla de acceso y la trazabilidad por persona.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Datos de víctimas de violencia son de riesgo vital si se filtran (el riesgo lo reconoce). Faltan: evaluación de impacto, acceso por rol con registro de cada consulta, prohibición de descarga masiva, y que el identificador sea el DNI por ID GOB.PE para evitar duplicados. DER-07 (violencia digital) debería citarse para las medidas de protección en línea.",
+        "correccion": "Añadir: 'evaluación de impacto y registro ante la ANPD; acceso por rol con bitácora de cada consulta auditada por el MIMP; sin descarga masiva; interoperabilidad por la PIDE con identificación por DNI'. Agregar ANPD a entidades y 'DER-07' a depende_de.",
+        "fuente": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
+      }
+    ]
+  },
+  {
+    "id": "PRO-14",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Certificación de discapacidad con inscripción de oficio: interoperabilidad MINSA-CONADIS por la PIDE; TAL-13 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-15",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-02: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-16",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Pagos de emergencia escalables: usa registro social, Padrón de Productores y cuentas con DNI (Cuenta DNI) existentes; DIG-20 pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-17",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Intérpretes y PIAS: GOB-23 pertinente para interpretación remota. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-18",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-19",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Regularización migratoria: TAL-15 pertinente para reconocimiento de títulos. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-20",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-21",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Afiliación con aportes digitales: usa boleta electrónica y billeteras existentes; DIG-09 y ECO-11 citados. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "PRO-22",
+    "archivo": "data/sectores/proteccion.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-01",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Equipos de salud con padrón nominal: usa DNI y HIS/HCE existentes; depende de SAL-24 y TAL-06. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-02",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-03",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech CON-13, CON-15: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-04",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-05",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-06",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-07",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Liquidación electrónica entre IAFAS vía SUSALUD: depende de SAL-24 y TAL-06. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-08",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-09",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Pago capitado verificado con HCE: depende correctamente de SAL-24. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-10",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-11",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-12",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-07: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-13",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-14",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Compra nacional de medicamentos: el 'sistema de trazabilidad por código' debe partir del SISMED que ya registra stock en establecimientos y usar un estándar de identificación.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se promete 'un sistema de trazabilidad por código que muestra stock en tiempo real' sin nombrar el SISMED (sistema de suministro de medicamentos del MINSA que ya reporta stock) ni el estándar de identificación. Un sistema nuevo repetiría el registro que hoy hacen las farmacias de los establecimientos.",
+        "correccion": "Redactar: 'se moderniza el SISMED (portal_sismed del MINSA, Directiva 249-MINSA-2018-DIGEMID) para capturar stock en tiempo real por establecimiento con identificación estándar de productos (código único de DIGEMID y GS1) y se publica el tablero abierto'; añadir DIGEMID y PCM-SGTD a entidades.",
+        "fuente": "https://appsalud.minsa.gob.pe/portal_sismed"
+      }
+    ]
+  },
+  {
+    "id": "SAL-15",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Registro sanitario con reliance y observatorio de precios en datos abiertos: correcto. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-16",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Receta electrónica por DCI y farmacias adheridas: falta la dependencia con DIG-19, que construye el servicio nacional de validación de recetas.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "'Toda receta se emite por DCI en receta electrónica' y 'la farmacia privada cobra al seguro' requieren el servicio de validación de recetas con QR firmado que DIG-19 entrega; SAL-16 depende de TAL-07 (la ley) pero no de DIG-19 (la infraestructura).",
+        "correccion": "Agregar 'DIG-19' a depende_de y en que: 'la farmacia valida la receta en el servicio nacional de DIG-19, también sin conexión'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SAL-17",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-18",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-19",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "HEARTS con registro nominal en HCE: depende de SAL-24. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-20",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-21",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-22",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Vigilancia clima-salud: la sala situacional del CDC existe; depende de SAL-24 y usa alertas del SENAMHI. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-23",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-24",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Historia clínica electrónica y telesalud: la acción central de salud digital. La frase 'la seguridad de los datos sigue estándares nacionales de ciberseguridad' es insuficiente para el tratamiento de datos de salud más masivo del Estado.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Datos de salud son sensibles (Ley 29733, art. 2.5). La acción no menciona evaluación de impacto en protección de datos, minimización, consentimiento para interoperar con privados ni auditoría de accesos, y la ANPD no está en entidades. SEG-10, con datos menos sensibles, sí lo detalla.",
+        "correccion": "Añadir en que: 'antes del despliegue el MINSA aprueba la evaluación de impacto en protección de datos (DS 016-2024-JUS), registra el banco de datos en la ANPD, fija minimización y bitácora de accesos visible al paciente en Carpeta Ciudadana, y cifra los datos en reposo y en tránsito; el intercambio con privados requiere consentimiento o habilitación legal (Ley 30024)'. Agregar ANPD y CNSD a entidades y 'DIG-01', 'DIG-02' a depende_de.",
+        "fuente": "https://www3.congreso.gob.pe/Docs/DGP/DIDP/files/ds_016-2024-jus.pdf"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "El acceso del paciente 'desde el celular' y la telesalud en postas rurales asumen conectividad y dispositivo; el propio riesgo lo admite. Faltan el modo sin conexión (registro local con sincronización) y el canal por voz/SMS para quien no tiene smartphone (GOB-09).",
+        "correccion": "Añadir: 'el SIHCE opera sin conexión con sincronización diferida en establecimientos sin internet estable; el paciente puede recibir citas y resultados por SMS o llamada; se mide la brecha por área y lengua'. Agregar 'DIG-17' a depende_de (conectividad de postas).",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "por_que_ley",
+        "problema": "La RM 553-2025/MINSA (uso obligatorio del SIHCE en el primer nivel, agosto de 2025) está bien citada; conviene añadir la RM 164-2025/MINSA (acreditación de sistemas de HCE), que es la que permite interoperar con EsSalud y privados, y la RM 647-2026/MINSA de implementación.",
+        "correccion": "Citar en por_que_ley: 'RM 164-2025/MINSA (acreditación de sistemas de HCE), RM 553-2025/MINSA y RM 647-2026/MINSA'.",
+        "fuente": "https://www.gob.pe/institucion/minsa/normas-legales/7098166-553-2025-minsa"
+      }
+    ]
+  },
+  {
+    "id": "SAL-25",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-23: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "SAL-26",
+    "archivo": "data/sectores/salud.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Agencia de evaluación de tecnologías sanitarias: IA-08 pertinente para IA clínica. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-01",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Puntos calientes con GPS: gestión operativa sobre datos existentes (105, SINADEF, denuncias); la revisión 1 ya corrigió la georreferenciación. Sin hallazgos digitales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-02",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-03",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-04",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Laboratorio de criminalística digital: obra correcta y con base en la Ley 32595. Es la obra que DIG-08 necesita y debería decirlo; el riesgo de lock-in se menciona pero sin regla.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "El riesgo 'que se licite sin estándares abiertos y quede cautivo de un proveedor' es real en forense digital y balística (formatos propietarios). La acción no fija la regla que DIG-12 ya propone (portabilidad de datos, formatos abiertos, salida del contrato).",
+        "correccion": "Añadir en que: 'las bases exigen formatos de evidencia abiertos o documentados, exportación completa de datos y cláusulas de salida (DIG-12)'; agregar 'DIG-12' a depende_de y 'DIG-08' como acción que se apoya en esta obra.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "El Banco de Datos de Perfiles Genéticos trata datos sensibles (genéticos); se mencionan cadena de custodia y control judicial, pero no la ANPD ni la evaluación de impacto del DS 016-2024-JUS.",
+        "correccion": "Añadir 'evaluación de impacto en protección de datos y registro del banco ante la ANPD antes de operar' y ANPD en entidades.",
+        "fuente": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/"
+      }
+    ]
+  },
+  {
+    "id": "SEG-05",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-06",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-07",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Cámaras corporales con protocolo de datos por DS y custodia externa: bien resuelto en la revisión 1. Sin hallazgos adicionales.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-08",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Comisarías conectadas y denuncia digital: la Ley 32332 (mayo de 2025) existe y crea la plataforma Denuncia Digital; coordinación con DIG-17 correcta. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-09",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-10",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Central única de emergencias y videovigilancia: la mejor acción del sector en protección de datos. Debe citar que el reglamento de la Ley 31814 ya prohíbe la identificación biométrica remota en tiempo real en espacios públicos, y fijar la interoperabilidad de cámaras con estándar abierto.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "por_que_ley",
+        "problema": "Dice que la identificación biométrica remota en tiempo real 'requeriría ley con control judicial'. El Reglamento de la Ley 31814 (DS 115-2025-PCM, art. 23.1) ya la prohíbe en espacios públicos con excepciones tasadas; conviene citarlo porque fortalece la salvaguarda y porque las excepciones del reglamento son las que una eventual ley debería respetar.",
+        "correccion": "Redactar: 'La identificación biométrica remota en tiempo real en espacios públicos está prohibida por el Reglamento de la Ley 31814 (DS 115-2025-PCM, art. 23.1) salvo excepciones tasadas; esta acción no la usa y cualquier excepción requeriría ley con control judicial'.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2436426-1"
+      },
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Cada municipio compre sistemas incompatibles' es el riesgo declarado, pero no se fija el estándar de interoperabilidad de video (p. ej. ONVIF) ni se dice que el software de la central sea público o con código entregado (DIG-12), lo que llevaría a 25 centrales regionales con 25 proveedores.",
+        "correccion": "Añadir en que: 'la PCM-SGTD y el MININTER aprueban el estándar técnico de interoperabilidad de cámaras y despacho (formatos abiertos) y el software de la central se contrata con entrega de código y cláusulas de salida (DIG-12), para replicarlo en las regiones'; agregar 'DIG-12' a depende_de y PCM-SGTD a entidades.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SEG-11",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-12",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Inteligencia financiera contra extorsión: usa UIF, SUNAT y billeteras existentes; DIG-05 (antifraude, registro de remitentes) pertinente. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-13",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-14",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-15",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-16",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Bloqueo en penales: ejecución y auditoría bien planteadas. La dependencia CIB-06 es poco pertinente.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "CIB-06 trata la suplantación de identificadores telefónicos y mensajes fraudulentos; no es prerrequisito del bloqueo de señal en penales (que tiene base en DL 1338 y DL 1688). Se cita como dependencia sin serlo.",
+        "correccion": "Quitar CIB-06 de depende_de (o moverlo a una mención en el texto como medida complementaria contra llamadas extorsivas con número falso).",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SEG-17",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-18",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Vigilancia electrónica: correcta. El grillete trata geolocalización continua (dato sensible por su naturaleza) y la acción no dice quién custodia esos datos ni por cuánto tiempo.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "La vigilancia electrónica genera un rastro de ubicación permanente de la persona; faltan reglas de retención, acceso y protección (Ley 29733) y la cláusula de propiedad de los datos frente al proveedor del servicio.",
+        "correccion": "Añadir: 'los datos de ubicación son del INPE, se conservan solo durante la medida más el plazo legal, el proveedor no puede usarlos para otros fines y el acceso queda registrado (Ley 29733)'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SEG-19",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-20",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Expediente judicial electrónico y flagrancia: instrumento correcto. Falta DER-01 (garantías de audiencias virtuales y acceso al EJE), que es la propuesta tech específica, y la regla de interoperabilidad PJ-MP-PNP.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "depende_de",
+        "problema": "Las 'audiencias de trámite virtuales con garantías' y el acceso al expediente electrónico tienen propuesta propia en la Agenda Tech (DER-01) que no se cita; se citan DIG-04 y GOB-02, que son del procedimiento administrativo, no del judicial.",
+        "correccion": "Agregar 'DER-01' a depende_de; en por_que_ley aclarar que las garantías de audiencias virtuales se fijan por ley (DER-01) y el despliegue por resoluciones del Consejo Ejecutivo del PJ.",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Una denuncia viaja sin papel de la comisaría al juzgado' exige un identificador único de caso compartido por PNP, MP y PJ; SEG-26 lo crea para estadística, pero SEG-20 no lo menciona para el expediente.",
+        "correccion": "Añadir: 'el identificador único de caso de SEG-26 se usa en el registro policial, la carpeta fiscal y el EJE' y 'SEG-26' en el texto.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SEG-21",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-22",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-23",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-24",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-25",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-26",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Estadística criminal unificada en datos abiertos: IA-04 y DIG-13 pertinentes; anonimización prevista; INEI audita. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "SEG-27",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Registro biométrico de migrantes: MIGRACIONES ya emite carné de extranjería con biometría; la acción debe decir que completa ese registro y no crear otro, y la dependencia CIB-08 es débil.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "CIB-08 regula el DNI digital y la billetera de identidad para personas identificadas por RENIEC; el registro biométrico de extranjeros es de MIGRACIONES (carné de extranjería) y no depende de esa ley.",
+        "correccion": "Quitar CIB-08 de depende_de o justificar en el texto (p. ej., si se busca que el carné de extranjería digital use la misma billetera de identidad).",
+        "fuente": "no verificable"
+      },
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "Los datos biométricos son sensibles (Ley 29733); se cita la ley pero no la evaluación de impacto ni la finalidad limitada del intercambio con otros países.",
+        "correccion": "Añadir: 'con evaluación de impacto en protección de datos, finalidad limitada a identificación y antecedentes, y acuerdos de intercambio con cláusulas de protección equivalente (DS 016-2024-JUS)'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "SEG-28",
+    "archivo": "data/sectores/seguridad.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-01",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-02",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-03",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-04",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Inventario vial georreferenciado: correcto. La dependencia DIG-22 (datos de transporte público urbano) no es pertinente.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "depende_de",
+        "problema": "DIG-22 publica GTFS del transporte público urbano y abre el recaudo; no es prerrequisito del inventario de carreteras. Las dependencias tech pertinentes son GOB-07 (catastro y gemelos digitales) o IA-04 (datos abiertos por defecto).",
+        "correccion": "Reemplazar 'DIG-22' por 'DIG-13' (datos abiertos) o 'GOB-07' en depende_de; publicar el inventario en GeoPerú.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "TRA-05",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-06",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-07",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Licencias con registro único de infracciones: el MTC ya administra el Registro Nacional de Sanciones y el Sistema Nacional de Conductores; la acción debe decir que los completa.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "'Las papeletas alimentan en línea un solo registro' describe el Registro Nacional de Sanciones del MTC que ya existe (y al que muchas municipalidades no reportan). El problema es cumplimiento, no falta de registro.",
+        "correccion": "Redactar: 'todas las municipalidades, la ATU, la SUTRAN y la PNP cargan sus papeletas en el Registro Nacional de Sanciones del MTC en 24 horas, con interoperabilidad por la PIDE y suspensión automática de la licencia en el Sistema Nacional de Conductores'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "TRA-08",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Fiscalización con cámaras y papeletas en línea: la notificación debe usar la Casilla Única Electrónica y las cámaras necesitan regla de datos.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "'Las papeletas se notifican en una casilla electrónica' debe ser la Casilla Única Electrónica del Estado (DS 029-2021-PCM, rango de ley en DIG-04/GOB-02), no una casilla propia de cada municipalidad o de la SUTRAN; de lo contrario el conductor tendrá 196 casillas. Las cámaras de velocidad y el GPS obligatorio de buses y camiones tratan datos personales (placas, ubicación) sin regla de retención.",
+        "correccion": "Redactar: 'notificación en la Casilla Única Electrónica (DIG-04); imágenes y datos GPS con retención máxima y acceso registrado (Ley 29733); cruce con SUNARP, SOAT (APESEG) y revisión técnica por la PIDE'. Agregar 'DIG-04' a depende_de y ANPD a entidades.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1929103-3"
+      }
+    ]
+  },
+  {
+    "id": "TRA-09",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-10",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Contratos por kilómetro con recaudo abierto y datos en tiempo real: TAL-11, GOB-11 y DIG-22 pertinentes. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-11",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-12",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Colectivos como alimentadores con GPS y cámaras (TRA-08): sin plataforma nueva. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-13",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-14",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-15",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-16",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-17",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-18",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Accesos y antepuertos con citas digitales: la interoperabilidad portuaria remitida a GOB-20 y ECP-13 (ver ECP-13 sobre la VUCE). Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-19",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-21: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-20",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-21",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-22",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-23",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-24",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Simplificación del RNAT con trámites digitales y datos que el Estado ya tiene (SUNARP, SUNAT, RENIEC): aplica 'solo una vez' vía PIDE. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-25",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "TRA-26",
+    "archivo": "data/sectores/transporte.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-01",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Déficit habitacional por distrito en tablero abierto: IA-04 pertinente; usa ENAHO y Censos 2025. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-02",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-03",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-04",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-05",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-06",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-07: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-07",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Catastro urbano multipropósito: correcto (Ley 28294, código único, SUNARP). Es la acción natural para fijar la base geoespacial común de todos los catastros.",
+    "hallazgos": [
+      {
+        "severidad": "baja",
+        "campo": "que",
+        "problema": "AGR-17 (rural), AMB-02 (forestal), MIN-14 (minero) y VIV-07 (urbano) prometen catastros 'interoperables' entre sí, pero ninguno nombra la base común: la Infraestructura de Datos Espaciales del Perú (GeoPerú) y el código único catastral del SNCP. Sin eso, serán cuatro visores.",
+        "correccion": "Añadir: 'el catastro se publica en GeoPerú con el código único catastral del SNCP, que es la capa de referencia para los catastros rural (AGR-17), forestal (AMB-02) y minero (MIN-14)'.",
+        "fuente": "no verificable"
+      }
+    ]
+  },
+  {
+    "id": "VIV-08",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-09",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-10",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-11",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-12",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech TAL-10: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-13",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-14",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-15",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-16",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-17",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-18",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital propio que observar. Dependencias tech GOB-11, TAL-11: existen en la Agenda Legislativa Tech y son pertinentes.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-19",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-20",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "observaciones",
+    "resumen": "Alquiler formal con contrato digital: el registro en línea ya existe (RAV del DL 1177) y lo administra el Fondo MIVIVIENDA, no SUNARP; la acción lo omite.",
+    "hallazgos": [
+      {
+        "severidad": "media",
+        "campo": "que",
+        "problema": "Se propone 'contrato modelo registrable en línea' y se pone a SUNARP como entidad. El DL 1177 creó el Registro Administrativo de Arrendamiento para Vivienda (RAV), electrónico, a cargo del Fondo MIVIVIENDA (reglamento DS 017-2015-VIVIENDA), con el Formulario Único de Arrendamiento. El problema es que nadie lo usa, no que falte el registro.",
+        "correccion": "Redactar: 'se relanza el RAV del Fondo MIVIVIENDA (DL 1177) con firma digital gratuita (Firma Perú / DNI digital), costo cero para contratos de vivienda social y enlace opcional al Registro de Predios de SUNARP'. Agregar FMV a entidades y 'DIG-04' (firma remota gratuita) a depende_de.",
+        "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1264951-1"
+      }
+    ]
+  },
+  {
+    "id": "VIV-21",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Licencia digital con planos tipo: puede ofrecerse como servicio compartido municipal (DIG-11, GOB-08); EST-21 y GOB-02 citados. Sin hallazgos.",
+    "hallazgos": []
+  },
+  {
+    "id": "VIV-22",
+    "archivo": "data/sectores/vivienda.json",
+    "rol": "r2-gobtech",
+    "veredicto": "conforme",
+    "resumen": "Sin componente digital relevante para este rol; no cita dependencias tech. Conforme.",
+    "hallazgos": []
+  }
+]

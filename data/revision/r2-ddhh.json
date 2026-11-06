@@ -1,0 +1,3947 @@
+[
+ {
+  "id": "sector:seguridad",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El diagnóstico reconoce la violencia contra la mujer y la falta de medición rural e indígena, pero omite a varios grupos con victimización específica y no tiene ninguna meta desagregada por sexo ni por territorio rural o indígena.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.brechas",
+    "problema": "No menciona la violencia contra personas LGTBI, personas con discapacidad, defensores ambientales e indígenas asesinados en la Amazonía (Ucayali, Madre de Dios, Huánuco) ni a las personas privadas de libertad como víctimas (muertes en custodia, hacinamiento). Son grupos con victimización documentada por la Defensoría del Pueblo y la CIDH.",
+    "correccion": "Añadir al final de brechas: 'Hay víctimas que las estadísticas no muestran: personas LGTBI (la Defensoría y organizaciones civiles registran crímenes de odio sin tipificación específica), personas con discapacidad, personas privadas de libertad (muertes y violencia en custodia) y dirigentes indígenas y ambientales asesinados en Ucayali, Madre de Dios y Huánuco por economías ilegales; el Mecanismo intersectorial para la protección de personas defensoras (DS 004-2021-JUS) carece de presupuesto y presencia en campo.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "metas",
+    "problema": "Ninguna de las 8 metas se desagrega por sexo, área rural o pertenencia indígena, pese a que el diagnóstico dice que la ENAPRES no mide zonas rurales y que la violencia contra la mujer es masiva (PRO lleva feminicidios, pero SEG no mide su parte).",
+    "correccion": "Añadir una meta: 'Medidas de protección de la Ley 30364 de alto riesgo con seguimiento policial verificado | LB por verificar (2026) | 2031 100 % | 2036 100 % | 2046 100 % | 2056 100 %' y, en la meta [1], exigir que desde 2031 la ENAPRES incluya muestra rural e indígena y publique la victimización desagregada por sexo, área y lengua materna.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.causas",
+    "problema": "La causa sobre prevención débil no menciona el uso de la fuerza letal por la Policía y las FFAA en protestas (2022–2023) ni la ausencia de un registro público de personas muertas o heridas por agentes del Estado, que es condición de legitimidad de cualquier política de seguridad.",
+    "correccion": "Añadir a causas: 'Falta un registro público de uso de la fuerza (muertes y lesiones causadas por agentes del Estado) y rendición de cuentas efectiva, como pidieron la CIDH y la OACNUDH tras las protestas de 2022–2023.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-01",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-02",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La disuasión focalizada se corrigió hacia imputación individual, pero la \"lista de grupos priorizados\" y los mensajes directos a personas no condenadas necesitan reglas de presunción de inocencia, exclusión de menores y control fiscal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Comunicar a personas que serán objeto de persecución prioritaria sin imputación formal crea listas de sospechosos sin control judicial; si incluye adolescentes o se publica con nombres, vulnera la presunción de inocencia (art. 2.24.e) y el Código de Responsabilidad Penal de Adolescentes (DL 1348).",
+    "correccion": "Añadir al final de 'que': 'La lista de grupos priorizados la aprueba el fiscal coordinador, se basa en investigaciones abiertas, excluye a adolescentes (que se derivan a la justicia juvenil del DL 1348 y a SEG-22), no se publica con nombres y se revisa cada seis meses; toda persona incluida conserva su derecho a defensa y a conocer la imputación cuando se formalice.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "entrega",
+    "problema": "\"Lista de grupos priorizados\" como producto público entregable sugiere publicación de nombres.",
+    "correccion": "Reemplazar por: 'Estrategia de disuasión focalizada operando en 5 ciudades al 2028 con número de grupos priorizados (sin nombres), mensajes realizados, ofertas de salida aceptadas y resultados auditados.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-03",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-04",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El banco de perfiles genéticos de la Ley 32595 incluye a personas \"investigadas\" sin distinguir gravedad del delito; la acción debe fijar salvaguardas de retención, cancelación y acceso que la ley no detalla.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 32595 permite registrar perfiles de personas investigadas, privadas de libertad y víctimas; no fija plazos de eliminación para investigados cuyo caso se archiva o que son absueltos, ni límites a búsquedas por parentesco. Sin esas reglas, el banco se convierte en vigilancia genética de personas inocentes (art. 2.6 y 2.7; Ley 29733, datos sensibles).",
+    "correccion": "Añadir en 'que': 'El reglamento de la Ley 32595 y el protocolo del laboratorio fijan: toma de muestra a investigados solo por delitos graves y con orden judicial; eliminación automática del perfil al archivarse la investigación o absolverse a la persona; consentimiento informado y derecho de cancelación para víctimas y familiares de desaparecidos; prohibición de búsquedas por parentesco y de usos fuera de la investigación penal; auditoría anual de la Autoridad Nacional de Protección de Datos Personales con informe público.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2516162-1"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "No mide las garantías.",
+    "correccion": "Añadir: 'perfiles de investigados eliminados dentro de los 30 días del archivo o absolución (meta 100 %)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-05",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-06",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-07",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las cámaras corporales y el cruce patrimonial están bien acotados; falta el acceso de la persona grabada al video y un mecanismo externo de queja.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El protocolo prevé acceso de la defensa y la víctima pero no de la persona intervenida que no es procesada (p. ej., quien denuncia abuso en un control de carretera), ni dice quién recibe las quejas por uso de la fuerza fuera de la propia PNP.",
+    "correccion": "Añadir: 'Toda persona intervenida puede pedir copia de la grabación de su intervención en 10 días hábiles (Ley 29733, derecho de acceso); las quejas por abuso se pueden presentar también ante la Defensoría del Pueblo y la oficina de integridad del MININTER, que publican estadística trimestral por unidad.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-08",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-09",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Reasignar policías a la calle es razonable, pero la custodia de instalaciones y la seguridad de autoridades por civiles o empresas privadas requiere reglas de uso de la fuerza.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Si la custodia pasa a empresas de seguridad privada, el uso de armas y de la fuerza queda bajo la Ley 28879 y SUCAMEC, con menos control que la PNP.",
+    "correccion": "Añadir: 'Los servicios contratados para custodia se rigen por la Ley 28879, no portan armas largas ni ejercen funciones de control de personas, y se registran sus incidentes de uso de la fuerza.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-10",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-11",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen diseño de control del serenazgo; falta el canal de queja ciudadano y la capacitación en derechos humanos exigible a todos los serenos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La Ley 31297 exige capacitación, pero la acción no fija contenido mínimo (derechos humanos, trato a personas con discapacidad, población LGTBI, migrantes) ni un canal de queja fuera de la municipalidad.",
+    "correccion": "Añadir: 'Los estándares incluyen capacitación certificada en derechos humanos y uso proporcional de medios de defensa, prohibición de retener o despojar de bienes a personas en comercio ambulatorio sin acta y presencia policial, y un canal de queja con respuesta en 15 días cuyo resultado se reporta a la Defensoría del Pueblo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-12",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-13",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las salvaguardas sobre FFAA, DL 1095 y consulta previa ya se aplicaron; faltan el registro público de uso de la fuerza en los corredores, la protección de defensores y la atención a personas en situación de trata y trabajo forzoso que la interdicción encuentra.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La ocupación territorial con fuerza pública en zonas de minería ilegal es donde más riesgo hay de uso excesivo de la fuerza, detenciones arbitrarias y afectación a mineros de subsistencia (pallaqueras, comunidades). No hay previsión de registro de muertes y lesiones, ni de atención a víctimas de trata y trabajo forzoso halladas en los operativos.",
+    "correccion": "Añadir: 'Cada base reporta mensualmente a la Defensoría del Pueblo y al Ministerio Público las intervenciones con uso de la fuerza, personas detenidas, muertas o heridas, y bienes destruidos; la destrucción de maquinaria se hace con acta fiscal e inventario y distingue a mineros de subsistencia de organizaciones criminales; los operativos incorporan al protocolo de identificación de víctimas de trata (SEG-15) y a fiscales de familia para menores; los dirigentes amenazados se incorporan al Mecanismo intersectorial de protección de personas defensoras (DS 004-2021-JUS).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "Mide deforestación y homicidios, no abusos.",
+    "correccion": "Añadir: 'denuncias por uso excesivo de la fuerza o detención arbitraria en los corredores intervenidos (registro de la Defensoría)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-14",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Condicionar la titulación de tierras a \"territorios libres de coca\" convierte un derecho de propiedad en premio por conducta; el desarrollo alternativo puede condicionarse, la titulación no.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La frase \"títulos de propiedad ... condicionado a territorios libres de coca ilícita\" subordina un derecho (propiedad, art. 70; territorio comunal, art. 89) a una política antidrogas. El Convenio 169 y la jurisprudencia de la Corte IDH exigen titular territorios indígenas sin condicionamientos. Además, el uso tradicional de la hoja de coca (Ley 22095, ENACO) debe respetarse.",
+    "correccion": "Reemplazar por: 'se consolida el desarrollo alternativo integral (caminos, asistencia técnica y compras para cacao y café) en territorios que acuerden retirar la coca ilícita; la titulación individual y comunal se hace sin ese condicionamiento, respetando los derechos territoriales de comunidades nativas y campesinas y el uso tradicional de la hoja de coca registrado por ENACO.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-15",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen enfoque de no criminalización; faltan el principio de no sanción a víctimas, protocolos para niñez y acceso a regularización migratoria de víctimas extranjeras.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "No menciona que las víctimas extranjeras pueden obtener calidad migratoria humanitaria (DL 1350, art. 29.2.k) ni que las niñas, niños y adolescentes requieren albergues separados, defensa pública y procedimientos sin revictimización (Ley 28950 y su reglamento DS 009-2022-IN).",
+    "correccion": "Añadir: 'Las víctimas no son sancionadas por delitos cometidos como consecuencia de la trata, reciben la calidad migratoria humanitaria del DL 1350 cuando son extranjeras y, si son menores de edad, se atienden en albergues especializados con la Unidad de Protección Especial del MIMP, entrevista única grabada y defensa pública gratuita.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "Falta desagregación.",
+    "correccion": "Añadir: 'víctimas identificadas desagregadas por sexo, edad, nacionalidad y lengua'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-16",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El bloqueo de señal es legítimo, pero debe garantizar el derecho de las personas privadas de libertad a comunicarse con su familia y su defensa.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las Reglas Nelson Mandela (reglas 58 y 61) exigen comunicación regular con familia y abogado; bloquear la señal sin ampliar teléfonos públicos supervisados y visitas deja a los internos incomunicados y presiona el mercado ilegal de celulares.",
+    "correccion": "Añadir: 'Cada penal con bloqueo amplía los teléfonos públicos supervisados (al menos uno por cada 50 internos) y las videollamadas con familiares y defensa, con tarifa regulada, para garantizar las reglas 58 y 61 de las Reglas Nelson Mandela.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-17",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La clasificación por riesgo y los penales de máxima seguridad requieren garantías contra el aislamiento prolongado, revisión periódica y no discriminación en el instrumento.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Un \"instrumento de riesgo validado\" puede reproducir sesgos (nacionalidad, origen, antecedentes) y asignar régimen cerrado sin revisión; el régimen de máxima seguridad sin contacto familiar ha sido condenado por la Corte IDH en casos contra el Perú (Castro Castro, Lori Berenson).",
+    "correccion": "Añadir: 'La clasificación se revisa al menos cada seis meses con derecho de la persona a conocer su puntaje y recurrir; el instrumento se valida sin variables de nacionalidad, etnia ni situación migratoria y lo audita la Defensoría del Pueblo; el régimen de máxima seguridad garantiza visitas familiares, acceso a defensa, al menos dos horas diarias fuera de celda y prohíbe el aislamiento superior a 15 días (regla 44 de las Reglas Nelson Mandela).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-18",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El deshacinamiento es la medida más alineada con los derechos del sector; falta priorizar a grupos que las Reglas de Bangkok y la Corte IDH señalan.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No prioriza a mujeres gestantes o con hijos en prisión, personas adultas mayores, con discapacidad o enfermedad grave, ni a indígenas condenados por delitos relacionados con su cultura (art. 149, Convenio 169 art. 10).",
+    "correccion": "Añadir: 'Se evalúa primero a mujeres gestantes o con hijos menores de 3 años en el penal (Reglas de Bangkok), personas mayores de 65 años, con discapacidad o enfermedad terminal, y personas indígenas, para quienes el Convenio 169 (art. 10) pide sanciones distintas del encarcelamiento.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-19",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La acción acepta como \"excepcional\" el internamiento en unidades dentro de penales de adultos que habilita la Ley 32743 (num. 2.1.6.a: adolescentes por delitos graves pasan, al cumplir 18 años, a una unidad diferenciada dentro de un establecimiento penitenciario). Es una medida regresiva frente al Comité de los Derechos del Niño y debe condicionarse, no validarse; para menores de 18 el límite ya lo fijó el Tribunal Constitucional al anular la Ley 32330.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El Comité de los Derechos del Niño (Observación General 24, párr. 93) pide que quien cumple 18 años durante la medida pueda permanecer en el centro juvenil si es su interés superior; trasladarlo a un penal de adultos corta la educación y el programa socioeducativo (DL 1348). Para menores de 18, el art. 37.c de la CDN y la Sentencia 2/2026 del TC (expedientes 00008, 00012, 00014 y 00023-2025-PI/TC acumulados, que declaró fundadas en parte las demandas contra la Ley 32330 y ordenó reconducir los procesos al sistema penal juvenil) prohíben el sistema y las cárceles de adultos. Decir que la unidad en penales de adultos \"debe ser excepcional y evaluado\" no fija ninguna salvaguarda.",
+    "correccion": "Reemplazar por: 'Para adolescentes rige el Código de Responsabilidad Penal de Adolescentes (DL 1348): se prioriza el medio abierto y la continuidad educativa y se amplían los Centros Juveniles del PRONACEJ. Ningún menor de 18 años se interna en un establecimiento de adultos ni en unidades dentro de ellos (art. 37.c de la Convención sobre los Derechos del Niño; Sentencia 2/2026 del Tribunal Constitucional sobre la Ley 32330). El traslado al cumplir 18 años que permite la Ley 32743 (num. 2.1.6.a) solo procede por decisión judicial motivada, cuando no sea posible continuar en el centro juvenil, y la unidad diferenciada garantiza separación total de adultos, continuidad del programa educativo y evaluación anual publicada, conforme a la Observación General 24 del Comité de los Derechos del Niño (párr. 93).'",
+    "fuente": "https://www.tc.gob.pe/wp-content/uploads/2026/01/Informativo-Enero-2026-2.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "No mide a la población adolescente.",
+    "correccion": "Añadir: 'adolescentes en medio abierto como proporción del total con medida socioeducativa (meta creciente) y cero menores de 18 años en establecimientos de adultos'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-20",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La flagrancia resuelta \"en horas\" y las audiencias virtuales necesitan garantías de defensa efectiva, intérpretes y accesibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Los procesos inmediatos por flagrancia concentran condenas rápidas sobre personas pobres sin defensa adecuada; las audiencias virtuales sin intérprete o sin acceso para personas con discapacidad vulneran el debido proceso (art. 139.14, Ley 29735, Ley 29973).",
+    "correccion": "Añadir: 'Las unidades de flagrancia garantizan defensa pública presente desde la detención, tiempo mínimo de entrevista reservada abogado-imputado, intérprete de lengua originaria o de lengua de señas cuando corresponda (Leyes 29735 y 29535) y revisión de las prisiones preventivas dictadas en ellas; la Defensa Pública y la Defensoría publican cada año la tasa de condenas en flagrancia por tipo de delito y la proporción con defensa privada.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-21",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-22",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Programa con buenas salvaguardas de datos; conviene asegurar que la selección no estigmatice ni excluya a mujeres jóvenes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Los criterios de riesgo (detenciones previas) pueden sesgar hacia varones y estigmatizar; no hay meta de participación femenina ni protocolo contra la revelación de la condición de \"joven en riesgo\".",
+    "correccion": "Añadir: 'Al menos 40 % de cupos para mujeres jóvenes, con componentes de prevención de violencia de pareja; la participación es voluntaria, no se registra en antecedentes ni se comparte con la PNP, y la escuela no puede sancionar por participar.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-23",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La parte policial de las medidas de protección está bien definida; faltan pertinencia lingüística, accesibilidad y desagregación del indicador.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las comisarías rurales y de zonas indígenas no tienen personal que hable la lengua local ni fichas de valoración adaptadas; mujeres con discapacidad y LGTBI enfrentan barreras adicionales que la Ley 30364 reconoce.",
+    "correccion": "Añadir: 'La ficha de valoración de riesgo se aplica con intérprete en distritos con población indígena (Ley 29735) y en formatos accesibles para mujeres con discapacidad; los policías responsables reciben formación en la Ley 30364, incluido el trato a personas LGTBI y migrantes, y las comisarías rurales coordinan con las rondas campesinas y la justicia comunal sin sustituir la medida judicial.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "Sin desagregación.",
+    "correccion": "Añadir: 'desagregado por área urbana/rural, lengua materna y discapacidad de la víctima'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-24",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Preserva el rol ciudadano y municipal; sin impacto negativo en derechos.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-25",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SEG-26",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El registro único y la evaluación de decretos son valiosos; la evaluación ex post debería incluir impacto en derechos y la base de datos debe excluir identificación de víctimas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La evaluación a tres años mide efecto en delito y costo penitenciario, no efectos sobre prisión preventiva, hacinamiento, denuncias por abuso o impacto desproporcionado en jóvenes, migrantes o indígenas.",
+    "correccion": "Añadir: 'La evaluación ex post incluye un capítulo de impacto en derechos: variación de prisión preventiva, hacinamiento, denuncias por uso excesivo de la fuerza y distribución por sexo, edad, nacionalidad y lengua de las personas procesadas, con participación de la Defensoría del Pueblo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-27",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El registro biométrico universal de personas extranjeras y las expulsiones requieren salvaguardas explícitas de finalidad, no devolución, niñez y protección de datos que la acción no detalla.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Registrar biométricamente al 100 % de extranjeros y usarlo con \"inteligencia migratoria\" crea una base de datos sensible de un grupo definido por nacionalidad (art. 2.2, Ley 29733 art. 2.5). La acción no excluye a refugiados y solicitantes (Ley 27891, principio de no devolución), no menciona el interés superior del niño en expulsiones ni limita el uso policial de los datos.",
+    "correccion": "Añadir: 'El registro biométrico tiene finalidad de identificación y acceso a servicios; su uso para investigación penal requiere orden fiscal o judicial caso por caso y queda registrado; se aplica evaluación de impacto en datos personales (Ley 29733) y la base no se comparte en bloque con otros Estados. Las expulsiones respetan el principio de no devolución (Ley 27891 y Convención de 1951), no se aplican a solicitantes de refugio ni a niñas, niños y adolescentes no acompañados, consideran la unidad familiar y el interés superior del niño, y toda persona tiene derecho a defensa, intérprete y recurso con efecto suspensivo, conforme a la Corte IDH (Opinión Consultiva 21/14 y caso Familia Pacheco Tineo vs. Bolivia).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "riesgo",
+    "problema": "Correcto, pero falta el riesgo de perfilamiento.",
+    "correccion": "Añadir: 'y riesgo de que la base biométrica se use para controles masivos por nacionalidad.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SEG-28",
+  "archivo": "data/sectores/seguridad.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Cooperación internacional; verificar en su ejecución que las extradiciones respeten el principio de no entrega ante riesgo de tortura, lo que ya exige la Ley 30077 y el NCPP.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:mineria",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El diagnóstico reconoce el impacto desproporcionado en pueblos indígenas y la falta de datos por sexo; las metas no miden la salud de las personas expuestas ni el cumplimiento de la sentencia de la Corte IDH en el caso Habitantes de La Oroya vs. Perú.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "metas",
+    "problema": "No hay meta sobre población expuesta a metales pesados atendida ni sobre cumplimiento de la sentencia de la Corte IDH (La Oroya, notificada en marzo de 2024), que obliga al Estado a atención médica especializada, remediación y un sistema de monitoreo. La meta [1] (menos conflictos activos) puede premiar la contención antes que la solución.",
+    "correccion": "Añadir meta: 'Personas expuestas a metales pesados identificadas con atención especializada (Ley 31189, Plan DS 037-2021-MINAM) | LB por verificar (MINSA) | 2031 60 % | 2036 100 % | 2046 100 % | 2056 100 %'. En la meta [1] cambiar el indicador a 'conflictos resueltos mediante diálogo con acuerdos cumplidos (Defensoría)' en lugar de solo conflictos activos.",
+    "fuente": "https://www.corteidh.or.cr/docs/supervisiones/SCS/peru/habitantes_oroya/habitantes_oroyap.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.brechas",
+    "problema": "Falta mencionar a las mujeres pallaqueras y a la niñez en zonas mineras (trabajo infantil, trata) con fuente.",
+    "correccion": "Añadir: 'En zonas de minería informal se documenta trabajo infantil peligroso y trata con fines de explotación sexual (Defensoría del Pueblo; Ministerio Público), y las mujeres pallaqueras trabajan sin protección social ni reconocimiento en el régimen MAPE.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-01",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-02",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "La decisión motivada sin veto respeta el marco; la Defensoría debería participar en las mesas como garante, lo que puede añadirse en entidades.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-03",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-04",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Cerrar el REINFO es legítimo, pero la suspensión y exclusión de inscritos necesita procedimiento con notificación y descargos, y la pérdida de protección penal debe distinguir al minero de subsistencia de la organización criminal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Suspender o excluir del registro sin procedimiento vulnera el debido procedimiento administrativo (Ley 27444, art. IV.1.2); la frase \"dejan de tener protección frente a la persecución penal\" aplicada en bloque a decenas de miles de personas, incluidas comunidades y pallaqueras, criminaliza la pobreza, lo que la Defensoría ha advertido.",
+    "correccion": "Añadir: 'La suspensión y exclusión se notifican individualmente con 15 días para descargos y recurso; el padrón distingue a titulares comunales y personas naturales de subsistencia, para quienes el Ministerio Público prioriza la formalización y la salida voluntaria antes que la denuncia por el art. 307-A del Código Penal; la persecución penal se concentra en quienes operan en zonas prohibidas, con maquinaria pesada o vinculados a organizaciones criminales.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-05",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La consulta previa ya se incorporó. La Ley MAPE debería reconocer el trabajo de mujeres pallaqueras y prohibir el trabajo infantil con inspección, no solo definir regímenes.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona derechos laborales ni protección social en la MAPE, donde trabajan mujeres (pallaqueo) y niños (Convenio 182 de la OIT, Ley 28992 sobre trabajo infantil peligroso).",
+    "correccion": "Añadir: 'La ley reconoce a las pallaqueras y seleccionadoras como actividad de subsistencia con acceso a formalización simplificada, salud y pensión (PRO-21), prohíbe el trabajo de menores de 18 años en minería (DS 009-2022-MIMP, lista de trabajos peligrosos) y da a SUNAFIL competencia de inspección en la MAPE formal.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-06",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-07",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El decomiso de maquinaria y dragas debe hacerse con acta, inventario y posibilidad de impugnación, distinguiendo el equipo de subsistencia.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "\"La que opera sin registro ... se decomisa\" sin mencionar acta fiscal, inventario ni recurso puede afectar bienes de personas no vinculadas al delito y a mineros en formalización; el DL 1100 y el DL 1105 regulan la destrucción con participación fiscal.",
+    "correccion": "Añadir: 'Todo decomiso o destrucción se ejecuta con presencia fiscal, acta con inventario fotográfico y notificación al titular, quien puede impugnar; los equipos menores de personas naturales en proceso de formalización se inmovilizan y no se destruyen hasta resolverse su situación.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-08",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-09",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-10",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La restauración con comunidades es positiva; en territorios de comunidades nativas (Harakbut, Ese Eja) debe hacerse con su consentimiento y bajo sus planes de vida.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No dice que la restauración dentro de territorios comunales requiere acuerdo con la comunidad titular y que el pago por resultados debe llegar a ella, no solo a contratistas.",
+    "correccion": "Añadir: 'En tierras comunales la restauración se ejecuta por convenio con la comunidad titular, que decide especies y usos conforme a su plan de vida, y recibe directamente el pago por resultados.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-11",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-12",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-13",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incluye resúmenes en lenguas originarias; aplicar también a lenguas amazónicas (awajún, wampis, asháninka, shipibo-konibo) donde corresponda.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-14",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Ya incorpora la consulta previa de la zonificación y ordenamiento.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-15",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Es la acción más importante del sector para los derechos indígenas; debería adelantar la consulta a la etapa de concesión, garantizar participación de mujeres indígenas y un mecanismo de queja.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Hoy la concesión minera no se consulta (DS 020-2012-EM) pese a que la Corte IDH (Saramaka, Sarayaku) exige consulta antes de autorizar actividades que afecten el territorio; \"etapa temprana\" queda indefinido. Tampoco prevé participación de mujeres ni canal de queja.",
+    "correccion": "Reemplazar 'en una etapa temprana' por 'antes del otorgamiento de la concesión o, a más tardar, antes de la exploración, según la Corte IDH (casos Saramaka y Sarayaku)'. Añadir: 'Las organizaciones de mujeres indígenas participan en el proceso; existe un canal de queja ante el Ministerio de Cultura con respuesta en 30 días y reporte anual a la Defensoría; en territorios de pueblos en aislamiento o contacto inicial no se otorgan derechos mineros (Ley 28736).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-16",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Correcto como adelanto social; las obras en zonas de influencia deben elegirse con participación de comunidades y mujeres, no solo en mesas con empresa y autoridades.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las mesas territoriales (MIN-02) incluyen a comunidades, pero la elección de obras no asegura participación de mujeres ni priorización de agua y salud según brechas.",
+    "correccion": "Añadir: 'La cartera prioriza agua segura y salud según las brechas del distrito y se decide con al menos un tercio de representantes mujeres de las comunidades.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "MIN-17",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-18",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza pasivos que contaminan agua de consumo; coherente con el derecho al agua.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-19",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-20",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Monitoreo comunitario participativo; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-21",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La vigilancia de salud es necesaria, pero la acción no menciona la Ley 31189, el Plan DS 037-2021-MINAM ni la sentencia de la Corte IDH en el caso La Oroya, que ya obligan al Estado y fijan estándares de atención y reparación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Omite el marco vigente: Ley 31189 (atención integral a personas expuestas a metales pesados) y su reglamento DS 007-2023-SA, el Plan Especial Multisectorial (DS 037-2021-MINAM, ejecutado en una fracción según las organizaciones de afectados) y la sentencia de la Corte IDH Habitantes de La Oroya vs. Perú (2024), que ordena atención médica especializada gratuita, registro de víctimas, remediación y monitoreo. Sin reparación ni registro de afectados la acción es incompleta.",
+    "correccion": "Reemplazar el inicio por: 'En cumplimiento de la Ley 31189, del Plan Especial Multisectorial (DS 037-2021-MINAM, que se renueva con presupuesto) y de la sentencia de la Corte IDH en el caso Habitantes de La Oroya vs. Perú, el MINSA identifica...'. Añadir: 'Se crea un registro nominal de personas afectadas con atención gratuita de por vida, se repara a las víctimas reconocidas y se publica un informe anual de cumplimiento de la sentencia; las organizaciones de afectados participan en la comisión de seguimiento.'",
+    "fuente": "https://www.corteidh.or.cr/docs/supervisiones/SCS/peru/habitantes_oroya/habitantes_oroyap.pdf"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "Falta desagregación.",
+    "correccion": "Añadir: 'desagregado por sexo, edad (menores de 12), gestantes y pertenencia a pueblo indígena'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2024511-8"
+   }
+  ]
+ },
+ {
+  "id": "MIN-22",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-23",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-24",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-25",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "MIN-26",
+  "archivo": "data/sectores/mineria.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La infraestructura hídrica compartida debe garantizar la prioridad del consumo humano y los usos de las comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 29338 (art. 35) y el art. 7-A de la Constitución dan prioridad al uso poblacional y primario; el diseño \"para servir a la vez a la minería, la agricultura y las ciudades\" no fija prioridad ni protege los derechos de agua de comunidades campesinas (Ley 29338, art. 64).",
+    "correccion": "Añadir: 'En toda obra compartida se garantiza primero el consumo humano y los usos ancestrales de las comunidades (art. 7-A de la Constitución; Ley 29338, arts. 35 y 64); las comunidades participan en el operador y, si la obra afecta sus tierras o aguas, se consulta previamente (Ley 29785).'",
+    "fuente": "https://sinia.minam.gob.pe/normas/ley-reforma-constitucional-que-reconoce-derecho-acceso-agua-derecho"
+   }
+  ]
+ },
+ {
+  "id": "sector:proteccion",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Sector con buen enfoque de grupos (discapacidad, indígenas, afroperuanos, migrantes, adultos mayores), pero omite a personas LGTBI, personas en situación de calle y privadas de libertad, y las metas no se desagregan por discapacidad ni área.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.brechas",
+    "problema": "No menciona a personas LGTBI (la Primera Encuesta Virtual del INEI de 2017 registró que 63 % sufrió discriminación o violencia), ni a personas en situación de calle, ni a la niñez en centros de acogida residencial y adolescentes privados de libertad, que son población objetivo del MIMP.",
+    "correccion": "Añadir: 'Las personas LGTBI no tienen reconocimiento legal de sus familias ni protección específica frente a la violencia (INEI, Encuesta Virtual 2017: 63 % reporta discriminación o violencia); más de 5 000 niñas y niños viven en centros de acogida residencial (INABIF, cifra por verificar) y no existe un censo oficial de personas en situación de calle.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Ninguna meta mide a personas con discapacidad ni trabajo infantil pese a que hay acciones específicas (PRO-10, PRO-14).",
+    "correccion": "Añadir metas: 'Personas con discapacidad con certificado e inscritas en CONADIS | LB ≈ 496 000 (2025) | 2031 1,5 millones | 2036 2,5 millones | 2046 universal | 2056 universal' y 'Tasa de trabajo infantil peligroso (INEI) | LB por verificar | 2031 −30 % | 2036 −50 % | 2046 −80 % | 2056 ≈ 0'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-01",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Clasificar hogares con datos administrativos y algoritmos exige garantías de revisión humana, explicación y no exclusión automática; el riesgo está identificado pero no la salvaguarda.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La clasificación automatizada decide acceso a derechos (Juntos, Pensión 65, SIS). El consumo eléctrico y la propiedad vehicular generan falsos positivos en hogares rurales o con familiares migrantes. La Ley 29733 (art. 23 del reglamento DS 016-2024-JUS) y el principio de no discriminación exigen decisión revisable por una persona.",
+    "correccion": "Añadir: 'Ningún hogar pierde una prestación por un cambio automático de clasificación sin notificación previa, plazo de 30 días para descargos y revisión por una persona de la ULE; el algoritmo se registra en el Registro de Algoritmos Públicos (DIG-04), se publica su tasa de error por área y sexo de la jefatura del hogar y se audita cada dos años; en distritos rurales e indígenas prevalece la verificación de campo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-02",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-03",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El rediseño de Juntos es razonable; las corresponsabilidades no deben llevar a suspensiones automáticas que castiguen a la niñez, y el pago digital necesita alternativas donde no hay conectividad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las transferencias condicionadas suspenden el pago por incumplimiento de controles; en zonas sin posta o escuela cercana el incumplimiento es del Estado. El pago digital \"a nombre de la madre\" excluye a hogares sin cobertura y a padres o abuelas cuidadoras.",
+    "correccion": "Añadir: 'El incumplimiento de corresponsabilidades activa primero acompañamiento familiar y verificación de que el servicio exista a distancia razonable; la suspensión es excepcional, nunca automática ni por más de un periodo. El pago se hace a la persona cuidadora principal (madre por defecto, u otra acreditada) y en distritos sin cobertura se mantienen agentes y pago presencial.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-04",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "La fusión administrativa conserva el derecho legal de Contigo (Ley 29973); el riesgo de dilución está identificado.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-05",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-06",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-07",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-08",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La ley de cuidados es una de las acciones con mayor efecto en igualdad de género; conviene explicitar los derechos de las personas cuidadoras remuneradas y la participación de personas con discapacidad en su diseño.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No prevé condiciones laborales de las cuidadoras remuneradas (Convenio 189 de la OIT sobre trabajo doméstico, Ley 31047) ni la participación de organizaciones de personas con discapacidad y adultos mayores (CDPD art. 4.3).",
+    "correccion": "Añadir: 'El sistema garantiza a las cuidadoras remuneradas contrato, salario mínimo y seguridad social (Ley 31047 y Convenio 189), reconoce la autonomía y la vida independiente de las personas con discapacidad (CDPD art. 19) y se diseña con sus organizaciones y las de personas adultas mayores.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-09",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-10",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza inspección y transferencias sin criminalizar a las familias; coherente con el Convenio 182. Mantener que el trabajo adolescente permitido (CNA art. 51) no se confunda con trabajo peligroso.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-11",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Prioriza correctamente el acogimiento familiar; faltan la escucha del niño, la no separación de hermanos y el acceso para niñez con discapacidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La CDN (art. 12) y el DL 1297 exigen oír la opinión de la niña o niño; los centros residenciales concentran niñez con discapacidad que casi nunca sale a familias acogedoras.",
+    "correccion": "Añadir: 'Toda decisión de acogimiento escucha a la niña o niño, mantiene juntos a los hermanos y prioriza a la niñez con discapacidad con apoyo adicional a la familia acogedora; se publica la permanencia promedio por tipo de discapacidad.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-12",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Acción central contra la violencia de género; debe cubrir a todas las víctimas de la Ley 30364 (incluidas mujeres con discapacidad, indígenas, LGTBI y migrantes) y desagregar el indicador.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 30364 protege a toda mujer y a integrantes del grupo familiar; la acción no menciona accesibilidad para mujeres con discapacidad, atención a mujeres trans y lesbianas, ni a migrantes sin documentos, que suelen ser rechazadas en comisarías. Tampoco garantiza hogares de refugio para mujeres con hijos adolescentes varones o con discapacidad.",
+    "correccion": "Añadir: 'Los CEM y hogares de refugio atienden sin exigir documento de identidad ni situación migratoria regular, con intérpretes de lengua originaria y de señas, accesibilidad física y protocolos para mujeres LGTBI; los hogares de refugio admiten a hijas e hijos sin límite de edad y a mujeres con discapacidad.'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "indicador",
+    "problema": "Sin desagregación.",
+    "correccion": "Añadir: 'violencia en los últimos 12 meses desagregada por área, lengua materna, discapacidad y quintil (ENDES)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-13",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El registro único mejora la protección, pero concentra datos sensibles de víctimas; deben fijarse reglas de acceso, confidencialidad de domicilio y derechos de la víctima sobre sus datos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Los datos de víctimas (domicilio, salud, hijos) accesibles a policías de cualquier comisaría pueden filtrarse al agresor, que a veces es policía o funcionario. Falta evaluación de impacto (Ley 29733) y reglas de acceso por necesidad.",
+    "correccion": "Añadir: 'El registro aplica evaluación de impacto en datos personales, acceso por rol y caso (no por entidad), domicilio y ubicación de refugio cifrados y visibles solo al juez y al responsable de la medida, bitácora de cada consulta visible para la víctima, bloqueo del acceso a personal denunciado, y derecho de la víctima a rectificación y a solicitar la supresión de datos de terceros.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-14",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Mejora el acceso al certificado y al registro; prioriza Amazonía y sierra rural. Conforme con la Ley 29973 y la CDPD.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-15",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Bien orientada a la Ley 30490; conviene incorporar la capacidad jurídica y los apoyos del DL 1384 para evitar interdicciones.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El abuso económico se suele responder con interdicción, que el DL 1384 eliminó; la acción no menciona apoyos y salvaguardias ni la vía de la Ley 30490 (art. 28, medidas de protección).",
+    "correccion": "Añadir: 'Las situaciones de abuso se atienden con medidas de protección de la Ley 30490 y, cuando la persona lo requiere, con designación de apoyos y salvaguardias del DL 1384, nunca con interdicción; los CIAM informan sobre estos mecanismos.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-16",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-17",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Acción clave de pertinencia lingüística; el título menciona pueblos indígenas pero la cifra incluye afroperuanos, y faltan la lengua de señas y la consulta sobre el diseño en la entrega.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Mezcla a población afroperuana (9 millones incluye ambos) con la pertinencia lingüística, que no aplica a afroperuanos (tratados en PRO-18); no incluye intérpretes de lengua de señas peruana (Ley 29535).",
+    "correccion": "Precisar: 'Más de 4,4 millones de personas tienen lengua materna originaria (Censo 2017; cifra 2025 por verificar)'. Añadir a la entrega: 'intérpretes de lengua de señas peruana disponibles de forma remota en todos los servicios (Ley 29535) y diseño consultado con organizaciones indígenas registrado en acta'.",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1869699-1"
+   }
+  ]
+ },
+ {
+  "id": "PRO-18",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-19",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La regularización permanente es la medida más protectora del sector; deben incluirse refugiados y solicitantes, niñez migrante y acceso al SIS en emergencias para todos, y evitar que la \"verificación de antecedentes\" excluya por faltas menores.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "No menciona a refugiados y solicitantes de refugio (Ley 27891), niñez no acompañada, ni atención de emergencia a cualquier persona independientemente de su estatus (Ley 26842 art. 3 y Ley 29344). \"Verificación de antecedentes\" sin criterio puede excluir por infracciones migratorias o administrativas.",
+    "correccion": "Añadir: 'La regularización es compatible con el procedimiento de refugio de la Ley 27891 y no lo sustituye; la exclusión por antecedentes se limita a condenas firmes por delitos graves con evaluación individual y proporcional; toda persona accede a atención de emergencia y a vacunación sin importar su estatus; las niñas, niños y adolescentes migrantes se matriculan en escuela y se afilian al SIS con cualquier documento, y los no acompañados pasan a la Unidad de Protección Especial del MIMP.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "PRO-20",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Medición multidimensional; conviene que incluya desagregación por sexo, lengua y discapacidad, lo que es compatible con la metodología del INEI.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-21",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "PRO-22",
+  "archivo": "data/sectores/proteccion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Evaluación con datos anonimizados; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:digital",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen diagnóstico de brechas por área, lengua, edad y sexo; falta la brecha por discapacidad y una meta de accesibilidad, pese a que la Ley 29973 exige accesibilidad digital desde 2012.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.brechas",
+    "problema": "No hay dato de acceso o uso de internet de personas con discapacidad (el INEI publica ENAHO con módulo de discapacidad) ni de accesibilidad de portales públicos.",
+    "correccion": "Añadir: 'Discapacidad: el uso de internet entre personas con alguna discapacidad es muy inferior al promedio (INEI, ENAHO, cifra por verificar) y la mayoría de portales públicos no cumple WCAG 2.1 AA pese a la Ley 29973 (art. 22).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Ninguna meta mide accesibilidad ni atención en lengua originaria, aunque DIG-11 las promete.",
+    "correccion": "Añadir meta: 'Portales y servicios digitales del Ejecutivo que cumplen WCAG 2.2 AA y ofrecen atención en lengua originaria | LB sin medición (2026) | 2031 100 % del Ejecutivo | 2036 100 % GORE y provinciales | 2046 100 % | 2056 100 %'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-01",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "La reforma refuerza garantías (autonomía de la ANPD, auditoría de tratamientos automatizados, datos genómicos sensibles); conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-02",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-03",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-04",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La ley de procedimiento digital incluye explicación y revisión humana de decisiones automatizadas; falta la garantía de no exclusión de quien no tiene DNI digital o conectividad y una prohibición de biometría remota masiva.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Si el DNI digital y la casilla electrónica se vuelven la vía por defecto, las personas sin celular, sin cobertura, adultas mayores o con discapacidad pueden perder plazos y servicios (notificación electrónica obligatoria). La ley debería garantizar el canal presencial y asistido como derecho, no como excepción.",
+    "correccion": "Añadir: 'Ningún servicio ni plazo se condiciona a tener DNI digital, celular o casilla: se garantiza canal presencial o telefónico asistido con los mismos efectos, en lengua originaria y accesible (Leyes 29735, 29535 y 29973); la notificación electrónica solo rige para quien la acepta expresamente. Se prohíbe la identificación biométrica remota masiva en espacios públicos salvo ley específica con control judicial.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-05",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-06",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-07",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-08",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Protección digital de niñez y mujeres bien encaminada; el deber de diligencia de plataformas no debe traducirse en verificación de edad con biometría de menores ni en censura de contenidos legítimos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La \"configuración segura por defecto\" para menores suele implementarse con verificación de edad que recolecta documentos o rostro de niñas y niños; eso crea nuevas bases de datos sensibles (Ley 29733, art. 2.5).",
+    "correccion": "Añadir: 'El deber de diligencia no obliga a verificación de edad con biometría ni con documentos; se cumplen con configuraciones por defecto, límites de contacto y publicidad, y evaluación de riesgos auditada; toda medida de retiro de contenido es recurrible ante un juez.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-09",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-10",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto en derechos fundamentales.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-11",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Es la acción de inclusión digital del sector; conviene incorporar expresamente la lengua de señas y un mecanismo de queja por falta de accesibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Menciona lenguas originarias y WCAG, pero no la lengua de señas peruana (Ley 29535), ni cómo reclama una persona cuando un servicio no es accesible.",
+    "correccion": "Añadir: 'Los 50 servicios incluyen atención por videollamada con intérprete de lengua de señas peruana (Ley 29535) y un canal de reclamo por inaccesibilidad con respuesta en 15 días; el CONADIS y la Defensoría reciben el informe anual de brechas.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1869699-1"
+   }
+  ]
+ },
+ {
+  "id": "DIG-12",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-13",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-14",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-15",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-16",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-17",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-18",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Los corpus y modelos de lenguas originarias requieren, además del consentimiento individual de cada hablante, el consentimiento colectivo de los pueblos y reparto de beneficios, porque la lengua es patrimonio colectivo (Ley 29735).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Solo prevé consentimiento de cada hablante; la Ley 29735 (art. 1) y la Declaración de la ONU sobre pueblos indígenas (art. 13 y 31) reconocen la lengua como derecho colectivo. Modelos entrenados con grabaciones comunitarias pueden licenciarse sin que los pueblos decidan ni se beneficien.",
+    "correccion": "Añadir: 'Los corpus se construyen con acuerdo de las organizaciones representativas de cada pueblo (Ley 29735 y Ley 29785), que deciden la licencia (abierta o restringida), participan en la gobernanza de los datos y reciben los beneficios de cualquier uso comercial; los modelos resultantes se entregan también a las comunidades y a las escuelas EIB.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-19",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La IA clínica y las recetas electrónicas tratan datos de salud; la acción cubre el registro de software pero no los derechos del paciente frente a decisiones asistidas por IA.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No prevé consentimiento informado ni derecho a atención humana cuando una IA clínica apoya diagnóstico, ni evaluación de sesgo por sexo, etnia o edad antes del registro.",
+    "correccion": "Añadir: 'El registro de software clínico con IA exige evaluación de desempeño desagregada por sexo, edad y origen étnico, información al paciente de que se usa IA y derecho a una revisión por profesional humano.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-20",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La alerta temprana debe llegar a personas sordas, ciegas y hablantes de lenguas originarias.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las alertas por SISMATE y sirenas no son accesibles para personas sordas (sin aviso visual) ni ciegas (sin audio), ni llegan en lengua originaria en comunidades amazónicas y andinas; la Ley 29973 (art. 21) y la Ley 29735 exigen accesibilidad y pertinencia lingüística.",
+    "correccion": "Añadir: 'Los mensajes CAP se emiten en castellano y en las lenguas originarias de cada zona, con formato de texto y audio, señal visual en espacios públicos y protocolo de evacuación asistida para personas con discapacidad y adultas mayores, elaborado con sus organizaciones.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "DIG-21",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-22",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Usa identificadores seudónimos y limita la retención a 12 meses; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-23",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-24",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-25",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "DIG-26",
+  "archivo": "data/sectores/digital.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:estado",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El sector trata la reforma del Estado como gestión y control, sin ninguna acción sobre el derecho de las personas a servicios accesibles, en su lengua, con participación y con canales de queja; tampoco menciona la cuota de empleo de personas con discapacidad ni a la Defensoría del Pueblo.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico.brechas",
+    "problema": "La brecha más visible para la ciudadanía no aparece: el Estado no atiende en las 48 lenguas originarias (Ley 29735; solo una fracción de entidades tiene intérpretes), no es accesible para personas con discapacidad (Ley 29973, arts. 15-22) y las entidades públicas incumplen la cuota de empleo de 5 % de personas con discapacidad (art. 49.1). No hay estadística oficial de quejas ciudadanas resueltas.",
+    "correccion": "Añadir: 'Las personas enfrentan además un Estado que no las entiende ni las recibe: la mayoría de entidades no atiende en lenguas originarias (Ley 29735) ni cumple accesibilidad (Ley 29973), las entidades públicas incumplen la cuota de empleo de 5 % de personas con discapacidad (art. 49.1, sancionable por CONADIS) y no existe medición oficial de reclamos ciudadanos atendidos en plazo (Libro de Reclamaciones, DS 007-2020-PCM).'",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "Ninguna de las 28 acciones asegura el derecho a servicios con pertinencia lingüística, accesibilidad universal, participación ciudadana (presupuesto participativo, rendición de cuentas) ni fortalece a la Defensoría del Pueblo como garante; una reforma del Estado sin enfoque de derechos refuerza la exclusión.",
+    "correccion": "Añadir una acción EST-29 (servicio, no necesita ley, 2026-2031): 'Garantizar atención accesible y en lengua originaria en toda entidad con canal de queja único': cada ministerio, GORE y municipalidad provincial cumple la Ley 29735 (intérpretes o personal bilingüe en distritos con población indígena), la Ley 29973 (accesibilidad física y digital, lengua de señas, cuota de 5 %), publica su cumplimiento y conecta su Libro de Reclamaciones a una plataforma única con respuesta en 30 días auditada por la Defensoría. Indicador: % de entidades con atención en lengua originaria y accesibilidad certificada; % de reclamos resueltos en plazo; % de cumplimiento de la cuota de discapacidad.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Ninguna meta mide el servicio desde la persona (reclamos resueltos, accesibilidad, lengua).",
+    "correccion": "Añadir meta: 'Entidades públicas que cumplen la cuota de 5 % de empleo de personas con discapacidad (CONADIS) | LB por verificar | 2031 50 % | 2036 80 % | 2046 100 % | 2056 100 %'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-01",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-02",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las fusiones y cierres son razonables si no reducen la cobertura de programas sociales; la garantía de continuidad debe ser explícita como regla de no regresividad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El PIDESC (art. 2.1) y la Corte IDH (Cuscul Pivaral) exigen que las medidas regresivas en derechos sociales se justifiquen; \"ahorro reasignado al producto\" no asegura que las personas usuarias no pierdan prestaciones.",
+    "correccion": "Añadir: 'Ninguna fusión o cierre reduce la cobertura, el monto ni la calidad de una prestación social para sus usuarios actuales; el informe de continuidad compara cobertura por sexo, área y discapacidad antes y después y se publica.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-03",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-04",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-05",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Cerrar programas con baja ejecución puede castigar a poblaciones que dependen de ellos (p. ej., remediación de pasivos mineros que protege agua de comunidades); la decisión debe considerar el derecho afectado.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El criterio \"baja ejecución dos años seguidos\" no distingue programas que garantizan derechos (salud de expuestos a metales, atención a víctimas) donde la respuesta correcta es reforzar la gestión, no cerrar.",
+    "correccion": "Añadir: 'Para programas que ejecutan obligaciones de derechos humanos (atención a víctimas, salud ambiental, protección de niñez) el semáforo rojo obliga a un plan de rescate con responsable, no al cierre.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-06",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-07",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-08",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-09",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-10",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-11",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-12",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-13",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-14",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-15",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-16",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incluye protección al denunciante (DL 1327) y reserva de identidad; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-17",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La plataforma anticorrupción cruza datos de personas; el riesgo de dañar a inocentes está identificado y requiere reglas de exactitud, rectificación y límites a datos de familiares.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La publicación de cruces entre DNI de funcionarios, socios y sanciones puede exponer a familiares y homónimos; la Ley 29733 exige exactitud y derecho de rectificación.",
+    "correccion": "Añadir: 'Solo se publican datos de funcionarios en ejercicio y proveedores del Estado, no de familiares; cada alerta se califica como indicio, no como hallazgo; existe un procedimiento de rectificación con respuesta en 10 días y bitácora pública de correcciones; las sanciones prescritas o anuladas se eliminan.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-18",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La matriz de competencias y la devolución temporal de funciones deben garantizar continuidad del servicio y consulta a pueblos indígenas cuando afecten salud, educación o territorio.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Devolver funciones (salud, educación) de un gobierno regional al nacional afecta la prestación a poblaciones indígenas y rurales; la reorganización de competencias en educación intercultural y salud intercultural requiere consulta previa (Ley 29785, art. 2).",
+    "correccion": "Añadir: 'Toda devolución temporal garantiza la continuidad del servicio sin interrupción; las matrices que redistribuyan funciones de educación intercultural bilingüe, salud intercultural o titulación de comunidades se consultan con las organizaciones indígenas.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EST-19",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-20",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-21",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Simplificación con silencio positivo; sin impacto negativo en derechos.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-22",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Preserva leyes que sustentan expropiaciones en curso; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-23",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-24",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-25",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-26",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-27",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Toda fusión pasa por consulta a la población; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EST-28",
+  "archivo": "data/sectores/estado.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:salud",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El diagnóstico desagrega por área, sexo y región y reconoce barreras de lengua; el sector omite salud sexual y reproductiva de adolescentes, salud de personas con discapacidad, LGTBI y personas privadas de libertad, y ninguna meta se desagrega por área rural o pueblo indígena.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "No hay acción sobre embarazo adolescente ni salud sexual y reproductiva (el Perú tiene una de las tasas más altas de embarazo adolescente en la Amazonía, ENDES), ni sobre rehabilitación y accesibilidad para personas con discapacidad (Ley 29973, art. 26-30), salud de personas trans y LGTBI, ni salud en penales (INPE, hacinamiento 142 %).",
+    "correccion": "Añadir en SAL-23 o como acción nueva: 'Garantizar salud sexual y reproductiva para adolescentes: consejería y anticoncepción sin requisito de acompañante (Ley 30364 y norma técnica MINSA vigente), prevención del embarazo adolescente en la Amazonía, acceso efectivo al aborto terapéutico (Ley 26842 art. 119 y guía técnica 2014) y kit de emergencia para víctimas de violencia sexual en el 100 % de establecimientos'. Añadir a SAL-01 la rehabilitación basada en la comunidad para personas con discapacidad y a SAL-18 la atención de salud mental en penales en convenio con el INPE.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Las metas de anemia, desnutrición y mortalidad materna no se desagregan por área rural ni pueblo indígena, donde se concentra la brecha según el propio diagnóstico.",
+    "correccion": "Añadir a las metas [0], [1] y [4] una columna o nota: 'brecha rural-urbana reducida a la mitad al 2036 y cerrada al 2046' y 'razón de mortalidad materna en Loreto, Amazonas y Ucayali por debajo del promedio nacional al 2036'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-01",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La adscripción es positiva; \"padrón nominal publicado por establecimiento\" no puede significar publicar nombres y DNI de pacientes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "entrega",
+    "problema": "Publicar el padrón nominal (con DNI) expone datos de salud, sensibles según la Ley 29733 (art. 2.5) y la Ley 26842 (art. 25, confidencialidad).",
+    "correccion": "Reemplazar por: 'padrón nominal cargado en el sistema del MINSA y publicación por establecimiento del número de personas adscritas por sexo, grupo de edad y lengua, sin datos personales'.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona atención en lengua originaria ni accesibilidad en las visitas domiciliarias.",
+    "correccion": "Añadir: 'En distritos con población indígena los equipos incluyen personal bilingüe o intérprete (SAL-25) y las visitas priorizan hogares con personas con discapacidad o adultas mayores solas.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-02",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-03",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-04",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-05",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-06",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-07",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-08",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-09",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La cápita ajustada debería incluir discapacidad y dispersión lingüística para no castigar a los establecimientos que atienden a quienes más cuesta atender.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Ajusta por edad, ruralidad y riesgo; omite discapacidad, lengua originaria y dispersión amazónica, lo que desincentiva la atención a esas poblaciones.",
+    "correccion": "Añadir: 'ajustada por edad, ruralidad, dispersión (tiempo de traslado), población indígena y personas con discapacidad registradas'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-10",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-11",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-12",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-13",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-14",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-15",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-16",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Reduce gasto de bolsillo; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-17",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-18",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La red comunitaria es el modelo correcto (Ley 30947); debe explicitarse el consentimiento informado, la excepcionalidad del internamiento involuntario y la desinstitucionalización.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Ley 30947 y su reglamento (DS 007-2020-SA) exigen consentimiento informado, tratamiento menos restrictivo e internamiento involuntario solo en emergencia con revisión; la acción no lo menciona, ni la salida de personas aún institucionalizadas en hospitales psiquiátricos, ni la atención a personas LGTBI y víctimas de violencia sin patologizar.",
+    "correccion": "Añadir: 'Toda atención se basa en el consentimiento informado y el tratamiento menos restrictivo (Ley 30947, art. 9); el internamiento involuntario es excepcional, por emergencia, con revisión médica periódica y recurso ante SUSALUD; los hogares protegidos sirven para desinstitucionalizar a las personas que aún viven en hospitales psiquiátricos, con meta publicada; se prohíben las llamadas terapias de conversión y se forma al personal en atención a personas LGTBI y a víctimas de violencia.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-19",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-20",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El tamizaje debe llegar a mujeres rurales e indígenas con autotoma y sin barreras; conviene indicador desagregado.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La prueba de VPH permite autotoma, clave en zonas rurales; no se menciona, ni el consentimiento informado de la vacunación escolar ni el acceso de mujeres con discapacidad.",
+    "correccion": "Añadir: 'con autotoma en comunidades rurales e indígenas, consejería en lengua originaria y accesibilidad para mujeres con discapacidad'. Indicador: 'cobertura de tamizaje desagregada por área y quintil'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-21",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza a personas solas y en pobreza y reconoce la carga de cuidado en mujeres; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-22",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "SAL-23",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Acción esencial; falta el consentimiento informado en todo procedimiento obstétrico y una referencia a la Ley 29600 y a la atención a adolescentes gestantes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las víctimas de esterilizaciones forzadas de los años 90 (Ley 31119 de registro de víctimas) muestran el riesgo de intervenciones sin consentimiento en zonas rurales; la acción no fija consentimiento informado en la lengua de la gestante ni atención a adolescentes embarazadas con continuidad educativa (Ley 29600).",
+    "correccion": "Añadir: 'Todo procedimiento (parto, cesárea, anticoncepción postparto) se realiza con consentimiento informado en la lengua de la gestante y con acompañante de su elección, sin violencia obstétrica; las adolescentes gestantes reciben atención diferenciada y se coordina su continuidad escolar (Ley 29600); se garantiza el acceso al aborto terapéutico conforme a la Ley 26842 (art. 119).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-24",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La historia clínica electrónica es dato sensible; falta explicitar consentimiento, acceso del paciente y evaluación de impacto.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona la evaluación de impacto en datos personales ni el derecho del paciente a conocer quién consultó su historia (Ley 29733; Ley 30024).",
+    "correccion": "Añadir: 'con evaluación de impacto en protección de datos, bitácora de accesos visible para el paciente y reglas de acceso por rol conforme a la Ley 30024 y la Ley 29733'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-25",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Acción central de interculturalidad; el título incluye a afroperuanos pero el texto no, y falta la consulta en el diseño y el indicador de satisfacción.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No hay medida para población afroperuana (Política Nacional del Pueblo Afroperuano) ni mecanismo de queja por discriminación en los servicios.",
+    "correccion": "Añadir: 'En distritos con población afroperuana el personal se forma contra la discriminación étnico-racial (Ley 28867) y se registra la variable étnica en la historia clínica; existe un canal de queja por discriminación con respuesta de SUSALUD en 30 días y reporte anual.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "SAL-26",
+  "archivo": "data/sectores/salud.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Mantiene el amparo y la impugnación; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:educacion",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen diagnóstico por territorio, lengua, sexo y discapacidad. Falta la educación sexual integral y la atención a la violencia escolar y a la niñez migrante; ninguna meta de aprendizaje se desagrega por área rural ni EIB.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "No hay acción sobre educación sexual integral ni prevención de la violencia escolar (SíseVe registra decenas de miles de casos, cifra por verificar), pese a que la Corte IDH (Guzmán Albarracín vs. Ecuador, 2020) obliga a prevenir la violencia sexual en escuelas y a dar educación sexual; tampoco sobre matrícula de niñez migrante sin documentos.",
+    "correccion": "Añadir en EDU-28 un componente: 'educación sexual integral según el Currículo Nacional, protocolo contra la violencia escolar (DS 004-2018-MINEDU) con sanción efectiva y registro público anonimizado, y matrícula sin exigir documento peruano a niñez migrante (RM 447-2020-MINEDU)'. Indicador: casos de violencia sexual reportados en SíseVe con denuncia y medida de protección en 72 horas.",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Las metas [0] a [2] son nacionales; la brecha de Loreto y rural que describe el diagnóstico no tiene meta.",
+    "correccion": "Añadir a las metas [0] y [1]: 'y brecha rural-urbana reducida a la mitad al 2036'; añadir meta: 'Estudiantes de 4.º de primaria EIB con nivel satisfactorio en lectura en lengua originaria | LB por verificar (ENLA EIB) | 2031 +10 puntos | 2036 +20 | 2046 paridad con castellano | 2056 paridad'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-01",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-02",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-03",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-04",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "El riesgo de estigmatización por agrupar por nivel está identificado y la medida es temporal y flexible.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-05",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-06",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-07",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-08",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-09",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-10",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-11",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-12",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-13",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las residencias estudiantiles concentran riesgo de violencia sexual; el protocolo mencionado debe incluir canal de denuncia accesible, personal con antecedentes verificados y participación de las familias y comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "\"Protocolos estrictos\" sin detalle; la experiencia de internados rurales muestra abusos sin denuncia por aislamiento y por dependencia del personal.",
+    "correccion": "Añadir: 'El personal de residencias acredita ausencia de antecedentes (REDAM, registro de deudores alimentarios y Registro de sancionados por violencia), hay personal de ambos sexos, un canal de denuncia confidencial para estudiantes (línea y buzón vinculados a la DEMUNA y la UGEL), visitas no anunciadas de la Defensoría y participación de las familias y de las comunidades indígenas en la gestión; toda denuncia activa el protocolo del DS 004-2018-MINEDU en 24 horas.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-14",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La alerta temprana trata datos sensibles de menores (embarazo, trabajo); hay que prohibir usos punitivos y garantizar la permanencia de estudiantes gestantes.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Marcar embarazo o trabajo en un sistema accesible a tutores y UGEL expone a adolescentes; la Ley 29600 prohíbe expulsar o limitar a estudiantes gestantes y el protocolo debe apoyarlas, no reportarlas.",
+    "correccion": "Añadir: 'Los datos de embarazo, trabajo o salud se tratan como sensibles (Ley 29733), con acceso solo del tutor designado y sin registro en el certificado de estudios; la alerta nunca deriva a sanción ni a retiro de la estudiante (Ley 29600) y las estudiantes gestantes o madres reciben flexibilidad horaria y cuidado infantil (EDU-26).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "EDU-15",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Garantiza docentes bilingües y materiales validados con las comunidades; coherente con la Ley 29735 y el Convenio 169.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-16",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incluye ajustes por lengua, discapacidad y pobreza; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-17",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-18",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-19",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-20",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-21",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-22",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-23",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incluye reglas de protección de datos de menores; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-24",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-25",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Es la acción de educación inclusiva; conviene alinear el lenguaje con la CDPD (los CEBE no son \"para casos severos\" sino apoyo intensivo con ruta hacia la escuela regular) e incluir lengua de señas y braille.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La CDPD (art. 24) y el Comité (Observaciones finales al Perú, 2023) piden transitar de educación segregada a inclusiva; \"CEBE para casos severos\" consolida la segregación. No menciona enseñanza en lengua de señas peruana ni braille (Ley 29535, Ley 29973 art. 37).",
+    "correccion": "Reemplazar 'los CEBE para casos severos' por 'los CEBE se transforman progresivamente en centros de recursos que dan apoyo intensivo y plan de transición a la escuela regular'. Añadir: 'Las y los estudiantes sordos reciben educación bilingüe en lengua de señas peruana y castellano escrito, y los estudiantes ciegos materiales en braille y formatos accesibles; se mide la matrícula y la culminación de estudiantes con discapacidad por tipo y área.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/1869699-1"
+   }
+  ]
+ },
+ {
+  "id": "EDU-26",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza mujeres rurales, lenguas originarias y cuidado infantil; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-27",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "EDU-28",
+  "archivo": "data/sectores/educacion.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La escuela saludable debe incluir consentimiento informado para vacunas y tamizajes, y confidencialidad de los resultados de salud mental.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La vacunación y los tamizajes en el aula a menores requieren información y consentimiento de la familia (Ley 26842, art. 4 y 15) y los resultados de salud mental registrados en el padrón compartido son datos sensibles.",
+    "correccion": "Añadir: 'con información previa y consentimiento de madres, padres o tutores (y asentimiento del estudiante), y registro de salud mental solo en la historia clínica, no en el padrón escolar'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "sector:agua",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El sector no nombra el derecho constitucional al agua (art. 7-A, Ley 30588) ni fija un mínimo vital; las brechas no incluyen lengua ni discapacidad y las metas no distinguen a la población indígena amazónica, que tiene la peor cobertura.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "diagnostico",
+    "problema": "No menciona el art. 7-A de la Constitución (derecho de acceso progresivo y universal al agua potable con prioridad del consumo humano) ni la Observación General 15 del Comité DESC (no discriminación por situación de tenencia, mínimo vital, asequibilidad). Es el marco que ordena todo el sector.",
+    "correccion": "Añadir al resumen: 'El art. 7-A de la Constitución (Ley 30588) reconoce el derecho de toda persona a acceder de forma progresiva y universal al agua potable, con prioridad del consumo humano; el Comité DESC (Observación General 15) exige un mínimo vital asequible y prohíbe negar el acceso por la situación de tenencia de la vivienda.'",
+    "fuente": "https://sinia.minam.gob.pe/normas/ley-reforma-constitucional-que-reconoce-derecho-acceso-agua-derecho"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "No hay meta para comunidades nativas amazónicas ni para accesibilidad de servicios higiénicos en escuelas y postas.",
+    "correccion": "Añadir meta: 'Comunidades nativas con sistema de agua segura operativo | LB por verificar (DATASS) | 2031 50 % | 2036 80 % | 2046 100 % | 2056 100 %'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-01",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-02",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen diseño; en comunidades nativas el sistema debe acordarse con la comunidad y la operación formarse en su lengua.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No prevé acuerdo con la comunidad sobre el diseño ni formación de operadores en lengua originaria (AGU-22 lo hace en etapa posterior).",
+    "correccion": "Añadir: 'En comunidades nativas y campesinas el diseño y la cuota familiar se acuerdan en asamblea comunal y la capacitación de la JASS se hace en la lengua local desde el inicio.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-03",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-04",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-05",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-06",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-07",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-08",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Tarifas que cubren costos son necesarias, pero deben respetar el mínimo vital y prohibir el corte total a hogares vulnerables.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Sin regla de mínimo vital ni límite al corte por deuda, la tarifa de costo real puede dejar sin agua a hogares pobres, con niñas, niños, personas enfermas o adultas mayores; la Observación General 15 (párr. 27 y 56) pide asequibilidad y que la desconexión no prive del mínimo esencial.",
+    "correccion": "Añadir: 'Se garantiza un consumo mínimo vital (50 litros por persona al día, referencia OMS) con tarifa social; la deuda de hogares clasificados como pobres en el SISFOH no habilita el corte total sino la reducción de caudal y un plan de pago; los errores de clasificación se corrigen en 15 días sin corte.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-09",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-10",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-11",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-12",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-13",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Los trasvases entre cuencas afectan a comunidades de cabecera; deben condicionarse a consulta previa y a no reducir el agua de quienes viven arriba.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "\"Solo después trasvases\" no dice que un trasvase que afecte tierras o aguas de comunidades requiere consulta previa (Ley 29785) y garantía de sus usos.",
+    "correccion": "Añadir: 'Todo trasvase o represa que afecte comunidades campesinas o nativas pasa por consulta previa y garantiza el caudal para sus usos poblacionales y agrarios.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-14",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-15",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza el consumo humano; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-16",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Incluye consulta previa; la revisión de derechos no usados debe excluir los usos ancestrales de comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La Ley 29338 (art. 64) protege los derechos de uso de agua de comunidades campesinas y nativas; una revisión de \"derechos no usados o sobreotorgados\" podría afectar usos ancestrales no registrados.",
+    "correccion": "Añadir: 'La revisión de derechos no alcanza a los usos ancestrales de comunidades campesinas y nativas (Ley 29338, art. 64), que se reconocen aunque no estén formalizados.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGU-17",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-18",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Condicionar la factibilidad al suelo planificado es correcto para la expansión, pero no puede dejar sin acceso a agua a quienes ya viven en asentamientos informales.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La Observación General 15 (párr. 16.c) prohíbe negar el acceso al agua por la situación de tenencia de la vivienda; la acción solo prevé soluciones transitorias para vivienda de interés social, no para asentamientos existentes, que quedarían sin alternativa.",
+    "correccion": "Añadir: 'La restricción aplica a nuevas habilitaciones; los asentamientos ya existentes fuera de zonas de riesgo no mitigable reciben soluciones no convencionales registradas (AGU-20) con fecha de conexión definitiva, y los de riesgo no mitigable las reciben hasta su reasentamiento (VIV-12), sin que la falta de título justifique negar el servicio (art. 7-A; Observación General 15).'",
+    "fuente": "https://sinia.minam.gob.pe/normas/ley-reforma-constitucional-que-reconoce-derecho-acceso-agua-derecho"
+   }
+  ]
+ },
+ {
+  "id": "AGU-19",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-20",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Regula lo no convencional con tarifa no mayor a la social; coherente con el derecho al agua.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-21",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGU-22",
+  "archivo": "data/sectores/agua.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Formación en quechua, aimara y lenguas amazónicas; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:vivienda",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El sector reconoce que faltan datos por sexo y lengua, pero no incorpora accesibilidad universal, vivienda para personas con discapacidad o adultas mayores, ni titulación conjunta para mujeres; los desalojos y reasentamientos carecen de estándares explícitos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "No hay referencia a la accesibilidad obligatoria (Ley 29973, arts. 15-17; Norma A.120 del RNE) en VIV-02, VIV-08, VIV-13 ni VIV-19, ni a la titulación o adjudicación a nombre de ambos convivientes (Ley 28983, art. 6.i) ni a personas en situación de calle.",
+    "correccion": "Añadir una regla transversal en diagnostico o en VIV-03: 'Todo subsidio, lote o vivienda se adjudica a nombre de ambos convivientes o de la jefa de hogar, prioriza a hogares con personas con discapacidad o adultas mayores con diseño accesible (Norma A.120) y reserva al menos 5 % de lotes y viviendas accesibles.' Añadir a PRO o VIV una acción sobre personas en situación de calle (albergues y vivienda primero).",
+    "fuente": "no verificable"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Ninguna meta mide a mujeres ni a personas con discapacidad.",
+    "correccion": "Añadir meta: 'Títulos y adjudicaciones con cotitularidad o a nombre de mujeres | LB por verificar (COFOPRI) | 2031 100 % de nuevas adjudicaciones con cotitularidad cuando hay pareja'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-01",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-02",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-03",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-04",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-05",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-06",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-07",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-08",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-09",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El riesgo de criminalizar a familias pobres está identificado; la acción debe fijar los estándares de desalojo del Comité DESC para toda recuperación extrajudicial.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "La recuperación extrajudicial de la Ley 30230 con apoyo policial se aplica a familias, no solo a traficantes; la Observación General 7 del Comité DESC exige notificación, no desalojar de noche ni con mal tiempo, presencia de funcionarios, identificación de quienes desalojan, y que nadie quede sin techo.",
+    "correccion": "Añadir: 'Toda recuperación extrajudicial se ejecuta con notificación previa, en horario diurno, con presencia del Ministerio Público y de la Defensoría cuando hay familias, sin uso de fuerza desproporcionada, con registro de personas afectadas y con alternativa de albergue temporal para hogares con niñas, niños, personas adultas mayores o con discapacidad (Observación General 7 del Comité DESC). La persecución penal se dirige a los organizadores, no a los ocupantes de buena fe.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-10",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prohíbe titular en riesgo con alternativa de lote o reasentamiento; conforme si VIV-12 incorpora las salvaguardas señaladas.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-11",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-12",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El reasentamiento prevé participación y oferta concreta; faltan el consentimiento, la compensación y la prohibición de reasentar sin la nueva vivienda lista.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Los Principios de la ONU sobre desalojos por desarrollo y la Ley 29869 (reasentamiento poblacional para zonas de muy alto riesgo no mitigable) exigen consulta, compensación y que nadie sea trasladado antes de que exista la vivienda o lote con servicios.",
+    "correccion": "Añadir: 'El reasentamiento se rige por la Ley 29869: se acuerda con las familias, nadie se traslada antes de que el lote o vivienda con servicios esté disponible, se compensan las mejoras, la nueva vivienda se titula a nombre de ambos convivientes y se mantiene la matrícula escolar y el acceso al establecimiento de salud; el traslado forzoso solo procede por decisión judicial ante peligro inminente.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-13",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "El barrio decide en asambleas; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-14",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-15",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-16",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-17",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-18",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La densificación puede expulsar a residentes pobres; conviene medida contra el desplazamiento.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El riesgo de expulsión está identificado sin salvaguarda.",
+    "correccion": "Añadir: 'Los residentes actuales de bajos ingresos tienen prioridad en la cuota de vivienda social del mismo proyecto y los planes incluyen alquiler social (VIV-04) para evitar el desplazamiento.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-19",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Diseño validado con cada comunidad y prioridad a niñez y adultos mayores; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-20",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El desalojo notarial rápido necesita salvaguardas para inquilinos vulnerables; el riesgo está identificado pero sin medida.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El DL 1177 y el desalojo notarial no prevén plazos mínimos ni protección a hogares con niñas, niños, personas enfermas o adultas mayores (Observación General 7).",
+    "correccion": "Añadir: 'El contrato modelo fija un plazo mínimo de desocupación de 30 días desde la notificación, prohíbe el desalojo nocturno o por vías de hecho (corte de servicios) y registra los desalojos para su seguimiento por la Defensoría.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "VIV-21",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "VIV-22",
+  "archivo": "data/sectores/vivienda.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:agro",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El sector reconoce que no se publica la brecha por sexo y lengua; faltan metas y salvaguardas sobre mujeres productoras, comunidades y derechos de los agricultores sobre semillas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "Ninguna meta se desagrega por sexo pese a que la ENA permite hacerlo.",
+    "correccion": "Añadir a las metas [2], [4] y [5]: 'de los cuales al menos 40 % mujeres productoras' y una meta de 'comunidades campesinas y nativas con título inscrito y georreferenciado'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-01",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-02",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-03",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-04",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La captura de juntas de usuarios por grandes regantes está identificada; deben garantizarse la participación de pequeños regantes y mujeres y la prioridad del consumo humano en acuíferos en veda.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Sin reglas de representación, las juntas excluyen a pequeños usuarios y a mujeres titulares (Ley 30157).",
+    "correccion": "Añadir: 'Las juntas que reciben fondos acreditan representación de pequeños regantes y de mujeres titulares de derechos; en acuíferos en veda el consumo poblacional tiene prioridad sobre el riego (Ley 29338, art. 35).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-05",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-06",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Los grandes proyectos de irrigación afectan comunidades de cabecera; deben cumplir consulta previa cuando corresponda y no desplazar sin reasentamiento acordado.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Majes Siguas II implica represas y trasvases que afectan comunidades (Angostura, Espinar); no se menciona consulta ni reasentamiento.",
+    "correccion": "Añadir: 'Las obras que afecten tierras o aguas de comunidades campesinas pasan por consulta previa (Ley 29785) y los reasentamientos se rigen por la Ley 29869 con acuerdo de las familias.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-07",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-08",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-09",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-10",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La semilla certificada no debe desplazar los derechos de los agricultores a conservar e intercambiar semilla nativa.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El Tratado Internacional sobre Recursos Fitogenéticos (art. 9) y la Ley 27811 protegen las semillas y conocimientos de comunidades; priorizar solo semilla certificada puede excluir variedades nativas.",
+    "correccion": "Añadir: 'Se respeta el derecho de los agricultores a conservar, usar e intercambiar semilla nativa; el INIA registra y conserva variedades locales con las comunidades y reparte beneficios conforme a la Ley 27811.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-11",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-12",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Compras a la agricultura familiar; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-13",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-14",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-15",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-16",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-17",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La titulación debe priorizar la comunal sobre la individual donde hay reclamo, incluir cotitularidad y evitar superposición con territorios indígenas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Titular predios individuales sobre tierras reclamadas por comunidades nativas o campesinas genera conflicto y viola el art. 89 y el Convenio 169 (art. 14); la Corte IDH (Pueblos Kaliña y Lokono vs. Surinam, 2015) exige delimitar y titular el territorio antes de otorgar derechos a terceros. Tampoco prevé cotitularidad de mujeres.",
+    "correccion": "Reemplazar la frase 'la titulación de comunidades nativas se coordina con AMB-04' por: 'Donde exista solicitud o reclamo comunal se titula primero a la comunidad y se suspende la titulación individual superpuesta (Convenio 169, art. 14); los títulos individuales se otorgan a nombre de ambos convivientes y se registra el sexo del titular; las comunidades reciben asesoría legal gratuita para el saneamiento.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-18",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-19",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Registro nominal con riesgo de clientelismo identificado; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-20",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-21",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Afilia a pescadores a salud y pensión; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AGR-22",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La exclusión de los más pequeños y sin título está identificada; conviene aceptar constancias de posesión y proteger los datos del productor.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Sin título no hay georreferencia aceptada por los compradores y el pequeño queda fuera del mercado europeo; los datos pueden ser capturados por intermediarios.",
+    "correccion": "Añadir: 'Se aceptan constancias de posesión o certificados comunales para georreferenciar; los datos pertenecen al productor y solo se comparten con su consentimiento registrado en la plataforma (Ley 29733).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AGR-23",
+  "archivo": "data/sectores/agro.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:ambiente",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El diagnóstico reconoce el impacto en pueblos indígenas; el sector no tiene acción ni meta sobre la protección de personas defensoras ambientales e indígenas, que son asesinadas en las mismas regiones donde se despliegan las brigadas, ni sobre la justicia ambiental para las víctimas.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "Desde 2020 han sido asesinados decenas de dirigentes indígenas y defensores ambientales en Ucayali, Madre de Dios, Huánuco y Junín (Defensoría; CIDH; Mongabay 2026 sobre el ataque a una dirigente en Ucayali); el Mecanismo intersectorial (DS 004-2021-JUS, modificado por DS 002-2022-JUS) carece de presupuesto y presencia regional. Las acciones AMB-01, AMB-04, AMB-05 y AMB-08 dependen de comités de vigilancia indígena que quedan expuestos.",
+    "correccion": "Añadir acción AMB-28 (servicio, no necesita ley, 2026-2031): 'Proteger a las personas defensoras ambientales e indígenas': financiar el Mecanismo intersectorial (DS 004-2021-JUS) con unidades en las cinco regiones de AMB-01, protección policial y comunitaria acordada con las organizaciones, fiscalías que prioricen los casos, registro público de amenazas y ataques, y reparación a familias de defensores asesinados. Indicador: tiempo de respuesta a una alerta de riesgo; ataques y asesinatos de defensores por año (meta: cero impunidad).",
+    "fuente": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-crea-el-mecanismo-intersectorial-para-la-decreto-supremo-n-004-2021-jus-1946184-4/"
+   },
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "La meta [4] de hidrocarburos no mide salud de las personas expuestas ni cumplimiento de acuerdos con federaciones indígenas.",
+    "correccion": "Añadir meta: 'Población de las cuatro cuencas con evaluación de exposición y atención (AMB-25) | LB por verificar | 2031 100 % evaluada | 2036 100 % atendida'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-01",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La respuesta en 72 horas con policía dentro de territorios indígenas y predios de pequeños agricultores requiere reglas que distingan agricultura de subsistencia de deforestación organizada y respeten la autonomía comunal.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las alertas mayores a 5 ha incluyen chacras rotativas de comunidades y pequeños agricultores migrantes; sin distinción, la brigada criminaliza la pobreza y entra a territorio comunal sin coordinación, lo que la Corte IDH y el Convenio 169 (art. 7 y 15) prohíben.",
+    "correccion": "Añadir: 'En tierras de comunidades nativas la brigada entra con la comunidad y sus comités de vigilancia (AMB-04), salvo flagrancia de minería o narcotráfico; las alertas en predios de agricultura familiar de menos de 10 ha se atienden primero con la ruta de asistencia (AMB-07), reservando la denuncia penal (art. 310 del Código Penal) para tala con fines comerciales y organizada; cada intervención queda en acta con derecho de descargo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-02",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-03",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-04",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Titulación y transferencias con planes de vida y comités de vigilancia; coherente con el Convenio 169 si se protege a los vigilantes (ver sector).",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-05",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La destrucción de dragas en el lugar es legal (DL 1100), pero debe hacerse con acta fiscal, distinción de mineros en formalización y sin afectar a comunidades.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Destruir maquinaria \"en días\" sin acta ni notificación afecta bienes de personas no vinculadas y de mineros en proceso de formalización (riesgo ya identificado), y los operativos en ríos de comunidades nativas se hacen sin ellas.",
+    "correccion": "Añadir: 'La intervención se ejecuta con fiscal, acta con inventario e identificación de titulares, y coordinación previa con las comunidades nativas de la zona; la maquinaria menor de personas en formalización vigente se inmoviliza, no se destruye; se publica el registro de intervenciones con personas afectadas y denuncias recibidas.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-06",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-07",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-08",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La erradicación solo en comunidades \"que lo pidan\" y con alternativa es correcta; debe respetarse el uso tradicional de la hoja de coca y prohibirse la fumigación.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona el uso tradicional (Ley 22095) ni descarta la erradicación aérea o química, que afectaría salud y cultivos de comunidades.",
+    "correccion": "Añadir: 'La erradicación es manual, no química ni aérea, respeta el uso tradicional registrado por ENACO y se acuerda en asamblea comunal con acta.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-09",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La gestión de áreas protegidas debe reconocer los derechos de los pueblos que viven en ellas y de los pueblos en aislamiento.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Muchas ANP se superponen con comunidades nativas y reservas territoriales PIACI; la acción no menciona cogestión (reservas comunales, Ley 26834) ni la intangibilidad de las reservas indígenas (Ley 28736).",
+    "correccion": "Añadir: 'Las reservas comunales se gestionan con sus ejecutores de contrato de administración indígenas; en ANP superpuestas con comunidades se reconocen sus usos tradicionales y se contratan guardaparques comunales; las reservas indígenas PIACI son intangibles (Ley 28736).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-10",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-11",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-12",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-13",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-14",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-15",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-16",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incluye consulta previa y salvaguardas de la CMNUCC; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-17",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Consentimiento informado y reparto de beneficios para comunidades; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-18",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-19",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Reasentamiento remitido a VIV-12 con las salvaguardas señaladas allí.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-20",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-21",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-22",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-23",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-24",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-25",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La acción se reformuló a salud y vigilancia indígena, pero su indicador sigue midiendo remediación y derrames; falta vincularla a la Ley 31189 y a la reparación.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "indicador",
+    "problema": "Mide sitios remediados y derrames (que son de ENE-25), no la salud ni la vigilancia indígena que la acción promete.",
+    "correccion": "Reemplazar por: 'Personas de las cuatro cuencas con evaluación de exposición y atención especializada (Ley 31189); reportes de vigilancia indígena respondidos por el OEFA en plazo; acuerdos con federaciones cumplidos.'",
+    "fuente": "https://busquedas.elperuano.pe/dispositivo/NL/2024511-8"
+   },
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona la Ley 31189 ni la reparación a las víctimas ya reconocidas (acuerdos de 2015 y 2020 con las federaciones de las cuatro cuencas).",
+    "correccion": "Añadir: 'en cumplimiento de la Ley 31189 y de los acuerdos vigentes con las federaciones indígenas de las cuatro cuencas, con registro nominal de afectados y reparación'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "AMB-26",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "AMB-27",
+  "archivo": "data/sectores/ambiente.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:energia",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las brechas son territoriales; falta el impacto en salud de mujeres y niñez por cocinar con leña, y ninguna meta mide a comunidades amazónicas ni el cumplimiento de acuerdos con pueblos indígenas en hidrocarburos.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "diagnostico.brechas",
+    "problema": "No menciona que la contaminación intradomiciliaria por leña afecta sobre todo a mujeres y niñas en hogares rurales (OMS) ni la exclusión de comunidades nativas del acceso eléctrico.",
+    "correccion": "Añadir: 'Cocinar con leña o bosta expone sobre todo a mujeres y niñas de hogares rurales a humo intradomiciliario, causa de enfermedad respiratoria (OMS); las comunidades nativas amazónicas son las últimas sin electricidad.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-01",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-02",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-03",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las líneas de transmisión cruzan tierras comunales; \"negociar con anticipación\" no sustituye la consulta previa ni una servidumbre justa.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Las servidumbres eléctricas sobre tierras de comunidades campesinas y nativas afectan derechos colectivos: requieren consulta previa (Ley 29785, art. 2; DS 001-2012-MC) y compensación justa, no solo negociación.",
+    "correccion": "Añadir: 'Las servidumbres sobre tierras de comunidades campesinas o nativas se consultan previamente (Ley 29785) y se compensan con valor de mercado más beneficios de electrificación local; no se usa la imposición de servidumbre sin agotar el acuerdo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-04",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-05",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-06",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Excluye correctamente reservas indígenas y ANP; conviene decir expresamente que no se amplían lotes sobre reservas PIACI ni se usa la excepción de \"necesidad pública\" de la Ley 28736.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El art. 5.c de la Ley 28736 permite excepciones por necesidad pública que han servido para operar dentro de la Reserva Kugapakori-Nahua-Nanti; la acción no lo descarta.",
+    "correccion": "Añadir: 'No se invoca la excepción de necesidad pública del art. 5.c de la Ley 28736 para explorar dentro de reservas indígenas o territoriales.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-07",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Incorpora consulta previa, remediación previa y vigilancia indígena; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-08",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-09",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-10",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-11",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-12",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-13",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sustituye un subsidio regresivo por uno focalizado; cuidar que el vale llegue a hogares rurales sin conectividad (PRO-16 lo prevé).",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-14",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza escuelas y postas y la Amazonía; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-15",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-16",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-17",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-18",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-19",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-20",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Informar a las comunidades no equivale a consultarlas: la exploración y explotación de litio y uranio en Carabaya afecta a comunidades quechuas y aimaras.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "\"Se informa a las comunidades con datos\" omite la consulta previa (Ley 29785) y la participación en la evaluación de riesgos radiológicos y de agua; en Puno la desconfianza ya provocó conflictos.",
+    "correccion": "Reemplazar por: 'Las normas de requisitos y el proyecto de ley de minerales radiactivos se consultan con las comunidades campesinas de Carabaya y las organizaciones de Puno (Ley 29785); antes de cualquier concesión de explotación se hace consulta previa y un estudio independiente de riesgo radiológico y de agua con participación comunal.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ENE-21",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-22",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-23",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Focaliza el FOSE; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-24",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ENE-25",
+  "archivo": "data/sectores/energia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Participación de comunidades en monitoreo y empleo; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:transporte",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El diagnóstico menciona el acoso a mujeres y la vulnerabilidad de peatones, pero ninguna acción atiende el acoso sexual ni la accesibilidad universal del transporte, y no hay meta desagregada por sexo ni discapacidad.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "acciones (omisión)",
+    "problema": "La Ley 30314 obliga al MTC y a la ATU (Resolución 229-2022-ATU/PE) a prevenir y atender el acoso sexual en el transporte; la Ley 29973 (arts. 15-20) exige transporte accesible. Ninguna de las 26 acciones lo incluye.",
+    "correccion": "Añadir a TRA-10: 'Los contratos exigen flota 100 % accesible (piso bajo o rampa, espacio para silla de ruedas, información sonora y visual), protocolo contra el acoso sexual de la Ley 30314 con botón de alerta, personal capacitado y registro de denuncias por línea, y paraderos accesibles; la ATU publica cada trimestre las denuncias de acoso y su resolución.' Añadir meta: 'Mujeres que reportan acoso en el transporte público en los últimos 12 meses | LB por verificar (INEI o encuesta ATU) | 2031 −30 % | 2036 −50 %' y 'Flota de transporte masivo accesible | LB por verificar | 2031 100 % de nuevas unidades | 2036 100 %'.",
+    "fuente": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30314-TXM.pdf"
+   }
+  ]
+ },
+ {
+  "id": "TRA-01",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-02",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-03",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-04",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-05",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-06",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-07",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-08",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Fiscalización con cámaras; verificar en reglamento la retención limitada de datos (lo revisa r2-gobtech).",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-09",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-10",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Faltan accesibilidad universal y protocolo contra el acoso sexual (ver sector).",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "Ver hallazgo del sector: Ley 30314 y Ley 29973.",
+    "correccion": "Añadir el texto propuesto en el hallazgo de sector:transporte.",
+    "fuente": "https://lpderecho.pe/reglamento-regula-protocolo-atencion-casos-acoso-sexual-transporte-publico-resolucion-presidencia-ejecutiva-229-2022-atu-pe/"
+   }
+  ]
+ },
+ {
+  "id": "TRA-11",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La renovación de flota es la oportunidad para exigir accesibilidad.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No exige buses accesibles.",
+    "correccion": "Añadir: 'Todo bus financiado por el arriendo cumple la norma de accesibilidad (piso bajo o rampa, espacio reservado y anuncios sonoros y visuales).'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-12",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-13",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las expropiaciones y liberación de predios con decretos de la Ley 32743 deben respetar el DL 1192 y el derecho a vivienda de las familias afectadas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "La \"unidad de predios\" acelera expropiaciones de viviendas en Lima; el DL 1192 exige valor comercial más daño emergente y reposición, y las familias vulnerables necesitan reubicación, no solo pago.",
+    "correccion": "Añadir: 'Toda liberación de predios respeta el DL 1192 (tasación comercial, daño emergente y lucro cesante) y ofrece a hogares vulnerables alternativa de vivienda (VIV-03) antes del desalojo; los decretos legislativos no reducen el plazo de defensa de los propietarios.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-14",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las nuevas líneas deben ser accesibles desde el diseño.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona accesibilidad universal en estaciones y trenes (Ley 29973).",
+    "correccion": "Añadir: 'con accesibilidad universal certificada en estaciones y trenes (ascensores, guías podotáctiles, información accesible)'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "TRA-15",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-16",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-17",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-18",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-19",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Consulta previa y accesibilidad de embarcaderos; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-20",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Prioriza evacuaciones médicas en comunidades aisladas; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-21",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-22",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-23",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-24",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-25",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Veredas accesibles y cruces seguros; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "TRA-26",
+  "archivo": "data/sectores/transporte.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "sector:economia",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Buen diagnóstico de informalidad por sexo y área; el sector omite el trabajo decente en las cadenas que promueve (agroexportación, ZEEP, formación dual) y no tiene salvaguardas sobre tierras comunales en bioeconomía y plantaciones.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "metas",
+    "problema": "La meta [3] de informalidad no se desagrega por sexo ni área, aunque el diagnóstico sí lo hace.",
+    "correccion": "Añadir: 'informalidad de mujeres y rural con la misma senda de reducción'.",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-01",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-02",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-03",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-04",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-05",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-06",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-07",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-08",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La salida del régimen agrario debe garantizar los derechos laborales de los trabajadores de la agroexportación, en su mayoría mujeres.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No menciona libertad sindical, jornada ni salud ocupacional en los \"contratos de temporada modernos\".",
+    "correccion": "Añadir: 'La ley de transición garantiza libertad sindical, remuneración no menor a la del régimen general, salud y seguridad ocupacional y protección a trabajadoras gestantes, con inspección de SUNAFIL en campo.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-09",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La integración de pequeños productores a cadenas de exportación debe asegurar trabajo decente y no trabajo infantil en las parcelas.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las cadenas con compras ancla pueden trasladar exigencias sin derechos; falta vínculo con PRO-10 (trabajo infantil) y condiciones laborales.",
+    "correccion": "Añadir: 'Los acuerdos de compra incluyen cláusulas de trabajo decente y cero trabajo infantil verificadas (PRO-10), y precios de referencia publicados.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-10",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-11",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las ZEEP no deben implicar un régimen laboral inferior.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "No afirma que en las ZEEP rige el régimen laboral general y la inspección de SUNAFIL (por verificar en la Ley 32449 y su reglamento).",
+    "correccion": "Añadir: 'En las ZEEP rigen íntegramente los derechos laborales del régimen general, la libertad sindical y la inspección de SUNAFIL; ningún beneficio se condiciona a reducirlos.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-12",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-13",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-14",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-15",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-16",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-17",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El turismo en sitios y territorios indígenas debe beneficiar a las comunidades y respetar sus decisiones.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "El turismo comunitario se menciona como segmento, no como derecho de las comunidades a decidir y participar en los beneficios (Convenio 169, art. 7).",
+    "correccion": "Añadir: 'Los destinos en territorios o sitios sagrados de comunidades se gestionan con acuerdo de ellas y con participación en los ingresos; los entes gestores incluyen representación comunal.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-18",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "La bioeconomía amazónica se construye sobre territorios y conocimientos de pueblos indígenas; faltan consentimiento, reparto de beneficios y protección de conocimientos colectivos.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El acceso a recursos genéticos y productos con conocimientos tradicionales (camu camu, sacha inchi, aguaje) está regido por la Ley 27811 y el Protocolo de Nagoya; sin reparto de beneficios y consentimiento de las comunidades la cadena puede ser biopiratería.",
+    "correccion": "Añadir: 'Las cadenas que usan conocimientos colectivos o recursos genéticos aplican la Ley 27811 (consentimiento informado previo y reparto de beneficios) y el Protocolo de Nagoya; las comunidades son socias y no solo proveedoras, con participación en la transformación local.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-19",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "Las cesiones en uso de tierras \"ya deforestadas\" para plantaciones pueden superponerse con territorios de comunidades sin titular.",
+  "hallazgos": [
+   {
+    "severidad": "media",
+    "campo": "que",
+    "problema": "El riesgo de conflicto con comunidades está identificado, pero no la salvaguarda: tierras deforestadas dentro de territorios reclamados por comunidades nativas no pueden cederse a terceros (Convenio 169, art. 14; Corte IDH, Pueblos Kaliña y Lokono).",
+    "correccion": "Añadir: 'No se otorgan concesiones ni cesiones en uso sobre tierras con solicitud de titulación o ampliación comunal pendiente (AMB-04) ni en reservas PIACI; las comunidades pueden acceder a los mismos instrumentos para reforestación productiva en sus tierras.'",
+    "fuente": "no verificable"
+   }
+  ]
+ },
+ {
+  "id": "ECP-20",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-21",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-22",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-23",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Declara que nada reduce derechos de contratos vigentes; conforme.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-24",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-25",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Protege alimentos básicos y gradualidad; sin impacto directo en derechos colectivos, aunque conviene informar a organizaciones indígenas amazónicas.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-26",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-27",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "conforme",
+  "resumen": "Sin impacto relevante en derechos o con salvaguardas suficientes para su alcance.",
+  "hallazgos": []
+ },
+ {
+  "id": "ECP-28",
+  "archivo": "data/sectores/economia.json",
+  "rol": "r2-ddhh",
+  "veredicto": "observaciones",
+  "resumen": "El riesgo de usar practicantes como mano de obra barata está identificado; falta la salvaguarda.",
+  "hallazgos": [
+   {
+    "severidad": "baja",
+    "campo": "que",
+    "problema": "Las modalidades formativas (Ley 28518) permiten subvenciones bajas y sin seguridad social plena.",
+    "correccion": "Añadir: 'La formación dual paga al menos la remuneración mínima proporcional a la jornada, con seguro de salud y límite de horas; SUNAFIL fiscaliza el uso de practicantes.'",
+    "fuente": "no verificable"
+   }
+  ]
+ }
+]
